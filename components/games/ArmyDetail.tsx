@@ -2,7 +2,16 @@
 
 import React, { useState } from "react";
 import { Army, Unit, User } from "../../interfaces";
-import Modal from "../Modal";
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogFooter,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "../ui/dialog";
+import { Button } from "../ui/button";
 
 type ArmyProps = {
   army: Army;
@@ -13,7 +22,6 @@ const ArmyDetail = ({ army, user }: ArmyProps) => {
   const [showList, setShowList] = useState(true);
   const { faction, subfaction, units } = army;
 
-  const [showAddUnitModal, setShowAddUnitModal] = useState(false);
   const [armyUnits, setArmyUnits] = useState(army.units);
 
   function getPointsTotal() {
@@ -30,7 +38,6 @@ const ArmyDetail = ({ army, user }: ArmyProps) => {
   function addUnitsToArmy() {
     console.log("army", army);
     armyUnits.forEach((unit) => army.units.push(unit));
-    setShowAddUnitModal(false);
   }
 
   function removeUnit(unitId) {
@@ -52,7 +59,39 @@ const ArmyDetail = ({ army, user }: ArmyProps) => {
             <div>{subfaction}</div>
           </div>
           <div className="flex flex-row gap-8">
-            <button onClick={() => setShowAddUnitModal(true)}>Add Unit</button>
+            <Dialog>
+              <DialogTrigger asChild>
+                <Button>Add Units</Button>
+              </DialogTrigger>
+              <DialogContent>
+                <DialogHeader>
+                  <DialogTitle>Add Units</DialogTitle>
+                  <DialogDescription>
+                    search and add units to your army
+                  </DialogDescription>
+                </DialogHeader>
+                <div>
+                  <Button
+                    className="bg-blue-400"
+                    onClick={() =>
+                      addUnit({
+                        id: "10",
+                        name: "Kairos",
+                        wounds: 15,
+                        modelCount: 1,
+                        unitType: "Leader",
+                        points: 440,
+                      })
+                    }
+                  >
+                    Add Kairos
+                  </Button>
+                </div>
+                <DialogFooter>
+                  <Button onClick={() => addUnitsToArmy()}>Add Unit</Button>
+                </DialogFooter>
+              </DialogContent>
+            </Dialog>
             <div>{getPointsTotal()} pts</div>
           </div>
         </div>
@@ -109,36 +148,6 @@ const ArmyDetail = ({ army, user }: ArmyProps) => {
           </div>
         ) : null}
       </div>
-      {showAddUnitModal ? (
-        <Modal title="Add Units">
-          <button
-            className="bg-blue-400"
-            onClick={() =>
-              addUnit({
-                id: "10",
-                name: "Kairos",
-                wounds: 15,
-                modelCount: 1,
-                unitType: "Leader",
-                points: 440,
-              })
-            }
-          >
-            Add Kairos
-          </button>
-          <div className="flex flex-row gap-8">
-            <button
-              className="bg-slate-400"
-              onClick={() => setShowAddUnitModal(false)}
-            >
-              close
-            </button>
-            <button className="bg-yellow-600" onClick={() => addUnitsToArmy()}>
-              Add Unit
-            </button>
-          </div>
-        </Modal>
-      ) : null}
     </>
   );
 };

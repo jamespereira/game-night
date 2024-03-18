@@ -15,24 +15,16 @@ const GameDetail = ({ item }: Props) => {
   return (
     <div className="flex flex-col gap-y-8">
       <Countdown />
-      <div className="flex flex-row items-center justify-between max-w-2xl">
-        <Link
-          href="/games/[gameId]/teams/[teamId]"
-          as={`/games/${gameId}/teams/1`}
-        >
-          <TeamTile
-            team={item.teams.filter((team) => team.teamNumber === 1)[0]}
-          />
-        </Link>
+      <div className="flex w-full flex-row items-center justify-between max-w-2xl gap-x-4">
+        <TeamTile
+          gameId={gameId}
+          team={item.teams.filter((team) => team.teamNumber === 1)[0]}
+        />
         <p className="text-3xl text-stone-200">vs</p>
-        <Link
-          href="/games/[gameId]/teams/[teamId]"
-          as={`/games/${gameId}/teams/2`}
-        >
-          <TeamTile
-            team={item.teams.filter((team) => team.teamNumber === 2)[0]}
-          />
-        </Link>
+        <TeamTile
+          gameId={gameId}
+          team={item.teams.filter((team) => team.teamNumber === 2)[0]}
+        />
       </div>
     </div>
   );

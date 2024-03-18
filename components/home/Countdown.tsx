@@ -15,7 +15,7 @@ const Countdown = () => {
   return (
     <div className="flex flex-row gap-16 text-stone-200">
       <div className="flex flex-col">
-        <p className="text-3xl">
+        <p className="text-2xl">
           {dayjs(event.date).format("dddd, MMMM D, YYYY h:mm A	")}
         </p>
         <p className="text-xl">
@@ -23,7 +23,7 @@ const Countdown = () => {
         </p>
       </div>
       <div>
-        <p className="text-3xl">{timeTo}</p>
+        <p className="text-2xl">{timeTo}</p>
       </div>
     </div>
   );

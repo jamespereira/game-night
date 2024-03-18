@@ -6,7 +6,7 @@ type Props = {
 };
 
 const layout = ({ children }: Props) => {
-  return <div>{children}</div>;
+  return <div className="pt-[80px]">{children}</div>;
 };
 
 export default layout;

@@ -17,7 +17,7 @@ const Home = async () => {
 
   return (
     // min-w-2xl
-    <div className="flex h-full flex-col gap-8 items-center justify-around  bg-stone-800">
+    <div className="pt-[80px] flex h-full flex-col gap-8 items-center justify-around  bg-stone-800">
       <GameDetail item={data[0]} />
     </div>
   );
