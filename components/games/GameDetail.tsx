@@ -13,7 +13,7 @@ const GameDetail = ({ item }: Props) => {
   const gameId = item.id;
 
   return (
-    <>
+    <div className="flex flex-col gap-y-8">
       <Countdown />
       <div className="flex flex-row items-center justify-between max-w-2xl">
         <Link
@@ -24,7 +24,7 @@ const GameDetail = ({ item }: Props) => {
             team={item.teams.filter((team) => team.teamNumber === 1)[0]}
           />
         </Link>
-        <p className="text-3xl">vs</p>
+        <p className="text-3xl text-stone-200">vs</p>
         <Link
           href="/games/[gameId]/teams/[teamId]"
           as={`/games/${gameId}/teams/2`}
@@ -34,7 +34,7 @@ const GameDetail = ({ item }: Props) => {
           />
         </Link>
       </div>
-    </>
+    </div>
   );
 };
 

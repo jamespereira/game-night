@@ -5,6 +5,7 @@ import Link from "next/link";
 import { auth } from "@/auth";
 import { SessionProvider } from "next-auth/react";
 import { Toaster } from "@/components/ui/sonner";
+import Navbar from "@/components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,11 +24,8 @@ export default async function RootLayout({
     <SessionProvider session={session}>
       <html lang="en">
         <body className={inter.className}>
-          <header className="bg-red-800">
-            <nav className="flex justify-between p-4">
-              <Link href="/">Home</Link>
-              <Link href="/auth/login">Login</Link>
-            </nav>
+          <header>
+            <Navbar />
           </header>
           <Toaster />
           {children}

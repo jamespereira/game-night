@@ -13,7 +13,7 @@ const Countdown = () => {
   const timeTo = dayjs().to(event.date);
 
   return (
-    <div className="flex flex-row gap-16">
+    <div className="flex flex-row gap-16 text-stone-200">
       <div className="flex flex-col">
         <p className="text-3xl">
           {dayjs(event.date).format("dddd, MMMM D, YYYY h:mm A	")}
