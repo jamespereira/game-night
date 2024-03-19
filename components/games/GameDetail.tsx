@@ -13,9 +13,9 @@ const GameDetail = ({ item }: Props) => {
   const gameId = item.id;
 
   return (
-    <div className="flex flex-col gap-y-8">
+    <div className="flex max-w-[1176px] flex-col gap-y-8">
       <Countdown />
-      <div className="flex w-full flex-row items-center justify-between max-w-2xl gap-x-4">
+      <div className="flex w-full flex-row items-center justify-between gap-x-4">
         <TeamTile
           gameId={gameId}
           team={item.teams.filter((team) => team.teamNumber === 1)[0]}

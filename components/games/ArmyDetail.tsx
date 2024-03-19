@@ -12,6 +12,7 @@ import {
   DialogTrigger,
 } from "../ui/dialog";
 import { Button } from "../ui/button";
+import AddUnits from "./AddUnits";
 
 type ArmyProps = {
   army: Army;
@@ -30,15 +31,15 @@ const ArmyDetail = ({ army, user }: ArmyProps) => {
     return totalPoints;
   }
 
-  function addUnit(newUnit: Unit) {
-    setArmyUnits([newUnit, ...armyUnits]);
-    console.log("new units", armyUnits);
-  }
+  // function addUnit(newUnit: Unit) {
+  //   setArmyUnits([newUnit, ...armyUnits]);
+  //   console.log("new units", armyUnits);
+  // }
 
-  function addUnitsToArmy() {
-    console.log("army", army);
-    armyUnits.forEach((unit) => army.units.push(unit));
-  }
+  // function addUnitsToArmy() {
+  //   console.log("army", army);
+  //   armyUnits.forEach((unit) => army.units.push(unit));
+  // }
 
   function removeUnit(unitId) {
     console.log("unitId", unitId);
@@ -48,8 +49,8 @@ const ArmyDetail = ({ army, user }: ArmyProps) => {
 
   return (
     <>
-      <div>
-        <div className="flex flex-row justify-between p-8 bg-stone-200">
+      <div className="">
+        <div className="flex flex-row justify-between p-8 ">
           <div className="flex flex-row gap-8">
             <button onClick={() => setShowList(!showList)}>
               {showList ? "Hide" : "Show"}
@@ -59,7 +60,8 @@ const ArmyDetail = ({ army, user }: ArmyProps) => {
             <div>{subfaction}</div>
           </div>
           <div className="flex flex-row gap-8">
-            <Dialog>
+            <AddUnits />
+            {/* <Dialog>
               <DialogTrigger asChild>
                 <Button>Add Units</Button>
               </DialogTrigger>
@@ -91,7 +93,7 @@ const ArmyDetail = ({ army, user }: ArmyProps) => {
                   <Button onClick={() => addUnitsToArmy()}>Add Unit</Button>
                 </DialogFooter>
               </DialogContent>
-            </Dialog>
+            </Dialog> */}
             <div>{getPointsTotal()} pts</div>
           </div>
         </div>
