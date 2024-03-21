@@ -1,6 +1,7 @@
 import React from "react";
 import ArmyDetail from "@/components/games/ArmyDetail";
 import { sampleGameData } from "@//utils/sample-game-data";
+import { getFactionByName } from "@/data/faction";
 
 type Props = {
   params: { gameId; teamId: string };
@@ -24,6 +25,8 @@ async function getTeam(gameId, teamId) {
 async function TeamDetail({ params }: Props) {
   const team = await getTeam(params.gameId, params.teamId);
 
+  const faction = await getFactionByName("lumineth_realm-lords");
+
   function getPointsTotal(team) {
     const armyPoints = team.users.map((user) =>
       user.army.units.map((unit) => unit.points)
@@ -46,7 +49,12 @@ async function TeamDetail({ params }: Props) {
         {team.users.map(
           (user) =>
             user.army && (
-              <ArmyDetail key={user.id} user={user} army={user.army} />
+              <ArmyDetail
+                key={user.id}
+                user={user}
+                army={user.army}
+                userFaction={faction}
+              />
             )
         )}
       </div>

@@ -1,4 +1,4 @@
-import GameDetail from "@/components/games/GameDetail";
+import GameDetail from "@/components/home/GameDetail";
 import { Game } from "@/interfaces";
 import { sampleGameData } from "@/utils/sample-game-data";
 import dayjs from "dayjs";

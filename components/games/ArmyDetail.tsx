@@ -2,24 +2,16 @@
 
 import React, { useState } from "react";
 import { Army, Unit, User } from "../../interfaces";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogFooter,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "../ui/dialog";
 import { Button } from "../ui/button";
 import AddUnits from "./AddUnits";
 
 type ArmyProps = {
   army: Army;
   user: User;
+  userFaction: any;
 };
 
-const ArmyDetail = ({ army, user }: ArmyProps) => {
+const ArmyDetail = ({ army, user, userFaction }: ArmyProps) => {
   const [showList, setShowList] = useState(true);
   const { faction, subfaction, units } = army;
 
@@ -60,7 +52,7 @@ const ArmyDetail = ({ army, user }: ArmyProps) => {
             <div>{subfaction}</div>
           </div>
           <div className="flex flex-row gap-8">
-            <AddUnits />
+            <AddUnits userFaction={userFaction} />
             {/* <Dialog>
               <DialogTrigger asChild>
                 <Button>Add Units</Button>

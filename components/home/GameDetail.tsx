@@ -2,8 +2,8 @@ import { GetStaticProps } from "next";
 import Link from "next/link";
 
 import { Game } from "../../interfaces";
-import Countdown from "../home/Countdown";
-import TeamTile from "../home/TeamTile";
+import Countdown from "./Countdown";
+import TeamTile from "./TeamTile";
 
 type Props = {
   item: Game;
