@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import {
   Dialog,
+  DialogClose,
   DialogContent,
   DialogDescription,
   DialogFooter,
@@ -14,9 +15,10 @@ import { getFactionByName } from "@/data/faction";
 
 type Props = {
   userFaction: any;
+  onAddUnits: any;
 };
 
-const AddUnits = ({ userFaction }: Props) => {
+const AddUnits = ({ userFaction, onAddUnits }: Props) => {
   const [addedUnits, setAddedUnits] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -24,7 +26,10 @@ const AddUnits = ({ userFaction }: Props) => {
     setSearchTerm(event.target.value);
   };
 
-  const factionUnits = userFaction.categoryEntries.categoryEntry;
+  const factionUnits =
+    userFaction.sharedSelectionEntries.selectionEntry?.filter(
+      (entry) => entry._type === "unit"
+    );
 
   const searchResults = !searchTerm
     ? factionUnits
@@ -32,22 +37,20 @@ const AddUnits = ({ userFaction }: Props) => {
         unit._name.toLowerCase().includes(searchTerm.toLowerCase())
       );
 
-  function addUnit(newUnit: Unit) {
-    // setArmyUnits([newUnit, ...armyUnits]);
-    console.log("new units", newUnit);
-  }
-
-  function handleAddUnit(unit) {
+  function handleAdd(unit) {
     setAddedUnits([...addedUnits, unit]);
+    setSearchTerm("");
   }
 
-  function addUnitsToArmy() {
-    console.log("faction", userFaction);
-    const find = userFaction.categoryEntries.categoryEntry.filter((unit) =>
-      unit._name.includes("WIND")
-    );
-    console.log("find", find);
+  function handleRemove(unit) {
+    setAddedUnits(addedUnits.filter((added) => added._id !== unit._id));
   }
+
+  function handleAddUnits(unit) {
+    onAddUnits(unit);
+    setAddedUnits([]);
+  }
+
   return (
     <Dialog>
       <DialogTrigger asChild>
@@ -71,39 +74,35 @@ const AddUnits = ({ userFaction }: Props) => {
             {searchResults.map((result) => (
               <li
                 key={result._id}
-                className="flex flex-row justify-between items-center gap-x-4 m-4"
+                className="flex flex-row justify-between items-center gap-x-4 p-4 border-t-2 border-y-slate-400"
               >
                 {result._name}
 
-                <Button onClick={() => handleAddUnit(result._name)}>Add</Button>
+                <Button onClick={() => handleAdd(result)}>Add</Button>
               </li>
             ))}
           </ul>
+        </div>
+        <div className="flex flex-col gap-y-4">
           <p>Added units:</p>
           <ul>
             {addedUnits.map((unit) => (
-              <li key={unit}>{unit}</li>
+              <li
+                className="flex flex-row justify-between items-center gap-x-4 p-4 border-t-2 border-y-slate-400"
+                key={unit._id}
+              >
+                {unit._name}
+                <Button onClick={() => handleRemove(unit)}>Remove</Button>
+              </li>
             ))}
           </ul>
-
-          {/* <Button
-            className="bg-blue-400"
-            onClick={() =>
-              addUnit({
-                id: "10",
-                name: "Kairos",
-                wounds: 15,
-                modelCount: 1,
-                unitType: "Leader",
-                points: 440,
-              })
-            }
-          >
-            Add Kairos
-          </Button> */}
         </div>
         <DialogFooter>
-          <Button onClick={() => addUnitsToArmy()}>Add Units</Button>
+          <DialogClose asChild>
+            <Button onClick={() => handleAddUnits(addedUnits)}>
+              Add Units
+            </Button>
+          </DialogClose>
         </DialogFooter>
       </DialogContent>
     </Dialog>

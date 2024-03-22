@@ -37,8 +37,6 @@ async function TeamDetail({ params }: Props) {
     return totalPoints;
   }
 
-  console.log("TeamDetail", team);
-
   return (
     <div className="flex flex-col bg-stone-200">
       <div className="flex flex-row justify-between">

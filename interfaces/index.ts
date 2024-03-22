@@ -7,8 +7,6 @@
 export type Unit = {
   id: string;
   name: string;
-  wounds?: number;
-  modelCount: number;
   unitType: string;
   points: number;
 };

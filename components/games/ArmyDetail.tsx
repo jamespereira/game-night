@@ -4,6 +4,14 @@ import React, { useState } from "react";
 import { Army, Unit, User } from "../../interfaces";
 import { Button } from "../ui/button";
 import AddUnits from "./AddUnits";
+import {
+  FaCheckCircle,
+  FaChevronDown,
+  FaChevronUp,
+  FaCross,
+  FaStopCircle,
+  FaWindowClose,
+} from "react-icons/fa";
 
 type ArmyProps = {
   army: Army;
@@ -18,23 +26,37 @@ const ArmyDetail = ({ army, user, userFaction }: ArmyProps) => {
   const [armyUnits, setArmyUnits] = useState(army.units);
 
   function getPointsTotal() {
-    const unitPoints = units.map((unit) => unit.points);
+    const unitPoints = armyUnits.map((unit) => unit.points);
     const totalPoints = unitPoints.reduce((a, c) => a + c, 0);
     return totalPoints;
   }
 
-  // function addUnit(newUnit: Unit) {
-  //   setArmyUnits([newUnit, ...armyUnits]);
-  //   console.log("new units", armyUnits);
-  // }
+  function formatUnitObject(unit) {
+    const formattedUnit = {
+      id: unit._id,
+      name: unit._name,
+      wounds: unit.profiles.profile
+        ?.find((p) => p._typeName.toLowerCase() === "unit")
+        ?.characteristics.characteristic?.find(
+          (c) => c._name.toLowerCase() === "wounds"
+        ).__text,
+      unitType: unit.categoryLinks.categoryLink?.find(
+        (c) => c._name.toLowerCase() === "hero"
+      )
+        ? "Leader"
+        : "Battleline",
+      points: Number(unit.costs?.cost._value) || 100,
+    };
 
-  // function addUnitsToArmy() {
-  //   console.log("army", army);
-  //   armyUnits.forEach((unit) => army.units.push(unit));
-  // }
+    return formattedUnit;
+  }
+
+  function onAddUnits(units) {
+    const newUnits = units.map((unit) => formatUnitObject(unit));
+    setArmyUnits([...armyUnits, ...newUnits]);
+  }
 
   function removeUnit(unitId) {
-    console.log("unitId", unitId);
     setArmyUnits(armyUnits.filter((unit) => unit.id !== unitId));
     return (army.units = armyUnits);
   }
@@ -45,47 +67,14 @@ const ArmyDetail = ({ army, user, userFaction }: ArmyProps) => {
         <div className="flex flex-row justify-between p-8 ">
           <div className="flex flex-row gap-8">
             <button onClick={() => setShowList(!showList)}>
-              {showList ? "Hide" : "Show"}
+              {showList ? <FaChevronDown /> : <FaChevronUp />}
             </button>
             <div>{user?.name} </div>
             <div>{faction} </div>
             <div>{subfaction}</div>
           </div>
           <div className="flex flex-row gap-8">
-            <AddUnits userFaction={userFaction} />
-            {/* <Dialog>
-              <DialogTrigger asChild>
-                <Button>Add Units</Button>
-              </DialogTrigger>
-              <DialogContent>
-                <DialogHeader>
-                  <DialogTitle>Add Units</DialogTitle>
-                  <DialogDescription>
-                    search and add units to your army
-                  </DialogDescription>
-                </DialogHeader>
-                <div>
-                  <Button
-                    className="bg-blue-400"
-                    onClick={() =>
-                      addUnit({
-                        id: "10",
-                        name: "Kairos",
-                        wounds: 15,
-                        modelCount: 1,
-                        unitType: "Leader",
-                        points: 440,
-                      })
-                    }
-                  >
-                    Add Kairos
-                  </Button>
-                </div>
-                <DialogFooter>
-                  <Button onClick={() => addUnitsToArmy()}>Add Unit</Button>
-                </DialogFooter>
-              </DialogContent>
-            </Dialog> */}
+            <AddUnits userFaction={userFaction} onAddUnits={onAddUnits} />
             <div>{getPointsTotal()} pts</div>
           </div>
         </div>
@@ -96,13 +85,13 @@ const ArmyDetail = ({ army, user, userFaction }: ArmyProps) => {
               {armyUnits
                 ?.filter((unit) => unit.unitType === "Leader")
                 .map((unit, i) => (
-                  <div key={`${unit.id}-${i}`}>
+                  <div
+                    key={`${unit.id}-${i}`}
+                    className="flex flex-row gap-x-2"
+                  >
                     {unit.name}
-                    <button
-                      onClick={() => removeUnit(unit.id)}
-                      className="bg-red-400"
-                    >
-                      X
+                    <button onClick={() => removeUnit(unit.id)}>
+                      <FaWindowClose className="text-red-400" />
                     </button>
                   </div>
                 ))}
@@ -112,13 +101,13 @@ const ArmyDetail = ({ army, user, userFaction }: ArmyProps) => {
               {armyUnits
                 ?.filter((unit) => unit.unitType === "Battleline")
                 .map((unit, i) => (
-                  <div key={`${unit.id}-${i}`}>
+                  <div
+                    key={`${unit.id}-${i}`}
+                    className="flex flex-row gap-x-2"
+                  >
                     {unit.name}
-                    <button
-                      onClick={() => removeUnit(unit.id)}
-                      className="bg-red-400"
-                    >
-                      X
+                    <button onClick={() => removeUnit(unit.id)}>
+                      <FaWindowClose className="text-red-400" />
                     </button>
                   </div>
                 ))}
@@ -128,13 +117,13 @@ const ArmyDetail = ({ army, user, userFaction }: ArmyProps) => {
               {armyUnits
                 ?.filter((unit) => unit.unitType === "Other")
                 .map((unit, i) => (
-                  <div key={`${unit.id}-${i}`}>
+                  <div
+                    key={`${unit.id}-${i}`}
+                    className="flex flex-row gap-x-2"
+                  >
                     {unit.name}
-                    <button
-                      onClick={() => removeUnit(unit.id)}
-                      className="bg-red-400"
-                    >
-                      X
+                    <button onClick={() => removeUnit(unit.id)}>
+                      <FaWindowClose className="text-red-400" />
                     </button>
                   </div>
                 ))}
