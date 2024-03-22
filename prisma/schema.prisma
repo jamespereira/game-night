@@ -26,6 +26,11 @@ model User {
   accounts      Account[]
   isTwoFactorEnabled  Boolean @default(false)
   isTwoFactorConfirmation TwoFactorConfirmation?
+  teamId String @unique
+  team Team? @relation(fields: [teamId], references: [id])
+  gameId Int @unique
+  game Game? @relation(fields: [gameId], references: [id])
+  army Army?
 }
 
 model Account {
@@ -83,4 +88,40 @@ model TwoFactorConfirmation {
   userId String
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
   @@unique([userId])
+}
+
+model Unit {
+  id String @id @default(cuid())
+  unitId String
+  name String
+  unitType String
+  points Int
+  armyId String
+  army Army @relation(fields: [armyId], references: [id])
+}
+
+model Army {
+  id String @id @default(cuid())
+  faction String
+  subfaction String
+  units Unit[]
+  userId String @unique
+  user User @relation(fields: [userId], references: [id])
+}
+
+model Team {
+  id String @id @default(cuid())
+  teamNumber Int
+  users User[]
+  gameId Int
+  game Game @relation(fields: [gameId], references: [id])
+}
+
+model Game {
+  id Int @id @default(autoincrement())
+  location String
+  date  DateTime
+  host User?
+  pointsLimit Int
+  teams Team[]
 }
