@@ -26,11 +26,11 @@ model User {
   accounts      Account[]
   isTwoFactorEnabled  Boolean @default(false)
   isTwoFactorConfirmation TwoFactorConfirmation?
-  teamId String? @unique
-  team Team? @relation(fields: [teamId], references: [id])
-  gameId Int? @unique
-  game Game? @relation(fields: [gameId], references: [id])
-  army Army?
+  // teamId String? @unique
+  // team Team? @relation(fields: [teamId], references: [id])
+  // gameId Int @unique
+  // game Game @relation(fields: [gameId], references: [id])
+  army Army[]
 }
 
 model Account {
@@ -96,6 +96,7 @@ model Unit {
   name String
   unitType String
   points Int
+  image String?
   armyId String
   army Army @relation(fields: [armyId], references: [id])
 }
@@ -104,6 +105,7 @@ model Army {
   id String @id @default(cuid())
   faction String
   subfaction String?
+  image String?
   units Unit[]
   userId String @unique
   user User @relation(fields: [userId], references: [id])
@@ -112,16 +114,16 @@ model Army {
 model Team {
   id String @id @default(cuid())
   teamNumber Int
-  users User[]
+  users String[]
   gameId Int
-  game Game @relation(fields: [gameId], references: [id])
+  game Game @relation(fields: [gameId], references: [id], onDelete: Cascade)
 }
 
 model Game {
   id Int @id @default(autoincrement())
   location String
-  date  DateTime
-  host User?
+  date  String
+  host String
   pointsLimit Int
   teams Team[]
 }

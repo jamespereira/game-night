@@ -31,9 +31,12 @@ import {
 } from "@/components/ui/select";
 import { UserRole } from "@prisma/client";
 import { Switch } from "@/components/ui/switch";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const SettingsPage = () => {
   const user = useCurrentUser();
+  const pathname = usePathname();
 
   const [error, setError] = useState<string | undefined>();
   const [success, setSuccess] = useState<string | undefined>();
@@ -73,6 +76,9 @@ const SettingsPage = () => {
         <p className="text-2l font-semibold text-center">⚙️ Settings</p>
       </CardHeader>
       <CardContent>
+        <Button asChild variant={pathname === "/admin" ? "default" : "outline"}>
+          <Link href="/admin">Admin</Link>
+        </Button>
         <Form {...form}>
           <form className="space-y-6" onSubmit={form.handleSubmit(onSubmit)}>
             <div className="space-y-4">

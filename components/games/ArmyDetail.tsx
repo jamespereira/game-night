@@ -1,17 +1,11 @@
 "use client";
 
 import React, { useState } from "react";
-import { Army, Unit, User } from "../../interfaces";
-import { Button } from "../ui/button";
+import { Army, User } from "../../interfaces";
 import AddUnits from "./AddUnits";
-import {
-  FaCheckCircle,
-  FaChevronDown,
-  FaChevronUp,
-  FaCross,
-  FaStopCircle,
-  FaWindowClose,
-} from "react-icons/fa";
+import { FaChevronDown, FaChevronUp, FaWindowClose } from "react-icons/fa";
+import UnitImage from "./UnitImage";
+import UnitList from "./UnitList";
 
 type ArmyProps = {
   army: Army;
@@ -21,9 +15,11 @@ type ArmyProps = {
 
 const ArmyDetail = ({ army, user, userFaction }: ArmyProps) => {
   const [showList, setShowList] = useState(true);
-  const { faction, subfaction, units } = army;
+  const { faction, subfaction } = army;
 
   const [armyUnits, setArmyUnits] = useState(army.units);
+
+  console.log("army", army);
 
   function getPointsTotal() {
     const unitPoints = armyUnits.map((unit) => unit.points);
@@ -80,54 +76,13 @@ const ArmyDetail = ({ army, user, userFaction }: ArmyProps) => {
         </div>
         {showList ? (
           <div className="flex flex-row gap-8 p-8">
-            <div className="flex flex-col gap-8">
-              <div className="font-bold">Leader</div>
-              {armyUnits
-                ?.filter((unit) => unit.unitType === "Leader")
-                .map((unit, i) => (
-                  <div
-                    key={`${unit.id}-${i}`}
-                    className="flex flex-row gap-x-2"
-                  >
-                    {unit.name}
-                    <button onClick={() => removeUnit(unit.id)}>
-                      <FaWindowClose className="text-red-400" />
-                    </button>
-                  </div>
-                ))}
-            </div>
-            <div className="flex flex-col gap-8">
-              <div className="font-bold">Battleline</div>
-              {armyUnits
-                ?.filter((unit) => unit.unitType === "Battleline")
-                .map((unit, i) => (
-                  <div
-                    key={`${unit.id}-${i}`}
-                    className="flex flex-row gap-x-2"
-                  >
-                    {unit.name}
-                    <button onClick={() => removeUnit(unit.id)}>
-                      <FaWindowClose className="text-red-400" />
-                    </button>
-                  </div>
-                ))}
-            </div>
-            <div className="flex flex-col gap-8">
-              <div className="font-bold">Other</div>
-              {armyUnits
-                ?.filter((unit) => unit.unitType === "Other")
-                .map((unit, i) => (
-                  <div
-                    key={`${unit.id}-${i}`}
-                    className="flex flex-row gap-x-2"
-                  >
-                    {unit.name}
-                    <button onClick={() => removeUnit(unit.id)}>
-                      <FaWindowClose className="text-red-400" />
-                    </button>
-                  </div>
-                ))}
-            </div>
+            <UnitList units={armyUnits} type="Leader" removeUnit={removeUnit} />
+            <UnitList
+              units={armyUnits}
+              type="Battleline"
+              removeUnit={removeUnit}
+            />
+            <UnitList units={armyUnits} type="Other" removeUnit={removeUnit} />
           </div>
         ) : null}
       </div>

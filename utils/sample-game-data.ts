@@ -1,7 +1,7 @@
 import { Game } from "../interfaces";
 
 /** Dummy event data. */
-export const sampleGameData: Game[] = [
+export const sampleGameData = [
   {
     id: "1",
     location: "123 Fake st",
@@ -19,32 +19,7 @@ export const sampleGameData: Game[] = [
               id: "1",
               faction: "Lumineth",
               subfaction: "Zaitrec",
-              units: [
-                // {
-                //   id: "1",
-                //   name: "Warden",
-                //   unitType: "Battleline",
-                //   points: 160,
-                // },
-                // {
-                //   id: "2",
-                //   name: "Scinari Enlightener",
-                //   unitType: "Leader",
-                //   points: 170,
-                // },
-                // {
-                //   id: "3",
-                //   name: "Dawnriders",
-                //   unitType: "Other",
-                //   points: 120,
-                // },
-                // {
-                //   id: "4",
-                //   name: "Scinari Cathallar",
-                //   unitType: "Leader",
-                //   points: 120,
-                // },
-              ],
+              units: [],
             },
           },
           {
@@ -54,38 +29,7 @@ export const sampleGameData: Game[] = [
               id: "1",
               faction: "Orruk Warclans",
               subfaction: "Big Waagh",
-              units: [
-                {
-                  id: "1",
-                  name: "Gutrippaz",
-                  unitType: "Battleline",
-                  points: 180,
-                },
-                {
-                  id: "2",
-                  name: "Gordrakk",
-                  unitType: "Leader",
-                  points: 440,
-                },
-                {
-                  id: "3",
-                  name: "Boltboyz",
-                  unitType: "Other",
-                  points: 120,
-                },
-                {
-                  id: "4",
-                  name: "Hobgrotts",
-                  unitType: "Battleline",
-                  points: 80,
-                },
-                {
-                  id: "5",
-                  name: "Hobgrotts",
-                  unitType: "Battleline",
-                  points: 80,
-                },
-              ],
+              units: [],
             },
           },
         ],

@@ -1,29 +1,42 @@
-import { GetStaticProps } from "next";
-import Link from "next/link";
-
+import { getTeamsByGameId } from "@/data/team";
 import { Game } from "../../interfaces";
 import Countdown from "./Countdown";
 import TeamTile from "./TeamTile";
+import { getAllUsers, getUserById, getUsersByIds } from "@/data/user";
 
 type Props = {
-  item: Game;
+  game: any;
 };
 
-const GameDetail = ({ item }: Props) => {
-  const gameId = item.id;
+const GameDetail = async ({ game }: Props) => {
+  const teams = await getTeamsByGameId(game.id);
 
+  async function getTeamDetails(teams, teamNumber) {
+    const teamUserIds = teams.find(
+      (team) => team.teamNumber === teamNumber
+    ).users;
+
+    const teamUsers = await getUsersByIds(teamUserIds);
+    const teamDetails = {
+      teamNumber,
+      users: teamUsers,
+    };
+    return teamDetails;
+  }
+
+  console.log("teamDetails", await getTeamDetails(teams, 1));
   return (
-    <div className="flex max-w-[1176px] flex-col gap-y-8">
-      <Countdown />
+    <div className="flex max-w-[1176px] flex-col gap-y-8 mt-[80px]">
+      <Countdown game={game} />
       <div className="flex w-full flex-row items-center justify-between gap-x-4">
         <TeamTile
-          gameId={gameId}
-          team={item.teams.filter((team) => team.teamNumber === 1)[0]}
+          gameId={game.id}
+          teamDetails={await getTeamDetails(teams, 1)}
         />
         <p className="text-3xl text-stone-200">vs</p>
         <TeamTile
-          gameId={gameId}
-          team={item.teams.filter((team) => team.teamNumber === 2)[0]}
+          gameId={game.id}
+          teamDetails={await getTeamDetails(teams, 2)}
         />
       </div>
     </div>

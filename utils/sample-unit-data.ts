@@ -1,7 +1,7 @@
 import { Unit } from "../interfaces";
 
 /** Dummy user data. */
-export const sampleUnitData: Unit[] = [
+export const sampleUnitData = [
   {
     id: "1",
     name: "The Light Eltharion",

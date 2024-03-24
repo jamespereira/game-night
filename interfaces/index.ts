@@ -4,38 +4,46 @@
 //
 // import { User } from 'path/to/interfaces';
 
+export type User = {
+  id: string;
+  name: string;
+  email?: string;
+  teamId?: string;
+  gameId?: number;
+  army?: Army[];
+};
+
 export type Unit = {
   id: string;
+  unitId: string;
   name: string;
   unitType: string;
   points: number;
+  image?: string;
+  armyId: string;
 };
 
 export type Army = {
   id: string;
   faction: string;
-  subfaction: string;
-  units?: Array<Unit>;
-};
-
-export type User = {
-  id: string;
-  name: string;
-  army?: Army;
+  subfaction?: string;
+  image?: string;
+  units: Unit[];
+  userId: string;
 };
 
 export type Team = {
   id: string;
   teamNumber: number;
   users: User[];
+  gameId: number;
 };
 
 export type Game = {
-  id: string;
+  id: number;
   location: string;
   date: string;
-  time: string;
-  host?: string;
+  host?: User;
   pointsLimit?: number;
   teams: Team[];
 };

@@ -2,24 +2,20 @@ import React, { useEffect, useState } from "react";
 import uniqueId from "lodash";
 import dayjs from "dayjs";
 
-const Countdown = () => {
-  const event = {
-    id: uniqueId(),
-    location: "123 Fake st",
-    date: "2024-03-10T18:30:00",
-    time: "18:30",
-  };
-
-  const timeTo = dayjs().to(event.date);
+type Props = {
+  game: any;
+};
+const Countdown = ({ game }: Props) => {
+  const timeTo = dayjs().to(game.date);
 
   return (
     <div className="flex flex-row gap-16 text-stone-200">
       <div className="flex flex-col">
         <p className="text-2xl">
-          {dayjs(event.date).format("dddd, MMMM D, YYYY h:mm A	")}
+          {dayjs(game.date).format("dddd, MMMM D, YYYY h:mm A	")}
         </p>
         <p className="text-xl">
-          @ {event.location} {event.time}
+          @ {game.location} {game.time}
         </p>
       </div>
       <div>

@@ -1,6 +1,27 @@
 import { UserRole } from "@prisma/client";
 import * as z from "zod";
 
+export const NewGameSchema = z.object({
+  host: z.string().min(1, {
+    message: "Host is required",
+  }),
+  location: z.string().min(1, {
+    message: "Location is required",
+  }),
+  date: z.string().min(1, {
+    message: "Date is required",
+  }),
+  pointsLimit: z.coerce.number().min(1, {
+    message: "Point limit is required",
+  }),
+  teams: z.array(
+    z.object({
+      teamNumber: z.coerce.number(),
+      users: z.array(z.string()),
+    })
+  ),
+});
+
 export const SettingsSchema = z
   .object({
     name: z.optional(z.string()),

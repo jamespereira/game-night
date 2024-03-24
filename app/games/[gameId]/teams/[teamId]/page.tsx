@@ -1,6 +1,6 @@
 import React from "react";
 import ArmyDetail from "@/components/games/ArmyDetail";
-import { sampleGameData } from "@//utils/sample-game-data";
+import { sampleGameData } from "@/utils/sample-game-data";
 import { getFactionByName } from "@/data/faction";
 
 type Props = {
