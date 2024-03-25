@@ -26,11 +26,11 @@ model User {
   accounts      Account[]
   isTwoFactorEnabled  Boolean @default(false)
   isTwoFactorConfirmation TwoFactorConfirmation?
+  army Army[]
   // teamId String? @unique
   // team Team? @relation(fields: [teamId], references: [id])
   // gameId Int @unique
   // game Game @relation(fields: [gameId], references: [id])
-  army Army[]
 }
 
 model Account {

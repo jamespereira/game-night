@@ -27,13 +27,13 @@ const AddUnits = ({ userFaction, onAddUnits }: Props) => {
   };
 
   const factionUnits =
-    userFaction.sharedSelectionEntries.selectionEntry?.filter(
+    userFaction?.sharedSelectionEntries?.selectionEntry?.filter(
       (entry) => entry._type === "unit"
     );
 
   const searchResults = !searchTerm
     ? factionUnits
-    : factionUnits.filter((unit) =>
+    : factionUnits?.filter((unit) =>
         unit._name.toLowerCase().includes(searchTerm.toLowerCase())
       );
 
@@ -71,7 +71,7 @@ const AddUnits = ({ userFaction, onAddUnits }: Props) => {
             onChange={(e) => handleSearch(e)}
           />
           <ul className="m-y-4">
-            {searchResults.map((result) => (
+            {searchResults?.map((result) => (
               <li
                 key={result._id}
                 className="flex flex-row justify-between items-center gap-x-4 p-4 border-t-2 border-y-slate-400"
@@ -86,7 +86,7 @@ const AddUnits = ({ userFaction, onAddUnits }: Props) => {
         <div className="flex flex-col gap-y-4">
           <p>Added units:</p>
           <ul>
-            {addedUnits.map((unit) => (
+            {addedUnits?.map((unit) => (
               <li
                 className="flex flex-row justify-between items-center gap-x-4 p-4 border-t-2 border-y-slate-400"
                 key={unit._id}

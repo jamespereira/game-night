@@ -24,7 +24,6 @@ const GameDetail = async ({ game }: Props) => {
     return teamDetails;
   }
 
-  console.log("teamDetails", await getTeamDetails(teams, 1));
   return (
     <div className="flex max-w-[1176px] flex-col gap-y-8 mt-[80px]">
       <Countdown game={game} />

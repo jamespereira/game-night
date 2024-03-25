@@ -6,20 +6,27 @@ import AddUnits from "./AddUnits";
 import { FaChevronDown, FaChevronUp, FaWindowClose } from "react-icons/fa";
 import UnitImage from "./UnitImage";
 import UnitList from "./UnitList";
+import ArmyList from "./ArmyList";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "../ui/select";
 
 type ArmyProps = {
-  army: Army;
   user: User;
-  userFaction: any;
 };
 
-const ArmyDetail = ({ army, user, userFaction }: ArmyProps) => {
+const ArmyDetail = ({ user }: ArmyProps) => {
   const [showList, setShowList] = useState(true);
-  const { faction, subfaction } = army;
+  // const { faction, subfaction } = army;
 
+  const hasArmy = !!user.army;
+
+  const army = { units: [] };
   const [armyUnits, setArmyUnits] = useState(army.units);
-
-  console.log("army", army);
 
   function getPointsTotal() {
     const unitPoints = armyUnits.map((unit) => unit.points);
@@ -52,10 +59,16 @@ const ArmyDetail = ({ army, user, userFaction }: ArmyProps) => {
     setArmyUnits([...armyUnits, ...newUnits]);
   }
 
-  function removeUnit(unitId) {
+  function onRemoveUnit(unitId) {
     setArmyUnits(armyUnits.filter((unit) => unit.id !== unitId));
     return (army.units = armyUnits);
   }
+
+  const [faction, setFaction] = useState("");
+  function onChange() {
+    console.log("changed");
+  }
+  console.log("faction", faction);
 
   return (
     <>
@@ -66,24 +79,47 @@ const ArmyDetail = ({ army, user, userFaction }: ArmyProps) => {
               {showList ? <FaChevronDown /> : <FaChevronUp />}
             </button>
             <div>{user?.name} </div>
-            <div>{faction} </div>
-            <div>{subfaction}</div>
+            <div>
+              <Select
+                // disabled={isPending}
+                onValueChange={(e) => setFaction(e)}
+                // defaultValue={field.value}
+              >
+                <SelectTrigger>
+                  <SelectValue placeholder="Select a faction" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value={"lumineth"}>Lumineth</SelectItem>
+                  <SelectItem value={"UserRole.USER"}>Ork</SelectItem>
+                </SelectContent>
+              </Select>{" "}
+            </div>
+            <div>
+              <Select
+                // disabled={isPending}
+                onValueChange={onChange}
+                // defaultValue={field.value}
+              >
+                <SelectTrigger>
+                  <SelectValue placeholder="Select a subfaction" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value={"UserRole.ADMIN"}>Lumineth</SelectItem>
+                  <SelectItem value={"UserRole.USER"}>Ork</SelectItem>
+                </SelectContent>
+              </Select>{" "}
+            </div>
           </div>
           <div className="flex flex-row gap-8">
-            <AddUnits userFaction={userFaction} onAddUnits={onAddUnits} />
+            <AddUnits
+              userFaction={"lumineth_realm-lords"}
+              onAddUnits={onAddUnits}
+            />
             <div>{getPointsTotal()} pts</div>
           </div>
         </div>
         {showList ? (
-          <div className="flex flex-row gap-8 p-8">
-            <UnitList units={armyUnits} type="Leader" removeUnit={removeUnit} />
-            <UnitList
-              units={armyUnits}
-              type="Battleline"
-              removeUnit={removeUnit}
-            />
-            <UnitList units={armyUnits} type="Other" removeUnit={removeUnit} />
-          </div>
+          <ArmyList units={armyUnits} onRemoveUnit={onRemoveUnit} />
         ) : null}
       </div>
     </>

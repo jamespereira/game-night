@@ -12,6 +12,21 @@ export const getTeamsByGameId = async (gameId: number) => {
   }
 };
 
+export const getTeamByGameIdAndTeamNumber = async (
+  gameId: number,
+  teamNumber: number
+) => {
+  try {
+    const team = await db.team.findFirst({
+      where: { gameId, teamNumber },
+    });
+
+    return team;
+  } catch {
+    return null;
+  }
+};
+
 export const getTeamByTeamNumber = async (teamNumber: number) => {
   try {
     const team = await db.team.findFirst({

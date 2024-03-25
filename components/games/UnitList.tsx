@@ -5,10 +5,10 @@ import { FaWindowClose } from "react-icons/fa";
 type Props = {
   units: any;
   type: string;
-  removeUnit: (arg0: string) => void;
+  handleRemoveUnit: (arg0: string) => void;
 };
 
-const UnitList = ({ units, type, removeUnit }: Props) => {
+const UnitList = ({ units, type, handleRemoveUnit }: Props) => {
   return (
     <div className="flex flex-col gap-8">
       <div className="font-bold">Leader</div>
@@ -21,7 +21,7 @@ const UnitList = ({ units, type, removeUnit }: Props) => {
           >
             <UnitImage name={unit.name} />
             {unit.name}
-            <button onClick={() => removeUnit(unit.id)}>
+            <button onClick={() => handleRemoveUnit(unit.id)}>
               <FaWindowClose className="text-red-400" />
             </button>
           </div>

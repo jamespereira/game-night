@@ -7,6 +7,7 @@ import { SessionProvider } from "next-auth/react";
 import { Toaster } from "@/components/ui/sonner";
 import Navbar from "@/components/Navbar";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,6 +30,14 @@ export default async function RootLayout({
             <Navbar />
           </header>
           <Toaster />
+          <Image
+            src={`/aos_bg.jpg`}
+            alt={`aos background image`}
+            sizes="100"
+            fill
+            priority
+            style={{ objectFit: "cover", zIndex: -1, borderRadius: "0.75rem" }}
+          />
           {children}
         </body>
       </html>
