@@ -1,4 +1,4 @@
-import React, { startTransition, useEffect, useState } from "react";
+import React, { startTransition, useState } from "react";
 import {
   Dialog,
   DialogClose,
@@ -10,8 +10,6 @@ import {
   DialogTrigger,
 } from "../ui/dialog";
 import { Button } from "../ui/button";
-import { Unit } from "@/interfaces";
-import { getFactionByName } from "@/data/faction";
 import addUnits from "@/actions/add-units";
 
 type Props = {

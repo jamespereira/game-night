@@ -4,6 +4,8 @@ import React from "react";
 import { getTeamByGameIdAndTeamNumber } from "@/data/team";
 import { getUsersByIds } from "@/data/user";
 import UserArmy from "@/components/games/UserArmy";
+import { getArmyWithUnitsByUserIdAndGameId } from "@/data/army";
+import { getPointsTotal } from "@/utils/points-total";
 
 type Props = {
   params: { gameId: string; teamNumber: string };
@@ -12,7 +14,7 @@ type Props = {
 async function TeamDetail({ params }: Props) {
   const gameId = Number(params.gameId);
   const teamNumber = Number(params.teamNumber);
-  const teams = await getTeamByGameIdAndTeamNumber(gameId, teamNumber);
+  const team = await getTeamByGameIdAndTeamNumber(gameId, teamNumber);
 
   async function getTeamDetails(users) {
     const teamUsers = await getUsersByIds(users);
@@ -23,26 +25,24 @@ async function TeamDetail({ params }: Props) {
     return teamDetails;
   }
 
-  const teamDetails = await getTeamDetails(teams.users);
+  const teamDetails = await getTeamDetails(team.users);
 
-  function getPointsTotal(team) {
-    const armyPoints = team.users.map((user) =>
-      user.army.units.map((unit) => unit.points)
-    );
-    const unitPoints = armyPoints.flat();
+  async function getTeamPointsTotal(team) {
+    let teamTotal = 0;
 
-    const totalPoints = unitPoints.reduce((a, c) => a + c, 0);
-    return totalPoints;
+    for (const user of team) {
+      const armyPromise = await getArmyWithUnitsByUserIdAndGameId(user, gameId);
+      const army = await armyPromise;
+      teamTotal += getPointsTotal(army);
+    }
+    return teamTotal;
   }
 
   return (
     <div className="flex flex-col bg-stone-200">
       <div className="flex flex-row justify-between">
         <h2>Army List page</h2>
-        <div>
-          {/* {getPointsTotal(team)} */}
-          xxx/2000 pts
-        </div>
+        <div>{await getTeamPointsTotal(team?.users)}/2000 pts</div>
       </div>
       <div className="flex flex-col">
         {teamDetails.users.map((user: any) => (

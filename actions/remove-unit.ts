@@ -3,7 +3,7 @@
 import { db } from "@/lib/db";
 import { revalidatePath } from "next/cache";
 
-export const removeUnit = async (id) => {
+const removeUnit = async (id) => {
   // TO DO remove unit from army
   await db.unit.delete({
     where: { id },

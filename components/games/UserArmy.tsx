@@ -4,6 +4,7 @@ import React from "react";
 import { User } from "../../interfaces";
 import { getArmyWithUnitsByUserIdAndGameId } from "@/data/army";
 import ArmyDetail from "./ArmyDetail";
+import { getFactionByName } from "@/data/faction";
 
 type Props = {
   user: User;
@@ -13,7 +14,16 @@ type Props = {
 const UserArmy = async ({ user, gameId }: Props) => {
   const army = await getArmyWithUnitsByUserIdAndGameId(user.id, gameId);
 
-  return <ArmyDetail gameId={gameId} user={user} army={army} />;
+  const factionList = await getFactionByName(army?.faction);
+
+  return (
+    <ArmyDetail
+      gameId={gameId}
+      user={user}
+      army={army}
+      factionList={factionList}
+    />
+  );
 };
 
 export default UserArmy;
