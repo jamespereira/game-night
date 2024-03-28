@@ -1,0 +1,383 @@
+{
+	"catalogue": {
+		"entryLinks": {
+			"entryLink": [
+				{
+					"_id": "f8d3-273b-0e5b-058b",
+					"_name": "Isharann Soulscryer",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "251d-7ccf-13fd-2da6",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "610e-b458-faeb-1d56",
+					"_name": "Isharann Soulrender",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "f717-3ffb-f9f0-e703",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "c2cc-ec56-743d-bec6",
+					"_name": "Eidolon of Mathlann: Aspect of the Sea",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "a470-1bff-9e2f-d5b2",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "ed33-cb7b-b554-ca0f",
+					"_name": "Eidolon of Mathlann: Aspect of the Storm",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "647d-029e-80c9-2b44",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "5743-9c69-ccdf-27ba",
+					"_name": "Volturnos",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "f9a5-71c8-3543-c80a",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "caa3-3c43-6f64-d084",
+					"_name": "Isharann Tidecaster",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "3327-30f1-f9ee-34f1",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "259e-c2ba-aa73-f7a4",
+					"_name": "Lotann, Warden of the Soul Ledgers",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "02fd-a31c-6926-4378",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "214c-341f-2867-83b9",
+					"_name": "Akhelian King",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "ea78-2738-9e0a-b540",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "045f-855a-16d4-2599",
+					"_name": "Idoneth Deepkin Warscroll Battalion: Namarti Corps",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "1817-9420-cb05-0d7f",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "9af8-bc88-5646-514f",
+					"_name": "Idoneth Deepkin Warscroll Battalion: Royal Council",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "5308-cc44-0e15-6e59",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "329d-9d71-03bf-51ec",
+					"_name": "Idoneth Deepkin Warscroll Battalion: Akhelian Corps",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "9131-2234-a1de-14ff",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "2c93-5c8f-d25f-a3cd",
+					"_name": "Namarti Thralls",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "e6e5-f647-e3ac-7bd2",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "22c0-4cbc-1dd6-9c8e",
+					"_name": "Akhelian Allopexes",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "ae34-b407-ec32-9dc8",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "1e50-12ab-865f-15b7",
+					"_name": "Akhelian Leviadon",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "1925-b9c1-5230-f036",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "ancestor",
+									"_value": "0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_childId": "78f3-8a59-699a-61e8",
+									"_type": "instanceOf"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "0419-9194-3640-ed8f",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "87e8-c095-f059-5f7b",
+							"_primary": "true"
+						}
+					},
+					"_id": "13c8-68ea-174b-3a80",
+					"_name": "Allegiance",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "e2ee-2634-4e4c-6340",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "be1b-e51f-94b9-1e56",
+					"_name": "Namarti Reavers",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "79e1-0306-7e6e-d27d",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "e65c-8ff9-078f-6971",
+					"_name": "Akhelian Ishlaen Guard",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "abb8-d878-2080-d23f",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "172f-7ffc-dc4e-f24e",
+					"_name": "Akhelian Morrsarr Guard",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "6d11-e272-4a3f-9cb2",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "17f9-cc3d-64aa-d97d",
+					"_name": "Bundo Whalebiter - Kraken-Eater Mercenary",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "efae-6133-d899-a7e4",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "c6ac-949c-e48d-63e9",
+					"_name": "Elathain Ill-fated",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "abc7-cd82-3325-82da",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "5dc2-0df3-2cd2-f478",
+					"_name": "Elathain's Soulraid",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "77c0-e295-68a6-dcad",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "2b96-df68-42b0-447f",
+					"_name": "Grand Strategy",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "b3b3-fd03-ebc9-cc90",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "8ac5-8a0d-ce7d-7ea9",
+					"_name": "Akhelian Thrallmaster",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "ed12-cca8-a7e4-7b10",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "f3b9-2d77-e190-b4c2",
+					"_name": "Bloodthirsty Shiver",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7fae-c1e4-166e-a9db",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "e9dd-c9d2-346f-04d2",
+					"_name": "Battle Tactics: The Currents of Battle",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "837e-578f-8eea-bd19",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "2224-65d5-f1e5-18eb",
+					"_name": "Gloomtide Shipwreck",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "4d3b-7511-4e6b-c62a",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "f8b8-9ebb-40c8-fdb3",
+					"_name": "Regiment of Renown - Elthwin's Thorns",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "66f8-b848-40fa-a08d",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "a32d-9857-6f16-47d8",
+					"_name": "Regiment of Renown - Norgrimm's Rune Throng",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "9553-8763-ddc2-a840",
+					"_type": "selectionEntry"
+				},
+				{
+					"_import": "true",
+					"_name": "Regiment of Renown - Fjori's Flamebearers",
+					"_hidden": "false",
+					"_type": "selectionEntry",
+					"_id": "caad-75d0-96a6-ad65",
+					"_targetId": "679-2ac4-81f1-ac2"
+				},
+				{
+					"_import": "true",
+					"_name": "Regiment of Renown - The Blacktalons",
+					"_hidden": "false",
+					"_type": "selectionEntry",
+					"_id": "41df-2da5-7894-f608",
+					"_targetId": "41f8-64ce-7c63-f963"
+				},
+				{
+					"entryLinks": {
+						"entryLink": {
+							"_id": "a36e-deab-dafe-6290",
+							"_name": "Battalions",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_targetId": "5666-66dd-34a9-6beb",
+							"_type": "selectionEntryGroup"
+						}
+					},
+					"_id": "3371-5727-934e-29ec",
+					"_name": "Gotrek Gurnisson",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "24c2-fff5-f17c-3d07",
+					"_type": "selectionEntry"
+				},
+				{
+					"_import": "true",
+					"_name": "Regiment of Renown - Saviours of Cinderfall",
+					"_hidden": "false",
+					"_id": "3c3c-4c93-c39-af29",
+					"_type": "selectionEntry",
+					"_targetId": "241e-893b-ab5-be55"
+				}
+			]
+		},
+		"catalogueLinks": {
+			"catalogueLink": [
+				{
+					"_id": "ed48-ee45-0f3d-5d2d",
+					"_name": "Order - Sylvaneth - Data",
+					"_targetId": "ab8b-39f3-ebc0-e9ab",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				},
+				{
+					"_id": "d58b-3be1-a68d-4723",
+					"_name": "Order - Idoneth Deepkin - Data",
+					"_targetId": "b713-a274-2a46-fe02",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				},
+				{
+					"_id": "64b6-530d-8ed6-a97a",
+					"_name": "Destruction - Sons of Behemat",
+					"_targetId": "f904-b52f-810a-e446",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				},
+				{
+					"_id": "556a-5567-0456-1f0d",
+					"_name": "Endless Spells",
+					"_targetId": "f0db-356d-9f9f-662d",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				},
+				{
+					"_id": "7fb8-5e53-365e-3715",
+					"_name": "Regiments of Renown",
+					"_targetId": "33cf-d309-6df3-50d6",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				}
+			]
+		},
+		"_xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+		"_id": "0d25-2712-00a2-3028",
+		"_name": "Order - Idoneth Deepkin",
+		"_revision": "38",
+		"_battleScribeVersion": "2.03",
+		"_authorContact": "@BSData",
+		"_authorUrl": "https://github.com/BSData/warhammer-age-of-sigmar",
+		"_library": "false",
+		"_gameSystemId": "e51d-b1a3-75fc-dc33",
+		"_gameSystemRevision": "157",
+		"_type": "catalogue"
+	}
+}

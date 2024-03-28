@@ -1,32 +1,29 @@
 "use server";
 
 import React from "react";
-import ArmyDetail from "@/components/games/ArmyDetail";
 import { getTeamByGameIdAndTeamNumber } from "@/data/team";
 import { getUsersByIds } from "@/data/user";
-import { Team } from "@prisma/client";
+import UserArmy from "@/components/games/UserArmy";
 
 type Props = {
   params: { gameId: string; teamNumber: string };
 };
 
 async function TeamDetail({ params }: Props) {
-  const teams = await getTeamByGameIdAndTeamNumber(
-    Number(params.gameId),
-    Number(params.teamNumber)
-  );
+  const gameId = Number(params.gameId);
+  const teamNumber = Number(params.teamNumber);
+  const teams = await getTeamByGameIdAndTeamNumber(gameId, teamNumber);
 
   async function getTeamDetails(users) {
     const teamUsers = await getUsersByIds(users);
     const teamDetails = {
-      teamNumber: params.teamNumber,
+      teamNumber,
       users: teamUsers,
     };
     return teamDetails;
   }
 
   const teamDetails = await getTeamDetails(teams.users);
-  // const faction = await getFactionByName("lumineth_realm-lords");
 
   function getPointsTotal(team) {
     const armyPoints = team.users.map((user) =>
@@ -49,7 +46,7 @@ async function TeamDetail({ params }: Props) {
       </div>
       <div className="flex flex-col">
         {teamDetails.users.map((user: any) => (
-          <ArmyDetail key={user.id} user={user} />
+          <UserArmy key={user.id} user={user} gameId={gameId} />
         ))}
       </div>
     </div>

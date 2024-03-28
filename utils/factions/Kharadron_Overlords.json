@@ -1,0 +1,438 @@
+{
+	"catalogue": {
+		"entryLinks": {
+			"entryLink": [
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "ancestor",
+									"_value": "0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_childId": "78f3-8a59-699a-61e8",
+									"_type": "instanceOf"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "2565-d8eb-63ce-8b8f",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "87e8-c095-f059-5f7b",
+							"_primary": "true"
+						}
+					},
+					"_id": "db2a-d8e7-50b3-53cc",
+					"_name": "Allegiance",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "b79b-9f89-0015-105b",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "77e3-a4d6-dcb2-35e4",
+					"_name": "Aether-Khemist",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "129e-f84a-5017-ca90",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "2f26-aedf-217a-a2f2",
+					"_name": "Aetheric Navigator",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "68fb-1a1e-6c58-b1f5",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "ef26-6fd6-dde1-aa22",
+					"_name": "Arkanaut Admiral",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "44ad-2801-441f-6b44",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "a78d-bed5-042a-ded4",
+					"_name": "Arkanaut Frigate",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "75d5-622e-f185-7ce2",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "a2b9-bb0b-8182-e740",
+					"_name": "Arkanaut Ironclad",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "fc3c-8879-dd3f-9e53",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "27a2-f3cf-926d-2907",
+					"_name": "Battalion: Intrepid Prospectors",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "0cb8-ad19-8612-9cd8",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "61de-8cc8-0581-44da",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "be17-6bbd-b857-3f43",
+							"_primary": "true"
+						}
+					},
+					"_id": "66e0-3262-da8b-e2ab",
+					"_name": "Super-Battalion: Grand Armada",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "c6e7-1ed8-8e56-6d3a",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "2c3f-f31a-4680-6d20",
+					"_name": "Battalion: Grundstok Escort Wing",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "bbea-50e0-5b3b-60e5",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "ce6c-96ac-9bab-6184",
+					"_name": "Battalion: Iron Sky Command",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "f897-fdb5-ba26-606c",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "b6dc-5534-adc4-0bdd",
+					"_name": "Battalion: Iron Sky Attack Squadron",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "f09d-15d1-c470-cceb",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "9d05-89a2-048e-217c",
+					"_name": "Brokk Grungsson, Lord-Magnate of Barak-Nar",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "dcd4-8e51-66c7-b222",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "8991-fa97-d56a-2e43",
+					"_name": "Endrinmaster with Endrinharness",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "b35b-ad7f-1673-0c71",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "a4fb-2809-dc3e-b7fe",
+					"_name": "Endrinriggers",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "0064-c926-85e4-d674",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "2b89-7fcb-3121-7a2e",
+					"_name": "Grundstok Gunhauler",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "fb69-6292-fcca-fba7",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "f505-e84d-948d-51fc",
+					"_name": "Grundstok Thunderers",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "395d-4f2c-c544-43aa",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "2c83-8606-e46d-0637",
+					"_name": "Skywardens",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "6891-3bc7-0d14-3e01",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "8890-c25b-3b7b-0208",
+					"_name": "Arkanaut Company",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7d60-6000-c3d0-0a22",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "1416-615b-c8cf-20bb",
+					"_name": "Bjorgen Thundrik",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "616d-36bf-1a46-641e",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "2f51-fedd-f09f-0d00",
+					"_name": "Thundrik's Profiteers",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "128e-d958-e7d6-7cbc",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "fbd9-2171-de36-e7a3",
+					"_name": "Endrinmaster with Dirigible Suit",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "81fb-5851-087f-131d",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "63f1-28d3-67b6-5412",
+					"_name": "Bundo Whalebiter - Kraken-Eater Mercenary",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "efae-6133-d899-a7e4",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "7a77-a81f-5254-77cb",
+					"_name": "Dagnai Holdenstock",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "2c43-0228-cbb6-699f",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "e287-c9f4-39e9-5f87",
+					"_name": "Battalion: Drongon's Aether-Runners",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "e351-4ca3-5d41-fda8",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "4aa8-53ae-5460-f6db",
+					"_name": "Grand Strategy",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "8076-190f-a7b8-02ba",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "6637-0459-9e85-cd8d",
+					"_name": "Kharadron Core Battalion: Grundstok Escort Wing",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7f99-0e42-cf8b-fdc5",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "f9fe-c3bb-a18f-7a30",
+					"_name": "Kharadron Core Battalion: Iron Sky Attack Squadron",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "aa6f-f071-16f6-d76b",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "5828-3da8-ff44-b08c",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "1974-3f49-7f0b-8422",
+							"_primary": "true"
+						}
+					},
+					"_id": "8bc2-2ba6-65a8-1bd7",
+					"_name": "Battle Tactics: Decrees of the Code",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "a5a5-4690-1067-040a",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "017d-1b3d-a6ea-4d8e",
+					"_name": "Drekki Flynt",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "dcb9-899a-832d-a5bc",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "6012-207f-484b-4679",
+					"_name": "Codewright",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "d201-4dd7-336e-ae09",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "f9be-8120-9187-fb08",
+					"_name": "Regiment of Renown - Elthwin's Thorns",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "66f8-b848-40fa-a08d",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "198c-05dc-665b-d0de",
+					"_name": "Regiment of Renown - Norgrimm's Rune Throng",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "9553-8763-ddc2-a840",
+					"_type": "selectionEntry"
+				},
+				{
+					"_import": "true",
+					"_name": "Regiment of Renown - Fjori's Flamebearers",
+					"_hidden": "false",
+					"_type": "selectionEntry",
+					"_id": "fc0a-ef8b-f3c4-8c1d",
+					"_targetId": "679-2ac4-81f1-ac2"
+				},
+				{
+					"_import": "true",
+					"_name": "Battle Tactics: Corporate Manoeuvres",
+					"_hidden": "false",
+					"_type": "selectionEntry",
+					"_id": "9045-dd84-7695-c93c",
+					"_targetId": "7de0-f5c9-c4c1-2528"
+				},
+				{
+					"_import": "true",
+					"_name": "Regiment of Renown - The Blacktalons",
+					"_hidden": "false",
+					"_type": "selectionEntry",
+					"_id": "f0b9-828f-44a3-f8e7",
+					"_targetId": "41f8-64ce-7c63-f963"
+				},
+				{
+					"entryLinks": {
+						"entryLink": {
+							"_id": "c0e9-9f69-b6d8-c6c2",
+							"_name": "Battalions",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_targetId": "ff18-f62e-a289-717c",
+							"_type": "selectionEntryGroup"
+						}
+					},
+					"_id": "2c38-5bee-e5aa-38ee",
+					"_name": "Gotrek Gurnisson",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "24c2-fff5-f17c-3d07",
+					"_type": "selectionEntry"
+				},
+				{
+					"_import": "true",
+					"_name": "Regiment of Renown - Saviours of Cinderfall",
+					"_hidden": "false",
+					"_id": "eef6-4355-d3f4-3009",
+					"_type": "selectionEntry",
+					"_targetId": "241e-893b-ab5-be55"
+				}
+			]
+		},
+		"catalogueLinks": {
+			"catalogueLink": [
+				{
+					"_id": "f792-1ab8-9cbb-0f54",
+					"_name": "Order - Kharadron Overlords - Data",
+					"_targetId": "3981-271d-5871-845b",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				},
+				{
+					"_id": "75a3-2c2d-62da-5d07",
+					"_name": "Destruction - Sons of Behemat",
+					"_targetId": "f904-b52f-810a-e446",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				},
+				{
+					"_id": "e6ce-ce56-9a76-3e53",
+					"_name": "Endless Spells",
+					"_targetId": "f0db-356d-9f9f-662d",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				},
+				{
+					"_id": "062d-8b24-23f3-8e03",
+					"_name": "Regiments of Renown",
+					"_targetId": "33cf-d309-6df3-50d6",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				}
+			]
+		},
+		"_xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+		"_id": "e23c-3deb-f35c-8104",
+		"_name": "Order - Kharadron Overlords",
+		"_revision": "46",
+		"_battleScribeVersion": "2.03",
+		"_authorContact": "@BSData",
+		"_authorUrl": "https://github.com/BSData/warhammer-age-of-sigmar",
+		"_library": "false",
+		"_gameSystemId": "e51d-b1a3-75fc-dc33",
+		"_gameSystemRevision": "156",
+		"_type": "catalogue"
+	}
+}

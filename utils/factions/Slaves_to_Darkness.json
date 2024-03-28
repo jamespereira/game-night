@@ -1,0 +1,963 @@
+{
+	"catalogue": {
+		"publications": {
+			"publication": [
+				{
+					"_id": "798b-2f60-pubN65537",
+					"_name": "Grand Alliance: Chaos"
+				},
+				{
+					"_id": "798b-2f60-pubN85643",
+					"_name": "Forgeworld: Monstrous Arcanum"
+				}
+			]
+		},
+		"entryLinks": {
+			"entryLink": [
+				{
+					"_id": "1ff6-5288-c312-e02c",
+					"_name": "Chaos Lord on Daemonic Mount",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "ae9b-b9fe-18ba-2f9a",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "bffe-2dc1-66b1-d4f7",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "87e8-c095-f059-5f7b",
+							"_primary": "true"
+						}
+					},
+					"_id": "5e29-3242-a8ab-08da",
+					"_name": "Allegiance",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "783c-899b-9c19-1423",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "62f1-1ab6-459b-4b4a",
+					"_name": "Chaos Chariots",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "8bc4-05d4-ff31-086b",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "6b40-f509-f299-8818",
+					"_name": "Chaos Chosen",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7117-c074-dd10-883d",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "29e1-5abc-6f88-a88b",
+					"_name": "Gorebeast Chariots",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "44d4-5116-6301-5c92",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "8ea6-23b0-3f14-eb16",
+					"_name": "Chaos Knights",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "e432-9436-085d-4c93",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "9177-eeb0-de9b-2d86",
+					"_name": "Chaos Lord on Manticore",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "3303-cef0-2064-a5f5",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "35dc-b91d-018e-0e63",
+					"_name": "Chaos Marauder Horsemen",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "ce01-c0f8-2c4b-fddc",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "fbf2-5785-710e-c7c7",
+					"_name": "Chaos Marauders",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "08c1-05a1-4828-6983",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "7b0b-c8f0-3d00-6660",
+					"_name": "Chaos Sorcerer Lord",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "1080-2582-0880-dd78",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "7401-8a97-757a-5407",
+					"_name": "Chaos Sorcerer Lord on Manticore",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "c132-1271-a655-1e16",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "e9de-212c-0895-622e",
+					"_name": "Chaos Spawn",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "494c-81bb-bb30-3d33",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "b659-1a9c-b5ae-b39b",
+					"_name": "Chaos Warriors",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "22ed-600b-a62c-7ebe",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "275f-1e5f-5d0b-d1fa",
+					"_name": "Ogroid Myrmidon",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "4647-1070-9de5-b23a",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "9db0-e000-2282-4431",
+					"_name": "Darkoath Chieftain",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "559b-42f8-886d-3900",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "9d6e-69ad-b0c3-bf60",
+					"_name": "Darkoath Warqueen",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "817b-e028-2550-90ea",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "f192-a47c-d7c7-cfbd",
+					"_name": "Exalted Hero of Chaos",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "69e5-b08e-9813-f378",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "f3b4-b5e1-399b-7dde",
+					"_name": "Chaos Lord",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "1ccb-5743-64df-f027",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "fc68-9e0a-a829-8c79",
+					"_name": "Sayl the Faithless [LEGENDS]",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "689f-b7f7-e2ec-8a31",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "force",
+									"_value": "0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "689f-b7f7-e2ec-8a31",
+									"_type": "equalTo"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "cd01-ff63-82d8-7f64",
+					"_name": "Nightmaw [LEGENDS]",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "1dc4-ec25-d3df-f7d2",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "1271-53d5-73ee-d162",
+					"_name": "Chaos Warshrine",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "89b1-9d63-4211-96da",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "c234-48f7-b98b-603a",
+					"_name": "Slambo",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "d092-4d5e-d7eb-434b",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "4b1e-35d3-6d8c-9543",
+					"_name": "Corvus Cabal",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "0163-c959-bb8a-b93f",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "57d9-2e0c-923c-8016",
+					"_name": "Untamed Beasts",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "19e8-b499-ac07-bef6",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "cc79-f372-38c9-7eb7",
+					"_name": "The Unmade",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "e524-09b9-4743-8e36",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "b5de-d1cd-036c-31b8",
+					"_name": "Splintered Fang",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "db55-d018-89f8-9963",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "9b74-6b27-f048-39d9",
+					"_name": "Raptoryx",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "bb6a-4f67-9806-c622",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "3465-b010-6598-62cc",
+					"_name": "Iron Golems",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "fbd3-43be-779a-3212",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "5783-a803-244d-7c2e",
+					"_name": "Furies",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "3798-bff0-a2ec-7c8a",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "db9e-e12f-acbf-3e75",
+					"_name": "Cypher Lords",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "a83f-3b81-ef95-686e",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "86b0-e685-b7a2-9bf1",
+					"_name": "Theddra Skull-Scryer",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "e738-e1c8-30a0-ef8c",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "a11e-fe8c-1e76-fc70",
+					"_name": "Spire Tyrants",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "9a7d-eb33-fa7c-c129",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "cc05-b06c-3696-d9b4",
+					"_name": "Slaughterbrute",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "93c9-fc5f-2ecd-8dab",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "7103-5ca3-99ab-38f9",
+					"_name": "Soul Grinder",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "8713-fb95-f605-7be2",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "afaa-9565-93b2-acab",
+					"_name": "Chaos Lord on Karkadrak",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "e6c9-c984-cd6f-33e3",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "b211-2fa4-6b1c-413b",
+					"_name": "Archaon the Everchosen",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "ee9e-b8de-b25d-b6f1",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditionGroups": {
+										"conditionGroup": [
+											{
+												"conditions": {
+													"condition": [
+														{
+															"_field": "selections",
+															"_scope": "force",
+															"_value": "0",
+															"_percentValue": "false",
+															"_shared": "true",
+															"_includeChildSelections": "true",
+															"_includeChildForces": "false",
+															"_childId": "8c26-2422-34d3-31a5",
+															"_type": "instanceOf"
+														},
+														{
+															"_field": "selections",
+															"_scope": "force",
+															"_value": "0",
+															"_percentValue": "false",
+															"_shared": "true",
+															"_includeChildSelections": "true",
+															"_includeChildForces": "false",
+															"_childId": "5c1d-d0be-e5cf-9fe3",
+															"_type": "instanceOf"
+														},
+														{
+															"_field": "selections",
+															"_scope": "force",
+															"_value": "0",
+															"_percentValue": "false",
+															"_shared": "true",
+															"_includeChildSelections": "false",
+															"_includeChildForces": "false",
+															"_childId": "88f2-a5fd-1371-927b",
+															"_type": "instanceOf"
+														}
+													]
+												},
+												"_type": "or"
+											},
+											{
+												"conditions": {
+													"condition": [
+														{
+															"_field": "selections",
+															"_scope": "roster",
+															"_value": "1",
+															"_percentValue": "false",
+															"_shared": "true",
+															"_includeChildSelections": "true",
+															"_includeChildForces": "true",
+															"_childId": "b541-3b22-08bb-d772",
+															"_type": "equalTo"
+														},
+														{
+															"_field": "selections",
+															"_scope": "roster",
+															"_value": "1",
+															"_percentValue": "false",
+															"_shared": "true",
+															"_includeChildSelections": "true",
+															"_includeChildForces": "true",
+															"_childId": "ff93-966b-c16d-8149",
+															"_type": "equalTo"
+														},
+														{
+															"_field": "selections",
+															"_scope": "roster",
+															"_value": "1",
+															"_percentValue": "false",
+															"_shared": "true",
+															"_includeChildSelections": "true",
+															"_includeChildForces": "true",
+															"_childId": "d7d9-b723-6fdb-51cb",
+															"_type": "equalTo"
+														},
+														{
+															"_field": "selections",
+															"_scope": "roster",
+															"_value": "1",
+															"_percentValue": "false",
+															"_shared": "true",
+															"_includeChildSelections": "true",
+															"_includeChildForces": "true",
+															"_childId": "065f-c64d-3eb7-79d2",
+															"_type": "equalTo"
+														}
+													]
+												},
+												"_type": "or"
+											}
+										]
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "21eb-ed02-57b2-3414",
+					"_name": "Be'lakor",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "87a1-5392-edb1-4080",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "ef91-5f1b-79bd-a5a1",
+					"_name": "Mutalith Vortex Beast",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "b579-a729-5575-6c5f",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "ddf5-94f2-0acb-d490",
+					"_name": "Varanguard",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "d055-3a02-ab50-ca0d",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "6782-d70f-13cf-eaaf",
+					"_name": "Fomoroid Crusher",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "6610-2ae0-9201-1296",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "cc8d-731a-bde2-683f",
+					"_name": "Mindstealer Sphiranx",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7cca-bdb5-aad8-f427",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "c169-cfec-03a2-7ec2",
+					"_name": "Slaves to Darkness Gaunt Summoner on Disc of Tzeentch",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "e703-9ed7-ccd0-b0c7",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "a81b-97a7-4f1c-4164",
+					"_name": "Godsworn Hunt",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "d26f-42aa-117f-6bc9",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "4ff6-b632-8fc0-fe2d",
+					"_name": "One-Eyed Grunnock - Warstomper Mercenary",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "40c7-4bb8-cfd9-7319",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "c9f5-39c5-00cd-2d57",
+					"_name": "Khagra's Ravagers",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "9d76-1092-faa7-69a8",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "cf32-b112-eb3e-d0e0",
+					"_name": "Scions of the Flame",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "e6ae-10ec-a11b-4836",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "cc40-1fb0-deb6-c9d1",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "1974-3f49-7f0b-8422",
+							"_primary": "true"
+						}
+					},
+					"_id": "a69c-679c-e32e-403b",
+					"_name": "Grand Strategy",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "8b3a-4a2a-db07-a669",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "45e7-cf5b-490e-a4a3",
+					"_name": "Slaves to Darkness Core Battalion: Chaos Warband",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "4717-cfa4-26e7-5618",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "7cad-f55c-4ee7-4d6d",
+					"_name": "Slaves to Darkness Core Battalion: Overlords of Chaos",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "e9ef-cb7e-bfd6-adec",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "9fe8-3e86-ce34-d72f",
+					"_name": "Darkoath Savagers",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "a27d-52fc-d600-e0b7",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "39a7-6b30-f3c7-865f",
+					"_name": "Tarantulos Brood",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "27e7-b0bf-88ed-3803",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "4f9f-ec8a-1cda-71ce",
+					"_name": "Endless Spell: Darkfire Daemonrift",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "a48e-906a-957a-ab73",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "3a3a-0307-ce70-5b5b",
+					"_name": "Endless Spell: Eightfold Doom-Sigil",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "d1f5-2cff-bde8-e9a4",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "f5f4-fad1-9a39-526c",
+					"_name": "Endless Spell: Realmscourge Rupture",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "87ba-0190-31c7-fc41",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "85b5-e236-3306-fe17",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "1974-3f49-7f0b-8422",
+							"_primary": "true"
+						}
+					},
+					"_id": "4c5f-c3fa-2f4c-3770",
+					"_name": "Battle Tactics: Glory of Chaos",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "c754-4d40-7285-5edd",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "b65c-3def-5ea9-e7b2",
+					"_name": "Horns of Hashut",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "6e97-d8b7-c396-fb4e",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "ca2b-418b-13c0-9d25",
+					"_name": "Chaos Legionnaires",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "25db-bc52-3401-3296",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "db43-4347-f4ff-264b",
+					"_name": "Centurion Marshall",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "ee6f-2bbd-7500-1738",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "b31c-970b-18df-9360",
+					"_name": "Eternus, Blade of the First Prince",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "b7d4-cf7e-4103-332d",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "9d25-16e5-1b52-7894",
+					"_name": "Ogroid Theridons",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7d3b-0a65-a89a-9928",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "6e9d-a864-0fdb-43ac",
+					"_name": "Zarshia Bittersoul",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "ef2f-5128-8625-da03",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "e6af-a789-c5ec-4f24",
+					"_name": "Slaves to Darkness Gaunt Summoner of Tzeentch",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "3cb1-8ae1-fc85-7c95",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "b4fc-f3d2-2065-aa69",
+					"_name": "Slaves to Darkness Daemon Prince",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "e66d-3ffc-473d-885f",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "roster",
+									"_value": "0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "efee-980d-07bd-6218",
+									"_type": "greaterThan"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "false"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "0564-1ec9-8a4d-faed",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "e9f2-765a-b7b8-ce8e",
+								"_primary": "true"
+							},
+							{
+								"_id": "50b4-849d-bab1-9a61",
+								"_name": "Ogroid Battleline",
+								"_hidden": "false",
+								"_targetId": "1c9b-2a07-1640-3d75",
+								"_primary": "false"
+							}
+						]
+					},
+					"_id": "49ed-3c61-dd82-ca82",
+					"_name": "Ogroid Theridons",
+					"_hidden": "true",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7d3b-0a65-a89a-9928",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "82aa-2116-230f-0f78",
+					"_name": "StD Warscroll Battalion: Godsworn Champions of Ruin",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "9316-99d7-2abe-c4a4",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "69c2-23d5-6518-fcf0",
+					"_name": "StD Warscroll Battalion: Godswrath Warband",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "ef3d-df98-3d5c-b3ab",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "da4d-3eac-5fdc-66e7",
+					"_name": "StD Warscroll Battalion: Ruinbringer Warband",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "e3a8-3782-6d2e-7aa3",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "48f7-144c-23bb-5e1e",
+					"_name": "StD Warscroll Battalion: Overlords of Chaos",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "bcde-b8bf-59e4-b3aa",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "b287-ecba-883d-0220",
+					"_name": "StD Warscroll Battalion: Bloodmarked Warband",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "13c5-d694-1a73-8bdc",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "9fb7-39f0-3d04-4b0a",
+					"_name": "StD Warscroll Battalion: Plaguetouched Warband",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "5a35-0208-71e1-17f9",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "1129-0584-e3ea-b01b",
+					"_name": "StD Warscroll Battalion: Fatesworn Warband",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "0f3f-b2b3-2c23-2e08",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "ec72-1ab7-e1b4-3c45",
+					"_name": "StD Warscroll Battalion: Pleasurebound Warband",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "86dd-4b23-cdd1-fdaa",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "9238-4d0f-af6d-a47a",
+					"_name": "3 Chaos Chariots",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "1ef6-1443-2463-f8fd",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "42ba-b2dd-bfbf-e84a",
+					"_name": "3 Gorebeast Chariots",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7d46-93d8-0a91-4a32",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "ce6a-5077-4fa7-a656",
+					"_name": "Sarrakkar Blackwing",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "f418-c3b6-2ff2-05fd",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "cebc-4fc1-327a-6a6b",
+					"_name": "The Gnarlspirit Pack",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "bd2e-7f31-f4f4-7629",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "e6b7-2afb-f270-eb32",
+					"_name": "Regiment of Renown - The Coven of Thryx",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "66b0-4847-a04e-0375",
+					"_type": "selectionEntry"
+				},
+				{
+					"_import": "true",
+					"_name": "Regiment of Renown - Phulgoth's Shudderhood",
+					"_hidden": "false",
+					"_type": "selectionEntry",
+					"_id": "d661-334-8228-f0eb",
+					"_targetId": "10de-6e02-9446-6700"
+				}
+			]
+		},
+		"catalogueLinks": {
+			"catalogueLink": [
+				{
+					"_id": "e2ba-3838-2584-6349",
+					"_name": "Chaos Data",
+					"_targetId": "0339-0157-6910-d29c",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				},
+				{
+					"_id": "f206-41a1-d664-ee89",
+					"_name": "Chaos - Slaves to Darkness Data",
+					"_targetId": "e0d8-b631-6934-ee34",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				},
+				{
+					"_id": "90a7-cad7-778e-5276",
+					"_name": "Destruction - Sons of Behemat",
+					"_targetId": "f904-b52f-810a-e446",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				},
+				{
+					"_id": "115e-4987-dae1-227d",
+					"_name": "Endless Spells",
+					"_targetId": "f0db-356d-9f9f-662d",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				},
+				{
+					"_type": "catalogue",
+					"_name": "Regiments of Renown",
+					"_id": "dbaa-db5f-fe13-ff16",
+					"_targetId": "33cf-d309-6df3-50d6"
+				}
+			]
+		},
+		"xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+		"_xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+		"_id": "798b-2f60-3166-c5bf",
+		"_name": "Chaos - Slaves to Darkness",
+		"_revision": "58",
+		"_battleScribeVersion": "2.03",
+		"_authorContact": "@BSData",
+		"_authorUrl": "https://github.com/BSData/warhammer-age-of-sigmar",
+		"_library": "false",
+		"_gameSystemId": "e51d-b1a3-75fc-dc33",
+		"_gameSystemRevision": "157",
+		"_type": "catalogue"
+	}
+}

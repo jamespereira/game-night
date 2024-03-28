@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { startTransition, useEffect, useState } from "react";
 import {
   Dialog,
   DialogClose,
@@ -12,22 +12,26 @@ import {
 import { Button } from "../ui/button";
 import { Unit } from "@/interfaces";
 import { getFactionByName } from "@/data/faction";
+import addUnits from "@/actions/add-units";
 
 type Props = {
-  userFaction: any;
-  onAddUnits: any;
+  faction: any;
+  userId: string;
+  gameId: number;
 };
 
-const AddUnits = ({ userFaction, onAddUnits }: Props) => {
+const AddUnits = ({ faction, userId, gameId }: Props) => {
   const [addedUnits, setAddedUnits] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
+
+  const { factionName, factionList } = faction;
 
   const handleSearch = (event) => {
     setSearchTerm(event.target.value);
   };
 
   const factionUnits =
-    userFaction?.sharedSelectionEntries?.selectionEntry?.filter(
+    factionList?.sharedSelectionEntries?.selectionEntry?.filter(
       (entry) => entry._type === "unit"
     );
 
@@ -51,10 +55,32 @@ const AddUnits = ({ userFaction, onAddUnits }: Props) => {
     setAddedUnits([]);
   }
 
+  function formatUnitObject(unit) {
+    const formattedUnit = {
+      unitId: unit._id,
+      name: unit._name,
+      unitType: unit.categoryLinks.categoryLink?.find(
+        (c) => c._name.toLowerCase() === "hero"
+      )
+        ? "Leader"
+        : "Battleline",
+      points: Number(unit.costs?.cost._value) || 100,
+    };
+
+    return formattedUnit;
+  }
+
+  function onAddUnits(units) {
+    startTransition(() => {
+      const newUnits = units.map((unit) => formatUnitObject(unit));
+      addUnits(newUnits, userId, gameId, factionName);
+    });
+  }
+
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button>Add Units</Button>
+        <Button disabled={!factionList}>Add Units</Button>
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
@@ -86,10 +112,10 @@ const AddUnits = ({ userFaction, onAddUnits }: Props) => {
         <div className="flex flex-col gap-y-4">
           <p>Added units:</p>
           <ul>
-            {addedUnits?.map((unit) => (
+            {addedUnits?.map((unit, i) => (
               <li
                 className="flex flex-row justify-between items-center gap-x-4 p-4 border-t-2 border-y-slate-400"
-                key={unit._id}
+                key={`${unit._id}-${i}`}
               >
                 {unit._name}
                 <Button onClick={() => handleRemove(unit)}>Remove</Button>

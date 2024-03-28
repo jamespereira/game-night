@@ -1,0 +1,5324 @@
+{
+	"catalogue": {
+		"categoryEntries": {
+			"categoryEntry": [
+				{
+					"_id": "d72b-b718-4010-345d",
+					"_name": "DEINTALOS THE EXILE",
+					"_hidden": "false"
+				},
+				{
+					"_id": "68d2-327f-6699-51f3",
+					"_name": "THE EXILED DEAD",
+					"_hidden": "false"
+				},
+				{
+					"_id": "312a-dc3d-4c6a-2687",
+					"_name": "KING MORLAK VELMORN",
+					"_hidden": "false"
+				},
+				{
+					"_id": "508f-5e4f-8ffd-ff24",
+					"_name": "THE SONS OF VELMORN",
+					"_hidden": "false"
+				},
+				{
+					"_id": "9e10-8150-9ef1-0c1b",
+					"_name": "ASKURGAN TRUEBLOODS",
+					"_hidden": "false"
+				},
+				{
+					"_id": "a075-de42-a347-4f64",
+					"_name": "IVYA VOLGA",
+					"_hidden": "false"
+				},
+				{
+					"_name": "SEKHAR",
+					"_hidden": "false",
+					"_id": "50c4-1b1e-bdf8-cf0f"
+				},
+				{
+					"_name": "ZONDARA RIVENHEART",
+					"_hidden": "false",
+					"_id": "471c-be46-b805-73cf"
+				},
+				{
+					"_name": "ZONDARA'S GRAVEBREAKERS",
+					"_hidden": "false",
+					"_id": "7401-771-8ab5-93f5"
+				}
+			]
+		},
+		"entryLinks": {
+			"entryLink": [
+				{
+					"_id": "1b98-1990-d907-a577",
+					"_name": "Belladamma Volga",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "fde2-6663-ed5e-7641",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "a5f4-34d2-4e8c-9727",
+					"_name": "Deathrattle Skeletons",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "0398-bd49-3de5-90a8",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "c78d-5b6d-3ba6-8ec5",
+					"_name": "Dire Wolves",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "0925-7712-23ee-1e94",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "d78d-614a-7e24-b3fb",
+					"_name": "Mortis Engine",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "5e67-30b5-a4af-f7a8",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "599f-2fa7-2be2-c367",
+					"_name": "Terrorgheist",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "f808-e030-4647-63f9",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "2787-a4ee-4745-1dfa",
+					"_name": "Zombie Dragon",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "2d0c-b7b5-97ce-997e",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "2a09-c6e3-4610-c247",
+					"_name": "Gorslav the Gravekeeper",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "fa23-2ab4-5dbc-9aa3",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "b246-6dc3-c34f-64a0",
+					"_name": "Radukar the Wolf",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "8d8c-d907-813d-397a",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "211a-8354-d51f-0284",
+					"_name": "Torgillius the Chamberlain",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "66f7-c222-914f-eba0",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "95c7-5f3f-2b27-a921",
+					"_name": "Watch Captain Halgrim",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "eb12-2d3d-eea7-383e",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "be0e-ceca-d94e-cbdf",
+					"_name": "Kosargi Nightguard",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "c724-23ef-e144-7933",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "9082-912d-3f58-b116",
+					"_name": "Vargskyr",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "b233-3ed0-cc77-398c",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "041d-e7c0-0887-c6eb",
+					"_name": "Vyrkos Blood-born",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "8382-daed-6c8b-b41d",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "9ead-b21d-a99b-626c",
+					"_name": "Prince Duvalle",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "fd99-02a0-3abf-18bf",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "ac64-16b0-e6a9-a67c",
+					"_name": "The Crimson Court",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "a4ce-ed6f-a401-6edc",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "e62f-1fcf-d0a9-602a",
+					"_name": "Kritza",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "0c84-c02e-eb34-646a",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "58ad-f111-d355-3a1f",
+					"_name": "Lady Annika",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "ffc2-90d9-5f18-1338",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "32e5-4013-0a92-11f2",
+					"_name": "Lauka Vai",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "ffa3-06de-238b-4d52",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "484c-cbb1-51fd-af94",
+					"_name": "Necromancer",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "aef7-e01a-dd19-2b1d",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "1e1a-64fd-b4eb-fa6d",
+					"_name": "Radukar the Beast",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "4d29-3b86-0870-60ec",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "3d8e-4266-e047-c793",
+					"_name": "Vampire Lord",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "6dc8-2773-3fbb-ef70",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "bd3a-4f7d-7d92-e2e8",
+					"_name": "Vengorian Lord",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "5f87-7398-4d61-41e7",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "d76e-c743-6607-485a",
+					"_name": "Wight King",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "d927-1504-e3eb-d931",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "5d2c-f3ad-11e9-0ce2",
+					"_name": "Wight King on Skeletal Steed",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "bbd6-1db2-5f75-f6e2",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "a096-7fc4-a966-06cd",
+					"_name": "Bloodseeker Palanquin",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "f08a-0379-143b-4ea1",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "60e2-7a65-7db0-4c5b",
+					"_name": "Coven Throne",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "cf99-bace-e0a6-a947",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "79da-529a-38ea-751b",
+					"_name": "Mannfred, Mortarch of Night",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "993f-68a2-b801-2702",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "d2fd-9be4-bdeb-a807",
+					"_name": "Nagash, Supreme Lord of the Undead",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7c0c-91b9-f052-24af",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "d3a7-ed1c-ec85-c43c",
+					"_name": "Neferata, Mortarch of Blood",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "0167-7f06-0132-a7ca",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "9b9e-57ac-6f82-ded2",
+					"_name": "Prince Vhordrai",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "80f5-4efc-d428-18ef",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "5f2c-b37c-75e0-4bbd",
+					"_name": "Vampire Lord on Zombie Dragon",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "a1c9-5445-3145-bce0",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "94bc-bdd4-0c7d-fc48",
+					"_name": "Black Knights",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "c07b-4234-ba41-2802",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "7d2a-0342-7771-19a4",
+					"_name": "Blood Knights",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "0bd3-bd67-4c5f-a7c8",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "e8a4-f66d-de09-f7ce",
+					"_name": "Corpse Cart",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "b14e-fd95-65f0-c1ee",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "b5af-ebaa-412b-4264",
+					"_name": "Deadwalker Zombies",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "cf5a-5e46-0783-7be9",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "3f68-f3ca-a4b2-34d0",
+					"_name": "Fell Bats",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "e106-21eb-cb57-1278",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "f12c-83f6-a0d1-c735",
+					"_name": "Grave Guard",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "ae91-dab3-c987-4379",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "416b-44b1-fb81-9c34",
+					"_name": "The Sepulchral Guard",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "a4e9-75d4-55bd-e162",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "00a9-53c1-2b2d-af3a",
+					"_name": "Vargheists",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "62c8-5a99-7804-109a",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "ff41-9bb6-e911-d620",
+					"_name": "Soulblight Warscroll Battalion: Deathstench Drove",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "2302-34d1-c837-fb89",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "c8f3-32ca-883d-4541",
+					"_name": "Soulblight Warscroll Battalion: Fellwing Flock",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "936b-d5ab-0498-b9a5",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "67ec-cfba-eef7-f3b6",
+					"_name": "Soulblight Warscroll Battalion: Red Banqueters",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "b2e8-bd57-f5c5-d9c5",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "b3cb-d262-d434-c79f",
+					"_name": "Allegiance",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "42cd-b93d-0148-d66f",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "f6eb-b603-c1d8-ba33",
+					"_name": "Big Drogg Fort-Kicka - Gatebreaker Mercenary",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "8c3b-e825-efb0-25bd",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "6f36-a36d-bbe9-d84f",
+					"_name": "Brawlsmasha - Bonegrinder Mercenary",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "2f06-27c0-9f3d-40ad",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "e87f-3a9a-83fe-d234",
+					"_name": "Bundo Whalebiter - Kraken-Eater Mercenary",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "efae-6133-d899-a7e4",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "632c-2fb9-f9fc-afd4",
+					"_name": "One-Eyed Grunnock - Warstompa Mercenary",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "40c7-4bb8-cfd9-7319",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "83a3-3919-ed26-221a",
+					"_name": "Bat Swarms [LEGENDS]",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "5f17-9426-3f02-fa2f",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "fe1c-ec26-7d94-d9fa",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "1974-3f49-7f0b-8422",
+							"_primary": "true"
+						}
+					},
+					"_id": "6867-4f16-0dde-2756",
+					"_name": "Grand Strategy",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7e38-9ed6-ccc2-dd61",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "fc0b-eee0-441f-50bb",
+					"_name": "Soulblight Core Battalion: Deathstench Drove",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "e376-28f6-2951-33d2",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "7a62-8d78-059b-3a03",
+					"_name": "Soulblight Core Battalion: Fellwing Flock",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "9554-59ae-52c4-77fc",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "1dc6-a8ab-53ee-0238",
+					"_name": "Soulblight Core Battalion: Radukar's Court",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "f5d7-8594-2b91-7104",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "836c-dc0c-2d2e-2ba9",
+					"_name": "Deintalos the Exile",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "98de-3585-725a-a25d",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "735c-9fc2-c05b-4b2d",
+					"_name": "The Exiled Dead",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7cec-ef8c-e266-e541",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_targetId": "1974-3f49-7f0b-8422",
+							"_id": "1e7-852-92f5-e163",
+							"_primary": "true",
+							"_name": "Game Options"
+						}
+					},
+					"_id": "28b9-86e1-8200-aba3",
+					"_name": "Battle Tactics: Terror of the Undead",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "cdb4-1c8b-ee6d-55ab",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "150c-60af-8823-5dbb",
+					"_name": "Cado Ezechiar, the Hollow King",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "364b-9f77-019a-1565",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "e239-13e7-b452-a3ad",
+					"_name": "The Sons of Velmorn",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "55fe-7871-2714-4010",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "5ce9-ef70-b945-c33a",
+					"_name": "King Morlak Velmorn",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "6b37-28df-c36d-2fbe",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "2326-4520-f733-5aa0",
+					"_name": "Askurgan Trueblades",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "b0fd-95ae-e893-c5d9",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "bf68-6b21-042a-7ef9",
+					"_name": "Ivya Volga, the Outcast",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "d4ba-854e-8b3e-e7f6",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "dde6-19a6-5b49-f001",
+					"_name": "Soulblight Warscroll Battalion: Deathmarch",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "25ea-f40e-90d5-9b27",
+					"_type": "selectionEntry"
+				},
+				{
+					"_import": "true",
+					"_name": "Regiment of Renown - Jerrion's Delegation",
+					"_hidden": "false",
+					"_type": "selectionEntry",
+					"_id": "a375-3dbb-ee29-6fcd",
+					"_targetId": "7836-fd33-36d8-9a7a"
+				},
+				{
+					"_import": "true",
+					"_name": "Sekhar, Fang of Nulahmia",
+					"_hidden": "false",
+					"_type": "selectionEntry",
+					"_id": "e030-8e50-1bd1-4427",
+					"_targetId": "15bc-2892-693c-2c8g"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_targetId": "1974-3f49-7f0b-8422",
+							"_id": "d8b4-fc20-90cf-4c06",
+							"_primary": "true",
+							"_name": "Game Options"
+						}
+					},
+					"_import": "true",
+					"_name": "Battle Tacics: Scions of Nulahmia",
+					"_hidden": "false",
+					"_id": "cfdb-946e-ce65-4c70",
+					"_targetId": "747e-22fd-6c6d-b84a",
+					"_type": "selectionEntry"
+				},
+				{
+					"_import": "true",
+					"_name": "Regiment of Renown - The Sorrowmourne Choir",
+					"_hidden": "false",
+					"_type": "selectionEntry",
+					"_id": "8dff-7932-2046-ec3a",
+					"_targetId": "48ca-d15d-4e8b-be5b"
+				},
+				{
+					"_import": "true",
+					"_name": "Regiment of Renown - The Summerking's Entourage",
+					"_hidden": "false",
+					"_type": "selectionEntry",
+					"_id": "3d98-7fa-2755-c26a",
+					"_targetId": "2eda-9ef0-22d9-a4ba"
+				},
+				{
+					"_import": "true",
+					"_name": "Regiment of Renown - Scions of the Necropolis",
+					"_hidden": "false",
+					"_type": "selectionEntry",
+					"_id": "7768-a8b7-a27d-f18a",
+					"_targetId": "8fe0-4d59-efcf-50e0"
+				},
+				{
+					"_import": "true",
+					"_name": "Regiment of Renown - The Liche's Hand",
+					"_hidden": "false",
+					"_type": "selectionEntry",
+					"_id": "dc42-9e2d-1970-328",
+					"_targetId": "b809-9d2-4993-b523"
+				},
+				{
+					"_import": "true",
+					"_name": "Zondara's Gravebreakers",
+					"_hidden": "false",
+					"_id": "a0a5-91ec-5e8e-dbc6",
+					"_targetId": "6079-5aff-1f84-b816",
+					"_type": "selectionEntry"
+				}
+			]
+		},
+		"sharedSelectionEntries": {
+			"selectionEntry": [
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": [
+											{
+												"_field": "selections",
+												"_scope": "ancestor",
+												"_value": "0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "false",
+												"_includeChildForces": "false",
+												"_childId": "24d6-500b-7e3f-1470",
+												"_type": "instanceOf"
+											},
+											{
+												"_field": "selections",
+												"_scope": "ancestor",
+												"_value": "0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "false",
+												"_includeChildForces": "false",
+												"_childId": "5c1d-d0be-e5cf-9fe3",
+												"_type": "instanceOf"
+											},
+											{
+												"_field": "selections",
+												"_scope": "ancestor",
+												"_value": "0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "false",
+												"_includeChildForces": "false",
+												"_childId": "88f2-a5fd-1371-927b",
+												"_type": "instanceOf"
+											},
+											{
+												"_field": "selections",
+												"_scope": "ancestor",
+												"_value": "0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "false",
+												"_includeChildForces": "false",
+												"_childId": "78f3-8a59-699a-61e8",
+												"_type": "instanceOf"
+											},
+											{
+												"_field": "selections",
+												"_scope": "force",
+												"_value": "0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "false",
+												"_includeChildForces": "false",
+												"_childId": "8c26-2422-34d3-31a5",
+												"_type": "instanceOf"
+											},
+											{
+												"_field": "selections",
+												"_scope": "ancestor",
+												"_value": "0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "false",
+												"_includeChildForces": "false",
+												"_childId": "fc4e-6be8-ec51-c113",
+												"_type": "instanceOf"
+											},
+											{
+												"_field": "selections",
+												"_scope": "ancestor",
+												"_value": "0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "false",
+												"_includeChildForces": "false",
+												"_childId": "1e36-e511-437b-5de8",
+												"_type": "instanceOf"
+											},
+											{
+												"_field": "selections",
+												"_scope": "ancestor",
+												"_value": "0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "false",
+												"_includeChildForces": "false",
+												"_childId": "f92d-bf15-574c-d04a",
+												"_type": "instanceOf"
+											},
+											{
+												"_field": "selections",
+												"_scope": "ancestor",
+												"_value": "0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "false",
+												"_includeChildForces": "false",
+												"_childId": "524e-8001-63ee-cdf7",
+												"_type": "instanceOf"
+											},
+											{
+												"_type": "instanceOf",
+												"_value": "1",
+												"_field": "selections",
+												"_scope": "ancestor",
+												"_childId": "f8ed-b018-a21b-e78c",
+												"_shared": "true"
+											},
+											{
+												"_type": "instanceOf",
+												"_value": "1",
+												"_field": "selections",
+												"_scope": "ancestor",
+												"_childId": "4e47-2376-9338-8418",
+												"_shared": "true"
+											}
+										]
+									},
+									"_type": "or"
+								}
+							},
+							"_type": "set",
+							"_field": "7080-40f5-bc92-4bfd",
+							"_value": "0"
+						}
+					},
+					"constraints": {
+						"constraint": [
+							{
+								"_field": "selections",
+								"_scope": "roster",
+								"_value": "1",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "true",
+								"_includeChildForces": "false",
+								"_id": "7080-40f5-bc92-4bfd",
+								"_type": "min"
+							},
+							{
+								"_field": "selections",
+								"_scope": "roster",
+								"_value": "1",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "true",
+								"_includeChildForces": "false",
+								"_id": "3def-f9a6-d149-950c",
+								"_type": "max"
+							}
+						]
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "8358-9b47-d53e-04b3",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "87e8-c095-f059-5f7b",
+							"_primary": "true"
+						}
+					},
+					"selectionEntryGroups": {
+						"selectionEntryGroup": {
+							"constraints": {
+								"constraint": [
+									{
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "1",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "c96f-094b-24ee-a3cc",
+										"_type": "min"
+									},
+									{
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "1",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "16b8-8804-7ccb-ef8c",
+										"_type": "max"
+									}
+								]
+							},
+							"categoryLinks": {
+								"categoryLink": {
+									"_id": "5f5d-5e1c-59be-4088",
+									"_name": "Allegiance",
+									"_hidden": "false",
+									"_targetId": "87e8-c095-f059-5f7b",
+									"_primary": "false"
+								}
+							},
+							"entryLinks": {
+								"entryLink": {
+									"_id": "ab08-6f38-3d37-071d",
+									"_name": "Allegiance: Soulblight Gravelords",
+									"_hidden": "false",
+									"_collective": "false",
+									"_import": "true",
+									"_targetId": "b72d-5ec7-bade-32e1",
+									"_type": "selectionEntry"
+								}
+							},
+							"_id": "15e5-191c-7c52-94a8",
+							"_name": "Allegiance",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_defaultSelectionEntryId": "ab08-6f38-3d37-071d"
+						}
+					},
+					"costs": {
+						"cost": {
+							"_name": "pts",
+							"_typeId": "points",
+							"_value": "0"
+						}
+					},
+					"_id": "42cd-b93d-0148-d66f",
+					"_name": "Allegiance",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"modifiers": {
+						"modifier": [
+							{
+								"conditions": {
+									"condition": {
+										"_field": "selections",
+										"_scope": "roster",
+										"_value": "0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_childId": "7cec-ef8c-e266-e541",
+										"_type": "greaterThan"
+									}
+								},
+								"_type": "set",
+								"_field": "c1f6-7668-5e8c-2ef8",
+								"_value": "1"
+							},
+							{
+								"conditions": {
+									"condition": {
+										"_type": "atLeast",
+										"_value": "1",
+										"_field": "selections",
+										"_scope": "roster",
+										"_childId": "1189-76a9-df65-5ee4",
+										"_shared": "true",
+										"_includeChildForces": "true",
+										"_includeChildSelections": "true"
+									}
+								},
+								"_type": "set",
+								"_value": "true",
+								"_field": "hidden"
+							}
+						]
+					},
+					"constraints": {
+						"constraint": [
+							{
+								"_field": "selections",
+								"_scope": "roster",
+								"_value": "1",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "true",
+								"_includeChildForces": "false",
+								"_id": "3d9b-fc2b-95d9-8893",
+								"_type": "max"
+							},
+							{
+								"_field": "selections",
+								"_scope": "roster",
+								"_value": "0",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "true",
+								"_includeChildForces": "false",
+								"_id": "c1f6-7668-5e8c-2ef8",
+								"_type": "min"
+							},
+							{
+								"_field": "selections",
+								"_scope": "parent",
+								"_value": "1",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "false",
+								"_includeChildForces": "false",
+								"_id": "1934-3591-61da-86c0",
+								"_type": "max"
+							}
+						]
+					},
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Move",
+											"_typeId": "8655-6213-2824-1752",
+											"__text": "6\""
+										},
+										{
+											"_name": "Wounds",
+											"_typeId": "cd0e-fea6-411f-904d",
+											"__text": "6"
+										},
+										{
+											"_name": "Bravery",
+											"_typeId": "0c85-bf79-836b-759e",
+											"__text": "10"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "f8dd-4f2a-8543-4f36",
+											"__text": "4+"
+										}
+									]
+								},
+								"_id": "22ef-da4a-0276-c76a",
+								"_name": "Deintalos the Exile",
+								"_hidden": "false",
+								"_typeId": "1960-ca8e-67ce-2014",
+								"_typeName": "Unit"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Cast/Unbind",
+											"_typeId": "8294-f605-2c0f-8f92",
+											"__text": "1/1"
+										},
+										{
+											"_name": "Spells Known",
+											"_typeId": "dc9c-47d3-6931-859c",
+											"__text": "Arcane Bolt, Mystic Shield, Channelled Dynamism"
+										}
+									]
+								},
+								"_id": "6597-1129-5ce5-e43a",
+								"_name": "Wizard",
+								"_hidden": "false",
+								"_typeId": "f55d-ee3a-1597-110f",
+								"_typeName": "Magic"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Casting Value",
+											"_typeId": "2508-b604-1258-a920",
+											"__text": "3"
+										},
+										{
+											"_name": "Range",
+											"_typeId": "5b5c-1fd1-4c0f-5705",
+											"__text": "6\""
+										},
+										{
+											"_name": "Description",
+											"_typeId": "76ff-781d-b8e6-5f27",
+											"__text": "If successfully cast, pick 1 friendly THE EXILED DEAD unit wholly within range and visible to the caster. Until your next hero phase, that unit can run and still charge later in the turn."
+										}
+									]
+								},
+								"_id": "2285-1057-9a05-812b",
+								"_name": "Channelled Dynamism",
+								"_hidden": "false",
+								"_typeId": "2e81-5e22-c6e1-73cb",
+								"_typeName": "Spell"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Ability Details",
+										"_typeId": "d4dc-8e81-bc0e-b8f0",
+										"__text": "This unit has a ward of 5+."
+									}
+								},
+								"_id": "6d36-e4e3-224d-6def",
+								"_name": "Crackling Field",
+								"_hidden": "false",
+								"_typeId": "c924-5a68-471a-2fd5",
+								"_typeName": "Unit Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Ability Details",
+										"_typeId": "d4dc-8e81-bc0e-b8f0",
+										"__text": "At the end of the battleshock phase, if a friendly THE EXILED DEAD unit is within 6” of this unit, you can return 1 slain model to that unit."
+									}
+								},
+								"_id": "b4a7-6f27-b2f4-b45d",
+								"_name": "Terrible Dynamism",
+								"_hidden": "false",
+								"_typeId": "c924-5a68-471a-2fd5",
+								"_typeName": "Unit Abilities"
+							}
+						]
+					},
+					"infoLinks": {
+						"infoLink": {
+							"_id": "42b4-5684-9b3c-721c",
+							"_name": "The Hunger",
+							"_hidden": "false",
+							"_targetId": "2026-46db-b3fa-cd25",
+							"_type": "profile"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "df4f-0320-2d1c-7ea0",
+								"_name": "Leader",
+								"_hidden": "false",
+								"_targetId": "6c6b-e787-f9b8-a510",
+								"_primary": "true"
+							},
+							{
+								"_id": "c7b9-d364-0ee0-20d2",
+								"_name": "9 or less wounds Leader",
+								"_hidden": "false",
+								"_targetId": "a8ed-ca35-24e0-cf2e",
+								"_primary": "false"
+							},
+							{
+								"_id": "82f7-6472-b138-2f70",
+								"_name": "DEATH",
+								"_hidden": "false",
+								"_targetId": "6cdf-dd4f-0e91-e9c4",
+								"_primary": "false"
+							},
+							{
+								"_id": "1c84-9a62-035b-837f",
+								"_name": "SOULBLIGHT GRAVELORDS",
+								"_hidden": "false",
+								"_targetId": "3d31-12d5-6735-011c",
+								"_primary": "false"
+							},
+							{
+								"_id": "c3ea-f960-b497-8815",
+								"_name": "VAMPIRE",
+								"_hidden": "false",
+								"_targetId": "d1e1-d80a-c667-b587",
+								"_primary": "false"
+							},
+							{
+								"_id": "0946-a17e-2cb7-f1ff",
+								"_name": "HERO",
+								"_hidden": "false",
+								"_targetId": "4e0e-664d-51ea-0929",
+								"_primary": "false"
+							},
+							{
+								"_id": "4edf-790c-325b-e1e2",
+								"_name": "WIZARD",
+								"_hidden": "false",
+								"_targetId": "4f53-8230-2f02-9639",
+								"_primary": "false"
+							},
+							{
+								"_id": "4874-5fc1-f0b9-ffec",
+								"_name": "DEINTALOS THE EXILE",
+								"_hidden": "false",
+								"_targetId": "d72b-b718-4010-345d",
+								"_primary": "false"
+							},
+							{
+								"_id": "f314-5e96-2326-304d",
+								"_name": "Unique",
+								"_hidden": "false",
+								"_targetId": "088b-3a27-03f7-8249",
+								"_primary": "false"
+							}
+						]
+					},
+					"selectionEntries": {
+						"selectionEntry": [
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "a25c-c097-9d97-a6d6",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "79e5-16a7-1701-3c3b",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Type",
+													"_typeId": "655c-362e-a663-3e50",
+													"__text": "Missile"
+												},
+												{
+													"_name": "Range",
+													"_typeId": "ee32-7f8e-ccd7-b7b0",
+													"__text": "18\""
+												},
+												{
+													"_name": "Attacks",
+													"_typeId": "0bd7-bded-a0e0-19a0",
+													"__text": "2"
+												},
+												{
+													"_name": "To Hit",
+													"_typeId": "87f2-fb99-33f9-7269",
+													"__text": "4+"
+												},
+												{
+													"_name": "To Wound",
+													"_typeId": "8842-17f1-9794-4efc",
+													"__text": "2+"
+												},
+												{
+													"_name": "Rend",
+													"_typeId": "f578-d2a5-f0d3-b707",
+													"__text": "-2"
+												},
+												{
+													"_name": "Damage",
+													"_typeId": "b5b6-4cbd-661d-1b70",
+													"__text": "1"
+												}
+											]
+										},
+										"_id": "5e0e-63b7-4ba3-3aec",
+										"_name": "Dynamic Bolts",
+										"_hidden": "false",
+										"_typeId": "96df-ab28-5d72-bbb3",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": {
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0"
+									}
+								},
+								"_id": "01c1-df83-d82f-05cc",
+								"_name": "Dynamic Bolts",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "5f04-4f42-697b-a6f4",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "bd77-78d1-f0b4-5e0b",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Type",
+													"_typeId": "655c-362e-a663-3e50",
+													"__text": "Melee"
+												},
+												{
+													"_name": "Range",
+													"_typeId": "ee32-7f8e-ccd7-b7b0",
+													"__text": "1\""
+												},
+												{
+													"_name": "Attacks",
+													"_typeId": "0bd7-bded-a0e0-19a0",
+													"__text": "3"
+												},
+												{
+													"_name": "To Hit",
+													"_typeId": "87f2-fb99-33f9-7269",
+													"__text": "3+"
+												},
+												{
+													"_name": "To Wound",
+													"_typeId": "8842-17f1-9794-4efc",
+													"__text": "2+"
+												},
+												{
+													"_name": "Rend",
+													"_typeId": "f578-d2a5-f0d3-b707",
+													"__text": "-2"
+												},
+												{
+													"_name": "Damage",
+													"_typeId": "b5b6-4cbd-661d-1b70",
+													"__text": "D3"
+												}
+											]
+										},
+										"_id": "ecc5-5ae7-5794-eeb4",
+										"_name": "Stave Dynamic",
+										"_hidden": "false",
+										"_typeId": "96df-ab28-5d72-bbb3",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": {
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0"
+									}
+								},
+								"_id": "2b3e-f42c-ca21-4cff",
+								"_name": "Stave Dynamic",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							}
+						]
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"_id": "e722-950e-c8cf-0bb7",
+								"_name": "Battalions",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "9df7-269b-fa20-74b2",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"categoryLinks": {
+									"categoryLink": {
+										"_id": "d3bc-e7be-c764-9dc7",
+										"_name": "Unique General",
+										"_hidden": "false",
+										"_targetId": "fe3f-d230-7e2c-fba2",
+										"_primary": "false"
+									}
+								},
+								"_id": "0971-6d68-a511-a312",
+								"_name": "General",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "88d2-d540-0573-3402",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "ce18-33d4-9b46-688c",
+								"_name": "Spell Lores",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "8417-93fc-9562-a748",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"_id": "1b6e-1dbe-976a-1358",
+								"_name": "Incarnate Bonding",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "c890-acbd-0c80-55c9",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"modifiers": {
+									"modifier": {
+										"conditions": {
+											"condition": {
+												"_field": "selections",
+												"_scope": "roster",
+												"_value": "1",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "true",
+												"_includeChildForces": "false",
+												"_childId": "9fec-247c-d146-ead4",
+												"_type": "equalTo"
+											}
+										},
+										"_type": "set",
+										"_field": "hidden",
+										"_value": "false"
+									}
+								},
+								"_id": "1abe-93dd-55d7-fa48",
+								"_name": "Artefacts",
+								"_hidden": "true",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "a2c1-3fba-5acb-d560",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"modifiers": {
+									"modifier": {
+										"conditions": {
+											"condition": {
+												"_field": "selections",
+												"_scope": "roster",
+												"_value": "0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "true",
+												"_includeChildForces": "false",
+												"_childId": "9fec-247c-d146-ead4",
+												"_type": "equalTo"
+											}
+										},
+										"_type": "set",
+										"_field": "hidden",
+										"_value": "true"
+									}
+								},
+								"_id": "c9a4-33a1-f9ec-9d14",
+								"_name": "Command Traits",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "eda1-7945-4fea-a145",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"_import": "true",
+								"_name": "Mystic Shield",
+								"_hidden": "false",
+								"_type": "selectionEntry",
+								"_id": "d997-6228-fc76-bb79",
+								"_targetId": "5fdd-6634-f9f8-068a"
+							},
+							{
+								"_import": "true",
+								"_name": "Arcane Bolt",
+								"_hidden": "false",
+								"_type": "selectionEntry",
+								"_id": "a2cd-6cb5-f656-fdac",
+								"_targetId": "869c-168d-eba5-eacf"
+							}
+						]
+					},
+					"costs": {
+						"cost": {
+							"_name": "pts",
+							"_typeId": "points",
+							"_value": "220"
+						}
+					},
+					"_id": "98de-3585-725a-a25d",
+					"_name": "Deintalos the Exile",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "unit"
+				},
+				{
+					"modifiers": {
+						"modifier": [
+							{
+								"conditions": {
+									"condition": {
+										"_field": "selections",
+										"_scope": "roster",
+										"_value": "0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_childId": "98de-3585-725a-a25d",
+										"_type": "greaterThan"
+									}
+								},
+								"_type": "set",
+								"_field": "7cb8-c84c-a289-4a1c",
+								"_value": "1"
+							},
+							{
+								"conditions": {
+									"condition": {
+										"_type": "atLeast",
+										"_value": "1",
+										"_field": "selections",
+										"_scope": "roster",
+										"_childId": "1189-76a9-df65-5ee4",
+										"_shared": "true",
+										"_includeChildForces": "true",
+										"_includeChildSelections": "true"
+									}
+								},
+								"_type": "set",
+								"_value": "true",
+								"_field": "hidden"
+							}
+						]
+					},
+					"constraints": {
+						"constraint": [
+							{
+								"_field": "selections",
+								"_scope": "roster",
+								"_value": "1",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "true",
+								"_includeChildForces": "false",
+								"_id": "49ee-84eb-e05c-9065",
+								"_type": "max"
+							},
+							{
+								"_field": "selections",
+								"_scope": "roster",
+								"_value": "0",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "true",
+								"_includeChildForces": "false",
+								"_id": "7cb8-c84c-a289-4a1c",
+								"_type": "min"
+							},
+							{
+								"_field": "selections",
+								"_scope": "parent",
+								"_value": "1",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "false",
+								"_includeChildForces": "false",
+								"_id": "a983-de4a-57dd-4b37",
+								"_type": "max"
+							}
+						]
+					},
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Move",
+											"_typeId": "8655-6213-2824-1752",
+											"__text": "4\""
+										},
+										{
+											"_name": "Wounds",
+											"_typeId": "cd0e-fea6-411f-904d",
+											"__text": "2"
+										},
+										{
+											"_name": "Bravery",
+											"_typeId": "0c85-bf79-836b-759e",
+											"__text": "8"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "f8dd-4f2a-8543-4f36",
+											"__text": "-"
+										}
+									]
+								},
+								"_id": "79cf-6cd6-a74c-38c8",
+								"_name": "The Exiled Dead",
+								"_hidden": "false",
+								"_typeId": "1960-ca8e-67ce-2014",
+								"_typeName": "Unit"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Ability Details",
+										"_typeId": "d4dc-8e81-bc0e-b8f0",
+										"__text": "Prentice Marcov is the unit champion. He is armed with a Bonesaw instead of an Arco‑electric Weapon and has a Wounds characteristic of 3. Add 1 to casting and unbinding rolls for a friendly DEINTALOS THE EXILE if this unit includes Prentice Marcov."
+									}
+								},
+								"_id": "e729-3f87-d57c-f816",
+								"_name": "Champion",
+								"_hidden": "false",
+								"_typeId": "c924-5a68-471a-2fd5",
+								"_typeName": "Unit Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Ability Details",
+										"_typeId": "d4dc-8e81-bc0e-b8f0",
+										"__text": "Regulus is armed with a Pitted Halberd instead of an Arco-electric Weapon."
+									}
+								},
+								"_id": "f1ef-eb1a-ad59-2b27",
+								"_name": "Regulus",
+								"_hidden": "false",
+								"_typeId": "c924-5a68-471a-2fd5",
+								"_typeName": "Unit Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Ability Details",
+										"_typeId": "d4dc-8e81-bc0e-b8f0",
+										"__text": "If the unmodified hit roll for an attack made with an Arco-electric Weapon is 6, the target suffers 1 mortal wound and the attack sequence ends (do not make a wound roll or save roll)."
+									}
+								},
+								"_id": "8416-cd2d-d697-f08a",
+								"_name": "Dynamic Cage",
+								"_hidden": "false",
+								"_typeId": "c924-5a68-471a-2fd5",
+								"_typeName": "Unit Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Ability Details",
+										"_typeId": "d4dc-8e81-bc0e-b8f0",
+										"__text": "While this unit is wholly within 9” of a friendly DEINTALOS THE EXILE, Bault, Vlash, Ione and Coyl have a ward of 5+."
+									}
+								},
+								"_id": "a142-55a5-34d7-11b0",
+								"_name": "Crackling Field",
+								"_hidden": "false",
+								"_typeId": "c924-5a68-471a-2fd5",
+								"_typeName": "Unit Abilities"
+							}
+						]
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "7a27-5ab4-2e00-a76c",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "065e-fda7-fd27-1f40",
+								"_primary": "true"
+							},
+							{
+								"_id": "be32-cbd6-cb31-9c88",
+								"_name": "DEATH",
+								"_hidden": "false",
+								"_targetId": "6cdf-dd4f-0e91-e9c4",
+								"_primary": "false"
+							},
+							{
+								"_id": "1bb5-ea3d-722c-1d8f",
+								"_name": "SOULBLIGHT GRAVELORDS",
+								"_hidden": "false",
+								"_targetId": "3d31-12d5-6735-011c",
+								"_primary": "false"
+							},
+							{
+								"_id": "0b49-2bb2-a0fb-9784",
+								"_name": "DEADWALKERS",
+								"_hidden": "false",
+								"_targetId": "cba7-18df-b7ae-3365",
+								"_primary": "false"
+							},
+							{
+								"_id": "daef-54e0-d2da-4815",
+								"_name": "THE EXILED DEAD",
+								"_hidden": "false",
+								"_targetId": "68d2-327f-6699-51f3",
+								"_primary": "false"
+							},
+							{
+								"_id": "08c5-8f58-cc96-3757",
+								"_name": "Unique",
+								"_hidden": "false",
+								"_targetId": "088b-3a27-03f7-8249",
+								"_primary": "false"
+							},
+							{
+								"_targetId": "7f45-c5b3-c698-138d",
+								"_id": "a5f1-861c-a1ca-cf3d",
+								"_primary": "false",
+								"_name": "Infantry"
+							}
+						]
+					},
+					"selectionEntries": {
+						"selectionEntry": [
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "116e-daa5-7116-fab3",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "c421-42cf-663a-c73d",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Type",
+													"_typeId": "655c-362e-a663-3e50",
+													"__text": "Melee"
+												},
+												{
+													"_name": "Range",
+													"_typeId": "ee32-7f8e-ccd7-b7b0",
+													"__text": "1\""
+												},
+												{
+													"_name": "Attacks",
+													"_typeId": "0bd7-bded-a0e0-19a0",
+													"__text": "3"
+												},
+												{
+													"_name": "To Hit",
+													"_typeId": "87f2-fb99-33f9-7269",
+													"__text": "5+"
+												},
+												{
+													"_name": "To Wound",
+													"_typeId": "8842-17f1-9794-4efc",
+													"__text": "4+"
+												},
+												{
+													"_name": "Rend",
+													"_typeId": "f578-d2a5-f0d3-b707",
+													"__text": "-1"
+												},
+												{
+													"_name": "Damage",
+													"_typeId": "b5b6-4cbd-661d-1b70",
+													"__text": "1"
+												}
+											]
+										},
+										"_id": "977e-fed8-ef5e-8b2b",
+										"_name": "Arco-electric Weapon",
+										"_hidden": "false",
+										"_typeId": "96df-ab28-5d72-bbb3",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": {
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0"
+									}
+								},
+								"_id": "5e12-c7ac-0330-cc7c",
+								"_name": "Arco-electric Weapon",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "83a0-2ebe-d126-e4e2",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "ffae-29f5-b49e-a6ca",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Type",
+													"_typeId": "655c-362e-a663-3e50",
+													"__text": "Melee"
+												},
+												{
+													"_name": "Range",
+													"_typeId": "ee32-7f8e-ccd7-b7b0",
+													"__text": "1\""
+												},
+												{
+													"_name": "Attacks",
+													"_typeId": "0bd7-bded-a0e0-19a0",
+													"__text": "3"
+												},
+												{
+													"_name": "To Hit",
+													"_typeId": "87f2-fb99-33f9-7269",
+													"__text": "3+"
+												},
+												{
+													"_name": "To Wound",
+													"_typeId": "8842-17f1-9794-4efc",
+													"__text": "3+"
+												},
+												{
+													"_name": "Rend",
+													"_typeId": "f578-d2a5-f0d3-b707",
+													"__text": "-"
+												},
+												{
+													"_name": "Damage",
+													"_typeId": "b5b6-4cbd-661d-1b70",
+													"__text": "1"
+												}
+											]
+										},
+										"_id": "f929-b7e4-4d28-1e29",
+										"_name": "Bonesaw",
+										"_hidden": "false",
+										"_typeId": "96df-ab28-5d72-bbb3",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": {
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0"
+									}
+								},
+								"_id": "e25d-089a-69c5-0f99",
+								"_name": "Bonesaw",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "e326-5712-d514-c677",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "b21b-55ad-45b2-25bb",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Type",
+													"_typeId": "655c-362e-a663-3e50",
+													"__text": "Melee"
+												},
+												{
+													"_name": "Range",
+													"_typeId": "ee32-7f8e-ccd7-b7b0",
+													"__text": "1\""
+												},
+												{
+													"_name": "Attacks",
+													"_typeId": "0bd7-bded-a0e0-19a0",
+													"__text": "2"
+												},
+												{
+													"_name": "To Hit",
+													"_typeId": "87f2-fb99-33f9-7269",
+													"__text": "3+"
+												},
+												{
+													"_name": "To Wound",
+													"_typeId": "8842-17f1-9794-4efc",
+													"__text": "3+"
+												},
+												{
+													"_name": "Rend",
+													"_typeId": "f578-d2a5-f0d3-b707",
+													"__text": "-"
+												},
+												{
+													"_name": "Damage",
+													"_typeId": "b5b6-4cbd-661d-1b70",
+													"__text": "2"
+												}
+											]
+										},
+										"_id": "4f36-51a1-932e-bf46",
+										"_name": "Pitted Halberd",
+										"_hidden": "false",
+										"_typeId": "96df-ab28-5d72-bbb3",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": {
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0"
+									}
+								},
+								"_id": "2577-f7f6-25b3-3fe9",
+								"_name": "Pitted Halberd",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							}
+						]
+					},
+					"entryLinks": {
+						"entryLink": {
+							"_id": "ad14-2d9d-e8db-986e",
+							"_name": "Battalions",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_targetId": "9df7-269b-fa20-74b2",
+							"_type": "selectionEntryGroup"
+						}
+					},
+					"costs": {
+						"cost": {
+							"_name": "pts",
+							"_typeId": "points",
+							"_value": "0"
+						}
+					},
+					"_id": "7cec-ef8c-e266-e541",
+					"_name": "The Exiled Dead",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "unit"
+				},
+				{
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "f882-48d5-21a4-1787",
+										"__text": "Pick 1 friendly SUMMONABLE unit that is more than 3\" from all enemy units. You complete this battle tactic if that friendly unit is destroyed during this turn."
+									}
+								},
+								"_id": "ed13-bf33-1ad5-e229",
+								"_name": "Callous Overlord",
+								"_hidden": "false",
+								"_typeId": "eba0-4bf6-65fe-fdbc",
+								"_typeName": "Battle Tactic"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "f882-48d5-21a4-1787",
+										"__text": "You complete this tactic if any wounds allocated to your general or to 2 other friendly VAMPIRE units are healed using The Hunger ability during this turn."
+									}
+								},
+								"_id": "c592-fd9b-4a1e-061d",
+								"_name": "Cursed Unlife",
+								"_hidden": "false",
+								"_typeId": "eba0-4bf6-65fe-fdbc",
+								"_typeName": "Battle Tactic"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "f882-48d5-21a4-1787",
+										"__text": "Pick 1 friendly SUMMONABLE unit within 3\" of any enemy units. You complete this tactic if any enemy models were slain by that friendly unit this turn, and that friendly unit is within 3\" of any enemy units at the end of this turn."
+									}
+								},
+								"_id": "819f-2d38-a2e9-d539",
+								"_name": "The Grasping Dead",
+								"_hidden": "false",
+								"_typeId": "eba0-4bf6-65fe-fdbc",
+								"_typeName": "Battle Tactic"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "f882-48d5-21a4-1787",
+										"__text": "Pick 1 enemy HERO on the battlefield. You complete this tactic if that enemy HERO is slain during this turn by an attack made by a friendly VAMPIRE HERO."
+									}
+								},
+								"_name": "The Choicest Vintage",
+								"_typeId": "eba0-4bf6-65fe-fdbc",
+								"_typeName": "Battle Tactic",
+								"_hidden": "false",
+								"_id": "1955-e6ca-fbfb-57d9"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "f882-48d5-21a4-1787",
+										"__text": "You complete this tactic if you control 2 or more objectives wholly outside your territory and each of those objectives is contested by a friendly SUMMONABLE or VAMPIRE unit."
+									}
+								},
+								"_name": "Expand the Grave-empires",
+								"_typeId": "eba0-4bf6-65fe-fdbc",
+								"_typeName": "Battle Tactic",
+								"_hidden": "false",
+								"_id": "1409-1235-50ad-b04"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "f882-48d5-21a4-1787",
+										"__text": "Pick 1 friendly SOULBLIGHT GRAVELORDS SUMMONABLE unit on the battlefield. You complete this tactic if 6 or more slain models are returned to that unit during this turn."
+									}
+								},
+								"_name": "Endless Nightmare",
+								"_typeId": "eba0-4bf6-65fe-fdbc",
+								"_typeName": "Battle Tactic",
+								"_hidden": "false",
+								"_id": "7f80-9b1c-d5ec-e31b"
+							}
+						]
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "2192-b7a2-15ea-346d",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "1974-3f49-7f0b-8422",
+							"_primary": "true"
+						}
+					},
+					"costs": {
+						"cost": {
+							"_name": "pts",
+							"_typeId": "points",
+							"_value": "0"
+						}
+					},
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_type": "atLeast",
+									"_value": "1",
+									"_field": "selections",
+									"_scope": "roster",
+									"_childId": "1189-76a9-df65-5ee4",
+									"_shared": "true",
+									"_includeChildForces": "true",
+									"_includeChildSelections": "true"
+								}
+							},
+							"_type": "set",
+							"_value": "true",
+							"_field": "hidden"
+						}
+					},
+					"_id": "cdb4-1c8b-ee6d-55ab",
+					"_name": "Battle Tactics: Terror of the Undead",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "upgrade"
+				},
+				{
+					"modifiers": {
+						"modifier": [
+							{
+								"conditions": {
+									"condition": {
+										"_field": "selections",
+										"_scope": "roster",
+										"_value": "0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_childId": "55fe-7871-2714-4010",
+										"_type": "greaterThan"
+									}
+								},
+								"_type": "set",
+								"_field": "1e42-4ba9-f849-19c0",
+								"_value": "1"
+							},
+							{
+								"conditions": {
+									"condition": {
+										"_type": "atLeast",
+										"_value": "1",
+										"_field": "selections",
+										"_scope": "roster",
+										"_childId": "1189-76a9-df65-5ee4",
+										"_shared": "true",
+										"_includeChildForces": "true",
+										"_includeChildSelections": "true"
+									}
+								},
+								"_type": "set",
+								"_value": "true",
+								"_field": "hidden"
+							}
+						]
+					},
+					"constraints": {
+						"constraint": [
+							{
+								"_field": "selections",
+								"_scope": "roster",
+								"_value": "1",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "true",
+								"_includeChildForces": "false",
+								"_id": "1b46-11a2-4390-0abd",
+								"_type": "max"
+							},
+							{
+								"_field": "selections",
+								"_scope": "roster",
+								"_value": "0",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "true",
+								"_includeChildForces": "false",
+								"_id": "1e42-4ba9-f849-19c0",
+								"_type": "min"
+							}
+						]
+					},
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Move",
+											"_typeId": "8655-6213-2824-1752",
+											"__text": "4\""
+										},
+										{
+											"_name": "Wounds",
+											"_typeId": "cd0e-fea6-411f-904d",
+											"__text": "5"
+										},
+										{
+											"_name": "Bravery",
+											"_typeId": "0c85-bf79-836b-759e",
+											"__text": "10"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "f8dd-4f2a-8543-4f36",
+											"__text": "3+"
+										}
+									]
+								},
+								"_id": "7bc5-52da-efac-ae58",
+								"_name": "King Morlak Velmorn",
+								"_hidden": "false",
+								"_typeId": "1960-ca8e-67ce-2014",
+								"_typeName": "Unit"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Ability Details",
+										"_typeId": "d4dc-8e81-bc0e-b8f0",
+										"__text": "If the unmodified hit roll for an attack made with a Baleful Tomb Blade is 6, that attack causes 2 mortal wounds to the target in addition to any damage it inflicts."
+									}
+								},
+								"_id": "7ac2-9987-3ada-f9c1",
+								"_name": "Beheading Strike",
+								"_hidden": "false",
+								"_typeId": "c924-5a68-471a-2fd5",
+								"_typeName": "Unit Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Ability Details",
+										"_typeId": "d4dc-8e81-bc0e-b8f0",
+										"__text": "Once per turn, this unit can issue a command to a friendly THE SONS OF VELMORN unit without a command point being spent."
+									}
+								},
+								"_id": "afc6-a4c7-52fb-1930",
+								"_name": "Deadly Command",
+								"_hidden": "false",
+								"_typeId": "c924-5a68-471a-2fd5",
+								"_typeName": "Unit Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Ability Details",
+										"_typeId": "d4dc-8e81-bc0e-b8f0",
+										"__text": "At the start of the combat phase, roll a dice for each slain model from a friendly THE SONS OF VELMORN unit wholly within 12\" of this unit. On a 4+, you can return 1 slain model to that unit."
+									}
+								},
+								"_id": "d114-9887-5107-e322",
+								"_name": "Undying Dynasty",
+								"_hidden": "false",
+								"_typeId": "c924-5a68-471a-2fd5",
+								"_typeName": "Unit Abilities"
+							}
+						]
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "ccac-cb80-6212-c634",
+								"_name": "9 or less wounds Leader",
+								"_hidden": "false",
+								"_targetId": "a8ed-ca35-24e0-cf2e",
+								"_primary": "false"
+							},
+							{
+								"_id": "3535-4947-bcf4-3089",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "6c6b-e787-f9b8-a510",
+								"_primary": "true"
+							},
+							{
+								"_id": "4da2-c18e-2835-268e",
+								"_name": "Unique",
+								"_hidden": "false",
+								"_targetId": "088b-3a27-03f7-8249",
+								"_primary": "false"
+							},
+							{
+								"_id": "66ef-8eb6-52e5-9b2c",
+								"_name": "DEATH",
+								"_hidden": "false",
+								"_targetId": "6cdf-dd4f-0e91-e9c4",
+								"_primary": "false"
+							},
+							{
+								"_id": "9d56-8086-2eb6-25c5",
+								"_name": "SOULBLIGHT GRAVELORDS",
+								"_hidden": "false",
+								"_targetId": "3d31-12d5-6735-011c",
+								"_primary": "false"
+							},
+							{
+								"_id": "ce9f-135d-50b2-b98e",
+								"_name": "DEATHRATTLE",
+								"_hidden": "false",
+								"_targetId": "96d0-849a-a8cc-a6cf",
+								"_primary": "false"
+							},
+							{
+								"_id": "d66c-97c7-e217-6840",
+								"_name": "HERO",
+								"_hidden": "false",
+								"_targetId": "4e0e-664d-51ea-0929",
+								"_primary": "false"
+							},
+							{
+								"_id": "a730-cb91-df19-36c3",
+								"_name": "WIGHT KING",
+								"_hidden": "false",
+								"_targetId": "3844-597f-8938-7d8d",
+								"_primary": "false"
+							},
+							{
+								"_id": "7f0f-44b3-c32d-b017",
+								"_name": "KING MORLAK VELMORN",
+								"_hidden": "false",
+								"_targetId": "312a-dc3d-4c6a-2687",
+								"_primary": "false"
+							},
+							{
+								"_id": "4748-9c4c-b1c4-8139",
+								"_name": "SUMMONABLE",
+								"_hidden": "false",
+								"_targetId": "d51a-b7de-3b60-a231",
+								"_primary": "false"
+							}
+						]
+					},
+					"selectionEntries": {
+						"selectionEntry": {
+							"constraints": {
+								"constraint": [
+									{
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "1",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "9cf9-1544-bf21-f0c6",
+										"_type": "min"
+									},
+									{
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "1",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "6bb5-76f3-9688-b1cb",
+										"_type": "max"
+									}
+								]
+							},
+							"profiles": {
+								"profile": {
+									"characteristics": {
+										"characteristic": [
+											{
+												"_name": "Type",
+												"_typeId": "655c-362e-a663-3e50",
+												"__text": "Melee"
+											},
+											{
+												"_name": "Range",
+												"_typeId": "ee32-7f8e-ccd7-b7b0",
+												"__text": "1\""
+											},
+											{
+												"_name": "Attacks",
+												"_typeId": "0bd7-bded-a0e0-19a0",
+												"__text": "5"
+											},
+											{
+												"_name": "To Hit",
+												"_typeId": "87f2-fb99-33f9-7269",
+												"__text": "3+"
+											},
+											{
+												"_name": "To Wound",
+												"_typeId": "8842-17f1-9794-4efc",
+												"__text": "3+"
+											},
+											{
+												"_name": "Rend",
+												"_typeId": "f578-d2a5-f0d3-b707",
+												"__text": "-1"
+											},
+											{
+												"_name": "Damage",
+												"_typeId": "b5b6-4cbd-661d-1b70",
+												"__text": "2"
+											}
+										]
+									},
+									"_id": "50c6-8089-418c-68dc",
+									"_name": "Baleful Tomb Blade",
+									"_hidden": "false",
+									"_typeId": "96df-ab28-5d72-bbb3",
+									"_typeName": "Weapon"
+								}
+							},
+							"costs": {
+								"cost": {
+									"_name": "pts",
+									"_typeId": "points",
+									"_value": "0"
+								}
+							},
+							"_id": "91e2-7a73-adaa-b47d",
+							"_name": "Baleful Tomb Blade",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_type": "upgrade"
+						}
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"categoryLinks": {
+									"categoryLink": {
+										"_id": "e8b3-e437-e9fd-af86",
+										"_name": "Unique General",
+										"_hidden": "false",
+										"_targetId": "fe3f-d230-7e2c-fba2",
+										"_primary": "false"
+									}
+								},
+								"_id": "8aae-dde1-b49f-b95a",
+								"_name": "General",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "88d2-d540-0573-3402",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "a26f-9411-d674-bc0c",
+								"_name": "Battalions",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "9df7-269b-fa20-74b2",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"_id": "88c0-99e6-057f-7925",
+								"_name": "Incarnate Bonding",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "c890-acbd-0c80-55c9",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"modifiers": {
+									"modifier": {
+										"conditions": {
+											"condition": {
+												"_field": "selections",
+												"_scope": "roster",
+												"_value": "1",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "true",
+												"_includeChildForces": "false",
+												"_childId": "9fec-247c-d146-ead4",
+												"_type": "equalTo"
+											}
+										},
+										"_type": "set",
+										"_field": "hidden",
+										"_value": "false"
+									}
+								},
+								"_id": "6310-5cd0-ff3a-daa1",
+								"_name": "Artefacts",
+								"_hidden": "true",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "a2c1-3fba-5acb-d560",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"modifiers": {
+									"modifier": {
+										"conditions": {
+											"condition": {
+												"_field": "selections",
+												"_scope": "roster",
+												"_value": "0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "true",
+												"_includeChildForces": "false",
+												"_childId": "9fec-247c-d146-ead4",
+												"_type": "equalTo"
+											}
+										},
+										"_type": "set",
+										"_field": "hidden",
+										"_value": "true"
+									}
+								},
+								"_id": "973d-fa17-4039-1084",
+								"_name": "Command Traits",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "eda1-7945-4fea-a145",
+								"_type": "selectionEntryGroup"
+							}
+						]
+					},
+					"costs": {
+						"cost": {
+							"_name": "pts",
+							"_typeId": "points",
+							"_value": "230"
+						}
+					},
+					"_id": "6b37-28df-c36d-2fbe",
+					"_name": "King Morlak Velmorn",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "unit"
+				},
+				{
+					"modifiers": {
+						"modifier": [
+							{
+								"conditions": {
+									"condition": {
+										"_field": "selections",
+										"_scope": "roster",
+										"_value": "0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_childId": "6b37-28df-c36d-2fbe",
+										"_type": "greaterThan"
+									}
+								},
+								"_type": "set",
+								"_field": "8add-b9c1-248f-11b2",
+								"_value": "1"
+							},
+							{
+								"conditions": {
+									"condition": {
+										"_type": "atLeast",
+										"_value": "1",
+										"_field": "selections",
+										"_scope": "roster",
+										"_childId": "1189-76a9-df65-5ee4",
+										"_shared": "true",
+										"_includeChildForces": "true",
+										"_includeChildSelections": "true"
+									}
+								},
+								"_type": "set",
+								"_value": "true",
+								"_field": "hidden"
+							}
+						]
+					},
+					"constraints": {
+						"constraint": [
+							{
+								"_field": "selections",
+								"_scope": "roster",
+								"_value": "1",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "true",
+								"_includeChildForces": "false",
+								"_id": "0242-94a8-d437-a793",
+								"_type": "max"
+							},
+							{
+								"_field": "selections",
+								"_scope": "roster",
+								"_value": "0",
+								"_percentValue": "false",
+								"_shared": "true",
+								"_includeChildSelections": "true",
+								"_includeChildForces": "false",
+								"_id": "8add-b9c1-248f-11b2",
+								"_type": "min"
+							}
+						]
+					},
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Move",
+											"_typeId": "8655-6213-2824-1752",
+											"__text": "6\""
+										},
+										{
+											"_name": "Wounds",
+											"_typeId": "cd0e-fea6-411f-904d",
+											"__text": "2"
+										},
+										{
+											"_name": "Bravery",
+											"_typeId": "0c85-bf79-836b-759e",
+											"__text": "10"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "f8dd-4f2a-8543-4f36",
+											"__text": "4+"
+										}
+									]
+								},
+								"_id": "3af8-9da3-b525-f03b",
+								"_name": "The Sons of Velmorn",
+								"_hidden": "false",
+								"_typeId": "1960-ca8e-67ce-2014",
+								"_typeName": "Unit"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Ability Details",
+										"_typeId": "d4dc-8e81-bc0e-b8f0",
+										"__text": "Sir Jedran Falseborn has a Wounds characteristic of 4."
+									}
+								},
+								"_id": "6531-3ecc-095d-2e99",
+								"_name": "Sir Jedran Falseborn",
+								"_hidden": "false",
+								"_typeId": "c924-5a68-471a-2fd5",
+								"_typeName": "Unit Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Ability Details",
+										"_typeId": "d4dc-8e81-bc0e-b8f0",
+										"__text": "If the unmodified wound roll for an attack made with a melee weapon by this unit is 6, that attack causes 1 mortal wound to the target in addition to any damage it inflicts."
+									}
+								},
+								"_id": "bbc4-416f-2d6f-cd5b",
+								"_name": "Cursed Weapons",
+								"_hidden": "false",
+								"_typeId": "c924-5a68-471a-2fd5",
+								"_typeName": "Unit Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Ability Details",
+										"_typeId": "d4dc-8e81-bc0e-b8f0",
+										"__text": "Once per turn, at the start of the combat phase, you can say that this unit will form a shieldwall. If you do so, this unit has a Save characteristic of 3+ instead of 4+ until the end of that phase. However, if you do so, this unit cannot make pile-in moves in that phase."
+									}
+								},
+								"_id": "e0c1-0f3a-dbee-575f",
+								"_name": "Shield Up!",
+								"_hidden": "false",
+								"_typeId": "c924-5a68-471a-2fd5",
+								"_typeName": "Unit Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Ability Details",
+										"_typeId": "d4dc-8e81-bc0e-b8f0",
+										"__text": "At the start of the combat phase, you can pick 1 enemy unit within 1\" of this unit and roll a dice. On a 2+, that unit cannot make pile-in moves in that phase."
+									}
+								},
+								"_id": "0c5e-98a2-5245-606d",
+								"_name": "Canny Strike",
+								"_hidden": "false",
+								"_typeId": "c924-5a68-471a-2fd5",
+								"_typeName": "Unit Abilities"
+							}
+						]
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "c34a-ec55-e81b-6171",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "065e-fda7-fd27-1f40",
+								"_primary": "true"
+							},
+							{
+								"_id": "f20a-6b2c-afd2-931f",
+								"_name": "Unique",
+								"_hidden": "false",
+								"_targetId": "088b-3a27-03f7-8249",
+								"_primary": "false"
+							},
+							{
+								"_id": "c4e4-ba38-4e02-f7ab",
+								"_name": "DEATH",
+								"_hidden": "false",
+								"_targetId": "6cdf-dd4f-0e91-e9c4",
+								"_primary": "false"
+							},
+							{
+								"_id": "ad70-5a72-7f2f-471a",
+								"_name": "DEATHRATTLE",
+								"_hidden": "false",
+								"_targetId": "96d0-849a-a8cc-a6cf",
+								"_primary": "false"
+							},
+							{
+								"_id": "9bca-f4e0-5447-aa52",
+								"_name": "SOULBLIGHT GRAVELORDS",
+								"_hidden": "false",
+								"_targetId": "3d31-12d5-6735-011c",
+								"_primary": "false"
+							},
+							{
+								"_id": "c48f-297a-2d7d-dbe5",
+								"_name": "GRAVE GUARD",
+								"_hidden": "false",
+								"_targetId": "e8f4-3b13-f9d1-eb56",
+								"_primary": "false"
+							},
+							{
+								"_id": "5b9f-1853-19d1-1aef",
+								"_name": "THE SONS OF VELMORN",
+								"_hidden": "false",
+								"_targetId": "508f-5e4f-8ffd-ff24",
+								"_primary": "false"
+							},
+							{
+								"_id": "e0a8-29f8-0154-349e",
+								"_name": "SUMMONABLE",
+								"_hidden": "false",
+								"_targetId": "d51a-b7de-3b60-a231",
+								"_primary": "false"
+							},
+							{
+								"_targetId": "7f45-c5b3-c698-138d",
+								"_id": "a80a-f7ad-9bac-1398",
+								"_primary": "false",
+								"_name": "Infantry"
+							}
+						]
+					},
+					"selectionEntries": {
+						"selectionEntry": [
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "ff39-f746-85dc-fe83",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "d390-e17d-d794-e2c8",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Type",
+													"_typeId": "655c-362e-a663-3e50",
+													"__text": "Melee"
+												},
+												{
+													"_name": "Range",
+													"_typeId": "ee32-7f8e-ccd7-b7b0",
+													"__text": "2\""
+												},
+												{
+													"_name": "Attacks",
+													"_typeId": "0bd7-bded-a0e0-19a0",
+													"__text": "1"
+												},
+												{
+													"_name": "To Hit",
+													"_typeId": "87f2-fb99-33f9-7269",
+													"__text": "4+"
+												},
+												{
+													"_name": "To Wound",
+													"_typeId": "8842-17f1-9794-4efc",
+													"__text": "3+"
+												},
+												{
+													"_name": "Rend",
+													"_typeId": "f578-d2a5-f0d3-b707",
+													"__text": "-1"
+												},
+												{
+													"_name": "Damage",
+													"_typeId": "b5b6-4cbd-661d-1b70",
+													"__text": "2"
+												}
+											]
+										},
+										"_id": "9048-1643-5c04-0da5",
+										"_name": "Great Wight Blade",
+										"_hidden": "false",
+										"_typeId": "96df-ab28-5d72-bbb3",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": {
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0"
+									}
+								},
+								"_id": "2630-90c0-b6ab-f267",
+								"_name": "Great Wight Blade",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "ff5c-950d-f55a-b5f5",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "aaeb-d91f-1f38-4b3a",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Type",
+													"_typeId": "655c-362e-a663-3e50",
+													"__text": "Melee"
+												},
+												{
+													"_name": "Range",
+													"_typeId": "ee32-7f8e-ccd7-b7b0",
+													"__text": "1\""
+												},
+												{
+													"_name": "Attacks",
+													"_typeId": "0bd7-bded-a0e0-19a0",
+													"__text": "2"
+												},
+												{
+													"_name": "To Hit",
+													"_typeId": "87f2-fb99-33f9-7269",
+													"__text": "3+"
+												},
+												{
+													"_name": "To Wound",
+													"_typeId": "8842-17f1-9794-4efc",
+													"__text": "3+"
+												},
+												{
+													"_name": "Rend",
+													"_typeId": "f578-d2a5-f0d3-b707",
+													"__text": "-1"
+												},
+												{
+													"_name": "Damage",
+													"_typeId": "b5b6-4cbd-661d-1b70",
+													"__text": "1"
+												}
+											]
+										},
+										"_id": "0f4f-e7f3-352c-4206",
+										"_name": "Wight Blade",
+										"_hidden": "false",
+										"_typeId": "96df-ab28-5d72-bbb3",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": {
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0"
+									}
+								},
+								"_id": "5dfc-3c7f-bd4b-8e04",
+								"_name": "Wight Blade",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "97f6-dc35-eeaa-6b51",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "a114-02b5-b72b-b662",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Type",
+													"_typeId": "655c-362e-a663-3e50",
+													"__text": "Melee"
+												},
+												{
+													"_name": "Range",
+													"_typeId": "ee32-7f8e-ccd7-b7b0",
+													"__text": "1\""
+												},
+												{
+													"_name": "Attacks",
+													"_typeId": "0bd7-bded-a0e0-19a0",
+													"__text": "2"
+												},
+												{
+													"_name": "To Hit",
+													"_typeId": "87f2-fb99-33f9-7269",
+													"__text": "4+"
+												},
+												{
+													"_name": "To Wound",
+													"_typeId": "8842-17f1-9794-4efc",
+													"__text": "3+"
+												},
+												{
+													"_name": "Rend",
+													"_typeId": "f578-d2a5-f0d3-b707",
+													"__text": "-1"
+												},
+												{
+													"_name": "Damage",
+													"_typeId": "b5b6-4cbd-661d-1b70",
+													"__text": "1"
+												}
+											]
+										},
+										"_id": "1f1e-1add-86b7-5138",
+										"_name": "Wight Axe",
+										"_hidden": "false",
+										"_typeId": "96df-ab28-5d72-bbb3",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": {
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0"
+									}
+								},
+								"_id": "1d0e-ba3d-402c-338f",
+								"_name": "Wight Axe",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "2de3-9b5a-397a-30a8",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "464b-b404-e909-df17",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Type",
+													"_typeId": "655c-362e-a663-3e50",
+													"__text": "Melee"
+												},
+												{
+													"_name": "Range",
+													"_typeId": "ee32-7f8e-ccd7-b7b0",
+													"__text": "2\""
+												},
+												{
+													"_name": "Attacks",
+													"_typeId": "0bd7-bded-a0e0-19a0",
+													"__text": "3"
+												},
+												{
+													"_name": "To Hit",
+													"_typeId": "87f2-fb99-33f9-7269",
+													"__text": "3+"
+												},
+												{
+													"_name": "To Wound",
+													"_typeId": "8842-17f1-9794-4efc",
+													"__text": "3+"
+												},
+												{
+													"_name": "Rend",
+													"_typeId": "f578-d2a5-f0d3-b707",
+													"__text": "-1"
+												},
+												{
+													"_name": "Damage",
+													"_typeId": "b5b6-4cbd-661d-1b70",
+													"__text": "2"
+												}
+											]
+										},
+										"_id": "e867-144a-61b5-496f",
+										"_name": "Great Tomb Blade",
+										"_hidden": "false",
+										"_typeId": "96df-ab28-5d72-bbb3",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": {
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0"
+									}
+								},
+								"_id": "99fb-086c-49d9-dd2e",
+								"_name": "Great Tomb Blade",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							}
+						]
+					},
+					"entryLinks": {
+						"entryLink": {
+							"_id": "2943-e244-bc71-8d24",
+							"_name": "Battalions",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_targetId": "9df7-269b-fa20-74b2",
+							"_type": "selectionEntryGroup"
+						}
+					},
+					"costs": {
+						"cost": {
+							"_name": "pts",
+							"_typeId": "points",
+							"_value": "0"
+						}
+					},
+					"_id": "55fe-7871-2714-4010",
+					"_name": "The Sons of Velmorn",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "unit"
+				},
+				{
+					"modifiers": {
+						"modifier": [
+							{
+								"conditions": {
+									"condition": {
+										"_field": "selections",
+										"_scope": "roster",
+										"_value": "0",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "true",
+										"_includeChildForces": "false",
+										"_childId": "1411-460f-c135-a667",
+										"_type": "greaterThan"
+									}
+								},
+								"_type": "add",
+								"_field": "category",
+								"_value": "7ede-19c1-7261-f88b"
+							},
+							{
+								"conditions": {
+									"condition": {
+										"_type": "atLeast",
+										"_value": "1",
+										"_field": "selections",
+										"_scope": "roster",
+										"_childId": "1189-76a9-df65-5ee4",
+										"_shared": "true",
+										"_includeChildForces": "true",
+										"_includeChildSelections": "true"
+									}
+								},
+								"_type": "set",
+								"_value": "true",
+								"_field": "hidden"
+							}
+						]
+					},
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Move",
+											"_typeId": "8655-6213-2824-1752",
+											"__text": "6\""
+										},
+										{
+											"_name": "Wounds",
+											"_typeId": "cd0e-fea6-411f-904d",
+											"__text": "2"
+										},
+										{
+											"_name": "Bravery",
+											"_typeId": "0c85-bf79-836b-759e",
+											"__text": "10"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "f8dd-4f2a-8543-4f36",
+											"__text": "4+"
+										}
+									]
+								},
+								"_id": "ae1b-fc6e-5e24-73bb",
+								"_name": "Askurgan Trueblades",
+								"_hidden": "false",
+								"_typeId": "1960-ca8e-67ce-2014",
+								"_typeName": "Unit"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Ability Details",
+										"_typeId": "d4dc-8e81-bc0e-b8f0",
+										"__text": "At the end of the charge phase, if this unit includes any Cursebloods, you can pick 1 enemy unit within 1\" of this unit and say that the Curseblood will unleash a gut-wrenching howl. If you do so, roll a dice. Add 1 to the roll for each Curseblood in this unit. On a 4+, the strike-last effect applies to that enemy unit in the following combat phase."
+									}
+								},
+								"_id": "5329-281a-6bc6-1ae8",
+								"_name": "Gut-wrenching Howl",
+								"_hidden": "false",
+								"_typeId": "c924-5a68-471a-2fd5",
+								"_typeName": "Unit Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Ability Details",
+										"_typeId": "d4dc-8e81-bc0e-b8f0",
+										"__text": "Subtract 1 from hit rolls and wound rolls for attacks made with melee weapons by enemy MONSTER that target this unit. In addition, each time an enemy MONSTER unit is destroyed by attacks made by this unit, add 3\" to this unit's Move characteristic and add 1 to the Attacks characteristic of this unit's melee weapons for the rest of the battle."
+									}
+								},
+								"_id": "0eff-fc29-1c6c-9887",
+								"_name": "Creed of the Beast",
+								"_hidden": "false",
+								"_typeId": "c924-5a68-471a-2fd5",
+								"_typeName": "Unit Abilities"
+							}
+						]
+					},
+					"infoLinks": {
+						"infoLink": {
+							"_id": "25d4-368a-bb15-104e",
+							"_name": "The Hunger",
+							"_hidden": "false",
+							"_targetId": "2026-46db-b3fa-cd25",
+							"_type": "profile"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "11d8-f792-1718-3c3f",
+								"_name": "DEATH",
+								"_hidden": "false",
+								"_targetId": "6cdf-dd4f-0e91-e9c4",
+								"_primary": "false"
+							},
+							{
+								"_id": "2cc9-d524-bc3b-77a9",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "065e-fda7-fd27-1f40",
+								"_primary": "true"
+							},
+							{
+								"_id": "fe07-85b6-1799-6767",
+								"_name": "SOULBLIGHT GRAVELORDS",
+								"_hidden": "false",
+								"_targetId": "3d31-12d5-6735-011c",
+								"_primary": "false"
+							},
+							{
+								"_id": "46cb-a0ef-92d4-052a",
+								"_name": "VAMPIRE",
+								"_hidden": "false",
+								"_targetId": "d1e1-d80a-c667-b587",
+								"_primary": "false"
+							},
+							{
+								"_id": "6942-e283-e619-1106",
+								"_name": "ASKURGAN TRUEBLOODS",
+								"_hidden": "false",
+								"_targetId": "9e10-8150-9ef1-0c1b",
+								"_primary": "false"
+							},
+							{
+								"_targetId": "7f45-c5b3-c698-138d",
+								"_id": "3386-e2aa-59b8-a057",
+								"_primary": "false",
+								"_name": "Infantry"
+							}
+						]
+					},
+					"selectionEntries": {
+						"selectionEntry": [
+							{
+								"modifiers": {
+									"modifier": {
+										"conditions": {
+											"condition": {
+												"_field": "selections",
+												"_scope": "parent",
+												"_value": "1",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "true",
+												"_includeChildForces": "false",
+												"_childId": "0a8d-cde8-fba1-6c0d",
+												"_type": "equalTo"
+											}
+										},
+										"_type": "set",
+										"_field": "name",
+										"_value": "16 Askurgan Trueblades"
+									}
+								},
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "b411-4e77-2cc1-0609",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "dc8a-3d39-9652-da94",
+											"_type": "max"
+										}
+									]
+								},
+								"costs": {
+									"cost": {
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "180"
+									}
+								},
+								"_id": "ddf4-ab1d-9fb3-1c6e",
+								"_name": "8 Askurgan Trueblades",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": {
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "1",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "408a-69d4-577b-8847",
+										"_type": "max"
+									}
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": {
+												"_name": "Ability Details",
+												"_typeId": "d4dc-8e81-bc0e-b8f0",
+												"__text": "1 model in this unit can be an Askurgan Exemplar. That model has a Wounds characteristic of 4 and is armed with Paired Askurgan Blades instead of Askurgan Weapons."
+											}
+										},
+										"_id": "4a9b-6076-5998-1b35",
+										"_name": "Champion",
+										"_hidden": "false",
+										"_typeId": "c924-5a68-471a-2fd5",
+										"_typeName": "Unit Abilities"
+									}
+								},
+								"selectionEntries": {
+									"selectionEntry": {
+										"constraints": {
+											"constraint": [
+												{
+													"_field": "selections",
+													"_scope": "parent",
+													"_value": "1",
+													"_percentValue": "false",
+													"_shared": "true",
+													"_includeChildSelections": "false",
+													"_includeChildForces": "false",
+													"_id": "c193-5e39-53e7-10c3",
+													"_type": "min"
+												},
+												{
+													"_field": "selections",
+													"_scope": "parent",
+													"_value": "1",
+													"_percentValue": "false",
+													"_shared": "true",
+													"_includeChildSelections": "false",
+													"_includeChildForces": "false",
+													"_id": "f4a8-0546-1d32-ebbb",
+													"_type": "max"
+												}
+											]
+										},
+										"profiles": {
+											"profile": {
+												"characteristics": {
+													"characteristic": [
+														{
+															"_name": "Type",
+															"_typeId": "655c-362e-a663-3e50",
+															"__text": "Melee"
+														},
+														{
+															"_name": "Range",
+															"_typeId": "ee32-7f8e-ccd7-b7b0",
+															"__text": "1\""
+														},
+														{
+															"_name": "Attacks",
+															"_typeId": "0bd7-bded-a0e0-19a0",
+															"__text": "4"
+														},
+														{
+															"_name": "To Hit",
+															"_typeId": "87f2-fb99-33f9-7269",
+															"__text": "3+"
+														},
+														{
+															"_name": "To Wound",
+															"_typeId": "8842-17f1-9794-4efc",
+															"__text": "3+"
+														},
+														{
+															"_name": "Rend",
+															"_typeId": "f578-d2a5-f0d3-b707",
+															"__text": "-1"
+														},
+														{
+															"_name": "Damage",
+															"_typeId": "b5b6-4cbd-661d-1b70",
+															"__text": "1"
+														}
+													]
+												},
+												"_id": "1c84-0576-f548-4418",
+												"_name": "Paired Askurgan Blades",
+												"_hidden": "false",
+												"_typeId": "96df-ab28-5d72-bbb3",
+												"_typeName": "Weapon"
+											}
+										},
+										"costs": {
+											"cost": {
+												"_name": "pts",
+												"_typeId": "points",
+												"_value": "0"
+											}
+										},
+										"_id": "b9d4-1081-e998-04b9",
+										"_name": "Paired Askurgan Blades",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_type": "upgrade"
+									}
+								},
+								"costs": {
+									"cost": {
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0"
+									}
+								},
+								"_id": "76d1-04c3-3852-bec5",
+								"_name": "Champion",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "f944-d159-f0e4-fcd2",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "c5dc-acae-c378-9255",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Type",
+													"_typeId": "655c-362e-a663-3e50",
+													"__text": "Melee"
+												},
+												{
+													"_name": "Range",
+													"_typeId": "ee32-7f8e-ccd7-b7b0",
+													"__text": "1\""
+												},
+												{
+													"_name": "Attacks",
+													"_typeId": "0bd7-bded-a0e0-19a0",
+													"__text": "2"
+												},
+												{
+													"_name": "To Hit",
+													"_typeId": "87f2-fb99-33f9-7269",
+													"__text": "3+"
+												},
+												{
+													"_name": "To Wound",
+													"_typeId": "8842-17f1-9794-4efc",
+													"__text": "3+"
+												},
+												{
+													"_name": "Rend",
+													"_typeId": "f578-d2a5-f0d3-b707",
+													"__text": "-1"
+												},
+												{
+													"_name": "Damage",
+													"_typeId": "b5b6-4cbd-661d-1b70",
+													"__text": "1"
+												}
+											]
+										},
+										"_id": "9fd7-0877-a0a7-9e8b",
+										"_name": "Askurgan Weapons",
+										"_hidden": "false",
+										"_typeId": "96df-ab28-5d72-bbb3",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": {
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0"
+									}
+								},
+								"_id": "30b4-b7cc-6a40-4994",
+								"_name": "Askurgan Weapons",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": {
+										"_field": "selections",
+										"_scope": "parent",
+										"_value": "1",
+										"_percentValue": "false",
+										"_shared": "true",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false",
+										"_id": "bc00-282e-be1c-d654",
+										"_type": "max"
+									}
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": {
+												"_name": "Ability Details",
+												"_typeId": "d4dc-8e81-bc0e-b8f0",
+												"__text": "1 in every 8 models in this unit can be a Curseblood. A Curseblood has a Wounds characteristic of 4 and is armed with Elongated Claws and Slavering Maw instead of Askurgan Weapons."
+											}
+										},
+										"_id": "cc94-8b08-dd0e-6ad8",
+										"_name": "Curseblood",
+										"_hidden": "false",
+										"_typeId": "c924-5a68-471a-2fd5",
+										"_typeName": "Unit Abilities"
+									}
+								},
+								"selectionEntries": {
+									"selectionEntry": {
+										"constraints": {
+											"constraint": [
+												{
+													"_field": "selections",
+													"_scope": "parent",
+													"_value": "1",
+													"_percentValue": "false",
+													"_shared": "true",
+													"_includeChildSelections": "false",
+													"_includeChildForces": "false",
+													"_id": "70cd-8390-e415-172e",
+													"_type": "min"
+												},
+												{
+													"_field": "selections",
+													"_scope": "parent",
+													"_value": "1",
+													"_percentValue": "false",
+													"_shared": "true",
+													"_includeChildSelections": "false",
+													"_includeChildForces": "false",
+													"_id": "d35b-be18-d308-e255",
+													"_type": "max"
+												}
+											]
+										},
+										"profiles": {
+											"profile": {
+												"characteristics": {
+													"characteristic": [
+														{
+															"_name": "Type",
+															"_typeId": "655c-362e-a663-3e50",
+															"__text": "Melee"
+														},
+														{
+															"_name": "Range",
+															"_typeId": "ee32-7f8e-ccd7-b7b0",
+															"__text": "2\""
+														},
+														{
+															"_name": "Attacks",
+															"_typeId": "0bd7-bded-a0e0-19a0",
+															"__text": "5"
+														},
+														{
+															"_name": "To Hit",
+															"_typeId": "87f2-fb99-33f9-7269",
+															"__text": "4+"
+														},
+														{
+															"_name": "To Wound",
+															"_typeId": "8842-17f1-9794-4efc",
+															"__text": "3+"
+														},
+														{
+															"_name": "Rend",
+															"_typeId": "f578-d2a5-f0d3-b707",
+															"__text": "-2"
+														},
+														{
+															"_name": "Damage",
+															"_typeId": "b5b6-4cbd-661d-1b70",
+															"__text": "1"
+														}
+													]
+												},
+												"_id": "1aec-abd3-8404-004f",
+												"_name": "Elongated Claws and Slavering Maw",
+												"_hidden": "false",
+												"_typeId": "96df-ab28-5d72-bbb3",
+												"_typeName": "Weapon"
+											}
+										},
+										"costs": {
+											"cost": {
+												"_name": "pts",
+												"_typeId": "points",
+												"_value": "0"
+											}
+										},
+										"_id": "aa35-c3ba-cfbd-36c1",
+										"_name": "Elongated Claws and Slavering Maw",
+										"_hidden": "false",
+										"_collective": "false",
+										"_import": "true",
+										"_type": "upgrade"
+									}
+								},
+								"costs": {
+									"cost": {
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0"
+									}
+								},
+								"_id": "5ac6-4415-4ee2-82fa",
+								"_name": "Curseblood",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							}
+						]
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"costs": {
+									"cost": {
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "180"
+									}
+								},
+								"_id": "bb4c-eea2-90fc-4049",
+								"_name": "Reinforced",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "0a8d-cde8-fba1-6c0d",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "ea6d-4f43-5194-827e",
+								"_name": "Battalions",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "9df7-269b-fa20-74b2",
+								"_type": "selectionEntryGroup"
+							}
+						]
+					},
+					"costs": {
+						"cost": {
+							"_name": "pts",
+							"_typeId": "points",
+							"_value": "0"
+						}
+					},
+					"_id": "b0fd-95ae-e893-c5d9",
+					"_name": "Askurgan Trueblades",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "unit"
+				},
+				{
+					"constraints": {
+						"constraint": {
+							"_field": "selections",
+							"_scope": "roster",
+							"_value": "1",
+							"_percentValue": "false",
+							"_shared": "true",
+							"_includeChildSelections": "true",
+							"_includeChildForces": "false",
+							"_id": "3067-90af-def8-daac",
+							"_type": "max"
+						}
+					},
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Move",
+											"_typeId": "8655-6213-2824-1752",
+											"__text": "6\""
+										},
+										{
+											"_name": "Wounds",
+											"_typeId": "cd0e-fea6-411f-904d",
+											"__text": "6"
+										},
+										{
+											"_name": "Bravery",
+											"_typeId": "0c85-bf79-836b-759e",
+											"__text": "10"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "f8dd-4f2a-8543-4f36",
+											"__text": "4+"
+										}
+									]
+								},
+								"_id": "711d-4e4c-7996-cdbe",
+								"_name": "Ivya Volga, the Outcast",
+								"_hidden": "false",
+								"_typeId": "1960-ca8e-67ce-2014",
+								"_typeName": "Unit"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Ability Details",
+										"_typeId": "d4dc-8e81-bc0e-b8f0",
+										"__text": "Subtract 1 from hit rolls for attacks that target this unit. In addition, if this unit has any wounds allocated to it, the Attacks characteristic if this unit's Needling Fangs is 12 instead of 2D6."
+									}
+								},
+								"_id": "da9d-eff8-28df-ac2e",
+								"_name": "Shrieking Swarm",
+								"_hidden": "false",
+								"_typeId": "c924-5a68-471a-2fd5",
+								"_typeName": "Unit Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Ability Details",
+										"_typeId": "d4dc-8e81-bc0e-b8f0",
+										"__text": "If any enemy MONSTERS are within 3\" of this unit, this unit counts as 10 models for the purposes of contesting objectives.  In addition, while an enemy MONSTER is within 3\" of this unit, the Attacks characteristic of that MONSTER's melee weapons is 1."
+									}
+								},
+								"_id": "316c-9368-d923-eaf3",
+								"_name": "Behemoth's Bane",
+								"_hidden": "false",
+								"_typeId": "c924-5a68-471a-2fd5",
+								"_typeName": "Unit Abilities"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Ability Details",
+										"_typeId": "d4dc-8e81-bc0e-b8f0",
+										"__text": "This unit is accompanied by a bat swarm armed with Needling Fangs."
+									}
+								},
+								"_id": "c392-41d2-7704-46dc",
+								"_name": "Companion",
+								"_hidden": "false",
+								"_typeId": "c924-5a68-471a-2fd5",
+								"_typeName": "Unit Abilities"
+							}
+						]
+					},
+					"infoLinks": {
+						"infoLink": {
+							"_id": "8361-f439-2fa6-cb1a",
+							"_name": "The Hunger",
+							"_hidden": "false",
+							"_targetId": "2026-46db-b3fa-cd25",
+							"_type": "profile"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "9fc6-1b86-ca26-0c86",
+								"_name": "9 or less wounds Leader",
+								"_hidden": "false",
+								"_targetId": "a8ed-ca35-24e0-cf2e",
+								"_primary": "false"
+							},
+							{
+								"_id": "9664-369e-9d0b-f8ae",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "6c6b-e787-f9b8-a510",
+								"_primary": "true"
+							},
+							{
+								"_id": "ce74-9065-006d-31aa",
+								"_name": "Unique",
+								"_hidden": "false",
+								"_targetId": "088b-3a27-03f7-8249",
+								"_primary": "false"
+							},
+							{
+								"_id": "ac03-14dc-b299-491a",
+								"_name": "IVYA VOLGA",
+								"_hidden": "false",
+								"_targetId": "a075-de42-a347-4f64",
+								"_primary": "false"
+							},
+							{
+								"_id": "e056-3694-a290-4a62",
+								"_name": "DEATH",
+								"_hidden": "false",
+								"_targetId": "6cdf-dd4f-0e91-e9c4",
+								"_primary": "false"
+							},
+							{
+								"_id": "8716-de4d-2e57-d91a",
+								"_name": "SOULBLIGHT GRAVELORDS",
+								"_hidden": "false",
+								"_targetId": "3d31-12d5-6735-011c",
+								"_primary": "false"
+							},
+							{
+								"_id": "2cfd-51e7-50c1-1e90",
+								"_name": "VAMPIRE",
+								"_hidden": "false",
+								"_targetId": "d1e1-d80a-c667-b587",
+								"_primary": "false"
+							},
+							{
+								"_id": "22ac-548a-511c-4b35",
+								"_name": "VYRKOS DYNASTY",
+								"_hidden": "false",
+								"_targetId": "c8b9-d6b2-34c8-79e5",
+								"_primary": "false"
+							},
+							{
+								"_id": "d3e2-077f-13be-71a4",
+								"_name": "HERO",
+								"_hidden": "false",
+								"_targetId": "4e0e-664d-51ea-0929",
+								"_primary": "false"
+							}
+						]
+					},
+					"selectionEntries": {
+						"selectionEntry": [
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "0036-04e1-c2f6-5882",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "3275-69d8-bdc3-c1b8",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Type",
+													"_typeId": "655c-362e-a663-3e50",
+													"__text": "Melee"
+												},
+												{
+													"_name": "Range",
+													"_typeId": "ee32-7f8e-ccd7-b7b0",
+													"__text": "1\""
+												},
+												{
+													"_name": "Attacks",
+													"_typeId": "0bd7-bded-a0e0-19a0",
+													"__text": "5"
+												},
+												{
+													"_name": "To Hit",
+													"_typeId": "87f2-fb99-33f9-7269",
+													"__text": "3+"
+												},
+												{
+													"_name": "To Wound",
+													"_typeId": "8842-17f1-9794-4efc",
+													"__text": "3+"
+												},
+												{
+													"_name": "Rend",
+													"_typeId": "f578-d2a5-f0d3-b707",
+													"__text": "-1"
+												},
+												{
+													"_name": "Damage",
+													"_typeId": "b5b6-4cbd-661d-1b70",
+													"__text": "2"
+												}
+											]
+										},
+										"_id": "4785-c868-c7be-9e01",
+										"_name": "Heirloom Axe",
+										"_hidden": "false",
+										"_typeId": "96df-ab28-5d72-bbb3",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": {
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0"
+									}
+								},
+								"_id": "be83-bb21-212c-ab90",
+								"_name": "Heirloom Axe",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							},
+							{
+								"constraints": {
+									"constraint": [
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "fff9-5c43-13c1-a5db",
+											"_type": "min"
+										},
+										{
+											"_field": "selections",
+											"_scope": "parent",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "false",
+											"_includeChildForces": "false",
+											"_id": "60a6-3d6e-3a7b-38cd",
+											"_type": "max"
+										}
+									]
+								},
+								"profiles": {
+									"profile": {
+										"characteristics": {
+											"characteristic": [
+												{
+													"_name": "Type",
+													"_typeId": "655c-362e-a663-3e50",
+													"__text": "Melee"
+												},
+												{
+													"_name": "Range",
+													"_typeId": "ee32-7f8e-ccd7-b7b0",
+													"__text": "1\""
+												},
+												{
+													"_name": "Attacks",
+													"_typeId": "0bd7-bded-a0e0-19a0",
+													"__text": "2D6"
+												},
+												{
+													"_name": "To Hit",
+													"_typeId": "87f2-fb99-33f9-7269",
+													"__text": "4+"
+												},
+												{
+													"_name": "To Wound",
+													"_typeId": "8842-17f1-9794-4efc",
+													"__text": "4+"
+												},
+												{
+													"_name": "Rend",
+													"_typeId": "f578-d2a5-f0d3-b707",
+													"__text": "-1"
+												},
+												{
+													"_name": "Damage",
+													"_typeId": "b5b6-4cbd-661d-1b70",
+													"__text": "1"
+												}
+											]
+										},
+										"_id": "6b38-c184-69ea-db5e",
+										"_name": "Needling Fangs",
+										"_hidden": "false",
+										"_typeId": "96df-ab28-5d72-bbb3",
+										"_typeName": "Weapon"
+									}
+								},
+								"costs": {
+									"cost": {
+										"_name": "pts",
+										"_typeId": "points",
+										"_value": "0"
+									}
+								},
+								"_id": "912b-4666-fece-eac2",
+								"_name": "Needling Fangs",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_type": "upgrade"
+							}
+						]
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"categoryLinks": {
+									"categoryLink": {
+										"_id": "25f5-7f72-9516-990c",
+										"_name": "Unique General",
+										"_hidden": "false",
+										"_targetId": "fe3f-d230-7e2c-fba2",
+										"_primary": "false"
+									}
+								},
+								"_id": "4629-ab91-6fa9-89fe",
+								"_name": "General",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "88d2-d540-0573-3402",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "57cd-f4fa-71db-b7ca",
+								"_name": "Battalions",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "9df7-269b-fa20-74b2",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"_id": "8ca8-e589-c7f2-0900",
+								"_name": "Incarnate Bonding",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "c890-acbd-0c80-55c9",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"modifiers": {
+									"modifier": {
+										"conditions": {
+											"condition": {
+												"_field": "selections",
+												"_scope": "roster",
+												"_value": "1",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "true",
+												"_includeChildForces": "false",
+												"_childId": "9fec-247c-d146-ead4",
+												"_type": "equalTo"
+											}
+										},
+										"_type": "set",
+										"_field": "hidden",
+										"_value": "false"
+									}
+								},
+								"_id": "da49-8cf1-4ddc-28e0",
+								"_name": "Artefacts",
+								"_hidden": "true",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "a2c1-3fba-5acb-d560",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"modifiers": {
+									"modifier": {
+										"conditions": {
+											"condition": {
+												"_field": "selections",
+												"_scope": "roster",
+												"_value": "0",
+												"_percentValue": "false",
+												"_shared": "true",
+												"_includeChildSelections": "true",
+												"_includeChildForces": "false",
+												"_childId": "9fec-247c-d146-ead4",
+												"_type": "equalTo"
+											}
+										},
+										"_type": "set",
+										"_field": "hidden",
+										"_value": "true"
+									}
+								},
+								"_id": "1db2-ba59-ac4f-4d57",
+								"_name": "Command Traits",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "eda1-7945-4fea-a145",
+								"_type": "selectionEntryGroup"
+							}
+						]
+					},
+					"costs": {
+						"cost": {
+							"_name": "pts",
+							"_typeId": "points",
+							"_value": "130"
+						}
+					},
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_type": "atLeast",
+									"_value": "1",
+									"_field": "selections",
+									"_scope": "roster",
+									"_childId": "1189-76a9-df65-5ee4",
+									"_shared": "true",
+									"_includeChildForces": "true",
+									"_includeChildSelections": "true"
+								}
+							},
+							"_type": "set",
+							"_value": "true",
+							"_field": "hidden"
+						}
+					},
+					"_id": "d4ba-854e-8b3e-e7f6",
+					"_name": "Ivya Volga, the Outcast",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_type": "unit"
+				},
+				{
+					"costs": {
+						"cost": {
+							"_name": "pts",
+							"_typeId": "points",
+							"_value": "160"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_targetId": "6c6b-e787-f9b8-a510",
+								"_id": "8869-cf92-6167-d554",
+								"_primary": "true",
+								"_name": "Leader"
+							},
+							{
+								"_targetId": "6cdf-dd4f-0e91-e9c4",
+								"_id": "7b68-1319-66fe-86f3",
+								"_primary": "false",
+								"_name": "DEATH"
+							},
+							{
+								"_targetId": "3d31-12d5-6735-011c",
+								"_id": "7943-bc7a-34fe-4cd2",
+								"_primary": "false",
+								"_name": "SOULBLIGHT GRAVELORDS"
+							},
+							{
+								"_targetId": "d1e1-d80a-c667-b587",
+								"_id": "8d93-e6b5-2f41-a2a0",
+								"_primary": "false",
+								"_name": "VAMPIRE"
+							},
+							{
+								"_targetId": "2691-54ce-d160-1694",
+								"_id": "c029-738-11e-8a17",
+								"_primary": "false",
+								"_name": "LEGION OF BLOOD"
+							},
+							{
+								"_targetId": "4e0e-664d-51ea-0929",
+								"_id": "2e32-45c4-5690-f1e2",
+								"_primary": "false",
+								"_name": "HERO"
+							},
+							{
+								"_targetId": "4f53-8230-2f02-9639",
+								"_id": "e205-9da9-77ba-958e",
+								"_primary": "false",
+								"_name": "WIZARD"
+							},
+							{
+								"_targetId": "50c4-1b1e-bdf8-cf0f",
+								"_id": "7985-8a66-355e-8f1c",
+								"_primary": "false",
+								"_name": "SEKHAR"
+							},
+							{
+								"_targetId": "088b-3a27-03f7-8249",
+								"_id": "5cf-9f0c-d4a9-9193",
+								"_primary": "false",
+								"_name": "Unique"
+							},
+							{
+								"_targetId": "a8ed-ca35-24e0-cf2e",
+								"_id": "7934-8417-7b6b-1af4",
+								"_primary": "false",
+								"_name": "9 or less wounds Leader"
+							}
+						]
+					},
+					"entryLinks": {
+						"entryLink": [
+							{
+								"_id": "db49-afb9-e6f5-22b",
+								"_name": "Battalions",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "9df7-269b-fa20-74b2",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"categoryLinks": {
+									"categoryLink": {
+										"_id": "18d5-ef09-84-b364",
+										"_name": "Unique General",
+										"_hidden": "false",
+										"_targetId": "fe3f-d230-7e2c-fba2",
+										"_primary": "false"
+									}
+								},
+								"_id": "4794-403c-8f8a-21fc",
+								"_name": "General",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "88d2-d540-0573-3402",
+								"_type": "selectionEntry"
+							},
+							{
+								"_id": "8b2d-b17-51d4-1f4b",
+								"_name": "Spell Lores",
+								"_hidden": "false",
+								"_collective": "false",
+								"_import": "true",
+								"_targetId": "8417-93fc-9562-a748",
+								"_type": "selectionEntryGroup"
+							},
+							{
+								"_import": "true",
+								"_name": "Arcane Bolt",
+								"_hidden": "false",
+								"_type": "selectionEntry",
+								"_id": "8792-145c-4070-63fa",
+								"_targetId": "869c-168d-eba5-eacf"
+							},
+							{
+								"_import": "true",
+								"_name": "Mystic Shield",
+								"_hidden": "false",
+								"_type": "selectionEntry",
+								"_id": "a40c-e459-c400-a7ba",
+								"_targetId": "5fdd-6634-f9f8-068a"
+							}
+						]
+					},
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Cast/Unbind",
+											"_typeId": "8294-f605-2c0f-8f92",
+											"__text": "2/2"
+										},
+										{
+											"_name": "Spells Known",
+											"_typeId": "dc9c-47d3-6931-859c",
+											"__text": "Arcane Bolt, Mystic Shield, Death's Constriction"
+										}
+									]
+								},
+								"_id": "b46e-dfcc-7d9a-4245",
+								"_name": "Wizard",
+								"_hidden": "false",
+								"_typeId": "f55d-ee3a-1597-110f",
+								"_typeName": "Magic"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Type",
+											"_typeId": "655c-362e-a663-3e50",
+											"__text": "Melee"
+										},
+										{
+											"_name": "Range",
+											"_typeId": "ee32-7f8e-ccd7-b7b0",
+											"__text": "1\""
+										},
+										{
+											"_name": "Attacks",
+											"_typeId": "0bd7-bded-a0e0-19a0",
+											"__text": "4"
+										},
+										{
+											"_name": "To Hit",
+											"_typeId": "87f2-fb99-33f9-7269",
+											"__text": "3+"
+										},
+										{
+											"_name": "To Wound",
+											"_typeId": "8842-17f1-9794-4efc",
+											"__text": "3+"
+										},
+										{
+											"_name": "Rend",
+											"_typeId": "f578-d2a5-f0d3-b707",
+											"__text": "-1"
+										},
+										{
+											"_name": "Damage",
+											"_typeId": "b5b6-4cbd-661d-1b70",
+											"__text": "2"
+										}
+									]
+								},
+								"_name": "Nulahmian Warglave",
+								"_typeId": "96df-ab28-5d72-bbb3",
+								"_typeName": "Weapon",
+								"_hidden": "false",
+								"_id": "e414-5b0f-1adf-da73"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Type",
+											"_typeId": "655c-362e-a663-3e50",
+											"__text": "Melee"
+										},
+										{
+											"_name": "Range",
+											"_typeId": "ee32-7f8e-ccd7-b7b0",
+											"__text": "1\""
+										},
+										{
+											"_name": "Attacks",
+											"_typeId": "0bd7-bded-a0e0-19a0",
+											"__text": "2"
+										},
+										{
+											"_name": "To Hit",
+											"_typeId": "87f2-fb99-33f9-7269",
+											"__text": "3+"
+										},
+										{
+											"_name": "To Wound",
+											"_typeId": "8842-17f1-9794-4efc",
+											"__text": "3+"
+										},
+										{
+											"_name": "Rend",
+											"_typeId": "f578-d2a5-f0d3-b707",
+											"__text": "-2"
+										},
+										{
+											"_name": "Damage",
+											"_typeId": "b5b6-4cbd-661d-1b70",
+											"__text": "2"
+										}
+									]
+								},
+								"_name": "Godhusk Fangs",
+								"_typeId": "96df-ab28-5d72-bbb3",
+								"_typeName": "Weapon",
+								"_hidden": "false",
+								"_id": "70b2-f57a-22f3-47ec"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Move",
+											"_typeId": "8655-6213-2824-1752",
+											"__text": "6\""
+										},
+										{
+											"_name": "Wounds",
+											"_typeId": "cd0e-fea6-411f-904d",
+											"__text": "7"
+										},
+										{
+											"_name": "Bravery",
+											"_typeId": "0c85-bf79-836b-759e",
+											"__text": "10"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "f8dd-4f2a-8543-4f36",
+											"__text": "4+"
+										}
+									]
+								},
+								"_name": "Sekhar, Fang of Nulahmia",
+								"_typeId": "1960-ca8e-67ce-2014",
+								"_typeName": "Unit",
+								"_hidden": "false",
+								"_id": "1115-1786-f3fb-ca5a"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Ability Details",
+										"_typeId": "d4dc-8e81-bc0e-b8f0",
+										"__text": "Once per battle, at the start of the combat phase, you can say that Ouboroth will use the Time-Swallower's Maw. If you do so, roll 2D6. Each enemy unit within 6\" of this unit whose Move characteristic is lower than the roll suffers a number of mortal wounds equal to the difference between its Move characteristic and the roll.\n\n\nIf the unit uses this ability, it does not benefit from the Serpentine Agility ability for the rest of the battle."
+									}
+								},
+								"_name": "The Time-Swallower's Maw",
+								"_typeId": "c924-5a68-471a-2fd5",
+								"_typeName": "Unit Abilities",
+								"_hidden": "false",
+								"_id": "71cb-d725-5f7d-ab4f"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Ability Details",
+										"_typeId": "d4dc-8e81-bc0e-b8f0",
+										"__text": "Attacks that target this unit only score a hit on an unmodified hit roll of 5 or 6."
+									}
+								},
+								"_name": "Serpentine Agility",
+								"_typeId": "c924-5a68-471a-2fd5",
+								"_typeName": "Unit Abilities",
+								"_hidden": "false",
+								"_id": "7bd-9a0-92fe-6cb7"
+							},
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Casting Value",
+											"_typeId": "2508-b604-1258-a920",
+											"__text": "6"
+										},
+										{
+											"_name": "Range",
+											"_typeId": "5b5c-1fd1-4c0f-5705",
+											"__text": "18\""
+										},
+										{
+											"_name": "Description",
+											"_typeId": "76ff-781d-b8e6-5f27",
+											"__text": "If successfully cast, pick 1 enemy unit within range and visible to the caster. Until your next hero phase, that unit cannot pick this unit or friendly units wholly within 6\" of this unit as the target of spells, prayers, abilities or shooting attacks."
+										}
+									]
+								},
+								"_name": "Death's Constriction",
+								"_typeId": "2e81-5e22-c6e1-73cb",
+								"_typeName": "Spell",
+								"_hidden": "false",
+								"_id": "3693-e96b-b2bb-403c"
+							}
+						]
+					},
+					"_type": "unit",
+					"_import": "true",
+					"_name": "Sekhar, Fang of Nulahmia",
+					"_hidden": "false",
+					"_id": "15bc-2892-693c-2c8g"
+				},
+				{
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "f882-48d5-21a4-1787",
+										"__text": "Pick 1 enemy unit contesting an objective you do not control. You complete this tactic if that unit is destroyed this turn by an attack made by a friendly SUMMONABLE unit."
+									}
+								},
+								"_name": "No Sacred Ground",
+								"_typeId": "eba0-4bf6-65fe-fdbc",
+								"_typeName": "Battle Tactic",
+								"_hidden": "false",
+								"_id": "ada0-83c3-254d-3ef"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "f882-48d5-21a4-1787",
+										"__text": "Pick 1 friendly SUMMONABLE unit on the battlefield that has had any models slain. You complete this tactic if any models are added to that unit this turn and the number of models in that unit is above its starting size at the end of the turn."
+									}
+								},
+								"_name": "Companions of Royalty",
+								"_typeId": "eba0-4bf6-65fe-fdbc",
+								"_typeName": "Battle Tactic",
+								"_hidden": "false",
+								"_id": "2e8a-7666-5396-3701"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Description",
+										"_typeId": "f882-48d5-21a4-1787",
+										"__text": "You complete this tactic if you complete a plot from the Demise by Design battle trait with a HERO this turn."
+									}
+								},
+								"_name": "Exquisite Plots",
+								"_typeId": "eba0-4bf6-65fe-fdbc",
+								"_typeName": "Battle Tactic",
+								"_hidden": "false",
+								"_id": "4262-a76a-3114-a845"
+							}
+						]
+					},
+					"_type": "upgrade",
+					"_import": "true",
+					"_name": "Battle Tacics: Displays of Dominance",
+					"_hidden": "false",
+					"_id": "747e-22fd-6c6d-b84a"
+				},
+				{
+					"modifiers": {
+						"modifier": [
+							{
+								"conditions": {
+									"condition": {
+										"_type": "greaterThan",
+										"_value": "0",
+										"_field": "selections",
+										"_scope": "roster",
+										"_childId": "7773-9a87-c304-f756",
+										"_shared": "true",
+										"_percentValue": "false",
+										"_includeChildSelections": "false",
+										"_includeChildForces": "false"
+									}
+								},
+								"_type": "set",
+								"_value": "1",
+								"_field": "db0b-4fb3-5198-4ea2"
+							},
+							{
+								"conditions": {
+									"condition": {
+										"_type": "atLeast",
+										"_value": "1",
+										"_field": "selections",
+										"_scope": "roster",
+										"_childId": "1189-76a9-df65-5ee4",
+										"_shared": "true",
+										"_includeChildForces": "true",
+										"_includeChildSelections": "true"
+									}
+								},
+								"_type": "set",
+								"_value": "true",
+								"_field": "hidden"
+							}
+						]
+					},
+					"constraints": {
+						"constraint": [
+							{
+								"_type": "max",
+								"_value": "1",
+								"_field": "selections",
+								"_scope": "roster",
+								"_shared": "true",
+								"_id": "29f9-b31f-19e4-1486",
+								"_percentValue": "false",
+								"_includeChildSelections": "true",
+								"_includeChildForces": "false"
+							},
+							{
+								"_type": "min",
+								"_value": "0",
+								"_field": "selections",
+								"_scope": "roster",
+								"_shared": "true",
+								"_id": "db0b-4fb3-5198-4ea2",
+								"_percentValue": "false",
+								"_includeChildSelections": "true",
+								"_includeChildForces": "false"
+							}
+						]
+					},
+					"profiles": {
+						"profile": [
+							{
+								"characteristics": {
+									"characteristic": [
+										{
+											"_name": "Move",
+											"_typeId": "8655-6213-2824-1752",
+											"__text": "4\""
+										},
+										{
+											"_name": "Wounds",
+											"_typeId": "cd0e-fea6-411f-904d",
+											"__text": "2"
+										},
+										{
+											"_name": "Bravery",
+											"_typeId": "0c85-bf79-836b-759e",
+											"__text": "10"
+										},
+										{
+											"_name": "Save",
+											"_typeId": "f8dd-4f2a-8543-4f36",
+											"__text": "6+"
+										}
+									]
+								},
+								"_name": "Zondara's Gravebreakers",
+								"_typeId": "1960-ca8e-67ce-2014",
+								"_typeName": "Unit",
+								"_hidden": "false",
+								"_id": "1690-c20a-a622-a81a"
+							},
+							{
+								"characteristics": {
+									"characteristic": {
+										"_name": "Ability Details",
+										"_typeId": "d4dc-8e81-bc0e-b8f0",
+										"__text": "If this unit is included in a Soulblight Gravelords army, in your hero phase, you can pick 1 gravesite within 3\" of this unit and say that it will attempt to unearth treasures. If you do so, roll a dice and look up the corresponding effect on the following table. You cannot pick the same gravesite more than once per battle.\n1 Nothing but Old Bones: No effect.\n2-4 Exhumed Flesh: You can return up to D3 slain models to this unit.\n5-6 Buried Treasure: If a friendly ZONDARA RIVENHEART is within 3\" of this unit, you can pick 1 artefact of power from the Soulblight Gravelords allegiance abilities that no HERO in your army bears for ZONDARA RIVENHEART to bear. ZONDARA RIVENHEART can bear any number of artefacts in this manner."
+									}
+								},
+								"_name": "Unearthed Treasures",
+								"_hidden": "false",
+								"_id": "35c4-246d-1fb1-572e",
+								"_typeId": "c924-5a68-471a-2fd5",
+								"_typeName": "Unit Abilities"
+							}
+						]
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_name": "Other",
+								"_hidden": "false",
+								"_id": "92e6-f5e8-dee2-5358",
+								"_targetId": "065e-fda7-fd27-1f40",
+								"_primary": "true"
+							},
+							{
+								"_name": "Unique",
+								"_hidden": "false",
+								"_id": "a818-c360-6a09-b10",
+								"_targetId": "088b-3a27-03f7-8249",
+								"_primary": "false"
+							},
+							{
+								"_name": "DEATH",
+								"_hidden": "false",
+								"_id": "3bd8-a5-85f3-9cd",
+								"_targetId": "6cdf-dd4f-0e91-e9c4",
+								"_primary": "false"
+							},
+							{
+								"_name": "DEATHRATTLE",
+								"_hidden": "false",
+								"_id": "b84b-cbc5-10da-8352",
+								"_targetId": "96d0-849a-a8cc-a6cf",
+								"_primary": "false"
+							},
+							{
+								"_name": "SOULBLIGHT GRAVELORDS",
+								"_hidden": "false",
+								"_id": "b4b2-ca42-82e0-4e66",
+								"_targetId": "3d31-12d5-6735-011c",
+								"_primary": "false"
+							},
+							{
+								"_name": "GRAVE GUARD",
+								"_hidden": "false",
+								"_id": "275b-9219-c3e2-a0f6",
+								"_targetId": "e8f4-3b13-f9d1-eb56",
+								"_primary": "false"
+							},
+							{
+								"_name": "THE SONS OF VELMORN",
+								"_hidden": "false",
+								"_id": "9c75-1d27-a52b-1b96",
+								"_targetId": "508f-5e4f-8ffd-ff24",
+								"_primary": "false"
+							},
+							{
+								"_name": "SUMMONABLE",
+								"_hidden": "false",
+								"_id": "3323-2cb3-3ba6-77a2",
+								"_targetId": "d51a-b7de-3b60-a231",
+								"_primary": "false"
+							},
+							{
+								"_name": "Infantry",
+								"_hidden": "false",
+								"_id": "77fe-601c-e32-c63b",
+								"_targetId": "7f45-c5b3-c698-138d",
+								"_primary": "false"
+							}
+						]
+					},
+					"entryLinks": {
+						"entryLink": {
+							"_import": "true",
+							"_name": "Battalions",
+							"_hidden": "false",
+							"_id": "6f86-cea9-3864-9bf7",
+							"_collective": "false",
+							"_targetId": "9df7-269b-fa20-74b2",
+							"_type": "selectionEntryGroup"
+						}
+					},
+					"costs": {
+						"cost": {
+							"_name": "pts",
+							"_hidden": "false",
+							"_id": "2882-5cf3-ae2c-fdb9",
+							"_typeId": "points",
+							"_value": "0"
+						}
+					},
+					"_type": "unit",
+					"_import": "true",
+					"_name": "Zondara's Gravebreakers",
+					"_hidden": "false",
+					"_id": "6079-5aff-1f84-b816",
+					"_collective": "false"
+				}
+			]
+		},
+		"catalogueLinks": {
+			"catalogueLink": [
+				{
+					"_id": "9058-e9a6-223f-f2db",
+					"_name": "Death - Data",
+					"_targetId": "e37a-2f18-f168-6ed3",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				},
+				{
+					"_id": "afb8-c624-cafa-ffda",
+					"_name": "Destruction - Sons of Behemat",
+					"_targetId": "f904-b52f-810a-e446",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				},
+				{
+					"_id": "08f2-e89a-7936-fe33",
+					"_name": "Regiments of Renown",
+					"_targetId": "33cf-d309-6df3-50d6",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				}
+			]
+		},
+		"profileTypes": {
+			"profileType": {
+				"characteristicTypes": {
+					"characteristicType": [
+						{
+							"_id": "e5af-ec89-d83e-9725",
+							"_name": "Plot"
+						},
+						{
+							"_id": "3a65-e4f9-c0bc-d7af",
+							"_name": "Ability"
+						}
+					]
+				},
+				"_name": "Demise by Design",
+				"_hidden": "false",
+				"_id": "931c-9ae7-e882-34db"
+			}
+		},
+		"selectionEntries": {
+			"selectionEntry": {
+				"modifiers": {
+					"modifier": [
+						{
+							"conditions": {
+								"condition": {
+									"_type": "greaterThan",
+									"_value": "0",
+									"_field": "selections",
+									"_scope": "roster",
+									"_childId": "6079-5aff-1f84-b816",
+									"_shared": "true",
+									"_percentValue": "false",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false"
+								}
+							},
+							"_type": "set",
+							"_value": "1",
+							"_field": "76b3-7c03-c117-f051"
+						},
+						{
+							"conditions": {
+								"condition": {
+									"_type": "atLeast",
+									"_value": "1",
+									"_field": "selections",
+									"_scope": "roster",
+									"_childId": "1189-76a9-df65-5ee4",
+									"_shared": "true",
+									"_includeChildForces": "true",
+									"_includeChildSelections": "true"
+								}
+							},
+							"_type": "set",
+							"_value": "true",
+							"_field": "hidden"
+						}
+					]
+				},
+				"constraints": {
+					"constraint": [
+						{
+							"_type": "max",
+							"_value": "1",
+							"_field": "selections",
+							"_scope": "roster",
+							"_shared": "true",
+							"_id": "f097-df84-c7d5-6999",
+							"_percentValue": "false",
+							"_includeChildSelections": "true",
+							"_includeChildForces": "false"
+						},
+						{
+							"_type": "min",
+							"_value": "0",
+							"_field": "selections",
+							"_scope": "roster",
+							"_shared": "true",
+							"_id": "76b3-7c03-c117-f051",
+							"_percentValue": "false",
+							"_includeChildSelections": "true",
+							"_includeChildForces": "false"
+						},
+						{
+							"_type": "max",
+							"_value": "1",
+							"_field": "selections",
+							"_scope": "parent",
+							"_shared": "true",
+							"_id": "ce32-a870-65a8-b5eb",
+							"_percentValue": "false",
+							"_includeChildSelections": "false",
+							"_includeChildForces": "false"
+						}
+					]
+				},
+				"profiles": {
+					"profile": [
+						{
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Move",
+										"_typeId": "8655-6213-2824-1752",
+										"__text": "5\""
+									},
+									{
+										"_name": "Wounds",
+										"_typeId": "cd0e-fea6-411f-904d",
+										"__text": "5"
+									},
+									{
+										"_name": "Bravery",
+										"_typeId": "0c85-bf79-836b-759e",
+										"__text": "10"
+									},
+									{
+										"_name": "Save",
+										"_typeId": "f8dd-4f2a-8543-4f36",
+										"__text": "6+"
+									}
+								]
+							},
+							"_name": "Zondara Rivenheart",
+							"_typeId": "1960-ca8e-67ce-2014",
+							"_typeName": "Unit",
+							"_hidden": "false",
+							"_id": "9f66-2621-5228-1f82"
+						},
+						{
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Cast/Unbind",
+										"_typeId": "8294-f605-2c0f-8f92",
+										"__text": "1/1"
+									},
+									{
+										"_name": "Spells Known",
+										"_typeId": "dc9c-47d3-6931-859c",
+										"__text": "Arcane Bolt, Mystic Shield, Wild Incantation"
+									}
+								]
+							},
+							"_name": "Wizard",
+							"_typeId": "f55d-ee3a-1597-110f",
+							"_typeName": "Magic",
+							"_hidden": "false",
+							"_id": "fde1-6e03-da68-bc81"
+						},
+						{
+							"characteristics": {
+								"characteristic": {
+									"_name": "Ability Details",
+									"_typeId": "d4dc-8e81-bc0e-b8f0",
+									"__text": "If this unit is within 3\" of a friendly ZONDARA'S GRAVEBREAKERS unit, before you allocate a wound or mortal wound to this unit, or instead of making a ward roll for a wound or mortal wound that would be allocated to this unit, roll a dice. On a 4+, that wound or mortal wound is allocated to that unit instead of this unit."
+								}
+							},
+							"_name": "Zondara's Minions",
+							"_hidden": "false",
+							"_id": "45eb-c01c-149c-e27c",
+							"_typeId": "c924-5a68-471a-2fd5",
+							"_typeName": "Unit Abilities"
+						},
+						{
+							"characteristics": {
+								"characteristic": [
+									{
+										"_name": "Casting Value",
+										"_typeId": "2508-b604-1258-a920",
+										"__text": "7"
+									},
+									{
+										"_name": "Range",
+										"_typeId": "5b5c-1fd1-4c0f-5705",
+										"__text": "12\""
+									},
+									{
+										"_name": "Description",
+										"_typeId": "76ff-781d-b8e6-5f27",
+										"__text": "If successfully cast, pick a friendly DEADWALKERS unit wholly within range. Until the start of your next turn, unmodified hit rolls of 6 for attacks made by that unit automatically wound (do not make a wound roll)."
+									}
+								]
+							},
+							"_name": "Wild Incantation",
+							"_hidden": "false",
+							"_id": "4801-e692-a8a7-c989",
+							"_typeId": "2e81-5e22-c6e1-73cb",
+							"_typeName": "Spell"
+						}
+					]
+				},
+				"categoryLinks": {
+					"categoryLink": [
+						{
+							"_name": "Leader",
+							"_hidden": "false",
+							"_id": "bf91-8661-6a9b-79bc",
+							"_targetId": "6c6b-e787-f9b8-a510",
+							"_primary": "true"
+						},
+						{
+							"_name": "9 or less wounds Leader",
+							"_hidden": "false",
+							"_id": "cc70-2da5-ec3d-db25",
+							"_targetId": "a8ed-ca35-24e0-cf2e",
+							"_primary": "false"
+						},
+						{
+							"_name": "DEATH",
+							"_hidden": "false",
+							"_id": "9ccd-71b2-681f-b92b",
+							"_targetId": "6cdf-dd4f-0e91-e9c4",
+							"_primary": "false"
+						},
+						{
+							"_name": "SOULBLIGHT GRAVELORDS",
+							"_hidden": "false",
+							"_id": "6811-e385-aefa-2f3e",
+							"_targetId": "3d31-12d5-6735-011c",
+							"_primary": "false"
+						},
+						{
+							"_name": "HERO",
+							"_hidden": "false",
+							"_id": "806e-4333-1c6e-c750",
+							"_targetId": "4e0e-664d-51ea-0929",
+							"_primary": "false"
+						},
+						{
+							"_name": "WIZARD",
+							"_hidden": "false",
+							"_id": "75bd-40d-e26b-8145",
+							"_targetId": "4f53-8230-2f02-9639",
+							"_primary": "false"
+						},
+						{
+							"_name": "Unique",
+							"_hidden": "false",
+							"_id": "9da-f822-620a-9db3",
+							"_targetId": "088b-3a27-03f7-8249",
+							"_primary": "false"
+						},
+						{
+							"_targetId": "f16f-2e67-9bf6-1c04",
+							"_id": "e4d-5fd7-821d-e06f",
+							"_primary": "false",
+							"_name": "NECROMANCER"
+						},
+						{
+							"_targetId": "9b9d-ac6f-768a-123f",
+							"_id": "1f84-a1e8-4a6b-712f",
+							"_primary": "false",
+							"_name": "DEATHMAGES"
+						},
+						{
+							"_targetId": "471c-be46-b805-73cf",
+							"_id": "5da6-76af-7aa-ced5",
+							"_primary": "false",
+							"_name": "ZONDARA RIVENHEART"
+						}
+					]
+				},
+				"entryLinks": {
+					"entryLink": [
+						{
+							"_import": "true",
+							"_name": "Battalions",
+							"_hidden": "false",
+							"_id": "25e9-6d0f-8413-283f",
+							"_collective": "false",
+							"_targetId": "9df7-269b-fa20-74b2",
+							"_type": "selectionEntryGroup"
+						},
+						{
+							"categoryLinks": {
+								"categoryLink": {
+									"_name": "Unique General",
+									"_hidden": "false",
+									"_id": "f846-83ab-8b83-dce8",
+									"_targetId": "fe3f-d230-7e2c-fba2",
+									"_primary": "false"
+								}
+							},
+							"_import": "true",
+							"_name": "General",
+							"_hidden": "false",
+							"_id": "58c5-2e46-ec85-2aa1",
+							"_collective": "false",
+							"_targetId": "88d2-d540-0573-3402",
+							"_type": "selectionEntry"
+						},
+						{
+							"_import": "true",
+							"_name": "Spell Lores",
+							"_hidden": "false",
+							"_id": "5622-222c-c0fa-cb72",
+							"_collective": "false",
+							"_targetId": "8417-93fc-9562-a748",
+							"_type": "selectionEntryGroup"
+						},
+						{
+							"modifiers": {
+								"modifier": {
+									"conditions": {
+										"condition": {
+											"_type": "equalTo",
+											"_value": "1",
+											"_field": "selections",
+											"_scope": "roster",
+											"_childId": "9fec-247c-d146-ead4",
+											"_shared": "true",
+											"_percentValue": "false",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false"
+										}
+									},
+									"_type": "set",
+									"_value": "false",
+									"_field": "hidden"
+								}
+							},
+							"_import": "true",
+							"_name": "Artefacts",
+							"_hidden": "true",
+							"_id": "a478-ea40-474d-49ad",
+							"_collective": "false",
+							"_targetId": "a2c1-3fba-5acb-d560",
+							"_type": "selectionEntryGroup"
+						},
+						{
+							"modifiers": {
+								"modifier": {
+									"conditions": {
+										"condition": {
+											"_type": "equalTo",
+											"_value": "0",
+											"_field": "selections",
+											"_scope": "roster",
+											"_childId": "9fec-247c-d146-ead4",
+											"_shared": "true",
+											"_percentValue": "false",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false"
+										}
+									},
+									"_type": "set",
+									"_value": "true",
+									"_field": "hidden"
+								}
+							},
+							"_import": "true",
+							"_name": "Command Traits",
+							"_hidden": "false",
+							"_id": "b04a-d4ba-d9e7-f0f3",
+							"_collective": "false",
+							"_targetId": "eda1-7945-4fea-a145",
+							"_type": "selectionEntryGroup"
+						},
+						{
+							"_import": "true",
+							"_name": "Mystic Shield",
+							"_hidden": "false",
+							"_id": "c32e-4f63-7c3f-16d0",
+							"_type": "selectionEntry",
+							"_targetId": "5fdd-6634-f9f8-068a"
+						},
+						{
+							"_import": "true",
+							"_name": "Arcane Bolt",
+							"_hidden": "false",
+							"_id": "cc6b-cfa8-5cb0-181e",
+							"_type": "selectionEntry",
+							"_targetId": "869c-168d-eba5-eacf"
+						}
+					]
+				},
+				"costs": {
+					"cost": {
+						"_name": "pts",
+						"_hidden": "false",
+						"_id": "7940-5806-b7c-6e79",
+						"_typeId": "points",
+						"_value": "220"
+					}
+				},
+				"_type": "unit",
+				"_import": "true",
+				"_name": "Zondara Rivenheart",
+				"_hidden": "false",
+				"_id": "7773-9a87-c304-f756",
+				"_collective": "false"
+			}
+		},
+		"_xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+		"_id": "0364-070f-023f-64d9",
+		"_name": "Death - Soulblight Gravelords",
+		"_revision": "37",
+		"_battleScribeVersion": "2.03",
+		"_library": "false",
+		"_gameSystemId": "e51d-b1a3-75fc-dc33",
+		"_gameSystemRevision": "161",
+		"_type": "catalogue"
+	}
+}

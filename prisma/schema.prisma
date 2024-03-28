@@ -8,6 +8,7 @@ datasource db {
 
 generator client {
   provider = "prisma-client-js"
+  previewFeatures = ["relationJoins"]
 }
 
 enum UserRole {
@@ -98,7 +99,7 @@ model Unit {
   points Int
   image String?
   armyId String
-  army Army @relation(fields: [armyId], references: [id])
+  army Army @relation(fields: [armyId], references: [id], onDelete: Cascade)
 }
 
 model Army {
@@ -109,6 +110,7 @@ model Army {
   units Unit[]
   userId String @unique
   user User @relation(fields: [userId], references: [id])
+  gameId Int
 }
 
 model Team {

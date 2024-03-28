@@ -1,0 +1,3590 @@
+{
+	"catalogue": {
+		"entryLinks": {
+			"entryLink": [
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "481a-c62f-ce7d-e4ca",
+					"_name": "Grey Seer",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "2150-12ac-5daf-6880",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "a5a9-be9b-cd24-ebd6",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "87e8-c095-f059-5f7b",
+							"_primary": "true"
+						}
+					},
+					"_id": "b2ca-078c-afe6-34d9",
+					"_name": "Allegiance",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "1970-afa5-15ba-fb90",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "7c0b-e397-1659-0518",
+					"_name": "Thanquol on Boneripper",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "f202-c7c9-c791-5aeb",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "ed9f-7507-81f8-15f9",
+					"_name": "Lord Skreech Verminking",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "04b5-2542-6e11-4945",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "bb68-c45a-466d-48cb",
+					"_name": "Grey Seer on Screaming Bell",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "fae5-92d3-1574-e761",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "ef71-ae24-3c06-70e6",
+					"_name": "Verminlord Warpseer",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "afcf-0ce4-791c-c63f",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "9605-f317-e779-a48e",
+					"_name": "Verminlord Warbringer",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "25a7-52de-a434-2624",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "53b3-e5b7-b31f-a11f",
+					"_name": "Warpgnaw Verminlord",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "ca2a-5267-b212-e75a",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "b322-07a6-870b-e9bb",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "065e-fda7-fd27-1f40",
+							"_primary": "true"
+						}
+					},
+					"_id": "e223-9109-3553-cb1a",
+					"_name": "Plague Monks",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "23db-8084-a4b7-750c",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "2336-007a-367b-cfe4",
+					"_name": "Clanrats",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "ff51-5dac-313e-b769",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "876b-6077-42f1-652e",
+					"_name": "Plague Priest",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "8d7d-46a4-7a4b-28a8",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "4115-929d-26f7-2c78",
+					"_name": "Verminlord Deceiver",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "2704-6a04-1a1f-05a0",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "8a82-215d-57b9-ca8e",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "065e-fda7-fd27-1f40",
+							"_primary": "true"
+						}
+					},
+					"_id": "4248-6964-cb24-7b39",
+					"_name": "Gutter Runners",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "5eab-babc-0348-fe06",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "4725-1519-143a-7e7d",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "065e-fda7-fd27-1f40",
+							"_primary": "true"
+						}
+					},
+					"_id": "4be7-3d82-8f52-f6a9",
+					"_name": "Night Runners",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "1175-a790-812e-7206",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "8018-8078-a6c9-0364",
+					"_name": "Hell Pit Abomination",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "f578-f6a0-3051-5451",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "5148-6591-302d-7ed6",
+					"_name": "Packmasters",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "0700-1f12-9b8a-0d3c",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "8583-2aec-079e-794e",
+					"_name": "Rat Swarms",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "ac53-f256-0e9c-14c4",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "5289-e1f5-bd05-449e",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "065e-fda7-fd27-1f40",
+							"_primary": "true"
+						}
+					},
+					"_id": "bb8a-78b1-4ac2-2e70",
+					"_name": "Rat Ogors",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "e993-4b5c-5e32-199b",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "80b4-6432-5f3f-a66a",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "065e-fda7-fd27-1f40",
+							"_primary": "true"
+						}
+					},
+					"_id": "deaa-9228-3af7-55be",
+					"_name": "Giant Rats",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "2434-ca8e-36d2-4af0",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "08f3-6198-700a-ea20",
+					"_name": "Skritch Spiteclaw",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "aca2-1d43-0220-2465",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "8106-853c-6abb-ef52",
+					"_name": "Spiteclaw's Swarm",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "0c25-586e-f397-9896",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "c367-bf35-522e-d75f",
+					"_name": "Stormvermin",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "f870-2e45-e4aa-eb7b",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "3bde-723e-0b77-7fa8",
+					"_name": "Verminlord Corruptor",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "0afb-be63-f27c-0b71",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "c1b5-0d44-6091-3fe2",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "065e-fda7-fd27-1f40",
+							"_primary": "true"
+						}
+					},
+					"_id": "fc35-c4cd-c17d-59d4",
+					"_name": "Plague Censer Bearers",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "19b8-712e-4e5b-f1ef",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "da04-2e0a-afe9-2d47",
+					"_name": "Plagueclaw",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "b200-bf68-a22d-efe6",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "f0f1-f72d-ea78-7094",
+					"_name": "Plague Priest on Plague Furnace",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "92a9-a243-a1df-ca15",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "cc24-d43c-f9c1-e671",
+					"_name": "Battalion: Congregation of Filth",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "db27-7a01-58ca-09c7",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "6065-689a-ad8d-4980",
+					"_name": "Battalion: Foulrain Congregation",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "a2e5-0b7e-5d60-5225",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "6df6-d37e-d17e-4360",
+					"_name": "Battalion: Plaguesmog Congregation",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "1a31-088d-3872-2119",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "b748-0071-5c7f-2c2d",
+					"_name": "Warp Lightning Cannon",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7e9c-c40a-d0cf-353e",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "70e0-d7f9-6fc9-2a39",
+					"_name": "Warplock Jezzails",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "1716-77af-1f96-7149",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "93e8-66fb-1c24-48c0",
+					"_name": "Doomwheel",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "8a79-1819-7cca-1ff7",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "04f7-ef59-98ae-6de2",
+					"_name": "Arch-warlock",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "f11d-d308-1800-42ca",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "002e-0196-00a9-95c9",
+					"_name": "Warlock Engineer",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "5315-8497-a6fc-0f79",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "8c75-4a9f-b9f5-938a",
+					"_name": "Ratling Gun",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "c031-531f-e5d7-fc42",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "59e6-26a8-c18d-2c60",
+					"_name": "Warp-grinder",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "ead3-f485-89ac-c233",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "4615-f08d-9ab2-60fc",
+					"_name": "Warpfire Thrower",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "792c-1cdb-5d52-4d78",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "f6cb-45e6-4ed6-3aa8",
+					"_name": "Doom-flayer",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "b6ac-b9aa-a40c-1320",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "aff5-2c07-4137-6c9b",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "065e-fda7-fd27-1f40",
+							"_primary": "true"
+						}
+					},
+					"_id": "d335-cd4b-8988-a2c1",
+					"_name": "Skryre Acolytes",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "c1d1-fc15-9135-142b",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "5fa1-d130-77a9-d738",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "065e-fda7-fd27-1f40",
+							"_primary": "true"
+						}
+					},
+					"_id": "36b2-2333-e695-0ba9",
+					"_name": "Stormfiends",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "8d97-145c-20ed-42af",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "bd33-b6a8-346c-7e68",
+					"_name": "Enginecoven: Arkhspark Voltik",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "5ec4-1b45-cdaa-8933",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "c5a9-003c-9600-4d00",
+					"_name": "Enginecoven: Gascloud Chokelung",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "590d-74da-e1ca-60cb",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "e548-8e89-b681-e7d5",
+					"_name": "Enginecoven: Gautfyre Skorch",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "2a60-adf6-d9c9-377d",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "ac30-bd1a-10a7-c178",
+					"_name": "Enginecoven: Rattlegauge Warplock",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "1f6f-f265-31b5-0b56",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "16eb-150a-94d4-e4ba",
+					"_name": "Enginecoven: Whyrlblade Threshik",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "c215-d854-841b-c02b",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "2e7f-f077-58ea-3da8",
+					"_name": "Brood Horror [LEGENDS]",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "6b0c-69a9-54bf-1ba8",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "9772-3045-2658-bb9b",
+					"_name": "Deathmaster",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "d595-7c6e-e4d6-b37e",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "f311-0342-2091-2cae",
+					"_name": "Clawlord",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "98c2-8555-7433-56e7",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "009d-b9b7-8ac2-a99a",
+					"_name": "Master Moulder",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "876b-6949-face-f2c6",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "aedf-83bf-0682-5946",
+					"_name": "Warlock Bombardier",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "97a1-244f-df12-d3ef",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "85e6-262d-e00f-2a62",
+					"_name": "Skaven Chieftain with Battle Standard",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "5e4b-f937-af6b-9eb9",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "c092-f14c-7457-e3f6",
+					"_name": "Skavenslaves",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "44dd-db27-2095-6e21",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "ba0b-cfa0-195d-47df",
+					"_name": "Battalion: Fleshmeld Menagerie",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "270e-1f4b-8572-8124",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "a5d2-e597-0217-97d3",
+					"_name": "Battalion: Claw-horde",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "0fab-f297-3e7f-9807",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "3766-b375-b627-19f9",
+					"_name": "Battalion: Slinktalon",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "3c4a-22e7-b944-7b15",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "b74f-7386-02b8-c8a0",
+					"_name": "Gnawhole",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "0c02-a4d0-df8f-6135",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "8db1-fca5-1102-dc37",
+					"_name": "Wolf Rats [LEGENDS]",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "e6bd-2a4c-5b2a-e1c1",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "7e07-f445-6769-aeee",
+					"_name": "Skaven Clawlord on Brood Horror [LEGENDS]",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "4ebf-9f25-a2fc-1835",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "739e-a45e-2cb2-488c",
+					"_name": "One-Eyed Grunnock - Warstompa Mercenary",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "40c7-4bb8-cfd9-7319",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "1944-67ff-69d8-fe9a",
+					"_name": "Poisoned Wind Mortar [LEGENDS]",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "910b-324d-59f7-3d7a",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "5e82-407d-e6b5-fe75",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "1974-3f49-7f0b-8422",
+							"_primary": "true"
+						}
+					},
+					"_id": "40bf-f8b7-96d3-32ba",
+					"_name": "Grand Strategy",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "4aae-b8e2-8fb5-50a5",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "a37e-3831-1bb6-bfe2",
+					"_name": "Endless Spell: Bell of Doom",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "3c28-6bc1-118b-4ef4",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "41bf-a1be-58a1-7438",
+					"_name": "Endless Spell: Vermintide",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "a6a6-213e-8b53-285c",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "1eaf-fbd3-9bba-4f9d",
+					"_name": "Endless Spell: Warp Lightning Vortex",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "11e9-1158-4b62-eb7d",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "8ac4-918e-e9dc-bc19",
+					"_name": "Skittershank's Clawpack",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "47ba-e425-4e81-a2d0",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditionGroups": {
+								"conditionGroup": {
+									"conditions": {
+										"condition": {
+											"_field": "selections",
+											"_scope": "roster",
+											"_value": "1",
+											"_percentValue": "false",
+											"_shared": "true",
+											"_includeChildSelections": "true",
+											"_includeChildForces": "false",
+											"_childId": "ff93-966b-c16d-8149",
+											"_type": "equalTo"
+										}
+									},
+									"conditionGroups": {
+										"conditionGroup": {
+											"conditions": {
+												"condition": [
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "88f2-a5fd-1371-927b",
+														"_type": "instanceOf"
+													},
+													{
+														"_field": "selections",
+														"_scope": "force",
+														"_value": "0",
+														"_percentValue": "false",
+														"_shared": "true",
+														"_includeChildSelections": "false",
+														"_includeChildForces": "false",
+														"_childId": "5c1d-d0be-e5cf-9fe3",
+														"_type": "instanceOf"
+													}
+												]
+											},
+											"_type": "or"
+										}
+									},
+									"_type": "and"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "f4ed-05c3-8fa9-4783",
+					"_name": "Slynk Skittershank",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "991e-0f28-153b-ccd0",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "roster",
+									"_value": "0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "9e59-60ce-fa88-2648",
+									"_type": "greaterThan"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "false"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "9cf9-2ebb-6d68-89b8",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "e9f2-765a-b7b8-ce8e",
+								"_primary": "true"
+							},
+							{
+								"_id": "171d-5b51-8f3b-969b",
+								"_name": "Giant Rat Battleline",
+								"_hidden": "false",
+								"_targetId": "1993-c969-3592-0262",
+								"_primary": "false"
+							}
+						]
+					},
+					"_id": "8147-0b8d-2bf5-0187",
+					"_name": "Giant Rats",
+					"_hidden": "true",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "2434-ca8e-36d2-4af0",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "roster",
+									"_value": "0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "49c7-82f9-bb26-9c3b",
+									"_type": "greaterThan"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "false"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "a500-7eec-310e-49e6",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "e9f2-765a-b7b8-ce8e",
+								"_primary": "true"
+							},
+							{
+								"_id": "cfe3-d16e-28d9-1437",
+								"_name": "Gutter Runner Battleline",
+								"_hidden": "false",
+								"_targetId": "953f-b267-a157-0953",
+								"_primary": "false"
+							}
+						]
+					},
+					"_id": "6c90-2583-80bd-feef",
+					"_name": "Gutter Runners",
+					"_hidden": "true",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "5eab-babc-0348-fe06",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "roster",
+									"_value": "0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "49c7-82f9-bb26-9c3b",
+									"_type": "greaterThan"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "false"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "a2f0-c069-e4e3-61a9",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "e9f2-765a-b7b8-ce8e",
+								"_primary": "true"
+							},
+							{
+								"_id": "a692-a6d2-f8ae-8a47",
+								"_name": "Night Runners Battleline",
+								"_hidden": "false",
+								"_targetId": "70e4-9735-0ae9-ad82",
+								"_primary": "false"
+							}
+						]
+					},
+					"_id": "5add-5576-20d5-a004",
+					"_name": "Night Runners",
+					"_hidden": "true",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "1175-a790-812e-7206",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "roster",
+									"_value": "0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "7c7b-d978-12c6-b6a0",
+									"_type": "greaterThan"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "false"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "7406-1b02-98a4-52f4",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "e9f2-765a-b7b8-ce8e",
+								"_primary": "true"
+							},
+							{
+								"_id": "666d-ccd3-743a-c0d8",
+								"_name": "Plague Censer Bearers Battleline",
+								"_hidden": "false",
+								"_targetId": "4b19-a36e-3c61-ef7d",
+								"_primary": "false"
+							}
+						]
+					},
+					"_id": "79dc-fafb-1bfe-5b11",
+					"_name": "Plague Censer Bearers",
+					"_hidden": "true",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "19b8-712e-4e5b-f1ef",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "roster",
+									"_value": "0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "7c7b-d978-12c6-b6a0",
+									"_type": "greaterThan"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "false"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "1371-df99-aa58-f1cb",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "e9f2-765a-b7b8-ce8e",
+								"_primary": "true"
+							},
+							{
+								"_id": "5968-dddd-1243-7772",
+								"_name": "Plague Monks Battleline",
+								"_hidden": "false",
+								"_targetId": "1f83-2ca3-68d8-9962",
+								"_primary": "false"
+							}
+						]
+					},
+					"_id": "3573-2978-5b1a-b838",
+					"_name": "Plague Monks",
+					"_hidden": "true",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "23db-8084-a4b7-750c",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "roster",
+									"_value": "0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "9e59-60ce-fa88-2648",
+									"_type": "greaterThan"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "false"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "5023-b726-949e-63a4",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "e9f2-765a-b7b8-ce8e",
+								"_primary": "true"
+							},
+							{
+								"_id": "a9bc-2240-92b1-9025",
+								"_name": "Rat Ogors Battleline",
+								"_hidden": "false",
+								"_targetId": "23f2-c4a4-4beb-7ae2",
+								"_primary": "false"
+							}
+						]
+					},
+					"_id": "809b-9442-344f-9efa",
+					"_name": "Rat Ogors",
+					"_hidden": "true",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "e993-4b5c-5e32-199b",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "roster",
+									"_value": "0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "e48f-d0ab-be89-7b30",
+									"_type": "greaterThan"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "false"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "2c59-c747-d74d-bc75",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "e9f2-765a-b7b8-ce8e",
+								"_primary": "true"
+							},
+							{
+								"_id": "c6ff-5e89-46c2-5a12",
+								"_name": "Skryre Acolyte Battleline",
+								"_hidden": "false",
+								"_targetId": "79e7-f737-9d9a-4290",
+								"_primary": "false"
+							}
+						]
+					},
+					"_id": "0644-f4f2-9cb8-e32a",
+					"_name": "Skryre Acolytes",
+					"_hidden": "true",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "c1d1-fc15-9135-142b",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "roster",
+									"_value": "0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "e48f-d0ab-be89-7b30",
+									"_type": "greaterThan"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "false"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": [
+							{
+								"_id": "cc48-edfa-84a3-97af",
+								"_name": "New CategoryLink",
+								"_hidden": "false",
+								"_targetId": "e9f2-765a-b7b8-ce8e",
+								"_primary": "true"
+							},
+							{
+								"_id": "25ba-c187-04b7-df98",
+								"_name": "Stormfiends Battleline",
+								"_hidden": "false",
+								"_targetId": "3bee-d751-33ab-4501",
+								"_primary": "false"
+							}
+						]
+					},
+					"_id": "8efa-3d88-91bf-f876",
+					"_name": "Stormfiends",
+					"_hidden": "true",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "8d97-145c-20ed-42af",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "f2e3-9a88-a2e6-f829",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "1974-3f49-7f0b-8422",
+							"_primary": "true"
+						}
+					},
+					"_id": "437e-3143-c93f-dcd9",
+					"_name": "Battle Tactics: Plots, Schemes and Misdirections",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "fdd3-df18-2c86-ae51",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "40cd-2f28-6b4c-c346",
+					"_name": "Regiment of Renown - Hargax's Pit-beats",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "f5e6-6888-e003-118d",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "3d5c-a2b9-ae72-906d",
+					"_name": "Regiment of Renown - The Coven of Thryx",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "66b0-4847-a04e-0375",
+					"_type": "selectionEntry"
+				},
+				{
+					"_import": "true",
+					"_name": "Regiment of Renown - Phulgoth's Shudderhood",
+					"_hidden": "false",
+					"_type": "selectionEntry",
+					"_id": "1ba8-dd4b-2907-9e4a",
+					"_targetId": "10de-6e02-9446-6700"
+				},
+				{
+					"entryLinks": {
+						"entryLink": {
+							"_id": "7f86-6142-d9e2-3c98",
+							"_name": "Prayers",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_targetId": "ff40-9e7b-b23e-68e1",
+							"_type": "selectionEntryGroup"
+						}
+					},
+					"_import": "true",
+					"_name": "Skabbik Plagueseeker",
+					"_hidden": "false",
+					"_type": "selectionEntry",
+					"_id": "a6ee-a6f9-8dff-4554",
+					"_targetId": "10ee-9454-282-254c"
+				},
+				{
+					"_import": "true",
+					"_name": "Skabbik's Plaguepack",
+					"_hidden": "false",
+					"_type": "selectionEntry",
+					"_id": "ffba-c29b-91b-7385",
+					"_targetId": "f311-640b-7ea8-f5ef"
+				}
+			]
+		},
+		"catalogueLinks": {
+			"catalogueLink": [
+				{
+					"_id": "3b69-9491-1743-c25c",
+					"_name": "Chaos - Skaven - Data",
+					"_targetId": "de06-0235-6a96-193b",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				},
+				{
+					"_id": "baef-e5a1-4466-b5fe",
+					"_name": "Destruction - Sons of Behemat",
+					"_targetId": "f904-b52f-810a-e446",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				},
+				{
+					"_id": "a069-1e93-c879-cdfc",
+					"_name": "Endless Spells",
+					"_targetId": "f0db-356d-9f9f-662d",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				},
+				{
+					"_id": "ecd3-786c-7f00-9fac",
+					"_name": "Regiments of Renown",
+					"_targetId": "33cf-d309-6df3-50d6",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				}
+			]
+		},
+		"_xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+		"_id": "bcc4-c671-9435-d259",
+		"_name": "Chaos - Skaven",
+		"_revision": "46",
+		"_battleScribeVersion": "2.03",
+		"_authorContact": "@BSData",
+		"_authorUrl": "https://github.com/BSData/warhammer-age-of-sigmar",
+		"_library": "false",
+		"_gameSystemId": "e51d-b1a3-75fc-dc33",
+		"_gameSystemRevision": "157",
+		"_type": "catalogue"
+	}
+}

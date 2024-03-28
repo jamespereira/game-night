@@ -1,0 +1,499 @@
+{
+	"catalogue": {
+		"entryLinks": {
+			"entryLink": [
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "ancestor",
+									"_value": "0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_childId": "78f3-8a59-699a-61e8",
+									"_type": "instanceOf"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "5cd2-1981-b014-55f1",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "87e8-c095-f059-5f7b",
+							"_primary": "true"
+						}
+					},
+					"_id": "7332-f387-438b-852c",
+					"_name": "Allegiance",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "8e35-cdef-4c7e-0a1c",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "7120-dd67-2406-b09e",
+					"_name": "Auric Hearthguard",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "1823-43dd-1af2-b910",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "3614-3d9e-2a65-870a",
+					"_name": "Vulkite Berzerkers with Fyresteel Handaxes",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "5380-8f39-8882-eae7",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "9b1f-f3d5-d60c-4928",
+					"_name": "Auric Runefather",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "88ae-2998-b72a-3f1c",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "76a2-4dd5-f268-5295",
+					"_name": "Auric Runefather on Magmadroth",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "d62c-b254-872a-3500",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "50e1-55a1-6161-73a0",
+					"_name": "Auric Runemaster",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "c0aa-7e29-3be9-8fa5",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "ffa3-15f6-3db2-0db6",
+					"_name": "Auric Runesmiter",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "79fb-4a68-797b-95ed",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "31a8-6ffa-dc75-d6a7",
+					"_name": "Auric Runesmiter on Magmadroth",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "92c5-8b9d-f3e2-20e5",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "8e53-271a-fc6b-e7a3",
+					"_name": "Auric Runeson on Magmadroth",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "6dae-8546-4e7f-f420",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "13ba-0eda-7dbf-c742",
+					"_name": "Auric Runeson",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "54ed-538a-5a83-cbaa",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "dbbe-dc0e-45f1-b8f5",
+					"_name": "Battlesmith",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "f45a-1818-8096-1147",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "dd1c-6bf9-1082-ae35",
+					"_name": "Hearthguard Berzerkers",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "3973-d948-c464-bddc",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "20b8-5034-a91e-c8eb",
+					"_name": "Grimwrath Berzerker",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "0520-eb44-5bea-94d3",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "1b12-caa7-a67c-e0ff",
+					"_name": "Fyreslayers Warscroll Battalion: Forge Brethren",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "4745-50ef-230b-cd0f",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "a7a9-7827-4950-5aa3",
+					"_name": "Fyreslayers Warscroll Battalion: Lords of the Lodge",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "86c5-e66e-8180-8a6b",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "8115-6367-cec2-8793",
+					"_name": "Fyreslayers Warscroll Battalion: Warrior Kinband",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "0638-0925-ef33-408d",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "64e8-0ad4-4e97-5114",
+					"_name": "Doomseeker",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "5480-a1cb-81b1-45c7",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "2e26-98ba-5555-8d3a",
+					"_name": "Fjul-Grimnir",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "40af-3522-0296-167c",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "f4cd-63e2-3d00-668a",
+					"_name": "The Chosen Axes",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "3544-cf2b-f1ab-8663",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "bdae-4f74-d004-f0da",
+					"_name": "Magmic Battleforge",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "9a34-4e73-b5a5-7b71",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "force",
+									"_value": "0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "94c9-6cd1-da31-5c7e",
+									"_type": "equalTo"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "7eb8-af59-a3fd-f189",
+					"_name": "Magmic Invocation: Zharrgron Flame Spitter",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "09c6-5753-f3b3-c56c",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "force",
+									"_value": "0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "94c9-6cd1-da31-5c7e",
+									"_type": "equalTo"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "296d-cee1-11a3-c859",
+					"_name": "Magmic Invocation: Molten Infernoth",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "a210-d353-df95-85b8",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "force",
+									"_value": "0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "94c9-6cd1-da31-5c7e",
+									"_type": "equalTo"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "2be4-d4a1-14c0-64a2",
+					"_name": "Magmic Invocation: Runic Fyrewall",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "4383-0748-eb3c-ba75",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "roster",
+									"_value": "0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "false",
+									"_childId": "6171-3137-0d61-9057",
+									"_type": "equalTo"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"_id": "72bd-e00b-8b63-d1d0",
+					"_name": "Bael-Grimnir on Flamespitter",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "e1cf-9dd6-5f60-15ac",
+					"_type": "selectionEntry"
+				},
+				{
+					"entryLinks": {
+						"entryLink": {
+							"_id": "ae16-aa88-3e2b-c7e2",
+							"_name": "Battalions",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_targetId": "bfd7-5a8f-8c70-70d2",
+							"_type": "selectionEntryGroup"
+						}
+					},
+					"_id": "c7e7-247d-c36a-a65b",
+					"_name": "Gotrek Gurnisson",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "24c2-fff5-f17c-3d07",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "df89-154b-7324-e1d2",
+					"_name": "Bundo Whalebiter - Kraken-Eater Mercenary",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "efae-6133-d899-a7e4",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "3f2e-83e6-3a4f-e282",
+					"_name": "Grand Strategy",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7176-6508-38b6-738e",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "496e-96d9-4e2f-0f6d",
+					"_name": "Auric Flamekeeper",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "a5ad-019d-6c5e-199e",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "33b9-c802-ed49-00a9",
+					"_name": "Vulkite Berzerkers with Bladed Slingshields",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "ca23-fa8e-9458-873d",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "cbf3-9961-3ade-d0fc",
+					"_name": "Battle Tactics: Oaths of Battle",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "9b5d-92de-1b6d-2e5c",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "5303-9708-e080-2bc8",
+					"_name": "Regiment of Renown - Elthwin's Thorns",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "66f8-b848-40fa-a08d",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "ba04-2381-c48f-0042",
+					"_name": "Regiment of Renown - Norgrimm's Rune Throng",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "9553-8763-ddc2-a840",
+					"_type": "selectionEntry"
+				},
+				{
+					"_import": "true",
+					"_name": "Grimhold Exile",
+					"_hidden": "false",
+					"_type": "selectionEntry",
+					"_id": "7ccd-9eb8-6d14-fd83",
+					"_targetId": "8fad-5545-73f9-1c6f"
+				},
+				{
+					"_import": "true",
+					"_name": "Regiment of Renown - The Blacktalons",
+					"_hidden": "false",
+					"_type": "selectionEntry",
+					"_id": "ae99-a19d-6ad0-5a59",
+					"_targetId": "41f8-64ce-7c63-f963"
+				},
+				{
+					"_import": "true",
+					"_name": "Battle Tactics: Forge-sworn Oaths",
+					"_hidden": "false",
+					"_type": "selectionEntry",
+					"_id": "c36a-51d9-2d39-9faa",
+					"_targetId": "bbd5-afca-ce75-724"
+				},
+				{
+					"_import": "true",
+					"_name": "Vulkyn Flameseekers",
+					"_hidden": "false",
+					"_type": "selectionEntry",
+					"_id": "675e-5497-f98b-7971",
+					"_targetId": "8b73-7e3b-2f65-3d09"
+				},
+				{
+					"_import": "true",
+					"_name": "Regiment of Renown - Saviours of Cinderfall",
+					"_hidden": "false",
+					"_id": "7a0b-c9a3-6408-8bd",
+					"_type": "selectionEntry",
+					"_targetId": "241e-893b-ab5-be55"
+				}
+			]
+		},
+		"catalogueLinks": {
+			"catalogueLink": [
+				{
+					"_id": "6ee8-f70f-3d75-fac0",
+					"_name": "Order - Fyreslayers - Data",
+					"_targetId": "81cf-7df5-86e6-b78f",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				},
+				{
+					"_id": "010f-f920-066f-a719",
+					"_name": "Destruction - Sons of Behemat",
+					"_targetId": "f904-b52f-810a-e446",
+					"_type": "catalogue",
+					"_importRootEntries": "false"
+				},
+				{
+					"_id": "f541-2b2d-3dfe-df7b",
+					"_name": "Endless Spells",
+					"_targetId": "f0db-356d-9f9f-662d",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				},
+				{
+					"_id": "5057-b7c8-e634-a8ab",
+					"_name": "Regiments of Renown",
+					"_targetId": "33cf-d309-6df3-50d6",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				}
+			]
+		},
+		"_xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+		"_id": "e67a-06d2-888c-b9be",
+		"_name": "Order - Fyreslayers",
+		"_revision": "49",
+		"_battleScribeVersion": "2.03",
+		"_authorContact": "@BSData",
+		"_authorUrl": "https://github.com/BSData/warhammer-age-of-sigmar",
+		"_library": "false",
+		"_gameSystemId": "e51d-b1a3-75fc-dc33",
+		"_gameSystemRevision": "157",
+		"_type": "catalogue"
+	}
+}

@@ -4,7 +4,7 @@ import { promises as fs } from "fs";
 export const getFactionByName = async (faction: string) => {
   try {
     const file = await fs.readFile(
-      process.cwd() + `/lib/store/${faction}.json`,
+      process.cwd() + `/utils/factions/${faction}.json`,
       "utf8"
     );
     const data = JSON.parse(file);

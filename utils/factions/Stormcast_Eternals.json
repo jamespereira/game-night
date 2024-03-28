@@ -1,0 +1,1258 @@
+{
+	"catalogue": {
+		"profileTypes": {
+			"profileType": {
+				"characteristicTypes": {
+					"characteristicType": [
+						{
+							"_id": "16e7-fc98-da3d-921d",
+							"_name": "Variable1"
+						},
+						{
+							"_id": "93ac-2863-3f94-b8ac",
+							"_name": "Variable2"
+						},
+						{
+							"_id": "c11c-4fd8-5dac-cb38",
+							"_name": "Variable3"
+						}
+					]
+				},
+				"_id": "9cb4-15df-780d-f4ee",
+				"_name": "Crew Table"
+			}
+		},
+		"entryLinks": {
+			"entryLink": [
+				{
+					"_targetId": "28c-2340-487e-961f",
+					"_id": "ce8b-bd34-ea06-3bec",
+					"_type": "selectionEntry",
+					"_name": "Lorai, Child of the Abyss",
+					"_hidden": "false"
+				},
+				{
+					"_targetId": "b3db-711-6ff9-6a52",
+					"_id": "1fbe-629b-3af2-eb0d",
+					"_type": "selectionEntry",
+					"_name": "Neave's Companions",
+					"_hidden": "false"
+				},
+				{
+					"_targetId": "9945-49e4-d88-9f9d",
+					"_id": "d7c0-9131-e9ed-f629",
+					"_type": "selectionEntry",
+					"_name": "Ionus Cryptborn, Warden of Lost Souls",
+					"_hidden": "false"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_field": "selections",
+									"_scope": "ancestor",
+									"_value": "0",
+									"_percentValue": "false",
+									"_shared": "true",
+									"_includeChildSelections": "false",
+									"_includeChildForces": "false",
+									"_childId": "78f3-8a59-699a-61e8",
+									"_type": "instanceOf"
+								}
+							},
+							"_type": "set",
+							"_field": "hidden",
+							"_value": "true"
+						}
+					},
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "f799-9cd3-6530-624e",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "87e8-c095-f059-5f7b",
+							"_primary": "true"
+						}
+					},
+					"_id": "7332-f387-438b-852c",
+					"_name": "Allegiance",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "c6a3-2acf-1e46-3896",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "e779-4dc2-4d8c-8676",
+					"_name": "Lord-Celestant on Dracoth",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "5232-9953-1b83-0097",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "6e8d-cdd5-337d-ef5d",
+					"_name": "Drakesworn Templar",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "1090-dc26-d603-1103",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "e7aa-2962-d6ab-8be7",
+					"_name": "Lord-Celestant on Stardrake",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "19ca-60d5-c3b7-9444",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "3655-872d-ae10-f8a5",
+					"_name": "Concussors",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "a106-3d7e-be4d-bf3b",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "38dc-ac4d-bb07-37a9",
+					"_name": "Dracothian Guard Desolators",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "c97b-8f8b-99d4-71ed",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "d7c3-3ecd-4fe2-3212",
+					"_name": "Fulminators",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "fed1-2388-810f-3ae7",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "4566-0227-ca46-cab0",
+					"_name": "Dracothian Guard Tempestors",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "4115-b86d-bbd9-69ab",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "ea68-313d-ab64-e7d5",
+					"_name": "Judicators with Skybolt Bow",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "993b-d238-93ba-a4f2",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "6baa-75dc-373d-a127",
+					"_name": "Celestant-Prime, Hammer of Sigmar",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "4827-4147-67c2-16f7",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "ec2a-ac0a-92f9-6b53",
+					"_name": "Knight-Azyros",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "afac-5154-99ae-ee3c",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "caba-79b0-d660-22ac",
+					"_name": "Knight-Heraldor",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "3c2d-c00c-722b-36d2",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "973a-aa28-e9de-1f2f",
+					"_name": "Knight-Venator",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "aeb5-ae52-567b-5f8c",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "b3c6-1d6d-3af0-9d9e",
+					"_name": "Knight-Vexillor",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "9320-740f-eb76-c07b",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "fe7d-4037-5dde-6926",
+					"_name": "Lord-Castellant",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "15e7-d7b5-5bed-3c54",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "0f9a-f02a-61ca-324b",
+					"_name": "Lord-Celestant",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "425f-9d59-b2f6-b5f0",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "5048-b161-6f3d-8c30",
+					"_name": "Lord-Relictor",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "ce64-88a6-ce56-0940",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "369f-4f98-a1df-728a",
+					"_name": "Decimators",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "5330-8a21-c53d-7aa3",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "29fb-a93d-9625-1332",
+					"_name": "Gryph-Hounds",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "d79a-14b4-5f86-76d2",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "ab34-4569-760e-6394",
+					"_name": "Prosecutors with Celestial Hammers",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "432b-fe7d-867c-7e7d",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "8e5e-09df-e579-13cb",
+					"_name": "Protectors",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "5858-a948-c65e-b3b7",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "cfdb-3b6b-1a35-b615",
+					"_name": "Retributors",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "20ee-5f80-e899-a31b",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "cd66-df81-2c79-7231",
+					"_name": "Knight-Questor",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "3c95-3545-4b34-4221",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "b377-1f0c-bd84-9aa8",
+					"_name": "Lord-Veritant",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7132-5dde-398e-d8a0",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "a266-1d9d-9fc2-c054",
+					"_name": "Lord-Aquilor",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "a352-bb91-9133-a58d",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "39fb-ca45-181d-24bb",
+					"_name": "Vanguard-Hunters",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "a304-f6e3-9750-fae8",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "9764-9c8d-87a6-abb9",
+					"_name": "Vanguard-Palladors",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "495f-0703-ade1-f179",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "88ae-4437-b276-fe0a",
+					"_name": "Vanguard-Raptors with Hurricane Crossbows",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "f013-a130-757f-6fbd",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "6c32-cec9-846c-c420",
+					"_name": "Vanguard-Raptors with Longstrike Crossbows",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "5a5d-a64b-6f2e-0ed9",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "7d2b-3d65-f016-dd26",
+					"_name": "Neave Blacktalon",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "e72f-58fe-d697-6be6",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "c40a-f331-f505-15bc",
+					"_name": "Lord-Ordinator",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "c924-f509-4a7f-1735",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "0e35-1edd-4065-5563",
+					"_name": "Vandus Hammerhand",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "66fb-5872-a345-2ad5",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "a22f-a46a-385b-a573",
+					"_name": "Gavriel Sureheart",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "722a-0a7a-212c-da4c",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "4391-8ed0-6bff-1873",
+					"_name": "Steelheart's Champions",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "b8d3-7d4a-8689-ab16",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "c3d7-1905-1703-71f9",
+					"_name": "Liberators",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "5b8e-b5ee-8df3-9f2f",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "8b3c-2baa-f4d3-d24e",
+					"_name": "The Farstriders",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "384d-78bf-f7a0-887d",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "f4d1-5179-c21a-a1b4",
+					"_name": "Castigators",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "623f-7949-6fb7-fd62",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "18c5-dfd0-7146-0e0b",
+					"_name": "Sequitors",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "29da-7c0d-155b-f63a",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "f3ba-f7a5-03b5-3662",
+					"_name": "Evocators",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "6427-4f9f-abde-dc0b",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "52b2-0d9a-3028-fa25",
+					"_name": "Lord-Arcanum on Gryph-charger",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "775a-c8fb-23a8-5c2a",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "f772-e53a-d545-36bf",
+					"_name": "Knight-Incantor",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7a4b-b062-14f2-65db",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "860b-7244-e6f9-95dd",
+					"_name": "Celestar Ballista",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "70bf-9177-9d10-bc5f",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "11c3-a45d-d15e-3eea",
+					"_name": "Errant-Questor",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "530a-e1c9-444c-bc70",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "3209-2c3a-ad64-504b",
+					"_name": "Astreia Solbright",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "0bd3-8d56-f1d3-23ea",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "28f9-1c1e-70b7-c180",
+					"_name": "Aventis Firestrike, Magister of Hammerhal",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "c346-0cbf-16de-8230",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "5c08-4d56-cc4f-f201",
+					"_name": "Stormcast Warscroll Battalion: Cleansing Phalanx",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "f1db-2143-5dd1-4dd2",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "0f9d-93e9-051e-c701",
+					"_name": "Lord-Arcanum on Tauralon",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "6f87-6fec-658e-d582",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "490f-a876-a870-8261",
+					"_name": "Lord-Arcanum on Celestial Dracoline",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "8568-5b1b-179d-e1c5",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "3bfb-34ae-c0c1-4dff",
+					"_name": "Lord-Arcanum",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "f069-8a02-0d59-83be",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "b844-d5ca-0586-7f67",
+					"_name": "Lord-Exorcist",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "b92f-b04d-3339-5cd9",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "9187-0e96-e44b-8120",
+					"_name": "Knight-Zephyros",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "40dd-3878-4b37-f96e",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "47f0-cb47-75b8-a274",
+					"_name": "Evocators on Celestial Dracolines",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "8800-4822-2349-f731",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "cfea-25a0-2fd1-2a9b",
+					"_name": "Averon Stormsire",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "aff4-016f-04b6-cf66",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "8bbe-faa3-9614-40fc",
+					"_name": "Stormsire's Cursebreakers",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "d804-282f-96b2-4d98",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "a81d-a242-af20-1bc2",
+					"_name": "Lynus Ghalmorian on Gryph-charger",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "9e60-d9e5-d5da-5a58",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_type": "atLeast",
+									"_value": "1",
+									"_field": "selections",
+									"_scope": "roster",
+									"_childId": "cf46-7b83-d97b-7663",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "true"
+								}
+							},
+							"_type": "set",
+							"_value": "true",
+							"_field": "hidden"
+						}
+					},
+					"_id": "b8d1-87ed-3e64-352b",
+					"_name": "Bundo Whalebiter - Kraken-Eater Mercenary",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "efae-6133-d899-a7e4",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "c820-2034-45ac-0662",
+					"_name": "Karazai",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7dd4-0c32-1279-7b54",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "f9d3-8228-a3d6-03b7",
+					"_name": "Gardus Steel Soul",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "ee13-f44a-895b-4889",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "d449-fbb1-b391-e0b4",
+					"_name": "Annihilators",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "49fe-664e-6531-0b6d",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "d4fc-5da0-d6d5-7d5a",
+					"_name": "Vindictors",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "4a87-00dc-c62a-074f",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "f532-d3d9-47ff-3803",
+					"_name": "Yndrasta",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "b186-2f79-0f02-ec9a",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "c86a-bb0d-ce19-01f9",
+					"_name": "Knight-Arcanum",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "6fb8-c9ea-efa0-523e",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "ae73-875f-2773-b7eb",
+					"_name": "Knight-Vexillor with Banner of Apotheosis",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "6cfb-1af1-7825-f2d8",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "fbb7-618f-334a-d1f9",
+					"_name": "Lord-Imperatant",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "9feb-e0f1-ed03-5ebf",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "45b9-6ddf-63df-5368",
+					"_name": "Praetors",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "be54-5dfd-1196-d7e5",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "cbb0-9f74-6fa1-1a55",
+					"_name": "Grand Strategy",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "4e80-17a2-f4ab-b66d",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "cb4d-db58-99d0-16a7",
+					"_name": "Stormcast Core Battalion: Brotherhood Command",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "603a-d62d-58de-207a",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "3473-ca75-c859-b744",
+					"_name": "Stormcast Core Battalion: Redemption Brotherhood",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "fcc3-6657-917f-e1ab",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "9133-3bd9-e2d9-ae93",
+					"_name": "Stormcast Core Battalion: Soulstrike Brotherhood",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "2576-2545-9cd2-dd1f",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "f3d8-26f7-846c-f1e8",
+					"_name": "Krondys",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "a8ba-15b1-e472-e63b",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "b674-260e-3abb-c0ec",
+					"_name": "Lord-Commander Bastian Carthalos",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "97d9-76bd-57e9-e64e",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "20ce-688c-eba5-199f",
+					"_name": "Prosecutors with Stormcall Javelins",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "9147-0d4a-e547-aa85",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "776d-e493-b246-3bc0",
+					"_name": "Annihilators with Meteoric Grandhammers",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "f5ea-2bc4-6ce1-1d36",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_type": "atLeast",
+									"_value": "1",
+									"_field": "selections",
+									"_scope": "roster",
+									"_childId": "cf46-7b83-d97b-7663",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "true"
+								}
+							},
+							"_type": "set",
+							"_value": "true",
+							"_field": "hidden"
+						}
+					},
+					"_id": "3c1e-4004-0e20-c182",
+					"_name": "Faithful Gryph-hound",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "418d-7593-dbec-9cbf",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "424e-0827-6742-dc59",
+					"_name": "Judicators with Boltstorm Crossbows",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "bcde-da87-e21e-6367",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "2fbc-c79f-7c10-9dfc",
+					"_name": "Knight-Draconis",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7cfa-7c55-473d-f251",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "2dc7-36f1-8404-c7f2",
+					"_name": "Knight-Judicator with Gryph-hounds",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "9d30-f9a0-5211-accd",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "05d0-9fc2-9775-b39d",
+					"_name": "Knight-Relictor",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "cf7f-8472-2025-b036",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "091e-4c1b-3f45-6608",
+					"_name": "Stormcast Warscroll Battalion: Hammerstrike Force",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "503c-5ab0-9e79-eb17",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "f59d-782d-0960-f538",
+					"_name": "Stormcast Warscroll Battalion: Lords of the Warrior Chamber",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "7965-7604-5bf6-4f1c",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "3c27-fba7-a1db-6a9d",
+					"_name": "Stormcast Warscroll Battalion: Thunderhead Brotherhood",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "4884-f262-7007-a3af",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "2050-0098-8438-8ac1",
+					"_name": "Stormdrake Guard",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "c079-8ab1-38db-b9c2",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "4033-b6e0-699c-94f3",
+					"_name": "Stormstrike Chariot",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "135a-9b73-305e-ead2",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "3189-2d1e-3736-915b",
+					"_name": "Vanquishers",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "3407-44e4-19c0-886b",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "33c6-d047-30aa-0010",
+					"_name": "Vigilors",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "5f6f-1e1f-262c-7601",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "651c-1fe5-10ef-e8be",
+					"_name": "Dracothian Guard Fulminator (single)",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "c3a5-68cd-b4c8-d730",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "0c8e-0adf-0acf-e26c",
+					"_name": "Stormdrake Guard (Single)",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "36a0-2e80-4974-a80a",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "96f3-518c-f500-3b27",
+					"_name": "Stormcast Warscroll Battalion: Drakesworn Temple",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "03a8-a0ae-f047-ca47",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "851d-2c14-3bec-507e",
+					"_name": "Stormcast Warscroll Battalion: Devastation Brotherhood",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "e7ee-a73e-a476-dc29",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "afe3-00e2-e537-8109",
+					"_name": "Stormcast Warscroll Battalion: Grand Convocation",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "f01f-c247-0061-23fc",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "fa87-b99f-5e23-c3a1",
+					"_name": "Stormcast Warscroll Battalion: Hailstorm Battery",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "fced-bc4d-7f14-5ac1",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "b553-90c3-31f9-97b5",
+					"_name": "Stormcast Warscroll Battalion: Lightning Echelon",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "9dcd-543f-67e6-dd68",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "0b48-d29a-91ee-fa8a",
+					"_name": "Stormcast Warscroll Battalion: Lords of the Exemplar Chamber",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "420c-245f-7608-1337",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "0d56-500c-e58f-3474",
+					"_name": "Stormcast Warscroll Battalion: Lords of the Harbinger Chamber",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "9244-7ac7-a23e-01b6",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "396c-ee39-7605-ea62",
+					"_name": "Stormcast Warscroll Battalion: Thunderwave Echelon",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "b640-5cc8-e38b-22bc",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "6703-76ca-c216-1677",
+					"_name": "Stormcast Warscroll Battalion: Vanguard Angelos Conclave",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "64e4-5b06-19c6-42b0",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "23c8-78bb-3285-708f",
+					"_name": "Stormcast Warscroll Battalion: Vanguard Justicar Conclave",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "125d-cfc2-e5c9-6780",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "337a-ce84-1a51-2cc4",
+					"_name": "Stormcast Warscroll Battalion: Vanguard Wing",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "2598-0df0-d53f-d44f",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "969d-4ffc-8cc4-376b",
+					"_name": "Aetherwings",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "8940-6351-56bb-6cbf",
+					"_type": "selectionEntry"
+				},
+				{
+					"categoryLinks": {
+						"categoryLink": {
+							"_id": "dc2a-557e-29aa-5d00",
+							"_name": "New CategoryLink",
+							"_hidden": "false",
+							"_targetId": "1974-3f49-7f0b-8422",
+							"_primary": "true"
+						}
+					},
+					"_id": "c2d3-fc7f-b73f-47b1",
+					"_name": "Battle Tactics",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "333e-d2d1-8f5d-061c",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "aaea-3d02-acdf-451e",
+					"_name": "Xandire's Truthseekers",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "9a23-dbdc-7d24-65c3",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "9ee0-9632-8d34-873a",
+					"_name": "Knight-Questor Dacian Anvil",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "59d2-7233-9667-f2c1",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "f20d-6e4e-4c9a-26ba",
+					"_name": "Endless Spell: Celestian Vortex",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "8893-3004-44ae-ec33",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "f5c8-6d0a-df92-6b95",
+					"_name": "Endless Spell: Dais Arcanum",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "e86e-9f5f-c3e5-177a",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "392d-2ba9-1a45-df0d",
+					"_name": "Endless Spell: Everblaze Comet",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "3b36-4ddd-ca51-aa86",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_type": "atLeast",
+									"_value": "1",
+									"_field": "selections",
+									"_scope": "roster",
+									"_childId": "cf46-7b83-d97b-7663",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "true"
+								}
+							},
+							"_type": "set",
+							"_value": "true",
+							"_field": "hidden"
+						}
+					},
+					"_id": "46f2-8894-e9cb-fe96",
+					"_name": "Regiment of Renown - Elthwin's Thorns",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "66f8-b848-40fa-a08d",
+					"_type": "selectionEntry"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_type": "atLeast",
+									"_value": "1",
+									"_field": "selections",
+									"_scope": "roster",
+									"_childId": "cf46-7b83-d97b-7663",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "true"
+								}
+							},
+							"_type": "set",
+							"_value": "true",
+							"_field": "hidden"
+						}
+					},
+					"_id": "dbd1-ce7c-363f-8647",
+					"_name": "Regiment of Renown - Norgrimm's Rune Throng",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "9553-8763-ddc2-a840",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "4b90-0088-6a9f-7ab7",
+					"_name": "Domitan's Stormcoven",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "824d-d27b-ae83-fdfb",
+					"_type": "selectionEntry"
+				},
+				{
+					"_id": "d302-d9b1-be84-88ee",
+					"_name": "Questor Soulsworn",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "0afb-37b9-5f41-13ad",
+					"_type": "selectionEntry"
+				},
+				{
+					"_import": "true",
+					"_name": "Holy Commands",
+					"_hidden": "false",
+					"_type": "selectionEntry",
+					"_id": "d5e7-fb8d-d39a-f642",
+					"_targetId": "fd70-68a3-f7d4-f40c"
+				},
+				{
+					"modifiers": {
+						"modifier": {
+							"conditions": {
+								"condition": {
+									"_type": "atLeast",
+									"_value": "1",
+									"_field": "selections",
+									"_scope": "roster",
+									"_childId": "cf46-7b83-d97b-7663",
+									"_shared": "true",
+									"_includeChildSelections": "true",
+									"_includeChildForces": "true"
+								}
+							},
+							"_type": "set",
+							"_value": "true",
+							"_field": "hidden"
+						}
+					},
+					"_import": "true",
+					"_name": "Regiment of Renown - Fjori's Flamebearers",
+					"_hidden": "false",
+					"_type": "selectionEntry",
+					"_id": "f7ec-b5eb-d9e0-dc0",
+					"_targetId": "679-2ac4-81f1-ac2"
+				},
+				{
+					"entryLinks": {
+						"entryLink": {
+							"_id": "7d2c-55cf-641e-acc0",
+							"_name": "Battalions",
+							"_hidden": "false",
+							"_collective": "false",
+							"_import": "true",
+							"_targetId": "4165-f8c8-6f84-e4ca",
+							"_type": "selectionEntryGroup"
+						}
+					},
+					"_id": "fbda-2186-f4dc-d628",
+					"_name": "Gotrek Gurnisson",
+					"_hidden": "false",
+					"_collective": "false",
+					"_import": "true",
+					"_targetId": "24c2-fff5-f17c-3d07",
+					"_type": "selectionEntry"
+				},
+				{
+					"_import": "true",
+					"_name": "Regiment of Renown - Saviours of Cinderfall",
+					"_hidden": "false",
+					"_id": "a4c5-8f6f-8054-8519",
+					"_type": "selectionEntry",
+					"_targetId": "241e-893b-ab5-be55"
+				}
+			]
+		},
+		"catalogueLinks": {
+			"catalogueLink": [
+				{
+					"_id": "9f47-72b8-45c8-2825",
+					"_name": "Order - Stormcast Eternals - Data",
+					"_targetId": "82b4-f6e1-3e37-5ea1",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				},
+				{
+					"_id": "5f97-5c88-d630-197a",
+					"_name": "Destruction - Sons of Behemat",
+					"_targetId": "f904-b52f-810a-e446",
+					"_type": "catalogue",
+					"_importRootEntries": "false"
+				},
+				{
+					"_id": "3fa8-61da-a72e-d66e",
+					"_name": "Endless Spells",
+					"_targetId": "f0db-356d-9f9f-662d",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				},
+				{
+					"_id": "cebc-c15f-149f-78ef",
+					"_name": "Regiments of Renown",
+					"_targetId": "33cf-d309-6df3-50d6",
+					"_type": "catalogue",
+					"_importRootEntries": "true"
+				},
+				{
+					"_type": "catalogue",
+					"_name": "Order - Idoneth Deepkin - Data",
+					"_id": "f1dc-fedb-a17a-4ca3",
+					"_targetId": "b713-a274-2a46-fe02"
+				}
+			]
+		},
+		"_xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+		"_id": "ed04-877b-c5d3-ce41",
+		"_name": "Order - Stormcast Eternals",
+		"_revision": "76",
+		"_battleScribeVersion": "2.03",
+		"_authorContact": "@BSData",
+		"_authorUrl": "https://github.com/BSData/warhammer-age-of-sigmar",
+		"_library": "false",
+		"_gameSystemId": "e51d-b1a3-75fc-dc33",
+		"_gameSystemRevision": "161",
+		"_type": "catalogue"
+	}
+}
