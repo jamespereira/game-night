@@ -39,7 +39,7 @@ async function TeamDetail({ params }: Props) {
   }
 
   return (
-    <div className="flex h-full flex-col bg-slate-900 text-stone-200 pb-8">
+    <div className="flex h-full flex-col text-stone-200 pb-8 bg-gradient-to-r from-black/90 from-20% to-sky-900/75">
       <div className="flex flex-row justify-between mx-4 py-4 border-b border-stone-400/50">
         <h2 className="text-2xl font-semibold">Team {team?.teamNumber} List</h2>
         <h3 className="text-2xl font-semibold text-sky-400">

@@ -23,11 +23,11 @@ const UnitList = ({ units, type }: Props) => {
         .map((unit, i) => (
           <div
             key={`${unit.id}-${i}`}
-            className="flex flex-row items-center justify-between gap-x-4 p-2 bg-slate-600 rounded-xl shadow-slate-900 shadow-sm"
+            className="flex flex-row items-center justify-between gap-x-4 p-2 bg-slate-500 rounded-xl shadow-slate-900 shadow-sm"
           >
             <div className="flex flex-row gap-x-2 items-center text-wrap  ">
               <UnitImage name={unit.name} />
-              <span className="text-stone-300/90">{unit.name}</span>
+              <span className="text-stone-200">{unit.name}</span>
             </div>
             <div className="flex flex-row gap-x-2">
               <span>{`${unit.points}pts`}</span>
