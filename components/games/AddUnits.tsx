@@ -78,7 +78,9 @@ const AddUnits = ({ faction, userId, gameId }: Props) => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button disabled={!factionList}>Add Units</Button>
+        <Button disabled={!factionList} className="bg-amber-600/75">
+          Add Units
+        </Button>
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>

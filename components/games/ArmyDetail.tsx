@@ -44,7 +44,7 @@ const ArmyDetail = ({ gameId, user, army, factionList }: ArmyProps) => {
 
   function renderFactionSelect() {
     return (
-      <div className="flex flex-row gap-y2 items-center">
+      <div className="flex flex-row gap-x-4 items-center">
         <Select
           disabled={!!army?.faction}
           onValueChange={(e) => onFactionChange(e)}
@@ -69,25 +69,29 @@ const ArmyDetail = ({ gameId, user, army, factionList }: ArmyProps) => {
         </Select>
 
         <button className="" onClick={() => removeArmyById(army.id)}>
-          <FaWindowClose className="text-red-400" />
+          <FaWindowClose className="text-slate-200" />
         </button>
       </div>
     );
   }
 
   return (
-    <div>
+    <div className="bg-slate-700 rounded-md">
       <div className="flex flex-row justify-between p-8 ">
         <div className="flex flex-row items-center gap-8">
           <button onClick={() => setShowList(!showList)}>
             {showList ? <FaChevronDown /> : <FaChevronUp />}
           </button>
-          <div>{user?.name} </div>
+          <div>
+            <p className="text-lg font-semibold">{user?.name}</p>
+          </div>
           {renderFactionSelect()}
         </div>
-        <div className="flex flex-row gap-8">
+        <div className="flex flex-row gap-8 items-center">
           <AddUnits faction={faction} userId={user.id} gameId={gameId} />
-          <div>{army?.units && getPointsTotal(army)} pts</div>
+          <div className="font-semibold">
+            {army?.units && getPointsTotal(army)} pts
+          </div>
         </div>
       </div>
       {showList && army?.units ? <ArmyList units={army?.units} /> : null}

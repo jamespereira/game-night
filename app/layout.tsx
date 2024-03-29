@@ -25,19 +25,20 @@ export default async function RootLayout({
   return (
     <SessionProvider session={session}>
       <html lang="en">
-        <body className={cn(inter.className, "bg-stone-800", "relative")}>
-          <header>
-            <Navbar />
-          </header>
+        <body className={cn(inter.className, "relative", "min-height: 100vw")}>
+          <Navbar />
           <Toaster />
-          <Image
-            src={`/aos_bg.jpg`}
-            alt={`aos background image`}
-            sizes="100"
-            fill
-            priority
-            style={{ objectFit: "cover", zIndex: -1, borderRadius: "0.75rem" }}
-          />
+          <div className="fixed top-0 left-0 w-full h-full z-[-9] bg-gradient-to-r from-black/75 from-20% to-sky-900/50"></div>
+          <div className="fixed top-0 left-0 w-full h-full z-[-10] ">
+            <Image
+              src={`/images/bg_home.jpg`}
+              alt={`aos background image`}
+              sizes="100"
+              fill
+              priority
+              className="object-cover"
+            />
+          </div>
           {children}
         </body>
       </html>

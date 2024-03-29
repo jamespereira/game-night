@@ -1,5 +1,3 @@
-import React, { useEffect, useState } from "react";
-import uniqueId from "lodash";
 import dayjs from "dayjs";
 
 type Props = {
@@ -9,18 +7,14 @@ const Countdown = ({ game }: Props) => {
   const timeTo = dayjs().to(game.date);
 
   return (
-    <div className="flex flex-row gap-16 text-stone-200">
-      <div className="flex flex-col">
-        <p className="text-2xl">
-          {dayjs(game.date).format("dddd, MMMM D, YYYY h:mm A	")}
-        </p>
-        <p className="text-xl">
-          @ {game.location} {game.time}
-        </p>
-      </div>
-      <div>
-        <p className="text-2xl">{timeTo}</p>
-      </div>
+    <div className="flex flex-col">
+      <p className="mb-2 text-md leading-6 font-semibold text-sky-400">
+        {timeTo}
+      </p>
+      <h1 className="text-2xl sm:text-3xl font-extrabold text-stone-200">
+        {dayjs(game.date).format("dddd, MMMM D, h:mm A	")}
+      </h1>
+      <p className="mt-2 text-lg text-stone-300/85">{game.location}</p>
     </div>
   );
 };

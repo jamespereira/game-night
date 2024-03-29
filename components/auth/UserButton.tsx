@@ -8,7 +8,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import useCurrentUser from "@/hooks/use-current-user";
-import { FaUser } from "react-icons/fa";
+import { FaUserCircle } from "react-icons/fa";
 import LogoutButton from "./LogoutButton";
 import { ExitIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
@@ -18,10 +18,10 @@ const UserButton = () => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger>
-        <Avatar>
+        <Avatar className="w-6 h-6">
           <AvatarImage src={user?.image || ""} />
-          <AvatarFallback className="bg-amber-400">
-            <FaUser className="text-stone-600" />
+          <AvatarFallback className="text-stone-400 bg-color-none">
+            <FaUserCircle className="w-full h-full" />
           </AvatarFallback>
         </Avatar>
       </DropdownMenuTrigger>

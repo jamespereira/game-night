@@ -16,23 +16,23 @@ const UnitList = ({ units, type }: Props) => {
   }
 
   return (
-    <div className="flex flex-col gap-8">
-      <div className="font-bold">{type}</div>
+    <div className="flex flex-col gap-8 flex-1">
+      <div className="font-medium text-sky-400">{type}</div>
       {units
         ?.filter((unit) => unit.unitType === type)
         .map((unit, i) => (
           <div
             key={`${unit.id}-${i}`}
-            className="flex flex-row items-center justify-between gap-x-4 border-1 border-slate-200"
+            className="flex flex-row items-center justify-between gap-x-4 p-2 bg-slate-600 rounded-xl shadow-slate-900 shadow-sm"
           >
-            <div className="flex flex-row gap-x-2 items-center text-wrap ">
+            <div className="flex flex-row gap-x-2 items-center text-wrap  ">
               <UnitImage name={unit.name} />
-              <span>{unit.name}</span>
+              <span className="text-stone-300/90">{unit.name}</span>
             </div>
             <div className="flex flex-row gap-x-2">
               <span>{`${unit.points}pts`}</span>
               <button className="" onClick={() => handleRemoveUnit(unit.id)}>
-                <FaWindowClose className="text-red-400" />
+                <FaWindowClose className="text-slate-200" />
               </button>
             </div>
           </div>

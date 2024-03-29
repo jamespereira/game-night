@@ -108,7 +108,7 @@ model Army {
   subfaction String?
   image String?
   units Unit[]
-  userId String @unique
+  userId String
   user User @relation(fields: [userId], references: [id])
   gameId Int
 }

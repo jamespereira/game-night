@@ -39,12 +39,14 @@ async function TeamDetail({ params }: Props) {
   }
 
   return (
-    <div className="flex flex-col bg-stone-200">
-      <div className="flex flex-row justify-between">
-        <h2>Army List page</h2>
-        <div>{await getTeamPointsTotal(team?.users)}/2000 pts</div>
+    <div className="flex h-full flex-col bg-slate-900 text-stone-200 pb-8">
+      <div className="flex flex-row justify-between mx-4 py-4 border-b border-stone-400/50">
+        <h2 className="text-2xl font-semibold">Team {team?.teamNumber} List</h2>
+        <h3 className="text-2xl font-semibold text-sky-400">
+          {await getTeamPointsTotal(team?.users)}/2000 pts
+        </h3>
       </div>
-      <div className="flex flex-col">
+      <div className="flex flex-col mx-4 gap-8">
         {teamDetails.users.map((user: any) => (
           <UserArmy key={user.id} user={user} gameId={gameId} />
         ))}
