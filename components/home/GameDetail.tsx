@@ -36,7 +36,7 @@ const GameDetail = async ({ game }: Props) => {
 
   return (
     <div className="flex flex-col gap-y-8 w-full mt-[80px]">
-      <div className="flex flex-row gap-x-8 w-full flex-wrap">
+      <div className="flex md:flex-row flex-col gap-x-8 w-full flex-wrap">
         <div className="flex flex-1">
           <Countdown game={game} />
         </div>
@@ -47,6 +47,7 @@ const GameDetail = async ({ game }: Props) => {
               alt={`aos background image`}
               sizes="100"
               fill
+              priority
               className="object-cover rounded-xl"
             />
           </div>
@@ -63,9 +64,9 @@ const GameDetail = async ({ game }: Props) => {
             />
           </CardContent>
           <CardFooter>
-            <div className="flex items-center justify-center">
+            {/* TO DO update team to logged in user */}
+            {/* <div className="flex items-center justify-center">
               <Button className="bg-amber-600/75">
-                {/* TO DO update team to logged in user */}
                 <Link
                   href="/games/[gameId]/teams/[teamId]"
                   as={`/games/${game.id}/teams/1`}
@@ -73,7 +74,7 @@ const GameDetail = async ({ game }: Props) => {
                   Edit Team
                 </Link>
               </Button>
-            </div>
+            </div> */}
           </CardFooter>
         </Card>
       </div>

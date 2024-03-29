@@ -21,10 +21,7 @@ const TeamTile = ({ teamDetails, gameId }: Props) => {
       >
         <div className="flex flex-col gap-4">
           {teamDetails.users?.map((user) => (
-            <div
-              key={user.id}
-              className="p-4 bg-amber-400/90 border-white border-2"
-            >
+            <div key={user.id} className="p-4 bg-amber-400/90 shadow-sm">
               <p>{user.name}</p>
             </div>
           ))}

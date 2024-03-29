@@ -78,7 +78,7 @@ const ArmyDetail = ({ gameId, user, army, factionList }: ArmyProps) => {
   return (
     <div className="bg-slate-700 rounded-md">
       <div className="flex flex-row justify-between p-8 ">
-        <div className="flex flex-row items-center gap-8">
+        <div className="flex flex-row items-center gap-8 flex-wrap">
           <button onClick={() => setShowList(!showList)}>
             {showList ? <FaChevronDown /> : <FaChevronUp />}
           </button>
