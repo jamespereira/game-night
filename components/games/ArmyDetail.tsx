@@ -19,6 +19,7 @@ import { getPointsTotal } from "@/utils/points-total";
 import removeArmyById from "@/actions/remove-army";
 import { Army, User } from "@prisma/client";
 import { ArmyDetails } from "@/interfaces";
+import { Button } from "../ui/button";
 
 type Props = {
   gameId: number;
@@ -48,13 +49,11 @@ const ArmyDetail = ({ gameId, user, army, factionList }: Props) => {
     setFaction({ factionName: "", factionList: null });
   }
 
-  console.log("factionName", faction.factionName);
-
   function renderFactionSelect() {
     return (
       <div className="flex flex-row gap-x-4 items-center">
         <Select
-          disabled={!!faction.factionName}
+          disabled={!!army}
           onValueChange={(e) => onFactionChange(e)}
           defaultValue={army?.faction}
         >
@@ -76,9 +75,16 @@ const ArmyDetail = ({ gameId, user, army, factionList }: Props) => {
           </SelectContent>
         </Select>
 
-        <button className="" onClick={() => handleRemoveArmy(army?.id)}>
-          <FaWindowClose className="text-slate-200" />
-        </button>
+        {army ? (
+          <Button
+            disabled={!army}
+            className="flex flex-row gap-x-2"
+            onClick={() => handleRemoveArmy(army?.id)}
+          >
+            Remove
+            <FaWindowClose className="text-slate-200" />
+          </Button>
+        ) : null}
       </div>
     );
   }

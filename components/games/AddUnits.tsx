@@ -1,3 +1,5 @@
+"use client";
+
 import React, { startTransition, useState } from "react";
 import {
   Dialog,
@@ -80,7 +82,7 @@ const AddUnits = ({ faction, userId, gameId }: Props) => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button disabled={!factionList} className="bg-amber-600/75">
+        <Button disabled={!faction.factionList} className="bg-amber-600/75">
           Add Units
         </Button>
       </DialogTrigger>

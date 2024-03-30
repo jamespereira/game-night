@@ -24,7 +24,7 @@ const Home = async () => {
           .reverse()
       ) : (
         <p className="mt-40 text-slate-200 text-2xl font-semibold">
-          There are no created gamess.
+          There are no created games.
         </p>
       )}
     </div>
