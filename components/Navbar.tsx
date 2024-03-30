@@ -10,7 +10,13 @@ const Navbar = async () => {
       <Link href="/" className="text-stone-400 text-sm">
         ⚔️ Game Night
       </Link>
-      {user ? <UserButton /> : <Link href="/auth/login">Login</Link>}
+      {user ? (
+        <UserButton />
+      ) : (
+        <Link href="/auth/login" className="text-stone-400">
+          Login
+        </Link>
+      )}
     </nav>
   );
 };
