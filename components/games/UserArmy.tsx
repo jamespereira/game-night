@@ -15,7 +15,7 @@ type Props = {
 const UserArmy = async ({ user, gameId }: Props) => {
   const army = await getArmyWithUnitsByUserIdAndGameId(user.id, gameId);
 
-  const factionList: Faction = await getFactionByName(army?.faction);
+  const factionList = await getFactionByName(army?.faction);
 
   return (
     <ArmyDetail

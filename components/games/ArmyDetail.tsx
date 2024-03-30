@@ -47,7 +47,7 @@ const ArmyDetail = ({ gameId, user, army, factionList }: Props) => {
     return (
       <div className="flex flex-row gap-x-4 items-center">
         <Select
-          disabled={!!army?.faction}
+          disabled={!!faction.factionName}
           onValueChange={(e) => onFactionChange(e)}
           defaultValue={army?.faction}
         >
