@@ -4,7 +4,7 @@
 //
 // import { User } from 'path/to/interfaces';
 
-import { User, UserRole } from "@prisma/client";
+import { Army, Unit, User, UserRole } from "@prisma/client";
 
 // export type User = {
 //   id: string;
@@ -49,6 +49,9 @@ import { User, UserRole } from "@prisma/client";
 //   pointsLimit?: number;
 //   teams: Team[];
 // };
+export interface ArmyDetails extends Army {
+  units: Unit[];
+}
 
 export type TeamDetails = {
   teamNumber: string;

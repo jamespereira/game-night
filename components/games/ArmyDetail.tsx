@@ -18,15 +18,16 @@ import { getFactionByName } from "@/data/faction";
 import { getPointsTotal } from "@/utils/points-total";
 import removeArmyById from "@/actions/remove-army";
 import { Army, User } from "@prisma/client";
+import { ArmyDetails } from "@/interfaces";
 
-type ArmyProps = {
+type Props = {
   gameId: number;
   user: User;
-  army: any;
+  army: ArmyDetails;
   factionList: any;
 };
 
-const ArmyDetail = ({ gameId, user, army, factionList }: ArmyProps) => {
+const ArmyDetail = ({ gameId, user, army, factionList }: Props) => {
   const [showList, setShowList] = useState(true);
 
   const [faction, setFaction] = useState({
