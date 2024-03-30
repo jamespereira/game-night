@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from "react";
-import { User } from "../../interfaces";
 import AddUnits from "./AddUnits";
 import { FaChevronDown, FaChevronUp, FaWindowClose } from "react-icons/fa";
 import ArmyList from "./ArmyList";
@@ -18,6 +17,7 @@ import {
 import { getFactionByName } from "@/data/faction";
 import { getPointsTotal } from "@/utils/points-total";
 import removeArmyById from "@/actions/remove-army";
+import { Army, User } from "@prisma/client";
 
 type ArmyProps = {
   gameId: number;
@@ -90,7 +90,7 @@ const ArmyDetail = ({ gameId, user, army, factionList }: ArmyProps) => {
         <div className="flex flex-row gap-8 items-center">
           <AddUnits faction={faction} userId={user.id} gameId={gameId} />
           <div className="font-semibold">
-            {army?.units && getPointsTotal(army)} pts
+            {army?.units ? getPointsTotal(army) : "0"} pts
           </div>
         </div>
       </div>

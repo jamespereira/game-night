@@ -1,21 +1,19 @@
 import { getTeamsByGameId } from "@/data/team";
-import { Game } from "../../interfaces";
 import Countdown from "./Countdown";
 import TeamTile from "./TeamTile";
-import { getAllUsers, getUserById, getUsersByIds } from "@/data/user";
-import { Button } from "../ui/button";
-import Link from "next/link";
+import { getUsersByIds } from "@/data/user";
 import { Card, CardContent, CardFooter, CardHeader } from "../ui/card";
 import Image from "next/image";
+import { Game, Team } from "@prisma/client";
 
 type Props = {
-  game: any;
+  game: Game;
 };
 
 const GameDetail = async ({ game }: Props) => {
   const teams = await getTeamsByGameId(game.id);
 
-  async function getTeamDetails(teams, teamNumber) {
+  async function getTeamDetails(teams: Team[], teamNumber: number) {
     const teamUserIds = teams.find(
       (team) => team.teamNumber === teamNumber
     ).users;

@@ -10,9 +10,10 @@ import GameForm from "./GameForm";
 import { usePathname } from "next/navigation";
 import { admin } from "@/actions/admin";
 import { toast } from "sonner";
+import { User } from "@prisma/client";
 
 type Props = {
-  users: any;
+  users: User[];
 };
 
 const AdminPage = ({ users }: Props) => {

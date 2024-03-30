@@ -11,9 +11,11 @@ import {
 } from "../ui/dialog";
 import { Button } from "../ui/button";
 import addUnits from "@/actions/add-units";
+import { Unit } from "@prisma/client";
+import { Faction } from "@/interfaces";
 
 type Props = {
-  faction: any;
+  faction: Faction;
   userId: string;
   gameId: number;
 };
@@ -70,7 +72,7 @@ const AddUnits = ({ faction, userId, gameId }: Props) => {
 
   function onAddUnits(units) {
     startTransition(() => {
-      const newUnits = units.map((unit) => formatUnitObject(unit));
+      const newUnits: Unit[] = units.map((unit) => formatUnitObject(unit));
       addUnits(newUnits, userId, gameId, factionName);
     });
   }

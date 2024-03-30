@@ -111,6 +111,8 @@ model Army {
   userId String
   user User @relation(fields: [userId], references: [id])
   gameId Int
+
+  @@unique([userId, gameId])
 }
 
 model Team {

@@ -4,6 +4,7 @@ import { NewGameSchema } from "@/schemas";
 import * as z from "zod";
 import { db } from "@/lib/db";
 import { getUserById } from "@/data/user";
+import { revalidatePath } from "next/cache";
 
 const newGame = async (values: z.infer<typeof NewGameSchema>) => {
   const validatedFields = NewGameSchema.safeParse(values);
@@ -37,6 +38,7 @@ const newGame = async (values: z.infer<typeof NewGameSchema>) => {
     },
   });
 
+  revalidatePath("/games/");
   return { success: "New game created!" };
 };
 

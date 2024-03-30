@@ -2,9 +2,10 @@ import React, { startTransition } from "react";
 import UnitImage from "./UnitImage";
 import { FaWindowClose } from "react-icons/fa";
 import removeUnit from "@/actions/remove-unit";
+import { Unit } from "@prisma/client";
 
 type Props = {
-  units: any;
+  units: Unit[];
   type: string;
 };
 

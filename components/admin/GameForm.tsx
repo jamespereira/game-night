@@ -27,9 +27,10 @@ import FormError from "../FormError";
 import FormSuccess from "../FormSuccess";
 import { Checkbox } from "../ui/checkbox";
 import newGame from "@/actions/new-game";
+import { User } from "@prisma/client";
 
 type Props = {
-  users: any;
+  users: User[];
 };
 const GameForm = ({ users }: Props) => {
   const [error, setError] = useState<string | undefined>("");

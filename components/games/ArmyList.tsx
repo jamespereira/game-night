@@ -1,8 +1,9 @@
 import React from "react";
 import UnitList from "./UnitList";
+import { Unit } from "@prisma/client";
 
 type Props = {
-  units: any;
+  units: Unit[];
 };
 const ArmyList = ({ units }: Props) => {
   return (

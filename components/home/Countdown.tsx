@@ -1,7 +1,8 @@
+import { Game } from "@prisma/client";
 import dayjs from "dayjs";
 
 type Props = {
-  game: any;
+  game: Game;
 };
 const Countdown = ({ game }: Props) => {
   const timeTo = dayjs().to(game.date);

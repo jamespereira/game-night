@@ -5,7 +5,7 @@ export const getArmyByUserIdAndGameId = async (
   gameId: number
 ) => {
   try {
-    const army = await db.army.findUnique({
+    const army = await db.army.findFirst({
       where: { userId, gameId },
     });
 

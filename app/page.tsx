@@ -1,10 +1,7 @@
 import GameDetail from "@/components/home/GameDetail";
 import { getAllGames } from "@/data/game";
-import { Game } from "@/interfaces";
-import { sampleGameData } from "@/utils/sample-game-data";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
-import Image from "next/image";
 
 dayjs.extend(relativeTime);
 
@@ -20,13 +17,15 @@ const Home = async () => {
   );
 
   return (
-    <div className="container flex flex-col gap-y-40 items-center max-w-8xl mx-auto px-4 sm:px-6 md:px-8">
+    <div className="mt-40 container flex flex-col gap-y-40 items-center max-w-8xl mx-auto px-4 sm:px-6 md:px-8">
       {!!allGames?.length ? (
         sortedGames
           ?.map((game) => <GameDetail key={game.id} game={game} />)
           .reverse()
       ) : (
-        <p>You have no games yet</p>
+        <p className="mt-40 text-slate-200 text-2xl font-semibold">
+          There are no created gamess.
+        </p>
       )}
     </div>
   );

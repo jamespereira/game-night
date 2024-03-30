@@ -3,12 +3,19 @@
 import { getArmyByUserIdAndGameId } from "@/data/army";
 import { currentUser } from "@/lib/auth";
 import { db } from "@/lib/db";
+import { Unit } from "@prisma/client";
 import { revalidatePath } from "next/cache";
 
-const addUnits = async (units, userId: string, gameId: number, faction) => {
+const addUnits = async (
+  units: Unit[],
+  userId: string,
+  gameId: number,
+  factionName: string
+) => {
   // TO DO verify user is logged in user
-  const user = await currentUser();
+  // const user = await currentUser();
   const existingArmy = await getArmyByUserIdAndGameId(userId, gameId);
+
   if (!existingArmy) {
     await db.army.create({
       data: {
@@ -16,7 +23,7 @@ const addUnits = async (units, userId: string, gameId: number, faction) => {
         units: {
           create: units.map((unit) => unit),
         },
-        faction,
+        faction: factionName,
         gameId,
       },
     });
@@ -24,36 +31,18 @@ const addUnits = async (units, userId: string, gameId: number, faction) => {
     revalidatePath("/games/");
     return { success: "Army created!" };
   }
-  // TO DO update army with units
+
   await db.army.update({
-    where: { userId, gameId },
+    where: { id: existingArmy.id },
     data: {
       units: {
-        create: units.map((unit) => unit),
+        create: units.map((unit: Unit) => unit),
       },
     },
   });
 
-  // TO DO check upsert if works the same
-  // await db.army.upsert({
-  //   where: { userId, gameId },
-  //   update: {
-  //     units: {
-  //       create: units.map((unit) => unit),
-  //     },
-  //   },
-  //   create: {
-  //     userId,
-  //     units: {
-  //       create: units.map((unit) => unit),
-  //     },
-  //     faction,
-  //     gameId,
-  //   },
-  // });
-
-  // revalidatePath("/games/");
-  // return { success: "Army updated!" };
+  revalidatePath("/games/");
+  return { success: "Army updated!" };
 };
 
 export default addUnits;

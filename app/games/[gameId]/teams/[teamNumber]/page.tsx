@@ -6,6 +6,7 @@ import { getUsersByIds } from "@/data/user";
 import UserArmy from "@/components/games/UserArmy";
 import { getArmyWithUnitsByUserIdAndGameId } from "@/data/army";
 import { getPointsTotal } from "@/utils/points-total";
+import { User } from "@prisma/client";
 
 type Props = {
   params: { gameId: string; teamNumber: string };
@@ -16,7 +17,7 @@ async function TeamDetail({ params }: Props) {
   const teamNumber = Number(params.teamNumber);
   const team = await getTeamByGameIdAndTeamNumber(gameId, teamNumber);
 
-  async function getTeamDetails(users) {
+  async function getTeamDetails(users: string[]) {
     const teamUsers = await getUsersByIds(users);
     const teamDetails = {
       teamNumber,
@@ -33,8 +34,12 @@ async function TeamDetail({ params }: Props) {
     for (const user of team) {
       const armyPromise = await getArmyWithUnitsByUserIdAndGameId(user, gameId);
       const army = await armyPromise;
+      if (army === null) {
+        return (teamTotal += 0);
+      }
       teamTotal += getPointsTotal(army);
     }
+
     return teamTotal;
   }
 
@@ -47,7 +52,7 @@ async function TeamDetail({ params }: Props) {
         </h3>
       </div>
       <div className="flex flex-col mx-4 gap-8">
-        {teamDetails.users.map((user: any) => (
+        {teamDetails.users.map((user: User) => (
           <UserArmy key={user.id} user={user} gameId={gameId} />
         ))}
       </div>

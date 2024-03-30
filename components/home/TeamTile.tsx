@@ -1,14 +1,9 @@
 import React from "react";
-import { Team, User } from "@/interfaces";
-import { Card, CardContent, CardHeader } from "../ui/card";
-import { cn } from "@/lib/utils";
 import Link from "next/link";
-import Image from "next/image";
-import { getUserById } from "@/data/user";
-import { getTeamByTeamNumber } from "@/data/team";
+import { User } from "@prisma/client";
 
 type Props = {
-  teamDetails: any;
+  teamDetails: { teamNumber: number; users: User[] };
   gameId: number;
 };
 
