@@ -43,6 +43,13 @@ const ArmyDetail = ({ gameId, user, army, factionList }: Props) => {
     });
   }
 
+  async function handleRemoveArmy(armyId) {
+    await removeArmyById(armyId);
+    setFaction({ factionName: "", factionList: null });
+  }
+
+  console.log("factionName", faction.factionName);
+
   function renderFactionSelect() {
     return (
       <div className="flex flex-row gap-x-4 items-center">
@@ -69,7 +76,7 @@ const ArmyDetail = ({ gameId, user, army, factionList }: Props) => {
           </SelectContent>
         </Select>
 
-        <button className="" onClick={() => removeArmyById(army.id)}>
+        <button className="" onClick={() => handleRemoveArmy(army?.id)}>
           <FaWindowClose className="text-slate-200" />
         </button>
       </div>
