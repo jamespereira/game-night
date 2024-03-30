@@ -38,9 +38,9 @@ const AdminPage = ({ users }: Props) => {
     });
   };
   return (
-    <Card className="w-[600px]">
-      <CardHeader>
-        <p className="text-2xl font-semibold text-center">🔑 Admin</p>
+    <Card className="w-full min-w-fit md:w-4/6 max-w-screen-xl">
+      <CardHeader className="pb-8">
+        <h1 className="text-2xl font-semibold text-center">🔑 Admin</h1>
       </CardHeader>
       <CardContent className="space-y-4">
         <Button
@@ -53,7 +53,7 @@ const AdminPage = ({ users }: Props) => {
           <FormSuccess message="You are allowed to see this content!" />
         </RoleGate>
         <GameForm users={users} />
-        <div className="flex flex-row items-center justify-between rounded-lg border p-3 shadow-md">
+        {/* <div className="flex flex-row items-center justify-between rounded-lg border p-3 shadow-md">
           <p className="text-sm font-medium">Admin-only API Route</p>
           <Button onClick={() => onApiRouteClick()}>Click to test</Button>{" "}
         </div>
@@ -62,7 +62,7 @@ const AdminPage = ({ users }: Props) => {
           <Button onClick={() => onServerActionClick()}>
             Click to test
           </Button>{" "}
-        </div>
+        </div> */}
       </CardContent>
     </Card>
   );

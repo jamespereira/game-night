@@ -12,9 +12,10 @@ type Props = {
 const RoleGate = ({ children, allowedRole }: Props) => {
   const role = useCurrentRole();
   if (role !== allowedRole) {
-    return (
-      <FormError message="You do not have permission to view this content!" />
-    );
+    // return (
+    //   <FormError message="You do not have permission to view this content!" />
+    // );
+    return false;
   }
 
   return <>{children}</>;

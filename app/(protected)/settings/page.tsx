@@ -33,6 +33,7 @@ import { UserRole } from "@prisma/client";
 import { Switch } from "@/components/ui/switch";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import RoleGate from "@/components/auth/RoleGate";
 
 const SettingsPage = () => {
   const user = useCurrentUser();
@@ -71,14 +72,19 @@ const SettingsPage = () => {
     });
   };
   return (
-    <Card className="w-[600px]">
-      <CardHeader>
-        <p className="text-2l font-semibold text-center">⚙️ Settings</p>
+    <Card className="w-full min-w-fit md:w-4/6 max-w-screen-xl">
+      <CardHeader className="pb-8">
+        <h1 className="text-2xl font-semibold text-center">⚙️ Settings</h1>
       </CardHeader>
       <CardContent>
-        <Button asChild variant={pathname === "/admin" ? "default" : "outline"}>
-          <Link href="/admin">Admin</Link>
-        </Button>
+        <RoleGate allowedRole="ADMIN">
+          <Button
+            asChild
+            variant={pathname === "/admin" ? "default" : "outline"}
+          >
+            <Link href="/admin">Admin</Link>
+          </Button>
+        </RoleGate>
         <Form {...form}>
           <form className="space-y-6" onSubmit={form.handleSubmit(onSubmit)}>
             <div className="space-y-4">
