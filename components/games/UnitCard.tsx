@@ -15,7 +15,7 @@ const UnitCard = ({ unit, handleRemoveUnit }: Props) => {
         <span className="text-stone-200">{unit.name}</span>
       </div>
       <div className="flex flex-row gap-x-2">
-        <span>{`${unit.points}pts`}</span>
+        <span className="text-stone-200">{`${unit.points}pts`}</span>
         <button className="" onClick={() => handleRemoveUnit(unit.id)}>
           <FaWindowClose className="text-slate-200" />
         </button>
