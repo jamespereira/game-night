@@ -8,7 +8,9 @@ export const getFactionByName = async (faction: string) => {
       process.cwd() + `/utils/factions/${faction}.json`,
       "utf8"
     );
+    console.log("file", file);
     const data = await JSON.parse(file);
+    console.log("data", data);
 
     revalidatePath("/games/");
     return data.catalogue;
