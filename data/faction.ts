@@ -5,7 +5,7 @@ import { revalidatePath } from "next/cache";
 export const getFactionByName = async (faction: string) => {
   try {
     const file = await fs.readFile(
-      process.cwd() + `/utils/factions/${faction}.json`,
+      process.cwd() + `/app/appData/factions/${faction}.json`,
       "utf8"
     );
     console.log("file", file);
