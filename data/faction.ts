@@ -7,7 +7,7 @@ export const getFactionByName = async (faction: string) => {
       process.cwd() + `/utils/factions/${faction}.json`,
       "utf8"
     );
-    const data = JSON.parse(file);
+    const data = await JSON.parse(file);
     return data.catalogue;
   } catch {
     return null;
