@@ -92,7 +92,7 @@ model TwoFactorConfirmation {
 }
 
 model Unit {
-  id String @id @default(cuid())
+  id String @id
   unitId String
   name String
   unitType String
