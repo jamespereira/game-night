@@ -17,7 +17,7 @@ const Home = async () => {
   );
 
   return (
-    <div className="mt-40 container flex flex-col gap-y-40 items-center max-w-8xl mx-auto px-4 sm:px-6 md:px-8">
+    <div className="container flex flex-col items-center max-w-8xl mx-auto px-4 sm:px-6 md:px-8">
       {!!allGames?.length ? (
         sortedGames
           ?.map((game) => <GameDetail key={game.id} game={game} />)

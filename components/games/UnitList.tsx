@@ -16,7 +16,7 @@ const UnitList = ({ units, type }: Props) => {
   }
 
   return (
-    <div className="flex flex-col gap-8 flex-1">
+    <div className="flex flex-col gap-4 flex-1">
       <div className="font-medium text-sky-400">{type}</div>
       {units
         ?.filter((unit) => unit.unitType === type)

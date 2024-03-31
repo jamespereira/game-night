@@ -33,7 +33,7 @@ const GameDetail = async ({ game }: Props) => {
   }
 
   return (
-    <div className="flex flex-col gap-y-8 w-full mt-[80px]">
+    <div className="flex flex-col gap-y-8 w-full mt-[25%]">
       <div className="flex md:flex-row flex-col gap-x-8 w-full flex-wrap">
         <div className="flex flex-1">
           <Countdown game={game} />
