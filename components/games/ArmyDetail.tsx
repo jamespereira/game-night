@@ -37,11 +37,14 @@ const ArmyDetail = ({ gameId, user, army, factionList }: Props) => {
   });
 
   async function onFactionChange(selectedFaction) {
+    console.log("selectedFaction", selectedFaction);
     const faction = await getFactionByName(selectedFaction);
+    console.log("faction", faction);
     setFaction({
       factionName: selectedFaction,
       factionList: faction,
     });
+    console.log("stateFaction", faction);
   }
 
   async function handleRemoveArmy(armyId) {

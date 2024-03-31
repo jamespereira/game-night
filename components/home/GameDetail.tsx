@@ -50,12 +50,14 @@ const GameDetail = async ({ game }: Props) => {
             />
           </div>
           <CardHeader></CardHeader>
-          <CardContent className="flex flex-row w-full justify-between">
+          <CardContent className="flex flex-row w-full justify-between items-center">
             <TeamTile
               gameId={game.id}
               teamDetails={await getTeamDetails(teams, 1)}
             />
-            {/* <p className="text-3xl text-amber-200">vs</p> */}
+            <p className="text-3xl text-amber-400 [text-shadow:_0_0_5px_rgb(0_0_0_/_80%)]">
+              vs
+            </p>
             <TeamTile
               gameId={game.id}
               teamDetails={await getTeamDetails(teams, 2)}

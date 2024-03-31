@@ -11,9 +11,8 @@ import {
 } from "../ui/dialog";
 import { Button } from "../ui/button";
 import addUnits from "@/actions/add-units";
-import { Unit } from "@prisma/client";
 import { Faction } from "@/interfaces";
-import { FaPlus, FaPlusSquare } from "react-icons/fa";
+import { FaPlusSquare } from "react-icons/fa";
 import { v4 as uuidv4 } from "uuid";
 import UnitCard from "./UnitCard";
 
