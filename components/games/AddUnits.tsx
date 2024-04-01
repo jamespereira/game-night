@@ -79,8 +79,6 @@ const AddUnits = ({ faction, userId, gameId }: Props) => {
     });
   }
 
-  console.log("!faction.factionList", !faction.factionList);
-
   return (
     <Dialog>
       <DialogTrigger asChild>
