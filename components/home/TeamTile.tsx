@@ -1,6 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import { User } from "@prisma/client";
+import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
+import { FaUserCircle } from "react-icons/fa";
+import { cn } from "@/lib/utils";
 
 type Props = {
   teamDetails: { teamNumber: number; users: User[] };
@@ -18,9 +21,24 @@ const TeamTile = ({ teamDetails, gameId }: Props) => {
           {teamDetails.users?.map((user) => (
             <div
               key={user.id}
-              className="p-4 bg-amber-400/90 shadow-sm drop-shadow-md"
+              className="p-4 bg-slate-900 shadow-sm drop-shadow-md flex items-center justify-center flex-col gap-y-2 rounded-md"
             >
-              <p>{user.name}</p>
+              <Avatar className="w-6 h-6">
+                <AvatarImage src={user?.image || ""} />
+                <AvatarFallback className="text-amber-400/90 bg-color-none">
+                  <FaUserCircle className="w-full h-full" />
+                </AvatarFallback>
+              </Avatar>
+              <p
+                className={cn(
+                  teamDetails.teamNumber === 2
+                    ? "text-red-300"
+                    : "text-sky-300",
+                  "font-medium"
+                )}
+              >
+                {user.name}
+              </p>
             </div>
           ))}
         </div>
