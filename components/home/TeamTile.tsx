@@ -21,7 +21,7 @@ const TeamTile = ({ teamDetails, gameId }: Props) => {
           {teamDetails.users?.map((user) => (
             <div
               key={user.id}
-              className="p-4 bg-slate-900 shadow-sm drop-shadow-md flex items-center justify-center flex-col gap-y-2 rounded-md"
+              className="p-4 bg-slate-900 shadow-sm drop-shadow-md flex items-center justify-center flex-col gap-y-2 rounded-md border-2 border-slate-400/50"
             >
               <Avatar className="w-6 h-6">
                 <AvatarImage src={user?.image || ""} />
