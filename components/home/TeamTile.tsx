@@ -21,7 +21,12 @@ const TeamTile = ({ teamDetails, gameId }: Props) => {
           {teamDetails.users?.map((user) => (
             <div
               key={user.id}
-              className="p-4 bg-slate-900 shadow-sm drop-shadow-md flex items-center justify-center flex-col gap-y-2 rounded-md border-2 border-slate-400/50"
+              className={cn(
+                "p-4 bg-slate-900 shadow-sm drop-shadow-md flex items-center justify-center flex-col gap-y-2 rounded-md border-2",
+                teamDetails.teamNumber === 2
+                  ? "border-rose-400/25"
+                  : "border-sky-400/25"
+              )}
             >
               <Avatar className="w-6 h-6">
                 <AvatarImage src={user?.image || ""} />
@@ -32,8 +37,8 @@ const TeamTile = ({ teamDetails, gameId }: Props) => {
               <p
                 className={cn(
                   teamDetails.teamNumber === 2
-                    ? "text-red-300"
-                    : "text-sky-300",
+                    ? "text-rose-400"
+                    : "text-sky-400",
                   "font-medium"
                 )}
               >

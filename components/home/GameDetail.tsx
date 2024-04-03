@@ -39,8 +39,9 @@ const GameDetail = async ({ game }: Props) => {
         <div className="flex flex-1">
           <Countdown game={game} />
         </div>
-        <Card className="flex flex-1 flex-col items-center justify-center gap-x-4 bg-inherit relative border-sky-400 border-2 ">
-          <div className="w-full h-full z-[-2] bg-stone-black absolute">
+        <Card className="flex flex-1 flex-col items-center justify-center gap-x-4 bg-inherit relative border-sky-400 border-2">
+          <div className="w-full h-full z-[-2] absolute">
+            <div className="w-full h-full z-[1] bg-black/25 absolute"></div>
             <Image
               src={randomImage()}
               alt={`aos background image`}
