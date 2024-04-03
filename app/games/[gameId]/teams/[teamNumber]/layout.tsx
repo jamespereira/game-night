@@ -7,7 +7,7 @@ type Props = {
 
 const layout = ({ children }: Props) => {
   return (
-    <div className="h-[calc(100%-60px)] bg-gradient-to-r from-black/90 from-20% to-sky-900/75">
+    <div className="min-h-[calc(100%-60px)] bg-gradient-to-r from-black/90 from-20% to-sky-900/75">
       {children}
     </div>
   );

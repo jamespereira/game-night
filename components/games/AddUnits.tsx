@@ -86,7 +86,7 @@ const AddUnits = ({ faction, userId, gameId }: Props) => {
           Add Units
         </Button>
       </DialogTrigger>
-      <DialogContent className="bg-[#163749] border-sky-400 border-2">
+      <DialogContent className="bg-[#163749] border-sky-400 border-2 h-full md:h-auto">
         <DialogHeader>
           <DialogTitle className="text-2xl font-bold text-stone-200">
             Add Units
@@ -122,7 +122,7 @@ const AddUnits = ({ faction, userId, gameId }: Props) => {
             ))}
           </ul>
         </div>
-        <div className="flex flex-col gap-y-4">
+        <div className="flex flex-col gap-y-4 overflow-y-auto">
           <p className="text-sky-400 font-semibold">Added units:</p>
           <ul>
             {addedUnits?.map((unit) => (

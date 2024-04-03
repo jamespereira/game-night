@@ -5,6 +5,7 @@ import { getUsersByIds } from "@/data/user";
 import { Card, CardContent, CardFooter, CardHeader } from "../ui/card";
 import Image from "next/image";
 import { Game, Team } from "@prisma/client";
+import { placeholderImage } from "@/utils/placeholder-images";
 
 type Props = {
   game: Game;
@@ -39,13 +40,16 @@ const GameDetail = async ({ game }: Props) => {
           <Countdown game={game} />
         </div>
         <Card className="flex flex-1 flex-col items-center justify-center gap-x-4 bg-inherit relative border-sky-400 border-2 ">
-          <div className="w-full h-full z-[-2] bg-stone-black">
+          <div className="w-full h-full z-[-2] bg-stone-black absolute">
             <Image
               src={randomImage()}
               alt={`aos background image`}
               sizes="100"
+              quality={75}
               fill
               priority
+              placeholder="blur"
+              blurDataURL={placeholderImage()}
               className="object-cover rounded-xl"
             />
           </div>
