@@ -16,7 +16,7 @@ const UnitImage = ({ name }: Props) => {
   }
 
   return (
-    <div className="flex justify-center items-center rounded-full bg-sky-700 text-slate-200 p-2 w-12 h-12">
+    <div className="flex justify-center items-center rounded-full bg-sky-700 text-slate-200 p-2 min-w-12 min-h-12 max-h-12 max-w-12">
       {getFirstLetterAcronym(name)}
     </div>
   );

@@ -15,6 +15,7 @@ import { Faction } from "@/interfaces";
 import { FaPlusSquare } from "react-icons/fa";
 import { v4 as uuidv4 } from "uuid";
 import UnitCard from "./UnitCard";
+import { getUnitPoints } from "@/utils/points";
 
 type Props = {
   faction: Faction;
@@ -34,7 +35,9 @@ const AddUnits = ({ faction, userId, gameId }: Props) => {
 
   const factionUnits =
     factionList?.sharedSelectionEntries?.selectionEntry?.filter(
-      (entry) => entry._type === "unit"
+      (entry) =>
+        // entry._type === "unit" && entry._name.toLowerCase() !== "allegiance"
+        "selectionEntries" in entry
     );
 
   const searchResults = !searchTerm
@@ -58,6 +61,7 @@ const AddUnits = ({ faction, userId, gameId }: Props) => {
   }
 
   function formatUnitObject(unit) {
+    console.log("unit", unit);
     const formattedUnit = {
       id: uuidv4(),
       unitId: unit._id,
@@ -67,7 +71,7 @@ const AddUnits = ({ faction, userId, gameId }: Props) => {
       )
         ? "Leader"
         : "Battleline",
-      points: Number(unit.costs?.cost._value) || 100,
+      points: getUnitPoints(unit),
     };
 
     return formattedUnit;
@@ -110,7 +114,12 @@ const AddUnits = ({ faction, userId, gameId }: Props) => {
                 key={result._id}
                 className="flex flex-row justify-between items-center gap-x-4 my-4 pb-4 border-slate-400/50 border-b first:border-t-2 first:pt-4 text-stone-300"
               >
-                {result._name}
+                <div className="flex justify-between gap-x-2 w-full">
+                  <span>{result._name}</span>
+                  <span className="whitespace-nowrap">
+                    {getUnitPoints(result)} pts
+                  </span>
+                </div>
 
                 <Button
                   onClick={() => handleAdd(result)}

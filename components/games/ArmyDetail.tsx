@@ -15,7 +15,7 @@ import {
   SelectValue,
 } from "../ui/select";
 import { getFactionByName } from "@/data/faction";
-import { getPointsTotal } from "@/utils/points-total";
+import { getPointsTotal } from "@/utils/points";
 import removeArmyById from "@/actions/remove-army";
 import { Army, User } from "@prisma/client";
 import { ArmyDetails } from "@/interfaces";

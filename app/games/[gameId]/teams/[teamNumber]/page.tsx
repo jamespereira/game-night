@@ -5,7 +5,7 @@ import { getTeamByGameIdAndTeamNumber } from "@/data/team";
 import { getUsersByIds } from "@/data/user";
 import UserArmy from "@/components/games/UserArmy";
 import { getArmyWithUnitsByUserIdAndGameId } from "@/data/army";
-import { getPointsTotal } from "@/utils/points-total";
+import { getPointsTotal } from "@/utils/points";
 import { User } from "@prisma/client";
 
 type Props = {

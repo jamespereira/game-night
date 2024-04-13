@@ -6,6 +6,8 @@ import { Card, CardContent, CardFooter, CardHeader } from "../ui/card";
 import Image from "next/image";
 import { Game, Team } from "@prisma/client";
 import { placeholderImage } from "@/utils/placeholder-images";
+import { Button } from "../ui/button";
+import Link from "next/link";
 
 type Props = {
   game: Game;
@@ -70,16 +72,16 @@ const GameDetail = async ({ game }: Props) => {
           </CardContent>
           <CardFooter>
             {/* TO DO update team to logged in user */}
-            {/* <div className="flex items-center justify-center">
-              <Button className="bg-amber-600/75">
+            <div className="flex items-center justify-center">
+              <Button className="bg-amber-400/85 [drop-shadow:_0_0_5px_rgb(0_0_0_/_80%)] text-black">
                 <Link
                   href="/games/[gameId]/teams/[teamId]"
                   as={`/games/${game.id}/teams/1`}
                 >
-                  Edit Team
+                  My Team
                 </Link>
               </Button>
-            </div> */}
+            </div>
           </CardFooter>
         </Card>
       </div>
