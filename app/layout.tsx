@@ -14,6 +14,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "⚔️ Game Night",
   description: "Manage your upcoming game night",
+  appleWebApp: {
+    statusBarStyle: "black-translucent",
+  },
 };
 
 export default async function RootLayout({
