@@ -9,7 +9,8 @@ const ArmyList = ({ units }: Props) => {
   return (
     <div className="flex flex-row gap-8 p-8 flex-wrap">
       <UnitList units={units} type="Leader" />
-      <UnitList units={units} type="Battleline" />
+      {/* TO DO If updated with battleline, behemoth etc */}
+      {/* <UnitList units={units} type="Battleline" /> */}
       <UnitList units={units} type="Other" />
     </div>
   );

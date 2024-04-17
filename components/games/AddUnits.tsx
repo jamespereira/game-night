@@ -60,17 +60,32 @@ const AddUnits = ({ faction, userId, gameId }: Props) => {
     setAddedUnits([]);
   }
 
+  function getUnitType(unit) {
+    const categoryLinks = unit.categoryLinks.categoryLink;
+
+    const isHero = !!categoryLinks.find(
+      (c) =>
+        c._name.toLowerCase().includes("hero") ||
+        c._name.toLowerCase().includes("leader")
+    );
+    const isChampNotInfantry =
+      !!categoryLinks.find((c) => c._name.toLowerCase().includes("champion")) &&
+      !categoryLinks.find((c) => c._name.toLowerCase().includes("infantry"));
+
+    const isLeader = isHero || isChampNotInfantry;
+    // TO DO If new data sheets with break down of battleline, behemoth etc
+    // const isBattleline = false;
+    if (!!isLeader) return "Leader";
+    return "Other";
+  }
+
   function formatUnitObject(unit) {
     console.log("unit", unit);
     const formattedUnit = {
       id: uuidv4(),
       unitId: unit._id,
       name: unit._name,
-      unitType: unit.categoryLinks.categoryLink?.find(
-        (c) => c._name.toLowerCase() === "hero"
-      )
-        ? "Leader"
-        : "Battleline",
+      unitType: getUnitType(unit),
       points: getUnitPoints(unit),
     };
 

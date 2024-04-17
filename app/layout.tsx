@@ -15,7 +15,6 @@ export const metadata: Metadata = {
   title: "⚔️ Game Night",
   description: "Manage your upcoming game night",
   appleWebApp: {
-    capable: true,
     statusBarStyle: "black-translucent",
   },
 };

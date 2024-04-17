@@ -7,6 +7,7 @@ import UserArmy from "@/components/games/UserArmy";
 import { getArmyWithUnitsByUserIdAndGameId } from "@/data/army";
 import { getPointsTotal } from "@/utils/points";
 import { User } from "@prisma/client";
+import { getGameById } from "@/data/game";
 
 type Props = {
   params: { gameId: string; teamNumber: string };
@@ -16,6 +17,9 @@ async function TeamDetail({ params }: Props) {
   const gameId = Number(params.gameId);
   const teamNumber = Number(params.teamNumber);
   const team = await getTeamByGameIdAndTeamNumber(gameId, teamNumber);
+
+  const game = await getGameById(gameId);
+  const gamePointsTotal = game.pointsLimit;
 
   async function getTeamDetails(users: string[]) {
     const teamUsers = await getUsersByIds(users);
@@ -43,12 +47,27 @@ async function TeamDetail({ params }: Props) {
     return teamTotal;
   }
 
+  const teamPointsTotal = await getTeamPointsTotal(team?.users);
+
+  const pointsExceed = teamPointsTotal > gamePointsTotal;
+
+  function renderTeamPoints() {
+    return (
+      <>
+        <span className={pointsExceed ? "text-red-500/90" : "text-stone-200"}>
+          {teamPointsTotal}
+        </span>
+        /{gamePointsTotal} pts
+      </>
+    );
+  }
+
   return (
     <div className="container flex flex-col max-w-screen-xl mx-auto px-4 sm:px-6 md:px-8 h-full  text-stone-200 pb-8 ">
       <div className="flex flex-row justify-between mx-4 py-4 ">
         <h2 className="text-2xl font-semibold">Team {team?.teamNumber} List</h2>
         <h3 className="text-2xl font-semibold text-sky-400">
-          {await getTeamPointsTotal(team?.users)}/2000 pts
+          {renderTeamPoints()}
         </h3>
       </div>
       <div className="flex flex-col mx-4 gap-8">
