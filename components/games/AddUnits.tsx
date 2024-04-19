@@ -36,14 +36,14 @@ const AddUnits = ({ faction, userId, gameId }: Props) => {
   const factionUnits =
     factionList?.sharedSelectionEntries?.selectionEntry?.filter(
       (entry) =>
-        // entry._type === "unit" && entry._name.toLowerCase() !== "allegiance"
-        "selectionEntries" in entry
+        entry?._type === "unit" && entry?._name.toLowerCase() !== "allegiance"
+      // "selectionEntries" in entry
     );
 
   const searchResults = !searchTerm
     ? factionUnits
     : factionUnits?.filter((unit) =>
-        unit._name.toLowerCase().includes(searchTerm.toLowerCase())
+        unit?._name.toLowerCase().includes(searchTerm.toLowerCase())
       );
 
   function handleAdd(unit) {

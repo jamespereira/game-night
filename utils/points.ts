@@ -32,8 +32,8 @@ export const getUnitPoints = (unit) => {
   );
 
   const modelsPoints = Number(
-    unitSelections.find((entry) =>
-      entry._name.toLowerCase().includes(unit._name.toLowerCase())
+    unitSelections?.find((entry) =>
+      entry?._name.toLowerCase().includes(unit?._name.toLowerCase())
     )?.costs?.cost._value
   );
 
