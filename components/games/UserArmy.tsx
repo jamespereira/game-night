@@ -5,7 +5,6 @@ import { getArmyWithUnitsByUserIdAndGameId } from "@/data/army";
 import ArmyDetail from "./ArmyDetail";
 import { getFactionByName } from "@/data/faction";
 import { User } from "@prisma/client";
-import { Faction } from "@/interfaces";
 
 type Props = {
   user: User;

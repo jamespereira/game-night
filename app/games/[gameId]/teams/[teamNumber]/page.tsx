@@ -1,6 +1,6 @@
 "use server";
 
-import React from "react";
+import React, { Suspense } from "react";
 import { getTeamByGameIdAndTeamNumber } from "@/data/team";
 import { getUsersByIds } from "@/data/user";
 import UserArmy from "@/components/games/UserArmy";
@@ -8,6 +8,7 @@ import { getArmyWithUnitsByUserIdAndGameId } from "@/data/army";
 import { getPointsTotal } from "@/utils/points";
 import { User } from "@prisma/client";
 import { getGameById } from "@/data/game";
+import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 
 type Props = {
   params: { gameId: string; teamNumber: string };
@@ -72,7 +73,16 @@ async function TeamDetail({ params }: Props) {
       </div>
       <div className="flex flex-col mx-4 gap-8">
         {teamDetails.users.map((user: User) => (
-          <UserArmy key={user.id} user={user} gameId={gameId} />
+          <Suspense
+            fallback={
+              <SkeletonTheme baseColor="#202020" highlightColor="#444">
+                {/* <h1 className="text-2xl text-stone-200">Loading...</h1> */}
+                <Skeleton count={5} height={100} width={100} />
+              </SkeletonTheme>
+            }
+          >
+            <UserArmy key={user.id} user={user} gameId={gameId} />
+          </Suspense>
         ))}
       </div>
     </div>

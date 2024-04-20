@@ -131,3 +131,9 @@ model Game {
   pointsLimit Int
   teams Team[]
 }
+
+model UnitImage {
+  unitId String @id @unique
+  unitName String
+  imageURL String
+}
