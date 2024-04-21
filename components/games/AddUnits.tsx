@@ -16,6 +16,7 @@ import { FaPlusSquare } from "react-icons/fa";
 import { v4 as uuidv4 } from "uuid";
 import UnitCard from "./UnitCard";
 import { getUnitPoints } from "@/utils/points";
+import unitImage from "@/actions/unit-image";
 
 type Props = {
   faction: Faction;
@@ -46,8 +47,8 @@ const AddUnits = ({ faction, userId, gameId }: Props) => {
         unit?._name.toLowerCase().includes(searchTerm.toLowerCase())
       );
 
-  function handleAdd(unit) {
-    setAddedUnits([...addedUnits, formatUnitObject(unit)]);
+  async function handleAdd(unit) {
+    setAddedUnits([...addedUnits, await formatUnitObject(unit)]);
     setSearchTerm("");
   }
 
@@ -79,14 +80,15 @@ const AddUnits = ({ faction, userId, gameId }: Props) => {
     return "Other";
   }
 
-  function formatUnitObject(unit) {
-    console.log("unit", unit);
+  async function formatUnitObject(unit) {
+    const imageUrl = await unitImage(unit._id, unit._name);
     const formattedUnit = {
       id: uuidv4(),
       unitId: unit._id,
       name: unit._name,
       unitType: getUnitType(unit),
       points: getUnitPoints(unit),
+      image: imageUrl,
     };
 
     return formattedUnit;
