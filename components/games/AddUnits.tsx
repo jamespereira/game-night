@@ -1,4 +1,4 @@
-import React, { startTransition, useState } from "react";
+import React, { Suspense, startTransition, useState } from "react";
 import {
   Dialog,
   DialogClose,
@@ -17,6 +17,7 @@ import { v4 as uuidv4 } from "uuid";
 import UnitCard from "./UnitCard";
 import { getUnitPoints } from "@/utils/points";
 import unitImage from "@/actions/unit-image";
+import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 
 type Props = {
   faction: Faction;
@@ -107,7 +108,7 @@ const AddUnits = ({ faction, userId, gameId }: Props) => {
           Add Units
         </Button>
       </DialogTrigger>
-      <DialogContent className="bg-[#163749] border-sky-400 border-2 h-full md:h-auto">
+      <DialogContent className="bg-[#163749] border-sky-400 border-2 max-h-full h-full overflow-auto md:h-auto">
         <DialogHeader>
           <DialogTitle className="text-2xl font-bold text-stone-200">
             Add Units
@@ -153,7 +154,16 @@ const AddUnits = ({ faction, userId, gameId }: Props) => {
           <ul>
             {addedUnits?.map((unit) => (
               <li key={unit.id} className="my-4">
-                <UnitCard unit={unit} handleRemoveUnit={handleRemoveUnit} />
+                <Suspense
+                  fallback={
+                    <SkeletonTheme baseColor="#202020" highlightColor="#444">
+                      <Skeleton circle />
+                      <Skeleton count={5} height={100} width={100} />
+                    </SkeletonTheme>
+                  }
+                >
+                  <UnitCard unit={unit} handleRemoveUnit={handleRemoveUnit} />
+                </Suspense>
               </li>
             ))}
           </ul>
