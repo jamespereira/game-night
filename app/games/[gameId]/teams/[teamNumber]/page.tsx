@@ -9,12 +9,16 @@ import { getPointsTotal } from "@/utils/points";
 import { User } from "@prisma/client";
 import { getGameById } from "@/data/game";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
+import { currentRole, currentUser } from "@/lib/auth";
 
 type Props = {
   params: { gameId: string; teamNumber: string };
 };
 
 async function TeamDetail({ params }: Props) {
+  const user = await currentUser();
+  const role = await currentRole();
+
   const gameId = Number(params.gameId);
   const teamNumber = Number(params.teamNumber);
   const team = await getTeamByGameIdAndTeamNumber(gameId, teamNumber);
@@ -63,28 +67,44 @@ async function TeamDetail({ params }: Props) {
     );
   }
 
+  function checkUserTeam() {
+    const userFound = team.users?.find((teamUser) => teamUser == user?.id);
+    const userAdmin = role === "ADMIN";
+    return !!userFound || userAdmin;
+  }
+
   return (
     <div className="container flex flex-col max-w-screen-xl mx-auto px-4 sm:px-6 md:px-8 h-full  text-stone-200 pb-8 ">
-      <div className="flex flex-row justify-between mx-4 py-4 ">
-        <h2 className="text-2xl font-semibold">Team {team?.teamNumber} List</h2>
-        <h3 className="text-2xl font-semibold text-sky-400">
-          {renderTeamPoints()}
-        </h3>
-      </div>
-      <div className="flex flex-col mx-4 gap-8">
-        {teamDetails.users.map((user: User) => (
-          <Suspense
-            key={user.id}
-            fallback={
-              <SkeletonTheme baseColor="#202020" highlightColor="#444">
-                <Skeleton count={5} height={100} width={100} />
-              </SkeletonTheme>
-            }
-          >
-            <UserArmy key={user.id} user={user} gameId={gameId} />
-          </Suspense>
-        ))}
-      </div>
+      {checkUserTeam() ? (
+        <>
+          <div className="flex flex-row justify-between mx-4 py-4 ">
+            <h2 className="text-2xl font-semibold">
+              Team {team?.teamNumber} List
+            </h2>
+            <h3 className="text-2xl font-semibold text-sky-400">
+              {renderTeamPoints()}
+            </h3>
+          </div>
+          <div className="flex flex-col mx-4 gap-8">
+            {teamDetails.users.map((user: User) => (
+              <Suspense
+                key={user.id}
+                fallback={
+                  <SkeletonTheme baseColor="#202020" highlightColor="#444">
+                    <Skeleton count={5} height={100} width={100} />
+                  </SkeletonTheme>
+                }
+              >
+                <UserArmy key={user.id} user={user} gameId={gameId} />
+              </Suspense>
+            ))}
+          </div>
+        </>
+      ) : (
+        <div className="flex flex-row justify-center mx-4 py-8 ">
+          <p>You do not have permission to view this page.</p>
+        </div>
+      )}
     </div>
   );
 }

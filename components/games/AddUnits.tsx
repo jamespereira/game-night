@@ -35,12 +35,10 @@ const AddUnits = ({ faction, userId, gameId }: Props) => {
     setSearchTerm(event.target.value);
   };
 
-  const factionUnits =
-    factionList?.sharedSelectionEntries?.selectionEntry?.filter(
-      (entry) =>
-        entry?._type === "unit" && entry?._name.toLowerCase() !== "allegiance"
-      // "selectionEntries" in entry
-    );
+  const factionUnits = factionList?.entryLinks?.entryLink?.filter(
+    (unit) =>
+      !unit?._name.toLowerCase().includes("battle traits") && !unit.constraints
+  );
 
   const searchResults = !searchTerm
     ? factionUnits
@@ -63,22 +61,12 @@ const AddUnits = ({ faction, userId, gameId }: Props) => {
   }
 
   function getUnitType(unit) {
-    const categoryLinks = unit.categoryLinks.categoryLink;
-
-    const isHero = !!categoryLinks.find(
-      (c) =>
-        c._name.toLowerCase().includes("hero") ||
-        c._name.toLowerCase().includes("leader")
-    );
-    const isChampNotInfantry =
-      !!categoryLinks.find((c) => c._name.toLowerCase().includes("champion")) &&
-      !categoryLinks.find((c) => c._name.toLowerCase().includes("infantry"));
-
-    const isLeader = isHero || isChampNotInfantry;
-    // TO DO If new data sheets with break down of battleline, behemoth etc
-    // const isBattleline = false;
-    if (!!isLeader) return "Leader";
-    return "Other";
+    if ("categoryLinks" in unit) {
+      const isHero = unit?.categoryLinks?.categoryLink?._name
+        .toLowerCase()
+        .includes("regimental leader");
+      if (!!isHero) return "Hero";
+    } else return "Other";
   }
 
   async function formatUnitObject(unit) {

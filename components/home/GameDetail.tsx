@@ -8,6 +8,7 @@ import { Game, Team } from "@prisma/client";
 import { placeholderImage } from "@/utils/placeholder-images";
 import { Button } from "../ui/button";
 import Link from "next/link";
+import { currentUser } from "@/lib/auth";
 
 type Props = {
   game: Game;
@@ -34,6 +35,12 @@ const GameDetail = async ({ game }: Props) => {
     const imageString = `/images/bg_${rand}.jpg`;
     return imageString;
   }
+
+  const user = await currentUser();
+
+  const userTeam = teams?.find((team) =>
+    team.users?.find((teamUser) => teamUser == user?.id)
+  )?.teamNumber;
 
   return (
     <div className="flex flex-col gap-y-8 w-full mt-[25%]">
@@ -72,16 +79,18 @@ const GameDetail = async ({ game }: Props) => {
           </CardContent>
           <CardFooter>
             {/* TO DO update team to logged in user */}
-            <div className="flex items-center justify-center">
-              <Button className="bg-amber-400/85 [drop-shadow:_0_0_5px_rgb(0_0_0_/_80%)] text-black">
-                <Link
-                  href="/games/[gameId]/teams/[teamId]"
-                  as={`/games/${game.id}/teams/1`}
-                >
-                  My Team
-                </Link>
-              </Button>
-            </div>
+            {!!user ? (
+              <div className="flex items-center justify-center">
+                <Button className="bg-amber-400/85 [drop-shadow:_0_0_5px_rgb(0_0_0_/_80%)] text-black">
+                  <Link
+                    href="/games/[gameId]/teams/[teamId]"
+                    as={`/games/${game.id}/teams/${userTeam}`}
+                  >
+                    My Team
+                  </Link>
+                </Button>
+              </div>
+            ) : null}
           </CardFooter>
         </Card>
       </div>

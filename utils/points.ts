@@ -4,41 +4,10 @@ export const getPointsTotal = (army) => {
   return totalPoints;
 };
 
-function createObjectArray(data) {
-  if (Array.isArray(data)) {
-    return data;
-  } else {
-    return [data];
-  }
-}
-
 export const getUnitPoints = (unit) => {
-  const unitCategories = createObjectArray(unit.categoryLinks?.categoryLink);
-
-  const isScenery = unitCategories.find(
-    (category) => category._name.toLowerCase() === "scenery"
-  );
-  if (isScenery) {
-    return 0;
-  }
-
-  const heroPoints = Number(unit.costs?.cost._value);
-  if (heroPoints > 0) {
-    return heroPoints;
-  }
-
-  const unitSelections = createObjectArray(
-    unit.selectionEntries?.selectionEntry
-  );
-
-  const modelsPoints = Number(
-    unitSelections?.find((entry) =>
-      entry?._name.toLowerCase().includes(unit?._name.toLowerCase())
-    )?.costs?.cost._value
-  );
-
-  if (modelsPoints > 0) {
-    return modelsPoints;
+  const hasPoints = Number(unit.costs?.cost._value);
+  if (hasPoints > 0) {
+    return hasPoints;
   }
   return 0;
 };

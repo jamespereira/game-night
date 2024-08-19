@@ -1,13 +1,5 @@
 {
   "catalogue": {
-    "catalogueLinks": {
-      "catalogueLink": {
-        "_type": "catalogue",
-        "_name": "Sylvaneth - Library",
-        "_id": "948c-6ad8-8217-2c32",
-        "_targetId": "7e0b-8a19-260-5b58"
-      }
-    },
     "sharedSelectionEntries": {
       "selectionEntry": {
         "profiles": {
@@ -16,17 +8,47 @@
                 "characteristic": [{
                     "_name": "Timing",
                     "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Once Per Turn (Army), End of Any Turn"
+                    "__text": "Once Per Battle, Your Charge Phase"
                   },
                   {
                     "_name": "Declare",
                     "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Pick any number of friendly **^^Sylvaneth^^** units wholly within 6\" of a friendly **Awakened Wyldwood** to be the targets."
+                    "__text": "Pick a friendly **^^Ironjawz Hero^^** to be the target."
                   },
                   {
                     "_name": "Effect",
                     "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "**Heal (D3)** each target."
+                    "__text": "For the rest of the turn, the following effects apply to friendly **^^Ironjawz^^** units while they are wholly within 18\" of the target:\n• Add 1 to charge rolls for those units.\n• Add 1 to the Attacks characteristic of those units’ melee weapons."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "12e8-3214-7d8f-1d0f",
+                    "__text": "**^^Waaagh!^^**"
+                  }
+                ]
+              },
+              "_name": "Ironjawz Waaagh!",
+              "_typeId": "59b6-d47a-a68a-5dcc",
+              "_typeName": "Ability (Activated)",
+              "_hidden": "false",
+              "_id": "618e-f241-f5d4-a04b"
+            },
+            {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "652c-3d84-4e7-14f4",
+                    "__text": "Once Per Turn (Army), Any Hero Phase"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "bad3-f9c5-ba46-18cb",
+                    "__text": "Pick a friendly **^^Ironjawz^^** unit that was not set up this turn to be the target."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "b6f1-ba36-6cd-3b03",
+                    "__text": "The target can move up to 3\". It can move into combat. If it was in combat at the start of the move, it must end that move in combat."
                   },
                   {
                     "_name": "Keywords",
@@ -34,74 +56,11 @@
                   }
                 ]
               },
-              "_name": "Endless Growth",
+              "_name": "Mighty Destroyers",
               "_typeId": "59b6-d47a-a68a-5dcc",
               "_typeName": "Ability (Activated)",
               "_hidden": "false",
-              "_id": "3ff5-8812-c55e-7f5a",
-              "_publicationId": "61ee-fae0-f1da-2591"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Once Per Turn (Army), End of Any Turn"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Pick a friendly **^^Sylvaneth^^** unit that is in combat and is wholly within 6\" of a friendly **Awakened Wyldwood** to use this ability."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "Remove that unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units and wholly within 6\" of a different friendly **Awakened Wyldwood**."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_typeId": "12e8-3214-7d8f-1d0f",
-                    "__text": "**^^Core^^**"
-                  }
-                ]
-              },
-              "_name": "Strike and Fade",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
-              "_hidden": "false",
-              "_id": "e446-7e34-4e9f-ec50",
-              "_publicationId": "61ee-fae0-f1da-2591"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Once Per Turn (Army), Your Movement Phase"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Pick a friendly **^^Sylvaneth^^** unit that is not in combat and is wholly within 6\" of a friendly **Awakened Wyldwood** to use this ability."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "Remove that unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units and wholly within 6\" of a different friendly **Awakened Wyldwood**."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_typeId": "12e8-3214-7d8f-1d0f",
-                    "__text": "**^^Core^^**"
-                  }
-                ]
-              },
-              "_name": "Walk the Hidden Paths",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
-              "_hidden": "false",
-              "_id": "c6b6-e57e-e056-40a3",
-              "_publicationId": "61ee-fae0-f1da-2591"
+              "_id": "a85a-85d4-514a-44a3"
             }
           ]
         },
@@ -109,16 +68,16 @@
           "categoryLink": {
             "_name": "Reference",
             "_hidden": "false",
-            "_id": "28-9238-9172-750f",
+            "_id": "8ac4-c6f3-90a2-b82e",
             "_targetId": "3360-1158-e879-9606",
             "_primary": "true"
           }
         },
         "_type": "upgrade",
         "_import": "true",
-        "_name": "Battle Traits: Sylvaneth",
+        "_name": "Battle Traits: Ironjawz",
         "_hidden": "false",
-        "_id": "583a-37b4-52b2-9058"
+        "_id": "d8ca-c367-a211-97b3"
       }
     },
     "sharedSelectionEntryGroups": {
@@ -141,12 +100,12 @@
                         {
                           "_name": "Declare",
                           "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Sylvaneth Wizard^^** to cast this spell, then make a casting roll of 2D6."
+                          "__text": "Pick a friendly **^^Ironjawz Wizard^^** to cast this spell, pick a visible friendly **^^Ironjawz^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "1cb9-a-1345-907f",
-                          "__text": "If there are fewer than 3 friendly **Awakened Wyldwoods** on the battlefield, you can set up an **Awakened Wyldwood** wholly within 18\" of the caster and more than 3\" from all enemy units, objectives and other terrain features. If there are already 3 friendly **Awakened Wyldwoods** on the battlefield, **Heal (3)** each friendly **Awakened Wyldwood**."
+                          "__text": "The target’s melee weapons have **Crit (2 Hits)** for the rest of the turn"
                         },
                         {
                           "_name": "Keywords",
@@ -155,11 +114,11 @@
                         }
                       ]
                     },
-                    "_name": "Treesong",
+                    "_name": "Bash 'Em, Ladz",
                     "_typeId": "7312-8367-c171-f2ef",
                     "_typeName": "Ability (Spell)",
                     "_hidden": "false",
-                    "_id": "4ea1-b08a-3684-8d35"
+                    "_id": "ea0c-5e7-77ba-167d"
                   },
                   {
                     "characteristics": {
@@ -176,12 +135,12 @@
                         {
                           "_name": "Declare",
                           "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Sylvaneth Wizard^^** to cast this spell, pick a visible enemy unit that is either within 12\" of this unit or within 6\" of an **Awakened Wyldwood** to be the target, then make a casting roll of 2D6."
+                          "__text": "Pick a friendly **^^Ironjawz Wizard^^** to cast this spell, pick a visible friendly unit wholly within 9\" of them and not in combat to be the target, then make a casting roll of 2D6."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target unit."
+                          "__text": "Remove the target from the battlefield and set it up again wholly within 24\" of the caster and more than 9\" from all enemy units."
                         },
                         {
                           "_name": "Keywords",
@@ -190,11 +149,11 @@
                         }
                       ]
                     },
-                    "_name": "The Dwellers Below",
+                    "_name": "Da Great Big Green Hand of Gork",
                     "_typeId": "7312-8367-c171-f2ef",
                     "_typeName": "Ability (Spell)",
                     "_hidden": "false",
-                    "_id": "97df-e136-9fb4-5aca"
+                    "_id": "d612-3e23-847d-c58b"
                   },
                   {
                     "characteristics": {
@@ -211,12 +170,12 @@
                         {
                           "_name": "Declare",
                           "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Sylvaneth Wizard^^** to cast this spell, pick a friendly **Awakened Wyldwood** wholly within 18\" of the caster to be the target, then make a casting roll of 2D6."
+                          "__text": "Pick a friendly **^^Ironjawz Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Until the start of your next turn, add 1 to the Rend characteristic of melee weapons used by friendly Sylvaneth units while they are wholly within 6\" of the target."
+                          "__text": "Inflict D3 mortal damage on the target. If the target is a **^^Wizard^^**, inflict 3 mortal damage on the target instead."
                         },
                         {
                           "_name": "Keywords",
@@ -225,11 +184,11 @@
                         }
                       ]
                     },
-                    "_name": "Wrathful Spirits",
+                    "_name": "Mighty 'Eadbutt",
                     "_typeId": "7312-8367-c171-f2ef",
                     "_typeName": "Ability (Spell)",
                     "_hidden": "false",
-                    "_id": "77cf-59bd-fc8e-f6c7"
+                    "_id": "d016-5f8d-9e32-4df0"
                   }
                 ]
               },
@@ -240,14 +199,14 @@
                   "_field": "selections",
                   "_scope": "parent",
                   "_shared": "true",
-                  "_id": "952e-8384-237d-f220"
+                  "_id": "e7f6-d0b2-b075-7ce4"
                 }
               },
               "_type": "upgrade",
               "_import": "true",
-              "_name": "Lore of the Deepwood",
+              "_name": "Lore of the Weird",
               "_hidden": "false",
-              "_id": "f82a-967f-acc5-486",
+              "_id": "4936-321c-38e9-4dc",
               "_defaultAmount": "1"
             }
           },
@@ -258,12 +217,12 @@
               "_field": "selections",
               "_scope": "roster",
               "_shared": "true",
-              "_id": "fb38-44d5-665f-2842",
+              "_id": "4ce5-5b24-b04a-1492",
               "_includeChildSelections": "true"
             }
           },
           "_name": "Spell Lores",
-          "_id": "6cbb-5e30-1121-a587",
+          "_id": "b5b-5dbc-9d3b-d075",
           "_hidden": "false",
           "_flatten": "true"
         },
@@ -282,15 +241,15 @@
                             {
                               "_name": "Effect",
                               "_typeId": "fd7f-888d-3257-a12b",
-                              "__text": "If this unit would be destroyed, before removing it from play, roll a dice. On a 3+, this unit is not destroyed and any remaining damage points inflicted on it have no effect. Then, **Heal (1)** this unit. This unit cannot use this ability again for the rest of the battle."
+                              "__text": "Add 10 to this unit’s control score."
                             }
                           ]
                         },
-                        "_name": "Seed of Rebirth",
+                        "_name": "Trophy Skulls",
                         "_typeId": "907f-a48-6a04-f788",
                         "_typeName": "Ability (Passive)",
                         "_hidden": "false",
-                        "_id": "903-c2e1-8982-3ae6"
+                        "_id": "5883-f5fe-1170-3995"
                       }
                     },
                     "constraints": {
@@ -300,16 +259,54 @@
                         "_field": "selections",
                         "_scope": "roster",
                         "_shared": "true",
-                        "_id": "aba9-8907-644d-2135",
+                        "_id": "d0b1-ac70-3f6c-639e",
                         "_includeChildSelections": "true"
                       }
                     },
                     "_type": "upgrade",
                     "_import": "true",
-                    "_name": "Seed of Rebirth",
+                    "_name": "Trophy Skulls",
                     "_hidden": "false",
-                    "_id": "a652-dac3-88b9-5c94",
-                    "_publicationId": "61ee-fae0-f1da-2591"
+                    "_id": "bfe4-ee9c-3d28-7a61"
+                  },
+                  {
+                    "profiles": {
+                      "profile": {
+                        "characteristics": {
+                          "characteristic": [{
+                              "_name": "Keywords",
+                              "_typeId": "b977-7c5e-33b2-428e"
+                            },
+                            {
+                              "_name": "Effect",
+                              "_typeId": "fd7f-888d-3257-a12b",
+                              "__text": "This unit has **^^Ward (6+)^^**."
+                            }
+                          ]
+                        },
+                        "_name": "Armour of Gork",
+                        "_typeId": "907f-a48-6a04-f788",
+                        "_typeName": "Ability (Passive)",
+                        "_hidden": "false",
+                        "_id": "6d30-bd08-16b4-dd13"
+                      }
+                    },
+                    "constraints": {
+                      "constraint": {
+                        "_type": "max",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "roster",
+                        "_shared": "true",
+                        "_id": "c0c0-f616-528f-2bc8",
+                        "_includeChildSelections": "true"
+                      }
+                    },
+                    "_type": "upgrade",
+                    "_import": "true",
+                    "_name": "Armour of Gork",
+                    "_hidden": "false",
+                    "_id": "9e11-9291-83d3-4c4"
                   },
                   {
                     "profiles": {
@@ -318,33 +315,28 @@
                           "characteristic": [{
                               "_name": "Timing",
                               "_typeId": "652c-3d84-4e7-14f4",
-                              "__text": "Any Combat Phase"
+                              "__text": "Deployment Phase"
                             },
                             {
                               "_name": "Declare",
-                              "_typeId": "bad3-f9c5-ba46-18cb",
-                              "__text": "Pick an enemy unit in combat with this unit to be the target."
+                              "_typeId": "bad3-f9c5-ba46-18cb"
                             },
                             {
                               "_name": "Effect",
                               "_typeId": "b6f1-ba36-6cd-3b03",
-                              "__text": "Roll a dice. On 3+, add 1 to wound rolls for combat attacks made by friendly **^^Sylvaneth^^** units that target that enemy unit this phase."
+                              "__text": "Pick 1 of this unit’s weapons. Add 1 to the Rend characteristic of that weapon for the rest of the battle."
                             },
                             {
                               "_name": "Keywords",
                               "_typeId": "12e8-3214-7d8f-1d0f"
-                            },
-                            {
-                              "_name": "Used By",
-                              "_typeId": "1b32-c9d6-3106-166b"
                             }
                           ]
                         },
-                        "_name": "Crown of Fell Bowers",
+                        "_name": "Amberbone Whetstone",
                         "_typeId": "59b6-d47a-a68a-5dcc",
                         "_typeName": "Ability (Activated)",
                         "_hidden": "false",
-                        "_id": "95a9-63d1-425c-7b7e"
+                        "_id": "f1a0-d4ca-7c79-caf"
                       }
                     },
                     "constraints": {
@@ -354,70 +346,15 @@
                         "_field": "selections",
                         "_scope": "roster",
                         "_shared": "true",
-                        "_id": "6a6-1cf0-f729-3f3c",
+                        "_id": "dc9d-c635-195c-ccf5",
                         "_includeChildSelections": "true"
                       }
                     },
                     "_type": "upgrade",
                     "_import": "true",
-                    "_name": "Crown of Fell Bowers",
+                    "_name": "Amberbone Whetstone",
                     "_hidden": "false",
-                    "_id": "e4e4-838a-a42b-98d7",
-                    "_publicationId": "61ee-fae0-f1da-2591"
-                  },
-                  {
-                    "profiles": {
-                      "profile": {
-                        "characteristics": {
-                          "characteristic": [{
-                              "_name": "Timing",
-                              "_typeId": "652c-3d84-4e7-14f4",
-                              "__text": "Any Combat Phase"
-                            },
-                            {
-                              "_name": "Declare",
-                              "_typeId": "bad3-f9c5-ba46-18cb",
-                              "__text": "Pick an enemy unit in combat with this unit to be the target."
-                            },
-                            {
-                              "_name": "Effect",
-                              "_typeId": "b6f1-ba36-6cd-3b03",
-                              "__text": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
-                            },
-                            {
-                              "_name": "Keywords",
-                              "_typeId": "12e8-3214-7d8f-1d0f"
-                            },
-                            {
-                              "_name": "Used By",
-                              "_typeId": "1b32-c9d6-3106-166b"
-                            }
-                          ]
-                        },
-                        "_name": "Greenwood Gladius",
-                        "_typeId": "59b6-d47a-a68a-5dcc",
-                        "_typeName": "Ability (Activated)",
-                        "_hidden": "false",
-                        "_id": "f04-8155-a9be-9320"
-                      }
-                    },
-                    "constraints": {
-                      "constraint": {
-                        "_type": "max",
-                        "_value": "1",
-                        "_field": "selections",
-                        "_scope": "roster",
-                        "_shared": "true",
-                        "_id": "d22d-88ab-b1e0-9f26",
-                        "_includeChildSelections": "true"
-                      }
-                    },
-                    "_type": "upgrade",
-                    "_import": "true",
-                    "_name": "Greenwood Gladius",
-                    "_hidden": "false",
-                    "_id": "7121-e09e-d407-9785",
-                    "_publicationId": "61ee-fae0-f1da-2591"
+                    "_id": "f21a-9f82-b790-2bbb"
                   }
                 ]
               },
@@ -428,11 +365,11 @@
                   "_field": "selections",
                   "_scope": "parent",
                   "_shared": "true",
-                  "_id": "7778-1f2a-dd7-5165"
+                  "_id": "ffdc-af6c-9329-16db"
                 }
               },
-              "_name": "Relics of Nature",
-              "_id": "85b0-a88e-ee7a-8bff",
+              "_name": "Da Boss's Hoard",
+              "_id": "e6f7-4835-b77d-4052",
               "_hidden": "false"
             }
           },
@@ -443,12 +380,12 @@
               "_field": "selections",
               "_scope": "roster",
               "_shared": "true",
-              "_id": "a0d-b49f-3acf-575b",
+              "_id": "bf6d-3ace-c5e0-dc7a",
               "_includeChildSelections": "true"
             }
           },
           "_name": "Artefacts of Power",
-          "_id": "4994-cf8a-db5d-b87d",
+          "_id": "4b1c-ea81-9dc1-de9f",
           "_hidden": "false"
         },
         {
@@ -461,7 +398,7 @@
                     "_field": "selections",
                     "_scope": "parent",
                     "_shared": "true",
-                    "_id": "7272-c329-2b07-f60"
+                    "_id": "dca6-d4ee-fd47-f6bd"
                   }
                 },
                 "profiles": {
@@ -474,23 +411,22 @@
                         {
                           "_name": "Effect",
                           "_typeId": "fd7f-888d-3257-a12b",
-                          "__text": "When using the ‘Endless Growth’ ability, friendly **^^Sylvaneth Monsters^^** can **Heal (3)** instead of **Heal (D3)**."
+                          "__text": "Friendly **^^Ironjawz Infantry^^** units have **^^Ward (6+)^^** while they are wholly within 12\" of any friendly **^^Ironjawz Wizards^^** or **^^Priests^^**."
                         }
                       ]
                     },
-                    "_name": "Healing Song",
+                    "_name": "Spirit of Gork",
                     "_typeId": "907f-a48-6a04-f788",
                     "_typeName": "Ability (Passive)",
                     "_hidden": "false",
-                    "_id": "470d-dce9-5e70-29fb"
+                    "_id": "ceee-4e37-3ed9-db91"
                   }
                 },
                 "_type": "upgrade",
                 "_import": "true",
-                "_name": "Lords of the Clan",
+                "_name": "Weirdfist",
                 "_hidden": "false",
-                "_id": "c221-6b4b-f446-59c6",
-                "_publicationId": "61ee-fae0-f1da-2591"
+                "_id": "c2f8-2ea8-7d8b-5670"
               },
               {
                 "constraints": {
@@ -500,7 +436,7 @@
                     "_field": "selections",
                     "_scope": "parent",
                     "_shared": "true",
-                    "_id": "83d9-919a-9331-8fbe"
+                    "_id": "44a4-4af3-d50c-aefb"
                   }
                 },
                 "profiles": {
@@ -513,23 +449,22 @@
                         {
                           "_name": "Effect",
                           "_typeId": "fd7f-888d-3257-a12b",
-                          "__text": "Add 1 to the Rend characteristic of melee weapons used by friendly **^^Sylvaneth^^** non-**^^Kurnothi Infantry^^** units that charged in the same turn."
+                          "__text": "If you make an unmodified charge roll of 8+ for a friendly non-**^^Hero Ironjawz^^** unit, add 1 to the Attacks characteristic of that unit’s melee weapons for the rest of the turn."
                         }
                       ]
                     },
-                    "_name": "Lacerating Strike",
+                    "_name": "Natural Disaster",
                     "_typeId": "907f-a48-6a04-f788",
                     "_typeName": "Ability (Passive)",
                     "_hidden": "false",
-                    "_id": "c880-7052-a9f5-e4dd"
+                    "_id": "139f-8795-6ff6-1204"
                   }
                 },
                 "_type": "upgrade",
                 "_import": "true",
-                "_name": "Forest Folk",
+                "_name": "Ironjawz Brawl",
                 "_hidden": "false",
-                "_id": "f1ec-31e8-5064-fe66",
-                "_publicationId": "61ee-fae0-f1da-2591"
+                "_id": "f065-c325-c819-c441"
               },
               {
                 "constraints": {
@@ -539,56 +474,7 @@
                     "_field": "selections",
                     "_scope": "parent",
                     "_shared": "true",
-                    "_id": "364d-d2e8-5df6-89ed"
-                  }
-                },
-                "profiles": {
-                  "profile": {
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "652c-3d84-4e7-14f4",
-                          "__text": "Once Per Turn (Army), Your Charge Phase"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "bad3-f9c5-ba46-18cb",
-                          "__text": "Pick a friendly **^^Sylvaneth Cavalry^^** unit to use this ability"
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "b6f1-ba36-6cd-3b03",
-                          "__text": "This unit can use **^^Charge^^** abilities even if it used a **^^Run^^** ability this turn."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "12e8-3214-7d8f-1d0f"
-                        }
-                      ]
-                    },
-                    "_name": "Fleet and Swift",
-                    "_typeId": "59b6-d47a-a68a-5dcc",
-                    "_typeName": "Ability (Activated)",
-                    "_hidden": "false",
-                    "_id": "5e1f-17c8-15aa-6e7f"
-                  }
-                },
-                "_type": "upgrade",
-                "_import": "true",
-                "_name": "Free Spirits",
-                "_hidden": "false",
-                "_id": "e792-e352-7d9-b64c",
-                "_publicationId": "61ee-fae0-f1da-2591"
-              },
-              {
-                "constraints": {
-                  "constraint": {
-                    "_type": "max",
-                    "_value": "1",
-                    "_field": "selections",
-                    "_scope": "parent",
-                    "_shared": "true",
-                    "_id": "68f6-e029-bff9-5389"
+                    "_id": "bebe-1fe1-4c48-4c5f"
                   }
                 },
                 "profiles": {
@@ -601,23 +487,60 @@
                         {
                           "_name": "Effect",
                           "_typeId": "fd7f-888d-3257-a12b",
-                          "__text": "Subtract 3 from the control scores of enemy units while they are in combat with friendly **^^Sylvaneth^^** units."
+                          "__text": "Add the number of enemy units that have been destroyed this battle to the Move characteristic of friendly **Gore-gruntas** and **^^Maw-grunta^^** units, to a maximum of +4."
                         }
                       ]
                     },
-                    "_name": "The Terror in the Eaves",
+                    "_name": "'Ere We Come",
                     "_typeId": "907f-a48-6a04-f788",
                     "_typeName": "Ability (Passive)",
                     "_hidden": "false",
-                    "_id": "f18a-6e1-a8c9-c743"
+                    "_id": "55e5-a125-a050-8f2e"
                   }
                 },
                 "_type": "upgrade",
                 "_import": "true",
-                "_name": "Outcasts",
+                "_name": "Grunta Stampede",
                 "_hidden": "false",
-                "_id": "86c5-fa33-9428-ee16",
-                "_publicationId": "61ee-fae0-f1da-2591"
+                "_id": "6c2d-5429-6255-9f2a"
+              },
+              {
+                "constraints": {
+                  "constraint": {
+                    "_type": "max",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "parent",
+                    "_shared": "true",
+                    "_id": "65bb-1be0-cf9e-9cd1"
+                  }
+                },
+                "profiles": {
+                  "profile": {
+                    "characteristics": {
+                      "characteristic": [{
+                          "_name": "Keywords",
+                          "_typeId": "b977-7c5e-33b2-428e"
+                        },
+                        {
+                          "_name": "Effect",
+                          "_typeId": "fd7f-888d-3257-a12b",
+                          "__text": "The first time each turn that an enemy unit is destroyed by a **^^Fight^^** ability used by a friendly **^^Ironjawz^^** unit, add 1 to hit rolls for combat attacks made by the next friendly **^^Ironjawz^^** unit that is picked to use a **^^Fight^^** ability for the rest of the turn."
+                        }
+                      ]
+                    },
+                    "_name": "Smashin' and Bashin'",
+                    "_typeId": "907f-a48-6a04-f788",
+                    "_typeName": "Ability (Passive)",
+                    "_hidden": "false",
+                    "_id": "f09a-2ca5-3a3c-3cc0"
+                  }
+                },
+                "_type": "upgrade",
+                "_import": "true",
+                "_name": "Ironfist",
+                "_hidden": "false",
+                "_id": "5327-56c8-288a-e5c6"
               }
             ]
           },
@@ -628,13 +551,13 @@
               "_field": "selections",
               "_scope": "roster",
               "_shared": "true",
-              "_id": "50dd-78a6-4242-aa1d",
+              "_id": "712d-2f05-88d3-fe9b",
               "_includeChildSelections": "true",
               "_includeChildForces": "true"
             }
           },
-          "_name": "Battle Formations: Sylvaneth",
-          "_id": "3167-3a8b-117a-f589",
+          "_name": "Battle Formations: Ironjawz",
+          "_id": "a329-a5f1-b106-7917",
           "_hidden": "false",
           "_flatten": "true"
         },
@@ -647,21 +570,31 @@
                       "profile": {
                         "characteristics": {
                           "characteristic": [{
-                              "_name": "Keywords",
-                              "_typeId": "b977-7c5e-33b2-428e"
+                              "_name": "Timing",
+                              "_typeId": "652c-3d84-4e7-14f4",
+                              "__text": "Any Charge Phase"
+                            },
+                            {
+                              "_name": "Declare",
+                              "_typeId": "bad3-f9c5-ba46-18cb",
+                              "__text": "If this unit charged this turn, pick an enemy unit within 1\" of it to be the target."
                             },
                             {
                               "_name": "Effect",
-                              "_typeId": "fd7f-888d-3257-a12b",
-                              "__text": "While this unit is within the combat range of an **Awakened Wyldwood**:\nIf this unit is a **^^Wizard^^**, add 1 to casting rolls for this unit. \nIf this unit is not a **^^Wizard^^**, it has **^^Wizard (1)^^** instead."
+                              "_typeId": "b6f1-ba36-6cd-3b03",
+                              "__text": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll. If this unit’s unmodified charge roll this turn was 8+, roll a D6 instead of a D3."
+                            },
+                            {
+                              "_name": "Keywords",
+                              "_typeId": "12e8-3214-7d8f-1d0f"
                             }
                           ]
                         },
-                        "_name": "Spellsinger",
-                        "_typeId": "907f-a48-6a04-f788",
-                        "_typeName": "Ability (Passive)",
+                        "_name": "Hulking Brute",
+                        "_typeId": "59b6-d47a-a68a-5dcc",
+                        "_typeName": "Ability (Activated)",
                         "_hidden": "false",
-                        "_id": "8895-1649-9758-bb80"
+                        "_id": "26e9-2561-78fd-e0cd"
                       }
                     },
                     "constraints": {
@@ -671,16 +604,54 @@
                         "_field": "selections",
                         "_scope": "roster",
                         "_shared": "true",
-                        "_id": "4df1-9f79-405b-30b8",
+                        "_id": "ea99-18a7-2bf8-a7f0",
                         "_includeChildSelections": "true"
                       }
                     },
                     "_type": "upgrade",
                     "_import": "true",
-                    "_name": "Spellsinger",
+                    "_name": "Hulking Brute",
                     "_hidden": "false",
-                    "_id": "766a-e8aa-63e0-1946",
-                    "_publicationId": "61ee-fae0-f1da-2591"
+                    "_id": "ebbf-ad8f-14de-47d1"
+                  },
+                  {
+                    "profiles": {
+                      "profile": {
+                        "characteristics": {
+                          "characteristic": [{
+                              "_name": "Keywords",
+                              "_typeId": "b977-7c5e-33b2-428e"
+                            },
+                            {
+                              "_name": "Effect",
+                              "_typeId": "fd7f-888d-3257-a12b",
+                              "__text": "If this unit charged this turn, for the rest of the turn, add 1 to charge rolls for friendly **^^Ironjawz^^** units while they are wholly within 18\" of this unit."
+                            }
+                          ]
+                        },
+                        "_name": "Mega Bossy",
+                        "_typeId": "907f-a48-6a04-f788",
+                        "_typeName": "Ability (Passive)",
+                        "_hidden": "false",
+                        "_id": "a9bd-4aa3-da30-fa5e"
+                      }
+                    },
+                    "constraints": {
+                      "constraint": {
+                        "_type": "max",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "roster",
+                        "_shared": "true",
+                        "_id": "1d60-3081-d538-d5f0",
+                        "_includeChildSelections": "true"
+                      }
+                    },
+                    "_type": "upgrade",
+                    "_import": "true",
+                    "_name": "Mega Bossy",
+                    "_hidden": "false",
+                    "_id": "1497-d7a7-91c8-4985"
                   },
                   {
                     "profiles": {
@@ -689,7 +660,7 @@
                           "characteristic": [{
                               "_name": "Timing",
                               "_typeId": "652c-3d84-4e7-14f4",
-                              "__text": "Reaction: Opponent declared a **^^Spell^^** or **^^Prayer^^** ability"
+                              "__text": "Reaction: You declared the ‘Redeploy’ command for a friendly **^^Ironjawz^^** unit wholly within 12\" of this unit"
                             },
                             {
                               "_name": "Declare",
@@ -698,24 +669,19 @@
                             {
                               "_name": "Effect",
                               "_typeId": "b6f1-ba36-6cd-3b03",
-                              "__text": "Roll a dice. On a 3+, ignore the effect of that spell or prayer on that unit. This unit can use this ability more than once per phase but only once per **^^Spell^^** or **^^Prayer^^** ability."
+                              "__text": "If you roll a 1-3 when determining the distance that unit can move, you can use a value of 4 instead."
                             },
                             {
                               "_name": "Keywords",
                               "_typeId": "12e8-3214-7d8f-1d0f"
-                            },
-                            {
-                              "_name": "Used By",
-                              "_typeId": "1b32-c9d6-3106-166b",
-                              "__text": "This unit if it is wholly within 12\" of a friendly **^^Sylvaneth^^** unit picked to be the target of that spell or prayer."
                             }
                           ]
                         },
-                        "_name": "Radiant Spirit",
+                        "_name": "An' Eye for da Fight",
                         "_typeId": "59b6-d47a-a68a-5dcc",
                         "_typeName": "Ability (Activated)",
                         "_hidden": "false",
-                        "_id": "36d8-51ba-515f-9e13"
+                        "_id": "1112-2947-e137-99f1"
                       }
                     },
                     "constraints": {
@@ -725,70 +691,15 @@
                         "_field": "selections",
                         "_scope": "roster",
                         "_shared": "true",
-                        "_id": "569e-be11-9cf7-921d",
+                        "_id": "69c3-d463-15b0-a3a0",
                         "_includeChildSelections": "true"
                       }
                     },
                     "_type": "upgrade",
                     "_import": "true",
-                    "_name": "Radiant Spirit",
+                    "_name": "An' Eye for da Fight",
                     "_hidden": "false",
-                    "_id": "c0bc-2a8-8f0b-b2f4",
-                    "_publicationId": "61ee-fae0-f1da-2591"
-                  },
-                  {
-                    "profiles": {
-                      "profile": {
-                        "characteristics": {
-                          "characteristic": [{
-                              "_name": "Timing",
-                              "_typeId": "652c-3d84-4e7-14f4",
-                              "__text": "Your Movement Phase"
-                            },
-                            {
-                              "_name": "Declare",
-                              "_typeId": "bad3-f9c5-ba46-18cb",
-                              "__text": "Pick a friendly **^^Sylvaneth^^** unit wholly within 12\" of this unit to be the target."
-                            },
-                            {
-                              "_name": "Effect",
-                              "_typeId": "b6f1-ba36-6cd-3b03",
-                              "__text": "Add 2\" to the Move characteristic of the target for the rest of the turn."
-                            },
-                            {
-                              "_name": "Keywords",
-                              "_typeId": "12e8-3214-7d8f-1d0f"
-                            },
-                            {
-                              "_name": "Used By",
-                              "_typeId": "1b32-c9d6-3106-166b"
-                            }
-                          ]
-                        },
-                        "_name": "Warsinger",
-                        "_typeId": "59b6-d47a-a68a-5dcc",
-                        "_typeName": "Ability (Activated)",
-                        "_hidden": "false",
-                        "_id": "c133-8f0c-936d-30d3"
-                      }
-                    },
-                    "constraints": {
-                      "constraint": {
-                        "_type": "max",
-                        "_value": "1",
-                        "_field": "selections",
-                        "_scope": "roster",
-                        "_shared": "true",
-                        "_id": "7c57-1263-4a3f-36bd",
-                        "_includeChildSelections": "true"
-                      }
-                    },
-                    "_type": "upgrade",
-                    "_import": "true",
-                    "_name": "Warsinger",
-                    "_hidden": "false",
-                    "_id": "3619-e710-c6e5-490",
-                    "_publicationId": "61ee-fae0-f1da-2591"
+                    "_id": "6c1d-e8c2-645d-f041"
                   }
                 ]
               },
@@ -799,11 +710,11 @@
                   "_field": "selections",
                   "_scope": "parent",
                   "_shared": "true",
-                  "_id": "2174-2d6c-6e1-de16"
+                  "_id": "2bc-536c-f3b6-3c1f"
                 }
               },
-              "_name": "Aspects of Renewal",
-              "_id": "b380-4a6a-d11c-3b62",
+              "_name": "Brutal Warlords",
+              "_id": "5213-e13d-7e64-9f74",
               "_hidden": "false"
             }
           },
@@ -814,12 +725,12 @@
               "_field": "selections",
               "_scope": "roster",
               "_shared": "true",
-              "_id": "e339-1cd2-35b6-4c66",
+              "_id": "fee1-cbd4-49fc-519d",
               "_includeChildSelections": "true"
             }
           },
           "_name": "Heroic Traits",
-          "_id": "ccba-5033-fe11-a2a",
+          "_id": "4455-d9dc-24bf-7d91",
           "_hidden": "false"
         },
         {
@@ -830,106 +741,106 @@
                     "characteristics": {
                       "characteristic": [{
                           "_name": "Timing",
-                          "_typeId": "de6f-d57b-248a-83be",
+                          "_typeId": "76bf-8126-64d4-c709",
                           "__text": "Your Hero Phase"
                         },
                         {
-                          "_name": "Casting Value",
-                          "_typeId": "9fc7-b0f6-d018-a608",
-                          "__text": "7"
+                          "_name": "Chanting Value",
+                          "_typeId": "f192-6780-8138-9cef",
+                          "__text": "4"
                         },
                         {
                           "_name": "Declare",
-                          "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "If there is not a friendly **Spiteswarm Hive** on the battlefield, pick a friendly **^^Sylvaneth Wizard^^** to cast this spell, then make a casting roll of 2D6."
+                          "_typeId": "284c-90b2-245b-adf3",
+                          "__text": "Pick a friendly **^^Ironjawz Priest^^** to chant this prayer, pick a visible friendly **^^Ironjawz^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6."
                         },
                         {
                           "_name": "Effect",
-                          "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Set up a **Spiteswarm Hive** wholly within 9\" of the caster, visible to them and more than 3\" from all enemy units."
+                          "_typeId": "6219-6fcc-5ae2-a6b7",
+                          "__text": "Until the start of your next turn, add 1 to charge rolls for the target. In addition, if the chanting roll was 8+, add 1 to the number of dice rolled when making charge rolls for the target, to a maximum of 3."
                         },
                         {
                           "_name": "Keywords",
-                          "_typeId": "353f-565e-c351-1cf2",
-                          "__text": "**^^Spell^^**, **^^Summon^^**"
+                          "_typeId": "e3d8-f58b-e4e0-8e9d",
+                          "__text": "**^^Prayer^^**, **^^Unlimited^^**"
                         }
                       ]
                     },
-                    "_name": "Summon Spiteswarm Hive",
-                    "_typeId": "7312-8367-c171-f2ef",
-                    "_typeName": "Ability (Spell)",
+                    "_name": "Get 'Em Beat",
+                    "_typeId": "5946-234-d7b4-6195",
+                    "_typeName": "Ability (Prayer)",
                     "_hidden": "false",
-                    "_id": "d13f-a446-86b8-7e66"
+                    "_id": "8b84-cf49-aa4c-7814"
                   },
                   {
                     "characteristics": {
                       "characteristic": [{
                           "_name": "Timing",
-                          "_typeId": "de6f-d57b-248a-83be",
+                          "_typeId": "76bf-8126-64d4-c709",
                           "__text": "Your Hero Phase"
                         },
                         {
-                          "_name": "Casting Value",
-                          "_typeId": "9fc7-b0f6-d018-a608",
-                          "__text": "7"
+                          "_name": "Chanting Value",
+                          "_typeId": "f192-6780-8138-9cef",
+                          "__text": "4"
                         },
                         {
                           "_name": "Declare",
-                          "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "If there is not a friendly **Vengeful Skullroot** on the battlefield, pick a friendly **^^Sylvaneth Wizard^^** to cast this spell, then make a casting roll of 2D6."
+                          "_typeId": "284c-90b2-245b-adf3",
+                          "__text": "Pick a friendly **^^Ironjawz Priest^^** to chant this prayer, pick a visible friendly **^^Ironjawz^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6."
                         },
                         {
                           "_name": "Effect",
-                          "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Set up a **Vengeful Skullroot** wholly within 9\" of the caster, visible to them and more than 9\" from all enemy units."
+                          "_typeId": "6219-6fcc-5ae2-a6b7",
+                          "__text": "Add 1 to the Damage characteristic of the target’s melee weapons for the rest of the turn. If the chanting roll was 8+, you can pick up to 2 eligible units to be the targets instead of 1"
                         },
                         {
                           "_name": "Keywords",
-                          "_typeId": "353f-565e-c351-1cf2",
-                          "__text": "**^^Spell^^**, **^^Summon^^**"
+                          "_typeId": "e3d8-f58b-e4e0-8e9d",
+                          "__text": "**^^Prayer^^**"
                         }
                       ]
                     },
-                    "_name": "Summon Vengeful Skullroot",
-                    "_typeId": "7312-8367-c171-f2ef",
-                    "_typeName": "Ability (Spell)",
+                    "_name": "Killa Beat",
+                    "_typeId": "5946-234-d7b4-6195",
+                    "_typeName": "Ability (Prayer)",
                     "_hidden": "false",
-                    "_id": "7395-d2db-354b-7576"
+                    "_id": "55b0-9f01-4604-6322"
                   },
                   {
                     "characteristics": {
                       "characteristic": [{
                           "_name": "Timing",
-                          "_typeId": "de6f-d57b-248a-83be",
+                          "_typeId": "76bf-8126-64d4-c709",
                           "__text": "Your Hero Phase"
                         },
                         {
-                          "_name": "Casting Value",
-                          "_typeId": "9fc7-b0f6-d018-a608",
-                          "__text": "7"
+                          "_name": "Chanting Value",
+                          "_typeId": "f192-6780-8138-9cef",
+                          "__text": "4"
                         },
                         {
                           "_name": "Declare",
-                          "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "If there is not a friendly **Gladewyrm** on the battlefield, pick a friendly **^^Sylvaneth Wizard^^** to cast this spell, then make a casting roll of 2D6."
+                          "_typeId": "284c-90b2-245b-adf3",
+                          "__text": "Pick a friendly **^^Ironjawz Priest^^** to chant this prayer, pick a visible friendly **^^Ironjawz^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6."
                         },
                         {
                           "_name": "Effect",
-                          "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Set up a **Gladewyrm** wholly within 9\" of the caster, visible to them and more than 9\" from all enemy units."
+                          "_typeId": "6219-6fcc-5ae2-a6b7",
+                          "__text": "**Heal (D6)** the target. If the chanting roll was 8+, **Heal (D3+3)** the target instead."
                         },
                         {
                           "_name": "Keywords",
-                          "_typeId": "353f-565e-c351-1cf2",
-                          "__text": "**^^Spell^^**, **^^Summon^^**"
+                          "_typeId": "e3d8-f58b-e4e0-8e9d",
+                          "__text": "**^^Prayer^^**"
                         }
                       ]
                     },
-                    "_name": "Summon Gladewyrm",
-                    "_typeId": "7312-8367-c171-f2ef",
-                    "_typeName": "Ability (Spell)",
+                    "_name": "Fixin' Beat",
+                    "_typeId": "5946-234-d7b4-6195",
+                    "_typeName": "Ability (Prayer)",
                     "_hidden": "false",
-                    "_id": "1c26-1011-7945-e83b"
+                    "_id": "5606-7489-d49f-e84"
                   }
                 ]
               },
@@ -940,106 +851,42 @@
                   "_field": "selections",
                   "_scope": "parent",
                   "_shared": "true",
-                  "_id": "24d6-5aae-e2b-8c0"
+                  "_id": "e227-f525-5241-81f6"
                 }
-              },
-              "entryLinks": {
-                "entryLink": [{
-                    "constraints": {
-                      "constraint": [{
-                          "_type": "min",
-                          "_value": "1",
-                          "_field": "selections",
-                          "_scope": "parent",
-                          "_shared": "true",
-                          "_id": "2dbf-8b2a-4081-4f81"
-                        },
-                        {
-                          "_type": "max",
-                          "_value": "1",
-                          "_field": "selections",
-                          "_scope": "parent",
-                          "_shared": "true",
-                          "_id": "957-52b1-affc-42d"
-                        }
-                      ]
-                    },
-                    "_import": "true",
-                    "_name": "Spiteswarm Hive",
-                    "_hidden": "false",
-                    "_id": "5c22-f49b-9ee-a5cd",
-                    "_type": "selectionEntry",
-                    "_targetId": "e068-6ce6-9de4-be7e"
-                  },
-                  {
-                    "constraints": {
-                      "constraint": [{
-                          "_type": "min",
-                          "_value": "1",
-                          "_field": "selections",
-                          "_scope": "parent",
-                          "_shared": "true",
-                          "_id": "b478-be24-4bb8-a913"
-                        },
-                        {
-                          "_type": "max",
-                          "_value": "1",
-                          "_field": "selections",
-                          "_scope": "parent",
-                          "_shared": "true",
-                          "_id": "5f8f-5ac9-14d2-c7c8"
-                        }
-                      ]
-                    },
-                    "_import": "true",
-                    "_name": "Vengeful Skullroot",
-                    "_hidden": "false",
-                    "_id": "13d-7c94-4dcf-e3aa",
-                    "_type": "selectionEntry",
-                    "_targetId": "84dc-2eda-87f2-5b53"
-                  },
-                  {
-                    "constraints": {
-                      "constraint": [{
-                          "_type": "min",
-                          "_value": "1",
-                          "_field": "selections",
-                          "_scope": "parent",
-                          "_shared": "true",
-                          "_id": "854-1f26-3e15-c4c9"
-                        },
-                        {
-                          "_type": "max",
-                          "_value": "1",
-                          "_field": "selections",
-                          "_scope": "parent",
-                          "_shared": "true",
-                          "_id": "8977-6060-ba61-25b8"
-                        }
-                      ]
-                    },
-                    "_import": "true",
-                    "_name": "Gladewyrm",
-                    "_hidden": "false",
-                    "_id": "67b7-6997-e31d-d90c",
-                    "_type": "selectionEntry",
-                    "_targetId": "e02f-38d3-f495-6509"
-                  }
-                ]
               },
               "_type": "upgrade",
               "_import": "true",
-              "_name": "Horrors of the Necropolis",
+              "_name": "Warbeats",
               "_hidden": "false",
-              "_id": "ddb7-c347-7c88-a2e9"
+              "_id": "36aa-af55-d210-d137",
+              "_defaultAmount": "1"
             }
           },
-          "_name": "Manifestation Lores",
-          "_id": "2d93-f507-a1f3-535f",
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "1",
+              "_field": "selections",
+              "_scope": "roster",
+              "_shared": "true",
+              "_id": "7440-7d28-4f9-a428",
+              "_includeChildSelections": "true"
+            }
+          },
+          "_name": "Prayer Lores",
+          "_id": "a537-457-99e-8b30",
           "_hidden": "false",
           "_flatten": "true"
         }
       ]
+    },
+    "catalogueLinks": {
+      "catalogueLink": {
+        "_type": "catalogue",
+        "_name": "Ironjawz - Library",
+        "_id": "a6b-356a-5873-dae5",
+        "_targetId": "8c7-eee2-e358-ba1e"
+      }
     },
     "entryLinks": {
       "entryLink": [{
@@ -1050,7 +897,7 @@
               "_field": "selections",
               "_scope": "force",
               "_shared": "true",
-              "_id": "e16d-bdd2-a561-91a2"
+              "_id": "853f-c80-b583-5cd1"
             }
           },
           "modifiers": {
@@ -1067,448 +914,6 @@
                       "_shared": "true"
                     }
                   },
-                  "_type": "and"
-                }
-              },
-              "_type": "set",
-              "_value": "true",
-              "_field": "hidden"
-            }
-          },
-          "costs": {
-            "cost": {
-              "_name": "pts",
-              "_typeId": "points",
-              "_value": "680"
-            }
-          },
-          "_import": "true",
-          "_name": "Alarielle the Everqueen",
-          "_hidden": "false",
-          "_id": "158c-940b-b29e-94f4",
-          "_type": "selectionEntry",
-          "_targetId": "efc2-ef9b-4eee-a341"
-        },
-        {
-          "constraints": {
-            "constraint": {
-              "_type": "max",
-              "_value": "-1",
-              "_field": "selections",
-              "_scope": "force",
-              "_shared": "true",
-              "_id": "8d84-41b8-d801-309d"
-            }
-          },
-          "modifiers": {
-            "modifier": {
-              "conditionGroups": {
-                "conditionGroup": {
-                  "conditions": {
-                    "condition": {
-                      "_type": "instanceOf",
-                      "_value": "1",
-                      "_field": "selections",
-                      "_scope": "ancestor",
-                      "_childId": "376a-6b97-8699-dd59",
-                      "_shared": "true"
-                    }
-                  },
-                  "_type": "and"
-                }
-              },
-              "_type": "set",
-              "_value": "true",
-              "_field": "hidden"
-            }
-          },
-          "costs": {
-            "cost": {
-              "_name": "pts",
-              "_typeId": "points",
-              "_value": "170"
-            }
-          },
-          "entryLinks": {
-            "entryLink": [{
-                "_import": "true",
-                "_name": "Heroic Traits",
-                "_hidden": "false",
-                "_id": "f724-dc1a-549d-36ea",
-                "_type": "selectionEntryGroup",
-                "_targetId": "ccba-5033-fe11-a2a"
-              },
-              {
-                "_import": "true",
-                "_name": "Artefacts of Power",
-                "_hidden": "false",
-                "_id": "15f5-7f3a-1e68-ed9e",
-                "_type": "selectionEntryGroup",
-                "_targetId": "4994-cf8a-db5d-b87d"
-              }
-            ]
-          },
-          "_import": "true",
-          "_name": "Arch-Revenant",
-          "_hidden": "false",
-          "_id": "b9cf-88a8-577c-d1e9",
-          "_type": "selectionEntry",
-          "_targetId": "c21d-479c-e8ef-b406"
-        },
-        {
-          "constraints": {
-            "constraint": {
-              "_type": "max",
-              "_value": "-1",
-              "_field": "selections",
-              "_scope": "force",
-              "_shared": "true",
-              "_id": "ea99-8564-1bce-8e1b"
-            }
-          },
-          "modifiers": {
-            "modifier": {
-              "conditionGroups": {
-                "conditionGroup": {
-                  "conditions": {
-                    "condition": {
-                      "_type": "instanceOf",
-                      "_value": "1",
-                      "_field": "selections",
-                      "_scope": "ancestor",
-                      "_childId": "376a-6b97-8699-dd59",
-                      "_shared": "true"
-                    }
-                  },
-                  "_type": "and"
-                }
-              },
-              "_type": "set",
-              "_value": "true",
-              "_field": "hidden"
-            }
-          },
-          "costs": {
-            "cost": {
-              "_name": "pts",
-              "_typeId": "points",
-              "_value": "330"
-            }
-          },
-          "_import": "true",
-          "_name": "Belthanos, First Thorn of Kurnoth",
-          "_hidden": "false",
-          "_id": "647a-e636-968-9440",
-          "_type": "selectionEntry",
-          "_targetId": "f6f4-66ce-c346-42ed"
-        },
-        {
-          "constraints": {
-            "constraint": {
-              "_type": "max",
-              "_value": "-1",
-              "_field": "selections",
-              "_scope": "force",
-              "_shared": "true",
-              "_id": "c7e9-6755-aae4-fd87"
-            }
-          },
-          "modifiers": {
-            "modifier": {
-              "conditionGroups": {
-                "conditionGroup": {
-                  "conditions": {
-                    "condition": {
-                      "_type": "instanceOf",
-                      "_value": "1",
-                      "_field": "selections",
-                      "_scope": "ancestor",
-                      "_childId": "376a-6b97-8699-dd59",
-                      "_shared": "true"
-                    }
-                  },
-                  "_type": "and"
-                }
-              },
-              "_type": "set",
-              "_value": "true",
-              "_field": "hidden"
-            }
-          },
-          "costs": {
-            "cost": {
-              "_name": "pts",
-              "_typeId": "points",
-              "_value": "310"
-            }
-          },
-          "_import": "true",
-          "_name": "Drycha Hamadreth",
-          "_hidden": "false",
-          "_id": "d377-eb00-5c9d-15fb",
-          "_type": "selectionEntry",
-          "_targetId": "b3b6-f91d-754d-af73"
-        },
-        {
-          "constraints": {
-            "constraint": {
-              "_type": "max",
-              "_value": "-1",
-              "_field": "selections",
-              "_scope": "force",
-              "_shared": "true",
-              "_id": "3aec-7fe1-ba2f-b833"
-            }
-          },
-          "modifiers": {
-            "modifier": {
-              "conditionGroups": {
-                "conditionGroup": {
-                  "conditions": {
-                    "condition": {
-                      "_type": "instanceOf",
-                      "_value": "1",
-                      "_field": "selections",
-                      "_scope": "ancestor",
-                      "_childId": "376a-6b97-8699-dd59",
-                      "_shared": "true"
-                    }
-                  },
-                  "_type": "and"
-                }
-              },
-              "_type": "set",
-              "_value": "true",
-              "_field": "hidden"
-            }
-          },
-          "costs": {
-            "cost": {
-              "_name": "pts",
-              "_typeId": "points",
-              "_value": "120"
-            }
-          },
-          "entryLinks": {
-            "entryLink": [{
-                "_import": "true",
-                "_name": "Artefacts of Power",
-                "_hidden": "false",
-                "_id": "69e0-24ad-e7cf-3b36",
-                "_type": "selectionEntryGroup",
-                "_targetId": "4994-cf8a-db5d-b87d"
-              },
-              {
-                "_import": "true",
-                "_name": "Heroic Traits",
-                "_hidden": "false",
-                "_id": "59fb-f4fc-8c92-afa4",
-                "_type": "selectionEntryGroup",
-                "_targetId": "ccba-5033-fe11-a2a"
-              }
-            ]
-          },
-          "_import": "true",
-          "_name": "Branchwych",
-          "_hidden": "false",
-          "_id": "64e0-75-f55c-f2cc",
-          "_type": "selectionEntry",
-          "_targetId": "e410-e36e-9cea-2482"
-        },
-        {
-          "constraints": {
-            "constraint": {
-              "_type": "max",
-              "_value": "-1",
-              "_field": "selections",
-              "_scope": "force",
-              "_shared": "true",
-              "_id": "b8-e506-fc40-9e2e"
-            }
-          },
-          "modifiers": {
-            "modifier": {
-              "conditionGroups": {
-                "conditionGroup": {
-                  "conditions": {
-                    "condition": {
-                      "_type": "instanceOf",
-                      "_value": "1",
-                      "_field": "selections",
-                      "_scope": "ancestor",
-                      "_childId": "376a-6b97-8699-dd59",
-                      "_shared": "true"
-                    }
-                  },
-                  "_type": "and"
-                }
-              },
-              "_type": "set",
-              "_value": "true",
-              "_field": "hidden"
-            }
-          },
-          "costs": {
-            "cost": {
-              "_name": "pts",
-              "_typeId": "points",
-              "_value": "330"
-            }
-          },
-          "entryLinks": {
-            "entryLink": [{
-                "_import": "true",
-                "_name": "Artefacts of Power",
-                "_hidden": "false",
-                "_id": "427e-80d7-e30d-c767",
-                "_type": "selectionEntryGroup",
-                "_targetId": "4994-cf8a-db5d-b87d"
-              },
-              {
-                "_import": "true",
-                "_name": "Heroic Traits",
-                "_hidden": "false",
-                "_id": "d858-1d22-6e8f-8235",
-                "_type": "selectionEntryGroup",
-                "_targetId": "ccba-5033-fe11-a2a"
-              }
-            ]
-          },
-          "_import": "true",
-          "_name": "Spirit of Durthu",
-          "_hidden": "false",
-          "_id": "25b8-cc83-ee3e-b11",
-          "_type": "selectionEntry",
-          "_targetId": "f163-eaf6-2b5b-1cd3"
-        },
-        {
-          "constraints": {
-            "constraint": {
-              "_type": "max",
-              "_value": "-1",
-              "_field": "selections",
-              "_scope": "force",
-              "_shared": "true",
-              "_id": "a6e7-8341-a015-1afd"
-            }
-          },
-          "modifiers": {
-            "modifier": {
-              "conditionGroups": {
-                "conditionGroup": {
-                  "conditions": {
-                    "condition": {
-                      "_type": "instanceOf",
-                      "_value": "1",
-                      "_field": "selections",
-                      "_scope": "ancestor",
-                      "_childId": "376a-6b97-8699-dd59",
-                      "_shared": "true"
-                    }
-                  },
-                  "_type": "and"
-                }
-              },
-              "_type": "set",
-              "_value": "true",
-              "_field": "hidden"
-            }
-          },
-          "costs": {
-            "cost": {
-              "_name": "pts",
-              "_typeId": "points",
-              "_value": "280"
-            }
-          },
-          "_import": "true",
-          "_name": "The Lady of Vines",
-          "_hidden": "false",
-          "_id": "1a9a-58b0-5822-4273",
-          "_type": "selectionEntry",
-          "_targetId": "72e5-d623-ac8c-14a1"
-        },
-        {
-          "constraints": {
-            "constraint": {
-              "_type": "max",
-              "_value": "-1",
-              "_field": "selections",
-              "_scope": "force",
-              "_shared": "true",
-              "_id": "bfce-cbe7-a890-f50"
-            }
-          },
-          "modifiers": {
-            "modifier": {
-              "conditionGroups": {
-                "conditionGroup": {
-                  "conditions": {
-                    "condition": {
-                      "_type": "instanceOf",
-                      "_value": "1",
-                      "_field": "selections",
-                      "_scope": "ancestor",
-                      "_childId": "376a-6b97-8699-dd59",
-                      "_shared": "true"
-                    }
-                  },
-                  "_type": "and"
-                }
-              },
-              "_type": "set",
-              "_value": "true",
-              "_field": "hidden"
-            }
-          },
-          "costs": {
-            "cost": {
-              "_name": "pts",
-              "_typeId": "points",
-              "_value": "210"
-            }
-          },
-          "entryLinks": {
-            "entryLink": [{
-                "_import": "true",
-                "_name": "Artefacts of Power",
-                "_hidden": "false",
-                "_id": "2993-2a93-548e-45d0",
-                "_type": "selectionEntryGroup",
-                "_targetId": "4994-cf8a-db5d-b87d"
-              },
-              {
-                "_import": "true",
-                "_name": "Heroic Traits",
-                "_hidden": "false",
-                "_id": "3504-ceac-3e41-b65c",
-                "_type": "selectionEntryGroup",
-                "_targetId": "ccba-5033-fe11-a2a"
-              }
-            ]
-          },
-          "_import": "true",
-          "_name": "Warsong Revenant",
-          "_hidden": "false",
-          "_id": "7dd5-7c37-dccd-25b8",
-          "_type": "selectionEntry",
-          "_targetId": "438e-768a-7545-d329"
-        },
-        {
-          "constraints": {
-            "constraint": {
-              "_type": "max",
-              "_value": "-1",
-              "_field": "selections",
-              "_scope": "force",
-              "_shared": "true",
-              "_id": "49b5-9659-b4a8-5cb4"
-            }
-          },
-          "modifiers": {
-            "modifier": {
-              "conditionGroups": {
-                "conditionGroup": {
                   "conditionGroups": {
                     "conditionGroup": {
                       "conditions": {
@@ -1517,7 +922,7 @@
                             "_value": "1",
                             "_field": "selections",
                             "_scope": "force",
-                            "_childId": "959d-ffda-a3a5-db6a",
+                            "_childId": "70cd-5229-7b3f-94cb",
                             "_shared": "true"
                           },
                           {
@@ -1525,7 +930,7 @@
                             "_value": "1",
                             "_field": "selections",
                             "_scope": "force",
-                            "_childId": "1ba3-5bf-df0-e4ae",
+                            "_childId": "4079-fb73-a4d7-7b0d",
                             "_shared": "true"
                           },
                           {
@@ -1533,22 +938,12 @@
                             "_value": "1",
                             "_field": "selections",
                             "_scope": "force",
-                            "_childId": "21f4-fbfa-6e85-1c5b",
+                            "_childId": "d3e0-6a4-afe6-46f5",
                             "_shared": "true"
                           }
                         ]
                       },
                       "_type": "and"
-                    }
-                  },
-                  "conditions": {
-                    "condition": {
-                      "_type": "instanceOf",
-                      "_value": "1",
-                      "_field": "selections",
-                      "_scope": "ancestor",
-                      "_childId": "376a-6b97-8699-dd59",
-                      "_shared": "true"
                     }
                   },
                   "_type": "and"
@@ -1559,12 +954,31 @@
               "_field": "hidden"
             }
           },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Artefacts of Power",
+                "_hidden": "false",
+                "_id": "77c9-cfa1-fee7-6b25",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b1c-ea81-9dc1-de9f"
+              },
+              {
+                "_import": "true",
+                "_name": "Heroic Traits",
+                "_hidden": "false",
+                "_id": "3980-4b0-37cb-794b",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4455-d9dc-24bf-7d91"
+              }
+            ]
+          },
           "modifierGroups": {
             "modifierGroup": {
               "modifiers": {
                 "modifier": [{
                     "_type": "add",
-                    "_value": "a00d-5f4a-9e65-a4d3",
+                    "_value": "9e01-f4e1-28d8-eae4",
                     "_field": "category"
                   },
                   {
@@ -1574,13 +988,13 @@
                         "_value": "2",
                         "_field": "selections",
                         "_scope": "force",
-                        "_childId": "a00d-5f4a-9e65-a4d3",
+                        "_childId": "9e01-f4e1-28d8-eae4",
                         "_shared": "true"
                       }
                     },
                     "_type": "set",
                     "_value": "0",
-                    "_field": "49b5-9659-b4a8-5cb4"
+                    "_field": "853f-c80-b583-5cd1"
                   }
                 ]
               },
@@ -1601,34 +1015,15 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "260"
+              "_value": "130"
             }
           },
-          "entryLinks": {
-            "entryLink": [{
-                "_import": "true",
-                "_name": "Artefacts of Power",
-                "_hidden": "false",
-                "_id": "706e-9a57-f8b5-9bd5",
-                "_type": "selectionEntryGroup",
-                "_targetId": "4994-cf8a-db5d-b87d"
-              },
-              {
-                "_import": "true",
-                "_name": "Heroic Traits",
-                "_hidden": "false",
-                "_id": "e72-ab18-9a67-538d",
-                "_type": "selectionEntryGroup",
-                "_targetId": "ccba-5033-fe11-a2a"
-              }
-            ]
-          },
           "_import": "true",
-          "_name": "Treelord",
+          "_name": "Ardboy Big Boss",
           "_hidden": "false",
-          "_id": "5541-2d10-f30a-24b6",
+          "_id": "7ed0-b183-d0d4-3567",
           "_type": "selectionEntry",
-          "_targetId": "a896-d266-a881-f920"
+          "_targetId": "e020-20c4-a638-6d2b"
         },
         {
           "constraints": {
@@ -1638,7 +1033,7 @@
               "_field": "selections",
               "_scope": "force",
               "_shared": "true",
-              "_id": "7b9f-a693-d7-1ac0"
+              "_id": "ae28-a536-817f-e219"
             }
           },
           "modifiers": {
@@ -1667,41 +1062,537 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "320"
+              "_value": "450"
+            }
+          },
+          "_import": "true",
+          "_name": "Gordrakk, the Fist of Gork",
+          "_hidden": "false",
+          "_id": "6c7d-b000-ff1f-84c5",
+          "_type": "selectionEntry",
+          "_targetId": "b8a1-7664-687e-c0d9"
+        },
+        {
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "2ac4-a767-f8ae-5d17"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditionGroups": {
+                "conditionGroup": {
+                  "conditions": {
+                    "condition": {
+                      "_type": "instanceOf",
+                      "_value": "1",
+                      "_field": "selections",
+                      "_scope": "ancestor",
+                      "_childId": "376a-6b97-8699-dd59",
+                      "_shared": "true"
+                    }
+                  },
+                  "_type": "and"
+                }
+              },
+              "_type": "set",
+              "_value": "true",
+              "_field": "hidden"
+            }
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "680"
+            }
+          },
+          "_import": "true",
+          "_name": "Kragnos, the End of Empires",
+          "_hidden": "false",
+          "_id": "4286-888b-c4d0-6521",
+          "_type": "selectionEntry",
+          "_targetId": "2a45-46b2-62f9-63cc"
+        },
+        {
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "efc4-8054-920c-7338"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditionGroups": {
+                "conditionGroup": {
+                  "conditions": {
+                    "condition": {
+                      "_type": "instanceOf",
+                      "_value": "1",
+                      "_field": "selections",
+                      "_scope": "ancestor",
+                      "_childId": "376a-6b97-8699-dd59",
+                      "_shared": "true"
+                    }
+                  },
+                  "_type": "and"
+                }
+              },
+              "_type": "set",
+              "_value": "true",
+              "_field": "hidden"
             }
           },
           "entryLinks": {
             "entryLink": [{
                 "_import": "true",
-                "_name": "Artefacts of Power",
+                "_name": "Heroic Traits",
                 "_hidden": "false",
-                "_id": "f6eb-7441-dc4e-7dcc",
+                "_id": "3e03-33ac-969c-e63d",
                 "_type": "selectionEntryGroup",
-                "_targetId": "4994-cf8a-db5d-b87d"
+                "_targetId": "4455-d9dc-24bf-7d91"
               },
               {
                 "_import": "true",
-                "_name": "Heroic Traits",
+                "_name": "Artefacts of Power",
                 "_hidden": "false",
-                "_id": "e483-779f-51bc-850e",
+                "_id": "ca9f-d179-15ad-738f",
                 "_type": "selectionEntryGroup",
-                "_targetId": "ccba-5033-fe11-a2a"
+                "_targetId": "4b1c-ea81-9dc1-de9f"
               }
             ]
           },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "230"
+            }
+          },
           "_import": "true",
-          "_name": "Treelord Ancient",
+          "_name": "Megaboss",
           "_hidden": "false",
-          "_id": "2a6-9def-8540-1946",
+          "_id": "e8b4-320f-c4f3-577",
           "_type": "selectionEntry",
-          "_targetId": "678-a231-5f4c-4d7c"
+          "_targetId": "4e07-f63a-6315-b48b"
+        },
+        {
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "f50b-659c-5d49-7f0e"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditionGroups": {
+                "conditionGroup": {
+                  "conditions": {
+                    "condition": {
+                      "_type": "instanceOf",
+                      "_value": "1",
+                      "_field": "selections",
+                      "_scope": "ancestor",
+                      "_childId": "376a-6b97-8699-dd59",
+                      "_shared": "true"
+                    }
+                  },
+                  "_type": "and"
+                }
+              },
+              "_type": "set",
+              "_value": "true",
+              "_field": "hidden"
+            }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Heroic Traits",
+                "_hidden": "false",
+                "_id": "3456-334d-5851-3dab",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4455-d9dc-24bf-7d91"
+              },
+              {
+                "_import": "true",
+                "_name": "Artefacts of Power",
+                "_hidden": "false",
+                "_id": "2be-4681-91b7-567d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b1c-ea81-9dc1-de9f"
+              }
+            ]
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "420"
+            }
+          },
+          "_import": "true",
+          "_name": "Megaboss on Maw-krusha",
+          "_hidden": "false",
+          "_id": "9174-23b8-81c6-de7f",
+          "_type": "selectionEntry",
+          "_targetId": "8400-417c-251b-860a"
+        },
+        {
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "ace2-1f7b-496a-f170"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditionGroups": {
+                "conditionGroup": {
+                  "conditions": {
+                    "condition": {
+                      "_type": "instanceOf",
+                      "_value": "1",
+                      "_field": "selections",
+                      "_scope": "ancestor",
+                      "_childId": "376a-6b97-8699-dd59",
+                      "_shared": "true"
+                    }
+                  },
+                  "_type": "and"
+                }
+              },
+              "_type": "set",
+              "_value": "true",
+              "_field": "hidden"
+            }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Heroic Traits",
+                "_hidden": "false",
+                "_id": "2f59-97a4-678d-3195",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4455-d9dc-24bf-7d91"
+              },
+              {
+                "_import": "true",
+                "_name": "Artefacts of Power",
+                "_hidden": "false",
+                "_id": "d87-d2c5-4756-f21c",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b1c-ea81-9dc1-de9f"
+              }
+            ]
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "300"
+            }
+          },
+          "_import": "true",
+          "_name": "Tuskboss on Maw-grunta",
+          "_hidden": "false",
+          "_id": "e7d0-8e7c-8936-3e88",
+          "_type": "selectionEntry",
+          "_targetId": "3520-fc6a-d4fc-1c1f"
+        },
+        {
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "11ad-c01b-f0d6-d66e"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditionGroups": {
+                "conditionGroup": {
+                  "conditions": {
+                    "condition": {
+                      "_type": "instanceOf",
+                      "_value": "1",
+                      "_field": "selections",
+                      "_scope": "ancestor",
+                      "_childId": "376a-6b97-8699-dd59",
+                      "_shared": "true"
+                    }
+                  },
+                  "_type": "and"
+                }
+              },
+              "_type": "set",
+              "_value": "true",
+              "_field": "hidden"
+            }
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "210"
+            }
+          },
+          "_import": "true",
+          "_name": "Zoggrok Anvilsmasha",
+          "_hidden": "false",
+          "_id": "e77d-afde-3f50-2316",
+          "_type": "selectionEntry",
+          "_targetId": "d4c-6af5-1346-a8ab"
+        },
+        {
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "9634-48e8-ad54-67ca"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditionGroups": {
+                "conditionGroup": {
+                  "conditions": {
+                    "condition": {
+                      "_type": "instanceOf",
+                      "_value": "1",
+                      "_field": "selections",
+                      "_scope": "ancestor",
+                      "_childId": "376a-6b97-8699-dd59",
+                      "_shared": "true"
+                    }
+                  },
+                  "_type": "and"
+                }
+              },
+              "_type": "set",
+              "_value": "true",
+              "_field": "hidden"
+            }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Heroic Traits",
+                "_hidden": "false",
+                "_id": "a03-9865-a6fa-b7fc",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4455-d9dc-24bf-7d91"
+              },
+              {
+                "_import": "true",
+                "_name": "Artefacts of Power",
+                "_hidden": "false",
+                "_id": "7f93-34ea-54c0-3d2",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b1c-ea81-9dc1-de9f"
+              }
+            ]
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "130"
+            }
+          },
+          "_import": "true",
+          "_name": "Weirdnob Shaman",
+          "_hidden": "false",
+          "_id": "9c83-9563-9a4a-f9df",
+          "_type": "selectionEntry",
+          "_targetId": "e824-4e07-12f6-309c"
+        },
+        {
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "c44d-d8bc-dddb-21a6"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditionGroups": {
+                "conditionGroup": {
+                  "conditions": {
+                    "condition": {
+                      "_type": "instanceOf",
+                      "_value": "1",
+                      "_field": "selections",
+                      "_scope": "ancestor",
+                      "_childId": "376a-6b97-8699-dd59",
+                      "_shared": "true"
+                    }
+                  },
+                  "_type": "and"
+                }
+              },
+              "_type": "set",
+              "_value": "true",
+              "_field": "hidden"
+            }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Heroic Traits",
+                "_hidden": "false",
+                "_id": "8be2-6cd3-f4c9-503",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4455-d9dc-24bf-7d91"
+              },
+              {
+                "_import": "true",
+                "_name": "Artefacts of Power",
+                "_hidden": "false",
+                "_id": "1b13-5c39-bda4-bc62",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b1c-ea81-9dc1-de9f"
+              }
+            ]
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "120"
+            }
+          },
+          "_import": "true",
+          "_name": "Warchanter",
+          "_hidden": "false",
+          "_id": "7e95-4316-8e6d-2cd8",
+          "_type": "selectionEntry",
+          "_targetId": "7d89-20b4-7ed4-6ca0"
         },
         {
           "categoryLinks": {
             "categoryLink": {
               "_name": "Regimental Leader",
               "_hidden": "false",
-              "_id": "d11e-8c20-e6b3-1849",
+              "_id": "2394-80c0-2e86-71cc",
+              "_targetId": "d1f3-921c-b403-1106",
+              "_primary": "true"
+            }
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "210"
+            }
+          },
+          "_import": "true",
+          "_name": "Zoggrok Anvilsmasha",
+          "_hidden": "false",
+          "_id": "8627-4cd3-fc78-9e8c",
+          "_type": "selectionEntry",
+          "_targetId": "d4c-6af5-1346-a8ab"
+        },
+        {
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Regimental Leader",
+              "_hidden": "false",
+              "_id": "cc5a-ed9f-d314-74c",
+              "_targetId": "d1f3-921c-b403-1106",
+              "_primary": "true"
+            }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Heroic Traits",
+                "_hidden": "false",
+                "_id": "f828-12f4-7e59-9e50",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4455-d9dc-24bf-7d91"
+              },
+              {
+                "_import": "true",
+                "_name": "Artefacts of Power",
+                "_hidden": "false",
+                "_id": "a906-82d2-e5b6-7fda",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b1c-ea81-9dc1-de9f"
+              }
+            ]
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "130"
+            }
+          },
+          "_import": "true",
+          "_name": "Ardboy Big Boss",
+          "_hidden": "false",
+          "_id": "ba04-3602-ef65-10a5",
+          "_type": "selectionEntry",
+          "_targetId": "e020-20c4-a638-6d2b"
+        },
+        {
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Regimental Leader",
+              "_hidden": "false",
+              "_id": "ded5-d968-4196-ec3f",
+              "_targetId": "d1f3-921c-b403-1106",
+              "_primary": "true"
+            }
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "450"
+            }
+          },
+          "_import": "true",
+          "_name": "Gordrakk, the Fist of Gork",
+          "_hidden": "false",
+          "_id": "70cd-5229-7b3f-94cb",
+          "_type": "selectionEntry",
+          "_targetId": "b8a1-7664-687e-c0d9"
+        },
+        {
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Regimental Leader",
+              "_hidden": "false",
+              "_id": "9473-ea0b-f26f-389",
               "_targetId": "d1f3-921c-b403-1106",
               "_primary": "true"
             }
@@ -1714,88 +1605,169 @@
             }
           },
           "_import": "true",
-          "_name": "Alarielle the Everqueen",
+          "_name": "Kragnos, the End of Empires",
           "_hidden": "false",
-          "_id": "959d-ffda-a3a5-db6a",
+          "_id": "6343-e28f-bef2-a199",
           "_type": "selectionEntry",
-          "_targetId": "efc2-ef9b-4eee-a341"
+          "_targetId": "2a45-46b2-62f9-63cc"
         },
         {
-          "costs": {
-            "cost": {
-              "_name": "pts",
-              "_typeId": "points",
-              "_value": "170"
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Regimental Leader",
+              "_hidden": "false",
+              "_id": "dce6-6c2c-9d25-a8ea",
+              "_targetId": "d1f3-921c-b403-1106",
+              "_primary": "true"
             }
           },
           "entryLinks": {
             "entryLink": [{
                 "_import": "true",
-                "_name": "Artefacts of Power",
+                "_name": "Heroic Traits",
                 "_hidden": "false",
-                "_id": "7b32-a5c2-5631-b1bf",
+                "_id": "54e3-a743-a427-ecce",
                 "_type": "selectionEntryGroup",
-                "_targetId": "4994-cf8a-db5d-b87d"
+                "_targetId": "4455-d9dc-24bf-7d91"
               },
               {
                 "_import": "true",
-                "_name": "Heroic Traits",
+                "_name": "Artefacts of Power",
                 "_hidden": "false",
-                "_id": "8c52-3115-5641-7983",
+                "_id": "dc45-940f-4711-ef50",
                 "_type": "selectionEntryGroup",
-                "_targetId": "ccba-5033-fe11-a2a"
+                "_targetId": "4b1c-ea81-9dc1-de9f"
               }
             ]
-          },
-          "categoryLinks": {
-            "categoryLink": {
-              "_name": "Regimental Leader",
-              "_hidden": "false",
-              "_id": "0a95-1739-513c-01ee",
-              "_targetId": "d1f3-921c-b403-1106",
-              "_primary": "true"
-            }
-          },
-          "_import": "true",
-          "_name": "Arch-Revenant",
-          "_hidden": "false",
-          "_id": "1baa-e7d7-61a1-95f3",
-          "_type": "selectionEntry",
-          "_targetId": "c21d-479c-e8ef-b406"
-        },
-        {
-          "categoryLinks": {
-            "categoryLink": {
-              "_name": "Regimental Leader",
-              "_hidden": "false",
-              "_id": "72a5-161-774f-ad37",
-              "_targetId": "d1f3-921c-b403-1106",
-              "_primary": "true"
-            }
           },
           "costs": {
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "330"
+              "_value": "230"
             }
           },
           "_import": "true",
-          "_name": "Belthanos, First Thorn of Kurnoth",
+          "_name": "Megaboss",
           "_hidden": "false",
-          "_id": "b7d-ad95-6f95-638c",
+          "_id": "4079-fb73-a4d7-7b0d",
           "_type": "selectionEntry",
-          "_targetId": "f6f4-66ce-c346-42ed"
+          "_targetId": "4e07-f63a-6315-b48b"
         },
         {
           "categoryLinks": {
             "categoryLink": {
               "_name": "Regimental Leader",
               "_hidden": "false",
-              "_id": "1377-34dc-70ab-cce1",
+              "_id": "8873-d2f1-3bff-b839",
               "_targetId": "d1f3-921c-b403-1106",
               "_primary": "true"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Heroic Traits",
+                "_hidden": "false",
+                "_id": "bf78-a193-b766-f7d8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4455-d9dc-24bf-7d91"
+              },
+              {
+                "_import": "true",
+                "_name": "Artefacts of Power",
+                "_hidden": "false",
+                "_id": "6849-234c-9717-51bb",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b1c-ea81-9dc1-de9f"
+              }
+            ]
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "420"
+            }
+          },
+          "_import": "true",
+          "_name": "Megaboss on Maw-krusha",
+          "_hidden": "false",
+          "_id": "d3e0-6a4-afe6-46f5",
+          "_type": "selectionEntry",
+          "_targetId": "8400-417c-251b-860a"
+        },
+        {
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Regimental Leader",
+              "_hidden": "false",
+              "_id": "f254-d181-2796-50ec",
+              "_targetId": "d1f3-921c-b403-1106",
+              "_primary": "true"
+            }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Heroic Traits",
+                "_hidden": "false",
+                "_id": "d34b-ad65-efc7-13c8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4455-d9dc-24bf-7d91"
+              },
+              {
+                "_import": "true",
+                "_name": "Artefacts of Power",
+                "_hidden": "false",
+                "_id": "c42b-a2a5-6e6-9a42",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b1c-ea81-9dc1-de9f"
+              }
+            ]
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "300"
+            }
+          },
+          "_import": "true",
+          "_name": "Tuskboss on Maw-grunta",
+          "_hidden": "false",
+          "_id": "9c72-2d1d-778a-27d6",
+          "_type": "selectionEntry",
+          "_targetId": "3520-fc6a-d4fc-1c1f"
+        },
+        {
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Regimental Leader",
+              "_hidden": "false",
+              "_id": "f611-2f60-400-b31b",
+              "_targetId": "d1f3-921c-b403-1106",
+              "_primary": "true"
+            }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Heroic Traits",
+                "_hidden": "false",
+                "_id": "3394-8aab-b0be-4b2e",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4455-d9dc-24bf-7d91"
+              },
+              {
+                "_import": "true",
+                "_name": "Artefacts of Power",
+                "_hidden": "false",
+                "_id": "1247-9c85-e039-2d82",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b1c-ea81-9dc1-de9f"
+              }
+            ]
           },
           "costs": {
             "cost": {
@@ -1804,251 +1776,55 @@
               "_value": "120"
             }
           },
-          "entryLinks": {
-            "entryLink": [{
-                "_import": "true",
-                "_name": "Artefacts of Power",
-                "_hidden": "false",
-                "_id": "a08a-ef9c-b0a8-3037",
-                "_type": "selectionEntryGroup",
-                "_targetId": "4994-cf8a-db5d-b87d"
-              },
-              {
-                "_import": "true",
-                "_name": "Heroic Traits",
-                "_hidden": "false",
-                "_id": "16b4-3d3d-3257-2375",
-                "_type": "selectionEntryGroup",
-                "_targetId": "ccba-5033-fe11-a2a"
-              }
-            ]
-          },
           "_import": "true",
-          "_name": "Branchwych",
+          "_name": "Warchanter",
           "_hidden": "false",
-          "_id": "c5f2-a53c-5c0c-736e",
+          "_id": "3076-d691-5aa5-3d56",
           "_type": "selectionEntry",
-          "_targetId": "e410-e36e-9cea-2482"
+          "_targetId": "7d89-20b4-7ed4-6ca0"
         },
         {
           "categoryLinks": {
             "categoryLink": {
               "_name": "Regimental Leader",
               "_hidden": "false",
-              "_id": "efa8-c0ef-3bd8-13d5",
+              "_id": "4ab-2fb-bb9c-3a53",
               "_targetId": "d1f3-921c-b403-1106",
               "_primary": "true"
-            }
-          },
-          "costs": {
-            "cost": {
-              "_name": "pts",
-              "_typeId": "points",
-              "_value": "310"
-            }
-          },
-          "_import": "true",
-          "_name": "Drycha Hamadreth",
-          "_hidden": "false",
-          "_id": "2ed4-4df2-66bd-ac07",
-          "_type": "selectionEntry",
-          "_targetId": "b3b6-f91d-754d-af73"
-        },
-        {
-          "categoryLinks": {
-            "categoryLink": {
-              "_name": "Regimental Leader",
-              "_hidden": "false",
-              "_id": "475c-7a45-91d2-871b",
-              "_targetId": "d1f3-921c-b403-1106",
-              "_primary": "true"
-            }
-          },
-          "costs": {
-            "cost": {
-              "_name": "pts",
-              "_typeId": "points",
-              "_value": "330"
             }
           },
           "entryLinks": {
             "entryLink": [{
                 "_import": "true",
-                "_name": "Artefacts of Power",
+                "_name": "Heroic Traits",
                 "_hidden": "false",
-                "_id": "a9de-44e4-2610-d910",
+                "_id": "ccd2-ff90-dd59-c038",
                 "_type": "selectionEntryGroup",
-                "_targetId": "4994-cf8a-db5d-b87d"
+                "_targetId": "4455-d9dc-24bf-7d91"
               },
               {
                 "_import": "true",
-                "_name": "Heroic Traits",
+                "_name": "Artefacts of Power",
                 "_hidden": "false",
-                "_id": "4e92-379c-3cd9-a56a",
+                "_id": "7c5a-2d9b-c01b-7aff",
                 "_type": "selectionEntryGroup",
-                "_targetId": "ccba-5033-fe11-a2a"
+                "_targetId": "4b1c-ea81-9dc1-de9f"
               }
             ]
-          },
-          "_import": "true",
-          "_name": "Spirit of Durthu",
-          "_hidden": "false",
-          "_id": "1ba3-5bf-df0-e4ae",
-          "_type": "selectionEntry",
-          "_targetId": "f163-eaf6-2b5b-1cd3"
-        },
-        {
-          "categoryLinks": {
-            "categoryLink": {
-              "_name": "Regimental Leader",
-              "_hidden": "false",
-              "_id": "830c-62b7-9bf4-25c1",
-              "_targetId": "d1f3-921c-b403-1106",
-              "_primary": "true"
-            }
           },
           "costs": {
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "280"
+              "_value": "130"
             }
           },
           "_import": "true",
-          "_name": "The Lady of Vines",
+          "_name": "Weirdnob Shaman",
           "_hidden": "false",
-          "_id": "8eb8-a788-e726-2be0",
+          "_id": "da11-fae6-a09f-d32c",
           "_type": "selectionEntry",
-          "_targetId": "72e5-d623-ac8c-14a1"
-        },
-        {
-          "categoryLinks": {
-            "categoryLink": {
-              "_name": "Regimental Leader",
-              "_hidden": "false",
-              "_id": "20d2-af3d-dd14-2081",
-              "_targetId": "d1f3-921c-b403-1106",
-              "_primary": "true"
-            }
-          },
-          "costs": {
-            "cost": {
-              "_name": "pts",
-              "_typeId": "points",
-              "_value": "260"
-            }
-          },
-          "entryLinks": {
-            "entryLink": [{
-                "_import": "true",
-                "_name": "Artefacts of Power",
-                "_hidden": "false",
-                "_id": "911f-574a-ad47-c1b",
-                "_type": "selectionEntryGroup",
-                "_targetId": "4994-cf8a-db5d-b87d"
-              },
-              {
-                "_import": "true",
-                "_name": "Heroic Traits",
-                "_hidden": "false",
-                "_id": "ca28-b4e6-4d67-c80c",
-                "_type": "selectionEntryGroup",
-                "_targetId": "ccba-5033-fe11-a2a"
-              }
-            ]
-          },
-          "_import": "true",
-          "_name": "Treelord",
-          "_hidden": "false",
-          "_id": "a53e-d251-9986-28ac",
-          "_type": "selectionEntry",
-          "_targetId": "a896-d266-a881-f920"
-        },
-        {
-          "categoryLinks": {
-            "categoryLink": {
-              "_name": "Regimental Leader",
-              "_hidden": "false",
-              "_id": "a15a-583b-8fd8-d393",
-              "_targetId": "d1f3-921c-b403-1106",
-              "_primary": "true"
-            }
-          },
-          "costs": {
-            "cost": {
-              "_name": "pts",
-              "_typeId": "points",
-              "_value": "320"
-            }
-          },
-          "entryLinks": {
-            "entryLink": [{
-                "_import": "true",
-                "_name": "Artefacts of Power",
-                "_hidden": "false",
-                "_id": "bac6-290c-4341-1053",
-                "_type": "selectionEntryGroup",
-                "_targetId": "4994-cf8a-db5d-b87d"
-              },
-              {
-                "_import": "true",
-                "_name": "Heroic Traits",
-                "_hidden": "false",
-                "_id": "47f1-ef8b-83af-ba71",
-                "_type": "selectionEntryGroup",
-                "_targetId": "ccba-5033-fe11-a2a"
-              }
-            ]
-          },
-          "_import": "true",
-          "_name": "Treelord Ancient",
-          "_hidden": "false",
-          "_id": "21f4-fbfa-6e85-1c5b",
-          "_type": "selectionEntry",
-          "_targetId": "678-a231-5f4c-4d7c"
-        },
-        {
-          "categoryLinks": {
-            "categoryLink": {
-              "_name": "Regimental Leader",
-              "_hidden": "false",
-              "_id": "acb9-1715-c089-a23d",
-              "_targetId": "d1f3-921c-b403-1106",
-              "_primary": "true"
-            }
-          },
-          "costs": {
-            "cost": {
-              "_name": "pts",
-              "_typeId": "points",
-              "_value": "210"
-            }
-          },
-          "entryLinks": {
-            "entryLink": [{
-                "_import": "true",
-                "_name": "Artefacts of Power",
-                "_hidden": "false",
-                "_id": "4aa6-a8cb-8f87-74c9",
-                "_type": "selectionEntryGroup",
-                "_targetId": "4994-cf8a-db5d-b87d"
-              },
-              {
-                "_import": "true",
-                "_name": "Heroic Traits",
-                "_hidden": "false",
-                "_id": "2e08-ae5b-f50f-971",
-                "_type": "selectionEntryGroup",
-                "_targetId": "ccba-5033-fe11-a2a"
-              }
-            ]
-          },
-          "_import": "true",
-          "_name": "Warsong Revenant",
-          "_hidden": "false",
-          "_id": "3028-82cb-fce4-4cf9",
-          "_type": "selectionEntry",
-          "_targetId": "438e-768a-7545-d329"
+          "_targetId": "e824-4e07-12f6-309c"
         },
         {
           "constraints": {
@@ -2058,16 +1834,16 @@
               "_field": "selections",
               "_scope": "roster",
               "_shared": "true",
-              "_id": "2224-e0c3-2c1e-3bd0",
+              "_id": "c6d3-9d07-a7d5-7a78",
               "_includeChildSelections": "true"
             }
           },
           "_import": "true",
-          "_name": "Battle Traits: Sylvaneth",
+          "_name": "Battle Traits: Ironjawz",
           "_hidden": "false",
-          "_id": "3e25-8f0a-9dea-1954",
+          "_id": "827-e827-4f40-c1ce",
           "_type": "selectionEntry",
-          "_targetId": "583a-37b4-52b2-9058"
+          "_targetId": "d8ca-c367-a211-97b3"
         },
         {
           "entryLinks": {
@@ -2075,7 +1851,7 @@
               "_import": "true",
               "_name": "Reinforced",
               "_hidden": "false",
-              "_id": "e4bd-91d1-e33b-f490",
+              "_id": "7bb1-d81d-6877-f0b7",
               "_type": "selectionEntry",
               "_targetId": "1b37-82b8-c062-eb82"
             }
@@ -2092,7 +1868,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "959d-ffda-a3a5-db6a",
+                              "_childId": "ba04-3602-ef65-10a5",
                               "_shared": "true"
                             },
                             {
@@ -2100,7 +1876,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "b7d-ad95-6f95-638c",
+                              "_childId": "70cd-5229-7b3f-94cb",
                               "_shared": "true"
                             },
                             {
@@ -2108,7 +1884,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "c5f2-a53c-5c0c-736e",
+                              "_childId": "6343-e28f-bef2-a199",
                               "_shared": "true"
                             },
                             {
@@ -2116,7 +1892,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "2ed4-4df2-66bd-ac07",
+                              "_childId": "4079-fb73-a4d7-7b0d",
                               "_shared": "true"
                             },
                             {
@@ -2124,7 +1900,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "1ba3-5bf-df0-e4ae",
+                              "_childId": "d3e0-6a4-afe6-46f5",
                               "_shared": "true"
                             },
                             {
@@ -2132,7 +1908,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "8eb8-a788-e726-2be0",
+                              "_childId": "3076-d691-5aa5-3d56",
                               "_shared": "true"
                             },
                             {
@@ -2140,7 +1916,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "a53e-d251-9986-28ac",
+                              "_childId": "da11-fae6-a09f-d32c",
                               "_shared": "true"
                             },
                             {
@@ -2148,15 +1924,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "21f4-fbfa-6e85-1c5b",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "3028-82cb-fce4-4cf9",
+                              "_childId": "8627-4cd3-fc78-9e8c",
                               "_shared": "true"
                             }
                           ]
@@ -2202,15 +1970,15 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "180"
             }
           },
           "_import": "true",
-          "_name": "Dryads",
+          "_name": "Ardboyz",
           "_hidden": "false",
-          "_id": "4573-37fd-3918-7419",
+          "_id": "7355-7efd-73c7-8cd7",
           "_type": "selectionEntry",
-          "_targetId": "ccce-ab0c-7c1-bbc2"
+          "_targetId": "f757-3f6b-a13a-546a"
         },
         {
           "entryLinks": {
@@ -2218,7 +1986,7 @@
               "_import": "true",
               "_name": "Reinforced",
               "_hidden": "false",
-              "_id": "bdb0-f5dd-c0bf-bfc3",
+              "_id": "4d59-faf-6f72-e837",
               "_type": "selectionEntry",
               "_targetId": "1b37-82b8-c062-eb82"
             }
@@ -2235,7 +2003,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "959d-ffda-a3a5-db6a",
+                              "_childId": "ba04-3602-ef65-10a5",
                               "_shared": "true"
                             },
                             {
@@ -2243,7 +2011,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "1baa-e7d7-61a1-95f3",
+                              "_childId": "70cd-5229-7b3f-94cb",
                               "_shared": "true"
                             },
                             {
@@ -2251,7 +2019,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "b7d-ad95-6f95-638c",
+                              "_childId": "6343-e28f-bef2-a199",
                               "_shared": "true"
                             },
                             {
@@ -2259,7 +2027,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "c5f2-a53c-5c0c-736e",
+                              "_childId": "4079-fb73-a4d7-7b0d",
                               "_shared": "true"
                             },
                             {
@@ -2267,7 +2035,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "2ed4-4df2-66bd-ac07",
+                              "_childId": "d3e0-6a4-afe6-46f5",
                               "_shared": "true"
                             },
                             {
@@ -2275,7 +2043,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "1ba3-5bf-df0-e4ae",
+                              "_childId": "3076-d691-5aa5-3d56",
                               "_shared": "true"
                             },
                             {
@@ -2283,7 +2051,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "8eb8-a788-e726-2be0",
+                              "_childId": "da11-fae6-a09f-d32c",
                               "_shared": "true"
                             },
                             {
@@ -2291,23 +2059,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "a53e-d251-9986-28ac",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "21f4-fbfa-6e85-1c5b",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "3028-82cb-fce4-4cf9",
+                              "_childId": "8627-4cd3-fc78-9e8c",
                               "_shared": "true"
                             }
                           ]
@@ -2353,15 +2105,15 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "140"
             }
           },
           "_import": "true",
-          "_name": "Gossamid Archers",
+          "_name": "Brute Ragerz",
           "_hidden": "false",
-          "_id": "5d21-41ae-45c5-7c8f",
+          "_id": "108c-43b6-997d-a71b",
           "_type": "selectionEntry",
-          "_targetId": "7395-623b-7652-b8c6"
+          "_targetId": "d77b-a0ba-7d99-28d5"
         },
         {
           "entryLinks": {
@@ -2369,7 +2121,7 @@
               "_import": "true",
               "_name": "Reinforced",
               "_hidden": "false",
-              "_id": "f658-e7d1-5d3d-17a6",
+              "_id": "678-8a55-7ab4-95b6",
               "_type": "selectionEntry",
               "_targetId": "1b37-82b8-c062-eb82"
             }
@@ -2386,7 +2138,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "959d-ffda-a3a5-db6a",
+                              "_childId": "ba04-3602-ef65-10a5",
                               "_shared": "true"
                             },
                             {
@@ -2394,7 +2146,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "1baa-e7d7-61a1-95f3",
+                              "_childId": "70cd-5229-7b3f-94cb",
                               "_shared": "true"
                             },
                             {
@@ -2402,7 +2154,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "b7d-ad95-6f95-638c",
+                              "_childId": "6343-e28f-bef2-a199",
                               "_shared": "true"
                             },
                             {
@@ -2410,7 +2162,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "c5f2-a53c-5c0c-736e",
+                              "_childId": "4079-fb73-a4d7-7b0d",
                               "_shared": "true"
                             },
                             {
@@ -2418,7 +2170,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "2ed4-4df2-66bd-ac07",
+                              "_childId": "d3e0-6a4-afe6-46f5",
                               "_shared": "true"
                             },
                             {
@@ -2426,7 +2178,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "1ba3-5bf-df0-e4ae",
+                              "_childId": "3076-d691-5aa5-3d56",
                               "_shared": "true"
                             },
                             {
@@ -2434,7 +2186,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "8eb8-a788-e726-2be0",
+                              "_childId": "da11-fae6-a09f-d32c",
                               "_shared": "true"
                             },
                             {
@@ -2442,23 +2194,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "a53e-d251-9986-28ac",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "21f4-fbfa-6e85-1c5b",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "3028-82cb-fce4-4cf9",
+                              "_childId": "8627-4cd3-fc78-9e8c",
                               "_shared": "true"
                             }
                           ]
@@ -2508,11 +2244,11 @@
             }
           },
           "_import": "true",
-          "_name": "Kurnoth Hunters with Kurnoth Greatbows",
+          "_name": "Brutes",
           "_hidden": "false",
-          "_id": "101-8022-d32c-9d6a",
+          "_id": "12e-804f-876e-1c7",
           "_type": "selectionEntry",
-          "_targetId": "a457-63b8-99fb-b82f"
+          "_targetId": "f330-c2f2-f018-d93b"
         },
         {
           "entryLinks": {
@@ -2520,7 +2256,7 @@
               "_import": "true",
               "_name": "Reinforced",
               "_hidden": "false",
-              "_id": "3155-8559-15f1-f405",
+              "_id": "470f-5239-de74-1d79",
               "_type": "selectionEntry",
               "_targetId": "1b37-82b8-c062-eb82"
             }
@@ -2537,7 +2273,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "959d-ffda-a3a5-db6a",
+                              "_childId": "70cd-5229-7b3f-94cb",
                               "_shared": "true"
                             },
                             {
@@ -2545,7 +2281,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "1baa-e7d7-61a1-95f3",
+                              "_childId": "6343-e28f-bef2-a199",
                               "_shared": "true"
                             },
                             {
@@ -2553,7 +2289,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "b7d-ad95-6f95-638c",
+                              "_childId": "4079-fb73-a4d7-7b0d",
                               "_shared": "true"
                             },
                             {
@@ -2561,7 +2297,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "c5f2-a53c-5c0c-736e",
+                              "_childId": "d3e0-6a4-afe6-46f5",
                               "_shared": "true"
                             },
                             {
@@ -2569,7 +2305,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "2ed4-4df2-66bd-ac07",
+                              "_childId": "9c72-2d1d-778a-27d6",
                               "_shared": "true"
                             },
                             {
@@ -2577,7 +2313,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "1ba3-5bf-df0-e4ae",
+                              "_childId": "3076-d691-5aa5-3d56",
                               "_shared": "true"
                             },
                             {
@@ -2585,7 +2321,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "8eb8-a788-e726-2be0",
+                              "_childId": "da11-fae6-a09f-d32c",
                               "_shared": "true"
                             },
                             {
@@ -2593,7 +2329,76 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "a53e-d251-9986-28ac",
+                              "_childId": "8627-4cd3-fc78-9e8c",
+                              "_shared": "true"
+                            }
+                          ]
+                        },
+                        "_type": "and"
+                      }
+                    },
+                    "conditions": {
+                      "condition": {
+                        "_type": "instanceOf",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "ancestor",
+                        "_childId": "376a-6b97-8699-dd59",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "and"
+                  }
+                },
+                "_type": "set",
+                "_value": "true",
+                "_field": "hidden"
+              },
+              {
+                "conditions": {
+                  "condition": {
+                    "_type": "atLeast",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "self",
+                    "_childId": "1b37-82b8-c062-eb82",
+                    "_shared": "true"
+                  }
+                },
+                "_type": "multiply",
+                "_value": "2",
+                "_field": "points"
+              }
+            ]
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "190"
+            }
+          },
+          "_import": "true",
+          "_name": "Gore-gruntas",
+          "_hidden": "false",
+          "_id": "93db-eaf9-a8a-f813",
+          "_type": "selectionEntry",
+          "_targetId": "f4bd-9f1c-cc46-5b5e"
+        },
+        {
+          "modifiers": {
+            "modifier": [{
+                "conditionGroups": {
+                  "conditionGroup": {
+                    "conditionGroups": {
+                      "conditionGroup": {
+                        "conditions": {
+                          "condition": [{
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "70cd-5229-7b3f-94cb",
                               "_shared": "true"
                             },
                             {
@@ -2601,7 +2406,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "21f4-fbfa-6e85-1c5b",
+                              "_childId": "6343-e28f-bef2-a199",
                               "_shared": "true"
                             },
                             {
@@ -2609,7 +2414,47 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "3028-82cb-fce4-4cf9",
+                              "_childId": "4079-fb73-a4d7-7b0d",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "d3e0-6a4-afe6-46f5",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "9c72-2d1d-778a-27d6",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "3076-d691-5aa5-3d56",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "da11-fae6-a09f-d32c",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "8627-4cd3-fc78-9e8c",
                               "_shared": "true"
                             }
                           ]
@@ -2659,23 +2504,13 @@
             }
           },
           "_import": "true",
-          "_name": "Kurnoth Hunters with Kurnoth Greatswords",
+          "_name": "Maw-grunta Gougers",
           "_hidden": "false",
-          "_id": "d3f7-d5b1-579c-94dc",
+          "_id": "7a13-c98e-7c9b-55b8",
           "_type": "selectionEntry",
-          "_targetId": "7403-c67e-a2d-a1af"
+          "_targetId": "ce75-dedf-3b6f-9a7c"
         },
         {
-          "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "e126-5dce-4c3c-95be",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
-          },
           "modifiers": {
             "modifier": [{
                 "conditionGroups": {
@@ -2688,7 +2523,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "959d-ffda-a3a5-db6a",
+                              "_childId": "70cd-5229-7b3f-94cb",
                               "_shared": "true"
                             },
                             {
@@ -2696,7 +2531,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "1baa-e7d7-61a1-95f3",
+                              "_childId": "6343-e28f-bef2-a199",
                               "_shared": "true"
                             },
                             {
@@ -2704,7 +2539,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "b7d-ad95-6f95-638c",
+                              "_childId": "4079-fb73-a4d7-7b0d",
                               "_shared": "true"
                             },
                             {
@@ -2712,7 +2547,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "c5f2-a53c-5c0c-736e",
+                              "_childId": "d3e0-6a4-afe6-46f5",
                               "_shared": "true"
                             },
                             {
@@ -2720,7 +2555,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "2ed4-4df2-66bd-ac07",
+                              "_childId": "9c72-2d1d-778a-27d6",
                               "_shared": "true"
                             },
                             {
@@ -2728,7 +2563,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "1ba3-5bf-df0-e4ae",
+                              "_childId": "3076-d691-5aa5-3d56",
                               "_shared": "true"
                             },
                             {
@@ -2736,7 +2571,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "8eb8-a788-e726-2be0",
+                              "_childId": "da11-fae6-a09f-d32c",
                               "_shared": "true"
                             },
                             {
@@ -2744,23 +2579,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "a53e-d251-9986-28ac",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "21f4-fbfa-6e85-1c5b",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "3028-82cb-fce4-4cf9",
+                              "_childId": "8627-4cd3-fc78-9e8c",
                               "_shared": "true"
                             }
                           ]
@@ -2806,15 +2625,15 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "200"
+              "_value": "270"
             }
           },
           "_import": "true",
-          "_name": "Kurnoth Hunters with Kurnoth Scythes",
+          "_name": "Maw-grunta with Hakkin' Krew",
           "_hidden": "false",
-          "_id": "88ec-28ce-99da-cbc4",
+          "_id": "3a6f-33e0-8403-b7bb",
           "_type": "selectionEntry",
-          "_targetId": "577a-d471-c08e-6ff4"
+          "_targetId": "2ccb-7f24-4e64-9431"
         },
         {
           "entryLinks": {
@@ -2822,7 +2641,7 @@
               "_import": "true",
               "_name": "Reinforced",
               "_hidden": "false",
-              "_id": "2d44-1d8d-de8e-7a1d",
+              "_id": "ef60-e62d-119f-2659",
               "_type": "selectionEntry",
               "_targetId": "1b37-82b8-c062-eb82"
             }
@@ -2839,7 +2658,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "959d-ffda-a3a5-db6a",
+                              "_childId": "ba04-3602-ef65-10a5",
                               "_shared": "true"
                             },
                             {
@@ -2847,7 +2666,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "1baa-e7d7-61a1-95f3",
+                              "_childId": "70cd-5229-7b3f-94cb",
                               "_shared": "true"
                             },
                             {
@@ -2855,7 +2674,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "b7d-ad95-6f95-638c",
+                              "_childId": "6343-e28f-bef2-a199",
                               "_shared": "true"
                             },
                             {
@@ -2863,7 +2682,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "c5f2-a53c-5c0c-736e",
+                              "_childId": "4079-fb73-a4d7-7b0d",
                               "_shared": "true"
                             },
                             {
@@ -2871,7 +2690,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "2ed4-4df2-66bd-ac07",
+                              "_childId": "d3e0-6a4-afe6-46f5",
                               "_shared": "true"
                             },
                             {
@@ -2879,7 +2698,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "1ba3-5bf-df0-e4ae",
+                              "_childId": "3076-d691-5aa5-3d56",
                               "_shared": "true"
                             },
                             {
@@ -2887,7 +2706,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "8eb8-a788-e726-2be0",
+                              "_childId": "da11-fae6-a09f-d32c",
                               "_shared": "true"
                             },
                             {
@@ -2895,434 +2714,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "a53e-d251-9986-28ac",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "21f4-fbfa-6e85-1c5b",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "3028-82cb-fce4-4cf9",
-                              "_shared": "true"
-                            }
-                          ]
-                        },
-                        "_type": "and"
-                      }
-                    },
-                    "conditions": {
-                      "condition": {
-                        "_type": "instanceOf",
-                        "_value": "1",
-                        "_field": "selections",
-                        "_scope": "ancestor",
-                        "_childId": "376a-6b97-8699-dd59",
-                        "_shared": "true"
-                      }
-                    },
-                    "_type": "and"
-                  }
-                },
-                "_type": "set",
-                "_value": "true",
-                "_field": "hidden"
-              },
-              {
-                "conditions": {
-                  "condition": {
-                    "_type": "atLeast",
-                    "_value": "1",
-                    "_field": "selections",
-                    "_scope": "self",
-                    "_childId": "1b37-82b8-c062-eb82",
-                    "_shared": "true"
-                  }
-                },
-                "_type": "multiply",
-                "_value": "2",
-                "_field": "points"
-              }
-            ]
-          },
-          "costs": {
-            "cost": {
-              "_name": "pts",
-              "_typeId": "points",
-              "_value": "200"
-            }
-          },
-          "_import": "true",
-          "_name": "Revenant Seekers",
-          "_hidden": "false",
-          "_id": "965-51e3-4beb-db4e",
-          "_type": "selectionEntry",
-          "_targetId": "766a-54f1-440b-b878"
-        },
-        {
-          "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "3172-bd0-7df2-f8e6",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
-          },
-          "modifiers": {
-            "modifier": [{
-                "conditionGroups": {
-                  "conditionGroup": {
-                    "conditionGroups": {
-                      "conditionGroup": {
-                        "conditions": {
-                          "condition": [{
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "959d-ffda-a3a5-db6a",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "b7d-ad95-6f95-638c",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "c5f2-a53c-5c0c-736e",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "2ed4-4df2-66bd-ac07",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "1ba3-5bf-df0-e4ae",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "8eb8-a788-e726-2be0",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "a53e-d251-9986-28ac",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "21f4-fbfa-6e85-1c5b",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "3028-82cb-fce4-4cf9",
-                              "_shared": "true"
-                            }
-                          ]
-                        },
-                        "_type": "and"
-                      }
-                    },
-                    "conditions": {
-                      "condition": {
-                        "_type": "instanceOf",
-                        "_value": "1",
-                        "_field": "selections",
-                        "_scope": "ancestor",
-                        "_childId": "376a-6b97-8699-dd59",
-                        "_shared": "true"
-                      }
-                    },
-                    "_type": "and"
-                  }
-                },
-                "_type": "set",
-                "_value": "true",
-                "_field": "hidden"
-              },
-              {
-                "conditions": {
-                  "condition": {
-                    "_type": "atLeast",
-                    "_value": "1",
-                    "_field": "selections",
-                    "_scope": "self",
-                    "_childId": "1b37-82b8-c062-eb82",
-                    "_shared": "true"
-                  }
-                },
-                "_type": "multiply",
-                "_value": "2",
-                "_field": "points"
-              }
-            ]
-          },
-          "costs": {
-            "cost": {
-              "_name": "pts",
-              "_typeId": "points",
-              "_value": "110"
-            }
-          },
-          "_import": "true",
-          "_name": "Spite-Revenants",
-          "_hidden": "false",
-          "_id": "13a0-2bd-f750-feb8",
-          "_type": "selectionEntry",
-          "_targetId": "bede-574b-208d-f486"
-        },
-        {
-          "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "cbc8-3e7c-abf9-5d4c",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
-          },
-          "modifiers": {
-            "modifier": [{
-                "conditionGroups": {
-                  "conditionGroup": {
-                    "conditionGroups": {
-                      "conditionGroup": {
-                        "conditions": {
-                          "condition": [{
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "959d-ffda-a3a5-db6a",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "b7d-ad95-6f95-638c",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "2ed4-4df2-66bd-ac07",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "1ba3-5bf-df0-e4ae",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "8eb8-a788-e726-2be0",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "a53e-d251-9986-28ac",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "21f4-fbfa-6e85-1c5b",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "3028-82cb-fce4-4cf9",
-                              "_shared": "true"
-                            }
-                          ]
-                        },
-                        "_type": "and"
-                      }
-                    },
-                    "conditions": {
-                      "condition": {
-                        "_type": "instanceOf",
-                        "_value": "1",
-                        "_field": "selections",
-                        "_scope": "ancestor",
-                        "_childId": "376a-6b97-8699-dd59",
-                        "_shared": "true"
-                      }
-                    },
-                    "_type": "and"
-                  }
-                },
-                "_type": "set",
-                "_value": "true",
-                "_field": "hidden"
-              },
-              {
-                "conditions": {
-                  "condition": {
-                    "_type": "atLeast",
-                    "_value": "1",
-                    "_field": "selections",
-                    "_scope": "self",
-                    "_childId": "1b37-82b8-c062-eb82",
-                    "_shared": "true"
-                  }
-                },
-                "_type": "multiply",
-                "_value": "2",
-                "_field": "points"
-              }
-            ]
-          },
-          "costs": {
-            "cost": {
-              "_name": "pts",
-              "_typeId": "points",
-              "_value": "210"
-            }
-          },
-          "_import": "true",
-          "_name": "Spiterider Lancers",
-          "_hidden": "false",
-          "_id": "95bf-7814-c6f0-e91a",
-          "_type": "selectionEntry",
-          "_targetId": "8d4f-cdc2-f74f-daac"
-        },
-        {
-          "modifiers": {
-            "modifier": [{
-                "conditionGroups": {
-                  "conditionGroup": {
-                    "conditionGroups": {
-                      "conditionGroup": {
-                        "conditions": {
-                          "condition": [{
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "959d-ffda-a3a5-db6a",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "b7d-ad95-6f95-638c",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "c5f2-a53c-5c0c-736e",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "2ed4-4df2-66bd-ac07",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "1ba3-5bf-df0-e4ae",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "8eb8-a788-e726-2be0",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "a53e-d251-9986-28ac",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "21f4-fbfa-6e85-1c5b",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "3028-82cb-fce4-4cf9",
+                              "_childId": "8627-4cd3-fc78-9e8c",
                               "_shared": "true"
                             }
                           ]
@@ -3372,25 +2764,30 @@
             }
           },
           "_import": "true",
-          "_name": "The Twistweald",
+          "_name": "Weirdbrute Wrekkaz",
           "_hidden": "false",
-          "_id": "686d-2413-5026-1343",
+          "_id": "2a2b-92f0-4d54-1749",
           "_type": "selectionEntry",
-          "_targetId": "64d1-d8c8-5bff-506c"
+          "_targetId": "c08c-f42b-30bb-ccd"
         },
         {
-          "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "28fd-f2f7-9d61-c51f",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
-          },
           "modifiers": {
             "modifier": [{
+                "conditions": {
+                  "condition": {
+                    "_type": "atLeast",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "self",
+                    "_childId": "1b37-82b8-c062-eb82",
+                    "_shared": "true"
+                  }
+                },
+                "_type": "multiply",
+                "_value": "2",
+                "_field": "points"
+              },
+              {
                 "conditionGroups": {
                   "conditionGroup": {
                     "conditionGroups": {
@@ -3401,7 +2798,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "959d-ffda-a3a5-db6a",
+                              "_childId": "ba04-3602-ef65-10a5",
                               "_shared": "true"
                             },
                             {
@@ -3409,7 +2806,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "b7d-ad95-6f95-638c",
+                              "_childId": "70cd-5229-7b3f-94cb",
                               "_shared": "true"
                             },
                             {
@@ -3417,7 +2814,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "c5f2-a53c-5c0c-736e",
+                              "_childId": "6343-e28f-bef2-a199",
                               "_shared": "true"
                             },
                             {
@@ -3425,7 +2822,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "2ed4-4df2-66bd-ac07",
+                              "_childId": "4079-fb73-a4d7-7b0d",
                               "_shared": "true"
                             },
                             {
@@ -3433,7 +2830,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "1ba3-5bf-df0-e4ae",
+                              "_childId": "d3e0-6a4-afe6-46f5",
                               "_shared": "true"
                             },
                             {
@@ -3441,7 +2838,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "8eb8-a788-e726-2be0",
+                              "_childId": "3076-d691-5aa5-3d56",
                               "_shared": "true"
                             },
                             {
@@ -3449,7 +2846,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "a53e-d251-9986-28ac",
+                              "_childId": "da11-fae6-a09f-d32c",
                               "_shared": "true"
                             },
                             {
@@ -3457,15 +2854,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "21f4-fbfa-6e85-1c5b",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "3028-82cb-fce4-4cf9",
+                              "_childId": "8627-4cd3-fc78-9e8c",
                               "_shared": "true"
                             }
                           ]
@@ -3489,21 +2878,6 @@
                 "_type": "set",
                 "_value": "true",
                 "_field": "hidden"
-              },
-              {
-                "conditions": {
-                  "condition": {
-                    "_type": "atLeast",
-                    "_value": "1",
-                    "_field": "selections",
-                    "_scope": "self",
-                    "_childId": "1b37-82b8-c062-eb82",
-                    "_shared": "true"
-                  }
-                },
-                "_type": "multiply",
-                "_value": "2",
-                "_field": "points"
               }
             ]
           },
@@ -3515,11 +2889,11 @@
             }
           },
           "_import": "true",
-          "_name": "Tree-Revenants",
+          "_name": "Ironskull's Boyz",
           "_hidden": "false",
-          "_id": "c39-46c9-4f97-771",
+          "_id": "3319-d9fe-e5ff-04eb",
           "_type": "selectionEntry",
-          "_targetId": "d0bc-bdf6-3a68-4aa9"
+          "_targetId": "fd56-6594-4cd4-c765"
         },
         {
           "modifiers": {
@@ -3549,7 +2923,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "959d-ffda-a3a5-db6a",
+                              "_childId": "ba04-3602-ef65-10a5",
                               "_shared": "true"
                             },
                             {
@@ -3557,7 +2931,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "1baa-e7d7-61a1-95f3",
+                              "_childId": "70cd-5229-7b3f-94cb",
                               "_shared": "true"
                             },
                             {
@@ -3565,7 +2939,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "b7d-ad95-6f95-638c",
+                              "_childId": "6343-e28f-bef2-a199",
                               "_shared": "true"
                             },
                             {
@@ -3573,7 +2947,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "c5f2-a53c-5c0c-736e",
+                              "_childId": "4079-fb73-a4d7-7b0d",
                               "_shared": "true"
                             },
                             {
@@ -3581,7 +2955,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "2ed4-4df2-66bd-ac07",
+                              "_childId": "d3e0-6a4-afe6-46f5",
                               "_shared": "true"
                             },
                             {
@@ -3589,7 +2963,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "1ba3-5bf-df0-e4ae",
+                              "_childId": "3076-d691-5aa5-3d56",
                               "_shared": "true"
                             },
                             {
@@ -3597,7 +2971,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "8eb8-a788-e726-2be0",
+                              "_childId": "da11-fae6-a09f-d32c",
                               "_shared": "true"
                             },
                             {
@@ -3605,23 +2979,7 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "a53e-d251-9986-28ac",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "21f4-fbfa-6e85-1c5b",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "3028-82cb-fce4-4cf9",
+                              "_childId": "8627-4cd3-fc78-9e8c",
                               "_shared": "true"
                             }
                           ]
@@ -3652,163 +3010,22 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "90"
+              "_value": "110"
             }
           },
           "_import": "true",
-          "_name": "Skaeth's Wind Hunt",
+          "_name": "Morgok's Krushas",
           "_hidden": "false",
-          "_id": "0bf8-95c1-4ab4-94ff",
+          "_id": "a30c-ee36-5665-b6c4",
           "_type": "selectionEntry",
-          "_targetId": "c0d2-82ed-9fc0-3deb"
-        },
-        {
-          "modifiers": {
-            "modifier": [{
-                "conditions": {
-                  "condition": {
-                    "_type": "atLeast",
-                    "_value": "1",
-                    "_field": "selections",
-                    "_scope": "self",
-                    "_childId": "1b37-82b8-c062-eb82",
-                    "_shared": "true"
-                  }
-                },
-                "_type": "multiply",
-                "_value": "2",
-                "_field": "points"
-              },
-              {
-                "conditionGroups": {
-                  "conditionGroup": {
-                    "conditionGroups": {
-                      "conditionGroup": {
-                        "conditions": {
-                          "condition": [{
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "959d-ffda-a3a5-db6a",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "b7d-ad95-6f95-638c",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "c5f2-a53c-5c0c-736e",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "2ed4-4df2-66bd-ac07",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "1ba3-5bf-df0-e4ae",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "8eb8-a788-e726-2be0",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "a53e-d251-9986-28ac",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "21f4-fbfa-6e85-1c5b",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "3028-82cb-fce4-4cf9",
-                              "_shared": "true"
-                            }
-                          ]
-                        },
-                        "_type": "and"
-                      }
-                    },
-                    "conditions": {
-                      "condition": {
-                        "_type": "instanceOf",
-                        "_value": "1",
-                        "_field": "selections",
-                        "_scope": "ancestor",
-                        "_childId": "376a-6b97-8699-dd59",
-                        "_shared": "true"
-                      }
-                    },
-                    "_type": "and"
-                  }
-                },
-                "_type": "set",
-                "_value": "true",
-                "_field": "hidden"
-              }
-            ]
-          },
-          "costs": {
-            "cost": {
-              "_name": "pts",
-              "_typeId": "points",
-              "_value": "140"
-            }
-          },
-          "_import": "true",
-          "_name": "Ylthari's Guardians",
-          "_hidden": "false",
-          "_id": "b390-d2d7-f68e-dc3b",
-          "_type": "selectionEntry",
-          "_targetId": "57ce-ad2e-d412-37f5"
-        },
-        {
-          "_import": "true",
-          "_name": "Awakened Wyldwood",
-          "_hidden": "false",
-          "_id": "c9f6-0d99-3839-3a5b",
-          "_type": "selectionEntry",
-          "_targetId": "cda9-53e5-99de-f836"
+          "_targetId": "5e0d-b8d1-f5e7-f1df"
         }
       ]
     },
     "categoryEntries": {
       "categoryEntry": {
-        "_name": "Forest Sentinel",
-        "_id": "a00d-5f4a-9e65-a4d3",
+        "_name": "Headstompa",
+        "_id": "9e01-f4e1-28d8-eae4",
         "_hidden": "false"
       }
     },
@@ -3817,11 +3034,11 @@
           "entryLinks": {
             "entryLink": {
               "_import": "true",
-              "_name": "Battle Formations: Sylvaneth",
+              "_name": "Battle Formations: Ironjawz",
               "_hidden": "false",
-              "_id": "1a82-e66a-835f-46cf",
+              "_id": "a9f8-aa4d-9eed-316a",
               "_type": "selectionEntryGroup",
-              "_targetId": "3167-3a8b-117a-f589",
+              "_targetId": "a329-a5f1-b106-7917",
               "_collective": "false",
               "_flatten": "true"
             }
@@ -3833,7 +3050,7 @@
               "_field": "selections",
               "_scope": "roster",
               "_shared": "true",
-              "_id": "8931-7c55-509-f216",
+              "_id": "443d-bf5f-a5da-6578",
               "_includeChildSelections": "true",
               "_includeChildForces": "true"
             }
@@ -3842,7 +3059,7 @@
             "categoryLink": {
               "_name": "Army Composition",
               "_hidden": "false",
-              "_id": "555a-4a97-e52c-91c6",
+              "_id": "bdad-5fe9-afd1-6990",
               "_targetId": "ac97-b27c-7e35-7ab9",
               "_primary": "true"
             }
@@ -3851,30 +3068,20 @@
           "_import": "true",
           "_name": "Battle Formation",
           "_hidden": "false",
-          "_id": "f082-adcf-384b-f85d",
+          "_id": "1218-968b-bd6e-351e",
           "_defaultAmount": "1"
         },
         {
           "entryLinks": {
-            "entryLink": [{
-                "_import": "true",
-                "_name": "Manifestation Lores",
-                "_hidden": "false",
-                "_id": "fb6e-b143-bf2f-cc38",
-                "_type": "selectionEntryGroup",
-                "_targetId": "748f-5d65-2d45-95c5",
-                "_flatten": "true"
-              },
-              {
-                "_import": "true",
-                "_name": "Manifestation Lores",
-                "_hidden": "false",
-                "_id": "f06c-c563-5570-32a5",
-                "_type": "selectionEntryGroup",
-                "_targetId": "2d93-f507-a1f3-535f",
-                "_flatten": "true"
-              }
-            ]
+            "entryLink": {
+              "_import": "true",
+              "_name": "Manifestation Lores",
+              "_hidden": "false",
+              "_id": "26b8-4347-4108-2a75",
+              "_type": "selectionEntryGroup",
+              "_targetId": "748f-5d65-2d45-95c5",
+              "_flatten": "true"
+            }
           },
           "constraints": {
             "constraint": [{
@@ -3883,7 +3090,7 @@
                 "_field": "selections",
                 "_scope": "roster",
                 "_shared": "true",
-                "_id": "20f1-da71-f6b0-c25f"
+                "_id": "d342-4e62-b1e8-8662"
               },
               {
                 "_type": "max",
@@ -3891,7 +3098,7 @@
                 "_field": "selections",
                 "_scope": "self",
                 "_shared": "true",
-                "_id": "6125-359f-23e2-0be2"
+                "_id": "effb-eb53-d57e-ced3"
               }
             ]
           },
@@ -3899,7 +3106,7 @@
             "categoryLink": {
               "_name": "Army Composition",
               "_hidden": "false",
-              "_id": "d6d9-8349-a3ef-26a5",
+              "_id": "7c15-d3c6-7b79-f777",
               "_targetId": "ac97-b27c-7e35-7ab9",
               "_primary": "true"
             }
@@ -3908,7 +3115,7 @@
           "_import": "true",
           "_name": "Manifestation Lore",
           "_hidden": "false",
-          "_id": "979b-6809-199-9813",
+          "_id": "94cc-9a4c-e4a2-6da1",
           "_defaultAmount": "1"
         },
         {
@@ -3916,7 +3123,7 @@
             "categoryLink": {
               "_name": "Army Composition",
               "_hidden": "false",
-              "_id": "eb2c-cbe0-36d-bfd8",
+              "_id": "7448-4ef6-34be-95ab",
               "_targetId": "ac97-b27c-7e35-7ab9",
               "_primary": "true"
             }
@@ -3928,7 +3135,7 @@
                 "_field": "selections",
                 "_scope": "roster",
                 "_shared": "true",
-                "_id": "67f6-ba9f-dacf-f42e"
+                "_id": "a769-b268-c244-99ec"
               },
               {
                 "_type": "max",
@@ -3936,7 +3143,7 @@
                 "_field": "selections",
                 "_scope": "self",
                 "_shared": "true",
-                "_id": "4270-6915-b968-13c1"
+                "_id": "b897-7370-63a4-26fd"
               }
             ]
           },
@@ -3945,9 +3152,9 @@
               "_import": "true",
               "_name": "Spell Lores",
               "_hidden": "false",
-              "_id": "637a-a01-8576-e7fd",
+              "_id": "6bce-6e0-ed32-6b66",
               "_type": "selectionEntryGroup",
-              "_targetId": "6cbb-5e30-1121-a587",
+              "_targetId": "b5b-5dbc-9d3b-d075",
               "_flatten": "true",
               "_collective": "false"
             }
@@ -3956,15 +3163,63 @@
           "_import": "true",
           "_name": "Spell Lore",
           "_hidden": "false",
-          "_id": "7d77-a567-c3a5-7df",
+          "_id": "6876-59db-5e39-aa8a",
+          "_defaultAmount": "1"
+        },
+        {
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Army Composition",
+              "_hidden": "false",
+              "_id": "b56d-3db5-e98f-173d",
+              "_targetId": "ac97-b27c-7e35-7ab9",
+              "_primary": "true"
+            }
+          },
+          "constraints": {
+            "constraint": [{
+                "_type": "max",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "roster",
+                "_shared": "true",
+                "_id": "cee8-ee98-46fc-32db"
+              },
+              {
+                "_type": "max",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "self",
+                "_shared": "true",
+                "_id": "0172-c6d0-61bb-4e7f"
+              }
+            ]
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Prayer Lores",
+              "_hidden": "false",
+              "_id": "7339-e4f5-ee09-bd87",
+              "_type": "selectionEntryGroup",
+              "_targetId": "a537-457-99e-8b30",
+              "_flatten": "true",
+              "_collective": "false"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Prayer Lore",
+          "_hidden": "false",
+          "_id": "35fa-60e6-258a-561f",
           "_defaultAmount": "1"
         }
       ]
     },
     "_xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "_library": "false",
-    "_id": "bb7e-b0da-5c2-a980",
-    "_name": "Sylvaneth",
+    "_id": "832c-fd6-a535-ffae",
+    "_name": "Ironjawz",
     "_gameSystemId": "e51d-b1a3-75fc-dc3g",
     "_gameSystemRevision": "2",
     "_revision": "1",
