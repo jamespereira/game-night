@@ -17,8 +17,9 @@ export const factionNames = [
     grandAlliance: "Destruction",
     factions: [
       "Gloomspite_Gitz",
+      "Ironjawz",
+      "Kruleboyz",
       "Ogor_Mawtribes",
-      "Orruk_Warclans",
       "Sons_of_Behemat",
     ],
   },
