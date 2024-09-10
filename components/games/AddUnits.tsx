@@ -38,6 +38,7 @@ const AddUnits = ({ faction, userId, gameId }: Props) => {
   const factionUnits = factionList?.entryLinks?.entryLink?.filter(
     (unit) =>
       !unit?._name.toLowerCase().includes("battle traits") && !unit.constraints
+    // !unit.modifiers
   );
 
   const searchResults = !searchTerm

@@ -24,28 +24,6 @@ async function getImage(unitName) {
   return res.json();
 }
 
-// async function getImage(unitName) {
-//   const serperApiKey = "61d12355f150a690e171ce7db032da240c796bd1";
-
-//   const unitPrefix = "https://www.warhammer.com/";
-//   const imageQuery = unitName;
-
-//   const res = await fetch(`https://google.serper.dev/images`, {
-//     method: "POST",
-//     headers: {
-//       "X-API-KEY": serperApiKey,
-//       "Content-Type": "application/json",
-//     },
-//     body: JSON.stringify({
-//       "q": unitPrefix + imageQuery,
-//       "num": 20,
-//     }),
-//     redirect: "follow",
-//   });
-
-//   return res.json();
-// }
-
 const unitImage = async (unitId: string, unitName: string) => {
   // if image doesnt exist in DB
   const existingUnitImage = await getUnitImageById(unitId);

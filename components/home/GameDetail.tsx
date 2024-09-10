@@ -78,7 +78,6 @@ const GameDetail = async ({ game }: Props) => {
             />
           </CardContent>
           <CardFooter>
-            {/* TO DO update team to logged in user */}
             {!!user ? (
               <div className="flex items-center justify-center">
                 <Button className="bg-amber-400/85 [drop-shadow:_0_0_5px_rgb(0_0_0_/_80%)] text-black">
