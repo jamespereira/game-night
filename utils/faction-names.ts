@@ -7,7 +7,7 @@ export const factionNames = [
       "Fyreslayers",
       "Idoneth_Deepkin",
       "Kharadron_Overlords",
-      "Lumineth",
+      "Lumineth_Realm-lords",
       "Seraphon",
       "Stormcast_Eternals",
       "Sylvaneth",
@@ -26,11 +26,11 @@ export const factionNames = [
   {
     grandAlliance: "Chaos",
     factions: [
-      "Khorne",
-      "Nurgle",
+      "Blades_of_Khorne",
+      "Maggotkin_of_Nurgle",
       "Skaven",
       "Slaves_to_Darkness",
-      "Tzeentch",
+      "Disciples_of_Tzeentch",
       "Beasts_of_Chaos",
     ],
   },
