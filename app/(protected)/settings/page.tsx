@@ -165,7 +165,7 @@ const SettingsPage = () => {
                 </>
               ) : null}
 
-              <FormField
+              {/* <FormField
                 control={form.control}
                 name="role"
                 render={({ field }) => (
@@ -189,7 +189,7 @@ const SettingsPage = () => {
                     <FormMessage />
                   </FormItem>
                 )}
-              />
+              /> */}
 
               {user?.isOAuth === false ? (
                 <FormField
