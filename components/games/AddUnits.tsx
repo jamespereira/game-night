@@ -71,7 +71,7 @@ const AddUnits = ({ faction, userId, gameId }: Props) => {
   }
 
   async function formatUnitObject(unit) {
-    const imageUrl = await unitImage(unit._id, unit._name);
+    const imageUrl = await unitImage(unit._id, unit._name, factionName);
     const formattedUnit = {
       id: uuidv4(),
       unitId: unit._id,

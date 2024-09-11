@@ -4,15 +4,16 @@ import { getUnitImageById } from "@/data/unit-image";
 import { db } from "@/lib/db";
 import { revalidatePath } from "next/cache";
 
-async function getImage(unitName) {
+async function getImage(unitName, factionName) {
   const serpApiKey = "66223d5e7572c5642ca341ee";
 
   const unitPrefix = "https://www.warhammer.com/";
+  const faction = factionName.replace(/_/g, " ");
   const imageQuery = unitName;
 
   const res = await fetch(
     `https://api.serpdog.io/images?api_key=${serpApiKey}&q=${
-      unitPrefix + " " + imageQuery
+      unitPrefix + " " + faction + " " + imageQuery
     }&gl=us`
   );
 
@@ -24,13 +25,17 @@ async function getImage(unitName) {
   return res.json();
 }
 
-const unitImage = async (unitId: string, unitName: string) => {
+const unitImage = async (
+  unitId: string,
+  unitName: string,
+  factionName: string
+) => {
   // if image doesnt exist in DB
   const existingUnitImage = await getUnitImageById(unitId);
 
   if (!existingUnitImage) {
     // search image API
-    const imageResults = await getImage(unitName);
+    const imageResults = await getImage(unitName, factionName);
     const imageURL = imageResults?.image_results?.[0]?.image;
 
     // save image to DB
