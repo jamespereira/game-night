@@ -20,15 +20,17 @@ import removeArmyById from "@/actions/remove-army";
 import { Army, User } from "@prisma/client";
 import { ArmyDetails } from "@/interfaces";
 import { Button } from "../ui/button";
+import { isBeforeGame } from "@/utils/gameTime";
 
 type Props = {
   gameId: number;
   user: User;
   army: ArmyDetails;
   factionList: any;
+  gameDate: string;
 };
 
-const ArmyDetail = ({ gameId, user, army, factionList }: Props) => {
+const ArmyDetail = ({ gameId, user, army, factionList, gameDate }: Props) => {
   const [showList, setShowList] = useState(true);
 
   const [faction, setFaction] = useState({
@@ -48,6 +50,8 @@ const ArmyDetail = ({ gameId, user, army, factionList }: Props) => {
     await removeArmyById(armyId);
     setFaction({ factionName: "", factionList: null });
   }
+
+  const locked = !isBeforeGame(gameDate);
 
   function renderFactionSelect() {
     return (
@@ -75,9 +79,9 @@ const ArmyDetail = ({ gameId, user, army, factionList }: Props) => {
           </SelectContent>
         </Select>
 
-        {army ? (
+        {army && !locked ? (
           <Button
-            disabled={!army}
+            disabled={!army || locked}
             className="flex flex-row gap-x-2"
             onClick={() => handleRemoveArmy(army?.id)}
           >
@@ -102,13 +106,22 @@ const ArmyDetail = ({ gameId, user, army, factionList }: Props) => {
           {renderFactionSelect()}
         </div>
         <div className="flex flex-row gap-8 items-center">
-          <AddUnits faction={faction} userId={user.id} gameId={gameId} />
+          {!locked ? (
+            <AddUnits
+              faction={faction}
+              userId={user.id}
+              gameId={gameId}
+              locked={locked}
+            />
+          ) : null}
           <div className="font-semibold">
             {army?.units ? getPointsTotal(army) : "0"} pts
           </div>
         </div>
       </div>
-      {showList && army?.units ? <ArmyList units={army?.units} /> : null}
+      {showList && army?.units ? (
+        <ArmyList units={army?.units} locked={locked} />
+      ) : null}
     </div>
   );
 };

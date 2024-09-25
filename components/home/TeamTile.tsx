@@ -1,21 +1,31 @@
 import React from "react";
 import Link from "next/link";
-import { User } from "@prisma/client";
+import { Result, User } from "@prisma/client";
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
-import { FaUserCircle } from "react-icons/fa";
+import { FaTrophy, FaUserCircle } from "react-icons/fa";
 import { cn } from "@/lib/utils";
 import { Button } from "../ui/button";
 import RoleGate from "../auth/RoleGate";
+import dayjs from "dayjs";
+import { isBeforeGame } from "@/utils/gameTime";
 
 type Props = {
-  teamDetails: { teamNumber: number; users: User[] };
+  teamDetails: { teamNumber: number; users: User[]; teamId: string };
+  gameDate: string;
   gameId: number;
+  result: Result;
 };
 
-const TeamTile = ({ teamDetails, gameId }: Props) => {
+const TeamTile = ({ teamDetails, gameId, gameDate, result }: Props) => {
   return (
     <div>
       <div className="flex flex-col gap-4">
+        {result?.winner === teamDetails.teamId ? (
+          <div className="flex flex-col items-center justify-center">
+            <FaTrophy className="w-12 h-12 text-sky-400" />
+            <p className="text-sky-200 font-bold">Victory</p>
+          </div>
+        ) : null}
         {teamDetails.users?.map((user) => (
           <div
             key={user.id}
@@ -52,6 +62,16 @@ const TeamTile = ({ teamDetails, gameId }: Props) => {
             </Link>
           </Button>
         </RoleGate>
+        {!isBeforeGame(gameDate) ? (
+          <Button className="bg-amber-400/85 [drop-shadow:_0_0_5px_rgb(0_0_0_/_80%)] text-black">
+            <Link
+              href="/games/[gameId]/teams/[teamId]"
+              as={`/games/${gameId}/teams/${teamDetails.teamNumber}`}
+            >
+              View Team
+            </Link>
+          </Button>
+        ) : null}
       </div>
     </div>
   );

@@ -6,9 +6,10 @@ import UnitCard from "./UnitCard";
 type Props = {
   units: Unit[];
   type: string;
+  locked: boolean;
 };
 
-const UnitList = ({ units, type }: Props) => {
+const UnitList = ({ units, type, locked }: Props) => {
   function handleRemoveUnit(unitId) {
     startTransition(() => {
       removeUnit(unitId);
@@ -25,6 +26,7 @@ const UnitList = ({ units, type }: Props) => {
             key={unit.id}
             unit={unit}
             handleRemoveUnit={handleRemoveUnit}
+            locked={locked}
           />
         ))}
     </div>

@@ -9,9 +9,10 @@ import { User } from "@prisma/client";
 type Props = {
   user: User;
   gameId: number;
+  gameDate: string;
 };
 
-const UserArmy = async ({ user, gameId }: Props) => {
+const UserArmy = async ({ user, gameId, gameDate }: Props) => {
   const army = await getArmyWithUnitsByUserIdAndGameId(user.id, gameId);
 
   const factionList = await getFactionByName(army?.faction);
@@ -22,6 +23,7 @@ const UserArmy = async ({ user, gameId }: Props) => {
       user={user}
       army={army}
       factionList={factionList}
+      gameDate={gameDate}
     />
   );
 };

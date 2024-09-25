@@ -123,6 +123,43 @@ model Team {
   game Game @relation(fields: [gameId], references: [id], onDelete: Cascade)
 }
 
+model Turn {
+  id String @id
+  teamNumber Int
+  firstTurn Boolean?
+  battleTactic String?
+  btCompleted Boolean?
+  objectivePoints Int?
+  victoryPoints Int
+  conceded Boolean?
+  roundId String @unique
+  round Round @relation(fields: [roundId], references: [id], onDelete: Cascade)
+}
+
+model Round {
+  id String @id
+  number Int
+  turn Turn[]
+  battleReportId String
+  battleReport BattleReport @relation(fields: [battleReportId], references: [id], onDelete: Cascade)
+}
+
+model BattleReport {
+  id String @id @default(cuid())
+  rounds Round[]
+  resultId String @unique
+  result Result @relation(fields: [resultId], references: [id], onDelete: Cascade)
+}
+
+model Result {
+  id String @id @default(cuid())
+  winner String
+  loser String
+  battleReport BattleReport?
+  gameId Int @unique
+  game Game @relation(fields: [gameId], references: [id], onDelete: Cascade)
+}
+
 model Game {
   id Int @id @default(autoincrement())
   location String
@@ -130,6 +167,7 @@ model Game {
   host String
   pointsLimit Int
   teams Team[]
+  result Result?
 }
 
 model UnitImage {

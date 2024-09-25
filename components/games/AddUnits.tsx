@@ -23,9 +23,10 @@ type Props = {
   faction: Faction;
   userId: string;
   gameId: number;
+  locked: boolean;
 };
 
-const AddUnits = ({ faction, userId, gameId }: Props) => {
+const AddUnits = ({ faction, userId, gameId, locked }: Props) => {
   const [addedUnits, setAddedUnits] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
 
@@ -93,7 +94,10 @@ const AddUnits = ({ faction, userId, gameId }: Props) => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button disabled={!faction.factionList} className="bg-amber-600/75">
+        <Button
+          disabled={!faction.factionList || locked}
+          className="bg-amber-600/75"
+        >
           Add Units
         </Button>
       </DialogTrigger>
@@ -151,7 +155,11 @@ const AddUnits = ({ faction, userId, gameId }: Props) => {
                     </SkeletonTheme>
                   }
                 >
-                  <UnitCard unit={unit} handleRemoveUnit={handleRemoveUnit} />
+                  <UnitCard
+                    unit={unit}
+                    handleRemoveUnit={handleRemoveUnit}
+                    locked={locked}
+                  />
                 </Suspense>
               </li>
             ))}

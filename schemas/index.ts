@@ -1,6 +1,11 @@
 import { UserRole } from "@prisma/client";
 import * as z from "zod";
 
+export const ResultSchema = z.object({
+  winner: z.optional(z.string()),
+  loser: z.optional(z.string()),
+});
+
 export const NewGameSchema = z.object({
   host: z.string().min(1, {
     message: "Host is required",

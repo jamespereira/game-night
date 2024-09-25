@@ -1,4 +1,4 @@
-import { getTeamsByGameId } from "@/data/team";
+import { getTeamByGameIdAndTeamNumber, getTeamsByGameId } from "@/data/team";
 import Countdown from "./Countdown";
 import TeamTile from "./TeamTile";
 import { getUsersByIds } from "@/data/user";
@@ -9,6 +9,11 @@ import { placeholderImage } from "@/utils/placeholder-images";
 import { Button } from "../ui/button";
 import Link from "next/link";
 import { currentUser } from "@/lib/auth";
+import dayjs from "dayjs";
+import Result from "./Result";
+import { getResultByGameId } from "@/data/result";
+import RoleGate from "../auth/RoleGate";
+import { isBeforeGame } from "@/utils/gameTime";
 
 type Props = {
   game: Game;
@@ -18,12 +23,12 @@ const GameDetail = async ({ game }: Props) => {
   const teams = await getTeamsByGameId(game.id);
 
   async function getTeamDetails(teams: Team[], teamNumber: number) {
-    const teamUserIds = teams.find(
-      (team) => team.teamNumber === teamNumber
-    ).users;
+    const team = await getTeamByGameIdAndTeamNumber(game.id, teamNumber);
 
-    const teamUsers = await getUsersByIds(teamUserIds);
+    const teamUsers = await getUsersByIds(team.users);
+    const teamId = team.id;
     const teamDetails = {
+      teamId,
       teamNumber,
       users: teamUsers,
     };
@@ -41,6 +46,8 @@ const GameDetail = async ({ game }: Props) => {
   const userTeam = teams?.find((team) =>
     team.users?.find((teamUser) => teamUser == user?.id)
   )?.teamNumber;
+
+  const result = await getResultByGameId(game.id);
 
   return (
     <div className="flex flex-col gap-y-8 w-full mt-[25%]">
@@ -63,18 +70,28 @@ const GameDetail = async ({ game }: Props) => {
               className="object-cover rounded-xl"
             />
           </div>
-          <CardHeader></CardHeader>
+          <CardHeader>
+            {!isBeforeGame(game.date) ? (
+              <RoleGate allowedRole="ADMIN">
+                <Result teams={teams} gameId={game.id} result={result} />
+              </RoleGate>
+            ) : null}
+          </CardHeader>
           <CardContent className="flex flex-row w-full justify-between items-center">
             <TeamTile
               gameId={game.id}
+              gameDate={game.date}
               teamDetails={await getTeamDetails(teams, 1)}
+              result={result}
             />
             <p className="text-3xl text-amber-400 [text-shadow:_0_0_5px_rgb(0_0_0_/_80%)]">
               vs
             </p>
             <TeamTile
               gameId={game.id}
+              gameDate={game.date}
               teamDetails={await getTeamDetails(teams, 2)}
+              result={result}
             />
           </CardContent>
           <CardFooter>

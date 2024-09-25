@@ -25,6 +25,7 @@ async function TeamDetail({ params }: Props) {
 
   const game = await getGameById(gameId);
   const gamePointsTotal = game.pointsLimit;
+  const gameDate = game.date;
 
   async function getTeamDetails(users: string[]) {
     const teamUsers = await getUsersByIds(users);
@@ -95,7 +96,12 @@ async function TeamDetail({ params }: Props) {
                   </SkeletonTheme>
                 }
               >
-                <UserArmy key={user.id} user={user} gameId={gameId} />
+                <UserArmy
+                  key={user.id}
+                  user={user}
+                  gameId={gameId}
+                  gameDate={gameDate}
+                />
               </Suspense>
             ))}
           </div>
