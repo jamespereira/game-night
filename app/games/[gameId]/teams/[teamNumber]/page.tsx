@@ -10,6 +10,7 @@ import { User } from "@prisma/client";
 import { getGameById } from "@/data/game";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import { currentRole, currentUser } from "@/lib/auth";
+import { isBeforeGame } from "@/utils/gameTime";
 
 type Props = {
   params: { gameId: string; teamNumber: string };
@@ -71,7 +72,7 @@ async function TeamDetail({ params }: Props) {
   function checkUserTeam() {
     const userFound = team.users?.find((teamUser) => teamUser == user?.id);
     const userAdmin = role === "ADMIN";
-    return !!userFound || userAdmin;
+    return !!userFound || userAdmin || !isBeforeGame(gameDate);
   }
 
   return (
