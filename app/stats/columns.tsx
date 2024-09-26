@@ -1,5 +1,6 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import { ColumnDef } from "@tanstack/react-table";
 
 // This type is used to define the shape of our data.
@@ -11,28 +12,67 @@ export type UserStats = {
   losses: number;
   wPercent: string;
   played: number;
-  // status: "pending" | "processing" | "success" | "failed"
 };
 
 export const columns: ColumnDef<UserStats>[] = [
   {
     accessorKey: "name",
-    header: "Name",
+    header: ({ column }) => {
+      return (
+        <button
+          onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+        >
+          Name
+        </button>
+      );
+    },
   },
   {
     accessorKey: "wins",
-    header: "Wins",
+    header: ({ column }) => {
+      return (
+        <button
+          onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+        >
+          Wins
+        </button>
+      );
+    },
   },
   {
     accessorKey: "losses",
-    header: "Losses",
+    header: ({ column }) => {
+      return (
+        <button
+          onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+        >
+          Losses
+        </button>
+      );
+    },
   },
   {
     accessorKey: "wPercent",
-    header: "Win %",
+    header: ({ column }) => {
+      return (
+        <button
+          onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+        >
+          Win %
+        </button>
+      );
+    },
   },
   {
     accessorKey: "played",
-    header: "Games Played",
+    header: ({ column }) => {
+      return (
+        <button
+          onClick={() => column.toggleSorting(column.getIsSorted() === "asc")}
+        >
+          Games Played
+        </button>
+      );
+    },
   },
 ];
