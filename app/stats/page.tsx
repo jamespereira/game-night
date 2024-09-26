@@ -70,6 +70,12 @@ export default async function statsPage() {
 
   return (
     <div className="container mx-auto py-10">
+      <h1 className="text-2xl sm:text-3xl font-extrabold text-stone-200">
+        Stats
+      </h1>
+      <p className="mt-2 text-lg text-stone-300/85 mb-8">
+        Battle stats, rankings and leaderboards
+      </p>
       <DataTable columns={columns} data={data} />
     </div>
   );
