@@ -20,7 +20,7 @@ function countOccurrences(array, string) {
 
 function calculateWPercent(wins, total) {
   if (total === 0) {
-    return "N/A";
+    return "-";
   }
   if (wins === 0) {
     return "0%";
