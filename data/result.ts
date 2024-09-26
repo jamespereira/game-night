@@ -11,3 +11,12 @@ export const getResultByGameId = async (gameId: number) => {
     return null;
   }
 };
+
+export const getAllResults = async () => {
+  try {
+    const results = await db.result.findMany();
+    return results;
+  } catch {
+    return null;
+  }
+};

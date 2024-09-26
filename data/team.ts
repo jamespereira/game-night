@@ -39,13 +39,10 @@ export const getTeamByTeamNumber = async (teamNumber: number) => {
   }
 };
 
-export const getUsersByGameId = async (gameId: number) => {
+export const getAllTeams = async () => {
   try {
-    const users = await db.team.findMany({
-      where: { gameId },
-    });
-
-    return users;
+    const teams = await db.team.findMany();
+    return teams;
   } catch {
     return null;
   }

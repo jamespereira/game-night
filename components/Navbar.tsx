@@ -10,6 +10,10 @@ const Navbar = async () => {
       <Link href="/" className="text-stone-400 text-sm">
         ⚔️ Game Night
       </Link>
+
+      <Link href="/stats" className="text-stone-400 text-sm">
+        Stats
+      </Link>
       {user ? (
         <UserButton />
       ) : (
