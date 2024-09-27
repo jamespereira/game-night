@@ -8,6 +8,7 @@ import { Button } from "../ui/button";
 import RoleGate from "../auth/RoleGate";
 import dayjs from "dayjs";
 import { isBeforeGame } from "@/utils/gameTime";
+import { currentUser } from "@/lib/auth";
 
 type Props = {
   teamDetails: { teamNumber: number; users: User[]; teamId: string };
@@ -16,7 +17,8 @@ type Props = {
   result: Result;
 };
 
-const TeamTile = ({ teamDetails, gameId, gameDate, result }: Props) => {
+const TeamTile = async ({ teamDetails, gameId, gameDate, result }: Props) => {
+  const user = await currentUser();
   return (
     <div>
       <div className="flex flex-col gap-4">
@@ -62,13 +64,13 @@ const TeamTile = ({ teamDetails, gameId, gameDate, result }: Props) => {
             </Link>
           </Button>
         </RoleGate>
-        {!isBeforeGame(gameDate) ? (
+        {!isBeforeGame(gameDate) && user ? (
           <Button className="bg-amber-400/85 [drop-shadow:_0_0_5px_rgb(0_0_0_/_80%)] text-black">
             <Link
               href="/games/[gameId]/teams/[teamId]"
               as={`/games/${gameId}/teams/${teamDetails.teamNumber}`}
             >
-              View Team
+              View List
             </Link>
           </Button>
         ) : null}
