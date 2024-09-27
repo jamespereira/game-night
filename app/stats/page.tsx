@@ -25,7 +25,12 @@ function calculateWPercent(wins, total) {
   if (wins === 0) {
     return "0%";
   }
-  return `${(100 * wins) / total}%`;
+  const number = wins / total;
+  return number.toLocaleString("en-US", {
+    style: "percent",
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 1,
+  });
 }
 
 async function getData(): Promise<any[]> {

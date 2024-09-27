@@ -49,7 +49,6 @@ export function DataTable<TData, TValue>({
             <TableRow key={headerGroup.id} className="border-stone-300/85">
               {headerGroup.headers.map((header) => {
                 return (
-                  // <TableHead key={header.id} className="text-stone-300/85">
                   <TableHead key={header.id} className="text-sky-400">
                     {header.isPlaceholder
                       ? null
