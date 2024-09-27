@@ -146,6 +146,7 @@ model Round {
 
 model BattleReport {
   id String @id @default(cuid())
+  battlePlan String
   rounds Round[]
   resultId String @unique
   result Result @relation(fields: [resultId], references: [id], onDelete: Cascade)

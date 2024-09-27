@@ -39,15 +39,16 @@ async function getData(): Promise<any[]> {
 
   const allTeams = await getAllTeams();
   const winningTeams = resultDetails?.map((r) => r.winner);
+  const winningTeamDetails = allTeams?.filter((a) =>
+    winningTeams?.some((w) => a.id.includes(w))
+  );
+  const winningUsers = winningTeamDetails?.map((w) => w.users).flat(1);
+
   const losingTeams = resultDetails?.map((r) => r.loser);
-
-  const winningUsers = allTeams.find((a) =>
-    winningTeams.some((w) => a.id.includes(w))
-  ).users;
-
-  const losingUsers = allTeams.find((a) =>
-    losingTeams.some((w) => a.id.includes(w))
-  ).users;
+  const losingTeamDetails = allTeams?.filter((a) =>
+    losingTeams?.some((w) => a.id.includes(w))
+  );
+  const losingUsers = losingTeamDetails?.map((w) => w.users).flat(1);
 
   const playerStats = users.map((u) => ({
     id: u.id,
