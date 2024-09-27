@@ -28,6 +28,9 @@ const TeamTile = async ({ teamDetails, gameId, gameDate, result }: Props) => {
             <p className="text-sky-200 font-bold">Victory</p>
           </div>
         ) : null}
+        {result?.loser === teamDetails.teamId ? (
+          <div className="flex flex-col items-center justify-center h-[72px]" />
+        ) : null}
         {teamDetails.users?.map((user) => (
           <div
             key={user.id}
