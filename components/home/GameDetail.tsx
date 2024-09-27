@@ -95,14 +95,14 @@ const GameDetail = async ({ game }: Props) => {
             />
           </CardContent>
           <CardFooter>
-            {!!user && isBeforeGame(game.id) ? (
+            {!!userTeam && isBeforeGame(game.date) ? (
               <div className="flex items-center justify-center">
                 <Button className="bg-amber-400/85 [drop-shadow:_0_0_5px_rgb(0_0_0_/_80%)] text-black">
                   <Link
                     href="/games/[gameId]/teams/[teamId]"
                     as={`/games/${game.id}/teams/${userTeam}`}
                   >
-                    Update Team
+                    Update List
                   </Link>
                 </Button>
               </div>
