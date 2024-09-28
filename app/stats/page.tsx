@@ -5,6 +5,7 @@ import result from "@/actions/result";
 import { getAllUsers } from "@/data/user";
 import { getAllGames } from "@/data/game";
 import { getAllTeams } from "@/data/team";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
 
 function countOccurrences(array, string) {
   let count = 0;

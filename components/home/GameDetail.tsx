@@ -9,11 +9,10 @@ import { placeholderImage } from "@/utils/placeholder-images";
 import { Button } from "../ui/button";
 import Link from "next/link";
 import { currentUser } from "@/lib/auth";
-import dayjs from "dayjs";
 import Result from "./Result";
 import { getResultByGameId } from "@/data/result";
 import RoleGate from "../auth/RoleGate";
-import { isBeforeGame } from "@/utils/gameTime";
+import { isBeforeGame } from "@/utils/game-time";
 
 type Props = {
   game: Game;
@@ -73,7 +72,7 @@ const GameDetail = async ({ game }: Props) => {
           <CardHeader>
             {!isBeforeGame(game.date) ? (
               <RoleGate allowedRole="ADMIN">
-                <Result teams={teams} gameId={game.id} result={result} />
+                <Result teams={teams} gameResult={result} />
               </RoleGate>
             ) : null}
           </CardHeader>

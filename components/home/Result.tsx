@@ -45,9 +45,9 @@ import result from "@/actions/result";
 import { getResultByGameId } from "@/data/result";
 import { Result } from "@prisma/client";
 
-type Props = { teams: Team[]; gameId: number; result: Result };
+type Props = { teams: Team[]; gameResult: Result };
 
-const GameResult = ({ teams, gameId }: Props) => {
+const GameResult = ({ teams, gameResult }: Props) => {
   const [error, setError] = useState<string | undefined>("");
   const [success, setSuccess] = useState<string | undefined>("");
   const [isPending, startTransition] = useTransition();
@@ -65,7 +65,7 @@ const GameResult = ({ teams, gameId }: Props) => {
     setSuccess("");
 
     startTransition(() => {
-      result(values, gameId)
+      result(values, gameResult.gameId)
         .then((data) => {
           if (data?.error) {
             form.reset();
@@ -107,7 +107,7 @@ const GameResult = ({ teams, gameId }: Props) => {
                       <Select
                         disabled={isPending}
                         onValueChange={field.onChange}
-                        defaultValue={field.value}
+                        defaultValue={gameResult.winner || field.value}
                       >
                         <FormControl>
                           <SelectTrigger>
@@ -135,7 +135,7 @@ const GameResult = ({ teams, gameId }: Props) => {
                       <Select
                         disabled={isPending}
                         onValueChange={field.onChange}
-                        defaultValue={field.value}
+                        defaultValue={gameResult.loser || field.value}
                       >
                         <FormControl>
                           <SelectTrigger>

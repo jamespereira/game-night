@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "../ui/button";
 import RoleGate from "../auth/RoleGate";
 import dayjs from "dayjs";
-import { isBeforeGame } from "@/utils/gameTime";
+import { isBeforeGame } from "@/utils/game-time";
 import { currentUser } from "@/lib/auth";
 
 type Props = {

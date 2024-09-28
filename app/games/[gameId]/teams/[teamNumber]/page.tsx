@@ -10,7 +10,7 @@ import { User } from "@prisma/client";
 import { getGameById } from "@/data/game";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 import { currentRole, currentUser } from "@/lib/auth";
-import { isBeforeGame } from "@/utils/gameTime";
+import { isBeforeGame } from "@/utils/game-time";
 
 type Props = {
   params: { gameId: string; teamNumber: string };

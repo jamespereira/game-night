@@ -20,7 +20,7 @@ import removeArmyById from "@/actions/remove-army";
 import { Army, User } from "@prisma/client";
 import { ArmyDetails } from "@/interfaces";
 import { Button } from "../ui/button";
-import { isBeforeGame } from "@/utils/gameTime";
+import { isBeforeGame } from "@/utils/game-time";
 
 type Props = {
   gameId: number;
