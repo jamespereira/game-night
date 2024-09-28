@@ -35,9 +35,9 @@ const GameDetail = async ({ game }: Props) => {
     return teamDetails;
   }
 
-  function randomImage() {
-    const rand = Math.floor(Math.random() * (10 - 1 + 1)) + 1;
-    const imageString = `/images/bg_${rand}.jpg`;
+  function getGameImage(gameId) {
+    const imageNumber = gameId.toString().substr(-1);
+    const imageString = `/images/bg_${imageNumber}.jpg`;
     return imageString;
   }
 
@@ -59,7 +59,7 @@ const GameDetail = async ({ game }: Props) => {
           <div className="w-full h-full z-[-2] absolute">
             <div className="w-full h-full z-[1] bg-black/25 absolute"></div>
             <Image
-              src={randomImage()}
+              src={getGameImage(game.id)}
               alt={`aos background image`}
               sizes="100"
               quality={75}
