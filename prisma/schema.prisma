@@ -124,22 +124,22 @@ model Team {
 }
 
 model Turn {
-  id String @id
+  id String @id @default(cuid())
   teamNumber Int
-  firstTurn Boolean?
-  battleTactic String?
-  btCompleted Boolean?
-  objectivePoints Int?
+  position String
+  battleTactic String
+  btCompleted Boolean
+  objectivePoints Int
   victoryPoints Int
-  conceded Boolean?
+  conceded Boolean
   roundId String @unique
   round Round @relation(fields: [roundId], references: [id], onDelete: Cascade)
 }
 
 model Round {
-  id String @id
-  number Int
-  turn Turn[]
+  id String @id @default(cuid())
+  roundNumber Int
+  turns Turn[]
   battleReportId String
   battleReport BattleReport @relation(fields: [battleReportId], references: [id], onDelete: Cascade)
 }

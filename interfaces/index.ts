@@ -4,51 +4,15 @@
 //
 // import { User } from 'path/to/interfaces';
 
-import { Army, Unit, User, UserRole } from "@prisma/client";
-
-// export type User = {
-//   id: string;
-//   name: string;
-//   email?: string;
-//   teamId?: string;
-//   gameId?: number;
-//   army?: Army[];
-// };
-
-// export type Unit = {
-//   id: string;
-//   unitId: string;
-//   name: string;
-//   unitType: string;
-//   points: number;
-//   image?: string;
-//   armyId: string;
-// };
-
-// export type Army = {
-//   id: string;
-//   faction: string;
-//   subfaction?: string;
-//   image?: string;
-//   units: Unit[];
-//   userId: string;
-// };
-
-// export type Team = {
-//   id: string;
-//   teamNumber: number;
-//   users: User[];
-//   gameId: number;
-// };
-
-// export type Game = {
-//   id: number;
-//   location: string;
-//   date: string;
-//   host: string;
-//   pointsLimit?: number;
-//   teams: Team[];
-// };
+import {
+  Army,
+  Unit,
+  User,
+  Result,
+  BattleReport,
+  Round,
+  Turn,
+} from "@prisma/client";
 export interface ArmyDetails extends Army {
   units: Unit[];
 }
@@ -62,3 +26,14 @@ export type Faction = {
   factionName: string;
   factionList: any;
 };
+
+export interface RoundDetails extends Round {
+  turns: Turn[];
+}
+export interface BattleReportDetails extends BattleReport {
+  rounds: RoundDetails[];
+}
+
+export interface ResultDetails extends Result {
+  battleReport: BattleReportDetails;
+}

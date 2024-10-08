@@ -10,7 +10,7 @@ import { Button } from "../ui/button";
 import Link from "next/link";
 import { currentUser } from "@/lib/auth";
 import Result from "./Result";
-import { getResultByGameId } from "@/data/result";
+import { getExtendedResultByGameId, getResultByGameId } from "@/data/result";
 import RoleGate from "../auth/RoleGate";
 import { isBeforeGame } from "@/utils/game-time";
 
@@ -21,7 +21,7 @@ type Props = {
 const GameDetail = async ({ game }: Props) => {
   const teams = await getTeamsByGameId(game.id);
 
-  async function getTeamDetails(teams: Team[], teamNumber: number) {
+  async function getTeamDetails(teamNumber: number) {
     const team = await getTeamByGameIdAndTeamNumber(game.id, teamNumber);
 
     const teamUsers = await getUsersByIds(team.users);
@@ -46,7 +46,7 @@ const GameDetail = async ({ game }: Props) => {
     team.users?.find((teamUser) => teamUser == user?.id)
   )?.teamNumber;
 
-  const result = await getResultByGameId(game.id);
+  const result = await getExtendedResultByGameId(game.id);
 
   return (
     <div className="flex flex-col gap-y-8 w-full mt-[25%]">
@@ -80,7 +80,7 @@ const GameDetail = async ({ game }: Props) => {
             <TeamTile
               gameId={game.id}
               gameDate={game.date}
-              teamDetails={await getTeamDetails(teams, 1)}
+              teamDetails={await getTeamDetails(1)}
               result={result}
             />
             <p className="text-3xl text-amber-400 [text-shadow:_0_0_5px_rgb(0_0_0_/_80%)]">
@@ -89,7 +89,7 @@ const GameDetail = async ({ game }: Props) => {
             <TeamTile
               gameId={game.id}
               gameDate={game.date}
-              teamDetails={await getTeamDetails(teams, 2)}
+              teamDetails={await getTeamDetails(2)}
               result={result}
             />
           </CardContent>
