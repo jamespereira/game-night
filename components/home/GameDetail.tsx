@@ -13,6 +13,7 @@ import Result from "./Result";
 import { getExtendedResultByGameId, getResultByGameId } from "@/data/result";
 import RoleGate from "../auth/RoleGate";
 import { isBeforeGame } from "@/utils/game-time";
+import Remove from "./Remove";
 
 type Props = {
   game: Game;
@@ -75,6 +76,9 @@ const GameDetail = async ({ game }: Props) => {
                 <Result teams={teams} gameResult={result} />
               </RoleGate>
             ) : null}
+            <RoleGate allowedRole="ADMIN">
+              <Remove gameId={game.id} />
+            </RoleGate>
           </CardHeader>
           <CardContent className="flex flex-row w-full justify-between items-center">
             <TeamTile

@@ -64,7 +64,7 @@ const GameResult = ({ teams, gameResult }: Props) => {
   const [isPending, startTransition] = useTransition();
 
   const [showBattleReport, setShowBattleReport] = useState(
-    !!gameResult.battleReport || false
+    !!gameResult?.battleReport || false
   );
   const [numberOfRounds, setNumberOfRounds] = useState(5);
   const roundsArray = [1, 2, 3, 4, 5];
