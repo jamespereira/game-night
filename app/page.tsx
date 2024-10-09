@@ -6,14 +6,14 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { getAllGames } from "@/data/game";
+import { getAllGames, getAllGamesWithTeams } from "@/data/game";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
 
 dayjs.extend(relativeTime);
 
 const Home = async () => {
-  const allGames = await getAllGames();
+  const allGames = await getAllGamesWithTeams();
 
   function stringToDate(date) {
     return new Date(date);

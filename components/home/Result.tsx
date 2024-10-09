@@ -102,14 +102,14 @@ const GameResult = ({ teams, gameResult }: Props) => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button className="bg-amber-600/75">Edit Result</Button>
+        <Button className="bg-amber-600/75">Update Result</Button>
       </DialogTrigger>
       <DialogContent className="bg-[#163749] border-sky-400 border-2 max-w-full max-h-full h-full overflow-auto md:h-auto">
         <Form {...form}>
           <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
             <DialogHeader>
               <DialogTitle className="text-2xl font-bold text-stone-200">
-                Edit Result
+                Update Result
               </DialogTitle>
               <DialogDescription className="text-stone-300/85 font-semibold">
                 Update result for the game
@@ -427,14 +427,10 @@ const GameResult = ({ teams, gameResult }: Props) => {
               </div>
               <FormError message={error} />
               <FormSuccess message={success} />
-              {/* <Button disabled={isPending} type="submit" className="w-full">
-          Create Game
-        </Button> */}
             </div>
             <DialogFooter>
               <DialogClose asChild>
                 <Button
-                  // onClick={() => handleUpdateResult()}
                   className="bg-amber-600/75"
                   disabled={isPending}
                   type="submit"

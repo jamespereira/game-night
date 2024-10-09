@@ -12,6 +12,8 @@ import {
   BattleReport,
   Round,
   Turn,
+  Team,
+  Game,
 } from "@prisma/client";
 export interface ArmyDetails extends Army {
   units: Unit[];
@@ -36,4 +38,8 @@ export interface BattleReportDetails extends BattleReport {
 
 export interface ResultDetails extends Result {
   battleReport: BattleReportDetails;
+}
+
+export interface GameDetails extends Game {
+  teams: Team[];
 }

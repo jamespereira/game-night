@@ -1,7 +1,7 @@
 import { getTeamByGameIdAndTeamNumber, getTeamsByGameId } from "@/data/team";
 import Countdown from "./Countdown";
 import TeamTile from "./TeamTile";
-import { getUsersByIds } from "@/data/user";
+import { getAllUsers, getUsersByIds } from "@/data/user";
 import { Card, CardContent, CardFooter, CardHeader } from "../ui/card";
 import Image from "next/image";
 import { Game, Team } from "@prisma/client";
@@ -14,13 +14,16 @@ import { getExtendedResultByGameId, getResultByGameId } from "@/data/result";
 import RoleGate from "../auth/RoleGate";
 import { isBeforeGame } from "@/utils/game-time";
 import Remove from "./Remove";
+import Edit from "./Edit";
+import { GameDetails } from "@/interfaces";
 
 type Props = {
-  game: Game;
+  game: GameDetails;
 };
 
 const GameDetail = async ({ game }: Props) => {
   const teams = await getTeamsByGameId(game.id);
+  const usersData = await getAllUsers();
 
   async function getTeamDetails(teamNumber: number) {
     const team = await getTeamByGameIdAndTeamNumber(game.id, teamNumber);
@@ -77,6 +80,7 @@ const GameDetail = async ({ game }: Props) => {
               </RoleGate>
             ) : null}
             <RoleGate allowedRole="ADMIN">
+              <Edit game={game} users={usersData} />
               <Remove gameId={game.id} />
             </RoleGate>
           </CardHeader>

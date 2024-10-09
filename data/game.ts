@@ -10,6 +10,19 @@ export const getAllGames = async () => {
   }
 };
 
+export const getAllGamesWithTeams = async () => {
+  try {
+    const allGames = await db.game.findMany({
+      relationLoadStrategy: "join",
+      include: { teams: true },
+    });
+
+    return allGames;
+  } catch {
+    return null;
+  }
+};
+
 export const getGameById = async (id: number) => {
   try {
     const game = await db.game.findFirst({
