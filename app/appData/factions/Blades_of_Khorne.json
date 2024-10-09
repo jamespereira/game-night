@@ -1165,7 +1165,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "110"
             }
           },
           "entryLinks": {
@@ -1334,7 +1334,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "150"
             }
           },
           "entryLinks": {
@@ -1437,7 +1437,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "100"
             }
           },
           "entryLinks": {
@@ -1672,7 +1672,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "120"
             }
           },
           "entryLinks": {
@@ -1804,7 +1804,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -1917,7 +1917,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "140"
             }
           },
           "entryLinks": {
@@ -1983,7 +1983,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "110"
             }
           },
           "entryLinks": {
@@ -2049,7 +2049,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "510"
+              "_value": "490"
             }
           },
           "_import": "true",
@@ -2096,7 +2096,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "150"
             }
           },
           "_import": "true",
@@ -2237,7 +2237,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "140"
             }
           },
           "_import": "true",
@@ -2321,7 +2321,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "130"
             }
           },
           "entryLinks": {
@@ -2387,7 +2387,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "190"
+              "_value": "170"
             }
           },
           "entryLinks": {
@@ -2605,7 +2605,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "110"
             }
           },
           "entryLinks": {
@@ -2691,7 +2691,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "150"
             }
           },
           "entryLinks": {
@@ -2734,7 +2734,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "100"
             }
           },
           "entryLinks": {
@@ -2863,7 +2863,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "120"
             }
           },
           "entryLinks": {
@@ -2949,7 +2949,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -3016,7 +3016,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "140"
             }
           },
           "entryLinks": {
@@ -3059,7 +3059,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "110"
             }
           },
           "entryLinks": {
@@ -3102,7 +3102,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "510"
+              "_value": "490"
             }
           },
           "_import": "true",
@@ -3126,7 +3126,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "150"
             }
           },
           "_import": "true",
@@ -3150,7 +3150,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "130"
             }
           },
           "entryLinks": {
@@ -3193,7 +3193,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "190"
+              "_value": "170"
             }
           },
           "entryLinks": {
@@ -3236,7 +3236,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "140"
             }
           },
           "_import": "true",
@@ -3435,6 +3435,14 @@
                               "_field": "selections",
                               "_scope": "force",
                               "_childId": "d08f-908f-4d78-2f5c",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "3b5f-188e-d4b6-f639",
                               "_shared": "true"
                             }
                           ]
@@ -3840,6 +3848,14 @@
                               "_scope": "force",
                               "_childId": "c92d-39f9-4a9e-e505",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "3b5f-188e-d4b6-f639",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -4126,6 +4142,14 @@
                               "_scope": "force",
                               "_childId": "5550-c14a-39b3-fd64",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "3b5f-188e-d4b6-f639",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -4170,7 +4194,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "150"
             }
           },
           "_import": "true",
@@ -4291,6 +4315,14 @@
                               "_scope": "force",
                               "_childId": "c92d-39f9-4a9e-e505",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "3b5f-188e-d4b6-f639",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -4335,7 +4367,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "110"
             }
           },
           "_import": "true",
@@ -4460,7 +4492,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "180"
+              "_value": "170"
             }
           },
           "_import": "true",
@@ -4572,6 +4604,14 @@
                               "_field": "selections",
                               "_scope": "force",
                               "_childId": "c92d-39f9-4a9e-e505",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "3b5f-188e-d4b6-f639",
                               "_shared": "true"
                             }
                           ]
@@ -4740,6 +4780,14 @@
                               "_scope": "force",
                               "_childId": "c92d-39f9-4a9e-e505",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "3b5f-188e-d4b6-f639",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -4794,7 +4842,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "260"
+              "_value": "250"
             }
           },
           "_import": "true",
@@ -5128,6 +5176,14 @@
                               "_scope": "force",
                               "_childId": "c92d-39f9-4a9e-e505",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "3b5f-188e-d4b6-f639",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -5348,6 +5404,14 @@
                               "_field": "selections",
                               "_scope": "force",
                               "_childId": "c92d-39f9-4a9e-e505",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "3b5f-188e-d4b6-f639",
                               "_shared": "true"
                             }
                           ]
@@ -5570,6 +5634,14 @@
                               "_scope": "force",
                               "_childId": "c92d-39f9-4a9e-e505",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "3b5f-188e-d4b6-f639",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -5712,6 +5784,14 @@
                               "_scope": "force",
                               "_childId": "c92d-39f9-4a9e-e505",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "3b5f-188e-d4b6-f639",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -5766,7 +5846,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "140"
             }
           },
           "_import": "true",
@@ -5775,6 +5855,14 @@
           "_id": "d279-8ae8-f8e8-1be1",
           "_type": "selectionEntry",
           "_targetId": "8aed-ea87-e4c8-97ea"
+        },
+        {
+          "_import": "true",
+          "_name": "Skull Altar",
+          "_hidden": "false",
+          "_id": "2f8c-2a42-f2c6-9391",
+          "_type": "selectionEntry",
+          "_targetId": "f038-6876-40e8-5093"
         }
       ]
     },

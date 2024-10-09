@@ -300,7 +300,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "500"
+              "_value": "480"
             }
           },
           "_import": "true",
@@ -998,7 +998,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "420"
+              "_value": "400"
             }
           },
           "_import": "true",
@@ -2554,7 +2554,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "150"
             }
           },
           "_import": "true",
@@ -2733,7 +2733,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "150"
             }
           },
           "_import": "true",
@@ -2757,7 +2757,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "360"
+              "_value": "340"
             }
           },
           "constraints": {
@@ -2916,7 +2916,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "210"
+              "_value": "190"
             }
           },
           "_import": "true",
@@ -3063,7 +3063,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "230"
+              "_value": "210"
             }
           },
           "_import": "true",
@@ -3274,7 +3274,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "420"
+              "_value": "400"
             }
           },
           "_import": "true",
@@ -3298,7 +3298,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "500"
+              "_value": "480"
             }
           },
           "_import": "true",
@@ -4249,7 +4249,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "150"
             }
           },
           "_import": "true",
@@ -4335,7 +4335,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "150"
             }
           },
           "_import": "true",
@@ -4421,7 +4421,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "210"
+              "_value": "190"
             }
           },
           "_import": "true",
@@ -4445,7 +4445,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "230"
+              "_value": "210"
             }
           },
           "_import": "true",
@@ -4761,7 +4761,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "230"
+              "_value": "210"
             }
           },
           "entryLinks": {
@@ -4936,7 +4936,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "250"
+              "_value": "230"
             }
           },
           "entryLinks": {
@@ -5961,7 +5961,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "180"
+              "_value": "170"
             }
           },
           "entryLinks": {
@@ -6460,7 +6460,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "210"
+              "_value": "190"
             }
           },
           "entryLinks": {
@@ -9323,7 +9323,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "110"
             }
           },
           "entryLinks": {
@@ -9780,7 +9780,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "140"
             }
           },
           "entryLinks": {
@@ -10433,7 +10433,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "360"
+              "_value": "340"
             }
           },
           "entryLinks": {
@@ -10598,7 +10598,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "180"
+              "_value": "170"
             }
           },
           "_import": "true",
@@ -10704,6 +10704,14 @@
                               "_field": "selections",
                               "_scope": "force",
                               "_childId": "bca3-d729-f621-945c",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "a7c5-4587-7ce3-bcc7",
                               "_shared": "true"
                             }
                           ]
@@ -10978,7 +10986,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "150"
             }
           },
           "_import": "true",
@@ -11127,7 +11135,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "120"
             }
           },
           "entryLinks": {
@@ -11251,6 +11259,14 @@
                               "_field": "selections",
                               "_scope": "force",
                               "_childId": "bca3-d729-f621-945c",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "a7c5-4587-7ce3-bcc7",
                               "_shared": "true"
                             }
                           ]
@@ -11410,6 +11426,14 @@
                               "_field": "selections",
                               "_scope": "force",
                               "_childId": "bca3-d729-f621-945c",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "a7c5-4587-7ce3-bcc7",
                               "_shared": "true"
                             }
                           ]
@@ -11848,6 +11872,14 @@
                               "_field": "selections",
                               "_scope": "force",
                               "_childId": "bca3-d729-f621-945c",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "a7c5-4587-7ce3-bcc7",
                               "_shared": "true"
                             }
                           ]
@@ -12457,7 +12489,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "130"
             }
           },
           "entryLinks": {
@@ -14060,7 +14092,7 @@
                 "characteristic": [{
                     "_name": "Timing",
                     "_typeId": "736-6e3a-d0b5-a1b0",
-                    "__text": "Once Per Battle, Your Movement Phase"
+                    "__text": "Once Per Battle, Your Movement Phase"
                   },
                   {
                     "_name": "Cost",
@@ -14070,12 +14102,12 @@
                   {
                     "_name": "Declare",
                     "_typeId": "b77f-7548-840e-c086",
-                    "__text": "Pick a friendly non-**^^Unique Stormcast Eternals Infantry^^** or **^^Cavalry^^** unit that started the battle with 2 or more models and that has been destroyed to be the target."
+                    "__text": "Pick a friendly non-**^^Unique Stormcast Eternals Infantry^^** or **^^Cavalry^^** unit that started the battle with 2 or more models and that has been destroyed to be the target."
                   },
                   {
                     "_name": "Effect",
                     "_typeId": "2111-3ca8-61dd-a5f0",
-                    "__text": "Set up a replacement unit with half the number of models from the target unit (rounding up) more than 9\" from all enemy units."
+                    "__text": "Set up a replacement unit with half the number of models from the target unit (rounding up) more than 9\" from all enemy units."
                   },
                   {
                     "_name": "Keywords",
@@ -14099,12 +14131,12 @@
                   {
                     "_name": "Declare",
                     "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Pick a friendly **^^Stormcast Eternals^^** unit that has not used this ability this battle to use this ability"
+                    "__text": "Pick a friendly **^^Stormcast Eternals^^** unit that has not used this ability this battle to use this ability"
                   },
                   {
                     "_name": "Effect",
                     "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "For the rest of the turn, add 1 to wound rolls for that unit’s combat attacks and add 1 to save rolls for that unit."
+                    "__text": "For the rest of the turn, add 1 to wound rolls for that unit’s combat attacks and add 1 to save rolls for that unit."
                   },
                   {
                     "_name": "Keywords",
@@ -14128,12 +14160,12 @@
                   {
                     "_name": "Declare",
                     "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Pick a friendly **^^Stormcast Eternals^^** unit that is **in the Celestial Realm**."
+                    "__text": "Pick a friendly **^^Stormcast Eternals^^** unit that is **in the Celestial Realm**."
                   },
                   {
                     "_name": "Effect",
                     "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "Set up that unit anywhere on the battlefield more than 9\" from all enemy units."
+                    "__text": "Set up that unit anywhere on the battlefield more than 9\" from all enemy units."
                   },
                   {
                     "_name": "Keywords",
@@ -14157,12 +14189,12 @@
                   {
                     "_name": "Declare",
                     "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "If there are more friendly **^^Stormcast Eternals^^** units on the battlefield than there are set up in reserve, pick a friendly **^^Stormcast Eternals^^** unit that has not been deployed."
+                    "__text": "If there are more friendly **^^Stormcast Eternals^^** units on the battlefield than there are set up in reserve, pick a friendly **^^Stormcast Eternals^^** unit that has not been deployed."
                   },
                   {
                     "_name": "Effect",
                     "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "Set up that unit in reserve **in the Celestial Realm**. It has now been deployed."
+                    "__text": "Set up that unit in reserve **in the Celestial Realm**. It has now been deployed."
                   },
                   {
                     "_name": "Keywords",
@@ -14212,12 +14244,12 @@
                             {
                               "_name": "Declare",
                               "_typeId": "bad3-f9c5-ba46-18cb",
-                              "__text": "Pick an enemy unit in combat with this unit to be the target."
+                              "__text": "Pick an enemy unit in combat with this unit to be the target."
                             },
                             {
                               "_name": "Effect",
                               "_typeId": "b6f1-ba36-6cd-3b03",
-                              "__text": "Subtract 5 from the target’s control score for the rest of the turn."
+                              "__text": "Subtract 5 from the target’s control score for the rest of the turn."
                             },
                             {
                               "_name": "Keywords",
@@ -14387,22 +14419,21 @@
                       "characteristic": [{
                           "_name": "Timing",
                           "_typeId": "652c-3d84-4e7-14f4",
-                          "__text": "Once Per Turn (Army), Your Movement Phase"
+                          "__text": "Once Per Turn (Army), Your Movement Phase"
                         },
                         {
                           "_name": "Declare",
                           "_typeId": "bad3-f9c5-ba46-18cb",
-                          "__text": "Pick a friendly **^^Vanguard Chamber^^** unit that is not in combat."
+                          "__text": "Pick a friendly **^^Vanguard Chamber^^** unit that did not use a **^^Move^^** ability this turn and is not in combat."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "b6f1-ba36-6cd-3b03",
-                          "__text": "Roll a dice. On a 3+, remove that unit from the battlefield and set it up again anywhere on the battlefield more than 9\" from all enemy units."
+                          "__text": "Roll a dice. On a 3+, remove that unit from the battlefield and set it up again anywhere on the battlefield more than 9\" from all enemy units."
                         },
                         {
                           "_name": "Keywords",
-                          "_typeId": "12e8-3214-7d8f-1d0f",
-                          "__text": "**^^Core^^**"
+                          "_typeId": "12e8-3214-7d8f-1d0f"
                         },
                         {
                           "_name": "Used By",
@@ -14445,12 +14476,12 @@
                         {
                           "_name": "Declare",
                           "_typeId": "bad3-f9c5-ba46-18cb",
-                          "__text": "Pick a friendly **^^Ruination Chamber^^** unit."
+                          "__text": "Pick a friendly **^^Ruination Chamber^^** unit."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "b6f1-ba36-6cd-3b03",
-                          "__text": "That unit has **^^Ward (5+)^^** for the rest of the turn."
+                          "__text": "That unit has **^^Ward (5+)^^** for the rest of the turn."
                         },
                         {
                           "_name": "Keywords",
@@ -14492,7 +14523,7 @@
                         {
                           "_name": "Effect",
                           "_typeId": "fd7f-888d-3257-a12b",
-                          "__text": "Add 1 to hit rolls for combat attacks made by friendly **^^Warrior Chamber^^** units while they are wholly within 12\" of any friendly non-**^^Hero Stormcast Eternals^^** units that do not have the **^^Warrior Chamber^^** keyword."
+                          "__text": "Add 1 to hit rolls for combat attacks made by friendly **^^Warrior Chamber^^** units while they are wholly within 12\" of any friendly non-**^^Hero Stormcast Eternals^^** units that do not have the **^^Warrior Chamber^^** keyword."
                         }
                       ]
                     },
@@ -14531,7 +14562,7 @@
                         {
                           "_name": "Declare",
                           "_typeId": "bad3-f9c5-ba46-18cb",
-                          "__text": "Pick a friendly **^^Extremis Chamber^^** unit that charged this turn."
+                          "__text": "Pick a friendly **^^Extremis Chamber^^** unit that charged this turn."
                         },
                         {
                           "_name": "Effect",
@@ -14579,7 +14610,7 @@
                         {
                           "_name": "Declare",
                           "_typeId": "bad3-f9c5-ba46-18cb",
-                          "__text": "Pick a friendly **^^Sacrosanct Chamber^^** unit that had models slain in this turn to be the target."
+                          "__text": "Pick a friendly **^^Sacrosanct Chamber^^** unit that had models slain in this turn to be the target."
                         },
                         {
                           "_name": "Effect",
@@ -14644,7 +14675,7 @@
                             {
                               "_name": "Effect",
                               "_typeId": "fd7f-888d-3257-a12b",
-                              "__text": "While this unit is contesting an objective in friendly territory, add 3 to the control scores of all friendly **^^Stormcast Eternals^^** units contesting that objective."
+                              "__text": "While this unit is contesting an objective in friendly territory, add 3 to the control scores of all friendly **^^Stormcast Eternals^^** units contesting that objective."
                             }
                           ]
                         },
@@ -14684,12 +14715,12 @@
                             {
                               "_name": "Declare",
                               "_typeId": "bad3-f9c5-ba46-18cb",
-                              "__text": "If a friendly unit was destroyed in the previous turn, pick a visible friendly **^^Stormcast Eternals^^** unit wholly within 12\" of this unit to be the target."
+                              "__text": "If a friendly unit was destroyed in the previous turn, pick a visible friendly **^^Stormcast Eternals^^** unit wholly within 12\" of this unit to be the target."
                             },
                             {
                               "_name": "Effect",
                               "_typeId": "b6f1-ba36-6cd-3b03",
-                              "__text": "The target has **^^Ward (5+)^^** until the start of your next turn."
+                              "__text": "The target has **^^Ward (5+)^^** until the start of your next turn."
                             },
                             {
                               "_name": "Keywords",
@@ -14732,7 +14763,7 @@
                             {
                               "_name": "Effect",
                               "_typeId": "fd7f-888d-3257-a12b",
-                              "__text": "Each time a friendly **^^Stormcast Eternals^^** unit is set up wholly within 12\" of this unit using the ‘Scions of the Storm’ ability, subtract 1 from hit rolls for attacks that target that unit for the rest of the battle round."
+                              "__text": "Each time a friendly **^^Stormcast Eternals^^** unit is set up wholly within 12\" of this unit using the ‘Scions of the Storm’ ability, subtract 1 from hit rolls for attacks that target that unit for the rest of the battle round."
                             }
                           ]
                         },
@@ -14811,12 +14842,12 @@
                         {
                           "_name": "Declare",
                           "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "If there is not a friendly **Everblaze Comet** on the battlefield, pick a friendly **^^Stormcast Eternals Wizard^^** to cast this spell, then make a casting roll of 2D6."
+                          "__text": "If there is not a friendly **Everblaze Comet** on the battlefield, pick a friendly **^^Stormcast Eternals Wizard^^** to cast this spell, then make a casting roll of 2D6."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Set up an **Everblaze Comet** wholly within 18\" of the caster."
+                          "__text": "Set up an **Everblaze Comet** wholly within 18\" of the caster."
                         },
                         {
                           "_name": "Keywords",
@@ -14846,12 +14877,12 @@
                         {
                           "_name": "Declare",
                           "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "If there is not a friendly **Celestian Vortex** on the battlefield, pick a friendly **^^Stormcast Eternals Wizard^^** to cast this spell, then make a casting roll of 2D6."
+                          "__text": "If there is not a friendly **Celestian Vortex** on the battlefield, pick a friendly **^^Stormcast Eternals Wizard^^** to cast this spell, then make a casting roll of 2D6."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Set up a Celestian Vortex wholly within 18\" of the caster and more than 9\" from all enemy units."
+                          "__text": "Set up a Celestian Vortex wholly within 18\" of the caster and more than 9\" from all enemy units."
                         },
                         {
                           "_name": "Keywords",
@@ -14881,12 +14912,12 @@
                         {
                           "_name": "Declare",
                           "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "If there is not a friendly **Dais Arcanum** on the battlefield, pick a friendly **^^Stormcast Eternals Wizard^^** to cast this spell, pick a friendly Stormcast **^^Eternals Infantry Hero^^** that does not have **^^Fly^^** and is wholly within 12\" of them to be the target, then make a casting roll of 2D6."
+                          "__text": "If there is not a friendly **Dais Arcanum** on the battlefield, pick a friendly **^^Stormcast Eternals Wizard^^** to cast this spell, pick a friendly Stormcast **^^Eternals Infantry Hero^^** that does not have **^^Fly^^** and is wholly within 12\" of them to be the target, then make a casting roll of 2D6."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Set up a **Dais Arcanum** within ½\" of the target, visible to the caster and not in combat. Then, remove the target from the battlefield and place it on the platform of that **Dais Arcanum**."
+                          "__text": "Set up a **Dais Arcanum** within ½\" of the target, visible to the caster and not in combat. Then, remove the target from the battlefield and place it on the platform of that **Dais Arcanum**."
                         },
                         {
                           "_name": "Keywords",
@@ -15028,7 +15059,7 @@
                         {
                           "_name": "Declare",
                           "_typeId": "284c-90b2-245b-adf3",
-                          "__text": "Pick a friendly **^^Stormcast Eternals Priest^^** to chant this prayer, pick a visible friendly **^^Stormcast Eternals^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6."
+                          "__text": "Pick a friendly **^^Stormcast Eternals Priest^^** to chant this prayer, pick a visible friendly **^^Stormcast Eternals^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6."
                         },
                         {
                           "_name": "Effect",
@@ -15063,12 +15094,12 @@
                         {
                           "_name": "Declare",
                           "_typeId": "284c-90b2-245b-adf3",
-                          "__text": "Pick a friendly **^^Stormcast Eternals Priest^^** to chant this prayer, pick a visible friendly **^^Stormcast Eternals^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6."
+                          "__text": "Pick a friendly **^^Stormcast Eternals Priest^^** to chant this prayer, pick a visible friendly **^^Stormcast Eternals^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "6219-6fcc-5ae2-a6b7",
-                          "__text": "Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units. In addition, if the chanting roll was 8+, subtract 1 from hit rolls for attacks that target that unit for the rest of the battle round."
+                          "__text": "Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units. In addition, if the chanting roll was 8+, subtract 1 from hit rolls for attacks that target that unit for the rest of the battle round."
                         },
                         {
                           "_name": "Keywords",
@@ -15098,12 +15129,12 @@
                         {
                           "_name": "Declare",
                           "_typeId": "284c-90b2-245b-adf3",
-                          "__text": "Pick a friendly **^^Stormcast Eternals Priest^^** to chant this prayer, pick a visible friendly **^^Stormcast Eternals Infantry^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6."
+                          "__text": "Pick a friendly **^^Stormcast Eternals Priest^^** to chant this prayer, pick a visible friendly **^^Stormcast Eternals Infantry^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "6219-6fcc-5ae2-a6b7",
-                          "__text": "Add 1 to the Attacks characteristic of the target’s melee weapons until the start of your next turn. If the chanting roll was 12+, this ability affects all visible friendly **^^Stormcast Eternals^^** units wholly within 12\" of the chanter."
+                          "__text": "Add 1 to the Attacks characteristic of the target’s melee weapons until the start of your next turn. If the chanting roll was 12+, this ability affects all visible friendly **^^Stormcast Eternals^^** units wholly within 12\" of the chanter."
                         },
                         {
                           "_name": "Keywords",
@@ -15173,7 +15204,7 @@
                         {
                           "_name": "Declare",
                           "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Stormcast Eternals Wizard^^** to cast this spell, then pick the closest visible enemy unit to them that has not been picked to be the target of this ability this turn to be the target. If 2 or more visible enemy units are tied to be the closest, you can pick which is the target. Then, make a casting roll of 2D6."
+                          "__text": "Pick a friendly **^^Stormcast Eternals Wizard^^** to cast this spell, then pick the closest visible enemy unit to them that has not been picked to be the target of this ability this turn to be the target. If 2 or more visible enemy units are tied to be the closest, you can pick which is the target. Then, make a casting roll of 2D6."
                         },
                         {
                           "_name": "Effect",
@@ -15208,12 +15239,12 @@
                         {
                           "_name": "Declare",
                           "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Stormcast Eternals Wizard^^** to cast this spell, picka visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6."
+                          "__text": "Pick a friendly **^^Stormcast Eternals Wizard^^** to cast this spell, picka visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Subtract 1 from wound rolls for the target’s attacks until the start of your next turn."
+                          "__text": "Subtract 1 from wound rolls for the target’s attacks until the start of your next turn."
                         },
                         {
                           "_name": "Keywords",
@@ -15243,12 +15274,12 @@
                         {
                           "_name": "Declare",
                           "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Stormcast Eternals Wizard^^** to cast this spell, pick a visible enemy **^^Infantry^^** or **^^Cavalry^^** unit within 18\" of them to be the target, then make a casting roll of 2D6."
+                          "__text": "Pick a friendly **^^Stormcast Eternals Wizard^^** to cast this spell, pick a visible enemy **^^Infantry^^** or **^^Cavalry^^** unit within 18\" of them to be the target, then make a casting roll of 2D6."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1."
+                          "__text": "Until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1."
                         },
                         {
                           "_name": "Keywords",

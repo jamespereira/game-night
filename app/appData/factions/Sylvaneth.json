@@ -146,7 +146,7 @@
                         {
                           "_name": "Effect",
                           "_typeId": "1cb9-a-1345-907f",
-                          "__text": "If there are fewer than 3 friendly **Awakened Wyldwoods** on the battlefield, you can set up an **Awakened Wyldwood** wholly within 18\" of the caster and more than 3\" from all enemy units, objectives and other terrain features. If there are already 3 friendly **Awakened Wyldwoods** on the battlefield, **Heal (3)** each friendly **Awakened Wyldwood**."
+                          "__text": "If there are fewer than 3 friendly **Awakened Wyldwoods** on the battlefield, you can set up an **Awakened Wyldwood** wholly within 24\" of the caster, more than 3\" from all objectives and more than 1\" from all enemy units and other terrain features. If there are already 3 friendly **Awakened Wyldwoods** on the battlefield, **Heal (3)** each friendly **Awakened Wyldwood**."
                         },
                         {
                           "_name": "Keywords",
@@ -1029,7 +1029,7 @@
               },
               "_type": "upgrade",
               "_import": "true",
-              "_name": "Horrors of the Necropolis",
+              "_name": "Manifestations of the Deepwood",
               "_hidden": "false",
               "_id": "ddb7-c347-7c88-a2e9"
             }
@@ -1126,7 +1126,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "150"
             }
           },
           "entryLinks": {
@@ -1192,7 +1192,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "330"
+              "_value": "350"
             }
           },
           "_import": "true",
@@ -1239,7 +1239,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "310"
+              "_value": "290"
             }
           },
           "_import": "true",
@@ -1465,7 +1465,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "210"
+              "_value": "200"
             }
           },
           "entryLinks": {
@@ -1667,7 +1667,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "320"
+              "_value": "280"
             }
           },
           "entryLinks": {
@@ -1725,7 +1725,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "150"
             }
           },
           "entryLinks": {
@@ -1777,7 +1777,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "330"
+              "_value": "350"
             }
           },
           "_import": "true",
@@ -1844,7 +1844,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "310"
+              "_value": "290"
             }
           },
           "_import": "true",
@@ -1978,7 +1978,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "320"
+              "_value": "280"
             }
           },
           "entryLinks": {
@@ -2021,7 +2021,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "210"
+              "_value": "200"
             }
           },
           "entryLinks": {
@@ -3796,6 +3796,15 @@
           "_targetId": "57ce-ad2e-d412-37f5"
         },
         {
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "WARD (5+)",
+              "_hidden": "false",
+              "_id": "b508-e964-727b-7af6",
+              "_targetId": "52cc-95fd-6cd3-8f72",
+              "_primary": "false"
+            }
+          },
           "_import": "true",
           "_name": "Awakened Wyldwood",
           "_hidden": "false",

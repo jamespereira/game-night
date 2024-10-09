@@ -26,11 +26,15 @@
                   {
                     "_name": "Effect",
                     "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "The targets have the **^^Euphoric^^** keyword for the rest of the battle round.\nIn addition, for each friendly unit you pick, give your opponent 1 temptation dice. Your opponent can use 1 temptation dice to replace 1 wound roll, 1 save roll, 1 ward roll or 1 run roll for a unit in their army with a 6, or they can use 2 temptation dice to replace 2 of the dice in a charge roll for a unit in their army with two 6s.\nEach time your opponent uses a temptation dice, they must roll it. On a 1-2, inflict D3 mortal damage on the unit for which the roll was replaced immediately after the ability used by that unit has been resolved. At the end of the battle round, any temptation dice that have not been used are lost."
+                    "__text": "The targets have the **^^Euphoric^^** keyword for the rest of the battle round.\nIn addition, for each friendly unit you pick, give your opponent 1 temptation dice. Your opponent can use 1 temptation dice to replace 1 wound roll, 1 save roll, 1 ward roll or 1 run roll for a unit in their army with a 6, or they can use 2 temptation dice to replace 2 of the dice in a charge roll for a unit in their army with two 6s.\n\nEach time your opponent uses a **temptation dice**, they must roll it. On a 1-2, your opponent’s roll is replaced by that value instead of a 6, and you must allocate D3 damage points to the unit for which the roll was replaced immediately after the ability used by that unit has been resolved (ward rolls cannot be made for those damage points).\nAt the end of the battle round, any temptation dice that have not been used are lost."
                   },
                   {
                     "_name": "Keywords",
                     "_typeId": "12e8-3214-7d8f-1d0f"
+                  },
+                  {
+                    "_name": "Used By",
+                    "_typeId": "1b32-c9d6-3106-166b"
                   }
                 ]
               },
@@ -1020,7 +1024,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "220"
+              "_value": "190"
             }
           },
           "_import": "true",
@@ -1086,7 +1090,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "200"
+              "_value": "180"
             }
           },
           "_import": "true",
@@ -1989,7 +1993,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "250"
+              "_value": "220"
             }
           },
           "_import": "true",
@@ -2368,7 +2372,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "220"
+              "_value": "190"
             }
           },
           "_import": "true",
@@ -2411,7 +2415,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "200"
+              "_value": "180"
             }
           },
           "_import": "true",
@@ -2746,7 +2750,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "250"
+              "_value": "220"
             }
           },
           "_import": "true",
@@ -2948,7 +2952,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "150"
             }
           },
           "_import": "true",
@@ -3959,7 +3963,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "180"
+              "_value": "160"
             }
           },
           "_import": "true",
@@ -4355,7 +4359,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "100"
             }
           },
           "_import": "true",
@@ -4894,7 +4898,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "130"
             }
           },
           "_import": "true",
@@ -5045,7 +5049,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "180"
+              "_value": "190"
             }
           },
           "_import": "true",

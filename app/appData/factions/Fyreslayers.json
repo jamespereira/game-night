@@ -1115,7 +1115,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -1445,7 +1445,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "340"
+              "_value": "320"
             }
           },
           "_import": "true",
@@ -1511,7 +1511,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -1643,7 +1643,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "100"
             }
           },
           "_import": "true",
@@ -1795,7 +1795,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "90"
             }
           },
           "_import": "true",
@@ -1861,7 +1861,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "130"
             }
           },
           "_import": "true",
@@ -2099,7 +2099,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -2314,7 +2314,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "340"
+              "_value": "320"
             }
           },
           "_import": "true",
@@ -2357,7 +2357,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -2443,7 +2443,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "100"
             }
           },
           "_import": "true",
@@ -2486,7 +2486,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "90"
             }
           },
           "_import": "true",
@@ -2529,7 +2529,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "130"
             }
           },
           "_import": "true",

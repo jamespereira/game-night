@@ -189,7 +189,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -1006,7 +1006,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "110"
             }
           },
           "_import": "true",
@@ -1072,7 +1072,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -1191,7 +1191,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "100"
             }
           },
           "modifierGroups": {
@@ -1391,7 +1391,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -1563,7 +1563,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -1673,7 +1673,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "110"
             }
           },
           "_import": "true",
@@ -1764,7 +1764,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "100"
             }
           },
           "_import": "true",
@@ -3408,56 +3408,72 @@
                     "conditionGroup": {
                       "conditions": {
                         "condition": [{
-                            "_type": "atLeast",
-                            "_value": "0",
+                            "_type": "lessThan",
+                            "_value": "1",
                             "_field": "selections",
                             "_scope": "force",
                             "_childId": "451a-5dc8-e4f8-f23d",
                             "_shared": "true"
                           },
                           {
-                            "_type": "atLeast",
-                            "_value": "0",
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "7d57-86d5-bfa-c539",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
                             "_field": "selections",
                             "_scope": "force",
                             "_childId": "4cd-a82-97ba-ff0b",
                             "_shared": "true"
                           },
                           {
-                            "_type": "atLeast",
-                            "_value": "0",
+                            "_type": "lessThan",
+                            "_value": "1",
                             "_field": "selections",
                             "_scope": "force",
                             "_childId": "e41b-e434-8156-666e",
                             "_shared": "true"
                           },
                           {
-                            "_type": "atLeast",
-                            "_value": "0",
+                            "_type": "lessThan",
+                            "_value": "1",
                             "_field": "selections",
                             "_scope": "force",
                             "_childId": "e19f-a548-4662-d116",
                             "_shared": "true"
                           },
                           {
-                            "_type": "atLeast",
-                            "_value": "0",
+                            "_type": "lessThan",
+                            "_value": "1",
                             "_field": "selections",
                             "_scope": "force",
                             "_childId": "fa1b-28f9-fc38-f239",
                             "_shared": "true"
                           },
                           {
-                            "_type": "atLeast",
-                            "_value": "0",
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "4af6-6698-6c21-2bcd",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
                             "_field": "selections",
                             "_scope": "force",
                             "_childId": "4555-2307-1f89-272f",
                             "_shared": "true"
                           },
                           {
-                            "_type": "atLeast",
-                            "_value": "0",
+                            "_type": "lessThan",
+                            "_value": "1",
                             "_field": "selections",
                             "_scope": "force",
                             "_childId": "2bca-d174-5c9a-fe95",
@@ -3465,7 +3481,7 @@
                           }
                         ]
                       },
-                      "_type": "or"
+                      "_type": "and"
                     }
                   },
                   "conditions": {
@@ -3490,7 +3506,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "280"
+              "_value": "260"
             }
           },
           "_import": "true",
@@ -3509,56 +3525,72 @@
                     "conditionGroup": {
                       "conditions": {
                         "condition": [{
-                            "_type": "atLeast",
-                            "_value": "0",
+                            "_type": "lessThan",
+                            "_value": "1",
                             "_field": "selections",
                             "_scope": "force",
                             "_childId": "451a-5dc8-e4f8-f23d",
                             "_shared": "true"
                           },
                           {
-                            "_type": "atLeast",
-                            "_value": "0",
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "7d57-86d5-bfa-c539",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
                             "_field": "selections",
                             "_scope": "force",
                             "_childId": "4cd-a82-97ba-ff0b",
                             "_shared": "true"
                           },
                           {
-                            "_type": "atLeast",
-                            "_value": "0",
+                            "_type": "lessThan",
+                            "_value": "1",
                             "_field": "selections",
                             "_scope": "force",
                             "_childId": "e41b-e434-8156-666e",
                             "_shared": "true"
                           },
                           {
-                            "_type": "atLeast",
-                            "_value": "0",
+                            "_type": "lessThan",
+                            "_value": "1",
                             "_field": "selections",
                             "_scope": "force",
                             "_childId": "e19f-a548-4662-d116",
                             "_shared": "true"
                           },
                           {
-                            "_type": "atLeast",
-                            "_value": "0",
+                            "_type": "lessThan",
+                            "_value": "1",
                             "_field": "selections",
                             "_scope": "force",
                             "_childId": "fa1b-28f9-fc38-f239",
                             "_shared": "true"
                           },
                           {
-                            "_type": "atLeast",
-                            "_value": "0",
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "4af6-6698-6c21-2bcd",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
                             "_field": "selections",
                             "_scope": "force",
                             "_childId": "4555-2307-1f89-272f",
                             "_shared": "true"
                           },
                           {
-                            "_type": "atLeast",
-                            "_value": "0",
+                            "_type": "lessThan",
+                            "_value": "1",
                             "_field": "selections",
                             "_scope": "force",
                             "_childId": "2bca-d174-5c9a-fe95",
@@ -3566,7 +3598,7 @@
                           }
                         ]
                       },
-                      "_type": "or"
+                      "_type": "and"
                     }
                   },
                   "conditions": {
@@ -3591,7 +3623,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "290"
+              "_value": "270"
             }
           },
           "_import": "true",

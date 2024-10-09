@@ -21,12 +21,12 @@
                   {
                     "_name": "Declare",
                     "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Pick each friendly **^^Bonesplitterz Wizard^^** and **^^Bonesplitterz Priest^^** to be the targets."
+                    "__text": "Pick each friendly **^^Bonesplitterz Wizard^^** and **^^Bonesplitterz Priest^^** to be the targets."
                   },
                   {
                     "_name": "Effect",
                     "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "Add 1 to the power level of each target for the rest of the turn. In addition, friendly **^^Bonesplitterz^^** units have **^^Ward (6+) for the rest of the turn."
+                    "__text": "Add 1 to the power level of each target for the rest of the turn. In addition, friendly **^^Bonesplitterz^^** units have **^^Ward (6+) for the rest of the turn."
                   },
                   {
                     "_name": "Keywords",
@@ -55,12 +55,12 @@
                   {
                     "_name": "Declare",
                     "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Pick up to 3 friendly **^^Bonesplitterz^^** units to be the targets."
+                    "__text": "Pick up to 3 friendly **^^Bonesplitterz^^** units to be the targets."
                   },
                   {
                     "_name": "Effect",
                     "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "For the rest of the battle, add 1 to the Attacks characteristic of each target’s melee weapons while it is in combat with an enemy unit that charged in the same turn, and so long as the target has not charged during the battle."
+                    "__text": "For the rest of the battle, add 1 to the Attacks characteristic of each target’s melee weapons while it is in combat with an enemy unit that charged in the same turn, and so long as the target has not charged during the battle."
                   },
                   {
                     "_name": "Keywords",
@@ -88,12 +88,12 @@
                   {
                     "_name": "Declare",
                     "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Pick a friendly **^^Bonesplitterz^^** unit in combat with an enemy **^^Monster^^** to be the target."
+                    "__text": "Pick a friendly **^^Bonesplitterz^^** unit in combat with an enemy **^^Monster^^** to be the target."
                   },
                   {
                     "_name": "Effect",
                     "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "For the rest of the turn, add 1 to wound rolls for the target’s combat attacks and add 1 to save rolls for the target."
+                    "__text": "For the rest of the turn, add 1 to wound rolls for the target’s combat attacks and add 1 to save rolls for the target."
                   },
                   {
                     "_name": "Keywords",
@@ -120,7 +120,7 @@
                   {
                     "_name": "Effect",
                     "_typeId": "fd7f-888d-3257-a12b",
-                    "__text": "Add 1 to wound rolls for friendly **^^Bonesplitterz^^** units that charged in the same turn."
+                    "__text": "Add 1 to wound rolls for friendly **^^Bonesplitterz^^** units that charged in the same turn."
                   }
                 ]
               },
@@ -647,6 +647,14 @@
                             "_scope": "force",
                             "_childId": "44d4-2fa1-cada-7ec4",
                             "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "8f3e-78b7-0d64-b325",
+                            "_shared": "true"
                           }
                         ]
                       },
@@ -723,6 +731,14 @@
                             "_field": "selections",
                             "_scope": "force",
                             "_childId": "44d4-2fa1-cada-7ec4",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "8f3e-78b7-0d64-b325",
                             "_shared": "true"
                           }
                         ]
@@ -801,6 +817,14 @@
                             "_scope": "force",
                             "_childId": "44d4-2fa1-cada-7ec4",
                             "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "8f3e-78b7-0d64-b325",
+                            "_shared": "true"
                           }
                         ]
                       },
@@ -877,6 +901,14 @@
                             "_field": "selections",
                             "_scope": "force",
                             "_childId": "44d4-2fa1-cada-7ec4",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "8f3e-78b7-0d64-b325",
                             "_shared": "true"
                           }
                         ]
@@ -955,6 +987,14 @@
                             "_scope": "force",
                             "_childId": "44d4-2fa1-cada-7ec4",
                             "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "8f3e-78b7-0d64-b325",
+                            "_shared": "true"
                           }
                         ]
                       },
@@ -1031,6 +1071,14 @@
                             "_field": "selections",
                             "_scope": "force",
                             "_childId": "44d4-2fa1-cada-7ec4",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "8f3e-78b7-0d64-b325",
                             "_shared": "true"
                           }
                         ]
@@ -1143,6 +1191,14 @@
                               "_scope": "force",
                               "_childId": "44d4-2fa1-cada-7ec4",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "8f3e-78b7-0d64-b325",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -1181,6 +1237,77 @@
           "_id": "50a5-a941-12a8-a70c",
           "_type": "selectionEntry",
           "_targetId": "6259-3dda-45b2-5380"
+        },
+        {
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "e841-bfbe-db20-0ee4"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditionGroups": {
+                "conditionGroup": {
+                  "conditions": {
+                    "condition": {
+                      "_type": "instanceOf",
+                      "_value": "1",
+                      "_field": "selections",
+                      "_scope": "ancestor",
+                      "_childId": "376a-6b97-8699-dd59",
+                      "_shared": "true"
+                    }
+                  },
+                  "_type": "and"
+                }
+              },
+              "_type": "set",
+              "_value": "true",
+              "_field": "hidden"
+            }
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "580"
+            }
+          },
+          "_import": "true",
+          "_name": "Kragnos, the End of Empires",
+          "_hidden": "false",
+          "_id": "1572-342c-98e1-a68b",
+          "_type": "selectionEntry",
+          "_targetId": "62b3-9802-6d16-32c1"
+        },
+        {
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Regimental Leader",
+              "_hidden": "false",
+              "_id": "8ea1-c205-eb2d-a00c",
+              "_targetId": "d1f3-921c-b403-1106",
+              "_primary": "true"
+            }
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "580"
+            }
+          },
+          "_import": "true",
+          "_name": "Kragnos, the End of Empires",
+          "_hidden": "false",
+          "_id": "8f3e-78b7-0d64-b325",
+          "_type": "selectionEntry",
+          "_targetId": "62b3-9802-6d16-32c1"
         }
       ]
     },
@@ -1204,12 +1331,12 @@
                         {
                           "_name": "Declare",
                           "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Bonesplitterz Wizard^^** to cast this spell, pick a visible friendly unit wholly within 12\" of them to be the target, then make a casting roll of 2D6."
+                          "__text": "Pick a friendly **^^Bonesplitterz Wizard^^** to cast this spell, pick a visible friendly unit wholly within 12\" of them to be the target, then make a casting roll of 2D6."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Add 1 to the Rend characteristic of the target’s melee weapons until the start of your next turn, including **Companion** weapons."
+                          "__text": "Add 1 to the Rend characteristic of the target’s melee weapons until the start of your next turn, including **Companion** weapons."
                         },
                         {
                           "_name": "Keywords",
@@ -1239,12 +1366,12 @@
                         {
                           "_name": "Declare",
                           "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Bonesplitterz Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6."
+                          "__text": "Pick a friendly **^^Bonesplitterz Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target."
+                          "__text": "Roll a dice for each model in the target unit. For each 5+, inflict 1 mortal damage on the target."
                         },
                         {
                           "_name": "Keywords",
@@ -1274,12 +1401,12 @@
                         {
                           "_name": "Declare",
                           "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Bonesplitterz Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6."
+                          "__text": "Pick a friendly **^^Bonesplitterz Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1."
+                          "__text": "Until the start of your next turn, subtract 1 from the number of dice rolled when making charge rolls for the target, to a minimum of 1."
                         },
                         {
                           "_name": "Keywords",
@@ -1346,7 +1473,7 @@
                             {
                               "_name": "Effect",
                               "_typeId": "fd7f-888d-3257-a12b",
-                              "__text": "If this unit would be destroyed, before removing it from play, roll a dice. On a 3+, this unit is not destroyed and any remaining damage points inflicted on it have no effect. Then, **Heal (1)** this unit. This unit cannot use this ability again for the rest of the battle."
+                              "__text": "If this unit would be destroyed, before removing it from play, roll a dice. On a 3+, this unit is not destroyed and any remaining damage points inflicted on it have no effect. Then, **Heal (1)** this unit. This unit cannot use this ability again for the rest of the battle."
                             }
                           ]
                         },
@@ -1386,7 +1513,7 @@
                             {
                               "_name": "Effect",
                               "_typeId": "fd7f-888d-3257-a12b",
-                              "__text": "This unit has **^^Strike-first^^** while it is in combat with an enemy **^^Beast^^** or **^^Monster^^**."
+                              "__text": "This unit has **^^Strike-first^^** while it is in combat with an enemy **^^Beast^^** or **^^Monster^^**."
                             }
                           ]
                         },
@@ -1510,7 +1637,7 @@
                         {
                           "_name": "Effect",
                           "_typeId": "fd7f-888d-3257-a12b",
-                          "__text": "Ward rolls cannot be made for enemy units while they are within the combat range of any friendly **^^Bonesplitterz Heroes^^**."
+                          "__text": "Ward rolls cannot be made for enemy units while they are within the combat range of any friendly **^^Bonesplitterz Heroes^^**."
                         }
                       ]
                     },
@@ -1550,12 +1677,12 @@
                         {
                           "_name": "Declare",
                           "_typeId": "bad3-f9c5-ba46-18cb",
-                          "__text": "Pick an enemy unit on the battlefield to be the target."
+                          "__text": "Pick an enemy unit on the battlefield to be the target."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "b6f1-ba36-6cd-3b03",
-                          "__text": "For the rest of the turn, hit rolls for shooting attacks made by friendly **^^Savage Orruk Arrowboys^^** units that target the target unit score critical hits on unmodified hit rolls of 5+."
+                          "__text": "For the rest of the turn, hit rolls for shooting attacks made by friendly **^^Savage Orruk Arrowboys^^** units that target the target unit score critical hits on unmodified hit rolls of 5+."
                         },
                         {
                           "_name": "Keywords",
@@ -1602,7 +1729,7 @@
                         {
                           "_name": "Effect",
                           "_typeId": "fd7f-888d-3257-a12b",
-                          "__text": "Friendly **^^Bonesplitterz Cavalry^^** units have **Anti-charge (+1 Rend)**."
+                          "__text": "Friendly **^^Bonesplitterz Cavalry^^** units have **Anti-charge (+1 Rend)**."
                         }
                       ]
                     },
@@ -1641,7 +1768,7 @@
                         {
                           "_name": "Effect",
                           "_typeId": "fd7f-888d-3257-a12b",
-                          "__text": "Half the friendly non-**^^Hero Bonesplitterz Infantry^^** units on the battlefield (rounding up) can immediately use the ‘Normal Move’ ability as if it were your movement phase."
+                          "__text": "Half the friendly non-**^^Hero Bonesplitterz Infantry^^** units on the battlefield (rounding up) can immediately use the ‘Normal Move’ ability as if it were your movement phase."
                         }
                       ]
                     },
@@ -1738,7 +1865,7 @@
                             {
                               "_name": "Effect",
                               "_typeId": "b6f1-ba36-6cd-3b03",
-                              "__text": "Instead of making a casting roll for this unit, you can use a value of 6 for the roll that cannot be modified."
+                              "__text": "Instead of making a casting roll for this unit, you can use a value of 6 for the roll that cannot be modified."
                             },
                             {
                               "_name": "Keywords",
@@ -1871,7 +1998,7 @@
                         {
                           "_name": "Effect",
                           "_typeId": "6219-6fcc-5ae2-a6b7",
-                          "__text": "Add 1 to charge rolls and run rolls for the target for the rest of the turn. If the chanting roll was 7+, in addition, for the rest of the turn, the target can use **^^Charge^^** abilities even if it used a **^^Run^^** or **^^Retreat^^** ability in the same turn."
+                          "__text": "Add 1 to charge rolls and run rolls for the target for the rest of the turn. If the chanting roll was 7+, in addition, for the rest of the turn, the target can use **^^Charge^^** abilities even if it used a **^^Run^^** or **^^Retreat^^** ability in the same turn."
                         },
                         {
                           "_name": "Keywords",
@@ -1901,12 +2028,12 @@
                         {
                           "_name": "Declare",
                           "_typeId": "284c-90b2-245b-adf3",
-                          "__text": "Pick a friendly **^^Bonesplitterz Priest^^** to chant this prayer. Then make a chanting roll of D6."
+                          "__text": "Pick a friendly **^^Bonesplitterz Priest^^** to chant this prayer. Then make a chanting roll of D6."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "6219-6fcc-5ae2-a6b7",
-                          "__text": "Subtract 1 from chanting rolls and casting rolls for enemy **^^Priests^^** and **^^Wizards^^** while they are within 18\" of the chanter until the start of your next turn. \nIn addition, if the chanting roll was 11+, enemy **^^Priests^^** within 18\" of the chanter each lose D6 ritual points and enemy **^^Wizards^^** cannot use **^^Unbind^^** abilities while they are within 18\" of the chanter until the start of your next turn."
+                          "__text": "Subtract 1 from chanting rolls and casting rolls for enemy **^^Priests^^** and **^^Wizards^^** while they are within 18\" of the chanter until the start of your next turn. \nIn addition, if the chanting roll was 11+, enemy **^^Priests^^** within 18\" of the chanter each lose D6 ritual points and enemy **^^Wizards^^** cannot use **^^Unbind^^** abilities while they are within 18\" of the chanter until the start of your next turn."
                         },
                         {
                           "_name": "Keywords",
@@ -1936,12 +2063,12 @@
                         {
                           "_name": "Declare",
                           "_typeId": "284c-90b2-245b-adf3",
-                          "__text": "Pick a friendly **^^Bonesplitterz Priest^^** to chant this prayer, pick a visible friendly **^^Bonesplitterz^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6."
+                          "__text": "Pick a friendly **^^Bonesplitterz Priest^^** to chant this prayer, pick a visible friendly **^^Bonesplitterz^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "6219-6fcc-5ae2-a6b7",
-                          "__text": "**Heal (3)** the target unit or return a number of slain models to it with a combined Health characteristic of up to 3. If the chanting roll for this prayer was 9+, instead, **Heal (6)** the target unit or return a number of slain models to it with a combined Health characteristic of up to 6."
+                          "__text": "**Heal (3)** the target unit or return a number of slain models to it with a combined Health characteristic of up to 3. If the chanting roll for this prayer was 9+, instead, **Heal (6)** the target unit or return a number of slain models to it with a combined Health characteristic of up to 6."
                         },
                         {
                           "_name": "Keywords",

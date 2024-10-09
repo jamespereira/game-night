@@ -817,7 +817,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "130"
             }
           },
           "_import": "true",
@@ -1066,7 +1066,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "290"
+              "_value": "270"
             }
           },
           "_import": "true",
@@ -1202,7 +1202,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "90"
             }
           },
           "_import": "true",
@@ -1249,7 +1249,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "180"
+              "_value": "160"
             }
           },
           "_import": "true",
@@ -1564,7 +1564,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "130"
             }
           },
           "_import": "true",
@@ -1674,7 +1674,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "290"
+              "_value": "270"
             }
           },
           "_import": "true",
@@ -1717,7 +1717,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "90"
             }
           },
           "_import": "true",
@@ -1741,7 +1741,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "180"
+              "_value": "160"
             }
           },
           "_import": "true",
@@ -1962,7 +1962,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "100"
             }
           },
           "_import": "true",
@@ -2523,7 +2523,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -2736,7 +2736,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "200"
+              "_value": "180"
             }
           },
           "_import": "true",
@@ -3021,7 +3021,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "140"
             }
           },
           "_import": "true",
@@ -3155,6 +3155,25 @@
           "_id": "e23b-b58f-2c22-eacb",
           "_type": "selectionEntry",
           "_targetId": "f8f4-d0c6-cf7c-071d"
+        },
+        {
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "1",
+              "_field": "selections",
+              "_scope": "roster",
+              "_shared": "true",
+              "_id": "8f14-2f05-bebb-2d44",
+              "_includeChildSelections": "true"
+            }
+          },
+          "_import": "true",
+          "_name": "Battle Traits: Kharadron Overlords",
+          "_hidden": "false",
+          "_id": "5113-2b39-878f-7d46",
+          "_type": "selectionEntry",
+          "_targetId": "8b5f-e3cf-35c2-fa90"
         }
       ]
     },
@@ -3166,53 +3185,95 @@
       }
     },
     "selectionEntries": {
-      "selectionEntry": {
-        "entryLinks": {
-          "entryLink": {
-            "_import": "true",
-            "_name": "Manifestation Lores",
-            "_hidden": "false",
-            "_id": "e0c1-4e89-a437-0987",
-            "_type": "selectionEntryGroup",
-            "_targetId": "748f-5d65-2d45-95c5",
-            "_flatten": "true"
-          }
+      "selectionEntry": [{
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Manifestation Lores",
+              "_hidden": "false",
+              "_id": "e0c1-4e89-a437-0987",
+              "_type": "selectionEntryGroup",
+              "_targetId": "748f-5d65-2d45-95c5",
+              "_flatten": "true"
+            }
+          },
+          "constraints": {
+            "constraint": [{
+                "_type": "max",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "roster",
+                "_shared": "true",
+                "_id": "8c92-81b0-55ba-fd71"
+              },
+              {
+                "_type": "max",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "self",
+                "_shared": "true",
+                "_id": "ae6f-40ae-f321-f842"
+              }
+            ]
+          },
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Army Composition",
+              "_hidden": "false",
+              "_id": "4dcb-46cd-4171-9432",
+              "_targetId": "ac97-b27c-7e35-7ab9",
+              "_primary": "true"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Manifestation Lore",
+          "_hidden": "false",
+          "_id": "6429-d7aa-e387-1c8c",
+          "_defaultAmount": "1"
         },
-        "constraints": {
-          "constraint": [{
+        {
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Formations: Kharadron Overlords",
+              "_hidden": "false",
+              "_id": "a8fe-3a9b-b088-76c3",
+              "_type": "selectionEntryGroup",
+              "_targetId": "13b2-a225-cd17-4b96",
+              "_collective": "false",
+              "_flatten": "true"
+            }
+          },
+          "constraints": {
+            "constraint": {
               "_type": "max",
               "_value": "1",
               "_field": "selections",
               "_scope": "roster",
               "_shared": "true",
-              "_id": "8c92-81b0-55ba-fd71"
-            },
-            {
-              "_type": "max",
-              "_value": "1",
-              "_field": "selections",
-              "_scope": "self",
-              "_shared": "true",
-              "_id": "ae6f-40ae-f321-f842"
+              "_id": "8266-783d-d221-fc75",
+              "_includeChildSelections": "true",
+              "_includeChildForces": "true"
             }
-          ]
-        },
-        "categoryLinks": {
-          "categoryLink": {
-            "_name": "Army Composition",
-            "_hidden": "false",
-            "_id": "4dcb-46cd-4171-9432",
-            "_targetId": "ac97-b27c-7e35-7ab9",
-            "_primary": "true"
-          }
-        },
-        "_type": "upgrade",
-        "_import": "true",
-        "_name": "Manifestation Lore",
-        "_hidden": "false",
-        "_id": "6429-d7aa-e387-1c8c",
-        "_defaultAmount": "1"
-      }
+          },
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Army Composition",
+              "_hidden": "false",
+              "_id": "086d-7875-906c-1ba5",
+              "_targetId": "ac97-b27c-7e35-7ab9",
+              "_primary": "true"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Battle Formation",
+          "_hidden": "false",
+          "_id": "ba87-3612-e355-673b",
+          "_defaultAmount": "1"
+        }
+      ]
     },
     "_xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "_library": "false",

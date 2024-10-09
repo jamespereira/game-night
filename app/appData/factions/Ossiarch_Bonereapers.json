@@ -54,7 +54,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "130"
             }
           },
           "_import": "true",
@@ -91,7 +91,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "190"
+              "_value": "170"
             }
           },
           "_import": "true",
@@ -242,7 +242,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -600,120 +600,191 @@
             ]
           },
           "modifiers": {
-            "modifier": {
-              "conditionGroups": {
-                "conditionGroup": {
-                  "conditionGroups": {
-                    "conditionGroup": {
-                      "conditions": {
-                        "condition": [{
-                            "_type": "lessThan",
-                            "_value": "1",
-                            "_field": "selections",
-                            "_scope": "force",
-                            "_childId": "f251-90be-5e0d-e76e",
-                            "_shared": "true"
-                          },
-                          {
-                            "_type": "lessThan",
-                            "_value": "1",
-                            "_field": "selections",
-                            "_scope": "force",
-                            "_childId": "d622-6a8f-a4-9f14",
-                            "_shared": "true"
-                          },
-                          {
-                            "_type": "lessThan",
-                            "_value": "1",
-                            "_field": "selections",
-                            "_scope": "force",
-                            "_childId": "4587-ae29-90ef-4bbb",
-                            "_shared": "true"
-                          },
-                          {
-                            "_type": "lessThan",
-                            "_value": "1",
-                            "_field": "selections",
-                            "_scope": "force",
-                            "_childId": "dbe5-2c39-2d83-5bde",
-                            "_shared": "true"
-                          },
-                          {
-                            "_type": "lessThan",
-                            "_value": "1",
-                            "_field": "selections",
-                            "_scope": "force",
-                            "_childId": "9dda-d17f-a89c-b0f3",
-                            "_shared": "true"
-                          },
-                          {
-                            "_type": "lessThan",
-                            "_value": "1",
-                            "_field": "selections",
-                            "_scope": "force",
-                            "_childId": "a808-e9cc-f583-1bb8",
-                            "_shared": "true"
-                          },
-                          {
-                            "_type": "lessThan",
-                            "_value": "1",
-                            "_field": "selections",
-                            "_scope": "force",
-                            "_childId": "3365-1f2b-1cb2-8795",
-                            "_shared": "true"
-                          },
-                          {
-                            "_type": "lessThan",
-                            "_value": "1",
-                            "_field": "selections",
-                            "_scope": "force",
-                            "_childId": "7d72-d40d-1de4-8de1",
-                            "_shared": "true"
-                          },
-                          {
-                            "_type": "lessThan",
-                            "_value": "1",
-                            "_field": "selections",
-                            "_scope": "force",
-                            "_childId": "c3eb-a11c-f7fa-2cfb",
-                            "_shared": "true"
-                          },
-                          {
-                            "_type": "lessThan",
-                            "_value": "1",
-                            "_field": "selections",
-                            "_scope": "force",
-                            "_childId": "b55b-62e8-e8fe-88c7",
-                            "_shared": "true"
-                          }
-                        ]
-                      },
-                      "_type": "and"
-                    }
-                  },
-                  "conditions": {
-                    "condition": {
-                      "_type": "instanceOf",
-                      "_value": "1",
-                      "_field": "selections",
-                      "_scope": "ancestor",
-                      "_childId": "376a-6b97-8699-dd59",
-                      "_shared": "true"
-                    }
-                  },
-                  "_type": "and"
-                }
+            "modifier": [{
+                "conditionGroups": {
+                  "conditionGroup": {
+                    "conditionGroups": {
+                      "conditionGroup": {
+                        "conditions": {
+                          "condition": [{
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "f251-90be-5e0d-e76e",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "d622-6a8f-a4-9f14",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "4587-ae29-90ef-4bbb",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "dbe5-2c39-2d83-5bde",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "9dda-d17f-a89c-b0f3",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "a808-e9cc-f583-1bb8",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "3365-1f2b-1cb2-8795",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "7d72-d40d-1de4-8de1",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "c3eb-a11c-f7fa-2cfb",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "b55b-62e8-e8fe-88c7",
+                              "_shared": "true"
+                            }
+                          ]
+                        },
+                        "_type": "and"
+                      }
+                    },
+                    "conditions": {
+                      "condition": {
+                        "_type": "instanceOf",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "ancestor",
+                        "_childId": "376a-6b97-8699-dd59",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "and"
+                  }
+                },
+                "_type": "set",
+                "_value": "true",
+                "_field": "hidden"
               },
-              "_type": "set",
-              "_value": "true",
-              "_field": "hidden"
-            }
+              {
+                "conditionGroups": {
+                  "conditionGroup": {
+                    "conditionGroups": {
+                      "conditionGroup": {
+                        "conditions": {
+                          "condition": [{
+                              "_type": "atLeast",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "a808-e9cc-f583-1bb8",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "atLeast",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "3365-1f2b-1cb2-8795",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "atLeast",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "7d72-d40d-1de4-8de1",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "atLeast",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "9dda-d17f-a89c-b0f3",
+                              "_shared": "true"
+                            }
+                          ]
+                        },
+                        "_type": "or"
+                      }
+                    },
+                    "conditions": {
+                      "condition": {
+                        "_type": "instanceOf",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "ancestor",
+                        "_childId": "376a-6b97-8699-dd59",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "and"
+                  }
+                },
+                "_type": "set",
+                "_value": "1",
+                "_field": "ca97-ade5-2621-0cb7"
+              }
+            ]
           },
           "costs": {
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "230"
+              "_value": "220"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "parent",
+              "_shared": "true",
+              "_id": "ca97-ade5-2621-0cb7"
             }
           },
           "_import": "true",
@@ -1509,88 +1580,134 @@
             ]
           },
           "modifiers": {
-            "modifier": {
-              "conditionGroups": {
-                "conditionGroup": {
-                  "conditionGroups": {
-                    "conditionGroup": {
-                      "conditions": {
-                        "condition": [{
-                            "_type": "lessThan",
+            "modifier": [{
+                "conditionGroups": {
+                  "conditionGroup": {
+                    "conditionGroups": {
+                      "conditionGroup": {
+                        "conditions": {
+                          "condition": [{
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "f251-90be-5e0d-e76e",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "d622-6a8f-a4-9f14",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "4587-ae29-90ef-4bbb",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "dbe5-2c39-2d83-5bde",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "c3eb-a11c-f7fa-2cfb",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "b55b-62e8-e8fe-88c7",
+                              "_shared": "true"
+                            }
+                          ]
+                        },
+                        "_type": "and"
+                      }
+                    },
+                    "conditions": {
+                      "condition": {
+                        "_type": "instanceOf",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "ancestor",
+                        "_childId": "376a-6b97-8699-dd59",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "and"
+                  }
+                },
+                "_type": "set",
+                "_value": "true",
+                "_field": "hidden"
+              },
+              {
+                "conditionGroups": {
+                  "conditionGroup": {
+                    "conditionGroups": {
+                      "conditionGroup": {
+                        "conditions": {
+                          "condition": {
+                            "_type": "atLeast",
                             "_value": "1",
                             "_field": "selections",
                             "_scope": "force",
-                            "_childId": "f251-90be-5e0d-e76e",
-                            "_shared": "true"
-                          },
-                          {
-                            "_type": "lessThan",
-                            "_value": "1",
-                            "_field": "selections",
-                            "_scope": "force",
-                            "_childId": "d622-6a8f-a4-9f14",
-                            "_shared": "true"
-                          },
-                          {
-                            "_type": "lessThan",
-                            "_value": "1",
-                            "_field": "selections",
-                            "_scope": "force",
-                            "_childId": "4587-ae29-90ef-4bbb",
-                            "_shared": "true"
-                          },
-                          {
-                            "_type": "lessThan",
-                            "_value": "1",
-                            "_field": "selections",
-                            "_scope": "force",
-                            "_childId": "dbe5-2c39-2d83-5bde",
-                            "_shared": "true"
-                          },
-                          {
-                            "_type": "lessThan",
-                            "_value": "1",
-                            "_field": "selections",
-                            "_scope": "force",
-                            "_childId": "c3eb-a11c-f7fa-2cfb",
-                            "_shared": "true"
-                          },
-                          {
-                            "_type": "lessThan",
-                            "_value": "1",
-                            "_field": "selections",
-                            "_scope": "force",
-                            "_childId": "b55b-62e8-e8fe-88c7",
+                            "_childId": "a808-e9cc-f583-1bb8",
                             "_shared": "true"
                           }
-                        ]
-                      },
-                      "_type": "and"
-                    }
-                  },
-                  "conditions": {
-                    "condition": {
-                      "_type": "instanceOf",
-                      "_value": "1",
-                      "_field": "selections",
-                      "_scope": "ancestor",
-                      "_childId": "376a-6b97-8699-dd59",
-                      "_shared": "true"
-                    }
-                  },
-                  "_type": "and"
-                }
-              },
-              "_type": "set",
-              "_value": "true",
-              "_field": "hidden"
-            }
+                        },
+                        "_type": "or"
+                      }
+                    },
+                    "conditions": {
+                      "condition": {
+                        "_type": "instanceOf",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "ancestor",
+                        "_childId": "376a-6b97-8699-dd59",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "and"
+                  }
+                },
+                "_type": "set",
+                "_value": "1",
+                "_field": "e053-31c3-1b9f-f7de"
+              }
+            ]
           },
           "costs": {
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "280"
+              "_value": "260"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "parent",
+              "_shared": "true",
+              "_id": "e053-31c3-1b9f-f7de"
             }
           },
           "_import": "true",
@@ -1653,7 +1770,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "110"
             }
           },
           "_import": "true",
@@ -1779,7 +1896,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -1930,7 +2047,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "180"
+              "_value": "170"
             }
           },
           "_import": "true",
@@ -2094,7 +2211,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "190"
+              "_value": "170"
             }
           },
           "_import": "true",
@@ -2143,7 +2260,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "130"
             }
           },
           "_import": "true",
@@ -2192,7 +2309,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "110"
             }
           },
           "_import": "true",
@@ -2290,7 +2407,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "120"
             }
           },
           "_import": "true",

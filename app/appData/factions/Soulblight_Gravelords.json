@@ -246,7 +246,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "180"
             }
           },
           "_import": "true",
@@ -451,7 +451,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "290"
+              "_value": "270"
             }
           },
           "_import": "true",
@@ -596,7 +596,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "180"
+              "_value": "170"
             }
           },
           "_import": "true",
@@ -853,7 +853,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "190"
+              "_value": "160"
             }
           },
           "modifierGroups": {
@@ -933,7 +933,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "410"
+              "_value": "430"
             }
           },
           "_import": "true",
@@ -1012,7 +1012,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "100"
             }
           },
           "modifierGroups": {
@@ -1129,7 +1129,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "130"
             }
           },
           "modifierGroups": {
@@ -1534,7 +1534,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "350"
+              "_value": "330"
             }
           },
           "_import": "true",
@@ -1911,7 +1911,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "330"
+              "_value": "300"
             }
           },
           "_import": "true",
@@ -2089,7 +2089,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -2145,7 +2145,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "190"
+              "_value": "170"
             }
           },
           "_import": "true",
@@ -2187,7 +2187,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "260"
+              "_value": "240"
             }
           },
           "_import": "true",
@@ -2278,7 +2278,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "180"
+              "_value": "170"
             }
           },
           "_import": "true",
@@ -2369,7 +2369,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "190"
+              "_value": "160"
             }
           },
           "_import": "true",
@@ -2393,7 +2393,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "100"
             }
           },
           "_import": "true",
@@ -2417,7 +2417,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "130"
             }
           },
           "_import": "true",
@@ -2465,7 +2465,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "410"
+              "_value": "430"
             }
           },
           "_import": "true",
@@ -2688,7 +2688,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "350"
+              "_value": "330"
             }
           },
           "_import": "true",
@@ -2777,7 +2777,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "260"
+              "_value": "240"
             }
           },
           "_import": "true",
@@ -2930,7 +2930,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "330"
+              "_value": "300"
             }
           },
           "_import": "true",
@@ -2997,7 +2997,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -3040,7 +3040,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "190"
+              "_value": "170"
             }
           },
           "_import": "true",
@@ -3237,7 +3237,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "150"
             }
           },
           "_import": "true",
@@ -4669,7 +4669,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "90"
+              "_value": "100"
             }
           },
           "_import": "true",
@@ -4924,7 +4924,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "160"
             }
           },
           "_import": "true",
@@ -5350,7 +5350,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "280"
+              "_value": "260"
             }
           },
           "_import": "true",
@@ -5581,7 +5581,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "150"
             }
           },
           "_import": "true",
@@ -7269,36 +7269,26 @@
                     "characteristics": {
                       "characteristic": [{
                           "_name": "Timing",
-                          "_id": "34e1-8be-a910-f9ca",
-                          "_hidden": "false",
                           "_typeId": "de6f-d57b-248a-83be",
                           "__text": "Your Hero Phase"
                         },
                         {
                           "_name": "Casting Value",
-                          "_id": "6230-df4b-51e9-204a",
-                          "_hidden": "false",
                           "_typeId": "9fc7-b0f6-d018-a608",
                           "__text": "7"
                         },
                         {
                           "_name": "Declare",
-                          "_id": "7981-c8ae-f469-5c44",
-                          "_hidden": "false",
                           "_typeId": "24f8-3803-4ab1-3b6c",
                           "__text": "Pick a friendly **^^Soulblight Gravelord Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them that has not been picked to be the target of this ability this turn to be the target, then make a casting roll of 2D6."
                         },
                         {
                           "_name": "Effect",
-                          "_id": "94f0-4763-e243-b1e",
-                          "_hidden": "false",
                           "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Until the start of your next turn, subtract 1 from hit rolls for the target’s attacks and subtract 1 from save rolls for the target."
+                          "__text": "Roll a number of dice equal to the number of models in the target unit. For each 6, inflict 1 mortal damage on that unit. If any enemy models were slain by this spell, **Heal(D3)** the caster."
                         },
                         {
                           "_name": "Keywords",
-                          "_id": "3fe2-aa9-9c5b-77ae",
-                          "_hidden": "false",
                           "_typeId": "353f-565e-c351-1cf2",
                           "__text": "**^^Spell^^**, **^^Unlimited^^**"
                         }
@@ -7400,30 +7390,26 @@
                         "characteristics": {
                           "characteristic": [{
                               "_name": "Timing",
-                              "_id": "6e66-540b-9c79-6aa5",
-                              "_hidden": "false",
                               "_typeId": "652c-3d84-4e7-14f4",
                               "__text": "Once Per Battle, Any Combat Phase"
                             },
                             {
                               "_name": "Declare",
-                              "_id": "a96-c616-5e5f-b1ff",
-                              "_hidden": "false",
                               "_typeId": "bad3-f9c5-ba46-18cb",
-                              "__text": "Pick an enemy **^^Hero^^** in combat to be the target."
+                              "__text": "Pick an enemy **^^Hero^^** in combat with this unit to be the target."
                             },
                             {
                               "_name": "Effect",
-                              "_id": "b859-b1d-9ad5-b34e",
-                              "_hidden": "false",
                               "_typeId": "b6f1-ba36-6cd-3b03",
                               "__text": "The target has **^^Strike-last^^** for the rest of the turn."
                             },
                             {
                               "_name": "Keywords",
-                              "_id": "a2b1-1608-b2a4-d34a",
-                              "_hidden": "false",
                               "_typeId": "12e8-3214-7d8f-1d0f"
+                            },
+                            {
+                              "_name": "Used By",
+                              "_typeId": "1b32-c9d6-3106-166b"
                             }
                           ]
                         },

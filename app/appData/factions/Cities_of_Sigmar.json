@@ -750,7 +750,7 @@
                         {
                           "_name": "Declare",
                           "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Cities of Sigmar Wizard^^** to cast this spell, pick a visible friendly **^^Cities of Sigmar^^** unit wholly within 18\" to be the target, then make a casting roll of 2D6."
+                          "__text": "Pick a friendly **^^Cities of Sigmar Wizard^^** to cast this spell, pick a visible enemy unit within 18\" to be the target, then make a casting roll of 2D6."
                         },
                         {
                           "_name": "Effect",
@@ -1767,7 +1767,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "290"
+              "_value": "270"
             }
           },
           "entryLinks": {
@@ -2076,7 +2076,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "340"
+              "_value": "310"
             }
           },
           "entryLinks": {
@@ -2203,7 +2203,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "290"
+              "_value": "270"
             }
           },
           "entryLinks": {
@@ -2269,7 +2269,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "300"
+              "_value": "280"
             }
           },
           "entryLinks": {
@@ -3182,7 +3182,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "340"
+              "_value": "310"
             }
           },
           "entryLinks": {
@@ -3268,7 +3268,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "300"
+              "_value": "280"
             }
           },
           "entryLinks": {
@@ -3479,21 +3479,82 @@
         },
         {
           "modifiers": {
-            "modifier": {
-              "conditions": {
-                "condition": {
-                  "_type": "atLeast",
-                  "_value": "1",
-                  "_field": "selections",
-                  "_scope": "self",
-                  "_childId": "1b37-82b8-c062-eb82",
-                  "_shared": "true"
-                }
+            "modifier": [{
+                "conditions": {
+                  "condition": {
+                    "_type": "atLeast",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "self",
+                    "_childId": "1b37-82b8-c062-eb82",
+                    "_shared": "true"
+                  }
+                },
+                "_type": "multiply",
+                "_value": "2",
+                "_field": "points"
               },
-              "_type": "multiply",
-              "_value": "2",
-              "_field": "points"
-            }
+              {
+                "conditionGroups": {
+                  "conditionGroup": {
+                    "conditionGroups": {
+                      "conditionGroup": {
+                        "conditions": {
+                          "condition": [{
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "5dc3-5123-c02f-8726",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "5640-d86-bbf-c887",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "da9-fda-c22f-c1d1",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "77b6-bdc2-b509-77",
+                              "_shared": "true"
+                            }
+                          ]
+                        },
+                        "_type": "and"
+                      }
+                    },
+                    "conditions": {
+                      "condition": {
+                        "_type": "instanceOf",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "ancestor",
+                        "_childId": "376a-6b97-8699-dd59",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "and"
+                  }
+                },
+                "_type": "set",
+                "_value": "true",
+                "_field": "hidden"
+              }
+            ]
           },
           "costs": {
             "cost": {
@@ -3687,7 +3748,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "180"
+              "_value": "160"
             }
           },
           "_import": "true",
@@ -4050,7 +4111,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "140"
             }
           },
           "_import": "true",
@@ -4858,7 +4919,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "180"
             }
           },
           "entryLinks": {
@@ -5033,7 +5094,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "100"
+              "_value": "90"
             }
           },
           "entryLinks": {
@@ -5606,7 +5667,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "120"
             }
           },
           "modifiers": {
@@ -5683,7 +5744,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "250"
+              "_value": "230"
             }
           },
           "modifiers": {
@@ -5752,7 +5813,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "140"
             }
           },
           "modifiers": {
@@ -6112,7 +6173,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "300"
+              "_value": "290"
             }
           },
           "modifiers": {
@@ -6472,7 +6533,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "220"
+              "_value": "200"
             }
           },
           "modifiers": {

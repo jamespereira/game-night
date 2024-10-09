@@ -707,7 +707,7 @@
                   {
                     "_name": "Effect",
                     "_typeId": "fd7f-888d-3257-a12b",
-                    "__text": "If a **^^Diseased^^** enemy unit uses an ability that would heal or return slain models to it, instead of healing or returning slain models to it, that unit no longer has the **^^Diseased^^** keyword."
+                    "__text": "If an ability would heal 1 or more damage points or return 1 or more slain models to a **^^Diseased^^** enemy unit, that ability does not heal any damage points or return any slain models to it. Instead, it no longer has the**^^Diseased^^** keyword."
                   }
                 ]
               },
@@ -772,6 +772,25 @@
               "_typeName": "Ability (Activated)",
               "_hidden": "false",
               "_id": "b933-7caa-30a0-12e8"
+            },
+            {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Keywords",
+                    "_typeId": "b977-7c5e-33b2-428e"
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "fd7f-888d-3257-a12b",
+                    "__text": "Each time a **^^Diseased^^** enemy unit would be destroyed, before the last model in the unit is removed from play, roll a dice. On a 3+, pick another enemy unit within 9\" of that model to be **^^Diseased^^**."
+                  }
+                ]
+              },
+              "_name": "Burst Pustules",
+              "_typeId": "907f-a48-6a04-f788",
+              "_typeName": "Ability (Passive)",
+              "_hidden": "false",
+              "_id": "7c3b-0ed3-037f-f87f"
             }
           ]
         },
@@ -977,7 +996,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "550"
+              "_value": "530"
             }
           },
           "_import": "true",
@@ -1070,7 +1089,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "180"
+              "_value": "160"
             }
           },
           "_import": "true",
@@ -1133,7 +1152,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "320"
+              "_value": "300"
             }
           },
           "_import": "true",
@@ -1189,7 +1208,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "200"
+              "_value": "170"
             }
           },
           "_import": "true",
@@ -1335,7 +1354,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "150"
             }
           },
           "modifierGroups": {
@@ -1556,7 +1575,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "150"
             }
           },
           "modifierGroups": {
@@ -1687,7 +1706,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "320"
+              "_value": "300"
             }
           },
           "_import": "true",
@@ -1724,7 +1743,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "340"
+              "_value": "320"
             }
           },
           "_import": "true",
@@ -1736,26 +1755,66 @@
         },
         {
           "modifiers": {
-            "modifier": {
-              "conditionGroups": {
-                "conditionGroup": {
-                  "conditions": {
-                    "condition": {
-                      "_type": "instanceOf",
-                      "_value": "1",
-                      "_field": "selections",
-                      "_scope": "ancestor",
-                      "_childId": "376a-6b97-8699-dd59",
-                      "_shared": "true"
-                    }
-                  },
-                  "_type": "and"
-                }
+            "modifier": [{
+                "conditionGroups": {
+                  "conditionGroup": {
+                    "conditions": {
+                      "condition": {
+                        "_type": "instanceOf",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "ancestor",
+                        "_childId": "376a-6b97-8699-dd59",
+                        "_shared": "true"
+                      }
+                    },
+                    "conditionGroups": {
+                      "conditionGroup": {
+                        "conditions": {
+                          "condition": [{
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "6011-228f-fea3-caa5",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "4a18-bdb4-644e-3ab4",
+                              "_shared": "true"
+                            }
+                          ]
+                        },
+                        "_type": "and"
+                      }
+                    },
+                    "_type": "and"
+                  }
+                },
+                "_type": "set",
+                "_value": "true",
+                "_field": "hidden"
               },
-              "_type": "set",
-              "_value": "true",
-              "_field": "hidden"
-            }
+              {
+                "conditions": {
+                  "condition": {
+                    "_type": "atLeast",
+                    "_value": "3",
+                    "_field": "selections",
+                    "_scope": "force",
+                    "_childId": "6e72-1656-d554-528a",
+                    "_shared": "true"
+                  }
+                },
+                "_type": "set",
+                "_value": "0",
+                "_field": "687b-0969-69c1-8be3"
+              }
+            ]
           },
           "entryLinks": {
             "entryLink": [{
@@ -1781,6 +1840,54 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "110"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "687b-0969-69c1-8be3"
+            }
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "f29d-edaa-05cd-86e5",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "f29d-edaa-05cd-86e5",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "687b-0969-69c1-8be3"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
             }
           },
           "_import": "true",
@@ -1848,26 +1955,66 @@
         },
         {
           "modifiers": {
-            "modifier": {
-              "conditionGroups": {
-                "conditionGroup": {
-                  "conditions": {
-                    "condition": {
-                      "_type": "instanceOf",
-                      "_value": "1",
-                      "_field": "selections",
-                      "_scope": "ancestor",
-                      "_childId": "376a-6b97-8699-dd59",
-                      "_shared": "true"
-                    }
-                  },
-                  "_type": "and"
-                }
+            "modifier": [{
+                "conditionGroups": {
+                  "conditionGroup": {
+                    "conditions": {
+                      "condition": {
+                        "_type": "instanceOf",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "ancestor",
+                        "_childId": "376a-6b97-8699-dd59",
+                        "_shared": "true"
+                      }
+                    },
+                    "conditionGroups": {
+                      "conditionGroup": {
+                        "conditions": {
+                          "condition": [{
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "6011-228f-fea3-caa5",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "4a18-bdb4-644e-3ab4",
+                              "_shared": "true"
+                            }
+                          ]
+                        },
+                        "_type": "and"
+                      }
+                    },
+                    "_type": "and"
+                  }
+                },
+                "_type": "set",
+                "_value": "true",
+                "_field": "hidden"
               },
-              "_type": "set",
-              "_value": "true",
-              "_field": "hidden"
-            }
+              {
+                "conditions": {
+                  "condition": {
+                    "_type": "atLeast",
+                    "_value": "3",
+                    "_field": "selections",
+                    "_scope": "force",
+                    "_childId": "6e72-1656-d554-528a",
+                    "_shared": "true"
+                  }
+                },
+                "_type": "set",
+                "_value": "0",
+                "_field": "b3b6-91a5-6fe6-4b4d"
+              }
+            ]
           },
           "entryLinks": {
             "entryLink": [{
@@ -1892,7 +2039,55 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "120"
+            }
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "f29d-edaa-05cd-86e5",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "f29d-edaa-05cd-86e5",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "b3b6-91a5-6fe6-4b4d"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "b3b6-91a5-6fe6-4b4d"
             }
           },
           "_import": "true",
@@ -1929,7 +2124,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "500"
+              "_value": "480"
             }
           },
           "_import": "true",
@@ -1941,26 +2136,66 @@
         },
         {
           "modifiers": {
-            "modifier": {
-              "conditionGroups": {
-                "conditionGroup": {
-                  "conditions": {
-                    "condition": {
-                      "_type": "instanceOf",
-                      "_value": "1",
-                      "_field": "selections",
-                      "_scope": "ancestor",
-                      "_childId": "376a-6b97-8699-dd59",
-                      "_shared": "true"
-                    }
-                  },
-                  "_type": "and"
-                }
+            "modifier": [{
+                "conditionGroups": {
+                  "conditionGroup": {
+                    "conditions": {
+                      "condition": {
+                        "_type": "instanceOf",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "ancestor",
+                        "_childId": "376a-6b97-8699-dd59",
+                        "_shared": "true"
+                      }
+                    },
+                    "conditionGroups": {
+                      "conditionGroup": {
+                        "conditions": {
+                          "condition": [{
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "6011-228f-fea3-caa5",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "4a18-bdb4-644e-3ab4",
+                              "_shared": "true"
+                            }
+                          ]
+                        },
+                        "_type": "and"
+                      }
+                    },
+                    "_type": "and"
+                  }
+                },
+                "_type": "set",
+                "_value": "true",
+                "_field": "hidden"
               },
-              "_type": "set",
-              "_value": "true",
-              "_field": "hidden"
-            }
+              {
+                "conditions": {
+                  "condition": {
+                    "_type": "atLeast",
+                    "_value": "3",
+                    "_field": "selections",
+                    "_scope": "force",
+                    "_childId": "6e72-1656-d554-528a",
+                    "_shared": "true"
+                  }
+                },
+                "_type": "set",
+                "_value": "0",
+                "_field": "c0cf-44bb-bb25-2d7e"
+              }
+            ]
           },
           "entryLinks": {
             "entryLink": [{
@@ -1988,6 +2223,54 @@
               "_value": "100"
             }
           },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "c0cf-44bb-bb25-2d7e"
+            }
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "f29d-edaa-05cd-86e5",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "f29d-edaa-05cd-86e5",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "c0cf-44bb-bb25-2d7e"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
+            }
+          },
           "_import": "true",
           "_name": "Spoilpox Scrivener, Herald of Nurgle",
           "_hidden": "false",
@@ -2009,7 +2292,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "320"
+              "_value": "300"
             }
           },
           "_import": "true",
@@ -2076,7 +2359,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "180"
+              "_value": "160"
             }
           },
           "_import": "true",
@@ -2119,7 +2402,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "200"
+              "_value": "170"
             }
           },
           "_import": "true",
@@ -2229,7 +2512,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "150"
             }
           },
           "_import": "true",
@@ -2272,7 +2555,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "150"
             }
           },
           "_import": "true",
@@ -2296,7 +2579,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "320"
+              "_value": "300"
             }
           },
           "_import": "true",
@@ -2320,7 +2603,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "340"
+              "_value": "320"
             }
           },
           "_import": "true",
@@ -2363,7 +2646,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -2430,7 +2713,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "500"
+              "_value": "480"
             }
           },
           "_import": "true",
@@ -2540,7 +2823,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "550"
+              "_value": "530"
             }
           },
           "_import": "true",
@@ -2816,7 +3099,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "100"
             }
           },
           "_import": "true",
@@ -3660,7 +3943,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "200"
+              "_value": "190"
             }
           },
           "_import": "true",
@@ -4169,11 +4452,17 @@
       ]
     },
     "categoryEntries": {
-      "categoryEntry": {
-        "_name": "Rotbringer Lord",
-        "_id": "1102-5ae7-aac8-1899",
-        "_hidden": "false"
-      }
+      "categoryEntry": [{
+          "_name": "Rotbringer Lord",
+          "_id": "1102-5ae7-aac8-1899",
+          "_hidden": "false"
+        },
+        {
+          "_name": "Plague Scion",
+          "_id": "f29d-edaa-05cd-86e5",
+          "_hidden": "false"
+        }
+      ]
     },
     "_xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
     "_library": "false",

@@ -247,19 +247,33 @@
                   "profile": {
                     "characteristics": {
                       "characteristic": [{
-                          "_name": "Keywords",
-                          "_typeId": "b977-7c5e-33b2-428e"
+                          "_name": "Timing",
+                          "_typeId": "652c-3d84-4e7-14f4",
+                          "__text": "Your Movement Phase"
+                        },
+                        {
+                          "_name": "Declare",
+                          "_typeId": "bad3-f9c5-ba46-18cb",
+                          "__text": "Pick a friendly **^^Nighthaunt^^** unit to be the target."
                         },
                         {
                           "_name": "Effect",
-                          "_typeId": "fd7f-888d-3257-a12b",
-                          "__text": "Friendly **^^Nighthaunt^^** units can use **^^Charge^^** abilities even if they used a **^^Run^^** or **^^Retreat^^** ability in the same turn. In addition, no mortal damage is inflicted on friendly **^^Nighthaunt^^** units by **^^Retreat^^** abilities."
+                          "_typeId": "b6f1-ba36-6cd-3b03",
+                          "__text": "For the rest of the turn, the target unit can still use **^^Charge^^** abilities even if it used a **^^Run^^** or **^^Retreat^^** ability in the same turn. In addition, for the rest of the turn, no mortal damage is inflicted on that unit by **^^Retreat^^** abilities."
+                        },
+                        {
+                          "_name": "Keywords",
+                          "_typeId": "12e8-3214-7d8f-1d0f"
+                        },
+                        {
+                          "_name": "Used By",
+                          "_typeId": "1b32-c9d6-3106-166b"
                         }
                       ]
                     },
                     "_name": "There Is No Escape",
-                    "_typeId": "907f-a48-6a04-f788",
-                    "_typeName": "Ability (Passive)",
+                    "_typeId": "59b6-d47a-a68a-5dcc",
+                    "_typeName": "Ability (Activated)",
                     "_hidden": "false",
                     "_id": "4d0f-d04f-9fa4-4e8d"
                   }
@@ -487,7 +501,7 @@
                             {
                               "_name": "Effect",
                               "_typeId": "fd7f-888d-3257-a12b",
-                              "__text": "This unit can use an Aura of Dread ability even if it has already used one this turn, but it cannot use more than two per turn."
+                              "__text": "This unit can use any of the **^^Aura of Dread^^** abilities, even if it doesn’t have the required keyword(s) for that ability."
                             }
                           ]
                         },
@@ -1215,7 +1229,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "130"
             }
           },
           "_import": "true",
@@ -1741,7 +1755,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "210"
+              "_value": "220"
             }
           },
           "_import": "true",
@@ -1918,7 +1932,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "120"
             }
           },
           "modifierGroups": {
@@ -2390,7 +2404,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "130"
             }
           },
           "_import": "true",
@@ -2615,7 +2629,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "210"
+              "_value": "220"
             }
           },
           "_import": "true",
@@ -2658,7 +2672,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -3086,7 +3100,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "160"
             }
           },
           "_import": "true",
@@ -3895,7 +3909,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "160"
             }
           },
           "_import": "true",
@@ -4364,7 +4378,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "180"
             }
           },
           "_import": "true",
@@ -4704,7 +4718,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "120"
             }
           },
           "_import": "true",

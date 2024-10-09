@@ -188,7 +188,7 @@
                         {
                           "_name": "Keywords",
                           "_typeId": "353f-565e-c351-1cf2",
-                          "__text": "**^^Spell^^**, **^^Unlimited^^**"
+                          "__text": "**^^Spell^^**"
                         }
                       ]
                     },
@@ -258,7 +258,7 @@
                         {
                           "_name": "Keywords",
                           "_typeId": "353f-565e-c351-1cf2",
-                          "__text": "**^^Spell^^**"
+                          "__text": "**^^Spell^^**, **^^Unlimited^^**"
                         }
                       ]
                     },
@@ -608,7 +608,7 @@
                         {
                           "_name": "Declare",
                           "_typeId": "bad3-f9c5-ba46-18cb",
-                          "__text": "Pick up to 3 friendly **^^Pestilens^^** units to be the targets."
+                          "__text": "Pick up to 3 friendly **^^Pestilens^^** units that are in combat to be the targets."
                         },
                         {
                           "_name": "Effect",
@@ -618,6 +618,10 @@
                         {
                           "_name": "Keywords",
                           "_typeId": "12e8-3214-7d8f-1d0f"
+                        },
+                        {
+                          "_name": "Used By",
+                          "_typeId": "1b32-c9d6-3106-166b"
                         }
                       ]
                     },
@@ -1172,7 +1176,7 @@
                         {
                           "_name": "Declare",
                           "_typeId": "284c-90b2-245b-adf3",
-                          "__text": "Pick a friendly **^^Skaven Priest^^** to chant this prayer, pick a visible enemy unit within 13\" of them to be the target, then make a chanting roll of D6"
+                          "__text": "Pick a friendly **^^Skaven Priest^^** to chant this prayer, pick a visible enemy unit within 13\" of them to be the target, then make a chanting roll of D6."
                         },
                         {
                           "_name": "Effect",
@@ -1388,6 +1392,14 @@
                             "_scope": "force",
                             "_childId": "a894-c0e3-2a4-79d0",
                             "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "ecc8-7506-0ac3-ca80",
+                            "_shared": "true"
                           }
                         ]
                       },
@@ -1463,7 +1475,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "100"
             }
           },
           "_import": "true",
@@ -1475,14 +1487,23 @@
         },
         {
           "constraints": {
-            "constraint": {
-              "_type": "max",
-              "_value": "-1",
-              "_field": "selections",
-              "_scope": "force",
-              "_shared": "true",
-              "_id": "3ae7-278a-3ea5-6c59"
-            }
+            "constraint": [{
+                "_type": "max",
+                "_value": "-1",
+                "_field": "selections",
+                "_scope": "force",
+                "_shared": "true",
+                "_id": "3ae7-278a-3ea5-6c59"
+              },
+              {
+                "_type": "max",
+                "_value": "-1",
+                "_field": "selections",
+                "_scope": "force",
+                "_shared": "true",
+                "_id": "6597-905d-2336-7973"
+              }
+            ]
           },
           "modifiers": {
             "modifier": {
@@ -1496,6 +1517,70 @@
                       "_scope": "ancestor",
                       "_childId": "376a-6b97-8699-dd59",
                       "_shared": "true"
+                    }
+                  },
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "7299-ee25-cfb7-621f",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "d3e7-d46e-1989-7534",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "96e7-bdfc-d62-5b04",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "88c9-115c-3714-e884",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "181f-fa52-9a52-12bd",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "a894-c0e3-2a4-79d0",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "ecc8-7506-0ac3-ca80",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
                     }
                   },
                   "_type": "and"
@@ -1529,7 +1614,45 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "160"
+            }
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "649-9363-e350-48f4",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "649-9363-e350-48f4",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "6597-905d-2336-7973"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
             }
           },
           "_import": "true",
@@ -1613,6 +1736,14 @@
                             "_field": "selections",
                             "_scope": "force",
                             "_childId": "a894-c0e3-2a4-79d0",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "ecc8-7506-0ac3-ca80",
                             "_shared": "true"
                           }
                         ]
@@ -2245,7 +2376,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "360"
+              "_value": "350"
             }
           },
           "_import": "true",
@@ -2377,7 +2508,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "140"
             }
           },
           "_import": "true",
@@ -2443,7 +2574,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -2486,7 +2617,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "140"
             }
           },
           "_import": "true",
@@ -2572,7 +2703,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "100"
             }
           },
           "_import": "true",
@@ -2615,7 +2746,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "160"
             }
           },
           "_import": "true",
@@ -3007,7 +3138,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "360"
+              "_value": "350"
             }
           },
           "_import": "true",
@@ -3093,7 +3224,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -3183,6 +3314,30 @@
                               "_field": "selections",
                               "_scope": "force",
                               "_childId": "6d73-85ea-7f91-5baf",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "7299-ee25-cfb7-621f",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "5a48-e3a1-625c-dae1",
                               "_shared": "true"
                             }
                           ]
@@ -3470,6 +3625,30 @@
                               "_scope": "force",
                               "_childId": "d81b-11e8-df5e-ec45",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "a9a9-9048-a1b8-3fe7",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "5a48-e3a1-625c-dae1",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -3583,6 +3762,14 @@
                           "_scope": "force",
                           "_childId": "6d73-85ea-7f91-5baf",
                           "_shared": "true"
+                        },
+                        {
+                          "_type": "atLeast",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "force",
+                          "_childId": "5a48-e3a1-625c-dae1",
+                          "_shared": "true"
                         }
                       ]
                     },
@@ -3599,7 +3786,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "150"
             }
           },
           "constraints": {
@@ -3689,6 +3876,22 @@
                               "_field": "selections",
                               "_scope": "force",
                               "_childId": "6d73-85ea-7f91-5baf",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "5a48-e3a1-625c-dae1",
                               "_shared": "true"
                             }
                           ]
@@ -3813,11 +4016,21 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "80"
+              "_value": "130"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Reinforced",
+              "_hidden": "false",
+              "_id": "1f42-b291-7843-28d9",
+              "_type": "selectionEntry",
+              "_targetId": "1b37-82b8-c062-eb82"
             }
           },
           "_import": "true",
-          "_name": "Doom-flayer",
+          "_name": "Doom-flayers",
           "_hidden": "false",
           "_id": "1dc6-90e9-4539-7fb4",
           "_type": "selectionEntry",
@@ -3893,6 +4106,22 @@
                               "_field": "selections",
                               "_scope": "force",
                               "_childId": "6d73-85ea-7f91-5baf",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "5a48-e3a1-625c-dae1",
                               "_shared": "true"
                             }
                           ]
@@ -4100,6 +4329,14 @@
                               "_scope": "force",
                               "_childId": "a894-c0e3-2a4-79d0",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -4200,6 +4437,14 @@
                               "_field": "selections",
                               "_scope": "force",
                               "_childId": "88c9-115c-3714-e884",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
                               "_shared": "true"
                             }
                           ]
@@ -4328,6 +4573,14 @@
                               "_scope": "force",
                               "_childId": "98d0-7e0e-b303-6db0",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -4437,6 +4690,22 @@
                               "_scope": "force",
                               "_childId": "98d0-7e0e-b303-6db0",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "a894-c0e3-2a4-79d0",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -4481,7 +4750,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "140"
             }
           },
           "_import": "true",
@@ -4556,6 +4825,14 @@
                               "_scope": "force",
                               "_childId": "a894-c0e3-2a4-79d0",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -4600,7 +4877,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "160"
             }
           },
           "_import": "true",
@@ -4680,6 +4957,22 @@
                               "_field": "selections",
                               "_scope": "force",
                               "_childId": "6d73-85ea-7f91-5baf",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "5a48-e3a1-625c-dae1",
                               "_shared": "true"
                             }
                           ]
@@ -4804,7 +5097,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "100"
+              "_value": "150"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Reinforced",
+              "_hidden": "false",
+              "_id": "c739-974a-9a65-11bb",
+              "_type": "selectionEntry",
+              "_targetId": "1b37-82b8-c062-eb82"
             }
           },
           "_import": "true",
@@ -4884,6 +5187,22 @@
                               "_field": "selections",
                               "_scope": "force",
                               "_childId": "6d73-85ea-7f91-5baf",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "5a48-e3a1-625c-dae1",
                               "_shared": "true"
                             }
                           ]
@@ -5008,7 +5327,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "190"
+              "_value": "180"
             }
           },
           "_import": "true",
@@ -5106,6 +5425,22 @@
                               "_field": "selections",
                               "_scope": "force",
                               "_childId": "6d73-85ea-7f91-5baf",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "5a48-e3a1-625c-dae1",
                               "_shared": "true"
                             }
                           ]
@@ -5242,6 +5577,22 @@
                               "_scope": "force",
                               "_childId": "a894-c0e3-2a4-79d0",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "a9a9-9048-a1b8-3fe7",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -5367,6 +5718,22 @@
                               "_scope": "force",
                               "_childId": "6d73-85ea-7f91-5baf",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "5a48-e3a1-625c-dae1",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -5490,7 +5857,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "180"
+              "_value": "160"
             }
           },
           "_import": "true",
@@ -5570,6 +5937,22 @@
                               "_field": "selections",
                               "_scope": "force",
                               "_childId": "6d73-85ea-7f91-5baf",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "5a48-e3a1-625c-dae1",
                               "_shared": "true"
                             }
                           ]
@@ -5694,7 +6077,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "90"
+              "_value": "140"
             }
           },
           "_import": "true",
@@ -5784,6 +6167,22 @@
                               "_field": "selections",
                               "_scope": "force",
                               "_childId": "6d73-85ea-7f91-5baf",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "5a48-e3a1-625c-dae1",
                               "_shared": "true"
                             }
                           ]
@@ -6040,6 +6439,14 @@
                               "_scope": "force",
                               "_childId": "a894-c0e3-2a4-79d0",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -6166,6 +6573,14 @@
                               "_field": "selections",
                               "_scope": "force",
                               "_childId": "98d0-7e0e-b303-6db0",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
                               "_shared": "true"
                             }
                           ]
@@ -6299,6 +6714,14 @@
                               "_scope": "force",
                               "_childId": "98d0-7e0e-b303-6db0",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -6424,6 +6847,22 @@
                               "_scope": "force",
                               "_childId": "a894-c0e3-2a4-79d0",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "a9a9-9048-a1b8-3fe7",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -6541,6 +6980,14 @@
                               "_scope": "force",
                               "_childId": "a894-c0e3-2a4-79d0",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -6579,6 +7026,803 @@
           "_id": "68c9-857a-7a23-b195",
           "_type": "selectionEntry",
           "_targetId": "3c80-fb87-4ba2-326c"
+        },
+        {
+          "modifiers": {
+            "modifier": [{
+                "conditionGroups": {
+                  "conditionGroup": {
+                    "conditionGroups": {
+                      "conditionGroup": {
+                        "conditions": {
+                          "condition": [{
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "7299-ee25-cfb7-621f",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "d3e7-d46e-1989-7534",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "96e7-bdfc-d62-5b04",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "3b44-18cd-8a0b-5c8",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "88c9-115c-3714-e884",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
+                              "_shared": "true"
+                            }
+                          ]
+                        },
+                        "_type": "and"
+                      }
+                    },
+                    "conditions": {
+                      "condition": {
+                        "_type": "instanceOf",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "ancestor",
+                        "_childId": "376a-6b97-8699-dd59",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "and"
+                  }
+                },
+                "_type": "set",
+                "_value": "true",
+                "_field": "hidden"
+              },
+              {
+                "conditions": {
+                  "condition": {
+                    "_type": "atLeast",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "self",
+                    "_childId": "1b37-82b8-c062-eb82",
+                    "_shared": "true"
+                  }
+                },
+                "_type": "multiply",
+                "_value": "2",
+                "_field": "points"
+              }
+            ]
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "300"
+            }
+          },
+          "_import": "true",
+          "_name": "Brood Terror",
+          "_hidden": "false",
+          "_id": "9659-8454-494e-94dd",
+          "_type": "selectionEntry",
+          "_targetId": "4a53-c768-57de-d622"
+        },
+        {
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "4369-4910-8fbd-6a69"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditionGroups": {
+                "conditionGroup": {
+                  "conditions": {
+                    "condition": {
+                      "_type": "instanceOf",
+                      "_value": "1",
+                      "_field": "selections",
+                      "_scope": "ancestor",
+                      "_childId": "376a-6b97-8699-dd59",
+                      "_shared": "true"
+                    }
+                  },
+                  "_type": "and"
+                }
+              },
+              "_type": "set",
+              "_value": "true",
+              "_field": "hidden"
+            }
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "220"
+            }
+          },
+          "_import": "true",
+          "_name": "Krittok Foulblade",
+          "_hidden": "false",
+          "_id": "2d37-121f-2149-3f7d",
+          "_type": "selectionEntry",
+          "_targetId": "64d0-3abe-62b7-7e40"
+        },
+        {
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Regimental Leader",
+              "_hidden": "false",
+              "_id": "1c86-b1a4-e7da-be8f",
+              "_targetId": "d1f3-921c-b403-1106",
+              "_primary": "true"
+            }
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "220"
+            }
+          },
+          "_import": "true",
+          "_name": "Krittok Foulblade",
+          "_hidden": "false",
+          "_id": "a9a9-9048-a1b8-3fe7",
+          "_type": "selectionEntry",
+          "_targetId": "64d0-3abe-62b7-7e40"
+        },
+        {
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "6dec-b860-eb86-0cbe"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditionGroups": {
+                "conditionGroup": {
+                  "conditions": {
+                    "condition": {
+                      "_type": "instanceOf",
+                      "_value": "1",
+                      "_field": "selections",
+                      "_scope": "ancestor",
+                      "_childId": "376a-6b97-8699-dd59",
+                      "_shared": "true"
+                    }
+                  },
+                  "_type": "and"
+                }
+              },
+              "_type": "set",
+              "_value": "true",
+              "_field": "hidden"
+            }
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "450"
+            }
+          },
+          "_import": "true",
+          "_name": "Vizzik Skour, Prophet of the Horned Rat",
+          "_hidden": "false",
+          "_id": "8b59-870f-47b0-e61f",
+          "_type": "selectionEntry",
+          "_targetId": "2a51-7859-e014-cecd"
+        },
+        {
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Regimental Leader",
+              "_hidden": "false",
+              "_id": "02eb-d9f1-9d31-bc74",
+              "_targetId": "d1f3-921c-b403-1106",
+              "_primary": "true"
+            }
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "450"
+            }
+          },
+          "_import": "true",
+          "_name": "Vizzik Skour, Prophet of the Horned Rat",
+          "_hidden": "false",
+          "_id": "ecc8-7506-0ac3-ca80",
+          "_type": "selectionEntry",
+          "_targetId": "2a51-7859-e014-cecd"
+        },
+        {
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "140"
+            }
+          },
+          "modifiers": {
+            "modifier": [{
+                "conditions": {
+                  "condition": {
+                    "_type": "atLeast",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "self",
+                    "_childId": "1b37-82b8-c062-eb82",
+                    "_shared": "true"
+                  }
+                },
+                "_type": "multiply",
+                "_value": "2",
+                "_field": "points"
+              },
+              {
+                "conditionGroups": {
+                  "conditionGroup": {
+                    "conditionGroups": {
+                      "conditionGroup": {
+                        "conditions": {
+                          "condition": [{
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "7299-ee25-cfb7-621f",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "d3e7-d46e-1989-7534",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "96e7-bdfc-d62-5b04",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "476b-6ecb-c5f8-cdee",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "88c9-115c-3714-e884",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "6b0b-367d-ec80-2727",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "98d0-7e0e-b303-6db0",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
+                              "_shared": "true"
+                            }
+                          ]
+                        },
+                        "_type": "and"
+                      }
+                    },
+                    "conditions": {
+                      "condition": {
+                        "_type": "instanceOf",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "ancestor",
+                        "_childId": "376a-6b97-8699-dd59",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "and"
+                  }
+                },
+                "_type": "set",
+                "_value": "true",
+                "_field": "hidden"
+              }
+            ]
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Reinforced",
+              "_hidden": "false",
+              "_id": "fb40-07f9-ade1-586f",
+              "_type": "selectionEntry",
+              "_targetId": "1b37-82b8-c062-eb82"
+            }
+          },
+          "_import": "true",
+          "_name": "Plaguepack",
+          "_hidden": "false",
+          "_id": "04f2-27d7-efee-addd",
+          "_type": "selectionEntry",
+          "_targetId": "f187-0277-e210-7c65"
+        },
+        {
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "4720-8a04-e432-5d2a"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditionGroups": {
+                "conditionGroup": {
+                  "conditions": {
+                    "condition": {
+                      "_type": "instanceOf",
+                      "_value": "1",
+                      "_field": "selections",
+                      "_scope": "ancestor",
+                      "_childId": "376a-6b97-8699-dd59",
+                      "_shared": "true"
+                    }
+                  },
+                  "_type": "and"
+                }
+              },
+              "_type": "set",
+              "_value": "true",
+              "_field": "hidden"
+            }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Heroic Traits",
+                "_hidden": "false",
+                "_id": "e235-e809-c668-f22d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "26fc-3985-5b0a-b181"
+              },
+              {
+                "_import": "true",
+                "_name": "Artefacts of Power",
+                "_hidden": "false",
+                "_id": "2ac7-536a-a77e-a2b4",
+                "_type": "selectionEntryGroup",
+                "_targetId": "aeac-82cb-a7a7-4ebf"
+              }
+            ]
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "140"
+            }
+          },
+          "_import": "true",
+          "_name": "Warlock Galvaneer",
+          "_hidden": "false",
+          "_id": "11d8-d0ee-6669-06a8",
+          "_type": "selectionEntry",
+          "_targetId": "05dd-ab28-998d-8cca"
+        },
+        {
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Regimental Leader",
+              "_hidden": "false",
+              "_id": "269a-efcd-d374-90fc",
+              "_targetId": "d1f3-921c-b403-1106",
+              "_primary": "true"
+            }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Heroic Traits",
+                "_hidden": "false",
+                "_id": "7509-9fd5-6632-405e",
+                "_type": "selectionEntryGroup",
+                "_targetId": "26fc-3985-5b0a-b181"
+              },
+              {
+                "_import": "true",
+                "_name": "Artefacts of Power",
+                "_hidden": "false",
+                "_id": "08ab-228b-2350-e5b7",
+                "_type": "selectionEntryGroup",
+                "_targetId": "aeac-82cb-a7a7-4ebf"
+              }
+            ]
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "140"
+            }
+          },
+          "_import": "true",
+          "_name": "Warlock Galvaneer",
+          "_hidden": "false",
+          "_id": "5a48-e3a1-625c-dae1",
+          "_type": "selectionEntry",
+          "_targetId": "05dd-ab28-998d-8cca"
+        },
+        {
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Reinforced",
+              "_hidden": "false",
+              "_id": "29b5-d665-5362-9960",
+              "_type": "selectionEntry",
+              "_targetId": "1b37-82b8-c062-eb82"
+            }
+          },
+          "modifiers": {
+            "modifier": [{
+                "conditionGroups": {
+                  "conditionGroup": {
+                    "conditionGroups": {
+                      "conditionGroup": {
+                        "conditions": {
+                          "condition": [{
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "74d6-aac6-649e-4b16",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "7299-ee25-cfb7-621f",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "d3e7-d46e-1989-7534",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "96e7-bdfc-d62-5b04",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "88c9-115c-3714-e884",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "a894-c0e3-2a4-79d0",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "d81b-11e8-df5e-ec45",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "6d73-85ea-7f91-5baf",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "5a48-e3a1-625c-dae1",
+                              "_shared": "true"
+                            }
+                          ]
+                        },
+                        "_type": "and"
+                      }
+                    },
+                    "conditions": {
+                      "condition": {
+                        "_type": "instanceOf",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "ancestor",
+                        "_childId": "376a-6b97-8699-dd59",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "and"
+                  }
+                },
+                "_type": "set",
+                "_value": "true",
+                "_field": "hidden"
+              },
+              {
+                "conditions": {
+                  "condition": {
+                    "_type": "atLeast",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "self",
+                    "_childId": "1b37-82b8-c062-eb82",
+                    "_shared": "true"
+                  }
+                },
+                "_type": "multiply",
+                "_value": "2",
+                "_field": "points"
+              }
+            ]
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "170"
+            }
+          },
+          "_import": "true",
+          "_name": "Warp-Grinder",
+          "_hidden": "false",
+          "_id": "8659-2919-d1ca-2cd4",
+          "_type": "selectionEntry",
+          "_targetId": "0a17-a47d-e51f-ea9a"
+        },
+        {
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Reinforced",
+              "_hidden": "false",
+              "_id": "e369-297b-5b8f-4ee1",
+              "_type": "selectionEntry",
+              "_targetId": "1b37-82b8-c062-eb82"
+            }
+          },
+          "modifiers": {
+            "modifier": [{
+                "conditionGroups": {
+                  "conditionGroup": {
+                    "conditionGroups": {
+                      "conditionGroup": {
+                        "conditions": {
+                          "condition": [{
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "74d6-aac6-649e-4b16",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "7299-ee25-cfb7-621f",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "d3e7-d46e-1989-7534",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "96e7-bdfc-d62-5b04",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "88c9-115c-3714-e884",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "a894-c0e3-2a4-79d0",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "d81b-11e8-df5e-ec45",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "6d73-85ea-7f91-5baf",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "ecc8-7506-0ac3-ca80",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "5a48-e3a1-625c-dae1",
+                              "_shared": "true"
+                            }
+                          ]
+                        },
+                        "_type": "and"
+                      }
+                    },
+                    "conditions": {
+                      "condition": {
+                        "_type": "instanceOf",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "ancestor",
+                        "_childId": "376a-6b97-8699-dd59",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "and"
+                  }
+                },
+                "_type": "set",
+                "_value": "true",
+                "_field": "hidden"
+              },
+              {
+                "conditions": {
+                  "condition": {
+                    "_type": "atLeast",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "self",
+                    "_childId": "1b37-82b8-c062-eb82",
+                    "_shared": "true"
+                  }
+                },
+                "_type": "multiply",
+                "_value": "2",
+                "_field": "points"
+              }
+            ]
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "190"
+            }
+          },
+          "_import": "true",
+          "_name": "Warpvolt Scourgers",
+          "_hidden": "false",
+          "_id": "14ea-300f-e30d-4382",
+          "_type": "selectionEntry",
+          "_targetId": "1199-30df-f5c1-5f1c"
         }
       ]
     },

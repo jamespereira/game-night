@@ -1,2312 +1,2253 @@
 {
-	"catalogue": {
-		"entryLinks": {
-			"entryLink": [
-				{
-					"entryLinks": {
-						"entryLink": [
-							{
-								"_import": "true",
-								"_name": "Artefacts of Power",
-								"_hidden": "false",
-								"_id": "f5cf-129a-a774-a8f6",
-								"_type": "selectionEntryGroup",
-								"_targetId": "f94b-56fb-4b63-336f"
-							},
-							{
-								"_import": "true",
-								"_name": "Heroic Traits",
-								"_hidden": "false",
-								"_id": "b53f-f49c-8a40-7639",
-								"_type": "selectionEntryGroup",
-								"_targetId": "f9fd-74a0-3624-d68"
-							}
-						]
-					},
-					"constraints": {
-						"constraint": {
-							"_type": "max",
-							"_value": "-1",
-							"_field": "selections",
-							"_scope": "force",
-							"_shared": "true",
-							"_id": "89e-cdb5-d95a-14a7"
-						}
-					},
-					"modifiers": {
-						"modifier": {
-							"conditionGroups": {
-								"conditionGroup": {
-									"conditionGroups": {
-										"conditionGroup": {
-											"conditions": {
-												"condition": [
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "5db3-6f5c-461f-e685",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "f7a8-24c0-ab46-7b33",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "8ebd-1be0-110-25d0",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "c8d4-842d-67ce-e536",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "32c3-4546-10aa-6006",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "d1bb-dfda-17e7-3252",
-														"_shared": "true"
-													}
-												]
-											},
-											"_type": "and"
-										}
-									},
-									"conditions": {
-										"condition": {
-											"_type": "instanceOf",
-											"_value": "1",
-											"_field": "selections",
-											"_scope": "ancestor",
-											"_childId": "376a-6b97-8699-dd59",
-											"_shared": "true"
-										}
-									},
-									"_type": "and"
-								}
-							},
-							"_type": "set",
-							"_value": "true",
-							"_field": "hidden"
-						}
-					},
-					"modifierGroups": {
-						"modifierGroup": {
-							"modifiers": {
-								"modifier": [
-									{
-										"_type": "add",
-										"_value": "258f-9cfe-ea60-e99c",
-										"_field": "category"
-									},
-									{
-										"conditions": {
-											"condition": {
-												"_type": "atLeast",
-												"_value": "2",
-												"_field": "selections",
-												"_scope": "force",
-												"_childId": "258f-9cfe-ea60-e99c",
-												"_shared": "true"
-											}
-										},
-										"_type": "set",
-										"_value": "0",
-										"_field": "89e-cdb5-d95a-14a7"
-									}
-								]
-							},
-							"conditions": {
-								"condition": {
-									"_type": "instanceOf",
-									"_value": "1",
-									"_field": "selections",
-									"_scope": "ancestor",
-									"_childId": "376a-6b97-8699-dd59",
-									"_shared": "true"
-								}
-							},
-							"_type": "and"
-						}
-					},
-					"costs": {
-						"cost": {
-							"_name": "pts",
-							"_typeId": "points",
-							"_value": "470"
-						}
-					},
-					"_import": "true",
-					"_name": "Beast-smasher Mega-gargant",
-					"_hidden": "false",
-					"_id": "7bad-b427-c2bd-bb90",
-					"_type": "selectionEntry",
-					"_targetId": "4a1b-3873-aa68-6d28"
-				},
-				{
-					"entryLinks": {
-						"entryLink": [
-							{
-								"_import": "true",
-								"_name": "Heroic Traits",
-								"_hidden": "false",
-								"_id": "2d8d-f7a8-7de6-6538",
-								"_type": "selectionEntryGroup",
-								"_targetId": "f9fd-74a0-3624-d68"
-							},
-							{
-								"_import": "true",
-								"_name": "Artefacts of Power",
-								"_hidden": "false",
-								"_id": "28f4-e3f0-7156-1d91",
-								"_type": "selectionEntryGroup",
-								"_targetId": "f94b-56fb-4b63-336f"
-							}
-						]
-					},
-					"modifiers": {
-						"modifier": {
-							"conditionGroups": {
-								"conditionGroup": {
-									"conditionGroups": {
-										"conditionGroup": {
-											"conditions": {
-												"condition": [
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "5db3-6f5c-461f-e685",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "f7a8-24c0-ab46-7b33",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "8ebd-1be0-110-25d0",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "c8d4-842d-67ce-e536",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "32c3-4546-10aa-6006",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "d1bb-dfda-17e7-3252",
-														"_shared": "true"
-													}
-												]
-											},
-											"_type": "and"
-										}
-									},
-									"conditions": {
-										"condition": {
-											"_type": "instanceOf",
-											"_value": "1",
-											"_field": "selections",
-											"_scope": "ancestor",
-											"_childId": "376a-6b97-8699-dd59",
-											"_shared": "true"
-										}
-									},
-									"_type": "and"
-								}
-							},
-							"_type": "set",
-							"_value": "true",
-							"_field": "hidden"
-						}
-					},
-					"constraints": {
-						"constraint": {
-							"_type": "max",
-							"_value": "-1",
-							"_field": "selections",
-							"_scope": "force",
-							"_shared": "true",
-							"_id": "a9ec-491-18d2-95"
-						}
-					},
-					"modifierGroups": {
-						"modifierGroup": {
-							"modifiers": {
-								"modifier": [
-									{
-										"_type": "add",
-										"_value": "258f-9cfe-ea60-e99c",
-										"_field": "category"
-									},
-									{
-										"conditions": {
-											"condition": {
-												"_type": "atLeast",
-												"_value": "2",
-												"_field": "selections",
-												"_scope": "force",
-												"_childId": "258f-9cfe-ea60-e99c",
-												"_shared": "true"
-											}
-										},
-										"_type": "set",
-										"_value": "0",
-										"_field": "a9ec-491-18d2-95"
-									}
-								]
-							},
-							"conditions": {
-								"condition": {
-									"_type": "instanceOf",
-									"_value": "1",
-									"_field": "selections",
-									"_scope": "ancestor",
-									"_childId": "376a-6b97-8699-dd59",
-									"_shared": "true"
-								}
-							},
-							"_type": "and"
-						}
-					},
-					"costs": {
-						"cost": {
-							"_name": "pts",
-							"_typeId": "points",
-							"_value": "500"
-						}
-					},
-					"_import": "true",
-					"_name": "Gatebreaker Mega-gargant",
-					"_hidden": "false",
-					"_id": "1ed3-c8dd-6d6f-124c",
-					"_type": "selectionEntry",
-					"_targetId": "7e9e-7d9f-d3ab-d143"
-				},
-				{
-					"modifiers": {
-						"modifier": {
-							"conditionGroups": {
-								"conditionGroup": {
-									"conditionGroups": {
-										"conditionGroup": {
-											"conditions": {
-												"condition": [
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "5db3-6f5c-461f-e685",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "f7a8-24c0-ab46-7b33",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "8ebd-1be0-110-25d0",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "c8d4-842d-67ce-e536",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "32c3-4546-10aa-6006",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "d1bb-dfda-17e7-3252",
-														"_shared": "true"
-													}
-												]
-											},
-											"_type": "and"
-										}
-									},
-									"conditions": {
-										"condition": {
-											"_type": "instanceOf",
-											"_value": "1",
-											"_field": "selections",
-											"_scope": "ancestor",
-											"_childId": "376a-6b97-8699-dd59",
-											"_shared": "true"
-										}
-									},
-									"_type": "and"
-								}
-							},
-							"_type": "set",
-							"_value": "true",
-							"_field": "hidden"
-						}
-					},
-					"constraints": {
-						"constraint": {
-							"_type": "max",
-							"_value": "-1",
-							"_field": "selections",
-							"_scope": "force",
-							"_shared": "true",
-							"_id": "3a4f-dd15-e43b-d093"
-						}
-					},
-					"costs": {
-						"cost": {
-							"_name": "pts",
-							"_typeId": "points",
-							"_value": "520"
-						}
-					},
-					"_import": "true",
-					"_name": "King Brodd",
-					"_hidden": "false",
-					"_id": "cefa-929b-38d9-31b7",
-					"_type": "selectionEntry",
-					"_targetId": "e2fb-7f41-171f-9418"
-				},
-				{
-					"modifiers": {
-						"modifier": {
-							"conditionGroups": {
-								"conditionGroup": {
-									"conditionGroups": {
-										"conditionGroup": {
-											"conditions": {
-												"condition": [
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "5db3-6f5c-461f-e685",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "f7a8-24c0-ab46-7b33",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "8ebd-1be0-110-25d0",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "c8d4-842d-67ce-e536",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "32c3-4546-10aa-6006",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "d1bb-dfda-17e7-3252",
-														"_shared": "true"
-													}
-												]
-											},
-											"_type": "and"
-										}
-									},
-									"conditions": {
-										"condition": {
-											"_type": "instanceOf",
-											"_value": "1",
-											"_field": "selections",
-											"_scope": "ancestor",
-											"_childId": "376a-6b97-8699-dd59",
-											"_shared": "true"
-										}
-									},
-									"_type": "and"
-								}
-							},
-							"_type": "set",
-							"_value": "true",
-							"_field": "hidden"
-						}
-					},
-					"constraints": {
-						"constraint": {
-							"_type": "max",
-							"_value": "-1",
-							"_field": "selections",
-							"_scope": "force",
-							"_shared": "true",
-							"_id": "a4b3-e0e4-5199-52c1"
-						}
-					},
-					"costs": {
-						"cost": {
-							"_name": "pts",
-							"_typeId": "points",
-							"_value": "680"
-						}
-					},
-					"_import": "true",
-					"_name": "Kragnos, the End of Empires",
-					"_hidden": "false",
-					"_id": "bb87-8d7f-29d9-1be7",
-					"_type": "selectionEntry",
-					"_targetId": "7c7-7226-5b84-b87c"
-				},
-				{
-					"entryLinks": {
-						"entryLink": [
-							{
-								"_import": "true",
-								"_name": "Heroic Traits",
-								"_hidden": "false",
-								"_id": "b907-c95b-3433-1cf8",
-								"_type": "selectionEntryGroup",
-								"_targetId": "f9fd-74a0-3624-d68"
-							},
-							{
-								"_import": "true",
-								"_name": "Artefacts of Power",
-								"_hidden": "false",
-								"_id": "3b47-9f7e-994b-1f30",
-								"_type": "selectionEntryGroup",
-								"_targetId": "f94b-56fb-4b63-336f"
-							}
-						]
-					},
-					"modifiers": {
-						"modifier": {
-							"conditionGroups": {
-								"conditionGroup": {
-									"conditionGroups": {
-										"conditionGroup": {
-											"conditions": {
-												"condition": [
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "5db3-6f5c-461f-e685",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "f7a8-24c0-ab46-7b33",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "8ebd-1be0-110-25d0",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "c8d4-842d-67ce-e536",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "32c3-4546-10aa-6006",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "d1bb-dfda-17e7-3252",
-														"_shared": "true"
-													}
-												]
-											},
-											"_type": "and"
-										}
-									},
-									"conditions": {
-										"condition": {
-											"_type": "instanceOf",
-											"_value": "1",
-											"_field": "selections",
-											"_scope": "ancestor",
-											"_childId": "376a-6b97-8699-dd59",
-											"_shared": "true"
-										}
-									},
-									"_type": "and"
-								}
-							},
-							"_type": "set",
-							"_value": "true",
-							"_field": "hidden"
-						}
-					},
-					"constraints": {
-						"constraint": {
-							"_type": "max",
-							"_value": "-1",
-							"_field": "selections",
-							"_scope": "force",
-							"_shared": "true",
-							"_id": "6ca8-2117-4b46-4133"
-						}
-					},
-					"modifierGroups": {
-						"modifierGroup": {
-							"modifiers": {
-								"modifier": [
-									{
-										"_type": "add",
-										"_value": "258f-9cfe-ea60-e99c",
-										"_field": "category"
-									},
-									{
-										"conditions": {
-											"condition": {
-												"_type": "atLeast",
-												"_value": "2",
-												"_field": "selections",
-												"_scope": "force",
-												"_childId": "258f-9cfe-ea60-e99c",
-												"_shared": "true"
-											}
-										},
-										"_type": "set",
-										"_value": "0",
-										"_field": "6ca8-2117-4b46-4133"
-									}
-								]
-							},
-							"conditions": {
-								"condition": {
-									"_type": "instanceOf",
-									"_value": "1",
-									"_field": "selections",
-									"_scope": "ancestor",
-									"_childId": "376a-6b97-8699-dd59",
-									"_shared": "true"
-								}
-							},
-							"_type": "and"
-						}
-					},
-					"costs": {
-						"cost": {
-							"_name": "pts",
-							"_typeId": "points",
-							"_value": "470"
-						}
-					},
-					"_import": "true",
-					"_name": "Kraken-eater Mega-gargant",
-					"_hidden": "false",
-					"_id": "1768-d69b-b395-6c4f",
-					"_type": "selectionEntry",
-					"_targetId": "8eda-91ee-7eaa-877a"
-				},
-				{
-					"entryLinks": {
-						"entryLink": [
-							{
-								"_import": "true",
-								"_name": "Heroic Traits",
-								"_hidden": "false",
-								"_id": "defd-3d32-f2b2-298f",
-								"_type": "selectionEntryGroup",
-								"_targetId": "f9fd-74a0-3624-d68"
-							},
-							{
-								"_import": "true",
-								"_name": "Artefacts of Power",
-								"_hidden": "false",
-								"_id": "7253-52df-b355-4a29",
-								"_type": "selectionEntryGroup",
-								"_targetId": "f94b-56fb-4b63-336f"
-							}
-						]
-					},
-					"modifiers": {
-						"modifier": {
-							"conditionGroups": {
-								"conditionGroup": {
-									"conditionGroups": {
-										"conditionGroup": {
-											"conditions": {
-												"condition": [
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "5db3-6f5c-461f-e685",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "f7a8-24c0-ab46-7b33",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "8ebd-1be0-110-25d0",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "c8d4-842d-67ce-e536",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "32c3-4546-10aa-6006",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "d1bb-dfda-17e7-3252",
-														"_shared": "true"
-													}
-												]
-											},
-											"_type": "and"
-										}
-									},
-									"conditions": {
-										"condition": {
-											"_type": "instanceOf",
-											"_value": "1",
-											"_field": "selections",
-											"_scope": "ancestor",
-											"_childId": "376a-6b97-8699-dd59",
-											"_shared": "true"
-										}
-									},
-									"_type": "and"
-								}
-							},
-							"_type": "set",
-							"_value": "true",
-							"_field": "hidden"
-						}
-					},
-					"constraints": {
-						"constraint": {
-							"_type": "max",
-							"_value": "-1",
-							"_field": "selections",
-							"_scope": "force",
-							"_shared": "true",
-							"_id": "dc76-f2fa-1c3e-3165"
-						}
-					},
-					"modifierGroups": {
-						"modifierGroup": {
-							"modifiers": {
-								"modifier": [
-									{
-										"_type": "add",
-										"_value": "258f-9cfe-ea60-e99c",
-										"_field": "category"
-									},
-									{
-										"conditions": {
-											"condition": {
-												"_type": "atLeast",
-												"_value": "2",
-												"_field": "selections",
-												"_scope": "force",
-												"_childId": "258f-9cfe-ea60-e99c",
-												"_shared": "true"
-											}
-										},
-										"_type": "set",
-										"_value": "0",
-										"_field": "dc76-f2fa-1c3e-3165"
-									}
-								]
-							},
-							"conditions": {
-								"condition": {
-									"_type": "instanceOf",
-									"_value": "1",
-									"_field": "selections",
-									"_scope": "ancestor",
-									"_childId": "376a-6b97-8699-dd59",
-									"_shared": "true"
-								}
-							},
-							"_type": "and"
-						}
-					},
-					"costs": {
-						"cost": {
-							"_name": "pts",
-							"_typeId": "points",
-							"_value": "460"
-						}
-					},
-					"_import": "true",
-					"_name": "Warstomper Mega-gargant",
-					"_hidden": "false",
-					"_id": "ee1b-c154-e60d-f980",
-					"_type": "selectionEntry",
-					"_targetId": "5201-4045-7632-5a40"
-				},
-				{
-					"categoryLinks": {
-						"categoryLink": {
-							"_name": "Regimental Leader",
-							"_hidden": "false",
-							"_id": "5afe-697c-e3e4-8be5",
-							"_targetId": "d1f3-921c-b403-1106",
-							"_primary": "true"
-						}
-					},
-					"entryLinks": {
-						"entryLink": [
-							{
-								"_import": "true",
-								"_name": "Heroic Traits",
-								"_hidden": "false",
-								"_id": "17a8-f669-e8fc-4269",
-								"_type": "selectionEntryGroup",
-								"_targetId": "f9fd-74a0-3624-d68"
-							},
-							{
-								"_import": "true",
-								"_name": "Artefacts of Power",
-								"_hidden": "false",
-								"_id": "343b-31d-3b1b-6184",
-								"_type": "selectionEntryGroup",
-								"_targetId": "f94b-56fb-4b63-336f"
-							}
-						]
-					},
-					"costs": {
-						"cost": {
-							"_name": "pts",
-							"_typeId": "points",
-							"_value": "460"
-						}
-					},
-					"_import": "true",
-					"_name": "Warstomper Mega-gargant",
-					"_hidden": "false",
-					"_id": "d1bb-dfda-17e7-3252",
-					"_type": "selectionEntry",
-					"_targetId": "5201-4045-7632-5a40"
-				},
-				{
-					"categoryLinks": {
-						"categoryLink": {
-							"_name": "Regimental Leader",
-							"_hidden": "false",
-							"_id": "cb49-bf9b-1f41-2e53",
-							"_targetId": "d1f3-921c-b403-1106",
-							"_primary": "true"
-						}
-					},
-					"entryLinks": {
-						"entryLink": [
-							{
-								"_import": "true",
-								"_name": "Heroic Traits",
-								"_hidden": "false",
-								"_id": "885c-f0b9-bf40-7c6e",
-								"_type": "selectionEntryGroup",
-								"_targetId": "f9fd-74a0-3624-d68"
-							},
-							{
-								"_import": "true",
-								"_name": "Artefacts of Power",
-								"_hidden": "false",
-								"_id": "9a72-83bc-7d18-1db2",
-								"_type": "selectionEntryGroup",
-								"_targetId": "f94b-56fb-4b63-336f"
-							}
-						]
-					},
-					"costs": {
-						"cost": {
-							"_name": "pts",
-							"_typeId": "points",
-							"_value": "470"
-						}
-					},
-					"_import": "true",
-					"_name": "Beast-smasher Mega-gargant",
-					"_hidden": "false",
-					"_id": "5db3-6f5c-461f-e685",
-					"_type": "selectionEntry",
-					"_targetId": "4a1b-3873-aa68-6d28"
-				},
-				{
-					"categoryLinks": {
-						"categoryLink": {
-							"_name": "Regimental Leader",
-							"_hidden": "false",
-							"_id": "47dd-d589-ceed-7ad9",
-							"_targetId": "d1f3-921c-b403-1106",
-							"_primary": "true"
-						}
-					},
-					"entryLinks": {
-						"entryLink": [
-							{
-								"_import": "true",
-								"_name": "Heroic Traits",
-								"_hidden": "false",
-								"_id": "2d38-ca99-c16f-81c8",
-								"_type": "selectionEntryGroup",
-								"_targetId": "f9fd-74a0-3624-d68"
-							},
-							{
-								"_import": "true",
-								"_name": "Artefacts of Power",
-								"_hidden": "false",
-								"_id": "2305-e771-394-5a2b",
-								"_type": "selectionEntryGroup",
-								"_targetId": "f94b-56fb-4b63-336f"
-							}
-						]
-					},
-					"costs": {
-						"cost": {
-							"_name": "pts",
-							"_typeId": "points",
-							"_value": "500"
-						}
-					},
-					"_import": "true",
-					"_name": "Gatebreaker Mega-gargant",
-					"_hidden": "false",
-					"_id": "f7a8-24c0-ab46-7b33",
-					"_type": "selectionEntry",
-					"_targetId": "7e9e-7d9f-d3ab-d143"
-				},
-				{
-					"categoryLinks": {
-						"categoryLink": {
-							"_name": "Regimental Leader",
-							"_hidden": "false",
-							"_id": "6be8-e1b7-6fcd-3c13",
-							"_targetId": "d1f3-921c-b403-1106",
-							"_primary": "true"
-						}
-					},
-					"costs": {
-						"cost": {
-							"_name": "pts",
-							"_typeId": "points",
-							"_value": "520"
-						}
-					},
-					"_import": "true",
-					"_name": "King Brodd",
-					"_hidden": "false",
-					"_id": "8ebd-1be0-110-25d0",
-					"_type": "selectionEntry",
-					"_targetId": "e2fb-7f41-171f-9418"
-				},
-				{
-					"categoryLinks": {
-						"categoryLink": {
-							"_name": "Regimental Leader",
-							"_hidden": "false",
-							"_id": "637e-fc1f-d856-665c",
-							"_targetId": "d1f3-921c-b403-1106",
-							"_primary": "true"
-						}
-					},
-					"costs": {
-						"cost": {
-							"_name": "pts",
-							"_typeId": "points",
-							"_value": "680"
-						}
-					},
-					"_import": "true",
-					"_name": "Kragnos, the End of Empires",
-					"_hidden": "false",
-					"_id": "c8d4-842d-67ce-e536",
-					"_type": "selectionEntry",
-					"_targetId": "7c7-7226-5b84-b87c"
-				},
-				{
-					"categoryLinks": {
-						"categoryLink": {
-							"_name": "Regimental Leader",
-							"_hidden": "false",
-							"_id": "be85-7251-a01c-79ca",
-							"_targetId": "d1f3-921c-b403-1106",
-							"_primary": "true"
-						}
-					},
-					"entryLinks": {
-						"entryLink": [
-							{
-								"_import": "true",
-								"_name": "Heroic Traits",
-								"_hidden": "false",
-								"_id": "e5e4-539d-a8ec-d708",
-								"_type": "selectionEntryGroup",
-								"_targetId": "f9fd-74a0-3624-d68"
-							},
-							{
-								"_import": "true",
-								"_name": "Artefacts of Power",
-								"_hidden": "false",
-								"_id": "a1d2-b472-74d0-3e7e",
-								"_type": "selectionEntryGroup",
-								"_targetId": "f94b-56fb-4b63-336f"
-							}
-						]
-					},
-					"costs": {
-						"cost": {
-							"_name": "pts",
-							"_typeId": "points",
-							"_value": "470"
-						}
-					},
-					"_import": "true",
-					"_name": "Kraken-eater Mega-gargant",
-					"_hidden": "false",
-					"_id": "32c3-4546-10aa-6006",
-					"_type": "selectionEntry",
-					"_targetId": "8eda-91ee-7eaa-877a"
-				},
-				{
-					"constraints": {
-						"constraint": {
-							"_type": "max",
-							"_value": "1",
-							"_field": "selections",
-							"_scope": "roster",
-							"_shared": "true",
-							"_id": "94e7-67fc-9add-b0fc",
-							"_includeChildSelections": "true"
-						}
-					},
-					"_import": "true",
-					"_name": "Battle Traits: Sons of Behemat",
-					"_hidden": "false",
-					"_id": "26ae-b3ef-1887-54f5",
-					"_type": "selectionEntry",
-					"_targetId": "590e-e726-f603-60eb"
-				},
-				{
-					"modifiers": {
-						"modifier": {
-							"conditionGroups": {
-								"conditionGroup": {
-									"conditionGroups": {
-										"conditionGroup": {
-											"conditions": {
-												"condition": [
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "5db3-6f5c-461f-e685",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "f7a8-24c0-ab46-7b33",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "8ebd-1be0-110-25d0",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "c8d4-842d-67ce-e536",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "32c3-4546-10aa-6006",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "d1bb-dfda-17e7-3252",
-														"_shared": "true"
-													}
-												]
-											},
-											"_type": "and"
-										}
-									},
-									"conditions": {
-										"condition": {
-											"_type": "instanceOf",
-											"_value": "1",
-											"_field": "selections",
-											"_scope": "ancestor",
-											"_childId": "376a-6b97-8699-dd59",
-											"_shared": "true"
-										}
-									},
-									"_type": "and"
-								}
-							},
-							"_type": "set",
-							"_value": "true",
-							"_field": "hidden"
-						}
-					},
-					"costs": {
-						"cost": {
-							"_name": "pts",
-							"_typeId": "points",
-							"_value": "160"
-						}
-					},
-					"_import": "true",
-					"_name": "Mancrusher Gargant",
-					"_hidden": "false",
-					"_id": "266a-faa1-d955-fb24",
-					"_type": "selectionEntry",
-					"_targetId": "2e41-3174-d7a3-cded"
-				},
-				{
-					"modifiers": {
-						"modifier": {
-							"conditionGroups": {
-								"conditionGroup": {
-									"conditionGroups": {
-										"conditionGroup": {
-											"conditions": {
-												"condition": [
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "5db3-6f5c-461f-e685",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "f7a8-24c0-ab46-7b33",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "8ebd-1be0-110-25d0",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "c8d4-842d-67ce-e536",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "32c3-4546-10aa-6006",
-														"_shared": "true"
-													},
-													{
-														"_type": "lessThan",
-														"_value": "1",
-														"_field": "selections",
-														"_scope": "force",
-														"_childId": "d1bb-dfda-17e7-3252",
-														"_shared": "true"
-													}
-												]
-											},
-											"_type": "and"
-										}
-									},
-									"conditions": {
-										"condition": {
-											"_type": "instanceOf",
-											"_value": "1",
-											"_field": "selections",
-											"_scope": "ancestor",
-											"_childId": "376a-6b97-8699-dd59",
-											"_shared": "true"
-										}
-									},
-									"_type": "and"
-								}
-							},
-							"_type": "set",
-							"_value": "true",
-							"_field": "hidden"
-						}
-					},
-					"costs": {
-						"cost": {
-							"_name": "pts",
-							"_typeId": "points",
-							"_value": "420"
-						}
-					},
-					"_import": "true",
-					"_name": "Mancrusher Mob",
-					"_hidden": "false",
-					"_id": "a296-fe56-a48c-4c2f",
-					"_type": "selectionEntry",
-					"_targetId": "a0c1-1a99-2cf9-85f9"
-				}
-			]
-		},
-		"catalogueLinks": {
-			"catalogueLink": {
-				"_type": "catalogue",
-				"_name": "Sons of Behemat - Library",
-				"_id": "f233-237c-c639-9f45",
-				"_targetId": "e691-c828-52e1-f1a8"
-			}
-		},
-		"sharedSelectionEntries": {
-			"selectionEntry": {
-				"profiles": {
-					"profile": [
-						{
-							"characteristics": {
-								"characteristic": [
-									{
-										"_name": "Timing",
-										"_typeId": "652c-3d84-4e7-14f4",
-										"__text": "Once Per Turn (Army), Any Combat Phase"
-									},
-									{
-										"_name": "Declare",
-										"_typeId": "bad3-f9c5-ba46-18cb",
-										"__text": "Pick a friendly **^^Mega‑Gargant^^** that has not used a **^^Rampage^^** ability this turn to use this ability, then pick an enemy **^^Monster^^** or **^^War Machine^^** within 1\" of it to be the target."
-									},
-									{
-										"_name": "Effect",
-										"_typeId": "b6f1-ba36-6cd-3b03",
-										"__text": "Roll a dice. On a 3+, remove the target from the battlefield and set it up again within 1\" of the unit using this ability. Then, inflict D3 mortal damage on the target."
-									},
-									{
-										"_name": "Keywords",
-										"_typeId": "12e8-3214-7d8f-1d0f",
-										"__text": "**^^Rampage^^**"
-									},
-									{
-										"_name": "Used By",
-										"_typeId": "1b32-c9d6-3106-166b"
-									}
-								]
-							},
-							"_name": "Colossal Slam",
-							"_typeId": "59b6-d47a-a68a-5dcc",
-							"_typeName": "Ability (Activated)",
-							"_hidden": "false",
-							"_id": "8b65-5ca0-d25a-9293",
-							"_publicationId": "b765-4747-cddc-385e"
-						},
-						{
-							"characteristics": {
-								"characteristic": [
-									{
-										"_name": "Timing",
-										"_typeId": "652c-3d84-4e7-14f4",
-										"__text": "Any Charge Phase"
-									},
-									{
-										"_name": "Declare",
-										"_typeId": "bad3-f9c5-ba46-18cb",
-										"__text": "Pick a friendly **^^Mega‑Gargant^^** or **^^Gargant^^** unit that charged this turn and has not used a **^^Rampage^^** ability this turn to use this ability, then pick a visible enemy unit within 1\" of it to be the target."
-									},
-									{
-										"_name": "Effect",
-										"_typeId": "b6f1-ba36-6cd-3b03",
-										"__text": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
-									},
-									{
-										"_name": "Keywords",
-										"_typeId": "12e8-3214-7d8f-1d0f",
-										"__text": "**^^Rampage^^**"
-									},
-									{
-										"_name": "Used By",
-										"_typeId": "1b32-c9d6-3106-166b"
-									}
-								]
-							},
-							"_name": "Gargant Charge",
-							"_typeId": "59b6-d47a-a68a-5dcc",
-							"_typeName": "Ability (Activated)",
-							"_hidden": "false",
-							"_id": "a7a0-3994-3329-7bb8",
-							"_publicationId": "b765-4747-cddc-385e"
-						},
-						{
-							"characteristics": {
-								"characteristic": [
-									{
-										"_name": "Keywords",
-										"_typeId": "b977-7c5e-33b2-428e"
-									},
-									{
-										"_name": "Effect",
-										"_typeId": "fd7f-888d-3257-a12b",
-										"__text": "Each time a friendly **^^Mega‑Gargant^^** or **^^Gargant^^** model is slain, before removing it from play, the players must roll off. The winner picks a point on the battlefield within 3\" of that model. Inflict D3 mortal damage on each unit (friendly and enemy) within 3\" of that point that has a lower Health characteristic than that model."
-									}
-								]
-							},
-							"_name": "Timberrrrr!",
-							"_typeId": "907f-a48-6a04-f788",
-							"_typeName": "Ability (Passive)",
-							"_hidden": "false",
-							"_id": "a321-5df8-1d34-d7a7",
-							"_publicationId": "b765-4747-cddc-385e"
-						},
-						{
-							"characteristics": {
-								"characteristic": [
-									{
-										"_name": "Timing",
-										"_typeId": "652c-3d84-4e7-14f4",
-										"__text": "Once Per Turn (Army), Any Combat Phase"
-									},
-									{
-										"_name": "Declare",
-										"_typeId": "bad3-f9c5-ba46-18cb",
-										"__text": "Pick a friendly **^^Mega‑Gargant^^** or **^^Gargant^^** unit that has not used a **^^Rampage^^** ability this turn to use this ability, then pick an enemy **^^Infantry^^** unit in combat with it to be the target."
-									},
-									{
-										"_name": "Effect",
-										"_typeId": "b6f1-ba36-6cd-3b03",
-										"__text": "Roll a dice. On a 3+, roll a dice for each model in the target unit. If the unit using this ability is a **^^Gargant^^**, inflict 1 mortal damage on the target for each 6. If it is a **^^Mega-Gargant^^**, inflict 1 mortal damage on the target for each 5+."
-									},
-									{
-										"_name": "Keywords",
-										"_typeId": "12e8-3214-7d8f-1d0f",
-										"__text": "**^^Rampage^^**"
-									},
-									{
-										"_name": "Used By",
-										"_typeId": "1b32-c9d6-3106-166b"
-									}
-								]
-							},
-							"_name": "Jump Up and Down",
-							"_typeId": "59b6-d47a-a68a-5dcc",
-							"_typeName": "Ability (Activated)",
-							"_hidden": "false",
-							"_id": "40f8-2852-2586-c461",
-							"_publicationId": "b765-4747-cddc-385e"
-						},
-						{
-							"characteristics": {
-								"characteristic": [
-									{
-										"_name": "Timing",
-										"_typeId": "652c-3d84-4e7-14f4",
-										"__text": "Once Per Turn (Army), Any Combat Phase"
-									},
-									{
-										"_name": "Declare",
-										"_typeId": "bad3-f9c5-ba46-18cb",
-										"__text": "Pick a friendly **^^Mega‑Gargant^^** or **^^Gargant^^** unit that has not used a **^^Rampage^^** ability this turn to use this ability, then pick an enemy unit in combat with it to be the target."
-									},
-									{
-										"_name": "Effect",
-										"_typeId": "b6f1-ba36-6cd-3b03",
-										"__text": "Roll a dice. On a 3+, the target cannot use commands for the rest of the turn."
-									},
-									{
-										"_name": "Keywords",
-										"_typeId": "12e8-3214-7d8f-1d0f",
-										"__text": "**^^Rampage^^**"
-									},
-									{
-										"_name": "Used By",
-										"_typeId": "1b32-c9d6-3106-166b"
-									}
-								]
-							},
-							"_name": "Earthshaking Roar",
-							"_typeId": "59b6-d47a-a68a-5dcc",
-							"_typeName": "Ability (Activated)",
-							"_hidden": "false",
-							"_id": "2759-3ea9-4bcd-9116",
-							"_publicationId": "b765-4747-cddc-385e"
-						}
-					]
-				},
-				"categoryLinks": {
-					"categoryLink": {
-						"_name": "Reference",
-						"_hidden": "false",
-						"_id": "dc92-7bf6-e0f-d4d1",
-						"_targetId": "3360-1158-e879-9606",
-						"_primary": "true"
-					}
-				},
-				"_type": "upgrade",
-				"_import": "true",
-				"_name": "Battle Traits: Sons of Behemat",
-				"_hidden": "false",
-				"_id": "590e-e726-f603-60eb"
-			}
-		},
-		"sharedSelectionEntryGroups": {
-			"selectionEntryGroup": [
-				{
-					"selectionEntryGroups": {
-						"selectionEntryGroup": {
-							"selectionEntries": {
-								"selectionEntry": [
-									{
-										"profiles": {
-											"profile": {
-												"characteristics": {
-													"characteristic": [
-														{
-															"_name": "Timing",
-															"_typeId": "652c-3d84-4e7-14f4",
-															"__text": "Once Per Battle, Any Combat Phase"
-														},
-														{
-															"_name": "Declare",
-															"_typeId": "bad3-f9c5-ba46-18cb"
-														},
-														{
-															"_name": "Effect",
-															"_typeId": "b6f1-ba36-6cd-3b03",
-															"__text": "For the rest of the turn:\n• Add 2 to the Attacks characteristic of this unit’s melee weapons.\n• Subtract 1 from save rolls for this unit."
-														},
-														{
-															"_name": "Keywords",
-															"_typeId": "12e8-3214-7d8f-1d0f"
-														},
-														{
-															"_name": "Used By",
-															"_typeId": "1b32-c9d6-3106-166b"
-														}
-													]
-												},
-												"_name": "Furious Temper",
-												"_typeId": "59b6-d47a-a68a-5dcc",
-												"_typeName": "Ability (Activated)",
-												"_hidden": "false",
-												"_id": "f3dd-d3d7-1db2-cede"
-											}
-										},
-										"constraints": {
-											"constraint": {
-												"_type": "max",
-												"_value": "1",
-												"_field": "selections",
-												"_scope": "roster",
-												"_shared": "true",
-												"_id": "7599-9465-d92c-e1f9",
-												"_includeChildSelections": "true"
-											}
-										},
-										"_type": "upgrade",
-										"_import": "true",
-										"_name": "Furious Temper",
-										"_hidden": "false",
-										"_id": "4e0c-3e85-b131-a3f8",
-										"_publicationId": "b765-4747-cddc-385e"
-									},
-									{
-										"profiles": {
-											"profile": {
-												"characteristics": {
-													"characteristic": [
-														{
-															"_name": "Keywords",
-															"_typeId": "b977-7c5e-33b2-428e"
-														},
-														{
-															"_name": "Effect",
-															"_typeId": "fd7f-888d-3257-a12b",
-															"__text": "Add 1 to charge rolls for friendly **^^Sons of Behemat^^** units while they are wholly within 12\" of this unit."
-														}
-													]
-												},
-												"_name": "Rabble Rouser",
-												"_typeId": "907f-a48-6a04-f788",
-												"_typeName": "Ability (Passive)",
-												"_hidden": "false",
-												"_id": "894c-de94-d83f-bb2c"
-											}
-										},
-										"constraints": {
-											"constraint": {
-												"_type": "max",
-												"_value": "1",
-												"_field": "selections",
-												"_scope": "roster",
-												"_shared": "true",
-												"_id": "50fd-a6e2-90c-d2f9",
-												"_includeChildSelections": "true"
-											}
-										},
-										"_type": "upgrade",
-										"_import": "true",
-										"_name": "Rabble Rouser",
-										"_hidden": "false",
-										"_id": "af81-d78-3e5b-5f9c",
-										"_publicationId": "b765-4747-cddc-385e"
-									},
-									{
-										"profiles": {
-											"profile": {
-												"characteristics": {
-													"characteristic": [
-														{
-															"_name": "Keywords",
-															"_typeId": "b977-7c5e-33b2-428e"
-														},
-														{
-															"_name": "Effect",
-															"_typeId": "fd7f-888d-3257-a12b",
-															"__text": "This unit has a Health characteristic of 40 instead of 35."
-														}
-													]
-												},
-												"_name": "Monstrously Tough",
-												"_typeId": "907f-a48-6a04-f788",
-												"_typeName": "Ability (Passive)",
-												"_hidden": "false",
-												"_id": "c241-ebdd-24c-6e83"
-											}
-										},
-										"constraints": {
-											"constraint": {
-												"_type": "max",
-												"_value": "1",
-												"_field": "selections",
-												"_scope": "roster",
-												"_shared": "true",
-												"_id": "db86-deef-a770-fbbf",
-												"_includeChildSelections": "true"
-											}
-										},
-										"_type": "upgrade",
-										"_import": "true",
-										"_name": "Monstrously Tough",
-										"_hidden": "false",
-										"_id": "8ca2-88cb-a124-f1cb",
-										"_publicationId": "b765-4747-cddc-385e"
-									}
-								]
-							},
-							"constraints": {
-								"constraint": {
-									"_type": "max",
-									"_value": "1",
-									"_field": "selections",
-									"_scope": "parent",
-									"_shared": "true",
-									"_id": "e780-1b6d-4c5a-d5ea"
-								}
-							},
-							"_name": "Big Personalities",
-							"_id": "efd5-731-45d1-5726",
-							"_hidden": "false"
-						}
-					},
-					"constraints": {
-						"constraint": {
-							"_type": "max",
-							"_value": "1",
-							"_field": "selections",
-							"_scope": "roster",
-							"_shared": "true",
-							"_id": "a060-e714-27d9-3686",
-							"_includeChildSelections": "true"
-						}
-					},
-					"_name": "Heroic Traits",
-					"_id": "f9fd-74a0-3624-d68",
-					"_hidden": "false"
-				},
-				{
-					"selectionEntryGroups": {
-						"selectionEntryGroup": {
-							"selectionEntries": {
-								"selectionEntry": [
-									{
-										"profiles": {
-											"profile": {
-												"characteristics": {
-													"characteristic": [
-														{
-															"_name": "Timing",
-															"_typeId": "652c-3d84-4e7-14f4",
-															"__text": "Once Per Battle, Deployment Phase"
-														},
-														{
-															"_name": "Declare",
-															"_typeId": "bad3-f9c5-ba46-18cb"
-														},
-														{
-															"_name": "Effect",
-															"_typeId": "b6f1-ba36-6cd-3b03",
-															"__text": "Pick 1 manifestation lore available to your faction. This unit can use **^^Summon^^** abilities from that manifestation lore as if it had **^^Wizard (1)^^**."
-														},
-														{
-															"_name": "Keywords",
-															"_typeId": "12e8-3214-7d8f-1d0f"
-														},
-														{
-															"_name": "Used By",
-															"_typeId": "1b32-c9d6-3106-166b"
-														}
-													]
-												},
-												"_name": "Glowy Lantern",
-												"_typeId": "59b6-d47a-a68a-5dcc",
-												"_typeName": "Ability (Activated)",
-												"_hidden": "false",
-												"_id": "13b0-81ae-71f0-9da7"
-											}
-										},
-										"constraints": {
-											"constraint": {
-												"_type": "max",
-												"_value": "1",
-												"_field": "selections",
-												"_scope": "roster",
-												"_shared": "true",
-												"_id": "1078-7f32-17a5-728f",
-												"_includeChildSelections": "true"
-											}
-										},
-										"_type": "upgrade",
-										"_import": "true",
-										"_name": "Glowy Lantern",
-										"_hidden": "false",
-										"_id": "4875-da08-bbf-8b40",
-										"_publicationId": "b765-4747-cddc-385e"
-									},
-									{
-										"profiles": {
-											"profile": {
-												"characteristics": {
-													"characteristic": [
-														{
-															"_name": "Timing",
-															"_typeId": "652c-3d84-4e7-14f4",
-															"__text": "Once Per Battle, Your Charge Phase"
-														},
-														{
-															"_name": "Declare",
-															"_typeId": "bad3-f9c5-ba46-18cb"
-														},
-														{
-															"_name": "Effect",
-															"_typeId": "b6f1-ba36-6cd-3b03",
-															"__text": "For the rest of the turn, this unit can use **^^Charge^^** abilities even if it used a **^^Run^^** ability in the same turn."
-														},
-														{
-															"_name": "Keywords",
-															"_typeId": "12e8-3214-7d8f-1d0f"
-														},
-														{
-															"_name": "Used By",
-															"_typeId": "1b32-c9d6-3106-166b"
-														}
-													]
-												},
-												"_name": "Amberbone Totem",
-												"_typeId": "59b6-d47a-a68a-5dcc",
-												"_typeName": "Ability (Activated)",
-												"_hidden": "false",
-												"_id": "657d-1b3e-b238-cc6f"
-											}
-										},
-										"constraints": {
-											"constraint": {
-												"_type": "max",
-												"_value": "1",
-												"_field": "selections",
-												"_scope": "roster",
-												"_shared": "true",
-												"_id": "5e2-6b78-dde2-badc",
-												"_includeChildSelections": "true"
-											}
-										},
-										"_type": "upgrade",
-										"_import": "true",
-										"_name": "Amberbone Totem",
-										"_hidden": "false",
-										"_id": "d487-2419-8794-52aa",
-										"_publicationId": "b765-4747-cddc-385e"
-									},
-									{
-										"profiles": {
-											"profile": {
-												"characteristics": {
-													"characteristic": [
-														{
-															"_name": "Keywords",
-															"_typeId": "b977-7c5e-33b2-428e"
-														},
-														{
-															"_name": "Effect",
-															"_typeId": "fd7f-888d-3257-a12b",
-															"__text": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved."
-														}
-													]
-												},
-												"_name": "Glowy Shield of Protectiness",
-												"_typeId": "907f-a48-6a04-f788",
-												"_typeName": "Ability (Passive)",
-												"_hidden": "false",
-												"_id": "1672-1374-26e2-4fe5"
-											}
-										},
-										"constraints": {
-											"constraint": {
-												"_type": "max",
-												"_value": "1",
-												"_field": "selections",
-												"_scope": "roster",
-												"_shared": "true",
-												"_id": "46ac-63ec-30ed-3cbf",
-												"_includeChildSelections": "true"
-											}
-										},
-										"_type": "upgrade",
-										"_import": "true",
-										"_name": "Glowy Shield of Protectiness",
-										"_hidden": "false",
-										"_id": "191b-510c-1a4c-606f",
-										"_publicationId": "b765-4747-cddc-385e"
-									},
-									{
-										"profiles": {
-											"profile": {
-												"characteristics": {
-													"characteristic": [
-														{
-															"_name": "Keywords",
-															"_typeId": "b977-7c5e-33b2-428e"
-														},
-														{
-															"_name": "Effect",
-															"_typeId": "fd7f-888d-3257-a12b",
-															"__text": "Add 1 to the Attacks characteristic, Rend characteristic and Damage characteristic of this unit’s **Almighty Stomp** or **Almightier Stomp**."
-														}
-													]
-												},
-												"_name": "Extra-Calloused Feet",
-												"_typeId": "907f-a48-6a04-f788",
-												"_typeName": "Ability (Passive)",
-												"_hidden": "false",
-												"_id": "82fb-f319-fb1-9805"
-											}
-										},
-										"constraints": {
-											"constraint": {
-												"_type": "max",
-												"_value": "1",
-												"_field": "selections",
-												"_scope": "roster",
-												"_shared": "true",
-												"_id": "f73-1eb2-2986-6143",
-												"_includeChildSelections": "true"
-											}
-										},
-										"_type": "upgrade",
-										"_import": "true",
-										"_name": "Extra-Calloused Feet",
-										"_hidden": "false",
-										"_id": "6a47-69fe-5956-5aa5",
-										"_publicationId": "b765-4747-cddc-385e"
-									},
-									{
-										"profiles": {
-											"profile": {
-												"characteristics": {
-													"characteristic": [
-														{
-															"_name": "Timing",
-															"_typeId": "652c-3d84-4e7-14f4",
-															"__text": "Once Per Battle, Your Combat Phase"
-														},
-														{
-															"_name": "Declare",
-															"_typeId": "bad3-f9c5-ba46-18cb"
-														},
-														{
-															"_name": "Effect",
-															"_typeId": "b6f1-ba36-6cd-3b03",
-															"__text": "For the rest of the turn, add 1 to hit rolls for combat attacks made by friendly **^^Sons of Behemat^^** units while they are wholly within 12\" of this unit."
-														},
-														{
-															"_name": "Keywords",
-															"_typeId": "12e8-3214-7d8f-1d0f"
-														},
-														{
-															"_name": "Used By",
-															"_typeId": "1b32-c9d6-3106-166b"
-														}
-													]
-												},
-												"_name": "Mantle of Tusk and Horns",
-												"_typeId": "59b6-d47a-a68a-5dcc",
-												"_typeName": "Ability (Activated)",
-												"_hidden": "false",
-												"_id": "2fdf-c068-6eb5-e908"
-											}
-										},
-										"constraints": {
-											"constraint": {
-												"_type": "max",
-												"_value": "1",
-												"_field": "selections",
-												"_scope": "roster",
-												"_shared": "true",
-												"_id": "8ad5-3a2c-e2cc-8b92",
-												"_includeChildSelections": "true"
-											}
-										},
-										"_type": "upgrade",
-										"_import": "true",
-										"_name": "Mantle of Tusk and Horns",
-										"_hidden": "false",
-										"_id": "b848-e898-1112-5358",
-										"_publicationId": "b765-4747-cddc-385e"
-									},
-									{
-										"profiles": {
-											"profile": {
-												"characteristics": {
-													"characteristic": [
-														{
-															"_name": "Keywords",
-															"_typeId": "b977-7c5e-33b2-428e"
-														},
-														{
-															"_name": "Effect",
-															"_typeId": "fd7f-888d-3257-a12b",
-															"__text": "Add 1 to the Attacks characteristic of this unit’s melee weapons while this unit is in combat with an enemy **^^Hero^^**."
-														}
-													]
-												},
-												"_name": "Kingslaughter Cowl",
-												"_typeId": "907f-a48-6a04-f788",
-												"_typeName": "Ability (Passive)",
-												"_hidden": "false",
-												"_id": "e983-cfe8-f9b4-a60e"
-											}
-										},
-										"constraints": {
-											"constraint": {
-												"_type": "max",
-												"_value": "1",
-												"_field": "selections",
-												"_scope": "roster",
-												"_shared": "true",
-												"_id": "963f-132a-d0bc-e4db",
-												"_includeChildSelections": "true"
-											}
-										},
-										"_type": "upgrade",
-										"_import": "true",
-										"_name": "Kingslaughter Cowl",
-										"_hidden": "false",
-										"_id": "af21-2013-aa28-2bb4",
-										"_publicationId": "b765-4747-cddc-385e"
-									}
-								]
-							},
-							"constraints": {
-								"constraint": {
-									"_type": "max",
-									"_value": "1",
-									"_field": "selections",
-									"_scope": "parent",
-									"_shared": "true",
-									"_id": "4d75-4831-5f34-2814"
-								}
-							},
-							"_name": "Titanic Trophies",
-							"_id": "99c1-ccb-8fc3-53d8",
-							"_hidden": "false"
-						}
-					},
-					"constraints": {
-						"constraint": {
-							"_type": "max",
-							"_value": "1",
-							"_field": "selections",
-							"_scope": "roster",
-							"_shared": "true",
-							"_id": "2ca6-cb6f-f58c-ecab",
-							"_includeChildSelections": "true"
-						}
-					},
-					"_name": "Artefacts of Power",
-					"_id": "f94b-56fb-4b63-336f",
-					"_hidden": "false"
-				},
-				{
-					"selectionEntries": {
-						"selectionEntry": [
-							{
-								"constraints": {
-									"constraint": {
-										"_type": "max",
-										"_value": "1",
-										"_field": "selections",
-										"_scope": "parent",
-										"_shared": "true",
-										"_id": "1d23-5cfc-2e98-227c"
-									}
-								},
-								"profiles": {
-									"profile": {
-										"characteristics": {
-											"characteristic": [
-												{
-													"_name": "Timing",
-													"_typeId": "652c-3d84-4e7-14f4",
-													"__text": "Once Per Turn (Army), Reaction: You declared a Fight ability for a friendly Mega-Gargant"
-												},
-												{
-													"_name": "Declare",
-													"_typeId": "bad3-f9c5-ba46-18cb"
-												},
-												{
-													"_name": "Effect",
-													"_typeId": "b6f1-ba36-6cd-3b03",
-													"__text": "Pick a friendly **^^Gargant^^** unit that has not used a **^^Fight^^** ability this turn and is wholly within 12\" of this unit to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved."
-												},
-												{
-													"_name": "Keywords",
-													"_typeId": "12e8-3214-7d8f-1d0f"
-												},
-												{
-													"_name": "Used By",
-													"_typeId": "1b32-c9d6-3106-166b",
-													"__text": "The **^^Mega-Gargant^^** using that **^^Fight^^** ability."
-												}
-											]
-										},
-										"_name": "Big Mouth",
-										"_typeId": "59b6-d47a-a68a-5dcc",
-										"_typeName": "Ability (Activated)",
-										"_hidden": "false",
-										"_id": "d8c6-9ab3-4163-29f3"
-									}
-								},
-								"_type": "upgrade",
-								"_import": "true",
-								"_name": "Boss Tribe",
-								"_hidden": "false",
-								"_id": "284c-43d1-c99d-9e69",
-								"_publicationId": "b765-4747-cddc-385e"
-							},
-							{
-								"constraints": {
-									"constraint": {
-										"_type": "max",
-										"_value": "1",
-										"_field": "selections",
-										"_scope": "parent",
-										"_shared": "true",
-										"_id": "70dc-23ac-b9c5-ba75"
-									}
-								},
-								"profiles": {
-									"profile": {
-										"characteristics": {
-											"characteristic": [
-												{
-													"_name": "Timing",
-													"_typeId": "652c-3d84-4e7-14f4",
-													"__text": "Once Per Battle, Deployment Phase"
-												},
-												{
-													"_name": "Declare",
-													"_typeId": "bad3-f9c5-ba46-18cb",
-													"__text": "Pick a friendly non-**^^Unique Sons of Behemat Hero^^** that does not have an artefact of power."
-												},
-												{
-													"_name": "Effect",
-													"_typeId": "b6f1-ba36-6cd-3b03",
-													"__text": "Give that **^^Hero^^** 1 artefact of power from ‘Titanic Trophies’.\n**Designer’s Note:** *This artefact of power is given to the unit during the deployment phase, not during army composition.*"
-												},
-												{
-													"_name": "Keywords",
-													"_typeId": "12e8-3214-7d8f-1d0f"
-												},
-												{
-													"_name": "Used By",
-													"_typeId": "1b32-c9d6-3106-166b"
-												}
-											]
-										},
-										"_name": "More Stuff for Me Collection",
-										"_typeId": "59b6-d47a-a68a-5dcc",
-										"_typeName": "Ability (Activated)",
-										"_hidden": "false",
-										"_id": "2418-1884-443c-e199"
-									}
-								},
-								"_type": "upgrade",
-								"_import": "true",
-								"_name": "Taker Tribe",
-								"_hidden": "false",
-								"_id": "e5bd-6d0e-f80b-3f6a",
-								"_publicationId": "b765-4747-cddc-385e"
-							},
-							{
-								"constraints": {
-									"constraint": {
-										"_type": "max",
-										"_value": "1",
-										"_field": "selections",
-										"_scope": "parent",
-										"_shared": "true",
-										"_id": "2f4d-a4c8-a8c6-2bc2"
-									}
-								},
-								"profiles": {
-									"profile": {
-										"characteristics": {
-											"characteristic": [
-												{
-													"_name": "Keywords",
-													"_typeId": "b977-7c5e-33b2-428e"
-												},
-												{
-													"_name": "Effect",
-													"_typeId": "fd7f-888d-3257-a12b",
-													"__text": "Friendly **^^Mega-Gargants^^** have **^^Ward (6+)^^** while they are within the combat ranges of any other friendly **^^Mega-Gargants^^**."
-												}
-											]
-										},
-										"_name": "Besieging Bulk",
-										"_typeId": "907f-a48-6a04-f788",
-										"_typeName": "Ability (Passive)",
-										"_hidden": "false",
-										"_id": "f671-6232-47c6-3dc9"
-									}
-								},
-								"_type": "upgrade",
-								"_import": "true",
-								"_name": "Breaker Tribe",
-								"_hidden": "false",
-								"_id": "b29e-5c59-6291-2ea4",
-								"_publicationId": "b765-4747-cddc-385e"
-							},
-							{
-								"constraints": {
-									"constraint": {
-										"_type": "max",
-										"_value": "1",
-										"_field": "selections",
-										"_scope": "parent",
-										"_shared": "true",
-										"_id": "ae7f-360-32ae-c524"
-									}
-								},
-								"profiles": {
-									"profile": {
-										"characteristics": {
-											"characteristic": [
-												{
-													"_name": "Keywords",
-													"_typeId": "b977-7c5e-33b2-428e"
-												},
-												{
-													"_name": "Effect",
-													"_typeId": "fd7f-888d-3257-a12b",
-													"__text": "You can pick 2 friendly **^^Mega‑Gargants^^** or **^^Gargant^^** units that have not used a **^^Rampage^^** ability this turn to use the ‘Jump Up and Down’ ability instead of 1."
-												}
-											]
-										},
-										"_name": "Revel in War",
-										"_typeId": "907f-a48-6a04-f788",
-										"_typeName": "Ability (Passive)",
-										"_hidden": "false",
-										"_id": "2558-d7e2-3acf-e60c"
-									}
-								},
-								"_type": "upgrade",
-								"_import": "true",
-								"_name": "Stomper Tribe",
-								"_hidden": "false",
-								"_id": "4be4-db42-f2db-e4",
-								"_publicationId": "b765-4747-cddc-385e"
-							}
-						]
-					},
-					"constraints": {
-						"constraint": {
-							"_type": "max",
-							"_value": "1",
-							"_field": "selections",
-							"_scope": "roster",
-							"_shared": "true",
-							"_id": "fd33-e97a-41a4-8913",
-							"_includeChildSelections": "true",
-							"_includeChildForces": "true"
-						}
-					},
-					"_name": "Battle Formations: Sons of Behemat",
-					"_id": "4e00-4aeb-ae2-c3d5",
-					"_hidden": "false",
-					"_flatten": "true"
-				}
-			]
-		},
-		"categoryEntries": {
-			"categoryEntry": {
-				"_name": "Eager Lout",
-				"_id": "258f-9cfe-ea60-e99c",
-				"_hidden": "false"
-			}
-		},
-		"selectionEntries": {
-			"selectionEntry": [
-				{
-					"entryLinks": {
-						"entryLink": {
-							"_import": "true",
-							"_name": "Battle Formations: Sons of Behemat",
-							"_hidden": "false",
-							"_id": "15b6-7bad-558e-ab7",
-							"_type": "selectionEntryGroup",
-							"_targetId": "4e00-4aeb-ae2-c3d5",
-							"_collective": "false",
-							"_flatten": "true"
-						}
-					},
-					"constraints": {
-						"constraint": {
-							"_type": "max",
-							"_value": "1",
-							"_field": "selections",
-							"_scope": "roster",
-							"_shared": "true",
-							"_id": "d7e6-1f89-6bb8-9959",
-							"_includeChildSelections": "true",
-							"_includeChildForces": "true"
-						}
-					},
-					"categoryLinks": {
-						"categoryLink": {
-							"_name": "Army Composition",
-							"_hidden": "false",
-							"_id": "bc7a-9595-af18-2f83",
-							"_targetId": "ac97-b27c-7e35-7ab9",
-							"_primary": "true"
-						}
-					},
-					"_type": "upgrade",
-					"_import": "true",
-					"_name": "Battle Formation",
-					"_hidden": "false",
-					"_id": "d754-112b-b8f7-bd68",
-					"_defaultAmount": "1"
-				},
-				{
-					"entryLinks": {
-						"entryLink": {
-							"_import": "true",
-							"_name": "Manifestation Lores",
-							"_hidden": "false",
-							"_id": "999f-325f-2218-8e4c",
-							"_type": "selectionEntryGroup",
-							"_targetId": "748f-5d65-2d45-95c5",
-							"_flatten": "true"
-						}
-					},
-					"constraints": {
-						"constraint": [
-							{
-								"_type": "max",
-								"_value": "1",
-								"_field": "selections",
-								"_scope": "roster",
-								"_shared": "true",
-								"_id": "46b5-2d83-2684-7b2"
-							},
-							{
-								"_type": "max",
-								"_value": "1",
-								"_field": "selections",
-								"_scope": "self",
-								"_shared": "true",
-								"_id": "9e29-a02f-2a9f-72cb"
-							}
-						]
-					},
-					"categoryLinks": {
-						"categoryLink": {
-							"_name": "Army Composition",
-							"_hidden": "false",
-							"_id": "5380-3111-41e0-a65",
-							"_targetId": "ac97-b27c-7e35-7ab9",
-							"_primary": "true"
-						}
-					},
-					"_type": "upgrade",
-					"_import": "true",
-					"_name": "Manifestation Lore",
-					"_hidden": "false",
-					"_id": "878d-5abc-13a-5f24",
-					"_defaultAmount": "1"
-				}
-			]
-		},
-		"_xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
-		"_library": "false",
-		"_id": "de5f-588b-ea57-d6b5",
-		"_name": "Sons of Behemat",
-		"_gameSystemId": "e51d-b1a3-75fc-dc3g",
-		"_gameSystemRevision": "2",
-		"_revision": "1",
-		"_battleScribeVersion": "2.03",
-		"_type": "catalogue"
-	}
+  "catalogue": {
+    "entryLinks": {
+      "entryLink": [{
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Artefacts of Power",
+                "_hidden": "false",
+                "_id": "f5cf-129a-a774-a8f6",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f94b-56fb-4b63-336f"
+              },
+              {
+                "_import": "true",
+                "_name": "Heroic Traits",
+                "_hidden": "false",
+                "_id": "b53f-f49c-8a40-7639",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f9fd-74a0-3624-d68"
+              }
+            ]
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "89e-cdb5-d95a-14a7"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditionGroups": {
+                "conditionGroup": {
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "5db3-6f5c-461f-e685",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "f7a8-24c0-ab46-7b33",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "8ebd-1be0-110-25d0",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "c8d4-842d-67ce-e536",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "32c3-4546-10aa-6006",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "d1bb-dfda-17e7-3252",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
+                    }
+                  },
+                  "conditions": {
+                    "condition": {
+                      "_type": "instanceOf",
+                      "_value": "1",
+                      "_field": "selections",
+                      "_scope": "ancestor",
+                      "_childId": "376a-6b97-8699-dd59",
+                      "_shared": "true"
+                    }
+                  },
+                  "_type": "and"
+                }
+              },
+              "_type": "set",
+              "_value": "true",
+              "_field": "hidden"
+            }
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "258f-9cfe-ea60-e99c",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "258f-9cfe-ea60-e99c",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "89e-cdb5-d95a-14a7"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
+            }
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "470"
+            }
+          },
+          "_import": "true",
+          "_name": "Beast-smasher Mega-gargant",
+          "_hidden": "false",
+          "_id": "7bad-b427-c2bd-bb90",
+          "_type": "selectionEntry",
+          "_targetId": "4a1b-3873-aa68-6d28"
+        },
+        {
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Heroic Traits",
+                "_hidden": "false",
+                "_id": "2d8d-f7a8-7de6-6538",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f9fd-74a0-3624-d68"
+              },
+              {
+                "_import": "true",
+                "_name": "Artefacts of Power",
+                "_hidden": "false",
+                "_id": "28f4-e3f0-7156-1d91",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f94b-56fb-4b63-336f"
+              }
+            ]
+          },
+          "modifiers": {
+            "modifier": {
+              "conditionGroups": {
+                "conditionGroup": {
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "5db3-6f5c-461f-e685",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "f7a8-24c0-ab46-7b33",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "8ebd-1be0-110-25d0",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "c8d4-842d-67ce-e536",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "32c3-4546-10aa-6006",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "d1bb-dfda-17e7-3252",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
+                    }
+                  },
+                  "conditions": {
+                    "condition": {
+                      "_type": "instanceOf",
+                      "_value": "1",
+                      "_field": "selections",
+                      "_scope": "ancestor",
+                      "_childId": "376a-6b97-8699-dd59",
+                      "_shared": "true"
+                    }
+                  },
+                  "_type": "and"
+                }
+              },
+              "_type": "set",
+              "_value": "true",
+              "_field": "hidden"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "a9ec-491-18d2-95"
+            }
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "258f-9cfe-ea60-e99c",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "258f-9cfe-ea60-e99c",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "a9ec-491-18d2-95"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
+            }
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "500"
+            }
+          },
+          "_import": "true",
+          "_name": "Gatebreaker Mega-gargant",
+          "_hidden": "false",
+          "_id": "1ed3-c8dd-6d6f-124c",
+          "_type": "selectionEntry",
+          "_targetId": "7e9e-7d9f-d3ab-d143"
+        },
+        {
+          "modifiers": {
+            "modifier": {
+              "conditionGroups": {
+                "conditionGroup": {
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "5db3-6f5c-461f-e685",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "f7a8-24c0-ab46-7b33",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "8ebd-1be0-110-25d0",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "c8d4-842d-67ce-e536",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "32c3-4546-10aa-6006",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "d1bb-dfda-17e7-3252",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
+                    }
+                  },
+                  "conditions": {
+                    "condition": {
+                      "_type": "instanceOf",
+                      "_value": "1",
+                      "_field": "selections",
+                      "_scope": "ancestor",
+                      "_childId": "376a-6b97-8699-dd59",
+                      "_shared": "true"
+                    }
+                  },
+                  "_type": "and"
+                }
+              },
+              "_type": "set",
+              "_value": "true",
+              "_field": "hidden"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "3a4f-dd15-e43b-d093"
+            }
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "520"
+            }
+          },
+          "_import": "true",
+          "_name": "King Brodd",
+          "_hidden": "false",
+          "_id": "cefa-929b-38d9-31b7",
+          "_type": "selectionEntry",
+          "_targetId": "e2fb-7f41-171f-9418"
+        },
+        {
+          "modifiers": {
+            "modifier": {
+              "conditionGroups": {
+                "conditionGroup": {
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "5db3-6f5c-461f-e685",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "f7a8-24c0-ab46-7b33",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "8ebd-1be0-110-25d0",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "c8d4-842d-67ce-e536",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "32c3-4546-10aa-6006",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "d1bb-dfda-17e7-3252",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
+                    }
+                  },
+                  "conditions": {
+                    "condition": {
+                      "_type": "instanceOf",
+                      "_value": "1",
+                      "_field": "selections",
+                      "_scope": "ancestor",
+                      "_childId": "376a-6b97-8699-dd59",
+                      "_shared": "true"
+                    }
+                  },
+                  "_type": "and"
+                }
+              },
+              "_type": "set",
+              "_value": "true",
+              "_field": "hidden"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "a4b3-e0e4-5199-52c1"
+            }
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "580"
+            }
+          },
+          "_import": "true",
+          "_name": "Kragnos, the End of Empires",
+          "_hidden": "false",
+          "_id": "bb87-8d7f-29d9-1be7",
+          "_type": "selectionEntry",
+          "_targetId": "7c7-7226-5b84-b87c"
+        },
+        {
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Heroic Traits",
+                "_hidden": "false",
+                "_id": "b907-c95b-3433-1cf8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f9fd-74a0-3624-d68"
+              },
+              {
+                "_import": "true",
+                "_name": "Artefacts of Power",
+                "_hidden": "false",
+                "_id": "3b47-9f7e-994b-1f30",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f94b-56fb-4b63-336f"
+              }
+            ]
+          },
+          "modifiers": {
+            "modifier": {
+              "conditionGroups": {
+                "conditionGroup": {
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "5db3-6f5c-461f-e685",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "f7a8-24c0-ab46-7b33",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "8ebd-1be0-110-25d0",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "c8d4-842d-67ce-e536",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "32c3-4546-10aa-6006",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "d1bb-dfda-17e7-3252",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
+                    }
+                  },
+                  "conditions": {
+                    "condition": {
+                      "_type": "instanceOf",
+                      "_value": "1",
+                      "_field": "selections",
+                      "_scope": "ancestor",
+                      "_childId": "376a-6b97-8699-dd59",
+                      "_shared": "true"
+                    }
+                  },
+                  "_type": "and"
+                }
+              },
+              "_type": "set",
+              "_value": "true",
+              "_field": "hidden"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "6ca8-2117-4b46-4133"
+            }
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "258f-9cfe-ea60-e99c",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "258f-9cfe-ea60-e99c",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "6ca8-2117-4b46-4133"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
+            }
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "470"
+            }
+          },
+          "_import": "true",
+          "_name": "Kraken-eater Mega-gargant",
+          "_hidden": "false",
+          "_id": "1768-d69b-b395-6c4f",
+          "_type": "selectionEntry",
+          "_targetId": "8eda-91ee-7eaa-877a"
+        },
+        {
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Heroic Traits",
+                "_hidden": "false",
+                "_id": "defd-3d32-f2b2-298f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f9fd-74a0-3624-d68"
+              },
+              {
+                "_import": "true",
+                "_name": "Artefacts of Power",
+                "_hidden": "false",
+                "_id": "7253-52df-b355-4a29",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f94b-56fb-4b63-336f"
+              }
+            ]
+          },
+          "modifiers": {
+            "modifier": {
+              "conditionGroups": {
+                "conditionGroup": {
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "5db3-6f5c-461f-e685",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "f7a8-24c0-ab46-7b33",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "8ebd-1be0-110-25d0",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "c8d4-842d-67ce-e536",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "32c3-4546-10aa-6006",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "d1bb-dfda-17e7-3252",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
+                    }
+                  },
+                  "conditions": {
+                    "condition": {
+                      "_type": "instanceOf",
+                      "_value": "1",
+                      "_field": "selections",
+                      "_scope": "ancestor",
+                      "_childId": "376a-6b97-8699-dd59",
+                      "_shared": "true"
+                    }
+                  },
+                  "_type": "and"
+                }
+              },
+              "_type": "set",
+              "_value": "true",
+              "_field": "hidden"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "dc76-f2fa-1c3e-3165"
+            }
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "258f-9cfe-ea60-e99c",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "258f-9cfe-ea60-e99c",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "dc76-f2fa-1c3e-3165"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
+            }
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "460"
+            }
+          },
+          "_import": "true",
+          "_name": "Warstomper Mega-gargant",
+          "_hidden": "false",
+          "_id": "ee1b-c154-e60d-f980",
+          "_type": "selectionEntry",
+          "_targetId": "5201-4045-7632-5a40"
+        },
+        {
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Regimental Leader",
+              "_hidden": "false",
+              "_id": "5afe-697c-e3e4-8be5",
+              "_targetId": "d1f3-921c-b403-1106",
+              "_primary": "true"
+            }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Heroic Traits",
+                "_hidden": "false",
+                "_id": "17a8-f669-e8fc-4269",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f9fd-74a0-3624-d68"
+              },
+              {
+                "_import": "true",
+                "_name": "Artefacts of Power",
+                "_hidden": "false",
+                "_id": "343b-31d-3b1b-6184",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f94b-56fb-4b63-336f"
+              }
+            ]
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "460"
+            }
+          },
+          "_import": "true",
+          "_name": "Warstomper Mega-gargant",
+          "_hidden": "false",
+          "_id": "d1bb-dfda-17e7-3252",
+          "_type": "selectionEntry",
+          "_targetId": "5201-4045-7632-5a40"
+        },
+        {
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Regimental Leader",
+              "_hidden": "false",
+              "_id": "cb49-bf9b-1f41-2e53",
+              "_targetId": "d1f3-921c-b403-1106",
+              "_primary": "true"
+            }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Heroic Traits",
+                "_hidden": "false",
+                "_id": "885c-f0b9-bf40-7c6e",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f9fd-74a0-3624-d68"
+              },
+              {
+                "_import": "true",
+                "_name": "Artefacts of Power",
+                "_hidden": "false",
+                "_id": "9a72-83bc-7d18-1db2",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f94b-56fb-4b63-336f"
+              }
+            ]
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "470"
+            }
+          },
+          "_import": "true",
+          "_name": "Beast-smasher Mega-gargant",
+          "_hidden": "false",
+          "_id": "5db3-6f5c-461f-e685",
+          "_type": "selectionEntry",
+          "_targetId": "4a1b-3873-aa68-6d28"
+        },
+        {
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Regimental Leader",
+              "_hidden": "false",
+              "_id": "47dd-d589-ceed-7ad9",
+              "_targetId": "d1f3-921c-b403-1106",
+              "_primary": "true"
+            }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Heroic Traits",
+                "_hidden": "false",
+                "_id": "2d38-ca99-c16f-81c8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f9fd-74a0-3624-d68"
+              },
+              {
+                "_import": "true",
+                "_name": "Artefacts of Power",
+                "_hidden": "false",
+                "_id": "2305-e771-394-5a2b",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f94b-56fb-4b63-336f"
+              }
+            ]
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "500"
+            }
+          },
+          "_import": "true",
+          "_name": "Gatebreaker Mega-gargant",
+          "_hidden": "false",
+          "_id": "f7a8-24c0-ab46-7b33",
+          "_type": "selectionEntry",
+          "_targetId": "7e9e-7d9f-d3ab-d143"
+        },
+        {
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Regimental Leader",
+              "_hidden": "false",
+              "_id": "6be8-e1b7-6fcd-3c13",
+              "_targetId": "d1f3-921c-b403-1106",
+              "_primary": "true"
+            }
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "520"
+            }
+          },
+          "_import": "true",
+          "_name": "King Brodd",
+          "_hidden": "false",
+          "_id": "8ebd-1be0-110-25d0",
+          "_type": "selectionEntry",
+          "_targetId": "e2fb-7f41-171f-9418"
+        },
+        {
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Regimental Leader",
+              "_hidden": "false",
+              "_id": "637e-fc1f-d856-665c",
+              "_targetId": "d1f3-921c-b403-1106",
+              "_primary": "true"
+            }
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "580"
+            }
+          },
+          "_import": "true",
+          "_name": "Kragnos, the End of Empires",
+          "_hidden": "false",
+          "_id": "c8d4-842d-67ce-e536",
+          "_type": "selectionEntry",
+          "_targetId": "7c7-7226-5b84-b87c"
+        },
+        {
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Regimental Leader",
+              "_hidden": "false",
+              "_id": "be85-7251-a01c-79ca",
+              "_targetId": "d1f3-921c-b403-1106",
+              "_primary": "true"
+            }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Heroic Traits",
+                "_hidden": "false",
+                "_id": "e5e4-539d-a8ec-d708",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f9fd-74a0-3624-d68"
+              },
+              {
+                "_import": "true",
+                "_name": "Artefacts of Power",
+                "_hidden": "false",
+                "_id": "a1d2-b472-74d0-3e7e",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f94b-56fb-4b63-336f"
+              }
+            ]
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "470"
+            }
+          },
+          "_import": "true",
+          "_name": "Kraken-eater Mega-gargant",
+          "_hidden": "false",
+          "_id": "32c3-4546-10aa-6006",
+          "_type": "selectionEntry",
+          "_targetId": "8eda-91ee-7eaa-877a"
+        },
+        {
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "1",
+              "_field": "selections",
+              "_scope": "roster",
+              "_shared": "true",
+              "_id": "94e7-67fc-9add-b0fc",
+              "_includeChildSelections": "true"
+            }
+          },
+          "_import": "true",
+          "_name": "Battle Traits: Sons of Behemat",
+          "_hidden": "false",
+          "_id": "26ae-b3ef-1887-54f5",
+          "_type": "selectionEntry",
+          "_targetId": "590e-e726-f603-60eb"
+        },
+        {
+          "modifiers": {
+            "modifier": {
+              "conditionGroups": {
+                "conditionGroup": {
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "5db3-6f5c-461f-e685",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "f7a8-24c0-ab46-7b33",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "8ebd-1be0-110-25d0",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "c8d4-842d-67ce-e536",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "32c3-4546-10aa-6006",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "d1bb-dfda-17e7-3252",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
+                    }
+                  },
+                  "conditions": {
+                    "condition": {
+                      "_type": "instanceOf",
+                      "_value": "1",
+                      "_field": "selections",
+                      "_scope": "ancestor",
+                      "_childId": "376a-6b97-8699-dd59",
+                      "_shared": "true"
+                    }
+                  },
+                  "_type": "and"
+                }
+              },
+              "_type": "set",
+              "_value": "true",
+              "_field": "hidden"
+            }
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "160"
+            }
+          },
+          "_import": "true",
+          "_name": "Mancrusher Gargant",
+          "_hidden": "false",
+          "_id": "266a-faa1-d955-fb24",
+          "_type": "selectionEntry",
+          "_targetId": "2e41-3174-d7a3-cded"
+        },
+        {
+          "modifiers": {
+            "modifier": {
+              "conditionGroups": {
+                "conditionGroup": {
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "5db3-6f5c-461f-e685",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "f7a8-24c0-ab46-7b33",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "8ebd-1be0-110-25d0",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "c8d4-842d-67ce-e536",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "32c3-4546-10aa-6006",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "d1bb-dfda-17e7-3252",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
+                    }
+                  },
+                  "conditions": {
+                    "condition": {
+                      "_type": "instanceOf",
+                      "_value": "1",
+                      "_field": "selections",
+                      "_scope": "ancestor",
+                      "_childId": "376a-6b97-8699-dd59",
+                      "_shared": "true"
+                    }
+                  },
+                  "_type": "and"
+                }
+              },
+              "_type": "set",
+              "_value": "true",
+              "_field": "hidden"
+            }
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "420"
+            }
+          },
+          "_import": "true",
+          "_name": "Mancrusher Mob",
+          "_hidden": "false",
+          "_id": "a296-fe56-a48c-4c2f",
+          "_type": "selectionEntry",
+          "_targetId": "a0c1-1a99-2cf9-85f9"
+        }
+      ]
+    },
+    "catalogueLinks": {
+      "catalogueLink": {
+        "_type": "catalogue",
+        "_name": "Sons of Behemat - Library",
+        "_id": "f233-237c-c639-9f45",
+        "_targetId": "e691-c828-52e1-f1a8"
+      }
+    },
+    "sharedSelectionEntries": {
+      "selectionEntry": {
+        "profiles": {
+          "profile": [{
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "652c-3d84-4e7-14f4",
+                    "__text": "Once Per Turn (Army), Any Combat Phase"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "bad3-f9c5-ba46-18cb",
+                    "__text": "Pick a friendly **^^Mega‑Gargant^^** that has not used a **^^Rampage^^** ability this turn to use this ability, then pick an enemy **^^Monster^^** or **^^War Machine^^** within 1\" of it to be the target."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "b6f1-ba36-6cd-3b03",
+                    "__text": "Roll a dice. On a 3+, remove the target from the battlefield and set it up again within 1\" of the unit using this ability. Then, inflict D3 mortal damage on the target."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "12e8-3214-7d8f-1d0f",
+                    "__text": "**^^Rampage^^**"
+                  },
+                  {
+                    "_name": "Used By",
+                    "_typeId": "1b32-c9d6-3106-166b"
+                  }
+                ]
+              },
+              "_name": "Colossal Slam",
+              "_typeId": "59b6-d47a-a68a-5dcc",
+              "_typeName": "Ability (Activated)",
+              "_hidden": "false",
+              "_id": "8b65-5ca0-d25a-9293",
+              "_publicationId": "b765-4747-cddc-385e"
+            },
+            {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "652c-3d84-4e7-14f4",
+                    "__text": "Any Charge Phase"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "bad3-f9c5-ba46-18cb",
+                    "__text": "Pick a friendly **^^Mega‑Gargant^^** or **^^Gargant^^** unit that charged this turn and has not used a **^^Rampage^^** ability this turn to use this ability, then pick a visible enemy unit within 1\" of it to be the target."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "b6f1-ba36-6cd-3b03",
+                    "__text": "Roll a D3. On a 2+, inflict an amount of mortal damage on the target equal to the roll."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "12e8-3214-7d8f-1d0f",
+                    "__text": "**^^Rampage^^**"
+                  },
+                  {
+                    "_name": "Used By",
+                    "_typeId": "1b32-c9d6-3106-166b"
+                  }
+                ]
+              },
+              "_name": "Gargant Charge",
+              "_typeId": "59b6-d47a-a68a-5dcc",
+              "_typeName": "Ability (Activated)",
+              "_hidden": "false",
+              "_id": "a7a0-3994-3329-7bb8",
+              "_publicationId": "b765-4747-cddc-385e"
+            },
+            {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Keywords",
+                    "_typeId": "b977-7c5e-33b2-428e"
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "fd7f-888d-3257-a12b",
+                    "__text": "Each time a friendly **^^Mega‑Gargant^^** or **^^Gargant^^** model is slain, before removing it from play, the players must roll off. The winner picks a point on the battlefield within 3\" of that model. Inflict D3 mortal damage on each unit (friendly and enemy) within 3\" of that point that has a lower Health characteristic than that model."
+                  }
+                ]
+              },
+              "_name": "Timberrrrr!",
+              "_typeId": "907f-a48-6a04-f788",
+              "_typeName": "Ability (Passive)",
+              "_hidden": "false",
+              "_id": "a321-5df8-1d34-d7a7",
+              "_publicationId": "b765-4747-cddc-385e"
+            },
+            {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "652c-3d84-4e7-14f4",
+                    "__text": "Once Per Turn (Army), Any Combat Phase"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "bad3-f9c5-ba46-18cb",
+                    "__text": "Pick a friendly **^^Mega‑Gargant^^** or **^^Gargant^^** unit that has not used a **^^Rampage^^** ability this turn to use this ability, then pick an enemy **^^Infantry^^** unit in combat with it to be the target."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "b6f1-ba36-6cd-3b03",
+                    "__text": "Roll a dice. On a 3+, roll a dice for each model in the target unit. If the unit using this ability is a **^^Gargant^^**, inflict 1 mortal damage on the target for each 6. If it is a **^^Mega-Gargant^^**, inflict 1 mortal damage on the target for each 5+."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "12e8-3214-7d8f-1d0f",
+                    "__text": "**^^Rampage^^**"
+                  },
+                  {
+                    "_name": "Used By",
+                    "_typeId": "1b32-c9d6-3106-166b"
+                  }
+                ]
+              },
+              "_name": "Jump Up and Down",
+              "_typeId": "59b6-d47a-a68a-5dcc",
+              "_typeName": "Ability (Activated)",
+              "_hidden": "false",
+              "_id": "40f8-2852-2586-c461",
+              "_publicationId": "b765-4747-cddc-385e"
+            },
+            {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "652c-3d84-4e7-14f4",
+                    "__text": "Once Per Turn (Army), Any Combat Phase"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "bad3-f9c5-ba46-18cb",
+                    "__text": "Pick a friendly **^^Mega‑Gargant^^** or **^^Gargant^^** unit that has not used a **^^Rampage^^** ability this turn to use this ability, then pick an enemy unit in combat with it to be the target."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "b6f1-ba36-6cd-3b03",
+                    "__text": "Roll a dice. On a 3+, the target cannot use commands for the rest of the turn."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "12e8-3214-7d8f-1d0f",
+                    "__text": "**^^Rampage^^**"
+                  },
+                  {
+                    "_name": "Used By",
+                    "_typeId": "1b32-c9d6-3106-166b"
+                  }
+                ]
+              },
+              "_name": "Earthshaking Roar",
+              "_typeId": "59b6-d47a-a68a-5dcc",
+              "_typeName": "Ability (Activated)",
+              "_hidden": "false",
+              "_id": "2759-3ea9-4bcd-9116",
+              "_publicationId": "b765-4747-cddc-385e"
+            }
+          ]
+        },
+        "categoryLinks": {
+          "categoryLink": {
+            "_name": "Reference",
+            "_hidden": "false",
+            "_id": "dc92-7bf6-e0f-d4d1",
+            "_targetId": "3360-1158-e879-9606",
+            "_primary": "true"
+          }
+        },
+        "_type": "upgrade",
+        "_import": "true",
+        "_name": "Battle Traits: Sons of Behemat",
+        "_hidden": "false",
+        "_id": "590e-e726-f603-60eb"
+      }
+    },
+    "sharedSelectionEntryGroups": {
+      "selectionEntryGroup": [{
+          "selectionEntryGroups": {
+            "selectionEntryGroup": {
+              "selectionEntries": {
+                "selectionEntry": [{
+                    "profiles": {
+                      "profile": {
+                        "characteristics": {
+                          "characteristic": [{
+                              "_name": "Timing",
+                              "_typeId": "652c-3d84-4e7-14f4",
+                              "__text": "Once Per Battle, Any Combat Phase"
+                            },
+                            {
+                              "_name": "Declare",
+                              "_typeId": "bad3-f9c5-ba46-18cb"
+                            },
+                            {
+                              "_name": "Effect",
+                              "_typeId": "b6f1-ba36-6cd-3b03",
+                              "__text": "For the rest of the turn:\n• Add 2 to the Attacks characteristic of this unit’s melee weapons.\n• Subtract 1 from save rolls for this unit."
+                            },
+                            {
+                              "_name": "Keywords",
+                              "_typeId": "12e8-3214-7d8f-1d0f"
+                            },
+                            {
+                              "_name": "Used By",
+                              "_typeId": "1b32-c9d6-3106-166b"
+                            }
+                          ]
+                        },
+                        "_name": "Furious Temper",
+                        "_typeId": "59b6-d47a-a68a-5dcc",
+                        "_typeName": "Ability (Activated)",
+                        "_hidden": "false",
+                        "_id": "f3dd-d3d7-1db2-cede"
+                      }
+                    },
+                    "constraints": {
+                      "constraint": {
+                        "_type": "max",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "roster",
+                        "_shared": "true",
+                        "_id": "7599-9465-d92c-e1f9",
+                        "_includeChildSelections": "true"
+                      }
+                    },
+                    "_type": "upgrade",
+                    "_import": "true",
+                    "_name": "Furious Temper",
+                    "_hidden": "false",
+                    "_id": "4e0c-3e85-b131-a3f8",
+                    "_publicationId": "b765-4747-cddc-385e"
+                  },
+                  {
+                    "profiles": {
+                      "profile": {
+                        "characteristics": {
+                          "characteristic": [{
+                              "_name": "Keywords",
+                              "_typeId": "b977-7c5e-33b2-428e"
+                            },
+                            {
+                              "_name": "Effect",
+                              "_typeId": "fd7f-888d-3257-a12b",
+                              "__text": "Add 1 to charge rolls for friendly **^^Sons of Behemat^^** units while they are wholly within 12\" of this unit."
+                            }
+                          ]
+                        },
+                        "_name": "Rabble Rouser",
+                        "_typeId": "907f-a48-6a04-f788",
+                        "_typeName": "Ability (Passive)",
+                        "_hidden": "false",
+                        "_id": "894c-de94-d83f-bb2c"
+                      }
+                    },
+                    "constraints": {
+                      "constraint": {
+                        "_type": "max",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "roster",
+                        "_shared": "true",
+                        "_id": "50fd-a6e2-90c-d2f9",
+                        "_includeChildSelections": "true"
+                      }
+                    },
+                    "_type": "upgrade",
+                    "_import": "true",
+                    "_name": "Rabble Rouser",
+                    "_hidden": "false",
+                    "_id": "af81-d78-3e5b-5f9c",
+                    "_publicationId": "b765-4747-cddc-385e"
+                  },
+                  {
+                    "profiles": {
+                      "profile": {
+                        "characteristics": {
+                          "characteristic": [{
+                              "_name": "Keywords",
+                              "_typeId": "b977-7c5e-33b2-428e"
+                            },
+                            {
+                              "_name": "Effect",
+                              "_typeId": "fd7f-888d-3257-a12b",
+                              "__text": "This unit has a Health characteristic of 40 instead of 35."
+                            }
+                          ]
+                        },
+                        "_name": "Monstrously Tough",
+                        "_typeId": "907f-a48-6a04-f788",
+                        "_typeName": "Ability (Passive)",
+                        "_hidden": "false",
+                        "_id": "c241-ebdd-24c-6e83"
+                      }
+                    },
+                    "constraints": {
+                      "constraint": {
+                        "_type": "max",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "roster",
+                        "_shared": "true",
+                        "_id": "db86-deef-a770-fbbf",
+                        "_includeChildSelections": "true"
+                      }
+                    },
+                    "_type": "upgrade",
+                    "_import": "true",
+                    "_name": "Monstrously Tough",
+                    "_hidden": "false",
+                    "_id": "8ca2-88cb-a124-f1cb",
+                    "_publicationId": "b765-4747-cddc-385e"
+                  }
+                ]
+              },
+              "constraints": {
+                "constraint": {
+                  "_type": "max",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_shared": "true",
+                  "_id": "e780-1b6d-4c5a-d5ea"
+                }
+              },
+              "_name": "Big Personalities",
+              "_id": "efd5-731-45d1-5726",
+              "_hidden": "false"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "1",
+              "_field": "selections",
+              "_scope": "roster",
+              "_shared": "true",
+              "_id": "a060-e714-27d9-3686",
+              "_includeChildSelections": "true"
+            }
+          },
+          "_name": "Heroic Traits",
+          "_id": "f9fd-74a0-3624-d68",
+          "_hidden": "false"
+        },
+        {
+          "selectionEntryGroups": {
+            "selectionEntryGroup": {
+              "selectionEntries": {
+                "selectionEntry": [{
+                    "profiles": {
+                      "profile": {
+                        "characteristics": {
+                          "characteristic": [{
+                              "_name": "Keywords",
+                              "_typeId": "b977-7c5e-33b2-428e"
+                            },
+                            {
+                              "_name": "Effect",
+                              "_typeId": "fd7f-888d-3257-a12b",
+                              "__text": "This unit can use **^^Summon^^** abilities from the manifestation lore you picked during army composition as if it had **^^Wizard (1).^^**"
+                            }
+                          ]
+                        },
+                        "_name": "Glowy Lantern",
+                        "_typeId": "907f-a48-6a04-f788",
+                        "_typeName": "Ability (Passive)",
+                        "_hidden": "false",
+                        "_id": "13b0-81ae-71f0-9da7"
+                      }
+                    },
+                    "constraints": {
+                      "constraint": {
+                        "_type": "max",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "roster",
+                        "_shared": "true",
+                        "_id": "1078-7f32-17a5-728f",
+                        "_includeChildSelections": "true"
+                      }
+                    },
+                    "_type": "upgrade",
+                    "_import": "true",
+                    "_name": "Glowy Lantern",
+                    "_hidden": "false",
+                    "_id": "4875-da08-bbf-8b40",
+                    "_publicationId": "b765-4747-cddc-385e"
+                  },
+                  {
+                    "profiles": {
+                      "profile": {
+                        "characteristics": {
+                          "characteristic": [{
+                              "_name": "Timing",
+                              "_typeId": "652c-3d84-4e7-14f4",
+                              "__text": "Once Per Battle, Your Charge Phase"
+                            },
+                            {
+                              "_name": "Declare",
+                              "_typeId": "bad3-f9c5-ba46-18cb"
+                            },
+                            {
+                              "_name": "Effect",
+                              "_typeId": "b6f1-ba36-6cd-3b03",
+                              "__text": "For the rest of the turn, this unit can use **^^Charge^^** abilities even if it used a **^^Run^^** ability in the same turn."
+                            },
+                            {
+                              "_name": "Keywords",
+                              "_typeId": "12e8-3214-7d8f-1d0f"
+                            },
+                            {
+                              "_name": "Used By",
+                              "_typeId": "1b32-c9d6-3106-166b"
+                            }
+                          ]
+                        },
+                        "_name": "Amberbone Totem",
+                        "_typeId": "59b6-d47a-a68a-5dcc",
+                        "_typeName": "Ability (Activated)",
+                        "_hidden": "false",
+                        "_id": "657d-1b3e-b238-cc6f"
+                      }
+                    },
+                    "constraints": {
+                      "constraint": {
+                        "_type": "max",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "roster",
+                        "_shared": "true",
+                        "_id": "5e2-6b78-dde2-badc",
+                        "_includeChildSelections": "true"
+                      }
+                    },
+                    "_type": "upgrade",
+                    "_import": "true",
+                    "_name": "Amberbone Totem",
+                    "_hidden": "false",
+                    "_id": "d487-2419-8794-52aa",
+                    "_publicationId": "b765-4747-cddc-385e"
+                  },
+                  {
+                    "profiles": {
+                      "profile": {
+                        "characteristics": {
+                          "characteristic": [{
+                              "_name": "Keywords",
+                              "_typeId": "b977-7c5e-33b2-428e"
+                            },
+                            {
+                              "_name": "Effect",
+                              "_typeId": "fd7f-888d-3257-a12b",
+                              "__text": "Each time you make an unmodified save roll of 6 for a combat attack that targets this unit, inflict 1 mortal damage on the attacking unit after the **^^Fight^^** ability has been resolved."
+                            }
+                          ]
+                        },
+                        "_name": "Glowy Shield of Protectiness",
+                        "_typeId": "907f-a48-6a04-f788",
+                        "_typeName": "Ability (Passive)",
+                        "_hidden": "false",
+                        "_id": "1672-1374-26e2-4fe5"
+                      }
+                    },
+                    "constraints": {
+                      "constraint": {
+                        "_type": "max",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "roster",
+                        "_shared": "true",
+                        "_id": "46ac-63ec-30ed-3cbf",
+                        "_includeChildSelections": "true"
+                      }
+                    },
+                    "_type": "upgrade",
+                    "_import": "true",
+                    "_name": "Glowy Shield of Protectiness",
+                    "_hidden": "false",
+                    "_id": "191b-510c-1a4c-606f",
+                    "_publicationId": "b765-4747-cddc-385e"
+                  },
+                  {
+                    "profiles": {
+                      "profile": {
+                        "characteristics": {
+                          "characteristic": [{
+                              "_name": "Keywords",
+                              "_typeId": "b977-7c5e-33b2-428e"
+                            },
+                            {
+                              "_name": "Effect",
+                              "_typeId": "fd7f-888d-3257-a12b",
+                              "__text": "Add 1 to the Attacks characteristic, Rend characteristic and Damage characteristic of this unit’s **Almighty Stomp** or **Almightier Stomp**."
+                            }
+                          ]
+                        },
+                        "_name": "Extra-Calloused Feet",
+                        "_typeId": "907f-a48-6a04-f788",
+                        "_typeName": "Ability (Passive)",
+                        "_hidden": "false",
+                        "_id": "82fb-f319-fb1-9805"
+                      }
+                    },
+                    "constraints": {
+                      "constraint": {
+                        "_type": "max",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "roster",
+                        "_shared": "true",
+                        "_id": "f73-1eb2-2986-6143",
+                        "_includeChildSelections": "true"
+                      }
+                    },
+                    "_type": "upgrade",
+                    "_import": "true",
+                    "_name": "Extra-Calloused Feet",
+                    "_hidden": "false",
+                    "_id": "6a47-69fe-5956-5aa5",
+                    "_publicationId": "b765-4747-cddc-385e"
+                  },
+                  {
+                    "profiles": {
+                      "profile": {
+                        "characteristics": {
+                          "characteristic": [{
+                              "_name": "Timing",
+                              "_typeId": "652c-3d84-4e7-14f4",
+                              "__text": "Once Per Battle, Your Combat Phase"
+                            },
+                            {
+                              "_name": "Declare",
+                              "_typeId": "bad3-f9c5-ba46-18cb"
+                            },
+                            {
+                              "_name": "Effect",
+                              "_typeId": "b6f1-ba36-6cd-3b03",
+                              "__text": "For the rest of the turn, add 1 to hit rolls for combat attacks made by friendly **^^Sons of Behemat^^** units while they are wholly within 12\" of this unit."
+                            },
+                            {
+                              "_name": "Keywords",
+                              "_typeId": "12e8-3214-7d8f-1d0f"
+                            },
+                            {
+                              "_name": "Used By",
+                              "_typeId": "1b32-c9d6-3106-166b"
+                            }
+                          ]
+                        },
+                        "_name": "Mantle of Tusk and Horns",
+                        "_typeId": "59b6-d47a-a68a-5dcc",
+                        "_typeName": "Ability (Activated)",
+                        "_hidden": "false",
+                        "_id": "2fdf-c068-6eb5-e908"
+                      }
+                    },
+                    "constraints": {
+                      "constraint": {
+                        "_type": "max",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "roster",
+                        "_shared": "true",
+                        "_id": "8ad5-3a2c-e2cc-8b92",
+                        "_includeChildSelections": "true"
+                      }
+                    },
+                    "_type": "upgrade",
+                    "_import": "true",
+                    "_name": "Mantle of Tusk and Horns",
+                    "_hidden": "false",
+                    "_id": "b848-e898-1112-5358",
+                    "_publicationId": "b765-4747-cddc-385e"
+                  },
+                  {
+                    "profiles": {
+                      "profile": {
+                        "characteristics": {
+                          "characteristic": [{
+                              "_name": "Keywords",
+                              "_typeId": "b977-7c5e-33b2-428e"
+                            },
+                            {
+                              "_name": "Effect",
+                              "_typeId": "fd7f-888d-3257-a12b",
+                              "__text": "Add 1 to the Attacks characteristic of this unit’s melee weapons while this unit is in combat with an enemy **^^Hero^^**."
+                            }
+                          ]
+                        },
+                        "_name": "Kingslaughter Cowl",
+                        "_typeId": "907f-a48-6a04-f788",
+                        "_typeName": "Ability (Passive)",
+                        "_hidden": "false",
+                        "_id": "e983-cfe8-f9b4-a60e"
+                      }
+                    },
+                    "constraints": {
+                      "constraint": {
+                        "_type": "max",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "roster",
+                        "_shared": "true",
+                        "_id": "963f-132a-d0bc-e4db",
+                        "_includeChildSelections": "true"
+                      }
+                    },
+                    "_type": "upgrade",
+                    "_import": "true",
+                    "_name": "Kingslaughter Cowl",
+                    "_hidden": "false",
+                    "_id": "af21-2013-aa28-2bb4",
+                    "_publicationId": "b765-4747-cddc-385e"
+                  }
+                ]
+              },
+              "constraints": {
+                "constraint": {
+                  "_type": "max",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_shared": "true",
+                  "_id": "4d75-4831-5f34-2814"
+                }
+              },
+              "_name": "Titanic Trophies",
+              "_id": "99c1-ccb-8fc3-53d8",
+              "_hidden": "false"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "1",
+              "_field": "selections",
+              "_scope": "roster",
+              "_shared": "true",
+              "_id": "2ca6-cb6f-f58c-ecab",
+              "_includeChildSelections": "true"
+            }
+          },
+          "_name": "Artefacts of Power",
+          "_id": "f94b-56fb-4b63-336f",
+          "_hidden": "false"
+        },
+        {
+          "selectionEntries": {
+            "selectionEntry": [{
+                "constraints": {
+                  "constraint": {
+                    "_type": "max",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "parent",
+                    "_shared": "true",
+                    "_id": "1d23-5cfc-2e98-227c"
+                  }
+                },
+                "profiles": {
+                  "profile": {
+                    "characteristics": {
+                      "characteristic": [{
+                          "_name": "Timing",
+                          "_typeId": "652c-3d84-4e7-14f4",
+                          "__text": "Once Per Turn (Army), Reaction: You declared a Fight ability for a friendly Mega-Gargant"
+                        },
+                        {
+                          "_name": "Declare",
+                          "_typeId": "bad3-f9c5-ba46-18cb"
+                        },
+                        {
+                          "_name": "Effect",
+                          "_typeId": "b6f1-ba36-6cd-3b03",
+                          "__text": "Pick a friendly **^^Gargant^^** unit that has not used a **^^Fight^^** ability this turn and is wholly within 12\" of this unit to be the target. The target can be picked to use a **^^Fight^^** ability immediately after the **^^Fight^^** ability used by this unit has been resolved."
+                        },
+                        {
+                          "_name": "Keywords",
+                          "_typeId": "12e8-3214-7d8f-1d0f"
+                        },
+                        {
+                          "_name": "Used By",
+                          "_typeId": "1b32-c9d6-3106-166b",
+                          "__text": "The **^^Mega-Gargant^^** using that **^^Fight^^** ability."
+                        }
+                      ]
+                    },
+                    "_name": "Big Mouth",
+                    "_typeId": "59b6-d47a-a68a-5dcc",
+                    "_typeName": "Ability (Activated)",
+                    "_hidden": "false",
+                    "_id": "d8c6-9ab3-4163-29f3"
+                  }
+                },
+                "_type": "upgrade",
+                "_import": "true",
+                "_name": "Boss Tribe",
+                "_hidden": "false",
+                "_id": "284c-43d1-c99d-9e69",
+                "_publicationId": "b765-4747-cddc-385e"
+              },
+              {
+                "constraints": {
+                  "constraint": {
+                    "_type": "max",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "parent",
+                    "_shared": "true",
+                    "_id": "70dc-23ac-b9c5-ba75"
+                  }
+                },
+                "profiles": {
+                  "profile": {
+                    "characteristics": {
+                      "characteristic": [{
+                          "_name": "Timing",
+                          "_typeId": "652c-3d84-4e7-14f4",
+                          "__text": "Once Per Battle, Deployment Phase"
+                        },
+                        {
+                          "_name": "Declare",
+                          "_typeId": "bad3-f9c5-ba46-18cb",
+                          "__text": "Pick a friendly non-**^^Unique Sons of Behemat Hero^^** that does not have an artefact of power."
+                        },
+                        {
+                          "_name": "Effect",
+                          "_typeId": "b6f1-ba36-6cd-3b03",
+                          "__text": "Give that **^^Hero^^** 1 artefact of power from ‘Titanic Trophies’.\n**Designer’s Note:** *This artefact of power is given to the unit during the deployment phase, not during army composition.*"
+                        },
+                        {
+                          "_name": "Keywords",
+                          "_typeId": "12e8-3214-7d8f-1d0f"
+                        },
+                        {
+                          "_name": "Used By",
+                          "_typeId": "1b32-c9d6-3106-166b"
+                        }
+                      ]
+                    },
+                    "_name": "More Stuff for Me Collection",
+                    "_typeId": "59b6-d47a-a68a-5dcc",
+                    "_typeName": "Ability (Activated)",
+                    "_hidden": "false",
+                    "_id": "2418-1884-443c-e199"
+                  }
+                },
+                "_type": "upgrade",
+                "_import": "true",
+                "_name": "Taker Tribe",
+                "_hidden": "false",
+                "_id": "e5bd-6d0e-f80b-3f6a",
+                "_publicationId": "b765-4747-cddc-385e"
+              },
+              {
+                "constraints": {
+                  "constraint": {
+                    "_type": "max",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "parent",
+                    "_shared": "true",
+                    "_id": "2f4d-a4c8-a8c6-2bc2"
+                  }
+                },
+                "profiles": {
+                  "profile": {
+                    "characteristics": {
+                      "characteristic": [{
+                          "_name": "Keywords",
+                          "_typeId": "b977-7c5e-33b2-428e"
+                        },
+                        {
+                          "_name": "Effect",
+                          "_typeId": "fd7f-888d-3257-a12b",
+                          "__text": "Friendly **^^Mega-Gargants^^** have **^^Ward (6+)^^** while they are within the combat ranges of any other friendly **^^Mega-Gargants^^**."
+                        }
+                      ]
+                    },
+                    "_name": "Besieging Bulk",
+                    "_typeId": "907f-a48-6a04-f788",
+                    "_typeName": "Ability (Passive)",
+                    "_hidden": "false",
+                    "_id": "f671-6232-47c6-3dc9"
+                  }
+                },
+                "_type": "upgrade",
+                "_import": "true",
+                "_name": "Breaker Tribe",
+                "_hidden": "false",
+                "_id": "b29e-5c59-6291-2ea4",
+                "_publicationId": "b765-4747-cddc-385e"
+              },
+              {
+                "constraints": {
+                  "constraint": {
+                    "_type": "max",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "parent",
+                    "_shared": "true",
+                    "_id": "ae7f-360-32ae-c524"
+                  }
+                },
+                "profiles": {
+                  "profile": {
+                    "characteristics": {
+                      "characteristic": [{
+                          "_name": "Keywords",
+                          "_typeId": "b977-7c5e-33b2-428e"
+                        },
+                        {
+                          "_name": "Effect",
+                          "_typeId": "fd7f-888d-3257-a12b",
+                          "__text": "You can pick 2 friendly **^^Mega‑Gargants^^** or **^^Gargant^^** units that have not used a **^^Rampage^^** ability this turn to use the ‘Jump Up and Down’ ability instead of 1."
+                        }
+                      ]
+                    },
+                    "_name": "Revel in War",
+                    "_typeId": "907f-a48-6a04-f788",
+                    "_typeName": "Ability (Passive)",
+                    "_hidden": "false",
+                    "_id": "2558-d7e2-3acf-e60c"
+                  }
+                },
+                "_type": "upgrade",
+                "_import": "true",
+                "_name": "Stomper Tribe",
+                "_hidden": "false",
+                "_id": "4be4-db42-f2db-e4",
+                "_publicationId": "b765-4747-cddc-385e"
+              }
+            ]
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "1",
+              "_field": "selections",
+              "_scope": "roster",
+              "_shared": "true",
+              "_id": "fd33-e97a-41a4-8913",
+              "_includeChildSelections": "true",
+              "_includeChildForces": "true"
+            }
+          },
+          "_name": "Battle Formations: Sons of Behemat",
+          "_id": "4e00-4aeb-ae2-c3d5",
+          "_hidden": "false",
+          "_flatten": "true"
+        }
+      ]
+    },
+    "categoryEntries": {
+      "categoryEntry": {
+        "_name": "Eager Lout",
+        "_id": "258f-9cfe-ea60-e99c",
+        "_hidden": "false"
+      }
+    },
+    "selectionEntries": {
+      "selectionEntry": [{
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Formations: Sons of Behemat",
+              "_hidden": "false",
+              "_id": "15b6-7bad-558e-ab7",
+              "_type": "selectionEntryGroup",
+              "_targetId": "4e00-4aeb-ae2-c3d5",
+              "_collective": "false",
+              "_flatten": "true"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "1",
+              "_field": "selections",
+              "_scope": "roster",
+              "_shared": "true",
+              "_id": "d7e6-1f89-6bb8-9959",
+              "_includeChildSelections": "true",
+              "_includeChildForces": "true"
+            }
+          },
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Army Composition",
+              "_hidden": "false",
+              "_id": "bc7a-9595-af18-2f83",
+              "_targetId": "ac97-b27c-7e35-7ab9",
+              "_primary": "true"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Battle Formation",
+          "_hidden": "false",
+          "_id": "d754-112b-b8f7-bd68",
+          "_defaultAmount": "1"
+        },
+        {
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Manifestation Lores",
+              "_hidden": "false",
+              "_id": "999f-325f-2218-8e4c",
+              "_type": "selectionEntryGroup",
+              "_targetId": "748f-5d65-2d45-95c5",
+              "_flatten": "true"
+            }
+          },
+          "constraints": {
+            "constraint": [{
+                "_type": "max",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "roster",
+                "_shared": "true",
+                "_id": "46b5-2d83-2684-7b2"
+              },
+              {
+                "_type": "max",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "self",
+                "_shared": "true",
+                "_id": "9e29-a02f-2a9f-72cb"
+              }
+            ]
+          },
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Army Composition",
+              "_hidden": "false",
+              "_id": "5380-3111-41e0-a65",
+              "_targetId": "ac97-b27c-7e35-7ab9",
+              "_primary": "true"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Manifestation Lore",
+          "_hidden": "false",
+          "_id": "878d-5abc-13a-5f24",
+          "_defaultAmount": "1"
+        }
+      ]
+    },
+    "_xmlns": "http://www.battlescribe.net/schema/catalogueSchema",
+    "_library": "false",
+    "_id": "de5f-588b-ea57-d6b5",
+    "_name": "Sons of Behemat",
+    "_gameSystemId": "e51d-b1a3-75fc-dc3g",
+    "_gameSystemRevision": "2",
+    "_revision": "1",
+    "_battleScribeVersion": "2.03",
+    "_type": "catalogue"
+  }
 }

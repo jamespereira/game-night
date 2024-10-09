@@ -16,12 +16,12 @@
                 "characteristic": [{
                     "_name": "Timing",
                     "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Once Per Turn (Army), Any Shooting Phase"
+                    "__text": "Once Per Turn (Army), Any Shooting Phase"
                   },
                   {
                     "_name": "Declare",
                     "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Pick an enemy unit that had any damage points allocated to it this turn by **^^Wyrdflame Spell^^** abilities or shooting attacks made with weapons that have the **Wyrdflame** weapon ability to be the target."
+                    "__text": "Pick an enemy unit that had any damage points allocated to it this turn by **^^Wyrdflame Spell^^** abilities or shooting attacks made with weapons that have the **Wyrdflame** weapon ability to be the target."
                   },
                   {
                     "_name": "Effect",
@@ -49,7 +49,7 @@
                   {
                     "_name": "Effect",
                     "_typeId": "fd7f-888d-3257-a12b",
-                    "__text": "If a **^^Burning^^** enemy unit uses an ability that would heal or return slain models to it, instead of healing or returning slain models to it, that unit no longer has the **^^Burning^^** keyword."
+                    "__text": "If an ability would heal or return slain models to a **^^Burning^^** enemy unit, **^^Manifestation^^** or terrain feature, that ability does not heal or return any slain models to it. Instead, it no longer has the **^^Burning^^** keyword."
                   }
                 ]
               },
@@ -73,11 +73,15 @@
                   {
                     "_name": "Effect",
                     "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "Roll a D3 for each **^^Burning^^** enemy unit. On a 2-3, inflict an amount of mortal damage on that unit equal to the roll. On a 1, that unit no longer has the **^^Burning^^** keyword."
+                    "__text": "Inflict D3 mortal damage on each **^^Burning^^** enemy unit, **^^Manifestation^^** and faction terrain feature."
                   },
                   {
                     "_name": "Keywords",
                     "_typeId": "12e8-3214-7d8f-1d0f"
+                  },
+                  {
+                    "_name": "Used By",
+                    "_typeId": "1b32-c9d6-3106-166b"
                   }
                 ]
               },
@@ -101,7 +105,7 @@
                   {
                     "_name": "Effect",
                     "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "Roll 9 dice and place them to one side. These are your **destiny dice**. **Destiny dice** can be spent during the battle to change certain dice rolls. You can never have more than 9 **destiny dice** at once. \nDuring the battle, instead of making a roll from the list below for a friendly **^^Disciples of Tzeentch^^** unit, you can spend your **destiny dice**. The roll you would have made is replaced with the roll on the **destiny dice** you spend. If you want to replace a 2D6 roll, 3D6 roll, etc. you must spend a number of **destiny dice** equal to the number before ‘D6’. Any rolls that have been replaced count as unmodified rolls, and they cannot be re-rolled, they cannot be changed and they cannot be modified by other friendly abilities (but they can be modified by enemy abilities). You cannot spend **destiny dice** to replace re-rolls.\n**Destiny dice** can be spent in place of the following dice rolls:\n• Casting rolls\n• Unbinding rolls\n• Banishment rolls\n• Run rolls\n• Charge rolls in your turn\n• Hit rolls\n• Wound rolls\n• Save rolls"
+                    "__text": "Roll 9 dice and place them to one side. These are your **destiny dice**. **Destiny dice** can be spent during the battle to change certain dice rolls. You can never have more than 9 **destiny dice** at once. \nDuring the battle, instead of making a roll from the list below for a friendly **^^Disciples of Tzeentch^^** unit, you can spend your **destiny dice**. The roll you would have made is replaced with the roll on the **destiny dice** you spend. If you want to replace a 2D6 roll, 3D6 roll, etc. you must spend a number of **destiny dice** equal to the number before ‘D6’. Any rolls that have been replaced count as unmodified rolls, and they cannot be re-rolled, they cannot be changed and they cannot be modified by other friendly abilities (but they can be modified by enemy abilities). You cannot spend **destiny dice** to replace re-rolls.\n**Destiny dice** can be spent in place of the following dice rolls:\n• Casting rolls\n• Unbinding rolls\n• Banishment rolls\n• Run rolls\n• Charge rolls in your turn\n• Hit rolls\n• Wound rolls\n• Save rolls"
                   },
                   {
                     "_name": "Keywords",
@@ -153,12 +157,12 @@
                           {
                             "_name": "Declare",
                             "_typeId": "24f8-3803-4ab1-3b6c",
-                            "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, then make a casting roll of 2D6."
+                            "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, then make a casting roll of 2D6."
                           },
                           {
                             "_name": "Effect",
                             "_typeId": "1cb9-a-1345-907f",
-                            "__text": "Set aside any **destiny dice** that have a value of 6, and roll all of your other **destiny dice** again. If you have no **destiny dice**, roll a dice and add it to your **destiny dice**."
+                            "__text": "Set aside any **destiny dice** that have a value of 6, and roll all of your other **destiny dice** again. If you have no **destiny dice**, roll a dice and add it to your **destiny dice**."
                           },
                           {
                             "_name": "Keywords",
@@ -188,12 +192,12 @@
                           {
                             "_name": "Declare",
                             "_typeId": "24f8-3803-4ab1-3b6c",
-                            "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, pick a visible friendly unit wholly within 18\" of them to be the target, then make a casting roll of 2D6."
+                            "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, pick a visible friendly **^^Disciples of Tzeentch^^** unit wholly within 18\" of them to be the target, then make a casting roll of 2D6."
                           },
                           {
                             "_name": "Effect",
                             "_typeId": "1cb9-a-1345-907f",
-                            "__text": "The target has **^^Ward (5+)^^** until the start of your next turn. In addition, if you have 4 or more **destiny dice** left, subtract 1 from hit rolls for attacks that target that unit until the start of your next turn."
+                            "__text": "The target has **^^Ward (5+)^^** until the start of your next turn. In addition, if you have 4 or more **destiny dice** left, subtract 1 from hit rolls for attacks that target that unit until the start of your next turn."
                           },
                           {
                             "_name": "Keywords",
@@ -223,12 +227,12 @@
                           {
                             "_name": "Declare",
                             "_typeId": "24f8-3803-4ab1-3b6c",
-                            "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6."
+                            "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6."
                           },
                           {
                             "_name": "Effect",
                             "_typeId": "1cb9-a-1345-907f",
-                            "__text": "Roll either 4 dice or a number of dice equal to the number of destiny dice you have left, whichever is greater. For each 4+, inflict 1 mortal damage on the target."
+                            "__text": "Roll either 4 dice or a number of dice equal to the number of destiny dice you have left, whichever is greater. For each 4+, inflict 1 mortal damage on the target."
                           },
                           {
                             "_name": "Keywords",
@@ -279,7 +283,7 @@
                           {
                             "_name": "Declare",
                             "_typeId": "24f8-3803-4ab1-3b6c",
-                            "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6"
+                            "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6"
                           },
                           {
                             "_name": "Effect",
@@ -314,12 +318,12 @@
                           {
                             "_name": "Declare",
                             "_typeId": "24f8-3803-4ab1-3b6c",
-                            "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, pick a visible friendly **^^Disciples of Tzeentch^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6."
+                            "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, pick a visible friendly **^^Disciples of Tzeentch^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6."
                           },
                           {
                             "_name": "Effect",
                             "_typeId": "1cb9-a-1345-907f",
-                            "__text": "Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units."
+                            "__text": "Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units."
                           },
                           {
                             "_name": "Keywords",
@@ -349,12 +353,12 @@
                           {
                             "_name": "Declare",
                             "_typeId": "24f8-3803-4ab1-3b6c",
-                            "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6."
+                            "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6."
                           },
                           {
                             "_name": "Effect",
                             "_typeId": "1cb9-a-1345-907f",
-                            "__text": "Inflict D3 mortal damage on the target. If any models are slain by this ability, pick a friendly **Chaos Spawn of Tzeentch** unit that is in reserve **as a potential fate** or that has been destroyed.\nIf you picked a unit in reserve **as a potential fate**, set it up on the battlefield in combat with the target. If you picked a unit that has been destroyed, set up an identical replacement unit on the battlefield in combat with the target."
+                            "__text": "Inflict D3 mortal damage on the target. If any models are slain by this ability, pick a friendly **Chaos Spawn of Tzeentch** unit that is in reserve **as a potential fate** or that has been destroyed.\nIf you picked a unit in reserve **as a potential fate**, set it up on the battlefield in combat with the target. If you picked a unit that has been destroyed, set up an identical replacement unit on the battlefield in combat with the target."
                           },
                           {
                             "_name": "Keywords",
@@ -421,7 +425,7 @@
                             {
                               "_name": "Effect",
                               "_typeId": "fd7f-888d-3257-a12b",
-                              "__text": "Add 1 to casting rolls and banishment rolls for this unit."
+                              "__text": "Add 1 to casting rolls and banishment rolls for this unit."
                             }
                           ]
                         },
@@ -461,12 +465,12 @@
                             {
                               "_name": "Declare",
                               "_typeId": "bad3-f9c5-ba46-18cb",
-                              "__text": "Pick an enemy **^^Wizard^^** in combat with this unit to be the target."
+                              "__text": "Pick an enemy **^^Wizard^^** in combat with this unit to be the target."
                             },
                             {
                               "_name": "Effect",
                               "_typeId": "b6f1-ba36-6cd-3b03",
-                              "__text": "Inflict D3 mortal damage on the target. In addition, subtract 1 from casting rolls for the target for the rest of the battle."
+                              "__text": "Inflict D3 mortal damage on the target. In addition, subtract 1 from casting rolls for the target for the rest of the battle."
                             },
                             {
                               "_name": "Keywords",
@@ -509,7 +513,7 @@
                             {
                               "_name": "Effect",
                               "_typeId": "fd7f-888d-3257-a12b",
-                              "__text": "If any damage points are allocated to an enemy unit by this unit’s combat attacks, that enemy unit has the **^^Burning^^** keyword."
+                              "__text": "If any damage points are allocated to an enemy unit by this unit’s combat attacks, that enemy unit has the **^^Burning^^** keyword."
                             }
                           ]
                         },
@@ -592,7 +596,7 @@
                         {
                           "_name": "Effect",
                           "_typeId": "fd7f-888d-3257-a12b",
-                          "__text": "Add 1 to unbinding rolls for friendly **^^Arcanite^^** units. In addition, if a friendly **^^Arcanite^^** unit unbinds a spell, no command points are spent for that unit to use the ‘Magical Intervention’ command in that phase."
+                          "__text": "Add 1 to unbinding rolls for friendly **^^Arcanite^^** units. In addition, if a friendly **^^Arcanite^^** unit unbinds a spell, no command points are spent for that unit to use the ‘Magical Intervention’ command in that phase."
                         }
                       ]
                     },
@@ -631,12 +635,12 @@
                         {
                           "_name": "Declare",
                           "_typeId": "bad3-f9c5-ba46-18cb",
-                          "__text": "Pick a friendly **^^Disciples of Tzeentch Daemon^^** unit that is in combat to be the target."
+                          "__text": "Pick a friendly **^^Disciples of Tzeentch Daemon^^** unit that is in combat to be the target."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "b6f1-ba36-6cd-3b03",
-                          "__text": "Roll a dice. On a 3+, remove the target from the battlefield and set it up again on the battlefield. Each model in the target unit must be set up in combat with any of the enemy units that the target was in combat with before it was removed from the battlefield."
+                          "__text": "Roll a dice. On a 3+, remove the target from the battlefield and set it up again on the battlefield. Each model in the target unit must be set up in combat with any of the enemy units that the target was in combat with before it was removed from the battlefield."
                         },
                         {
                           "_name": "Keywords",
@@ -678,7 +682,7 @@
                         {
                           "_name": "Effect",
                           "_typeId": "fd7f-888d-3257-a12b",
-                          "__text": "Each time a friendly **^^Warflock^^** unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."
+                          "__text": "Each time a friendly **^^Warflock^^** unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."
                         }
                       ]
                     },
@@ -716,7 +720,7 @@
                         {
                           "_name": "Effect",
                           "_typeId": "fd7f-888d-3257-a12b",
-                          "__text": "Subtract 1 from wound rolls for attacks made by **^^Burning^^** enemy units."
+                          "__text": "Subtract 1 from wound rolls for attacks made by **^^Burning^^** enemy units."
                         }
                       ]
                     },
@@ -767,7 +771,7 @@
                             {
                               "_name": "Effect",
                               "_typeId": "fd7f-888d-3257-a12b",
-                              "__text": "If each dice in a casting roll for this unit has the same value and the spell is not miscast, add 3 to the casting roll."
+                              "__text": "If each dice in a casting roll for this unit has the same value and the spell is not miscast, add 3 to the casting roll."
                             }
                           ]
                         },
@@ -806,7 +810,7 @@
                             {
                               "_name": "Effect",
                               "_typeId": "fd7f-888d-3257-a12b",
-                              "__text": "Subtract 1 from hit rolls for attacks that target friendly units while they are wholly within this unit’s combat range."
+                              "__text": "Subtract 1 from hit rolls for attacks that target friendly units while they are wholly within this unit’s combat range."
                             }
                           ]
                         },
@@ -845,7 +849,7 @@
                             {
                               "_name": "Effect",
                               "_typeId": "fd7f-888d-3257-a12b",
-                              "__text": "Roll a dice. You must replace 1 of your destiny dice with that roll."
+                              "__text": "Roll a dice. You must replace 1 of your destiny dice with that roll."
                             }
                           ]
                         },
@@ -924,12 +928,12 @@
                         {
                           "_name": "Declare",
                           "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "If there is not a friendly **Tome of Eyes** on the battlefield, pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, then make a casting roll of 2D6."
+                          "__text": "If there is not a friendly **Tome of Eyes** on the battlefield, pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, then make a casting roll of 2D6."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Set up a **Tome of Eyes** wholly within 12\" of the caster and visible to them."
+                          "__text": "Set up a **Tome of Eyes** wholly within 12\" of the caster and visible to them."
                         },
                         {
                           "_name": "Keywords",
@@ -959,12 +963,12 @@
                         {
                           "_name": "Declare",
                           "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "If there is not a friendly **Daemonic Simulacrum** on the battlefield, pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, then make a casting roll of 2D6."
+                          "__text": "If there is not a friendly **Daemonic Simulacrum** on the battlefield, pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, then make a casting roll of 2D6."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Set up a **Daemonic Simulacrum** wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units."
+                          "__text": "Set up a **Daemonic Simulacrum** wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units."
                         },
                         {
                           "_name": "Keywords",
@@ -994,12 +998,12 @@
                         {
                           "_name": "Declare",
                           "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "If there is not a friendly **^^Burning Sigil of Tzeentch^^** on the battlefield, pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, then make a casting roll of 2D6."
+                          "__text": "If there is not a friendly **^^Burning Sigil of Tzeentch^^** on the battlefield, pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, then make a casting roll of 2D6."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Set up a **^^Burning Sigil of Tzeentch^^** wholly within 12\" of the caster and visible to them."
+                          "__text": "Set up a **^^Burning Sigil of Tzeentch^^** wholly within 12\" of the caster and visible to them."
                         },
                         {
                           "_name": "Keywords",
@@ -1112,7 +1116,7 @@
               },
               "_type": "upgrade",
               "_import": "true",
-              "_name": "Horrors of the Necropolis",
+              "_name": "Manifestations of Tzeentch",
               "_hidden": "false",
               "_id": "7df8-8728-4f67-f5b"
             }
@@ -1280,7 +1284,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -1408,7 +1412,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "150"
             }
           },
           "_import": "true",
@@ -1606,7 +1610,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "250"
+              "_value": "230"
             }
           },
           "_import": "true",
@@ -1719,7 +1723,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "360"
+              "_value": "380"
             }
           },
           "_import": "true",
@@ -1847,7 +1851,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "110"
             }
           },
           "_import": "true",
@@ -1913,7 +1917,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "140"
             }
           },
           "_import": "true",
@@ -2041,7 +2045,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "150"
             }
           },
           "_import": "true",
@@ -2240,7 +2244,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "140"
             }
           },
           "_import": "true",
@@ -2283,7 +2287,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -2326,7 +2330,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "150"
             }
           },
           "_import": "true",
@@ -2455,7 +2459,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "250"
+              "_value": "230"
             }
           },
           "_import": "true",
@@ -2522,7 +2526,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "360"
+              "_value": "380"
             }
           },
           "_import": "true",
@@ -2565,7 +2569,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "110"
             }
           },
           "_import": "true",
@@ -2608,7 +2612,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "140"
             }
           },
           "_import": "true",
@@ -2651,7 +2655,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "150"
             }
           },
           "_import": "true",
@@ -2675,7 +2679,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "140"
             }
           },
           "_import": "true",
@@ -2880,7 +2884,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "130"
             }
           },
           "_import": "true",
@@ -3523,7 +3527,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "100"
             }
           },
           "_import": "true",
@@ -3674,7 +3678,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "100"
             }
           },
           "_import": "true",
@@ -3817,7 +3821,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "150"
             }
           },
           "_import": "true",

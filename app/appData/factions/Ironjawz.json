@@ -8,12 +8,12 @@
                 "characteristic": [{
                     "_name": "Timing",
                     "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Once Per Battle, Your Charge Phase"
+                    "__text": "Once Per Turn (Army), Your Charge Phase"
                   },
                   {
                     "_name": "Declare",
                     "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Pick a friendly **^^Ironjawz Hero^^** to be the target."
+                    "__text": "Pick a friendly **^^Ironjawz Hero^^** to be the target. You cannot pick the same **^^Hero^^** to be the target of this ability more than once per battle.’"
                   },
                   {
                     "_name": "Effect",
@@ -24,6 +24,10 @@
                     "_name": "Keywords",
                     "_typeId": "12e8-3214-7d8f-1d0f",
                     "__text": "**^^Waaagh!^^**"
+                  },
+                  {
+                    "_name": "Used By",
+                    "_typeId": "1b32-c9d6-3106-166b"
                   }
                 ]
               },
@@ -1062,7 +1066,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "450"
+              "_value": "430"
             }
           },
           "_import": "true",
@@ -1109,7 +1113,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "680"
+              "_value": "580"
             }
           },
           "_import": "true",
@@ -1175,7 +1179,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "230"
+              "_value": "210"
             }
           },
           "_import": "true",
@@ -1241,7 +1245,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "420"
+              "_value": "400"
             }
           },
           "_import": "true",
@@ -1307,7 +1311,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "300"
+              "_value": "280"
             }
           },
           "_import": "true",
@@ -1354,7 +1358,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "210"
+              "_value": "180"
             }
           },
           "_import": "true",
@@ -1510,7 +1514,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "210"
+              "_value": "180"
             }
           },
           "_import": "true",
@@ -1577,7 +1581,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "450"
+              "_value": "430"
             }
           },
           "_import": "true",
@@ -1601,7 +1605,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "680"
+              "_value": "580"
             }
           },
           "_import": "true",
@@ -1644,7 +1648,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "230"
+              "_value": "210"
             }
           },
           "_import": "true",
@@ -1687,7 +1691,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "420"
+              "_value": "400"
             }
           },
           "_import": "true",
@@ -1730,7 +1734,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "300"
+              "_value": "280"
             }
           },
           "_import": "true",
@@ -2105,7 +2109,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "130"
             }
           },
           "_import": "true",
@@ -2375,7 +2379,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "190"
+              "_value": "180"
             }
           },
           "_import": "true",
@@ -2760,7 +2764,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "110"
             }
           },
           "_import": "true",

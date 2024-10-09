@@ -930,7 +930,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "380"
+              "_value": "360"
             }
           },
           "_import": "true",
@@ -1062,7 +1062,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "220"
+              "_value": "200"
             }
           },
           "_import": "true",
@@ -1301,7 +1301,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "680"
+              "_value": "580"
             }
           },
           "_import": "true",
@@ -1480,7 +1480,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "260"
+              "_value": "240"
             }
           },
           "_import": "true",
@@ -1656,7 +1656,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "380"
+              "_value": "360"
             }
           },
           "_import": "true",
@@ -1742,7 +1742,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "220"
+              "_value": "200"
             }
           },
           "_import": "true",
@@ -1809,7 +1809,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "680"
+              "_value": "580"
             }
           },
           "_import": "true",
@@ -1919,7 +1919,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "260"
+              "_value": "240"
             }
           },
           "_import": "true",
@@ -2798,7 +2798,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "190"
+              "_value": "170"
             }
           },
           "_import": "true",

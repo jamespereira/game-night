@@ -210,7 +210,7 @@
                         }
                       ]
                     },
-                    "_name": "Slaughter Troupe",
+                    "_name": "Gladiatorial Acrobatics",
                     "_typeId": "59b6-d47a-a68a-5dcc",
                     "_typeName": "Ability (Activated)",
                     "_hidden": "false",
@@ -278,7 +278,7 @@
                       "characteristic": [{
                           "_name": "Timing",
                           "_typeId": "652c-3d84-4e7-14f4",
-                          "__text": "Your Movement Phase"
+                          "__text": "Once Per Turn (Army), Your Movement Phase"
                         },
                         {
                           "_name": "Declare",
@@ -292,12 +292,15 @@
                         },
                         {
                           "_name": "Keywords",
-                          "_typeId": "12e8-3214-7d8f-1d0f",
-                          "__text": "**^^Core^^**"
+                          "_typeId": "12e8-3214-7d8f-1d0f"
+                        },
+                        {
+                          "_name": "Used By",
+                          "_typeId": "1b32-c9d6-3106-166b"
                         }
                       ]
                     },
-                    "_name": "Shadow Patrol",
+                    "_name": "Shadowpaths",
                     "_typeId": "59b6-d47a-a68a-5dcc",
                     "_typeName": "Ability (Activated)",
                     "_hidden": "false",
@@ -354,7 +357,7 @@
                 },
                 "_type": "upgrade",
                 "_import": "true",
-                "_name": "Frenzied Devotees",
+                "_name": "Cauldron Guard",
                 "_hidden": "false",
                 "_id": "2170-49a4-8cee-f215"
               }
@@ -1263,7 +1266,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "240"
+              "_value": "220"
             }
           },
           "_import": "true",
@@ -1602,7 +1605,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "190"
+              "_value": "170"
             }
           },
           "_import": "true",
@@ -2134,7 +2137,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "190"
+              "_value": "170"
             }
           },
           "_import": "true",
@@ -2534,7 +2537,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "190"
+              "_value": "160"
             }
           },
           "_import": "true",
@@ -2905,31 +2908,55 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "ed1c-9fa9-8e7-d583",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "f9e8-542c-3020-b170",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "a559-1df9-4395-7cfc",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
                               "_childId": "b371-6047-e6ef-f9f9",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "c28f-c5bc-43a7-b5bb",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "396a-3351-c18f-47a4",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "486e-5a28-7b1b-6eba",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "6939-a21a-2d62-83d5",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "c2bd-d397-2d50-a020",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "f56c-2b0-3850-5a51",
                               "_shared": "true"
                             }
                           ]
@@ -3190,7 +3217,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "100"
             }
           },
           "_import": "true",
@@ -3254,38 +3281,6 @@
                               "_value": "1",
                               "_field": "selections",
                               "_scope": "force",
-                              "_childId": "c28f-c5bc-43a7-b5bb",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "396a-3351-c18f-47a4",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "486e-5a28-7b1b-6eba",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "6939-a21a-2d62-83d5",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
                               "_childId": "a559-1df9-4395-7cfc",
                               "_shared": "true"
                             },
@@ -3295,22 +3290,6 @@
                               "_field": "selections",
                               "_scope": "force",
                               "_childId": "b371-6047-e6ef-f9f9",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "c2bd-d397-2d50-a020",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "f56c-2b0-3850-5a51",
                               "_shared": "true"
                             }
                           ]
@@ -3341,7 +3320,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "100"
+              "_value": "90"
             }
           },
           "_import": "true",
@@ -3468,7 +3447,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "120"
             }
           },
           "_import": "true",
