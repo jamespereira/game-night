@@ -33,6 +33,10 @@ type Props = {
   users: User[];
 };
 const GameForm = ({ users }: Props) => {
+  const teamsObj = [
+    { teamNumber: 1, users: [] },
+    { teamNumber: 2, users: [] },
+  ];
   const [error, setError] = useState<string | undefined>("");
   const [success, setSuccess] = useState<string | undefined>("");
   const [isPending, startTransition] = useTransition();
@@ -43,10 +47,7 @@ const GameForm = ({ users }: Props) => {
       location: "",
       date: "",
       pointsLimit: 2000,
-      teams: [
-        { teamNumber: 1, users: [] },
-        { teamNumber: 2, users: [] },
-      ],
+      teams: teamsObj,
     },
   });
 
@@ -157,99 +158,62 @@ const GameForm = ({ users }: Props) => {
               </FormItem>
             )}
           />
-          {/* TO DO Make dynamic */}
 
-          <FormField
-            control={form.control}
-            name={`teams.${0}`}
-            render={() => (
-              <FormItem>
-                <div className="mb-4">
-                  <FormLabel className="text-base">Team 1</FormLabel>
-                </div>
-                {userOptions.map((user) => (
-                  <FormField
-                    key={user.id}
-                    control={form.control}
-                    name={`teams.${0}.users`}
-                    render={({ field }) => {
-                      return (
-                        <FormItem
-                          key={user.id}
-                          className="flex flex-row items-start space-x-3 space-y-0"
-                        >
-                          <FormControl>
-                            <Checkbox
-                              checked={field.value?.includes(user.id)}
-                              onCheckedChange={(checked) => {
-                                return checked
-                                  ? field.onChange([...field.value, user.id])
-                                  : field.onChange(
-                                      field.value?.filter(
-                                        (value) => value !== user.id
-                                      )
-                                    );
-                              }}
-                            />
-                          </FormControl>
-                          <FormLabel className="font-normal">
-                            {user.label}
-                          </FormLabel>
-                        </FormItem>
-                      );
-                    }}
-                  />
-                ))}
-                <FormMessage />
-              </FormItem>
-            )}
-          />
-
-          <FormField
-            control={form.control}
-            name={`teams.${1}`}
-            render={() => (
-              <FormItem>
-                <div className="mb-4">
-                  <FormLabel className="text-base">Team 2</FormLabel>
-                </div>
-                {userOptions.map((user) => (
-                  <FormField
-                    key={user.id}
-                    control={form.control}
-                    name={`teams.${1}.users`}
-                    render={({ field }) => {
-                      return (
-                        <FormItem
-                          key={user.id}
-                          className="flex flex-row items-start space-x-3 space-y-0"
-                        >
-                          <FormControl>
-                            <Checkbox
-                              checked={field.value?.includes(user.id)}
-                              onCheckedChange={(checked) => {
-                                return checked
-                                  ? field.onChange([...field.value, user.id])
-                                  : field.onChange(
-                                      field.value?.filter(
-                                        (value) => value !== user.id
-                                      )
-                                    );
-                              }}
-                            />
-                          </FormControl>
-                          <FormLabel className="font-normal">
-                            {user.label}
-                          </FormLabel>
-                        </FormItem>
-                      );
-                    }}
-                  />
-                ))}
-                <FormMessage />
-              </FormItem>
-            )}
-          />
+          {teamsObj.map((team, index) => {
+            return (
+              <FormField
+                key={team.teamNumber}
+                control={form.control}
+                name={`teams.${index}`}
+                render={() => (
+                  <FormItem>
+                    <div className="mb-4">
+                      <FormLabel className="text-base">
+                        Team {team.teamNumber}
+                      </FormLabel>
+                    </div>
+                    {userOptions.map((user) => (
+                      <FormField
+                        key={user.id}
+                        control={form.control}
+                        name={`teams.${index}.users`}
+                        render={({ field }) => {
+                          return (
+                            <FormItem
+                              key={user.id}
+                              className="flex flex-row items-start space-x-3 space-y-0"
+                            >
+                              <FormControl>
+                                <Checkbox
+                                  checked={field.value?.includes(user.id)}
+                                  onCheckedChange={(checked) => {
+                                    return checked
+                                      ? field.onChange([
+                                          ...field.value,
+                                          user.id,
+                                        ])
+                                      : field.onChange(
+                                          field.value?.filter(
+                                            (value) => value !== user.id
+                                          )
+                                        );
+                                  }}
+                                />
+                              </FormControl>
+                              <FormLabel className="font-normal">
+                                {user.label}
+                              </FormLabel>
+                            </FormItem>
+                          );
+                        }}
+                      />
+                    ))}
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+            );
+          })}
         </div>
         <FormError message={error} />
         <FormSuccess message={success} />

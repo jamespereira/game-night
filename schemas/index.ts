@@ -2,13 +2,13 @@ import { UserRole } from "@prisma/client";
 import * as z from "zod";
 
 const turn = z.object({
-  teamNumber: z.coerce.number(),
-  position: z.string(),
-  battleTactic: z.string(),
-  btCompleted: z.boolean(),
-  objectivePoints: z.coerce.number(),
-  victoryPoints: z.coerce.number(),
-  conceded: z.boolean(),
+  teamNumber: z.optional(z.coerce.number()),
+  position: z.optional(z.string()),
+  battleTactic: z.optional(z.string()),
+  btCompleted: z.optional(z.boolean()),
+  objectivePoints: z.optional(z.coerce.number()),
+  victoryPoints: z.optional(z.coerce.number()),
+  conceded: z.optional(z.boolean()),
 });
 
 export const ResultSchema = z.object({
@@ -16,7 +16,7 @@ export const ResultSchema = z.object({
   loser: z.optional(z.string()),
   battleReport: z.optional(
     z.object({
-      battlePlan: z.string(),
+      battlePlan: z.optional(z.string()),
       rounds: z.array(
         z.object({
           roundNumber: z.coerce.number(),

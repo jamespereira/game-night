@@ -76,7 +76,7 @@ const GameDetail = async ({ game }: Props) => {
           <CardHeader>
             {!isBeforeGame(game.date) ? (
               <RoleGate allowedRole="ADMIN">
-                <Result teams={teams} gameResult={result} />
+                <Result teams={teams} gameResult={result} gameId={game.id} />
               </RoleGate>
             ) : null}
             <RoleGate allowedRole="ADMIN">

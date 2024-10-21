@@ -15,11 +15,6 @@ const newGame = async (values: z.infer<typeof NewGameSchema>) => {
 
   const { host, location, date, pointsLimit, teams } = validatedFields.data;
 
-  // const teamDetails = teams.map((team) => ({
-  //   teamNumber: team.teamNumber,
-  //   users: team.users.map(user => getUserById(user))
-  // }))
-
   await db.game.create({
     data: {
       host,

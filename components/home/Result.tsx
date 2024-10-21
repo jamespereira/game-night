@@ -1,6 +1,7 @@
 "use client";
 
 import React, {
+  Fragment,
   Suspense,
   startTransition,
   useState,
@@ -55,10 +56,12 @@ import {
   TableRow,
 } from "../ui/table";
 import { ResultDetails } from "@/interfaces";
+import { battleTactics } from "@/utils/battle-tactics";
+import { Switch } from "../ui/switch";
 
-type Props = { teams: Team[]; gameResult: ResultDetails };
+type Props = { teams: Team[]; gameResult: ResultDetails; gameId: number };
 
-const GameResult = ({ teams, gameResult }: Props) => {
+const GameResult = ({ teams, gameResult, gameId }: Props) => {
   const [error, setError] = useState<string | undefined>("");
   const [success, setSuccess] = useState<string | undefined>("");
   const [isPending, startTransition] = useTransition();
@@ -66,16 +69,43 @@ const GameResult = ({ teams, gameResult }: Props) => {
   const [showBattleReport, setShowBattleReport] = useState(
     !!gameResult?.battleReport || false
   );
-  const [numberOfRounds, setNumberOfRounds] = useState(5);
-  const roundsArray = [1, 2, 3, 4, 5];
-  const numberOfTableColumns = Array.from({ length: numberOfRounds });
+  const roundsSelector = [1, 2, 3, 4, 5];
+
+  const roundsArray = roundsSelector.map((number) => ({
+    roundNumber: number,
+    turns: teams.map((team) => ({
+      teamNumber: team.teamNumber,
+      position: "",
+      battleTactic: "",
+      btCompleted: false,
+      objectivePoints: 0,
+      victoryPoints: 0,
+      conceded: false,
+    })),
+  }));
 
   const form = useForm<z.infer<typeof ResultSchema>>({
     resolver: zodResolver(ResultSchema),
     defaultValues: {
-      winner: undefined,
-      loser: undefined,
-      battleReport: undefined,
+      winner: gameResult?.winner || undefined,
+      loser: gameResult?.loser || undefined,
+      battleReport:
+        {
+          battlePlan: gameResult?.battleReport?.battlePlan || undefined,
+          rounds:
+            gameResult?.battleReport?.rounds?.map((round) => ({
+              roundNumber: round?.roundNumber || undefined,
+              turns: round?.turns?.map((turn) => ({
+                teamNumber: turn?.teamNumber || undefined,
+                position: turn?.position || undefined,
+                battleTactic: turn?.battleTactic || undefined,
+                btCompleted: turn?.btCompleted || undefined,
+                objectivePoints: turn?.objectivePoints || undefined,
+                victoryPoints: turn?.victoryPoints || undefined,
+                conceded: turn?.conceded || undefined,
+              })),
+            })) || roundsArray,
+        } || undefined,
     },
   });
 
@@ -84,7 +114,7 @@ const GameResult = ({ teams, gameResult }: Props) => {
     setSuccess("");
 
     startTransition(() => {
-      result(values, gameResult.gameId)
+      result(values, gameId)
         .then((data) => {
           if (data?.error) {
             form.reset();
@@ -115,7 +145,7 @@ const GameResult = ({ teams, gameResult }: Props) => {
                 Update result for the game
               </DialogDescription>
             </DialogHeader>
-            <div className="h-[400px] overflow-y-auto">
+            <div className=" overflow-y-auto">
               <div className="space-y-4">
                 <FormField
                   control={form.control}
@@ -126,7 +156,7 @@ const GameResult = ({ teams, gameResult }: Props) => {
                       <Select
                         disabled={isPending}
                         onValueChange={field.onChange}
-                        defaultValue={gameResult.winner || field.value}
+                        defaultValue={field.value}
                       >
                         <FormControl>
                           <SelectTrigger>
@@ -154,7 +184,7 @@ const GameResult = ({ teams, gameResult }: Props) => {
                       <Select
                         disabled={isPending}
                         onValueChange={field.onChange}
-                        defaultValue={gameResult.loser || field.value}
+                        defaultValue={field.value}
                       >
                         <FormControl>
                           <SelectTrigger>
@@ -173,6 +203,37 @@ const GameResult = ({ teams, gameResult }: Props) => {
                     </FormItem>
                   )}
                 />
+                <FormField
+                  control={form.control}
+                  name="battleReport.battlePlan"
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormLabel>Battle Plan</FormLabel>
+                      <Select
+                        disabled={isPending}
+                        onValueChange={field.onChange}
+                        defaultValue={field.value}
+                      >
+                        <FormControl>
+                          <SelectTrigger>
+                            <SelectValue placeholder="Select the Battle Plan" />
+                          </SelectTrigger>
+                        </FormControl>
+                        <SelectContent>
+                          {battlePlans.map((battlePlan) => (
+                            <SelectItem
+                              key={battlePlan.id}
+                              value={battlePlan.id}
+                            >
+                              {battlePlan.name}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
                 <div>
                   include battle report:
                   <Checkbox
@@ -182,13 +243,13 @@ const GameResult = ({ teams, gameResult }: Props) => {
                     }}
                   />
                   {showBattleReport ? (
-                    <>
-                      <div>
+                    <div>
+                      {/* <div>
                         Rounds:
                         <Select
                           disabled={isPending}
                           onValueChange={(e) => setNumberOfRounds(Number(e))}
-                          defaultValue={"5"}
+                          defaultValue={"1"}
                         >
                           <FormControl>
                             <SelectTrigger>
@@ -196,232 +257,257 @@ const GameResult = ({ teams, gameResult }: Props) => {
                             </SelectTrigger>
                           </FormControl>
                           <SelectContent>
-                            {roundsArray.map((round) => (
+                            {roundsSelector.map((round) => (
                               <SelectItem key={round} value={round.toString()}>
                                 {round}
                               </SelectItem>
                             ))}
                           </SelectContent>
                         </Select>
-                      </div>
-                      <FormField
-                        control={form.control}
-                        name="battleReport.battlePlan"
-                        render={({ field }) => (
-                          <FormItem>
-                            <FormLabel>Battle Plan</FormLabel>
-                            <Select
-                              disabled={isPending}
-                              onValueChange={field.onChange}
-                              defaultValue={
-                                gameResult.battleReport?.battlePlan ||
-                                field.value
-                              }
-                            >
-                              <FormControl>
-                                <SelectTrigger>
-                                  <SelectValue placeholder="Select the Battle Plan" />
-                                </SelectTrigger>
-                              </FormControl>
-                              <SelectContent>
-                                {battlePlans.map((battlePlan) => (
-                                  <SelectItem
-                                    key={battlePlan.id}
-                                    value={battlePlan.id}
-                                  >
-                                    {battlePlan.name}
-                                  </SelectItem>
-                                ))}
-                              </SelectContent>
-                            </Select>
-                            <FormMessage />
-                          </FormItem>
-                        )}
-                      />
-                      Team: 1
-                      <Table>
-                        <TableHeader>
-                          <TableRow className="border-stone-300/85">
-                            <TableHead className="text-sky-400">
-                              Round:{" "}
-                            </TableHead>
-                            {numberOfTableColumns.map((_, index) => (
-                              <TableHead key={index} className="text-sky-400">
-                                {index + 1}
-                              </TableHead>
-                            ))}
-                          </TableRow>
-                        </TableHeader>
-                        <TableBody>
-                          <TableRow className="border-stone-300/85">
-                            <TableCell className=" text-stone-200">
-                              Turn position:
-                            </TableCell>
+                      </div> */}
+                      {teams.map((team) => {
+                        return (
+                          <Fragment key={team.id}>
+                            Team: {team.teamNumber}
+                            <Table>
+                              <TableHeader>
+                                <TableRow className="border-stone-300/85">
+                                  <TableHead className="text-sky-400">
+                                    Round:{" "}
+                                  </TableHead>
+                                  {roundsArray.map((round) => (
+                                    <TableHead
+                                      key={round.roundNumber}
+                                      className="text-sky-400"
+                                    >
+                                      {round.roundNumber}
+                                    </TableHead>
+                                  ))}
+                                </TableRow>
+                              </TableHeader>
+                              <TableBody>
+                                <TableRow className="border-stone-300/85">
+                                  <TableCell className=" text-stone-200">
+                                    Turn position:
+                                  </TableCell>
 
-                            {numberOfTableColumns.map((_, index) => (
-                              <TableCell
-                                key={index}
-                                className=" text-stone-200"
-                              >
-                                <div>position</div>
-                                <FormField
-                                  control={form.control}
-                                  name={`battleReport.rounds.${
-                                    index + 1
-                                  }.turns.1.position`}
-                                  render={({ field }) => (
-                                    <FormItem>
-                                      <Select
-                                        disabled={isPending}
-                                        onValueChange={field.onChange}
-                                        defaultValue={
-                                          // gameResult.battleReport?.rounds[index + 1]
-                                          //   ?.turns[1]?.position ||
-                                          field.value
-                                        }
-                                      >
-                                        <FormControl>
-                                          <SelectTrigger>
-                                            <SelectValue placeholder="Turn position" />
-                                          </SelectTrigger>
-                                        </FormControl>
-                                        <SelectContent>
-                                          <SelectItem value="top">
-                                            Top
-                                          </SelectItem>
-                                          <SelectItem value="bottom">
-                                            Bottom
-                                          </SelectItem>
-                                        </SelectContent>
-                                      </Select>
-                                      <FormMessage />
-                                    </FormItem>
-                                  )}
-                                />
-                              </TableCell>
-                            ))}
-                          </TableRow>
-                          <TableRow>
-                            <TableCell className=" text-stone-200">
-                              Battle Tactic:
-                            </TableCell>
-
-                            {numberOfTableColumns.map((_, index) => (
-                              <TableCell
-                                key={index}
-                                className=" text-stone-200"
-                              >
-                                <FormField
-                                  control={form.control}
-                                  name="battleReport.battlePlan"
-                                  render={({ field }) => (
-                                    <FormItem>
-                                      <Select
-                                        disabled={isPending}
-                                        onValueChange={field.onChange}
-                                        defaultValue={
-                                          gameResult.battleReport?.battlePlan ||
-                                          field.value
-                                        }
-                                      >
-                                        <FormControl>
-                                          <SelectTrigger>
-                                            <SelectValue placeholder="Battle Tactic" />
-                                          </SelectTrigger>
-                                        </FormControl>
-                                        <SelectContent>
-                                          {battlePlans.map((battlePlan) => (
-                                            <SelectItem
-                                              key={battlePlan.id}
-                                              value={battlePlan.id}
+                                  {roundsArray.map((round, index) => (
+                                    <TableCell
+                                      key={index}
+                                      className=" text-stone-200"
+                                    >
+                                      <FormField
+                                        control={form.control}
+                                        name={`battleReport.rounds.${index}.turns.${
+                                          team.teamNumber - 1
+                                        }.position`}
+                                        render={({ field }) => (
+                                          <FormItem>
+                                            <Select
+                                              disabled={isPending}
+                                              onValueChange={field.onChange}
+                                              defaultValue={field.value}
                                             >
-                                              {battlePlan.name}
-                                            </SelectItem>
-                                          ))}
-                                        </SelectContent>
-                                      </Select>
-                                      <FormMessage />
-                                    </FormItem>
-                                  )}
-                                />
-                              </TableCell>
-                            ))}
-                          </TableRow>
-                          <TableRow>
-                            <TableCell className=" text-stone-200">
-                              Battle Tactic Completed:
-                            </TableCell>
+                                              <FormControl>
+                                                <SelectTrigger>
+                                                  <SelectValue placeholder="Turn position" />
+                                                </SelectTrigger>
+                                              </FormControl>
+                                              <SelectContent>
+                                                <SelectItem value="top">
+                                                  Top
+                                                </SelectItem>
+                                                <SelectItem value="bottom">
+                                                  Bottom
+                                                </SelectItem>
+                                              </SelectContent>
+                                            </Select>
+                                            <FormMessage />
+                                          </FormItem>
+                                        )}
+                                      />
+                                    </TableCell>
+                                  ))}
+                                </TableRow>
+                                <TableRow>
+                                  <TableCell className=" text-stone-200">
+                                    Battle Tactic:
+                                  </TableCell>
 
-                            {numberOfTableColumns.map((_, index) => (
-                              <TableCell
-                                key={index}
-                                className=" text-stone-200"
-                              >
-                                <Checkbox
-                                  checked={showBattleReport}
-                                  onCheckedChange={() => {
-                                    setShowBattleReport(!showBattleReport);
-                                  }}
-                                />
-                              </TableCell>
-                            ))}
-                          </TableRow>
-                          <TableRow>
-                            <TableCell className=" text-stone-200">
-                              Objective Points:
-                            </TableCell>
+                                  {roundsArray.map((round, index) => (
+                                    <TableCell
+                                      key={index}
+                                      className=" text-stone-200"
+                                    >
+                                      <FormField
+                                        control={form.control}
+                                        name={`battleReport.rounds.${index}.turns.${
+                                          team.teamNumber - 1
+                                        }.battleTactic`}
+                                        render={({ field }) => (
+                                          <FormItem>
+                                            <Select
+                                              disabled={isPending}
+                                              onValueChange={field.onChange}
+                                              defaultValue={field.value}
+                                            >
+                                              <FormControl>
+                                                <SelectTrigger>
+                                                  <SelectValue placeholder="Battle Tactic" />
+                                                </SelectTrigger>
+                                              </FormControl>
+                                              <SelectContent>
+                                                {battleTactics.map(
+                                                  (battleTactic) => (
+                                                    <SelectItem
+                                                      key={battleTactic.id}
+                                                      value={battleTactic.id}
+                                                    >
+                                                      {battleTactic.name}
+                                                    </SelectItem>
+                                                  )
+                                                )}
+                                              </SelectContent>
+                                            </Select>
+                                            <FormMessage />
+                                          </FormItem>
+                                        )}
+                                      />
+                                    </TableCell>
+                                  ))}
+                                </TableRow>
+                                <TableRow>
+                                  <TableCell className=" text-stone-200">
+                                    Battle Tactic Completed:
+                                  </TableCell>
 
-                            {numberOfTableColumns.map((_, index) => (
-                              <TableCell
-                                key={index}
-                                className=" text-stone-200"
-                              >
-                                <Input
-                                  placeholder="4"
-                                  type="password"
-                                  disabled={isPending}
-                                />
-                              </TableCell>
-                            ))}
-                          </TableRow>
-                          <TableRow>
-                            <TableCell className=" text-stone-200">
-                              Victory Points:
-                            </TableCell>
-                            {numberOfTableColumns.map((_, index) => (
-                              <TableCell
-                                key={index}
-                                className=" text-stone-200"
-                              >
-                                <Input
-                                  placeholder="4"
-                                  type="password"
-                                  disabled={isPending}
-                                />
-                              </TableCell>
-                            ))}
-                          </TableRow>
-                          <TableRow>
-                            <TableCell className=" text-stone-200">
-                              Conceded:
-                            </TableCell>
-                            {numberOfTableColumns.map((_, index) => (
-                              <TableCell
-                                key={index}
-                                className=" text-stone-200"
-                              >
-                                <Checkbox
-                                  checked={showBattleReport}
-                                  onCheckedChange={() => {
-                                    setShowBattleReport(!showBattleReport);
-                                  }}
-                                />
-                              </TableCell>
-                            ))}
-                          </TableRow>
-                        </TableBody>
-                      </Table>
-                    </>
+                                  {roundsArray.map((round, index) => (
+                                    <TableCell
+                                      key={index}
+                                      className=" text-stone-200"
+                                    >
+                                      <FormField
+                                        control={form.control}
+                                        name={`battleReport.rounds.${index}.turns.${
+                                          team.teamNumber - 1
+                                        }.btCompleted`}
+                                        render={({ field }) => (
+                                          <FormItem className="flex flex-row items-center justify-between rounded-lg p-3 shadow-sm">
+                                            <div className="space-y-0.5"></div>
+                                            <FormControl>
+                                              <Switch
+                                                disabled={isPending}
+                                                checked={field.value}
+                                                onCheckedChange={field.onChange}
+                                              />
+                                            </FormControl>
+                                            <FormMessage />
+                                          </FormItem>
+                                        )}
+                                      />
+                                    </TableCell>
+                                  ))}
+                                </TableRow>
+                                <TableRow>
+                                  <TableCell className=" text-stone-200">
+                                    Objective Points:
+                                  </TableCell>
+
+                                  {roundsArray.map((round, index) => (
+                                    <TableCell
+                                      key={index}
+                                      className=" text-stone-200"
+                                    >
+                                      <FormField
+                                        control={form.control}
+                                        name={`battleReport.rounds.${index}.turns.${
+                                          team.teamNumber - 1
+                                        }.objectivePoints`}
+                                        render={({ field }) => (
+                                          <FormItem>
+                                            <FormControl>
+                                              <Input
+                                                {...field}
+                                                placeholder="6"
+                                                type="number"
+                                                disabled={isPending}
+                                              />
+                                            </FormControl>
+                                            <FormMessage />
+                                          </FormItem>
+                                        )}
+                                      />
+                                    </TableCell>
+                                  ))}
+                                </TableRow>
+                                <TableRow>
+                                  <TableCell className=" text-stone-200">
+                                    Victory Points:
+                                  </TableCell>
+                                  {roundsArray.map((round, index) => (
+                                    <TableCell
+                                      key={index}
+                                      className=" text-stone-200"
+                                    >
+                                      <FormField
+                                        control={form.control}
+                                        name={`battleReport.rounds.${index}.turns.${
+                                          team.teamNumber - 1
+                                        }.victoryPoints`}
+                                        render={({ field }) => (
+                                          <FormItem>
+                                            <FormControl>
+                                              <Input
+                                                {...field}
+                                                placeholder="10"
+                                                type="number"
+                                                disabled={isPending}
+                                              />
+                                            </FormControl>
+                                            <FormMessage />
+                                          </FormItem>
+                                        )}
+                                      />
+                                    </TableCell>
+                                  ))}
+                                </TableRow>
+                                <TableRow>
+                                  <TableCell className=" text-stone-200">
+                                    Conceded:
+                                  </TableCell>
+                                  {roundsArray.map((round, index) => (
+                                    <TableCell
+                                      key={index}
+                                      className=" text-stone-200"
+                                    >
+                                      <FormField
+                                        control={form.control}
+                                        name={`battleReport.rounds.${index}.turns.${
+                                          team.teamNumber - 1
+                                        }.conceded`}
+                                        render={({ field }) => (
+                                          <FormItem className="flex flex-row items-center justify-between rounded-lg p-3 shadow-sm">
+                                            <div className="space-y-0.5"></div>
+                                            <FormControl>
+                                              <Switch
+                                                disabled={isPending}
+                                                checked={field.value}
+                                                onCheckedChange={field.onChange}
+                                              />
+                                            </FormControl>
+                                            <FormMessage />
+                                          </FormItem>
+                                        )}
+                                      />
+                                    </TableCell>
+                                  ))}
+                                </TableRow>
+                              </TableBody>
+                            </Table>
+                          </Fragment>
+                        );
+                      })}
+                    </div>
                   ) : null}
                 </div>
               </div>
