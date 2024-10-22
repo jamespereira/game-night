@@ -96,7 +96,7 @@ const GameDetail = async ({ game }: Props) => {
               {result?.battleReport?.rounds ? (
                 <Score gameResult={result} />
               ) : null}
-              <div className="flex flex-col h-full justify-around">
+              <div className="flex flex-col h-full justify-around items-center">
                 <p className="text-3xl text-amber-400 [text-shadow:_0_0_5px_rgb(0_0_0_/_80%)]">
                   vs
                 </p>
