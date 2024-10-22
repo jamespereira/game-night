@@ -46,9 +46,10 @@ async function TeamDetail({ params }: Props) {
       const armyPromise = await getArmyWithUnitsByUserIdAndGameId(user, gameId);
       const army = await armyPromise;
       if (army === null) {
-        return (teamTotal += 0);
+        teamTotal += 0;
+      } else {
+        teamTotal += await getPointsTotal(army);
       }
-      teamTotal += getPointsTotal(army);
     }
 
     return teamTotal;

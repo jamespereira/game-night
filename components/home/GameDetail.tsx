@@ -16,6 +16,7 @@ import { isBeforeGame } from "@/utils/game-time";
 import Remove from "./Remove";
 import Edit from "./Edit";
 import { GameDetails } from "@/interfaces";
+import Score from "./Score";
 
 type Props = {
   game: GameDetails;
@@ -91,9 +92,16 @@ const GameDetail = async ({ game }: Props) => {
               teamDetails={await getTeamDetails(1)}
               result={result}
             />
-            <p className="text-3xl text-amber-400 [text-shadow:_0_0_5px_rgb(0_0_0_/_80%)]">
-              vs
-            </p>
+            <div className="flex flex-col h-full">
+              {result?.battleReport?.rounds ? (
+                <Score gameResult={result} />
+              ) : null}
+              <div className="flex flex-col h-full justify-around">
+                <p className="text-3xl text-amber-400 [text-shadow:_0_0_5px_rgb(0_0_0_/_80%)]">
+                  vs
+                </p>
+              </div>
+            </div>
             <TeamTile
               gameId={game.id}
               gameDate={game.date}

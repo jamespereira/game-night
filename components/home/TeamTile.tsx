@@ -37,7 +37,7 @@ const TeamTile = async ({ teamDetails, gameId, gameDate, result }: Props) => {
             "p-4 bg-slate-900 shadow-sm drop-shadow-md flex items-center justify-center flex-col gap-y-2 rounded-md border-2",
             teamDetails.teamNumber === 2
               ? "border-rose-400/25"
-              : "border-sky-400/25"
+              : "border-cyan-400/25"
           )}
         >
           {/* <Avatar className="w-6 h-6">
@@ -48,7 +48,7 @@ const TeamTile = async ({ teamDetails, gameId, gameDate, result }: Props) => {
           </Avatar> */}
           <p
             className={cn(
-              teamDetails.teamNumber === 2 ? "text-rose-400" : "text-sky-400",
+              teamDetails.teamNumber === 2 ? "text-rose-400" : "text-cyan-400",
               "font-medium"
             )}
           >

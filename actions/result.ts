@@ -3,13 +3,10 @@
 import { ResultSchema } from "@/schemas";
 import * as z from "zod";
 import { db } from "@/lib/db";
-import { getUserById } from "@/data/user";
 import { revalidatePath } from "next/cache";
-import { getExtendedResultByGameId, getResultByGameId } from "@/data/result";
-import { v4 as uuidv4 } from "uuid";
+import { getExtendedResultByGameId } from "@/data/result";
 
 const result = async (values: z.infer<typeof ResultSchema>, gameId) => {
-  console.log("server action values", values);
   const validatedFields = ResultSchema.safeParse(values);
 
   if (!validatedFields.success) {
@@ -168,10 +165,10 @@ const result = async (values: z.infer<typeof ResultSchema>, gameId) => {
         });
       });
     });
-  }
 
-  revalidatePath("/");
-  return { success: "Result updated!" };
+    revalidatePath("/");
+    return { success: "Result updated!" };
+  }
 };
 
 export default result;
