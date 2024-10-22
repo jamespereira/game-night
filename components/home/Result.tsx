@@ -132,7 +132,9 @@ const GameResult = ({ teams, gameResult, gameId }: Props) => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button className="bg-amber-600/75">Update Result</Button>
+        <Button variant="ghost" size="sm">
+          Update Result
+        </Button>
       </DialogTrigger>
       <DialogContent className="bg-[#163749] border-sky-400 border-2 max-w-full max-h-full h-full overflow-auto md:h-auto">
         <Form {...form}>

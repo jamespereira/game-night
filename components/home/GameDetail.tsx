@@ -60,7 +60,7 @@ const GameDetail = async ({ game }: Props) => {
         </div>
         <Card className="flex flex-1 flex-col items-center justify-center gap-x-4 bg-inherit relative border-sky-400 border-2">
           <div className="w-full h-full z-[-2] absolute">
-            <div className="w-full h-full z-[1] bg-black/25 absolute"></div>
+            <div className="w-full h-full z-[1] bg-gradient-to-r from-slate-900 via-slate-900/25 to-slate-900 absolute"></div>
             <Image
               src={getGameImage(game.id)}
               alt={`aos background image`}
@@ -73,7 +73,7 @@ const GameDetail = async ({ game }: Props) => {
               className="object-cover rounded-xl"
             />
           </div>
-          <CardHeader>
+          <CardHeader className="self-end text-white flex-row items-center space-y-0">
             {!isBeforeGame(game.date) ? (
               <RoleGate allowedRole="ADMIN">
                 <Result teams={teams} gameResult={result} gameId={game.id} />

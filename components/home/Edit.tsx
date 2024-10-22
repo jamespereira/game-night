@@ -36,6 +36,7 @@ import { Game, User } from "@prisma/client";
 import { GameDetails } from "@/interfaces";
 import { Checkbox } from "../ui/checkbox";
 import updateGame from "@/actions/update-game";
+import { FaEdit } from "react-icons/fa";
 
 type Props = { game: GameDetails; users: User[] };
 
@@ -90,7 +91,9 @@ const Edit = ({ game, users }: Props) => {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button className="bg-amber-600/75">Edit Game</Button>
+        <Button variant="ghost" size="icon">
+          <FaEdit />
+        </Button>
       </DialogTrigger>
       <DialogContent className="bg-[#163749] border-sky-400 border-2 max-w-full max-h-full h-full overflow-auto md:h-auto">
         <DialogTitle>Edit Game</DialogTitle>

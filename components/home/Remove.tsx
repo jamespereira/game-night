@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/alert-dialog";
 import removeGame from "@/actions/remove-game";
 import { Button } from "../ui/button";
+import { FaTrash } from "react-icons/fa";
 
 type Props = {
   gameId: number;
@@ -21,8 +22,8 @@ function Remove({ gameId }: Props) {
   return (
     <AlertDialog>
       <AlertDialogTrigger asChild>
-        <Button className="bg-red-400/85 [drop-shadow:_0_0_5px_rgb(0_0_0_/_80%)] text-black">
-          Remove game
+        <Button variant="ghost" size="icon">
+          <FaTrash />
         </Button>
       </AlertDialogTrigger>
       <AlertDialogContent>
