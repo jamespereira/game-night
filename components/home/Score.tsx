@@ -23,13 +23,15 @@ function Score({ gameResult }: Props) {
     return victoryPoints;
   }
 
-  function renderFlag(teamNumber) {
+  function checkConceded(teamNumber) {
     const concededRounds = rounds.map(
       (r) => r.turns.find((t) => t.teamNumber === teamNumber).conceded
     );
-    const flag = concededRounds.find((r) => r === true);
+    return concededRounds.find((r) => r === true);
+  }
 
-    return flag ? (
+  function renderFlag(teamNumber) {
+    return checkConceded(teamNumber) ? (
       <FaFlag className="text-stone-100 text-sm" />
     ) : (
       <div className="w-[14px]" />
@@ -38,14 +40,11 @@ function Score({ gameResult }: Props) {
 
   function checkWinner(teamNumber) {
     const otherTeam = teamNumber === 1 ? 2 : 1;
+    const win =
+      calculateVictoryPoints(teamNumber) > calculateVictoryPoints(otherTeam) ||
+      !checkConceded(teamNumber);
     return (
-      <span
-        className={
-          calculateVictoryPoints(teamNumber) > calculateVictoryPoints(otherTeam)
-            ? "text-amber-400"
-            : "text-stone-300/85"
-        }
-      >
+      <span className={win ? "text-amber-400" : "text-stone-300/85"}>
         {calculateVictoryPoints(teamNumber)}
       </span>
     );
