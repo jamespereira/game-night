@@ -19,7 +19,6 @@ const result = async (values: z.infer<typeof ResultSchema>, gameId) => {
 
   const existingResult = await getExtendedResultByGameId(gameId);
   const xRounds = existingResult?.battleReport?.rounds;
-
   if (!existingResult) {
     await db.result.create({
       data: {
@@ -165,7 +164,6 @@ const result = async (values: z.infer<typeof ResultSchema>, gameId) => {
         });
       });
     });
-
     revalidatePath("/");
     return { success: "Result updated!" };
   }

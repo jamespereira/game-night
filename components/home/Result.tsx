@@ -58,6 +58,19 @@ import {
 import { ResultDetails } from "@/interfaces";
 import { battleTactics } from "@/utils/battle-tactics";
 import { Switch } from "../ui/switch";
+import removeResult from "@/actions/remove-result";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "../ui/alert-dialog";
+import { FaTrash } from "react-icons/fa";
 
 type Props = { teams: Team[]; gameResult: ResultDetails; gameId: number };
 
@@ -147,6 +160,38 @@ const GameResult = ({ teams, gameResult, gameId }: Props) => {
                 Update result for the game
               </DialogDescription>
             </DialogHeader>
+            {gameResult?.id ? (
+              <div>
+                <AlertDialog>
+                  <AlertDialogTrigger asChild>
+                    <Button variant="default" size="icon">
+                      <FaTrash />
+                    </Button>
+                  </AlertDialogTrigger>
+                  <AlertDialogContent>
+                    <AlertDialogHeader>
+                      <AlertDialogTitle>
+                        Are you absolutely sure?
+                      </AlertDialogTitle>
+                      <AlertDialogDescription>
+                        This action cannot be undone. This will permanently
+                        delete your result and remove the result data from our
+                        servers.
+                      </AlertDialogDescription>
+                    </AlertDialogHeader>
+                    <AlertDialogFooter>
+                      <AlertDialogCancel>Cancel</AlertDialogCancel>
+                      <AlertDialogAction asChild>
+                        <button onClick={() => removeResult(gameResult?.id)}>
+                          Continue
+                        </button>
+                      </AlertDialogAction>
+                    </AlertDialogFooter>
+                  </AlertDialogContent>
+                </AlertDialog>
+              </div>
+            ) : null}
+
             <div className=" overflow-y-auto">
               <div className="space-y-4">
                 <FormField
