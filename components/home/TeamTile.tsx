@@ -24,7 +24,6 @@ const TeamTile = async ({ teamDetails, gameId, gameDate, result }: Props) => {
       {result?.winner === teamDetails.teamId ? (
         <div className="flex flex-col items-center justify-center">
           <FaTrophy className="w-12 h-12 text-amber-400" />
-          <p className="text-amber-400 font-bold">Victory</p>
         </div>
       ) : null}
       {result?.loser === teamDetails.teamId ? (
