@@ -1,5 +1,8 @@
+"use server";
+import { getTeamByTeamNumber } from "@/data/team";
 import { ResultDetails } from "@/interfaces";
 import React from "react";
+import { FaFlag } from "react-icons/fa";
 
 type Props = { gameResult: ResultDetails };
 
@@ -20,12 +23,42 @@ function Score({ gameResult }: Props) {
     return victoryPoints;
   }
 
+  function renderFlag(teamNumber) {
+    const concededRounds = rounds.map(
+      (r) => r.turns.find((t) => t.teamNumber === teamNumber).conceded
+    );
+    const flag = concededRounds.find((r) => r === true);
+
+    return flag ? (
+      <FaFlag className="text-stone-100 text-sm" />
+    ) : (
+      <div className="w-[14px]" />
+    );
+  }
+
+  function checkWinner(teamNumber) {
+    const otherTeam = teamNumber === 1 ? 2 : 1;
+    return (
+      <span
+        className={
+          calculateVictoryPoints(teamNumber) > calculateVictoryPoints(otherTeam)
+            ? "text-amber-400"
+            : "text-stone-300/85"
+        }
+      >
+        {calculateVictoryPoints(teamNumber)}
+      </span>
+    );
+  }
+
   return (
     <div className="flex flex-col items-center justify-center">
       <p className="text-sm text-white">score</p>
-      <p className="text-3xl text-amber-400 font-bold">
-        {calculateVictoryPoints(1)} - {calculateVictoryPoints(2)}
-      </p>
+      <div className="flex flex-row gap-2 text-3xl text-stone-300/85 font-bold">
+        {renderFlag(1)}
+        {checkWinner(1)} - {checkWinner(2)}
+        {renderFlag(2)}
+      </div>
     </div>
   );
 }
