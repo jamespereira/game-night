@@ -61,7 +61,7 @@ const GameDetail = async ({ game }: Props) => {
         </div>
         <Card className="flex flex-1 flex-col items-center justify-center gap-x-4 bg-inherit relative border-sky-400 border-2">
           <div className="w-full h-full z-[-2] absolute">
-            <div className="w-full h-full z-[1] bg-gradient-to-r from-slate-900 via-slate-900/25 to-slate-900 absolute"></div>
+            <div className="w-full h-full z-[1] bg-gradient-to-r from-slate-900 via-slate-900/40 to-slate-900 absolute"></div>
             <Image
               src={getGameImage(game.id)}
               alt={`aos background image`}
@@ -93,7 +93,7 @@ const GameDetail = async ({ game }: Props) => {
               result={result}
             />
             <div className="flex flex-col h-full">
-              {result?.battleReport?.rounds ? (
+              {result?.battleReport?.rounds?.[0]?.turns?.[0]?.victoryPoints ? (
                 <Score gameResult={result} />
               ) : null}
               <div className="flex flex-col h-full justify-around items-center">
