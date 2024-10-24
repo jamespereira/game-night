@@ -38,7 +38,9 @@ const AddUnits = ({ faction, userId, gameId, locked }: Props) => {
 
   const factionUnits = factionList?.entryLinks?.entryLink?.filter(
     (unit) =>
-      !unit?._name.toLowerCase().includes("battle traits") && !unit.constraints
+      // !unit?._name.toLowerCase().includes("battle traits") && !unit.constraints
+      !unit?._name.toLowerCase().includes("battle traits")
+
     // !unit.modifiers
   );
 
