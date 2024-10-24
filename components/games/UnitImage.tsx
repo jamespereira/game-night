@@ -20,7 +20,7 @@ const UnitImage = ({ unitName, unitImage }: Props) => {
   return (
     <>
       {!!unitImage ? (
-        <div className="flex justify-center items-center rounded-xl text-slate-200 min-w-16 min-h-16 max-h-16 max-w-16 relative overflow-hidden">
+        <div className="flex justify-center items-center rounded-xl text-slate-200 md:min-w-16 md:min-h-16 md:max-h-16 md:max-w-16 min-w-12 min-h-12 max-h-12 max-w-12 relative overflow-hidden">
           <Image src={unitImage} alt={`${unitName} image`} sizes="100" fill />
         </div>
       ) : (

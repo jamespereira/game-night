@@ -77,7 +77,7 @@ async function TeamDetail({ params }: Props) {
   }
 
   return (
-    <div className="container flex flex-col max-w-screen-xl mx-auto px-4 sm:px-6 md:px-8 h-full  text-stone-200 pb-8 ">
+    <div className="container flex flex-col max-w-screen-xl mx-auto p-4 sm:p-6 md:p-8 h-full  text-stone-200 pb-8 ">
       {checkUserTeam() ? (
         <>
           <div className="flex flex-row justify-between mx-4 py-4 ">
@@ -88,7 +88,7 @@ async function TeamDetail({ params }: Props) {
               {renderTeamPoints()}
             </h3>
           </div>
-          <div className="flex flex-col mx-4 gap-8">
+          <div className="flex flex-col gap-8">
             {teamDetails.users.map((user: User) => (
               <Suspense
                 key={user.id}

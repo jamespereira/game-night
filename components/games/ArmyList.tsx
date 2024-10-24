@@ -8,7 +8,7 @@ type Props = {
 };
 const ArmyList = ({ units, locked }: Props) => {
   return (
-    <div className="flex flex-row gap-8 p-8 flex-wrap">
+    <div className="flex flex-row gap-8 p-4 sm:p-6 md:p-8 flex-wrap">
       <UnitList units={units} type="Hero" locked={locked} />
       <UnitList units={units} type="Other" locked={locked} />
     </div>
