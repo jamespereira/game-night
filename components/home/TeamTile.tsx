@@ -21,19 +21,11 @@ const TeamTile = async ({ teamDetails, gameId, gameDate, result }: Props) => {
   const user = await currentUser();
   return (
     <div className="flex flex-col gap-4">
-      {result?.winner === teamDetails.teamId ? (
-        <div className="flex flex-col items-center justify-center">
-          <FaTrophy className="w-12 h-12 text-amber-400" />
-        </div>
-      ) : null}
-      {result?.loser === teamDetails.teamId ? (
-        <div className="flex flex-col items-center justify-center h-[72px]" />
-      ) : null}
       {teamDetails.users?.map((user) => (
         <div
           key={user.id}
           className={cn(
-            "p-4 bg-slate-900 shadow-sm drop-shadow-md flex items-center justify-center flex-col gap-y-2 rounded-md border-2",
+            "md:p-4 p-2 bg-slate-900 shadow-sm drop-shadow-md flex items-center justify-center flex-col gap-y-2 rounded-md border-2",
             teamDetails.teamNumber === 2
               ? "border-rose-400/25"
               : "border-cyan-400/25"

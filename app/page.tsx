@@ -25,35 +25,6 @@ const Home = async () => {
 
   return (
     <div className="container flex flex-col items-center max-w-8xl mx-auto px-4 sm:px-6 md:px-8">
-      {/* {!!allGames?.length ? (
-        <Carousel
-          className="mt-40"
-          orientation="vertical"
-          opts={{ axis: "y", slidesToScroll: "auto" }}
-        >
-          <CarouselContent className="h-[700px]">
-            {sortedGames
-              ?.map((game) => (
-                <CarouselItem key={game.id}>
-                  <GameDetail game={game} />
-                </CarouselItem>
-              ))
-              .reverse()}
-          </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext>
-            <p>Next</p>
-          </CarouselNext>
-        </Carousel>
-      ) : (
-        // sortedGames
-        //   ?.map((game) => <GameDetail key={game.id} game={game} />)
-        //   .reverse()
-        <p className="mt-40 text-slate-200 text-2xl font-semibold">
-          There are no created games.
-        </p>
-      )} */}
-
       {!!allGames?.length ? (
         sortedGames
           ?.map((game) => <GameDetail key={game.id} game={game} />)

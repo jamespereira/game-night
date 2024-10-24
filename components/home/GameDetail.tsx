@@ -74,33 +74,33 @@ const GameDetail = async ({ game }: Props) => {
               className="object-cover rounded-xl"
             />
           </div>
-          <CardHeader className="self-end text-white flex-row items-center space-y-0">
-            {!isBeforeGame(game.date) ? (
+          <CardHeader className="flex flex-col text-white items-center space-y-0 w-full p-3 pb-0 md:p-6 md:pb-0">
+            <div className="flex flex-row self-end">
+              {!isBeforeGame(game.date) ? (
+                <RoleGate allowedRole="ADMIN">
+                  <Result teams={teams} gameResult={result} gameId={game.id} />
+                </RoleGate>
+              ) : null}
               <RoleGate allowedRole="ADMIN">
-                <Result teams={teams} gameResult={result} gameId={game.id} />
+                <Edit game={game} users={usersData} />
+                <Remove gameId={game.id} />
               </RoleGate>
+            </div>
+            {result?.battleReport?.rounds?.[0]?.turns?.[0]?.victoryPoints ? (
+              <Score gameResult={result} />
             ) : null}
-            <RoleGate allowedRole="ADMIN">
-              <Edit game={game} users={usersData} />
-              <Remove gameId={game.id} />
-            </RoleGate>
           </CardHeader>
-          <CardContent className="flex flex-row w-full justify-between items-center">
+          <CardContent className="flex flex-row w-full justify-between items-center md:p-6 p-3">
             <TeamTile
               gameId={game.id}
               gameDate={game.date}
               teamDetails={await getTeamDetails(1)}
               result={result}
             />
-            <div className="flex flex-col h-full">
-              {result?.battleReport?.rounds?.[0]?.turns?.[0]?.victoryPoints ? (
-                <Score gameResult={result} />
-              ) : null}
-              <div className="flex flex-col h-full justify-around items-center">
-                <p className="text-3xl text-amber-400 [text-shadow:_0_0_5px_rgb(0_0_0_/_80%)]">
-                  vs
-                </p>
-              </div>
+            <div className="flex flex-col h-full justify-around items-center">
+              <p className="md:text-3xl text-xl text-amber-400 [text-shadow:_0_0_5px_rgb(0_0_0_/_80%)]">
+                vs
+              </p>
             </div>
             <TeamTile
               gameId={game.id}
