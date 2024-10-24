@@ -105,7 +105,7 @@ const ArmyDetail = ({ gameId, user, army, factionList, gameDate }: Props) => {
           </div>
           {renderFactionSelect()}
         </div>
-        <div className="flex flex-row gap-8 items-center">
+        <div className="flex flex-row gap-8 items-center w-full justify-between">
           {!locked ? (
             <AddUnits
               faction={faction}
