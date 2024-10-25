@@ -18,6 +18,7 @@ import UnitCard from "./UnitCard";
 import { getUnitPoints } from "@/utils/points";
 import unitImage from "@/actions/unit-image";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
+import { PulseLoader } from "react-spinners";
 
 type Props = {
   faction: Faction;
@@ -29,6 +30,8 @@ type Props = {
 const AddUnits = ({ faction, userId, gameId, locked }: Props) => {
   const [addedUnits, setAddedUnits] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
+
+  const [isLoading, setIsLoading] = useState(false);
 
   const { factionName, factionList } = faction;
 
@@ -60,7 +63,9 @@ const AddUnits = ({ faction, userId, gameId, locked }: Props) => {
       );
 
   async function handleAdd(unit) {
+    setIsLoading(true);
     setAddedUnits([...addedUnits, await formatUnitObject(unit)]);
+    setIsLoading(false);
     setSearchTerm("");
   }
 
@@ -101,6 +106,7 @@ const AddUnits = ({ faction, userId, gameId, locked }: Props) => {
   function onAddUnits(units) {
     startTransition(() => {
       addUnits(units, userId, gameId, factionName);
+      setIsLoading(false);
     });
   }
 
@@ -148,6 +154,7 @@ const AddUnits = ({ faction, userId, gameId, locked }: Props) => {
                 <Button
                   onClick={() => handleAdd(result)}
                   className="p-0 bg-transparent border- w-8 h-8"
+                  disabled={isLoading}
                 >
                   <FaPlusSquare className="w-full h-full text-sky-400/75" />
                 </Button>
@@ -157,6 +164,7 @@ const AddUnits = ({ faction, userId, gameId, locked }: Props) => {
         </div>
         <div className="flex flex-col gap-y-4 overflow-y-auto">
           <p className="text-sky-400 font-semibold">Added units:</p>
+          <p>{isLoading ? <PulseLoader color="rgb(100,116,139)" /> : null}</p>
           <ul>
             {addedUnits?.map((unit) => (
               <li key={unit.id} className="my-4">
@@ -183,6 +191,7 @@ const AddUnits = ({ faction, userId, gameId, locked }: Props) => {
             <Button
               onClick={() => handleAddUnits(addedUnits)}
               className="bg-amber-600/75"
+              disabled={isLoading}
             >
               Add Units
             </Button>
