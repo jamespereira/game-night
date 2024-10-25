@@ -37,17 +37,26 @@ const AddUnits = ({ faction, userId, gameId, locked }: Props) => {
   };
 
   const factionUnits = factionList?.entryLinks?.entryLink?.filter(
-    (unit) =>
-      // !unit?._name.toLowerCase().includes("battle traits") && !unit.constraints
-      !unit?._name.toLowerCase().includes("battle traits")
-
-    // !unit.modifiers
+    (unit) => !unit?._name?.toLowerCase().includes("battle traits")
   );
 
+  const noDupefactionUnits = removeDuplicateObjects(factionUnits, "_name");
+
+  function removeDuplicateObjects(objects, key) {
+    const uniqueObjects = {};
+    objects.forEach((obj) => {
+      const keyValue = obj[key];
+      if (!uniqueObjects[keyValue]) {
+        uniqueObjects[keyValue] = obj;
+      }
+    });
+    return Object.values(uniqueObjects);
+  }
+
   const searchResults = !searchTerm
-    ? factionUnits
-    : factionUnits?.filter((unit) =>
-        unit?._name.toLowerCase().includes(searchTerm.toLowerCase())
+    ? noDupefactionUnits
+    : noDupefactionUnits?.filter((unit: any) =>
+        unit?._name?.toLowerCase().includes(searchTerm.toLowerCase())
       );
 
   async function handleAdd(unit) {
@@ -67,9 +76,11 @@ const AddUnits = ({ faction, userId, gameId, locked }: Props) => {
   function getUnitType(unit) {
     if ("categoryLinks" in unit) {
       const isHero = unit?.categoryLinks?.categoryLink?._name
-        .toLowerCase()
-        .includes("regimental leader");
-      if (!!isHero) return "Hero";
+        ?.toLowerCase()
+        ?.includes("regimental leader");
+      if (!!isHero) {
+        return "Hero";
+      } else return "Other";
     } else return "Other";
   }
 
