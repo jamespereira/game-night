@@ -5,6 +5,7 @@ import React from "react";
 import UserButton from "./auth/UserButton";
 import { usePathname } from "next/navigation";
 import useCurrentUser from "@/hooks/use-current-user";
+import { cn } from "@/lib/utils";
 
 const Navbar = () => {
   const pathname = usePathname();
@@ -14,14 +15,20 @@ const Navbar = () => {
     <nav className="h-[60px] sticky top-0 w-full backdrop-blur-sm flex justify-between p-4 items-center border-b border-b-stone-400/50 z-10 text-sm">
       <Link
         href="/"
-        className={pathname === "/" ? "text-stone-100" : "text-stone-400"}
+        className={cn(
+          "hover:text-stone-100",
+          pathname === "/" ? "text-stone-100" : "text-stone-400"
+        )}
       >
         ⚔️ Game Night
       </Link>
 
       <Link
         href="/stats"
-        className={pathname === "/stats" ? "text-stone-100" : "text-stone-400"}
+        className={cn(
+          "hover:text-stone-100",
+          pathname === "/stats" ? "text-stone-100" : "text-stone-400"
+        )}
       >
         Stats
       </Link>
@@ -30,9 +37,10 @@ const Navbar = () => {
       ) : (
         <Link
           href="/auth/login"
-          className={
+          className={cn(
+            "hover:text-stone-100",
             pathname === "/auth/login" ? "text-stone-100" : "text-stone-400"
-          }
+          )}
         >
           Login
         </Link>
