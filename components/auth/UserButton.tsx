@@ -29,6 +29,7 @@ const UserButton = ({ pathname }: Props) => {
           <AvatarFallback
             className={cn(
               "bg-color-none",
+              "hover:text-stone-100",
               pathname === "/settings" || pathname === "/admin"
                 ? "text-stone-100"
                 : "text-stone-400"
