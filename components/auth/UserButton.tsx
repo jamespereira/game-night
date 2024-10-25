@@ -12,15 +12,28 @@ import { FaUserCircle } from "react-icons/fa";
 import LogoutButton from "./LogoutButton";
 import { ExitIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
+import { cn } from "@/lib/utils";
 
-const UserButton = () => {
+type Props = {
+  pathName: string;
+};
+
+const UserButton = ({ pathName }: Props) => {
   const user = useCurrentUser();
   return (
     <DropdownMenu>
       <DropdownMenuTrigger>
         <Avatar className="w-6 h-6">
           <AvatarImage src={user?.image || ""} />
-          <AvatarFallback className="text-stone-400 bg-color-none">
+          {/* <AvatarFallback className="text-stone-400 bg-color-none"> */}
+          <AvatarFallback
+            className={cn(
+              "bg-color-none",
+              pathName === "/settings" || pathName === "/admin"
+                ? "text-stone-100"
+                : "text-stone-400"
+            )}
+          >
             <FaUserCircle className="w-full h-full" />
           </AvatarFallback>
         </Avatar>

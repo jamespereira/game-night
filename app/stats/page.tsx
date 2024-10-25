@@ -1,43 +1,10 @@
 import { getAllResults } from "@/data/result";
-import { UserStats, columns } from "./columns";
+import { columns } from "./columns";
 import { DataTable } from "./data-table";
-import result from "@/actions/result";
 import { getAllUsers } from "@/data/user";
-import { getAllGames } from "@/data/game";
 import { getAllTeams } from "@/data/team";
-import { Card, CardContent, CardHeader } from "@/components/ui/card";
-
-function countOccurrences(array, string) {
-  let count = 0;
-
-  for (let i = 0; i < array.length; i++) {
-    if (array[i] === string) {
-      count++;
-    }
-  }
-
-  return count;
-}
-
-function calculateWPercent(wins, total) {
-  if (total === 0) {
-    return "-";
-  }
-  if (wins === 0) {
-    return "0%";
-  }
-  const number = wins / total;
-  return number.toLocaleString("en-US", {
-    style: "percent",
-    minimumFractionDigits: 0,
-    maximumFractionDigits: 1,
-  });
-}
 
 async function getData(): Promise<any[]> {
-  // Fetch data from your API here.
-  // const gamesDetails = await getAllGames();
-
   const allUsers = await getAllUsers();
   const users = allUsers?.filter((a) => a.role !== "ADMIN");
 
@@ -55,6 +22,33 @@ async function getData(): Promise<any[]> {
     losingTeams?.some((w) => a.id.includes(w))
   );
   const losingUsers = losingTeamDetails?.map((w) => w.users).flat(1);
+
+  function countOccurrences(array, string) {
+    let count = 0;
+
+    for (let i = 0; i < array.length; i++) {
+      if (array[i] === string) {
+        count++;
+      }
+    }
+
+    return count;
+  }
+
+  function calculateWPercent(wins, total) {
+    if (total === 0) {
+      return "-";
+    }
+    if (wins === 0) {
+      return "0%";
+    }
+    const number = wins / total;
+    return number.toLocaleString("en-US", {
+      style: "percent",
+      minimumFractionDigits: 0,
+      maximumFractionDigits: 1,
+    });
+  }
 
   const playerStats = users.map((u) => ({
     id: u.id,

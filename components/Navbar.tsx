@@ -1,23 +1,40 @@
+"use client";
+
 import Link from "next/link";
 import React from "react";
 import UserButton from "./auth/UserButton";
-import { currentUser } from "@/lib/auth";
+import { usePathname } from "next/navigation";
+import useCurrentUser from "@/hooks/use-current-user";
 
-const Navbar = async () => {
-  const user = await currentUser();
+const Navbar = () => {
+  const pathName = usePathname();
+
+  console.log("pathName", pathName);
+  const user = useCurrentUser();
   return (
-    <nav className="h-[60px] sticky top-0 w-full backdrop-blur-sm flex justify-between p-4 items-center border-b border-b-stone-400/50 z-10">
-      <Link href="/" className="text-stone-400 text-sm">
+    <nav className="h-[60px] sticky top-0 w-full backdrop-blur-sm flex justify-between p-4 items-center border-b border-b-stone-400/50 z-10 text-sm">
+      <Link
+        href="/"
+        className={pathName === "/" ? "text-stone-100" : "text-stone-400"}
+      >
         ⚔️ Game Night
       </Link>
 
-      <Link href="/stats" className="text-stone-400 text-sm">
+      <Link
+        href="/stats"
+        className={pathName === "/stats" ? "text-stone-100" : "text-stone-400"}
+      >
         Stats
       </Link>
       {user ? (
-        <UserButton />
+        <UserButton pathName={pathName} />
       ) : (
-        <Link href="/auth/login" className="text-stone-400">
+        <Link
+          href="/auth/login"
+          className={
+            pathName === "/auth/login" ? "text-stone-100" : "text-stone-400"
+          }
+        >
           Login
         </Link>
       )}
