@@ -32,19 +32,21 @@ const Navbar = () => {
       >
         Stats
       </Link>
-      {user ? (
-        <UserButton pathname={pathname} />
-      ) : (
-        <Link
-          href="/auth/login"
-          className={cn(
-            "hover:text-stone-100",
-            pathname === "/auth/login" ? "text-stone-100" : "text-stone-400"
-          )}
-        >
-          Login
-        </Link>
-      )}
+      <div className="pl-[4.4rem]">
+        {user ? (
+          <UserButton pathname={pathname} />
+        ) : (
+          <Link
+            href="/auth/login"
+            className={cn(
+              "hover:text-stone-100",
+              pathname === "/auth/login" ? "text-stone-100" : "text-stone-400"
+            )}
+          >
+            Login
+          </Link>
+        )}
+      </div>
     </nav>
   );
 };
