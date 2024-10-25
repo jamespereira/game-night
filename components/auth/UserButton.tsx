@@ -15,10 +15,10 @@ import Link from "next/link";
 import { cn } from "@/lib/utils";
 
 type Props = {
-  pathName: string;
+  pathname: string;
 };
 
-const UserButton = ({ pathName }: Props) => {
+const UserButton = ({ pathname }: Props) => {
   const user = useCurrentUser();
   return (
     <DropdownMenu>
@@ -29,7 +29,7 @@ const UserButton = ({ pathName }: Props) => {
           <AvatarFallback
             className={cn(
               "bg-color-none",
-              pathName === "/settings" || pathName === "/admin"
+              pathname === "/settings" || pathname === "/admin"
                 ? "text-stone-100"
                 : "text-stone-400"
             )}
