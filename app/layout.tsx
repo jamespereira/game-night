@@ -13,14 +13,15 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "⚔️ Game Night",
-  description: "Manage your upcoming game night",
-  appleWebApp: {
-    statusBarStyle: "black-translucent",
-  },
+  description: "Manage and track your Age of Sigmar game night",
 };
 
 export const viewport: Viewport = {
-  themeColor: "#163749",
+  themeColor: "black",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
 };
 
 export default async function RootLayout({
