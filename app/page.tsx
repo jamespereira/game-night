@@ -1,12 +1,5 @@
 import GameDetail from "@/components/home/GameDetail";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
-import { getAllGames, getAllGamesWithTeams } from "@/data/game";
+import { getAllGamesWithTeams } from "@/data/game";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
 
