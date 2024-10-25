@@ -133,7 +133,7 @@ const AddUnits = ({ faction, userId, gameId, locked }: Props) => {
         </DialogHeader>
         <div className="h-[400px] overflow-y-auto">
           <ul className="px-4">
-            {searchResults?.map((result) => (
+            {searchResults?.map((result: any) => (
               <li
                 key={result._id}
                 className="flex flex-row justify-between items-center gap-x-4 my-4 pb-4 border-slate-400/50 border-b first:border-t-2 first:pt-4 text-stone-300"
