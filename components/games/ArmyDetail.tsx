@@ -21,6 +21,7 @@ import { Army, User } from "@prisma/client";
 import { ArmyDetails } from "@/interfaces";
 import { Button } from "../ui/button";
 import { isBeforeGame } from "@/utils/game-time";
+import { useCurrentRole } from "@/hooks/use-current-role";
 
 type Props = {
   gameId: number;
@@ -38,6 +39,10 @@ const ArmyDetail = ({ gameId, user, army, factionList, gameDate }: Props) => {
     factionList: factionList || null,
   });
 
+  const role = useCurrentRole();
+
+  console.log("role", role);
+
   async function onFactionChange(selectedFaction) {
     const faction = await getFactionByName(selectedFaction);
     setFaction({
@@ -51,7 +56,7 @@ const ArmyDetail = ({ gameId, user, army, factionList, gameDate }: Props) => {
     setFaction({ factionName: "", factionList: null });
   }
 
-  const locked = !isBeforeGame(gameDate);
+  const locked = !isBeforeGame(gameDate) && role !== "ADMIN";
 
   function renderFactionSelect() {
     return (

@@ -47,13 +47,13 @@ const AddUnits = ({ faction, userId, gameId, locked }: Props) => {
 
   function removeDuplicateObjects(objects, key) {
     const uniqueObjects = {};
-    objects.forEach((obj) => {
+    objects?.forEach((obj) => {
       const keyValue = obj[key];
       if (!uniqueObjects[keyValue]) {
         uniqueObjects[keyValue] = obj;
       }
     });
-    return Object.values(uniqueObjects);
+    return Object?.values(uniqueObjects);
   }
 
   const searchResults = !searchTerm
@@ -137,7 +137,7 @@ const AddUnits = ({ faction, userId, gameId, locked }: Props) => {
             onChange={(e) => handleSearch(e)}
           />
         </DialogHeader>
-        <div className="h-[400px] overflow-y-auto">
+        <div className="md:h-[400px] overflow-y-auto">
           <ul className="px-4">
             {searchResults?.map((result: any) => (
               <li
@@ -162,7 +162,7 @@ const AddUnits = ({ faction, userId, gameId, locked }: Props) => {
             ))}
           </ul>
         </div>
-        <div className="flex flex-col gap-y-4 overflow-y-auto">
+        <div className="flex flex-col gap-y-0 overflow-y-auto pt-2 border-t border-slate-400/50">
           <p className="text-sky-400 font-semibold">Added units:</p>
           <p>{isLoading ? <PulseLoader color="rgb(100,116,139)" /> : null}</p>
           <ul>
