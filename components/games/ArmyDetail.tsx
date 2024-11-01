@@ -41,8 +41,6 @@ const ArmyDetail = ({ gameId, user, army, factionList, gameDate }: Props) => {
 
   const role = useCurrentRole();
 
-  console.log("role", role);
-
   async function onFactionChange(selectedFaction) {
     const faction = await getFactionByName(selectedFaction);
     setFaction({

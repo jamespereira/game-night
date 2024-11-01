@@ -41,7 +41,7 @@ const TeamTile = async ({ teamDetails, gameId, gameDate, result }: Props) => {
             className={cn(
               teamDetails.teamNumber === 2 ? "text-rose-400" : "text-cyan-400",
               "font-medium",
-              "max-w-[4.8rem]",
+              "max-w-[4.4rem]",
               "overflow-hidden",
               "h-6",
               "text-ellipsis"

@@ -39,9 +39,9 @@ const AddUnits = ({ faction, userId, gameId, locked }: Props) => {
     setSearchTerm(event.target.value);
   };
 
-  const factionUnits = factionList?.entryLinks?.entryLink?.filter(
-    (unit) => !unit?._name?.toLowerCase().includes("battle traits")
-  );
+  const factionUnits = factionList?.entryLinks?.entryLink
+    ?.filter((unit) => !unit?._name?.toLowerCase().includes("battle traits"))
+    .reverse();
 
   const noDupefactionUnits = removeDuplicateObjects(factionUnits, "_name");
 
