@@ -50,6 +50,22 @@
                 "_id": "a393-8396-fe3-d6c1",
                 "_type": "selectionEntryGroup",
                 "_targetId": "47af-29b8-ee80-60b3"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "4a25-0249-4b56-cea0",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "b76c-3d75-7a1b-1003",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
               }
             ]
           },
@@ -57,7 +73,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "140"
             }
           },
           "_import": "true",
@@ -116,6 +132,22 @@
                 "_id": "6356-5e82-d3b7-4341",
                 "_type": "selectionEntryGroup",
                 "_targetId": "47af-29b8-ee80-60b3"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "7c64-38be-f715-8ad4",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "b88b-58f9-50e6-6d22",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
               }
             ]
           },
@@ -123,7 +155,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "380"
+              "_value": "340"
             }
           },
           "_import": "true",
@@ -182,6 +214,22 @@
                 "_id": "1362-f750-65d5-9777",
                 "_type": "selectionEntryGroup",
                 "_targetId": "47af-29b8-ee80-60b3"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "8bc7-782b-d8fd-e0a3",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "11d0-d7ca-e4c7-d582",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
               }
             ]
           },
@@ -248,6 +296,22 @@
                 "_id": "962-2ff3-8dc4-5140",
                 "_type": "selectionEntryGroup",
                 "_targetId": "47af-29b8-ee80-60b3"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "a938-39d6-5bf5-3a05",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "52e8-4b3a-e4fe-e8ae",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
               }
             ]
           },
@@ -255,7 +319,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "380"
+              "_value": "340"
             }
           },
           "_import": "true",
@@ -386,6 +450,22 @@
                 "_id": "43fe-6c24-23a5-a58e",
                 "_type": "selectionEntryGroup",
                 "_targetId": "47af-29b8-ee80-60b3"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "6cf4-1f2e-898c-334d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "9249-077f-db0f-cafa",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
               }
             ]
           },
@@ -393,7 +473,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "120"
             }
           },
           "modifierGroups": {
@@ -562,6 +642,22 @@
                 "_id": "7749-fba-938d-33c2",
                 "_type": "selectionEntryGroup",
                 "_targetId": "47af-29b8-ee80-60b3"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "9041-2d78-0e1e-e107",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "ec21-f533-5cab-9c0f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
               }
             ]
           },
@@ -569,7 +665,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "180"
+              "_value": "160"
             }
           },
           "modifierGroups": {
@@ -738,6 +834,22 @@
                 "_id": "1bcb-f6d6-301f-ad0a",
                 "_type": "selectionEntryGroup",
                 "_targetId": "47af-29b8-ee80-60b3"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "50f5-6f42-f275-ae7a",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "976a-bb5c-3a48-c16f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
               }
             ]
           },
@@ -745,7 +857,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "140"
             }
           },
           "modifierGroups": {
@@ -914,6 +1026,22 @@
                 "_id": "6f4b-3b98-2964-8211",
                 "_type": "selectionEntryGroup",
                 "_targetId": "47af-29b8-ee80-60b3"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "70f2-d43a-8eb7-7c78",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "0bfc-9d3f-6668-c969",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
               }
             ]
           },
@@ -974,6 +1102,78 @@
             "modifier": {
               "conditionGroups": {
                 "conditionGroup": {
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "451a-5dc8-e4f8-f23d",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "7d57-86d5-bfa-c539",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "4cd-a82-97ba-ff0b",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "e41b-e434-8156-666e",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "e19f-a548-4662-d116",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "fa1b-28f9-fc38-f239",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "4af6-6698-6c21-2bcd",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "4555-2307-1f89-272f",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
+                    }
+                  },
                   "conditions": {
                     "condition": {
                       "_type": "instanceOf",
@@ -1007,6 +1207,54 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "110"
+            }
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "384d-44d2-465-b82c",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "384d-44d2-465-b82c",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "2fad-9102-1a3f-63a5"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "c479-ce2d-6fd1-2b3b",
+              "_type": "selectionEntryGroup",
+              "_targetId": "85f3-e7e9-83cc-73b9"
             }
           },
           "_import": "true",
@@ -1065,6 +1313,22 @@
                 "_id": "e18c-bf9f-1982-130e",
                 "_type": "selectionEntryGroup",
                 "_targetId": "47af-29b8-ee80-60b3"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "690c-231b-1925-5699",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "292e-a153-5d1b-db6f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
               }
             ]
           },
@@ -1232,6 +1496,41 @@
               "_type": "and"
             }
           },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "2455-d0c2-a82d-dfcd",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "1096-7f06-d654-05f0",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
+              },
+              {
+                "_import": "true",
+                "_name": "Artefacts of Power",
+                "_hidden": "false",
+                "_id": "34dc-d196-41fd-9162",
+                "_type": "selectionEntryGroup",
+                "_targetId": "47af-29b8-ee80-60b3"
+              },
+              {
+                "_import": "true",
+                "_name": "Heroic Traits",
+                "_hidden": "false",
+                "_id": "1e2d-0f4f-1398-0aaf",
+                "_type": "selectionEntryGroup",
+                "_targetId": "a7dc-7121-fd03-63fe"
+              }
+            ]
+          },
           "_import": "true",
           "_name": "Royal Decapitator",
           "_hidden": "false",
@@ -1301,7 +1600,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "880"
+              "_value": "840"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "ce24-2b71-bd32-808f",
+              "_type": "selectionEntryGroup",
+              "_targetId": "85f3-e7e9-83cc-73b9"
             }
           },
           "_import": "true",
@@ -1348,7 +1657,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "470"
+              "_value": "440"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "e896-09ee-739e-be8d",
+              "_type": "selectionEntryGroup",
+              "_targetId": "85f3-e7e9-83cc-73b9"
             }
           },
           "_import": "true",
@@ -1384,6 +1703,22 @@
                 "_id": "deac-87d6-1015-e517",
                 "_type": "selectionEntryGroup",
                 "_targetId": "47af-29b8-ee80-60b3"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "3bc6-dd36-3d22-eece",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "d066-fb3f-88a6-e20d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
               }
             ]
           },
@@ -1427,6 +1762,22 @@
                 "_id": "f23d-a3df-6998-6bdd",
                 "_type": "selectionEntryGroup",
                 "_targetId": "47af-29b8-ee80-60b3"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "6e70-e2da-291f-86cb",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "7339-0d27-01ff-7ccb",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
               }
             ]
           },
@@ -1434,7 +1785,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "380"
+              "_value": "340"
             }
           },
           "_import": "true",
@@ -1470,6 +1821,22 @@
                 "_id": "fd78-26df-e9d8-4658",
                 "_type": "selectionEntryGroup",
                 "_targetId": "47af-29b8-ee80-60b3"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "3c9c-9dab-5e02-1f23",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "726e-21ef-78c6-39e9",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
               }
             ]
           },
@@ -1477,7 +1844,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "380"
+              "_value": "340"
             }
           },
           "_import": "true",
@@ -1513,6 +1880,22 @@
                 "_id": "5fa2-fd89-89c3-3de0",
                 "_type": "selectionEntryGroup",
                 "_targetId": "47af-29b8-ee80-60b3"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "5d82-d1c7-2123-04e0",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "3be7-04e8-7f21-a76f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
               }
             ]
           },
@@ -1520,7 +1903,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "140"
             }
           },
           "_import": "true",
@@ -1556,6 +1939,22 @@
                 "_id": "4a7b-c2e8-cc7f-f495",
                 "_type": "selectionEntryGroup",
                 "_targetId": "47af-29b8-ee80-60b3"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "34b2-aa67-499b-8139",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "9075-88e5-b862-ef4c",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
               }
             ]
           },
@@ -1599,6 +1998,22 @@
                 "_id": "4327-2f1b-a0ad-66cc",
                 "_type": "selectionEntryGroup",
                 "_targetId": "47af-29b8-ee80-60b3"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "6210-ca88-f707-80e4",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "6156-2679-64d7-3bba",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
               }
             ]
           },
@@ -1606,7 +2021,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -1642,6 +2057,22 @@
                 "_id": "55a0-837d-b13d-1d8c",
                 "_type": "selectionEntryGroup",
                 "_targetId": "47af-29b8-ee80-60b3"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "0d07-eb97-d038-b473",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "b81e-1857-8ba7-c616",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
               }
             ]
           },
@@ -1649,7 +2080,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "140"
             }
           },
           "_import": "true",
@@ -1674,6 +2105,16 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "110"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "4b33-2653-58eb-0f55",
+              "_type": "selectionEntryGroup",
+              "_targetId": "85f3-e7e9-83cc-73b9"
             }
           },
           "_import": "true",
@@ -1709,6 +2150,22 @@
                 "_id": "bb25-36bd-fc34-8560",
                 "_type": "selectionEntryGroup",
                 "_targetId": "47af-29b8-ee80-60b3"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "a5a3-e039-abd3-a555",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "e5f7-cbc5-2863-3321",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
               }
             ]
           },
@@ -1740,7 +2197,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "880"
+              "_value": "840"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "f2e0-7420-c9d1-393f",
+              "_type": "selectionEntryGroup",
+              "_targetId": "85f3-e7e9-83cc-73b9"
             }
           },
           "_import": "true",
@@ -1767,6 +2234,41 @@
               "_value": "100"
             }
           },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "730b-e9d0-55ea-25d7",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "bc90-da0b-f132-16e8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
+              },
+              {
+                "_import": "true",
+                "_name": "Artefacts of Power",
+                "_hidden": "false",
+                "_id": "1ab1-536e-134a-3da7",
+                "_type": "selectionEntryGroup",
+                "_targetId": "47af-29b8-ee80-60b3"
+              },
+              {
+                "_import": "true",
+                "_name": "Heroic Traits",
+                "_hidden": "false",
+                "_id": "5ac6-dddc-c1f0-91c6",
+                "_type": "selectionEntryGroup",
+                "_targetId": "a7dc-7121-fd03-63fe"
+              }
+            ]
+          },
           "_import": "true",
           "_name": "Royal Decapitator",
           "_hidden": "false",
@@ -1788,7 +2290,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "470"
+              "_value": "440"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "6715-2dfd-7bd2-d5ed",
+              "_type": "selectionEntryGroup",
+              "_targetId": "85f3-e7e9-83cc-73b9"
             }
           },
           "_import": "true",
@@ -1824,6 +2336,22 @@
                 "_id": "75b1-10d8-4c32-a9c4",
                 "_type": "selectionEntryGroup",
                 "_targetId": "47af-29b8-ee80-60b3"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "22f4-5bb3-ff09-c4fa",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "dfa9-cdea-99b6-be7e",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
               }
             ]
           },
@@ -1831,7 +2359,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "180"
+              "_value": "160"
             }
           },
           "_import": "true",
@@ -1890,6 +2418,22 @@
                 "_id": "d704-fe30-70a5-a883",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a7dc-7121-fd03-63fe"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "4bf7-dd60-014a-3c5f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "1008-904f-5406-c05a",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
               }
             ]
           },
@@ -1897,7 +2441,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "190"
+              "_value": "180"
             }
           },
           "_import": "true",
@@ -1933,6 +2477,22 @@
                 "_id": "d141-c394-f897-5335",
                 "_type": "selectionEntryGroup",
                 "_targetId": "47af-29b8-ee80-60b3"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "3088-8f48-e32e-2043",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "05b1-7543-f8ab-c2c4",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
               }
             ]
           },
@@ -1940,7 +2500,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "190"
+              "_value": "180"
             }
           },
           "_import": "true",
@@ -2105,20 +2665,37 @@
             ]
           },
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "9402-dc5a-783-b736",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "9402-dc5a-783-b736",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "4302-9e56-9a7a-5b3c",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "192a-8492-e25d-31ec",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
+              }
+            ]
           },
           "costs": {
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "140"
             }
           },
           "_import": "true",
@@ -2307,7 +2884,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "100"
+              "_value": "90"
             }
           },
           "constraints": {
@@ -2319,6 +2896,25 @@
               "_shared": "true",
               "_id": "8555-e4c9-926f-9ef4"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "ce22-82b4-6c95-69c3",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "a656-ed68-6885-fd5a",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Crypt Horrors",
@@ -2506,7 +3102,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "80"
             }
           },
           "constraints": {
@@ -2518,6 +3114,25 @@
               "_shared": "true",
               "_id": "7edb-8529-65f-aff7"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "e1de-c7d0-755d-0be8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "8d6e-7cd3-0a17-38a7",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Crypt Flayers",
@@ -2662,20 +3277,37 @@
             ]
           },
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "4868-afa4-e6db-58e6",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "4868-afa4-e6db-58e6",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "e657-0ccf-f194-6d22",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "b2d7-dd88-accf-52ae",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
+              }
+            ]
           },
           "costs": {
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "150"
             }
           },
           "_import": "true",
@@ -2853,20 +3485,37 @@
             ]
           },
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "e156-772e-39cd-6e01",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "e156-772e-39cd-6e01",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "5e5e-ec34-5096-3fe3",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "35db-48d4-69c3-8769",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
+              }
+            ]
           },
           "costs": {
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "160"
             }
           },
           "_import": "true",
@@ -3044,20 +3693,37 @@
             ]
           },
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "4bce-93b1-5c04-660c",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "4bce-93b1-5c04-660c",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "6242-6aa3-3c79-9819",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "3fb5-c4c5-c4c5-55ce",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
+              }
+            ]
           },
           "costs": {
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "100"
             }
           },
           "_import": "true",
@@ -3195,20 +3861,29 @@
             ]
           },
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "d6bf-f504-6074-4b60",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "d6bf-f504-6074-4b60",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "4aaa-925c-3c0c-95ae",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
+              }
+            ]
           },
           "costs": {
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "160"
             }
           },
           "_import": "true",
@@ -3389,8 +4064,27 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "100"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "9d05-a973-2b1c-8aa2",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "ee15-97c8-e014-1d15",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Royal Beastflayers",
@@ -3506,8 +4200,27 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "260"
+              "_value": "240"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "dcab-ae70-f918-9fe8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "df77-b72b-48d9-43d1",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Royal Terrorgheist",
@@ -3623,8 +4336,27 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "270"
+              "_value": "250"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "3916-1e72-14b6-f01a",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "e462-4c5c-d460-8031",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Royal Zombie Dragon",
@@ -3650,6 +4382,22 @@
                 "_id": "b354-45eb-cde5-963a",
                 "_type": "selectionEntryGroup",
                 "_targetId": "47af-29b8-ee80-60b3"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "7324-edd9-8e5b-8976",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "0892-7406-5804-1aa9",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
               }
             ]
           },
@@ -3657,7 +4405,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "100"
+              "_value": "80"
             }
           },
           "_import": "true",
@@ -3797,6 +4545,22 @@
                 "_id": "47dd-9da8-0023-c5b5",
                 "_type": "selectionEntryGroup",
                 "_targetId": "47af-29b8-ee80-60b3"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "8588-39fb-9fe9-91d5",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6607-5e8b-dd3c-0e38"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "f42e-c495-580e-604b",
+                "_type": "selectionEntryGroup",
+                "_targetId": "85f3-e7e9-83cc-73b9"
               }
             ]
           },
@@ -3804,7 +4568,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "100"
+              "_value": "80"
             }
           },
           "modifierGroups": {
@@ -4023,7 +4787,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "80"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "c850-a911-f0e0-3669",
+              "_type": "selectionEntryGroup",
+              "_targetId": "85f3-e7e9-83cc-73b9"
             }
           },
           "_import": "true",
@@ -4207,22 +4981,55 @@
               "_value": "80"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "ff75-217d-608a-d595",
+              "_type": "selectionEntryGroup",
+              "_targetId": "85f3-e7e9-83cc-73b9"
+            }
+          },
           "_import": "true",
           "_name": "The Skinnerkin",
           "_hidden": "false",
           "_id": "1cab-64b2-1324-a559",
           "_type": "selectionEntry",
           "_targetId": "c933-7c55-522d-510b"
+        },
+        {
+          "_import": "true",
+          "_name": "Charnel Throne",
+          "_hidden": "false",
+          "_id": "68bd-62aa-155b-c4a0",
+          "_type": "selectionEntry",
+          "_targetId": "766f-2e05-b46a-4aa"
         }
       ]
     },
     "catalogueLinks": {
-      "catalogueLink": {
-        "_type": "catalogue",
-        "_name": "Flesh-eater Courts - Library",
-        "_id": "1e12-452f-7d09-cc71",
-        "_targetId": "a6b3-b9f5-ea34-9c96"
-      }
+      "catalogueLink": [{
+          "_type": "catalogue",
+          "_name": "Flesh-eater Courts - Library",
+          "_id": "1e12-452f-7d09-cc71",
+          "_targetId": "a6b3-b9f5-ea34-9c96"
+        },
+        {
+          "_type": "catalogue",
+          "_name": "Path to Glory - Ravaged Coast",
+          "_id": "967b-f4fb-522a-6b16",
+          "_targetId": "a434-b1ba-922b-7624",
+          "_importRootEntries": "true"
+        },
+        {
+          "_type": "catalogue",
+          "_name": "Path to Glory - Ravaged Coast",
+          "_id": "d79c-5e87-342f-ddb8",
+          "_importRootEntries": "true",
+          "_targetId": "a434-b1ba-922b-7624"
+        }
+      ]
     },
     "categoryEntries": {
       "categoryEntry": {
@@ -4247,7 +5054,7 @@
                             {
                               "_name": "Effect",
                               "_typeId": "fd7f-888d-3257-a12b",
-                              "__text": "If this unit is not a **^^Priest^^**, it has **^^Priest (1)^^**. If this unit is already a **^^Priest^^**, add 1 to chanting rolls for this unit. If this unit is a Wizard, it cannot use **^^Spell^^** abilities and **^^Prayer^^** abilities in the same phase."
+                              "__text": "If this unit is not a **^^Priest^^**, it has **^^Priest (1)^^**. If this unit is already a **^^Priest^^**, add 1 to chanting rolls for this unit. If this unit is a Wizard, it cannot use **^^Spell^^** abilities and **^^Prayer^^** abilities in the same phase."
                             }
                           ]
                         },
@@ -4286,7 +5093,7 @@
                             {
                               "_name": "Effect",
                               "_typeId": "fd7f-888d-3257-a12b",
-                              "__text": "Subtract 2 from the control scores of enemy units while they are within 12\" of this unit."
+                              "__text": "Subtract 2 from the control scores of enemy units while they are within 12\" of this unit."
                             }
                           ]
                         },
@@ -4330,11 +5137,15 @@
                             {
                               "_name": "Effect",
                               "_typeId": "b6f1-ba36-6cd-3b03",
-                              "__text": "If this unit is in combat, add 1 to the Attacks characteristic of its melee weapons for the rest of the turn. This ability also affects **Companion** weapons."
+                              "__text": "If this unit is in combat, add 1 to the Attacks characteristic of its melee weapons for the rest of the turn. This ability also affects **Companion** weapons."
                             },
                             {
                               "_name": "Keywords",
                               "_typeId": "12e8-3214-7d8f-1d0f"
+                            },
+                            {
+                              "_name": "Used By",
+                              "_typeId": "1b32-c9d6-3106-166b"
                             }
                           ]
                         },
@@ -4390,6 +5201,17 @@
               "_includeChildSelections": "true"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Artefacts of Power",
+              "_hidden": "false",
+              "_id": "dcda-3774-df35-8816",
+              "_type": "selectionEntryGroup",
+              "_targetId": "e1b2-cedf-56a5-6bb1",
+              "_flatten": "true"
+            }
+          },
           "_name": "Artefacts of Power",
           "_id": "47af-29b8-ee80-60b3",
           "_hidden": "false"
@@ -4397,114 +5219,6 @@
         {
           "selectionEntries": {
             "selectionEntry": {
-              "profiles": {
-                "profile": [{
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "de6f-d57b-248a-83be",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Casting Value",
-                          "_typeId": "9fc7-b0f6-d018-a608",
-                          "__text": "6"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Flesh-eater Courts Wizard^^** to cast this spell, pick a visible friendly **^^Flesh-eater Courts Infantry^^** or **^^Cavalry^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Until the start of your next turn:\n• Add 2\" to the target’s Move characteristic.\n• Add 1 to wound rolls for the target’s combat attacks."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "353f-565e-c351-1cf2",
-                          "__text": "**^^Spell^^**, **^^Unlimited^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Deranged Transformation",
-                    "_typeId": "7312-8367-c171-f2ef",
-                    "_typeName": "Ability (Spell)",
-                    "_hidden": "false",
-                    "_id": "a80d-5b7e-37bb-e246"
-                  },
-                  {
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "de6f-d57b-248a-83be",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Casting Value",
-                          "_typeId": "9fc7-b0f6-d018-a608",
-                          "__text": "6"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Flesh-eater Courts Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Inflict D3 mortal damage on the target. Then, you can pick a friendly **^^Flesh-eater Courts Infantry^^** unit within 6\" of the target. For each damage point allocated to the target by this ability, you can return 1 slain model to that friendly unit."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "353f-565e-c351-1cf2",
-                          "__text": "**^^Spell^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Charnel Feast",
-                    "_typeId": "7312-8367-c171-f2ef",
-                    "_typeName": "Ability (Spell)",
-                    "_hidden": "false",
-                    "_id": "c331-211f-d9d-887b"
-                  },
-                  {
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "de6f-d57b-248a-83be",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Casting Value",
-                          "_typeId": "9fc7-b0f6-d018-a608",
-                          "__text": "5"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Flesh-eater Courts Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Roll 7 dice and apply the corresponding effect:\n***Ravaged Mind:*** If 2 or more dice have the same value, inflict 1 mortal damage on the target.\n***Gory Visions:*** If 3 or more dice have the same value, in addition to the effect of ‘Ravaged Mind’, subtract 1 from hit rolls for the target’s attacks until the start of your next turn.\n***Drooling Stupor:*** If 4 or more dice have the same value, in addition to the effects of ‘Ravaged Mind’ and ‘Gory Visions’, subtract 1 from wound rolls for the target’s attacks until the start of your next turn."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "353f-565e-c351-1cf2",
-                          "__text": "**^^Spell^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Miasma of Madness",
-                    "_typeId": "7312-8367-c171-f2ef",
-                    "_typeName": "Ability (Spell)",
-                    "_hidden": "false",
-                    "_id": "2f2b-8132-cfae-f92d"
-                  }
-                ]
-              },
               "constraints": {
                 "constraint": {
                   "_type": "max",
@@ -4514,6 +5228,90 @@
                   "_shared": "true",
                   "_id": "e162-b86c-9053-d4e7"
                 }
+              },
+              "entryLinks": {
+                "entryLink": [{
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "5092-1d22-14fc-7008-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "5092-1d22-14fc-7008-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Charnel Feast",
+                    "_hidden": "false",
+                    "_id": "74ba-b5a7-6936-b366",
+                    "_type": "selectionEntry",
+                    "_targetId": "0880-f8e9-de32-7fdc"
+                  },
+                  {
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "b1e0-ce6d-7b88-7a48-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "b1e0-ce6d-7b88-7a48-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Deranged Transformation",
+                    "_hidden": "false",
+                    "_id": "8839-5826-a2b7-f78b",
+                    "_type": "selectionEntry",
+                    "_targetId": "c562-d48f-b3d3-8bcd"
+                  },
+                  {
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "561a-c0a4-1ffb-3916-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "561a-c0a4-1ffb-3916-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Miasma of Madness",
+                    "_hidden": "false",
+                    "_id": "cec8-7259-3285-b4df",
+                    "_type": "selectionEntry",
+                    "_targetId": "1321-3c44-ae3b-5bfd"
+                  }
+                ]
               },
               "_type": "upgrade",
               "_import": "true",
@@ -4558,12 +5356,12 @@
                       "characteristic": [{
                           "_name": "Timing",
                           "_typeId": "652c-3d84-4e7-14f4",
-                          "__text": "Once Per Turn (Army), Your Combat Phase"
+                          "__text": "Once Per Turn (Army), Your Combat Phase"
                         },
                         {
                           "_name": "Declare",
                           "_typeId": "bad3-f9c5-ba46-18cb",
-                          "__text": "Pick a friendly **^^Flesh-eater Courts Monster^^** to be the target."
+                          "__text": "Pick a friendly **^^Flesh-eater Courts Monster^^** to be the target."
                         },
                         {
                           "_name": "Effect",
@@ -4573,6 +5371,10 @@
                         {
                           "_name": "Keywords",
                           "_typeId": "12e8-3214-7d8f-1d0f"
+                        },
+                        {
+                          "_name": "Used By",
+                          "_typeId": "1b32-c9d6-3106-166b"
                         }
                       ]
                     },
@@ -4615,11 +5417,15 @@
                         {
                           "_name": "Effect",
                           "_typeId": "b6f1-ba36-6cd-3b03",
-                          "__text": "Give 1 **noble deeds point** to each friendly **^^Flesh-eater Courts Hero^^** wholly outside friendly territory."
+                          "__text": "Give 1 **noble deeds point** to each friendly **^^Flesh-eater Courts Hero^^** wholly outside friendly territory."
                         },
                         {
                           "_name": "Keywords",
                           "_typeId": "12e8-3214-7d8f-1d0f"
+                        },
+                        {
+                          "_name": "Used By",
+                          "_typeId": "1b32-c9d6-3106-166b"
                         }
                       ]
                     },
@@ -4657,7 +5463,7 @@
                         {
                           "_name": "Effect",
                           "_typeId": "fd7f-888d-3257-a12b",
-                          "__text": "When players are alternating picking units to use a **^^Fight^^** ability, when it is your turn to pick a unit, you can pick 2 **Crypt Ghouls** units instead of 1. Neither unit can have **^^Strike-last^^**. Resolve the second **^^Fight^^** ability immediately after the first."
+                          "__text": "When players are alternating picking units to use a **^^Fight^^** ability, when it is your turn to pick a unit, you can pick 2 **Crypt Ghouls** units instead of 1. Neither unit can have **^^Strike-last^^**. Resolve the second **^^Fight^^** ability immediately after the first."
                         }
                       ]
                     },
@@ -4695,7 +5501,7 @@
                         {
                           "_name": "Effect",
                           "_typeId": "fd7f-888d-3257-a12b",
-                          "__text": "Each time a friendly unit uses an ability that returns any slain models to a friendly **^^Serfs^^** or **^^Knights^^** unit, add 1 to the number of slain models returned to that unit."
+                          "__text": "Each time a friendly unit uses an ability that returns any slain models to a friendly **^^Serfs^^** or **^^Knights^^** unit, add 1 to the number of slain models returned to that unit."
                         }
                       ]
                     },
@@ -4746,7 +5552,7 @@
                             {
                               "_name": "Effect",
                               "_typeId": "fd7f-888d-3257-a12b",
-                              "__text": "Each time a friendly unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."
+                              "__text": "Each time a friendly unit wholly within 12\" of this unit uses the ‘Rally’ command, you can make 3 additional rally rolls of D6."
                             }
                           ]
                         },
@@ -4785,7 +5591,7 @@
                             {
                               "_name": "Effect",
                               "_typeId": "fd7f-888d-3257-a12b",
-                              "__text": "Add 2 to this unit’s Health characteristic. In addition, while this unit has 6 **noble deeds points**, it has **^^Ward (5+)^^**."
+                              "__text": "Add 2 to this unit’s Health characteristic. In addition, while this unit has 6 **noble deeds points**, it has **^^Ward (5+)^^**."
                             }
                           ]
                         },
@@ -4824,7 +5630,7 @@
                             {
                               "_name": "Effect",
                               "_typeId": "fd7f-888d-3257-a12b",
-                              "__text": "While this unit has fewer than 6 **noble deeds points**, its melee weapons have Crit (2 Hits). While it has 6 **noble deeds points**, its melee weapons have Crit (Mortal)."
+                              "__text": "While this unit has fewer than 6 **noble deeds points**, its melee weapons have Crit (2 Hits). While it has 6 **noble deeds points**, its melee weapons have Crit (Mortal)."
                             }
                           ]
                         },
@@ -4880,6 +5686,17 @@
               "_includeChildSelections": "true"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Heroic Traits",
+              "_hidden": "false",
+              "_id": "5360-3d00-1d07-cdb9",
+              "_type": "selectionEntryGroup",
+              "_targetId": "c437-e34c-5e1c-95e6",
+              "_flatten": "true"
+            }
+          },
           "_name": "Heroic Traits",
           "_id": "a7dc-7121-fd03-63fe",
           "_hidden": "false"
@@ -4903,12 +5720,12 @@
                         {
                           "_name": "Declare",
                           "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "If there is not a friendly **Chalice of Ushoran** on the battlefield, pick a friendly **^^Flesh-eater Courts Wizard^^** to cast this spell, then make a casting roll of 2D6."
+                          "__text": "If there is not a friendly **Chalice of Ushoran** on the battlefield, pick a friendly **^^Flesh-eater Courts Wizard^^** to cast this spell, then make a casting roll of 2D6."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Set up a **Chalice of Ushoran** wholly within 12\" of the caster and visible to them."
+                          "__text": "Set up a **Chalice of Ushoran** wholly within 12\" of the caster and visible to them."
                         },
                         {
                           "_name": "Keywords",
@@ -4938,7 +5755,7 @@
                         {
                           "_name": "Declare",
                           "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "If there is not a friendly **Corpsemare Stampede** on the battlefield, pick a friendly **^^Flesh-eater CourtsWizard^^** to cast this spell, then make a casting roll of 2D6."
+                          "__text": "If there is not a friendly **Corpsemare Stampede** on the battlefield, pick a friendly **^^Flesh-eater CourtsWizard^^** to cast this spell, then make a casting roll of 2D6."
                         },
                         {
                           "_name": "Effect",
@@ -4973,12 +5790,12 @@
                         {
                           "_name": "Declare",
                           "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "If there is not a friendly **Cadaverous Barricade** on the battlefield, pick a friendly **^^Flesh-eater Courts Wizard^^** to cast this spell, then make a casting roll of 2D6."
+                          "__text": "If there is not a friendly **Cadaverous Barricade** on the battlefield, pick a friendly **^^Flesh-eater Courts Wizard^^** to cast this spell, then make a casting roll of 2D6."
                         },
                         {
                           "_name": "Effect",
                           "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Set up a **Cadaverous Barricade** wholly within 18\" of the caster and visible to them."
+                          "__text": "Set up a **Cadaverous Barricade** wholly within 18\" of the caster and visible to them."
                         },
                         {
                           "_name": "Keywords",
@@ -5104,114 +5921,6 @@
         {
           "selectionEntries": {
             "selectionEntry": {
-              "profiles": {
-                "profile": [{
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "76bf-8126-64d4-c709",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Chanting Value",
-                          "_typeId": "f192-6780-8138-9cef",
-                          "__text": "5"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "284c-90b2-245b-adf3",
-                          "__text": "Pick a friendly **^^Flesh-eater Courts Priest^^** to chant this prayer, pick a visible enemy unit within 18\" of them to be the target, then make a chanting roll of D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "6219-6fcc-5ae2-a6b7",
-                          "__text": "Until the start of your next turn, each time a model in the target unit is slain, **Heal (1)** a friendly **^^Flesh-eater Courts^^** unit in combat with the target. If the chanting roll was 10+, **Heal (D3)** that friendly unit instead."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "e3d8-f58b-e4e0-8e9d",
-                          "__text": "**^^Prayer^^**, **^^Unlimited^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Blessed Feast",
-                    "_typeId": "5946-234-d7b4-6195",
-                    "_typeName": "Ability (Prayer)",
-                    "_hidden": "false",
-                    "_id": "c515-4f1c-c283-d27c"
-                  },
-                  {
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "76bf-8126-64d4-c709",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Chanting Value",
-                          "_typeId": "f192-6780-8138-9cef",
-                          "__text": "5"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "284c-90b2-245b-adf3",
-                          "__text": "Pick a friendly **^^Flesh-eater Courts Priest^^** to chant this prayer, pick a visible friendly **^^Flesh-eater Courts Hero^^** wholly within 18\" of them to be the target, then make a chanting roll of D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "6219-6fcc-5ae2-a6b7",
-                          "__text": "Until the start of your next turn, each time an enemy model is slain by a combat attack made by the target, give the target 1 additional noble deeds point after the **^^Fight^^** ability has been resolved. If the chanting roll was 10+, until the start of your next turn, each time an\nenemy model is slain by a combat attack made by the target, give all friendly **^^Flesh-eater Courts Heroes^^** wholly within 18\" of the target 1 additional noble deeds point after the **^^Fight^^** ability has been resolved instead of only the target."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "e3d8-f58b-e4e0-8e9d",
-                          "__text": "**^^Prayer^^**"
-                        }
-                      ]
-                    },
-                    "_name": "The Summerking's Favour",
-                    "_typeId": "5946-234-d7b4-6195",
-                    "_typeName": "Ability (Prayer)",
-                    "_hidden": "false",
-                    "_id": "a51c-6b0e-b9d6-e4ab"
-                  },
-                  {
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "76bf-8126-64d4-c709",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Chanting Value",
-                          "_typeId": "f192-6780-8138-9cef",
-                          "__text": "5"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "284c-90b2-245b-adf3",
-                          "__text": "Pick a friendly **^^Flesh-eater Courts Priest^^** to chant this prayer, pick a visible friendly **^^Flesh-eater Courts^^** unit wholly within 18\" of them to be the target, then make a chanting roll of D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "6219-6fcc-5ae2-a6b7",
-                          "__text": "Until the start of your next turn, the target has **^^Ward (5+)^^**. If the chanting roll was 10+, pick another friendly **^^Flesh-eater Courts^^** unit wholly within 18\" of the target. That unit also has **^^Ward (5+)^^** until the start of your next turn"
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "e3d8-f58b-e4e0-8e9d",
-                          "__text": "**^^Prayer^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Charnel Conviction",
-                    "_typeId": "5946-234-d7b4-6195",
-                    "_typeName": "Ability (Prayer)",
-                    "_hidden": "false",
-                    "_id": "a24f-fea1-66c8-3df"
-                  }
-                ]
-              },
               "constraints": {
                 "constraint": {
                   "_type": "max",
@@ -5221,6 +5930,90 @@
                   "_shared": "true",
                   "_id": "8a6b-3808-3428-d697"
                 }
+              },
+              "entryLinks": {
+                "entryLink": [{
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "4ef4-b14f-d281-8779-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "4ef4-b14f-d281-8779-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Blessed Feast",
+                    "_hidden": "false",
+                    "_id": "7fbb-d1fb-f0ed-ab9a",
+                    "_type": "selectionEntry",
+                    "_targetId": "cb1a-d226-4f9a-155b"
+                  },
+                  {
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "5d2b-c039-1fc6-257a-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "5d2b-c039-1fc6-257a-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "The Summerking's Favour",
+                    "_hidden": "false",
+                    "_id": "8454-140d-3226-42ee",
+                    "_type": "selectionEntry",
+                    "_targetId": "fb2a-6063-372f-c671"
+                  },
+                  {
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "d5dc-6a04-a909-dae8-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "d5dc-6a04-a909-dae8-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Charnel Conviction",
+                    "_hidden": "false",
+                    "_id": "7185-4b34-2d66-7b7c",
+                    "_type": "selectionEntry",
+                    "_targetId": "ec7b-d603-1ff9-4961"
+                  }
+                ]
               },
               "_type": "upgrade",
               "_import": "true",
@@ -5245,158 +6038,550 @@
           "_id": "b55b-9cc8-f139-c7b0",
           "_hidden": "false",
           "_flatten": "true"
+        },
+        {
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Ravaged Coast Paths",
+              "_hidden": "false",
+              "_id": "acc2-208a-2725-d7db",
+              "_type": "selectionEntryGroup",
+              "_targetId": "7bae-23cb-3977-3ece",
+              "_flatten": "true"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "1",
+              "_field": "selections",
+              "_scope": "parent",
+              "_shared": "true",
+              "_id": "3d06-4fff-0dbe-165f"
+            }
+          },
+          "_name": "Paths",
+          "_id": "6607-5e8b-dd3c-0e38",
+          "_hidden": "true"
+        },
+        {
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Ravaged Coast Battle Scars",
+              "_hidden": "false",
+              "_id": "eff3-92c5-0d0e-1808",
+              "_type": "selectionEntryGroup",
+              "_targetId": "5559-80df-ba01-66a7",
+              "_flatten": "true"
+            }
+          },
+          "selectionEntries": {
+            "selectionEntry": {
+              "_type": "upgrade",
+              "_import": "true",
+              "_name": "Battle Wounds",
+              "_hidden": "false",
+              "_id": "4147-7510-a884-02da"
+            }
+          },
+          "_name": "Battle Wounds + Scars",
+          "_id": "85f3-e7e9-83cc-73b9",
+          "_hidden": "true",
+          "_collapsible": "false"
         }
       ]
     },
     "sharedSelectionEntries": {
-      "selectionEntry": {
-        "profiles": {
-          "profile": [{
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Keywords",
-                    "_typeId": "b977-7c5e-33b2-428e"
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "fd7f-888d-3257-a12b",
-                    "__text": "Each friendly **^^Flesh-eater Courts Hero^^** starts the battle with 0 noble deeds points and can have a maximum of 6 noble deeds points at once.\nEach time a friendly **^^Flesh-eater Courts Hero^^** uses a **^^Fight^^** ability, after that ability has been resolved, give that **^^Hero^^** a number of noble deeds points equal to the number of damage points inflicted by that ability. Do not count attacks made with **Companion** weapons.\nEach time a friendly **^^Flesh-eater Courts Priest Hero^^** uses a **^^Prayer^^** ability and the prayer is answered, after that ability has been resolved, give that **^^Hero^^** 1 noble deeds point.\nEach time a friendly **^^Flesh-eater Courts Wizard Hero^^** uses a **^^Spell^^** ability and the spell is successfully cast, after that ability has been resolved, give that **^^Hero^^** 1 noble deeds point."
-                  }
-                ]
+      "selectionEntry": [{
+          "profiles": {
+            "profile": [{
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Keywords",
+                      "_typeId": "b977-7c5e-33b2-428e"
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "fd7f-888d-3257-a12b",
+                      "__text": "Each friendly **^^Flesh-eater Courts Hero^^** starts the battle with 0 noble deeds points and can have a maximum of 6 noble deeds points at once.\nEach time a friendly **^^Flesh-eater Courts Hero^^** uses a **^^Fight^^** ability, after that ability has been resolved, give that **^^Hero^^** a number of noble deeds points equal to the number of damage points inflicted by that ability. Do not count attacks made with **Companion** weapons.\nEach time a friendly **^^Flesh-eater Courts Priest Hero^^** uses a **^^Prayer^^** ability and the prayer is answered, after that ability has been resolved, give that **^^Hero^^** 1 noble deeds point.\nEach time a friendly **^^Flesh-eater Courts Wizard Hero^^** uses a **^^Spell^^** ability and the spell is successfully cast, after that ability has been resolved, give that **^^Hero^^** 1 noble deeds point."
+                    }
+                  ]
+                },
+                "_name": "Noble Deeds",
+                "_typeId": "907f-a48-6a04-f788",
+                "_typeName": "Ability (Passive)",
+                "_hidden": "false",
+                "_id": "8a6d-73ef-70b2-2687"
               },
-              "_name": "Noble Deeds",
-              "_typeId": "907f-a48-6a04-f788",
-              "_typeName": "Ability (Passive)",
-              "_hidden": "false",
-              "_id": "8a6d-73ef-70b2-2687"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Once Per Turn (Army), Your Hero Phase"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Pick any number of friendly **^^Abhorrants^^** to be the targets."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "**Heal (D3)** each target."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_typeId": "12e8-3214-7d8f-1d0f"
-                  }
-                ]
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Once Per Turn (Army), Your Hero Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "Pick any number of friendly **^^Abhorrants^^** to be the targets."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "**Heal (D3)** each target."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Royal Blood",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "553c-b735-f1c2-3160"
               },
-              "_name": "Royal Blood",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
-              "_hidden": "false",
-              "_id": "553c-b735-f1c2-3160"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Your Movement Phase"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Pick a friendly **^^Abhorrant Hero^^** that has 6 **noble deeds points** to use this ability, then pick a friendly **^^Serfs^^** or **^^Knights^^** unit that has been destroyed to be the target."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "Spend all of that **^^Hero^^**’s **noble deeds points**. Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 6\" of a battlefield edge and more than 9\" from all enemy units."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_typeId": "12e8-3214-7d8f-1d0f"
-                  }
-                ]
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Your Movement Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "Pick a friendly **^^Abhorrant Hero^^** that has 6 **noble deeds points** to use this ability, then pick a friendly **^^Serfs^^** or **^^Knights^^** unit that has been destroyed to be the target."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "Spend all of that **^^Hero^^**’s **noble deeds points**. Set up a replacement unit with half the number of models from the target unit (rounding up) wholly within 6\" of a battlefield edge and more than 9\" from all enemy units."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Summon Loyal Subjects",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "90f3-2f42-7021-6c34"
               },
-              "_name": "Summon Loyal Subjects",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
-              "_hidden": "false",
-              "_id": "90f3-2f42-7021-6c34"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Your Movement Phase"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Pick a friendly **^^Courtier Hero^^** that has 1 or more **noble deeds points** to use this ability, then pick a friendly unit wholly within 12\" of it to be the target."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "Spend any of that **^^Hero^^**’s **noble deeds points**. If the target is a **^^Serfs^^** unit, for each **noble deeds point** spent, return 1 slain model to it. If the target is a **^^Knights^^** unit, for every 2 **noble deeds points** spent, return 1 slain model to it.’"
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_typeId": "12e8-3214-7d8f-1d0f"
-                  },
-                  {
-                    "_name": "Used By",
-                    "_typeId": "1b32-c9d6-3106-166b"
-                  }
-                ]
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Your Movement Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "Pick a friendly **^^Courtier Hero^^** that has 1 or more **noble deeds points** to use this ability, then pick a friendly unit wholly within 12\" of it to be the target."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "Spend any of that **^^Hero^^**’s **noble deeds points**. If the target is a **^^Serfs^^** unit, for each **noble deeds point** spent, return 1 slain model to it. If the target is a **^^Knights^^** unit, for every 2 **noble deeds points** spent, return 1 slain model to it.’"
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Muster Guard",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "4800-bf55-2c3e-a583"
               },
-              "_name": "Muster Guard",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
-              "_hidden": "false",
-              "_id": "4800-bf55-2c3e-a583"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Keywords",
-                    "_typeId": "b977-7c5e-33b2-428e"
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "fd7f-888d-3257-a12b",
-                    "__text": "Add 1 to the Attacks characteristic of melee weapons, including **Companion** weapons, used by friendly **^^Flesh-eater Courts^^** units while they are wholly within 12\" of any friendly **^^Heroes^^** that have 6 noble deeds points."
-                  }
-                ]
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Keywords",
+                      "_typeId": "b977-7c5e-33b2-428e"
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "fd7f-888d-3257-a12b",
+                      "__text": "Add 1 to the Attacks characteristic of melee weapons, including **Companion** weapons, used by friendly **^^Flesh-eater Courts^^** units while they are wholly within 12\" of any friendly **^^Heroes^^** that have 6 noble deeds points."
+                    }
+                  ]
+                },
+                "_name": "Feeding Frenzy",
+                "_typeId": "907f-a48-6a04-f788",
+                "_typeName": "Ability (Passive)",
+                "_hidden": "false",
+                "_id": "1e44-2af5-e615-9adc"
               },
-              "_name": "Feeding Frenzy",
-              "_typeId": "907f-a48-6a04-f788",
-              "_typeName": "Ability (Passive)",
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Once Per Turn (Army), Your Hero Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "Pick a friendly **^^Flesh-eater Courts Hero^^** to use this ability."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "Roll a dice for each other friendly **^^Flesh-eater Courts^^** unit wholly within 12\" of that **^^Hero^^**. For each 5+, give 1 **noble deeds point** to that **^^Hero^^**."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Address Loyal Subjects",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "616a-b307-3551-d5ee"
+              }
+            ]
+          },
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Reference",
               "_hidden": "false",
-              "_id": "1e44-2af5-e615-9adc"
+              "_id": "d8c1-f3c0-7538-c9e8",
+              "_targetId": "3360-1158-e879-9606",
+              "_primary": "true"
             }
-          ]
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Battle Traits: Flesh-eater Courts",
+          "_hidden": "false",
+          "_id": "ab55-30ae-3e26-fbc0"
         },
-        "categoryLinks": {
-          "categoryLink": {
-            "_name": "Reference",
-            "_hidden": "false",
-            "_id": "d8c1-f3c0-7538-c9e8",
-            "_targetId": "3360-1158-e879-9606",
-            "_primary": "true"
-          }
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "6"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Flesh-eater Courts Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "Inflict D3 mortal damage on the target. Then, you can pick a friendly **^^Flesh-eater Courts Infantry^^** unit within 6\" of the target. For each damage point allocated to the target by this ability, you can return 1 slain model to that friendly unit."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**"
+                  }
+                ]
+              },
+              "_name": "Charnel Feast",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
+              "_hidden": "false",
+              "_id": "c331-211f-d9d-887b"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Charnel Feast",
+          "_hidden": "false",
+          "_id": "0880-f8e9-de32-7fdc"
         },
-        "_type": "upgrade",
-        "_import": "true",
-        "_name": "Battle Traits: Flesh-eater Courts",
-        "_hidden": "false",
-        "_id": "ab55-30ae-3e26-fbc0"
-      }
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "6"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Flesh-eater Courts Wizard^^** to cast this spell, pick a visible friendly **^^Flesh-eater Courts Infantry^^** or **^^Cavalry^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "Until the start of your next turn:\n• Add 2\" to the target’s Move characteristic.\n• Add 1 to wound rolls for the target’s combat attacks."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**, **^^Unlimited^^**"
+                  }
+                ]
+              },
+              "_name": "Deranged Transformation",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
+              "_hidden": "false",
+              "_id": "a80d-5b7e-37bb-e246"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Deranged Transformation",
+          "_hidden": "false",
+          "_id": "c562-d48f-b3d3-8bcd"
+        },
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "5"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Flesh-eater Courts Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "Roll 7 dice and apply the corresponding effect:\n***Ravaged Mind:*** If 2 or more dice have the same value, inflict 1 mortal damage on the target.\n***Gory Visions:*** If 3 or more dice have the same value, in addition to the effect of ‘Ravaged Mind’, subtract 1 from hit rolls for the target’s attacks until the start of your next turn.\n***Drooling Stupor:*** If 4 or more dice have the same value, in addition to the effects of ‘Ravaged Mind’ and ‘Gory Visions’, subtract 1 from wound rolls for the target’s attacks until the start of your next turn."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**"
+                  }
+                ]
+              },
+              "_name": "Miasma of Madness",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
+              "_hidden": "false",
+              "_id": "2f2b-8132-cfae-f92d"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Miasma of Madness",
+          "_hidden": "false",
+          "_id": "1321-3c44-ae3b-5bfd"
+        },
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "76bf-8126-64d4-c709",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Chanting Value",
+                    "_typeId": "f192-6780-8138-9cef",
+                    "__text": "5"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "284c-90b2-245b-adf3",
+                    "__text": "Pick a friendly **^^Flesh-eater Courts Priest^^** to chant this prayer, pick a visible enemy unit within 18\" of them to be the target, then make a chanting roll of D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "6219-6fcc-5ae2-a6b7",
+                    "__text": "Until the start of your next turn, each time a model in the target unit is slain, **Heal (1)** a friendly **^^Flesh-eater Courts^^** unit in combat with the target. If the chanting roll was 10+, **Heal (D3)** that friendly unit instead."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "e3d8-f58b-e4e0-8e9d",
+                    "__text": "**^^Prayer^^**, **^^Unlimited^^**"
+                  }
+                ]
+              },
+              "_name": "Blessed Feast",
+              "_typeId": "5946-234-d7b4-6195",
+              "_typeName": "Ability (Prayer)",
+              "_hidden": "false",
+              "_id": "c515-4f1c-c283-d27c"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Blessed Feast",
+          "_hidden": "false",
+          "_id": "cb1a-d226-4f9a-155b"
+        },
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "76bf-8126-64d4-c709",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Chanting Value",
+                    "_typeId": "f192-6780-8138-9cef",
+                    "__text": "5"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "284c-90b2-245b-adf3",
+                    "__text": "Pick a friendly **^^Flesh-eater Courts Priest^^** to chant this prayer, pick a visible friendly **^^Flesh-eater Courts^^** unit wholly within 18\" of them to be the target, then make a chanting roll of D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "6219-6fcc-5ae2-a6b7",
+                    "__text": "Until the start of your next turn, the target has **^^Ward (5+)^^**. If the chanting roll was 10+, pick another friendly **^^Flesh-eater Courts^^** unit wholly within 18\" of the target. That unit also has **^^Ward (5+)^^** until the start of your next turn"
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "e3d8-f58b-e4e0-8e9d",
+                    "__text": "**^^Prayer^^**"
+                  }
+                ]
+              },
+              "_name": "Charnel Conviction",
+              "_typeId": "5946-234-d7b4-6195",
+              "_typeName": "Ability (Prayer)",
+              "_hidden": "false",
+              "_id": "a24f-fea1-66c8-3df"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Charnel Conviction",
+          "_hidden": "false",
+          "_id": "ec7b-d603-1ff9-4961"
+        },
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "76bf-8126-64d4-c709",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Chanting Value",
+                    "_typeId": "f192-6780-8138-9cef",
+                    "__text": "5"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "284c-90b2-245b-adf3",
+                    "__text": "Pick a friendly **^^Flesh-eater Courts Priest^^** to chant this prayer, pick a visible friendly **^^Flesh-eater Courts Hero^^** wholly within 18\" of them to be the target, then make a chanting roll of D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "6219-6fcc-5ae2-a6b7",
+                    "__text": "Until the start of your next turn, each time an enemy model is slain by a combat attack made by the target, give the target 1 additional noble deeds point after the **^^Fight^^** ability has been resolved. If the chanting roll was 10+, until the start of your next turn, each time an\nenemy model is slain by a combat attack made by the target, give all friendly **^^Flesh-eater Courts Heroes^^** wholly within 18\" of the target 1 additional noble deeds point after the **^^Fight^^** ability has been resolved instead of only the target."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "e3d8-f58b-e4e0-8e9d",
+                    "__text": "**^^Prayer^^**"
+                  }
+                ]
+              },
+              "_name": "The Summerking's Favour",
+              "_typeId": "5946-234-d7b4-6195",
+              "_typeName": "Ability (Prayer)",
+              "_hidden": "false",
+              "_id": "a51c-6b0e-b9d6-e4ab"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "The Summerking's Favour",
+          "_hidden": "false",
+          "_id": "fb2a-6063-372f-c671"
+        }
+      ]
     },
     "selectionEntries": {
       "selectionEntry": [{
@@ -5490,10 +6675,27 @@
               "_primary": "true"
             }
           },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "force",
+                  "_childId": "f079-501a-2738-6844",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
           "_type": "upgrade",
           "_import": "true",
           "_name": "Manifestation Lore",
-          "_hidden": "false",
+          "_hidden": "true",
           "_id": "659d-a6a3-ad87-c789",
           "_defaultAmount": "1"
         },
@@ -5538,10 +6740,27 @@
               "_collective": "false"
             }
           },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "force",
+                  "_childId": "f079-501a-2738-6844",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
           "_type": "upgrade",
           "_import": "true",
           "_name": "Spell Lore",
-          "_hidden": "false",
+          "_hidden": "true",
           "_id": "93aa-54db-db81-5ec0",
           "_defaultAmount": "1"
         },
@@ -5586,11 +6805,246 @@
               "_collective": "false"
             }
           },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "force",
+                  "_childId": "f079-501a-2738-6844",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
           "_type": "upgrade",
           "_import": "true",
           "_name": "Prayer Lore",
-          "_hidden": "false",
+          "_hidden": "true",
           "_id": "1d9f-bef7-c1f4-5cda",
+          "_defaultAmount": "1"
+        },
+        {
+          "constraints": {
+            "constraint": [{
+                "_type": "min",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "roster",
+                "_shared": "true",
+                "_id": "4827-6839-0c47-253e"
+              },
+              {
+                "_type": "max",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "roster",
+                "_shared": "true",
+                "_id": "9cc1-6525-95b1-c9bd"
+              }
+            ]
+          },
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Army Composition",
+              "_hidden": "false",
+              "_id": "5066-1ea5-497c-cf80",
+              "_targetId": "ac97-b27c-7e35-7ab9",
+              "_primary": "true"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "selectionEntryGroups": {
+            "selectionEntryGroup": {
+              "selectionEntryGroups": {
+                "selectionEntryGroup": [{
+                    "entryLinks": {
+                      "entryLink": [{
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "8c76-c78d-5879-18a5"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "Blessed Feast",
+                          "_hidden": "false",
+                          "_id": "3b1e-f358-488d-0753",
+                          "_type": "selectionEntry",
+                          "_targetId": "cb1a-d226-4f9a-155b"
+                        },
+                        {
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "1f7a-0745-e536-654f"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "Charnel Conviction",
+                          "_hidden": "false",
+                          "_id": "6ee6-3384-8d7a-0162",
+                          "_type": "selectionEntry",
+                          "_targetId": "ec7b-d603-1ff9-4961"
+                        },
+                        {
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "a095-89ac-7ad3-b828"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "The Summerking's Favour",
+                          "_hidden": "false",
+                          "_id": "0e75-6008-410e-23f8",
+                          "_type": "selectionEntry",
+                          "_targetId": "fb2a-6063-372f-c671"
+                        }
+                      ]
+                    },
+                    "_name": "Rites of Delusion",
+                    "_id": "3a67-6622-5a3a-1da3",
+                    "_hidden": "false"
+                  },
+                  {
+                    "entryLinks": {
+                      "entryLink": [{
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "b618-f7f8-63fb-c519"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "Charnel Feast",
+                          "_hidden": "false",
+                          "_id": "316c-eaad-2f86-def1",
+                          "_type": "selectionEntry",
+                          "_targetId": "0880-f8e9-de32-7fdc"
+                        },
+                        {
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "a6e4-c822-2054-6516"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "Deranged Transformation",
+                          "_hidden": "false",
+                          "_id": "109c-2bba-a62d-0dae",
+                          "_type": "selectionEntry",
+                          "_targetId": "c562-d48f-b3d3-8bcd"
+                        },
+                        {
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "4164-50bd-491c-b8d2"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "Miasma of Madness",
+                          "_hidden": "false",
+                          "_id": "ed22-e968-47e3-5177",
+                          "_type": "selectionEntry",
+                          "_targetId": "1321-3c44-ae3b-5bfd"
+                        }
+                      ]
+                    },
+                    "_name": "Lore of Madness",
+                    "_id": "bfcc-64b2-1bc1-429a",
+                    "_hidden": "false"
+                  }
+                ]
+              },
+              "constraints": {
+                "constraint": {
+                  "_type": "max",
+                  "_value": "6",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_shared": "true",
+                  "_id": "d5b2-6a74-2156-fb31"
+                }
+              },
+              "entryLinks": {
+                "entryLink": [{
+                    "_import": "true",
+                    "_name": "Spell Lores",
+                    "_hidden": "false",
+                    "_id": "fd21-b4b3-e66b-9236",
+                    "_type": "selectionEntryGroup",
+                    "_targetId": "0bcf-1704-aaff-2b45",
+                    "_flatten": "true"
+                  },
+                  {
+                    "_import": "true",
+                    "_name": "Prayer Lores",
+                    "_hidden": "false",
+                    "_id": "11bb-70c0-bcd4-eee9",
+                    "_type": "selectionEntryGroup",
+                    "_targetId": "123c-ec0f-04eb-41d5",
+                    "_flatten": "true"
+                  }
+                ]
+              },
+              "_name": "",
+              "_id": "5c92-e1ee-ad9d-de42",
+              "_hidden": "false"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Arcane Tome",
+          "_hidden": "true",
+          "_id": "7f47-d8c8-c0b9-e6ac",
           "_defaultAmount": "1"
         }
       ]
@@ -5601,7 +7055,7 @@
     "_name": "Flesh-eater Courts",
     "_gameSystemId": "e51d-b1a3-75fc-dc3g",
     "_gameSystemRevision": "2",
-    "_revision": "1",
+    "_revision": "2",
     "_battleScribeVersion": "2.03",
     "_type": "catalogue"
   }

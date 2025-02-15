@@ -105,6 +105,10 @@
                             {
                               "_name": "Keywords",
                               "_typeId": "12e8-3214-7d8f-1d0f"
+                            },
+                            {
+                              "_name": "Used By",
+                              "_typeId": "1b32-c9d6-3106-166b"
                             }
                           ]
                         },
@@ -158,6 +162,17 @@
               "_shared": "true",
               "_id": "75bb-c553-dd56-3086",
               "_includeChildSelections": "true"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Artefacts of Power",
+              "_hidden": "false",
+              "_id": "d1a0-321a-467c-1cfd",
+              "_type": "selectionEntryGroup",
+              "_targetId": "e1b2-cedf-56a5-6bb1",
+              "_flatten": "true"
             }
           },
           "_name": "Artefacts of Power",
@@ -237,6 +252,10 @@
                         {
                           "_name": "Keywords",
                           "_typeId": "12e8-3214-7d8f-1d0f"
+                        },
+                        {
+                          "_name": "Used By",
+                          "_typeId": "1b32-c9d6-3106-166b"
                         }
                       ]
                     },
@@ -503,6 +522,17 @@
               "_includeChildSelections": "true"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Heroic Traits",
+              "_hidden": "false",
+              "_id": "93e1-fc4f-e913-e13f",
+              "_type": "selectionEntryGroup",
+              "_targetId": "c437-e34c-5e1c-95e6",
+              "_flatten": "true"
+            }
+          },
           "_name": "Heroic Traits",
           "_id": "a357-4cbf-d348-1134",
           "_hidden": "false"
@@ -510,114 +540,6 @@
         {
           "selectionEntries": {
             "selectionEntry": {
-              "profiles": {
-                "profile": [{
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "76bf-8126-64d4-c709",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Chanting Value",
-                          "_typeId": "f192-6780-8138-9cef",
-                          "__text": "4"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "284c-90b2-245b-adf3",
-                          "__text": "If there is not a friendly **Wrath-axe** on the battlefield, pick a friendly **^^Blades of Khorne Priest^^** to chant this prayer, then make a chanting roll of D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "6219-6fcc-5ae2-a6b7",
-                          "__text": "Set up a **Wrath-axe** wholly within 12\" of the chanter, visible to them and more than 9\" from all enemy units."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "e3d8-f58b-e4e0-8e9d",
-                          "__text": "**^^Prayer^^**, **^^Summon^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Summon Wrath-axe",
-                    "_typeId": "5946-234-d7b4-6195",
-                    "_typeName": "Ability (Prayer)",
-                    "_hidden": "false",
-                    "_id": "fd45-a955-74b-78f"
-                  },
-                  {
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "76bf-8126-64d4-c709",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Chanting Value",
-                          "_typeId": "f192-6780-8138-9cef",
-                          "__text": "4"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "284c-90b2-245b-adf3",
-                          "__text": "If there is not a friendly **Hexgorger Skulls** invocation on the battlefield, pick a friendly **^^Blades of Khorne Priest^^** to chant this prayer, then make a chanting roll of D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "6219-6fcc-5ae2-a6b7",
-                          "__text": "Set up a **Hexgorger Skulls** invocation wholly within 12\" of the chanter, visible to them and more than 9\" from all enemy units. A **Hexgorger Skulls** invocation has 2 parts that must be set up within 8\" of each other."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "e3d8-f58b-e4e0-8e9d",
-                          "__text": "**^^Prayer^^**, **^^Summon^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Summon Hexgorger Skulls",
-                    "_typeId": "5946-234-d7b4-6195",
-                    "_typeName": "Ability (Prayer)",
-                    "_hidden": "false",
-                    "_id": "b6a5-476a-e7d5-9ceb"
-                  },
-                  {
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "76bf-8126-64d4-c709",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Chanting Value",
-                          "_typeId": "f192-6780-8138-9cef",
-                          "__text": "4"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "284c-90b2-245b-adf3",
-                          "__text": "If there is not a friendly **Bleeding Icon** on the battlefield, pick a friendly **^^Blades of Khorne Priest^^** to chant this prayer, then make a chanting roll of D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "6219-6fcc-5ae2-a6b7",
-                          "__text": "Set up a **Bleeding Icon** wholly within 12\" of the chanter and visible to them."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "e3d8-f58b-e4e0-8e9d",
-                          "__text": "**^^Prayer^^**, **^^Summon^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Summon Bleeding Icon",
-                    "_typeId": "5946-234-d7b4-6195",
-                    "_typeName": "Ability (Prayer)",
-                    "_hidden": "false",
-                    "_id": "bb76-cde-8439-1002"
-                  }
-                ]
-              },
               "constraints": {
                 "constraint": {
                   "_type": "max",
@@ -630,85 +552,28 @@
               },
               "entryLinks": {
                 "entryLink": [{
-                    "constraints": {
-                      "constraint": [{
-                          "_type": "min",
-                          "_value": "1",
-                          "_field": "selections",
-                          "_scope": "parent",
-                          "_shared": "true",
-                          "_id": "5f0a-edc1-d443-391f"
-                        },
-                        {
-                          "_type": "max",
-                          "_value": "1",
-                          "_field": "selections",
-                          "_scope": "parent",
-                          "_shared": "true",
-                          "_id": "9672-c18a-c4d2-1345"
-                        }
-                      ]
-                    },
                     "_import": "true",
-                    "_name": "Hexgorger Skulls",
+                    "_name": "Summon Bleeding Icon",
                     "_hidden": "false",
-                    "_id": "592f-5799-9831-e559",
+                    "_id": "ac33-0a36-be58-a8d4",
                     "_type": "selectionEntry",
-                    "_targetId": "8499-3fb6-56fa-7b71"
+                    "_targetId": "6054-e84b-763c-2055"
                   },
                   {
-                    "constraints": {
-                      "constraint": [{
-                          "_type": "min",
-                          "_value": "1",
-                          "_field": "selections",
-                          "_scope": "parent",
-                          "_shared": "true",
-                          "_id": "3277-ba33-f360-a421"
-                        },
-                        {
-                          "_type": "max",
-                          "_value": "1",
-                          "_field": "selections",
-                          "_scope": "parent",
-                          "_shared": "true",
-                          "_id": "47bb-19de-d086-c10c"
-                        }
-                      ]
-                    },
                     "_import": "true",
-                    "_name": "Bleeding Icon",
+                    "_name": "Summon Hexgorger Skulls",
                     "_hidden": "false",
-                    "_id": "154b-d89c-2a80-5515",
+                    "_id": "cffc-bb2f-8301-f704",
                     "_type": "selectionEntry",
-                    "_targetId": "9cf2-1402-85ab-c410"
+                    "_targetId": "f3d8-9787-5f75-6e77"
                   },
                   {
-                    "constraints": {
-                      "constraint": [{
-                          "_type": "min",
-                          "_value": "1",
-                          "_field": "selections",
-                          "_scope": "parent",
-                          "_shared": "true",
-                          "_id": "233f-3c96-6ea1-8387"
-                        },
-                        {
-                          "_type": "max",
-                          "_value": "1",
-                          "_field": "selections",
-                          "_scope": "parent",
-                          "_shared": "true",
-                          "_id": "128d-bc3b-c11c-6f44"
-                        }
-                      ]
-                    },
                     "_import": "true",
-                    "_name": "Wrath-axe",
+                    "_name": "Summon Wrath-axe",
                     "_hidden": "false",
-                    "_id": "8916-2f45-98e8-eb78",
+                    "_id": "1a25-7183-1710-20df",
                     "_type": "selectionEntry",
-                    "_targetId": "2186-5d86-2a34-1f6e"
+                    "_targetId": "f0fa-c95e-a7a7-d002"
                   }
                 ]
               },
@@ -728,114 +593,6 @@
         {
           "selectionEntries": {
             "selectionEntry": {
-              "profiles": {
-                "profile": [{
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "76bf-8126-64d4-c709",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Chanting Value",
-                          "_typeId": "f192-6780-8138-9cef",
-                          "__text": "4"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "284c-90b2-245b-adf3",
-                          "__text": "Pick a friendly **^^Blades of Khorne Priest^^** to chant this prayer, pick a visible enemy unit within 18\" of them to be the target, then make a chanting roll of D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "6219-6fcc-5ae2-a6b7",
-                          "__text": "Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target. In addition, if the chanting roll was 8+, subtract 1 from wound rolls for the target until the start of your next turn."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "e3d8-f58b-e4e0-8e9d",
-                          "__text": "**^^Prayer^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Blood Boil",
-                    "_typeId": "5946-234-d7b4-6195",
-                    "_typeName": "Ability (Prayer)",
-                    "_hidden": "false",
-                    "_id": "7110-35e0-803b-2487"
-                  },
-                  {
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "76bf-8126-64d4-c709",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Chanting Value",
-                          "_typeId": "f192-6780-8138-9cef",
-                          "__text": "5"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "284c-90b2-245b-adf3",
-                          "__text": "Pick a friendly **^^Blades of Khorne Priest^^** to chant this prayer, pick a visible friendly **^^Blades of Khorne^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "6219-6fcc-5ae2-a6b7",
-                          "__text": "Add 1 to the Rend characteristic of the target’s melee weapons for the rest of the turn. In addition, if the chanting roll was 10+, add 1 to wound rolls for the target’s attacks for the rest of the turn."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "e3d8-f58b-e4e0-8e9d",
-                          "__text": "**^^Prayer^^**, **^^Unlimited^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Unholy Flames",
-                    "_typeId": "5946-234-d7b4-6195",
-                    "_typeName": "Ability (Prayer)",
-                    "_hidden": "false",
-                    "_id": "ce16-4ab0-2908-305f"
-                  },
-                  {
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "76bf-8126-64d4-c709",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Chanting Value",
-                          "_typeId": "f192-6780-8138-9cef",
-                          "__text": "4"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "284c-90b2-245b-adf3",
-                          "__text": "Pick a friendly **^^Blades of Khorne Priest^^** to chant this prayer, pick a visible enemy **^^Wizard^^** within 18\" of them to be the target, then make a chanting roll of D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "6219-6fcc-5ae2-a6b7",
-                          "__text": "Subtract 1 from the target’s power level, to a minimum of 0, until the end of your next turn. In addition, if the chanting roll was 8+, inflict 3 mortal damage on the target."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "e3d8-f58b-e4e0-8e9d",
-                          "__text": "**^^Prayer^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Witchbane Curse",
-                    "_typeId": "5946-234-d7b4-6195",
-                    "_typeName": "Ability (Prayer)",
-                    "_hidden": "false",
-                    "_id": "3951-df2c-1c3a-2943"
-                  }
-                ]
-              },
               "constraints": {
                 "constraint": {
                   "_type": "max",
@@ -845,6 +602,90 @@
                   "_shared": "true",
                   "_id": "26b6-2104-1b86-a0a4"
                 }
+              },
+              "entryLinks": {
+                "entryLink": [{
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "28ca-6e65-bb85-a22f-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "28ca-6e65-bb85-a22f-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Blood Boil",
+                    "_hidden": "false",
+                    "_id": "ae41-942a-11f1-948b",
+                    "_type": "selectionEntry",
+                    "_targetId": "ae0d-8932-1358-f9c4"
+                  },
+                  {
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "bdf2-744d-3d14-f629-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "bdf2-744d-3d14-f629-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Unholy Flames",
+                    "_hidden": "false",
+                    "_id": "9dbb-64f4-4561-fb33",
+                    "_type": "selectionEntry",
+                    "_targetId": "461b-664a-6005-b2b2"
+                  },
+                  {
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "d85c-e2de-8bd2-6380-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "d85c-e2de-8bd2-6380-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Witchbane Curse",
+                    "_hidden": "false",
+                    "_id": "c8d6-7d6d-2a76-5a28",
+                    "_type": "selectionEntry",
+                    "_targetId": "6062-ef2a-d346-dc58"
+                  }
+                ]
               },
               "_type": "upgrade",
               "_import": "true",
@@ -870,212 +711,678 @@
           "_id": "554f-b4a7-5337-2204",
           "_hidden": "false",
           "_flatten": "true"
+        },
+        {
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Ravaged Coast Battle Scars",
+              "_hidden": "false",
+              "_id": "aa8f-4cbb-7e4b-eb5e",
+              "_type": "selectionEntryGroup",
+              "_targetId": "5559-80df-ba01-66a7",
+              "_flatten": "true"
+            }
+          },
+          "selectionEntries": {
+            "selectionEntry": {
+              "_type": "upgrade",
+              "_import": "true",
+              "_name": "Battle Wounds",
+              "_hidden": "false",
+              "_id": "d906-fb02-4a48-6c73"
+            }
+          },
+          "_name": "Battle Wounds + Scars",
+          "_id": "6dcf-7de6-0f0f-bfc6",
+          "_hidden": "true",
+          "_collapsible": "false"
+        },
+        {
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Ravaged Coast Paths",
+              "_hidden": "false",
+              "_id": "a6da-d9ad-7fd5-d221",
+              "_type": "selectionEntryGroup",
+              "_targetId": "7bae-23cb-3977-3ece",
+              "_flatten": "true"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "1",
+              "_field": "selections",
+              "_scope": "parent",
+              "_shared": "true",
+              "_id": "6a56-27c2-e72a-8045"
+            }
+          },
+          "_name": "Paths",
+          "_id": "8e28-9445-463a-5883",
+          "_hidden": "true"
         }
       ]
     },
     "sharedSelectionEntries": {
-      "selectionEntry": {
-        "profiles": {
-          "profile": [{
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Reaction: Opponent declared a **^^Spell^^** ability"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "You can only use this ability if you have not used any **^^Blood Tithe^^** abilities this turn. Spend 2 **blood tithe points**."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "That spell is unbound."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_typeId": "12e8-3214-7d8f-1d0f",
-                    "__text": "**^^Blood Tithe^^**"
-                  }
-                ]
+      "selectionEntry": [{
+          "profiles": {
+            "profile": [{
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Reaction: Opponent declared a **^^Spell^^** ability"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "You can only use this ability if you have not used any **^^Blood Tithe^^** abilities this phase. Spend 2 **blood tithe points**."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "That spell is unbound."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f",
+                      "__text": "**^^Blood Tithe^^**"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Spelleater Curse",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "d739-397b-a186-daaf",
+                "_publicationId": "81a9-3dbf-dbc5-672e"
               },
-              "_name": "Spelleater Curse",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
-              "_hidden": "false",
-              "_id": "d739-397b-a186-daaf",
-              "_publicationId": "81a9-3dbf-dbc5-672e"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Keywords",
-                    "_typeId": "b977-7c5e-33b2-428e"
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "fd7f-888d-3257-a12b",
-                    "__text": "You start the battle with 0 **blood tithe points**. Earn 1 **blood tithe point** each time a unit (friendly or enemy) is destroyed."
-                  }
-                ]
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Keywords",
+                      "_typeId": "b977-7c5e-33b2-428e"
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "fd7f-888d-3257-a12b",
+                      "__text": "You start the battle with 0 **blood tithe points**. Earn 1 **blood tithe point** each time a unit (friendly or enemy) is destroyed."
+                    }
+                  ]
+                },
+                "_name": "The Blood Tithe",
+                "_typeId": "907f-a48-6a04-f788",
+                "_typeName": "Ability (Passive)",
+                "_hidden": "false",
+                "_id": "394d-bccb-ffa4-118c",
+                "_publicationId": "81a9-3dbf-dbc5-672e"
               },
-              "_name": "The Blood Tithe",
-              "_typeId": "907f-a48-6a04-f788",
-              "_typeName": "Ability (Passive)",
-              "_hidden": "false",
-              "_id": "394d-bccb-ffa4-118c",
-              "_publicationId": "81a9-3dbf-dbc5-672e"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Any Hero Phase"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "You can only use this ability if you have not used any **^^Blood Tithe^^** abilities this turn. Spend 4 **blood tithe points** and pick an enemy unit that is visible to a friendly **^^Blades of Khorne Hero^^** to be the target."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "Roll 8 dice. For each 3+, inflict 1 mortal damage on the target."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_typeId": "12e8-3214-7d8f-1d0f",
-                    "__text": "**^^Blood Tithe^^**"
-                  }
-                ]
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Any Hero Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "You can only use this ability if you have not used any **^^Blood Tithe^^** abilities this phase. Spend 4 **blood tithe points** and pick an enemy unit that is visible to a friendly **^^Blades of Khorne Hero^^** to be the target."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "Roll 8 dice. For each 3+, inflict 1 mortal damage on the target."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f",
+                      "__text": "**^^Blood Tithe^^**"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Brass Skull Meteor",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "6b75-fef6-982a-cb17",
+                "_publicationId": "81a9-3dbf-dbc5-672e"
               },
-              "_name": "Brass Skull Meteor",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
-              "_hidden": "false",
-              "_id": "6b75-fef6-982a-cb17",
-              "_publicationId": "81a9-3dbf-dbc5-672e"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Any Combat Phase"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "You can only use this ability if you have not used any **^^Blood Tithe^^** abilities this turn. Spend 6 **blood tithe points**."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "For the rest of the turn, add 1 to the Rend characteristic of melee weapons used by friendly **^^Blades of Khorne^^** units."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_typeId": "12e8-3214-7d8f-1d0f",
-                    "__text": "**^^Blood Tithe^^**"
-                  }
-                ]
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Any Combat Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "You can only use this ability if you have not used any **^^Blood Tithe^^** abilities this phase. Spend 6 **blood tithe points**."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "For the rest of the turn, add 1 to the Rend characteristic of melee weapons used by friendly **^^Blades of Khorne^^** units."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f",
+                      "__text": "**^^Blood Tithe^^**"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Heads Must Roll",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "66c-4a47-b2ee-10f",
+                "_publicationId": "81a9-3dbf-dbc5-672e"
               },
-              "_name": "Heads Must Roll",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
-              "_hidden": "false",
-              "_id": "66c-4a47-b2ee-10f",
-              "_publicationId": "81a9-3dbf-dbc5-672e"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Any Movement Phase"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "You can only use this ability if you have not used any **^^Blood Tithe^^** abilities this turn. Spend 8 **blood tithe points**."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "Pick 1 of the following effects:\n• Add 1 to the Attacks characteristic of melee weapons used by friendly **^^Blades of Khorne^^** units for the rest of the battle.\n• Pick a friendly non-**^^Unique Bloodthirster^^** unit that has been destroyed. Set up an identical replacement unit on the battlefield more than 9\" from all enemy units."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_typeId": "12e8-3214-7d8f-1d0f",
-                    "__text": "**^^Blood Tithe^^**"
-                  }
-                ]
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Any Movement Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "You can only use this ability if you have not used any **^^Blood Tithe^^** abilities this phase. Spend 8 **blood tithe points**."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "Pick 1 of the following effects:\n• Add 1 to the Attacks characteristic of melee weapons used by friendly **^^Blades of Khorne^^** units for the rest of the battle.\n• Pick a friendly non-**^^Unique Bloodthirster^^** unit that has been destroyed. Set up an identical replacement unit on the battlefield more than 9\" from all enemy units."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f",
+                      "__text": "**^^Blood Tithe^^**"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Slaughter Triumphant",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "1a6e-f758-dbdd-5e66",
+                "_publicationId": "81a9-3dbf-dbc5-672e"
               },
-              "_name": "Slaughter Triumphant",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Any Movement Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "You can only use this ability if you have not used any **^^Blood Tithe^^** abilities this phase. Spend 1 **blood tithe point** and pick a friendly **^^Blades of Khorne^^** unit that is not in combat to be the target."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "The target can move 3\". It can move into combat."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f",
+                      "__text": "**^^Blood Tithe^^**, **^^Move^^**"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Murderlust",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "7be9-f0a5-620c-5de2",
+                "_publicationId": "81a9-3dbf-dbc5-672e"
+              }
+            ]
+          },
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Reference",
               "_hidden": "false",
-              "_id": "1a6e-f758-dbdd-5e66",
-              "_publicationId": "81a9-3dbf-dbc5-672e"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Any Movement Phase"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "You can only use this ability if you have not used any **^^Blood Tithe^^** abilities this turn. Spend 1 **blood tithe point** and pick a friendly **^^Blades of Khorne^^** unit that is not in combat to be the target."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "The target can move 3\". It can move into combat."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_typeId": "12e8-3214-7d8f-1d0f",
-                    "__text": "**^^Blood Tithe^^**, **^^Move^^**"
-                  }
-                ]
-              },
-              "_name": "Murderlust",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
-              "_hidden": "false",
-              "_id": "7be9-f0a5-620c-5de2",
-              "_publicationId": "81a9-3dbf-dbc5-672e"
+              "_id": "42dd-d6e7-9620-968e",
+              "_targetId": "3360-1158-e879-9606",
+              "_primary": "true"
             }
-          ]
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Battle Traits: Blades of Khorne",
+          "_hidden": "false",
+          "_id": "1c5d-907-fd0c-c8a4"
         },
-        "categoryLinks": {
-          "categoryLink": {
-            "_name": "Reference",
-            "_hidden": "false",
-            "_id": "42dd-d6e7-9620-968e",
-            "_targetId": "3360-1158-e879-9606",
-            "_primary": "true"
-          }
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "76bf-8126-64d4-c709",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Chanting Value",
+                    "_typeId": "f192-6780-8138-9cef",
+                    "__text": "4"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "284c-90b2-245b-adf3",
+                    "__text": "Pick a friendly **^^Blades of Khorne Priest^^** to chant this prayer, pick a visible enemy unit within 18\" of them to be the target, then make a chanting roll of D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "6219-6fcc-5ae2-a6b7",
+                    "__text": "Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target. In addition, if the chanting roll was 8+, subtract 1 from wound rolls for the target until the start of your next turn."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "e3d8-f58b-e4e0-8e9d",
+                    "__text": "**^^Prayer^^**"
+                  }
+                ]
+              },
+              "_name": "Blood Boil",
+              "_typeId": "5946-234-d7b4-6195",
+              "_typeName": "Ability (Prayer)",
+              "_hidden": "false",
+              "_id": "7110-35e0-803b-2487"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Blood Boil",
+          "_hidden": "false",
+          "_id": "ae0d-8932-1358-f9c4"
         },
-        "_type": "upgrade",
-        "_import": "true",
-        "_name": "Battle Traits: Blades of Khorne",
-        "_hidden": "false",
-        "_id": "1c5d-907-fd0c-c8a4"
-      }
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "76bf-8126-64d4-c709",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Chanting Value",
+                    "_typeId": "f192-6780-8138-9cef",
+                    "__text": "5"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "284c-90b2-245b-adf3",
+                    "__text": "Pick a friendly **^^Blades of Khorne Priest^^** to chant this prayer, pick a visible friendly **^^Blades of Khorne^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "6219-6fcc-5ae2-a6b7",
+                    "__text": "Add 1 to the Rend characteristic of the target’s melee weapons for the rest of the turn. In addition, if the chanting roll was 10+, add 1 to wound rolls for the target’s attacks for the rest of the turn."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "e3d8-f58b-e4e0-8e9d",
+                    "__text": "**^^Prayer^^**, **^^Unlimited^^**"
+                  }
+                ]
+              },
+              "_name": "Unholy Flames",
+              "_typeId": "5946-234-d7b4-6195",
+              "_typeName": "Ability (Prayer)",
+              "_hidden": "false",
+              "_id": "ce16-4ab0-2908-305f"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Unholy Flames",
+          "_hidden": "false",
+          "_id": "461b-664a-6005-b2b2"
+        },
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "76bf-8126-64d4-c709",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Chanting Value",
+                    "_typeId": "f192-6780-8138-9cef",
+                    "__text": "4"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "284c-90b2-245b-adf3",
+                    "__text": "Pick a friendly **^^Blades of Khorne Priest^^** to chant this prayer, pick a visible enemy **^^Wizard^^** within 18\" of them to be the target, then make a chanting roll of D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "6219-6fcc-5ae2-a6b7",
+                    "__text": "Subtract 1 from the target’s power level, to a minimum of 0, until the end of your next turn. In addition, if the chanting roll was 8+, inflict 3 mortal damage on the target."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "e3d8-f58b-e4e0-8e9d",
+                    "__text": "**^^Prayer^^**"
+                  }
+                ]
+              },
+              "_name": "Witchbane Curse",
+              "_typeId": "5946-234-d7b4-6195",
+              "_typeName": "Ability (Prayer)",
+              "_hidden": "false",
+              "_id": "3951-df2c-1c3a-2943"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Witchbane Curse",
+          "_hidden": "false",
+          "_id": "6062-ef2a-d346-dc58"
+        },
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "76bf-8126-64d4-c709",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Chanting Value",
+                    "_typeId": "f192-6780-8138-9cef",
+                    "__text": "4"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "284c-90b2-245b-adf3",
+                    "__text": "If there is not a friendly **Wrath-axe** on the battlefield, pick a friendly **^^Blades of Khorne Priest^^** to chant this prayer, then make a chanting roll of D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "6219-6fcc-5ae2-a6b7",
+                    "__text": "Set up a **Wrath-axe** wholly within 12\" of the chanter, visible to them and more than 9\" from all enemy units."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "e3d8-f58b-e4e0-8e9d",
+                    "__text": "**^^Prayer^^**, **^^Summon^^**"
+                  }
+                ]
+              },
+              "_name": "Summon Wrath-axe",
+              "_typeId": "5946-234-d7b4-6195",
+              "_typeName": "Ability (Prayer)",
+              "_hidden": "false",
+              "_id": "fd45-a955-74b-78f"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "constraints": {
+                "constraint": [{
+                    "_type": "min",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "parent",
+                    "_shared": "true",
+                    "_id": "233f-3c96-6ea1-8387"
+                  },
+                  {
+                    "_type": "max",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "parent",
+                    "_shared": "true",
+                    "_id": "128d-bc3b-c11c-6f44"
+                  }
+                ]
+              },
+              "_import": "true",
+              "_name": "Wrath-axe",
+              "_hidden": "false",
+              "_id": "8916-2f45-98e8-eb78",
+              "_type": "selectionEntry",
+              "_targetId": "2186-5d86-2a34-1f6e"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Summon Wrath-axe",
+          "_hidden": "false",
+          "_id": "f0fa-c95e-a7a7-d002"
+        },
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "76bf-8126-64d4-c709",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Chanting Value",
+                    "_typeId": "f192-6780-8138-9cef",
+                    "__text": "4"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "284c-90b2-245b-adf3",
+                    "__text": "If there is not a friendly **Hexgorger Skulls** invocation on the battlefield, pick a friendly **^^Blades of Khorne Priest^^** to chant this prayer, then make a chanting roll of D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "6219-6fcc-5ae2-a6b7",
+                    "__text": "Set up a **Hexgorger Skulls** invocation wholly within 12\" of the chanter, visible to them and more than 9\" from all enemy units. A **Hexgorger Skulls** invocation has 2 parts that must be set up within 8\" of each other."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "e3d8-f58b-e4e0-8e9d",
+                    "__text": "**^^Prayer^^**, **^^Summon^^**"
+                  }
+                ]
+              },
+              "_name": "Summon Hexgorger Skulls",
+              "_typeId": "5946-234-d7b4-6195",
+              "_typeName": "Ability (Prayer)",
+              "_hidden": "false",
+              "_id": "b6a5-476a-e7d5-9ceb"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "constraints": {
+                "constraint": [{
+                    "_type": "min",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "parent",
+                    "_shared": "true",
+                    "_id": "5f0a-edc1-d443-391f"
+                  },
+                  {
+                    "_type": "max",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "parent",
+                    "_shared": "true",
+                    "_id": "9672-c18a-c4d2-1345"
+                  }
+                ]
+              },
+              "_import": "true",
+              "_name": "Hexgorger Skulls",
+              "_hidden": "false",
+              "_id": "592f-5799-9831-e559",
+              "_type": "selectionEntry",
+              "_targetId": "8499-3fb6-56fa-7b71"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Summon Hexgorger Skulls",
+          "_hidden": "false",
+          "_id": "f3d8-9787-5f75-6e77"
+        },
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "76bf-8126-64d4-c709",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Chanting Value",
+                    "_typeId": "f192-6780-8138-9cef",
+                    "__text": "4"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "284c-90b2-245b-adf3",
+                    "__text": "If there is not a friendly **Bleeding Icon** on the battlefield, pick a friendly **^^Blades of Khorne Priest^^** to chant this prayer, then make a chanting roll of D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "6219-6fcc-5ae2-a6b7",
+                    "__text": "Set up a **Bleeding Icon** wholly within 12\" of the chanter and visible to them."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "e3d8-f58b-e4e0-8e9d",
+                    "__text": "**^^Prayer^^**, **^^Summon^^**"
+                  }
+                ]
+              },
+              "_name": "Summon Bleeding Icon",
+              "_typeId": "5946-234-d7b4-6195",
+              "_typeName": "Ability (Prayer)",
+              "_hidden": "false",
+              "_id": "bb76-cde-8439-1002"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "constraints": {
+                "constraint": [{
+                    "_type": "min",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "parent",
+                    "_shared": "true",
+                    "_id": "3277-ba33-f360-a421"
+                  },
+                  {
+                    "_type": "max",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "parent",
+                    "_shared": "true",
+                    "_id": "47bb-19de-d086-c10c"
+                  }
+                ]
+              },
+              "_import": "true",
+              "_name": "Bleeding Icon",
+              "_hidden": "false",
+              "_id": "154b-d89c-2a80-5515",
+              "_type": "selectionEntry",
+              "_targetId": "9cf2-1402-85ab-c410"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Summon Bleeding Icon",
+          "_hidden": "false",
+          "_id": "6054-e84b-763c-2055"
+        }
+      ]
     },
     "catalogueLinks": {
-      "catalogueLink": {
-        "_type": "catalogue",
-        "_name": "Blades of Khorne - Library",
-        "_id": "e001-ff8c-e9dc-5555",
-        "_targetId": "6887-883c-79f3-9f8"
-      }
+      "catalogueLink": [{
+          "_type": "catalogue",
+          "_name": "Blades of Khorne - Library",
+          "_id": "e001-ff8c-e9dc-5555",
+          "_targetId": "6887-883c-79f3-9f8"
+        },
+        {
+          "_type": "catalogue",
+          "_name": "Path to Glory - Ravaged Coast",
+          "_id": "eb87-eb99-d57c-0fb9",
+          "_importRootEntries": "true",
+          "_targetId": "a434-b1ba-922b-7624"
+        }
+      ]
     },
     "categoryEntries": {
       "categoryEntry": [{
@@ -1086,6 +1393,11 @@
         {
           "_name": "Slaughter Seeker",
           "_id": "67bd-e89-e604-d3ab",
+          "_hidden": "false"
+        },
+        {
+          "_name": "Baleful Lord",
+          "_id": "92d4-ce46-a0f2-3df6",
           "_hidden": "false"
         }
       ]
@@ -1142,11 +1454,27 @@
           "modifierGroups": {
             "modifierGroup": {
               "modifiers": {
-                "modifier": {
-                  "_type": "add",
-                  "_value": "67bd-e89-e604-d3ab",
-                  "_field": "category"
-                }
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "9a4a-9555-d827-3700",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "greaterThan",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "9a4a-9555-d827-3700",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "e071-2d6b-b6e-66c9"
+                  }
+                ]
               },
               "conditions": {
                 "condition": {
@@ -1165,7 +1493,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "90"
             }
           },
           "entryLinks": {
@@ -1184,6 +1512,22 @@
                 "_id": "d60e-33be-8dd3-9cff",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a357-4cbf-d348-1134"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "0ce2-0652-062d-17d9",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "9f3b-1857-9a97-1361",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -1250,6 +1594,22 @@
                 "_id": "d0e3-77cf-bc37-ec06",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "e226-c8f1-7ac3-24c8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "3a01-fbd3-d553-18e6",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -1311,11 +1671,27 @@
           "modifierGroups": {
             "modifierGroup": {
               "modifiers": {
-                "modifier": {
-                  "_type": "add",
-                  "_value": "67bd-e89-e604-d3ab",
-                  "_field": "category"
-                }
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "9a4a-9555-d827-3700",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "greaterThan",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "9a4a-9555-d827-3700",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "1282-578a-ae7c-429b"
+                  }
+                ]
               },
               "conditions": {
                 "condition": {
@@ -1334,7 +1710,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "130"
             }
           },
           "entryLinks": {
@@ -1353,6 +1729,22 @@
                 "_id": "e001-df91-2340-6373",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "52d3-a4a0-b2a4-1631",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "8794-777b-48e8-b9df",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -1414,11 +1806,27 @@
           "modifierGroups": {
             "modifierGroup": {
               "modifiers": {
-                "modifier": {
-                  "_type": "add",
-                  "_value": "67bd-e89-e604-d3ab",
-                  "_field": "category"
-                }
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "9a4a-9555-d827-3700",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "greaterThan",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "9a4a-9555-d827-3700",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "bb81-b475-8c0a-35af"
+                  }
+                ]
               },
               "conditions": {
                 "condition": {
@@ -1456,6 +1864,22 @@
                 "_id": "df9d-3aa5-fb1c-3521",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "16b7-5c5f-a779-69cd",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "1e60-3c0c-f68e-e605",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -1471,6 +1895,21 @@
             "modifier": {
               "conditionGroups": {
                 "conditionGroup": {
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": {
+                          "_type": "lessThan",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "force",
+                          "_childId": "2276-240a-fde6-d60a",
+                          "_shared": "true"
+                        }
+                      },
+                      "_type": "and"
+                    }
+                  },
                   "conditions": {
                     "condition": {
                       "_type": "instanceOf",
@@ -1522,8 +1961,63 @@
                 "_id": "c779-299c-dd31-c089",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "b5b5-9074-e4ef-3178",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "374a-c978-e287-a0a1",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "92d4-ce46-a0f2-3df6",
+                    "_field": "category",
+                    "_affects": ""
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "greaterThan",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "92d4-ce46-a0f2-3df6",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "9be8-2506-9f08-9de9"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
+            }
           },
           "_import": "true",
           "_name": "Bloodthirster of Insensate Rage",
@@ -1537,6 +2031,21 @@
             "modifier": {
               "conditionGroups": {
                 "conditionGroup": {
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": {
+                          "_type": "lessThan",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "force",
+                          "_childId": "2276-240a-fde6-d60a",
+                          "_shared": "true"
+                        }
+                      },
+                      "_type": "and"
+                    }
+                  },
                   "conditions": {
                     "condition": {
                       "_type": "instanceOf",
@@ -1588,8 +2097,63 @@
                 "_id": "291d-30ae-1061-ab4c",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "cfb1-44b2-515f-8f98",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "bd2e-0a5a-2f94-adb8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "92d4-ce46-a0f2-3df6",
+                    "_field": "category",
+                    "_affects": ""
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "greaterThan",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "92d4-ce46-a0f2-3df6",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "6a1-da35-b4-9492"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
+            }
           },
           "_import": "true",
           "_name": "Bloodthirster of Unfettered Fury",
@@ -1649,11 +2213,27 @@
           "modifierGroups": {
             "modifierGroup": {
               "modifiers": {
-                "modifier": {
-                  "_type": "add",
-                  "_value": "67bd-e89-e604-d3ab",
-                  "_field": "category"
-                }
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "9a4a-9555-d827-3700",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "greaterThan",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "9a4a-9555-d827-3700",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "54a0-1ea6-584a-bc02"
+                  }
+                ]
               },
               "conditions": {
                 "condition": {
@@ -1691,6 +2271,22 @@
                 "_id": "32e3-7990-df43-a3e6",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "3c57-d304-5a9a-2020",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "91cd-6ca2-0e3f-8096",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -1757,6 +2353,22 @@
                 "_id": "8c67-8b8a-7ebc-35c2",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "8af2-8ebf-ef94-b21a",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "ac50-8b64-c941-20b6",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -1773,14 +2385,23 @@
               "conditionGroups": {
                 "conditionGroup": {
                   "conditions": {
-                    "condition": {
-                      "_type": "instanceOf",
-                      "_value": "1",
-                      "_field": "selections",
-                      "_scope": "ancestor",
-                      "_childId": "376a-6b97-8699-dd59",
-                      "_shared": "true"
-                    }
+                    "condition": [{
+                        "_type": "instanceOf",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "ancestor",
+                        "_childId": "376a-6b97-8699-dd59",
+                        "_shared": "true"
+                      },
+                      {
+                        "_type": "lessThan",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "e0c4-7af2-b0a2-4718",
+                        "_shared": "true"
+                      }
+                    ]
                   },
                   "_type": "and"
                 }
@@ -1804,7 +2425,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "110"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "65fd-e144-9ce6-413a",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6dcf-7de6-0f0f-bfc6"
             }
           },
           "_import": "true",
@@ -1870,6 +2501,22 @@
                 "_id": "c998-f9e7-4001-7ce4",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "f037-7bf5-d7f6-55fb",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "f7b5-f42b-6eb3-6b36",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -1886,14 +2533,23 @@
               "conditionGroups": {
                 "conditionGroup": {
                   "conditions": {
-                    "condition": {
-                      "_type": "instanceOf",
-                      "_value": "1",
-                      "_field": "selections",
-                      "_scope": "ancestor",
-                      "_childId": "376a-6b97-8699-dd59",
-                      "_shared": "true"
-                    }
+                    "condition": [{
+                        "_type": "instanceOf",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "ancestor",
+                        "_childId": "376a-6b97-8699-dd59",
+                        "_shared": "true"
+                      },
+                      {
+                        "_type": "lessThan",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "e1c8-45a4-88d-972a",
+                        "_shared": "true"
+                      }
+                    ]
                   },
                   "_type": "and"
                 }
@@ -1917,7 +2573,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "130"
             }
           },
           "entryLinks": {
@@ -1936,6 +2592,22 @@
                 "_id": "f6d9-db7c-2932-fb4d",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "335d-c443-ce3b-2f13",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "70b2-0928-27a7-4619",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -2002,6 +2674,22 @@
                 "_id": "bcd4-b8b4-6f77-9a82",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "8df5-f4ee-b72c-8cbb",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "4f68-e38d-315d-2ba9",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -2049,7 +2737,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "490"
+              "_value": "470"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "5abb-a146-07e1-04dc",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6dcf-7de6-0f0f-bfc6"
             }
           },
           "_import": "true",
@@ -2097,6 +2795,16 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "150"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "ed13-8f3e-a99f-d48d",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6dcf-7de6-0f0f-bfc6"
             }
           },
           "_import": "true",
@@ -2237,7 +2945,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "130"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "4032-2046-c8e0-be2b",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6dcf-7de6-0f0f-bfc6"
             }
           },
           "_import": "true",
@@ -2298,11 +3016,27 @@
           "modifierGroups": {
             "modifierGroup": {
               "modifiers": {
-                "modifier": {
-                  "_type": "add",
-                  "_value": "67bd-e89-e604-d3ab",
-                  "_field": "category"
-                }
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "9a4a-9555-d827-3700",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "greaterThan",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "9a4a-9555-d827-3700",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "291d-9734-7560-ced1"
+                  }
+                ]
               },
               "conditions": {
                 "condition": {
@@ -2340,6 +3074,22 @@
                 "_id": "15f3-f100-08f1-b46c",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "a019-2a11-b185-910f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "cce6-5fc3-e0b4-66c8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -2387,7 +3137,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "150"
             }
           },
           "entryLinks": {
@@ -2406,6 +3156,22 @@
                 "_id": "b264-5e2a-c66e-4498",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "8df6-2260-189e-4ffe",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "c274-eb0e-4ffa-7274",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -2472,6 +3238,22 @@
                 "_id": "557a-c335-aa92-97c7",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "b281-e59f-7e11-efef",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "3b25-a0ba-a694-3628",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -2538,6 +3320,22 @@
                 "_id": "7aa3-0155-5065-d1bb",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "66fb-234e-828b-79a6",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "b66c-c7cb-a2d7-88ae",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -2581,6 +3379,22 @@
                 "_id": "f5d6-156c-bab1-5cd4",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "1cde-6be4-c3be-b719",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "cdce-f9be-62a6-007c",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -2605,7 +3419,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "90"
             }
           },
           "entryLinks": {
@@ -2624,6 +3438,22 @@
                 "_id": "2d8a-08b4-2da8-23af",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "35e8-f262-54e6-bf9c",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "97f6-f4ab-accc-be73",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -2667,6 +3497,22 @@
                 "_id": "6873-cafb-dc10-1700",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "15ce-beef-2d9a-6123",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "832e-e2e8-e2d0-ca7d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -2691,7 +3537,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "130"
             }
           },
           "entryLinks": {
@@ -2710,6 +3556,22 @@
                 "_id": "7181-d8fe-fc37-4a7d",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "b702-7f8a-7a92-f7c4",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "ce1c-00bd-48bf-3a7d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -2753,6 +3615,22 @@
                 "_id": "10bc-ddd0-e451-8694",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "ff4f-21c7-c2e7-c9b1",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "a500-edf7-1f1b-1bb3",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -2796,6 +3674,22 @@
                 "_id": "8e89-aac0-116a-118d",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "71b2-cfc1-cf2a-4a44",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "0729-4ce6-8603-6d2c",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -2839,6 +3733,22 @@
                 "_id": "dc88-5b09-5bba-96ab",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "260f-56ce-2e09-275b",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "79e5-9e54-cf9f-1d25",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -2882,6 +3792,22 @@
                 "_id": "ee45-b41e-0599-05b7",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "da68-911c-ba6b-0bb6",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "09d3-dc77-738d-f978",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -2925,6 +3851,22 @@
                 "_id": "3731-ac01-3e3e-37c4",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "1193-1f8e-641e-cfea",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "8d40-79d3-def9-045d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -2949,7 +3891,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "110"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "056c-33e6-e5af-bb04",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6dcf-7de6-0f0f-bfc6"
             }
           },
           "_import": "true",
@@ -2992,6 +3944,22 @@
                 "_id": "c2fe-d6ba-a941-e01b",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "fff4-607d-22c1-128f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "94d9-77a8-8464-9274",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -3016,7 +3984,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "130"
             }
           },
           "entryLinks": {
@@ -3035,6 +4003,22 @@
                 "_id": "8e4e-c538-cf36-b37e",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "e9df-e6eb-8d5c-95ac",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "b118-567a-81a7-25a1",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -3078,6 +4062,22 @@
                 "_id": "25f6-1851-34a4-d09d",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "58e9-16ac-2265-7a36",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "181d-b7d2-bd30-ecb4",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -3102,7 +4102,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "490"
+              "_value": "470"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "4a19-3360-ffc9-1e26",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6dcf-7de6-0f0f-bfc6"
             }
           },
           "_import": "true",
@@ -3127,6 +4137,16 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "150"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "7bc4-26a8-ab78-d1ca",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6dcf-7de6-0f0f-bfc6"
             }
           },
           "_import": "true",
@@ -3169,6 +4189,22 @@
                 "_id": "6b9e-2e73-78c5-2153",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "61c4-6c54-ab52-a8dd",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "7966-ec53-2981-1225",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -3193,7 +4229,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "150"
             }
           },
           "entryLinks": {
@@ -3212,6 +4248,22 @@
                 "_id": "50ff-152e-de92-0e92",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "7dd5-df9c-4fae-7660",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "3766-5143-f32e-5897",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -3236,7 +4288,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "130"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "61f1-e399-426a-492c",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6dcf-7de6-0f0f-bfc6"
             }
           },
           "_import": "true",
@@ -3279,6 +4341,22 @@
                 "_id": "2c68-8784-798b-6835",
                 "_type": "selectionEntryGroup",
                 "_targetId": "1ede-f90-a661-b6c2"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "b5ef-bdc1-3211-d3f8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "92aa-0ed7-e43a-df96",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
               }
             ]
           },
@@ -3310,14 +4388,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "57c5-331b-e694-78fe",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "57c5-331b-e694-78fe",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "a60c-0b7d-b91d-d046",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "cd72-9525-4ef5-1ef7",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -3554,6 +4649,14 @@
                               "_scope": "force",
                               "_childId": "d4b7-ee4a-45ab-18c7",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "e0c4-7af2-b0a2-4718",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -3595,20 +4698,37 @@
             ]
           },
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "c5dd-6704-b9e-36f1",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "c5dd-6704-b9e-36f1",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "e4ed-ad4e-22e6-4f6b",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "e164-9295-84af-e1c6",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
+              }
+            ]
           },
           "costs": {
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "200"
+              "_value": "180"
             }
           },
           "_import": "true",
@@ -3681,6 +4801,14 @@
                               "_scope": "force",
                               "_childId": "2276-240a-fde6-d60a",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "e0c4-7af2-b0a2-4718",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -3722,14 +4850,31 @@
             ]
           },
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "fdf6-c2c8-6b4a-f1a4",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "fdf6-c2c8-6b4a-f1a4",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "0650-6d29-f310-f34d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "1028-7cef-38ef-e0ed",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
+              }
+            ]
           },
           "costs": {
             "cost": {
@@ -3897,14 +5042,31 @@
             ]
           },
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "94d0-5ad2-47cf-54ca",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "94d0-5ad2-47cf-54ca",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "54d7-2d47-423e-484d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "77f5-d6a9-4ae6-2837",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
+              }
+            ]
           },
           "costs": {
             "cost": {
@@ -3991,6 +5153,14 @@
                               "_scope": "force",
                               "_childId": "2276-240a-fde6-d60a",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "e0c4-7af2-b0a2-4718",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -4032,14 +5202,31 @@
             ]
           },
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "f932-8d29-d513-9abf",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "f932-8d29-d513-9abf",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "c39c-788d-430b-1db2",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "af99-21ae-898e-8262",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
+              }
+            ]
           },
           "costs": {
             "cost": {
@@ -4194,8 +5381,27 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "130"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "5157-97c8-343c-cac9",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "c991-2206-3f46-386d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Khorgorath",
@@ -4370,6 +5576,25 @@
               "_value": "110"
             }
           },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "741b-6ee6-7309-7ba8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "864b-a8bb-ebac-a157",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
+              }
+            ]
+          },
           "_import": "true",
           "_name": "Claws of Karanak",
           "_hidden": "false",
@@ -4448,6 +5673,14 @@
                               "_scope": "force",
                               "_childId": "2276-240a-fde6-d60a",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "e0c4-7af2-b0a2-4718",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -4494,6 +5727,25 @@
               "_typeId": "points",
               "_value": "170"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "8d08-2f9a-4a98-1984",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "382f-09cb-4790-d2bf",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Skull Cannon",
@@ -4654,14 +5906,31 @@
             ]
           },
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "52fc-b2c7-d5d-f36b",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "52fc-b2c7-d5d-f36b",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "ec1c-0a8c-6858-8f93",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "12a3-30f2-bcb7-64d8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
+              }
+            ]
           },
           "costs": {
             "cost": {
@@ -4829,20 +6098,37 @@
             ]
           },
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "90a7-f723-d69a-74ea",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "90a7-f723-d69a-74ea",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "48ba-7073-1aef-ce6c",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "00ef-311f-5639-da4f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
+              }
+            ]
           },
           "costs": {
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "250"
+              "_value": "220"
             }
           },
           "_import": "true",
@@ -4892,6 +6178,16 @@
               "_value": "180"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "9a43-251c-ba2e-e010",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6dcf-7de6-0f0f-bfc6"
+            }
+          },
           "_import": "true",
           "_name": "Valkia the Bloody",
           "_hidden": "false",
@@ -4916,6 +6212,16 @@
               "_value": "180"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "ed05-7d6f-f0af-b897",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6dcf-7de6-0f0f-bfc6"
+            }
+          },
           "_import": "true",
           "_name": "Valkia the Bloody",
           "_hidden": "false",
@@ -4938,6 +6244,16 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "130"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "a176-e055-a094-0a89",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6dcf-7de6-0f0f-bfc6"
             }
           },
           "_import": "true",
@@ -4985,6 +6301,16 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "130"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "d059-5eab-d60a-293c",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6dcf-7de6-0f0f-bfc6"
             }
           },
           "_import": "true",
@@ -5216,6 +6542,16 @@
               "_value": "70"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "3d66-27b3-2d5f-322f",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6dcf-7de6-0f0f-bfc6"
+            }
+          },
           "_import": "true",
           "_name": "Garrek's Reavers",
           "_hidden": "false",
@@ -5443,6 +6779,16 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "190"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "e7fe-928d-38dd-193b",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6dcf-7de6-0f0f-bfc6"
             }
           },
           "_import": "true",
@@ -5674,6 +7020,16 @@
               "_value": "120"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "3151-b9db-2a62-ee22",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6dcf-7de6-0f0f-bfc6"
+            }
+          },
           "_import": "true",
           "_name": "Magore's Fiends",
           "_hidden": "false",
@@ -5833,20 +7189,37 @@
             ]
           },
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "150e-f9bb-aa5c-9578",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "150e-f9bb-aa5c-9578",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "a2b2-1506-49c3-92c4",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8e28-9445-463a-5883"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "fe95-afa7-87df-e038",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6dcf-7de6-0f0f-bfc6"
+              }
+            ]
           },
           "costs": {
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -5958,10 +7331,27 @@
               "_primary": "true"
             }
           },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "force",
+                  "_childId": "f079-501a-2738-6844",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
           "_type": "upgrade",
           "_import": "true",
           "_name": "Manifestation Lore",
-          "_hidden": "false",
+          "_hidden": "true",
           "_id": "a922-7fde-6ec4-ca6",
           "_defaultAmount": "1"
         },
@@ -6006,11 +7396,246 @@
               "_collective": "false"
             }
           },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "force",
+                  "_childId": "f079-501a-2738-6844",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
           "_type": "upgrade",
           "_import": "true",
           "_name": "Prayer Lore",
-          "_hidden": "false",
+          "_hidden": "true",
           "_id": "8e85-b771-83c7-9afc",
+          "_defaultAmount": "1"
+        },
+        {
+          "constraints": {
+            "constraint": [{
+                "_type": "min",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "roster",
+                "_shared": "true",
+                "_id": "d8b0-01ad-5b8f-09eb"
+              },
+              {
+                "_type": "max",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "roster",
+                "_shared": "true",
+                "_id": "bb03-1e37-e9e8-84e1"
+              }
+            ]
+          },
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Army Composition",
+              "_hidden": "false",
+              "_id": "ec62-91cc-0936-b979",
+              "_targetId": "ac97-b27c-7e35-7ab9",
+              "_primary": "true"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "selectionEntryGroups": {
+            "selectionEntryGroup": {
+              "selectionEntryGroups": {
+                "selectionEntryGroup": [{
+                    "entryLinks": {
+                      "entryLink": [{
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "0358-a78b-af60-eef0"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "Witchbane Curse",
+                          "_hidden": "false",
+                          "_id": "daf6-97eb-b174-caa9",
+                          "_type": "selectionEntry",
+                          "_targetId": "6062-ef2a-d346-dc58"
+                        },
+                        {
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "0677-3e1b-f04d-a46d"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "Blood Boil",
+                          "_hidden": "false",
+                          "_id": "8bbe-33b0-cd0d-224d",
+                          "_type": "selectionEntry",
+                          "_targetId": "ae0d-8932-1358-f9c4"
+                        },
+                        {
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "b5fd-b1ce-c4b1-1300"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "Unholy Flames",
+                          "_hidden": "false",
+                          "_id": "de7c-4428-09bd-3f56",
+                          "_type": "selectionEntry",
+                          "_targetId": "461b-664a-6005-b2b2"
+                        }
+                      ]
+                    },
+                    "_name": "Blood Blessings of Khorne",
+                    "_id": "6a9c-a215-ca68-898c",
+                    "_hidden": "false"
+                  },
+                  {
+                    "entryLinks": {
+                      "entryLink": [{
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "0451-db5c-e6fa-0495"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "Summon Hexgorger Skulls",
+                          "_hidden": "false",
+                          "_id": "c50e-cce8-dcb7-1261",
+                          "_type": "selectionEntry",
+                          "_targetId": "f3d8-9787-5f75-6e77"
+                        },
+                        {
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "ea7a-6b85-6ed1-4182"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "Summon Wrath-axe",
+                          "_hidden": "false",
+                          "_id": "41bf-9dd2-0a99-4950",
+                          "_type": "selectionEntry",
+                          "_targetId": "f0fa-c95e-a7a7-d002"
+                        },
+                        {
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "6738-10a4-1cf4-4b6e"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "Summon Bleeding Icon",
+                          "_hidden": "false",
+                          "_id": "9c63-d351-53d2-623f",
+                          "_type": "selectionEntry",
+                          "_targetId": "6054-e84b-763c-2055"
+                        }
+                      ]
+                    },
+                    "_name": "Judgements of Khorne",
+                    "_id": "17d6-f0b9-76f2-1d29",
+                    "_hidden": "false"
+                  }
+                ]
+              },
+              "constraints": {
+                "constraint": {
+                  "_type": "max",
+                  "_value": "6",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_shared": "true",
+                  "_id": "9a88-8dda-5b96-0f04"
+                }
+              },
+              "entryLinks": {
+                "entryLink": [{
+                    "_import": "true",
+                    "_name": "Spell Lores",
+                    "_hidden": "false",
+                    "_id": "f366-357c-a245-619d",
+                    "_type": "selectionEntryGroup",
+                    "_targetId": "0bcf-1704-aaff-2b45",
+                    "_flatten": "true"
+                  },
+                  {
+                    "_import": "true",
+                    "_name": "Prayer Lores",
+                    "_hidden": "false",
+                    "_id": "5653-2b00-aafc-2667",
+                    "_type": "selectionEntryGroup",
+                    "_targetId": "123c-ec0f-04eb-41d5",
+                    "_flatten": "true"
+                  }
+                ]
+              },
+              "_name": "",
+              "_id": "e113-561d-4240-c1be",
+              "_hidden": "false"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Arcane Tome",
+          "_hidden": "true",
+          "_id": "b51d-2aae-ac7b-4c42",
           "_defaultAmount": "1"
         }
       ]
@@ -6021,7 +7646,7 @@
     "_name": "Blades of Khorne",
     "_gameSystemId": "e51d-b1a3-75fc-dc3g",
     "_gameSystemRevision": "2",
-    "_revision": "1",
+    "_revision": "3",
     "_battleScribeVersion": "2.03",
     "_type": "catalogue"
   }

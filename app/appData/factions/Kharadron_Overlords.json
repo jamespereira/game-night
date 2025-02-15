@@ -1,12 +1,20 @@
 {
   "catalogue": {
     "catalogueLinks": {
-      "catalogueLink": {
-        "_type": "catalogue",
-        "_name": "Library - Kharadron Overlords",
-        "_id": "c4eb-4566-cf00-726c",
-        "_targetId": "7e5e-7934-c23b-c35e"
-      }
+      "catalogueLink": [{
+          "_type": "catalogue",
+          "_name": "Kharadron Overlords - Library",
+          "_id": "c4eb-4566-cf00-726c",
+          "_targetId": "7e5e-7934-c23b-c35e"
+        },
+        {
+          "_type": "catalogue",
+          "_name": "Path to Glory - Ravaged Coast",
+          "_id": "a944-d6c3-2091-dd73",
+          "_importRootEntries": "true",
+          "_targetId": "a434-b1ba-922b-7624"
+        }
+      ]
     },
     "sharedSelectionEntries": {
       "selectionEntry": {
@@ -20,7 +28,7 @@
                   {
                     "_name": "Effect",
                     "_typeId": "fd7f-888d-3257-a12b",
-                    "__text": "Subtract 1 from hit rolls for shooting attacks that target friendly **^^Kharadron Overlords Infantry^^** units while they are wholly within 6\" of a friendly **Arkanaut Ironclad** or **Arkanaut Frigate**."
+                    "__text": "Subtract 1 from hit rolls for attacks that target friendly **^^Kharadron Overlords Infantry^^** units while they are wholly within 6\" of a friendly **Arkanaut Ironclad** or **Arkanaut Frigate**."
                   }
                 ]
               },
@@ -52,6 +60,10 @@
                     "_name": "Keywords",
                     "_typeId": "12e8-3214-7d8f-1d0f",
                     "__text": "**^^Deploy^^**"
+                  },
+                  {
+                    "_name": "Used By",
+                    "_typeId": "1b32-c9d6-3106-166b"
                   }
                 ]
               },
@@ -82,6 +94,10 @@
                   {
                     "_name": "Keywords",
                     "_typeId": "12e8-3214-7d8f-1d0f"
+                  },
+                  {
+                    "_name": "Used By",
+                    "_typeId": "1b32-c9d6-3106-166b"
                   }
                 ]
               },
@@ -112,6 +128,10 @@
                   {
                     "_name": "Keywords",
                     "_typeId": "12e8-3214-7d8f-1d0f"
+                  },
+                  {
+                    "_name": "Used By",
+                    "_typeId": "1b32-c9d6-3106-166b"
                   }
                 ]
               },
@@ -167,6 +187,10 @@
                             {
                               "_name": "Keywords",
                               "_typeId": "12e8-3214-7d8f-1d0f"
+                            },
+                            {
+                              "_name": "Used By",
+                              "_typeId": "1b32-c9d6-3106-166b"
                             }
                           ]
                         },
@@ -216,6 +240,10 @@
                             {
                               "_name": "Keywords",
                               "_typeId": "12e8-3214-7d8f-1d0f"
+                            },
+                            {
+                              "_name": "Used By",
+                              "_typeId": "1b32-c9d6-3106-166b"
                             }
                           ]
                         },
@@ -266,6 +294,10 @@
                             {
                               "_name": "Keywords",
                               "_typeId": "12e8-3214-7d8f-1d0f"
+                            },
+                            {
+                              "_name": "Used By",
+                              "_typeId": "1b32-c9d6-3106-166b"
                             }
                           ]
                         },
@@ -322,6 +354,17 @@
               "_includeChildSelections": "true"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Artefacts of Power",
+              "_hidden": "false",
+              "_id": "f296-3cdf-4534-0a2b",
+              "_type": "selectionEntryGroup",
+              "_targetId": "e1b2-cedf-56a5-6bb1",
+              "_flatten": "true"
+            }
+          },
           "_name": "Artefacts of Power",
           "_id": "8729-9ec4-fe73-ef22",
           "_hidden": "false"
@@ -359,6 +402,10 @@
                         {
                           "_name": "Keywords",
                           "_typeId": "12e8-3214-7d8f-1d0f"
+                        },
+                        {
+                          "_name": "Used By",
+                          "_typeId": "1b32-c9d6-3106-166b"
                         }
                       ]
                     },
@@ -447,6 +494,10 @@
                         {
                           "_name": "Keywords",
                           "_typeId": "12e8-3214-7d8f-1d0f"
+                        },
+                        {
+                          "_name": "Used By",
+                          "_typeId": "1b32-c9d6-3106-166b"
                         }
                       ]
                     },
@@ -588,6 +639,10 @@
                             {
                               "_name": "Keywords",
                               "_typeId": "12e8-3214-7d8f-1d0f"
+                            },
+                            {
+                              "_name": "Used By",
+                              "_typeId": "1b32-c9d6-3106-166b"
                             }
                           ]
                         },
@@ -684,9 +739,106 @@
               "_includeChildSelections": "true"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Heroic Traits",
+              "_hidden": "false",
+              "_id": "6fac-f107-2e66-0201",
+              "_type": "selectionEntryGroup",
+              "_targetId": "c437-e34c-5e1c-95e6",
+              "_flatten": "true"
+            }
+          },
           "_name": "Heroic Traits",
           "_id": "f067-97fa-4baa-58b5",
           "_hidden": "false"
+        },
+        {
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Ravaged Coast Battle Scars",
+              "_hidden": "false",
+              "_id": "e3ea-2881-b439-6b05",
+              "_type": "selectionEntryGroup",
+              "_targetId": "5559-80df-ba01-66a7",
+              "_flatten": "true"
+            }
+          },
+          "selectionEntries": {
+            "selectionEntry": {
+              "_type": "upgrade",
+              "_import": "true",
+              "_name": "Battle Wounds",
+              "_hidden": "false",
+              "_id": "d724-22d0-e13b-2b33"
+            }
+          },
+          "_name": "Battle Wounds + Scars",
+          "_id": "bc80-e576-07c4-aac3",
+          "_hidden": "true",
+          "_collapsible": "false"
+        },
+        {
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Ravaged Coast Paths",
+              "_hidden": "false",
+              "_id": "9d8f-692f-228a-244f",
+              "_type": "selectionEntryGroup",
+              "_targetId": "7bae-23cb-3977-3ece",
+              "_flatten": "true"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "1",
+              "_field": "selections",
+              "_scope": "parent",
+              "_shared": "true",
+              "_id": "2d51-ca02-4063-2d57"
+            }
+          },
+          "_name": "Paths",
+          "_id": "89d2-c6e7-76d7-b21b",
+          "_hidden": "true"
         }
       ]
     },
@@ -810,6 +962,22 @@
                 "_id": "e564-b1c0-6fba-fb81",
                 "_type": "selectionEntryGroup",
                 "_targetId": "f067-97fa-4baa-58b5"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "a514-b238-2df4-8f01",
+                "_type": "selectionEntryGroup",
+                "_targetId": "89d2-c6e7-76d7-b21b"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "c4e5-071c-4870-89fc",
+                "_type": "selectionEntryGroup",
+                "_targetId": "bc80-e576-07c4-aac3"
               }
             ]
           },
@@ -946,6 +1114,22 @@
                 "_id": "f432-2612-9f06-d362",
                 "_type": "selectionEntryGroup",
                 "_targetId": "8729-9ec4-fe73-ef22"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "931f-3b40-d732-3a7d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "89d2-c6e7-76d7-b21b"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "a1d3-c95e-567d-8f40",
+                "_type": "selectionEntryGroup",
+                "_targetId": "bc80-e576-07c4-aac3"
               }
             ]
           },
@@ -1012,6 +1196,22 @@
                 "_id": "50ce-a447-8e8c-931b",
                 "_type": "selectionEntryGroup",
                 "_targetId": "8729-9ec4-fe73-ef22"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "6372-6ad1-e016-ad58",
+                "_type": "selectionEntryGroup",
+                "_targetId": "89d2-c6e7-76d7-b21b"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "5f8b-1407-d166-42f3",
+                "_type": "selectionEntryGroup",
+                "_targetId": "bc80-e576-07c4-aac3"
               }
             ]
           },
@@ -1019,7 +1219,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "180"
+              "_value": "160"
             }
           },
           "_import": "true",
@@ -1066,7 +1266,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "270"
+              "_value": "250"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "ca40-f498-10ce-27b8",
+              "_type": "selectionEntryGroup",
+              "_targetId": "bc80-e576-07c4-aac3"
             }
           },
           "_import": "true",
@@ -1195,6 +1405,22 @@
                 "_id": "ee00-b934-bb87-85c4",
                 "_type": "selectionEntryGroup",
                 "_targetId": "8729-9ec4-fe73-ef22"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "91dc-9fac-d538-1b86",
+                "_type": "selectionEntryGroup",
+                "_targetId": "89d2-c6e7-76d7-b21b"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "0bf3-e973-2579-9378",
+                "_type": "selectionEntryGroup",
+                "_targetId": "bc80-e576-07c4-aac3"
               }
             ]
           },
@@ -1202,7 +1428,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "90"
+              "_value": "80"
             }
           },
           "_import": "true",
@@ -1249,7 +1475,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "150"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "9cbf-9bb9-ca46-a925",
+              "_type": "selectionEntryGroup",
+              "_targetId": "bc80-e576-07c4-aac3"
             }
           },
           "_import": "true",
@@ -1378,6 +1614,22 @@
                 "_id": "f646-16a2-25bc-8543",
                 "_type": "selectionEntryGroup",
                 "_targetId": "8729-9ec4-fe73-ef22"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "e8d4-5e0b-38af-f166",
+                "_type": "selectionEntryGroup",
+                "_targetId": "89d2-c6e7-76d7-b21b"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "3e57-06a0-ccb8-60c6",
+                "_type": "selectionEntryGroup",
+                "_targetId": "bc80-e576-07c4-aac3"
               }
             ]
           },
@@ -1385,7 +1637,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "220"
+              "_value": "180"
             }
           },
           "_import": "true",
@@ -1514,6 +1766,22 @@
                 "_id": "6fa7-600d-5c1e-4b4d",
                 "_type": "selectionEntryGroup",
                 "_targetId": "8729-9ec4-fe73-ef22"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "5ea1-c44e-d167-8d8c",
+                "_type": "selectionEntryGroup",
+                "_targetId": "89d2-c6e7-76d7-b21b"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "18a4-9d95-f873-5b4a",
+                "_type": "selectionEntryGroup",
+                "_targetId": "bc80-e576-07c4-aac3"
               }
             ]
           },
@@ -1557,6 +1825,22 @@
                 "_id": "297c-557d-dc8a-1887",
                 "_type": "selectionEntryGroup",
                 "_targetId": "8729-9ec4-fe73-ef22"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "59bc-1b29-fcdd-0d9e",
+                "_type": "selectionEntryGroup",
+                "_targetId": "89d2-c6e7-76d7-b21b"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "84f3-ce91-19fd-a14b",
+                "_type": "selectionEntryGroup",
+                "_targetId": "bc80-e576-07c4-aac3"
               }
             ]
           },
@@ -1600,6 +1884,22 @@
                 "_id": "4f89-2279-cbec-3ff4",
                 "_type": "selectionEntryGroup",
                 "_targetId": "8729-9ec4-fe73-ef22"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "a8fb-d8fc-b9e4-09da",
+                "_type": "selectionEntryGroup",
+                "_targetId": "89d2-c6e7-76d7-b21b"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "8f9c-1e1c-9940-b47f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "bc80-e576-07c4-aac3"
               }
             ]
           },
@@ -1643,6 +1943,22 @@
                 "_id": "652a-e274-1881-3441",
                 "_type": "selectionEntryGroup",
                 "_targetId": "8729-9ec4-fe73-ef22"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "4963-e28b-6e3b-5d54",
+                "_type": "selectionEntryGroup",
+                "_targetId": "89d2-c6e7-76d7-b21b"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "f97f-eec1-7b70-2711",
+                "_type": "selectionEntryGroup",
+                "_targetId": "bc80-e576-07c4-aac3"
               }
             ]
           },
@@ -1650,7 +1966,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "180"
+              "_value": "160"
             }
           },
           "_import": "true",
@@ -1674,7 +1990,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "270"
+              "_value": "250"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "47f7-b47d-719b-2418",
+              "_type": "selectionEntryGroup",
+              "_targetId": "bc80-e576-07c4-aac3"
             }
           },
           "_import": "true",
@@ -1710,6 +2036,22 @@
                 "_id": "f4e-fffd-fcdf-5256",
                 "_type": "selectionEntryGroup",
                 "_targetId": "8729-9ec4-fe73-ef22"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "e72f-582f-345d-f1dc",
+                "_type": "selectionEntryGroup",
+                "_targetId": "89d2-c6e7-76d7-b21b"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "fb31-3e9f-6208-9f23",
+                "_type": "selectionEntryGroup",
+                "_targetId": "bc80-e576-07c4-aac3"
               }
             ]
           },
@@ -1717,7 +2059,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "90"
+              "_value": "80"
             }
           },
           "_import": "true",
@@ -1741,7 +2083,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "150"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "ff88-6635-8512-ecd3",
+              "_type": "selectionEntryGroup",
+              "_targetId": "bc80-e576-07c4-aac3"
             }
           },
           "_import": "true",
@@ -1777,6 +2129,22 @@
                 "_id": "512f-cbb-ff91-a930",
                 "_type": "selectionEntryGroup",
                 "_targetId": "8729-9ec4-fe73-ef22"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "218f-8ded-6a1d-0453",
+                "_type": "selectionEntryGroup",
+                "_targetId": "89d2-c6e7-76d7-b21b"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "8602-2bb2-bb39-481d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "bc80-e576-07c4-aac3"
               }
             ]
           },
@@ -1784,7 +2152,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "220"
+              "_value": "180"
             }
           },
           "_import": "true",
@@ -1820,6 +2188,22 @@
                 "_id": "ac72-3ef-b9ef-29b1",
                 "_type": "selectionEntryGroup",
                 "_targetId": "8729-9ec4-fe73-ef22"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "a505-2e87-54ea-08db",
+                "_type": "selectionEntryGroup",
+                "_targetId": "89d2-c6e7-76d7-b21b"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "aec9-869c-fe48-5bf4",
+                "_type": "selectionEntryGroup",
+                "_targetId": "bc80-e576-07c4-aac3"
               }
             ]
           },
@@ -1949,14 +2333,31 @@
             ]
           },
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "879c-f9ff-9b6f-accb",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "879c-f9ff-9b6f-accb",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "f9fb-73f2-b66e-25f3",
+                "_type": "selectionEntryGroup",
+                "_targetId": "89d2-c6e7-76d7-b21b"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "3543-3afd-df2f-bca2",
+                "_type": "selectionEntryGroup",
+                "_targetId": "bc80-e576-07c4-aac3"
+              }
+            ]
           },
           "costs": {
             "cost": {
@@ -1973,33 +2374,8 @@
           "_targetId": "a86c-b6ef-d754-bcb7"
         },
         {
-          "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "d18f-5fbf-8dd-cfde",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
-          },
           "modifiers": {
             "modifier": [{
-                "conditions": {
-                  "condition": {
-                    "_type": "atLeast",
-                    "_value": "1",
-                    "_field": "selections",
-                    "_scope": "self",
-                    "_childId": "1b37-82b8-c062-eb82",
-                    "_shared": "true"
-                  }
-                },
-                "_type": "multiply",
-                "_value": "2",
-                "_field": "points"
-              },
-              {
                 "conditionGroups": {
                   "conditionGroup": {
                     "conditionGroups": {
@@ -2178,6 +2554,25 @@
               "_value": "320"
             }
           },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "80c3-2d75-f52c-317d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "89d2-c6e7-76d7-b21b"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "635f-69cc-bbf3-cc31",
+                "_type": "selectionEntryGroup",
+                "_targetId": "bc80-e576-07c4-aac3"
+              }
+            ]
+          },
           "_import": "true",
           "_name": "Arkanaut Frigate",
           "_hidden": "false",
@@ -2187,14 +2582,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "528b-7f75-528f-64ef",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "528b-7f75-528f-64ef",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "5b9e-5966-a4cd-6ac9",
+                "_type": "selectionEntryGroup",
+                "_targetId": "89d2-c6e7-76d7-b21b"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "84b9-def1-fb2e-a75d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "bc80-e576-07c4-aac3"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -2400,14 +2812,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "64a6-740d-efc7-f2b8",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "64a6-740d-efc7-f2b8",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "e682-f54d-5b79-1644",
+                "_type": "selectionEntryGroup",
+                "_targetId": "89d2-c6e7-76d7-b21b"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "5d33-b453-7b51-7d67",
+                "_type": "selectionEntryGroup",
+                "_targetId": "bc80-e576-07c4-aac3"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -2535,14 +2964,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "7575-f2c8-ab02-90e9",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "7575-f2c8-ab02-90e9",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "e8b6-4241-3823-c73c",
+                "_type": "selectionEntryGroup",
+                "_targetId": "89d2-c6e7-76d7-b21b"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "ae59-b44e-7393-7881",
+                "_type": "selectionEntryGroup",
+                "_targetId": "bc80-e576-07c4-aac3"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -2736,7 +3182,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "180"
+              "_value": "160"
             }
           },
           "_import": "true",
@@ -2748,14 +3194,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "1459-a31d-b996-6dc",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "1459-a31d-b996-6dc",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "b0fa-1ce9-1de7-e7c0",
+                "_type": "selectionEntryGroup",
+                "_targetId": "89d2-c6e7-76d7-b21b"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "7eb9-88b4-80fa-c2f0",
+                "_type": "selectionEntryGroup",
+                "_targetId": "bc80-e576-07c4-aac3"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -2898,14 +3361,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "4bca-7ddd-aaff-7fef",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "4bca-7ddd-aaff-7fef",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "149e-6daf-7e8c-b52f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "89d2-c6e7-76d7-b21b"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "d7fa-7947-61f7-291e",
+                "_type": "selectionEntryGroup",
+                "_targetId": "bc80-e576-07c4-aac3"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -3021,7 +3501,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "130"
             }
           },
           "_import": "true",
@@ -3149,6 +3629,16 @@
               "_value": "150"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "0fe0-f9b7-b459-6726",
+              "_type": "selectionEntryGroup",
+              "_targetId": "bc80-e576-07c4-aac3"
+            }
+          },
           "_import": "true",
           "_name": "Thundrik's Profiteers",
           "_hidden": "false",
@@ -3225,10 +3715,27 @@
               "_primary": "true"
             }
           },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "force",
+                  "_childId": "f079-501a-2738-6844",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
           "_type": "upgrade",
           "_import": "true",
           "_name": "Manifestation Lore",
-          "_hidden": "false",
+          "_hidden": "true",
           "_id": "6429-d7aa-e387-1c8c",
           "_defaultAmount": "1"
         },
@@ -3272,6 +3779,97 @@
           "_hidden": "false",
           "_id": "ba87-3612-e355-673b",
           "_defaultAmount": "1"
+        },
+        {
+          "constraints": {
+            "constraint": [{
+                "_type": "min",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "roster",
+                "_shared": "true",
+                "_id": "5509-b48d-9508-330e"
+              },
+              {
+                "_type": "max",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "roster",
+                "_shared": "true",
+                "_id": "bc14-284d-c52a-0f65"
+              }
+            ]
+          },
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Army Composition",
+              "_hidden": "false",
+              "_id": "0758-276e-aefb-1f2b",
+              "_targetId": "ac97-b27c-7e35-7ab9",
+              "_primary": "true"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "selectionEntryGroups": {
+            "selectionEntryGroup": {
+              "constraints": {
+                "constraint": {
+                  "_type": "max",
+                  "_value": "6",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_shared": "true",
+                  "_id": "170a-50a8-d746-2512"
+                }
+              },
+              "entryLinks": {
+                "entryLink": [{
+                    "_import": "true",
+                    "_name": "Spell Lores",
+                    "_hidden": "false",
+                    "_id": "3631-10b5-b627-f995",
+                    "_type": "selectionEntryGroup",
+                    "_targetId": "0bcf-1704-aaff-2b45",
+                    "_flatten": "true"
+                  },
+                  {
+                    "_import": "true",
+                    "_name": "Prayer Lores",
+                    "_hidden": "false",
+                    "_id": "7ec5-5440-2f35-632e",
+                    "_type": "selectionEntryGroup",
+                    "_targetId": "123c-ec0f-04eb-41d5",
+                    "_flatten": "true"
+                  }
+                ]
+              },
+              "_name": "",
+              "_id": "73cc-7b47-33e9-cad2",
+              "_hidden": "false"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Arcane Tome",
+          "_hidden": "true",
+          "_id": "31b7-a356-515c-d016",
+          "_defaultAmount": "1"
         }
       ]
     },
@@ -3281,7 +3879,7 @@
     "_name": "Kharadron Overlords",
     "_gameSystemId": "e51d-b1a3-75fc-dc3g",
     "_gameSystemRevision": "2",
-    "_revision": "1",
+    "_revision": "2",
     "_battleScribeVersion": "2.03",
     "_type": "catalogue"
   }

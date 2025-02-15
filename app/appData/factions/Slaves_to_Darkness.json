@@ -4,114 +4,6 @@
       "selectionEntryGroup": [{
           "selectionEntries": {
             "selectionEntry": {
-              "profiles": {
-                "profile": [{
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "de6f-d57b-248a-83be",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Casting Value",
-                          "_typeId": "9fc7-b0f6-d018-a608",
-                          "__text": "5"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Slaves to Darkness Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6. If the casting attempt is unsuccessful or if the spell is unbound, inflict D3 mortal damage on the caster."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Inflict 3 mortal damage on the target."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "353f-565e-c351-1cf2",
-                          "__text": "**^^Spell^^**, **^^Unlimited^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Spite-tongue Curse",
-                    "_typeId": "7312-8367-c171-f2ef",
-                    "_typeName": "Ability (Spell)",
-                    "_hidden": "false",
-                    "_id": "8950-32fb-950c-e2c3"
-                  },
-                  {
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "de6f-d57b-248a-83be",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Casting Value",
-                          "_typeId": "9fc7-b0f6-d018-a608",
-                          "__text": "7"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Slaves to Darkness Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "1cb9-a-1345-907f",
-                          "__text": "The target has **^^Strike-last^^** until the start of your next turn."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "353f-565e-c351-1cf2",
-                          "__text": "**^^Spell^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Binding Damnation",
-                    "_typeId": "7312-8367-c171-f2ef",
-                    "_typeName": "Ability (Spell)",
-                    "_hidden": "false",
-                    "_id": "ea32-60f6-a2f6-d964"
-                  },
-                  {
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "de6f-d57b-248a-83be",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Casting Value",
-                          "_typeId": "9fc7-b0f6-d018-a608",
-                          "__text": "7"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Slaves to Darkness Wizard^^** to cast this spell, pick a visible friendly **^^Slaves to Darkness^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "1cb9-a-1345-907f",
-                          "__text": "For the rest of the turn, add 1 to the number of dice rolled when making charge rolls for the target, to a maximum of 3."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "353f-565e-c351-1cf2",
-                          "__text": "**^^Spell^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Daemonic Speed",
-                    "_typeId": "7312-8367-c171-f2ef",
-                    "_typeName": "Ability (Spell)",
-                    "_hidden": "false",
-                    "_id": "b103-f3ca-78e1-4952"
-                  }
-                ]
-              },
               "constraints": {
                 "constraint": {
                   "_type": "max",
@@ -121,6 +13,90 @@
                   "_shared": "true",
                   "_id": "9e08-1d85-8755-3a18"
                 }
+              },
+              "entryLinks": {
+                "entryLink": [{
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "5e52-9fa5-b4e9-e466-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "5e52-9fa5-b4e9-e466-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Spite-tongue Curse",
+                    "_hidden": "false",
+                    "_id": "4598-f9f2-ea8a-fe90",
+                    "_type": "selectionEntry",
+                    "_targetId": "a76d-4048-59ab-4a8a"
+                  },
+                  {
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "6061-d3cf-1002-af6c-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "6061-d3cf-1002-af6c-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Binding Damnation",
+                    "_hidden": "false",
+                    "_id": "8434-b094-7142-3648",
+                    "_type": "selectionEntry",
+                    "_targetId": "4238-4b9d-0a56-931d"
+                  },
+                  {
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "2219-e788-5d61-a0be-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "2219-e788-5d61-a0be-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Daemonic Speed",
+                    "_hidden": "false",
+                    "_id": "d1e7-5e23-cb5c-dfc1",
+                    "_type": "selectionEntry",
+                    "_targetId": "4756-4114-0582-1abb"
+                  }
+                ]
               },
               "_type": "upgrade",
               "_import": "true",
@@ -211,6 +187,10 @@
                             {
                               "_name": "Keywords",
                               "_typeId": "12e8-3214-7d8f-1d0f"
+                            },
+                            {
+                              "_name": "Used By",
+                              "_typeId": "1b32-c9d6-3106-166b"
                             }
                           ]
                         },
@@ -244,7 +224,8 @@
                         "characteristics": {
                           "characteristic": [{
                               "_name": "Timing",
-                              "_typeId": "652c-3d84-4e7-14f4"
+                              "_typeId": "652c-3d84-4e7-14f4",
+                              "__text": "Once Per Battle, Start of Any Turn"
                             },
                             {
                               "_name": "Declare",
@@ -259,6 +240,10 @@
                             {
                               "_name": "Keywords",
                               "_typeId": "12e8-3214-7d8f-1d0f"
+                            },
+                            {
+                              "_name": "Used By",
+                              "_typeId": "1b32-c9d6-3106-166b"
                             }
                           ]
                         },
@@ -300,7 +285,8 @@
               },
               "_name": "Infernal Treasures",
               "_id": "4c2-96a0-7dd9-ca99",
-              "_hidden": "false"
+              "_hidden": "false",
+              "_publicationId": "6357-5d77-a2b2-f86b"
             }
           },
           "constraints": {
@@ -312,6 +298,17 @@
               "_shared": "true",
               "_id": "4d3c-2352-d14b-58e3",
               "_includeChildSelections": "true"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Artefacts of Power",
+              "_hidden": "false",
+              "_id": "925e-9907-8eb0-da04",
+              "_type": "selectionEntryGroup",
+              "_targetId": "e1b2-cedf-56a5-6bb1",
+              "_flatten": "true"
             }
           },
           "_name": "Artefacts of Power",
@@ -352,6 +349,10 @@
                         {
                           "_name": "Keywords",
                           "_typeId": "12e8-3214-7d8f-1d0f"
+                        },
+                        {
+                          "_name": "Used By",
+                          "_typeId": "1b32-c9d6-3106-166b"
                         }
                       ]
                     },
@@ -438,6 +439,10 @@
                         {
                           "_name": "Keywords",
                           "_typeId": "12e8-3214-7d8f-1d0f"
+                        },
+                        {
+                          "_name": "Used By",
+                          "_typeId": "1b32-c9d6-3106-166b"
                         }
                       ]
                     },
@@ -471,7 +476,7 @@
                       "characteristic": [{
                           "_name": "Timing",
                           "_typeId": "652c-3d84-4e7-14f4",
-                          "__text": "Once Per Turn (Army), End of Any Turn"
+                          "__text": "Once Per Turn (Army), End of Your Turn"
                         },
                         {
                           "_name": "Declare",
@@ -481,11 +486,15 @@
                         {
                           "_name": "Effect",
                           "_typeId": "b6f1-ba36-6cd-3b03",
-                          "__text": "Place a **defiled token** next to the target objective. Then, roll a D3 for each enemy unit contesting an objective that has a **defiled token**. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll."
+                          "__text": "Place a **defiled token** next to the target objective. Then, roll a D3 for each enemy unit contesting an objective that has a friendly **defiled token**. On a 2+, inflict an amount of mortal damage on that enemy unit equal to the roll."
                         },
                         {
                           "_name": "Keywords",
                           "_typeId": "12e8-3214-7d8f-1d0f"
+                        },
+                        {
+                          "_name": "Used By",
+                          "_typeId": "1b32-c9d6-3106-166b"
                         }
                       ]
                     },
@@ -519,7 +528,8 @@
           "_name": "Battle Formations: Slaves to Darkness",
           "_id": "88d1-56d6-5bb-b9f9",
           "_hidden": "false",
-          "_flatten": "true"
+          "_flatten": "true",
+          "_publicationId": "6357-5d77-a2b2-f86b"
         },
         {
           "selectionEntryGroups": {
@@ -530,28 +540,19 @@
                       "profile": {
                         "characteristics": {
                           "characteristic": [{
-                              "_name": "Timing",
-                              "_typeId": "652c-3d84-4e7-14f4",
-                              "__text": "Deployment Phase"
-                            },
-                            {
-                              "_name": "Declare",
-                              "_typeId": "bad3-f9c5-ba46-18cb"
+                              "_name": "Keywords",
+                              "_typeId": "b977-7c5e-33b2-428e"
                             },
                             {
                               "_name": "Effect",
-                              "_typeId": "b6f1-ba36-6cd-3b03",
-                              "__text": "This unit can use the ‘Eye of the Gods’ ability as if it were the end of the turn and it had destroyed an enemy unit this turn."
-                            },
-                            {
-                              "_name": "Keywords",
-                              "_typeId": "12e8-3214-7d8f-1d0f"
+                              "_typeId": "fd7f-888d-3257-a12b",
+                              "__text": "If this unit is picked as the target of the 'Eye of the Gods' ability, it gains 3 **Dark Apotheosis** points."
                             }
                           ]
                         },
                         "_name": "Favoured of the Pantheon",
-                        "_typeId": "59b6-d47a-a68a-5dcc",
-                        "_typeName": "Ability (Activated)",
+                        "_typeId": "907f-a48-6a04-f788",
+                        "_typeName": "Ability (Passive)",
                         "_hidden": "false",
                         "_id": "5208-fec9-503-8492"
                       }
@@ -594,6 +595,10 @@
                             {
                               "_name": "Keywords",
                               "_typeId": "12e8-3214-7d8f-1d0f"
+                            },
+                            {
+                              "_name": "Used By",
+                              "_typeId": "1b32-c9d6-3106-166b"
                             }
                           ]
                         },
@@ -643,6 +648,10 @@
                             {
                               "_name": "Keywords",
                               "_typeId": "12e8-3214-7d8f-1d0f"
+                            },
+                            {
+                              "_name": "Used By",
+                              "_typeId": "1b32-c9d6-3106-166b"
                             }
                           ]
                         },
@@ -684,7 +693,8 @@
               },
               "_name": "Ruinous Overlords",
               "_id": "4167-5633-f12d-9877",
-              "_hidden": "false"
+              "_hidden": "false",
+              "_publicationId": "6357-5d77-a2b2-f86b"
             }
           },
           "constraints": {
@@ -696,6 +706,17 @@
               "_shared": "true",
               "_id": "4338-33e3-5381-7d27",
               "_includeChildSelections": "true"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Heroic Traits",
+              "_hidden": "false",
+              "_id": "9e2d-7a11-0543-bd62",
+              "_type": "selectionEntryGroup",
+              "_targetId": "c437-e34c-5e1c-95e6",
+              "_flatten": "true"
             }
           },
           "_name": "Heroic Traits",
@@ -918,85 +939,706 @@
           "_id": "1b20-2d37-b109-b418",
           "_hidden": "false",
           "_flatten": "true"
+        },
+        {
+          "constraints": {
+            "constraint": [{
+                "_type": "max",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "parent",
+                "_shared": "true",
+                "_id": "aa20-79d3-1f27-0508",
+                "_includeChildSelections": "true"
+              },
+              {
+                "_type": "max",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "roster",
+                "_shared": "true",
+                "_id": "fad1-8344-24fb-4f4f",
+                "_includeChildSelections": "true"
+              }
+            ]
+          },
+          "selectionEntries": {
+            "selectionEntry": [{
+                "profiles": {
+                  "profile": {
+                    "characteristics": {
+                      "characteristic": [{
+                          "_name": "Keywords",
+                          "_typeId": "b977-7c5e-33b2-428e",
+                          "__text": "**^^Ensorcelled Banner^^**"
+                        },
+                        {
+                          "_name": "Effect",
+                          "_typeId": "fd7f-888d-3257-a12b",
+                          "__text": "This unit has the **^^Pledged to Khorne^^** keyword.\nIn addition, while this unit includes any standard bearers, add 1 to wound rolls for this unit's combat attacks."
+                        }
+                      ]
+                    },
+                    "_name": "The Banner of Rage",
+                    "_typeId": "907f-a48-6a04-f788",
+                    "_typeName": "Ability (Passive)",
+                    "_hidden": "false",
+                    "_id": "948a-96dd-b7ba-c4d0"
+                  }
+                },
+                "constraints": {
+                  "constraint": {
+                    "_type": "max",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "roster",
+                    "_shared": "true",
+                    "_id": "bd4c-ac96-c3a1-71e8",
+                    "_includeChildSelections": "true"
+                  }
+                },
+                "_type": "upgrade",
+                "_import": "true",
+                "_name": "The Banner of Rage",
+                "_hidden": "false",
+                "_id": "7f7e-9500-4b32-ff64"
+              },
+              {
+                "profiles": {
+                  "profile": {
+                    "characteristics": {
+                      "characteristic": [{
+                          "_name": "Keywords",
+                          "_typeId": "b977-7c5e-33b2-428e",
+                          "__text": "**^^Ensorcelled Banner^^**"
+                        },
+                        {
+                          "_name": "Effect",
+                          "_typeId": "fd7f-888d-3257-a12b",
+                          "__text": "While this unit includes any standard bearers, enemy units cannot use commands while they are in combat with this unit."
+                        }
+                      ]
+                    },
+                    "_name": "The Dread Banner",
+                    "_typeId": "907f-a48-6a04-f788",
+                    "_typeName": "Ability (Passive)",
+                    "_hidden": "false",
+                    "_id": "15e8-940a-8d77-fd74"
+                  }
+                },
+                "constraints": {
+                  "constraint": {
+                    "_type": "max",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "roster",
+                    "_shared": "true",
+                    "_id": "eb3b-c62a-b180-94de",
+                    "_includeChildSelections": "true"
+                  }
+                },
+                "_type": "upgrade",
+                "_import": "true",
+                "_name": "The Dread Banner",
+                "_hidden": "false",
+                "_id": "0bc8-9645-b70f-3e53"
+              },
+              {
+                "profiles": {
+                  "profile": {
+                    "characteristics": {
+                      "characteristic": [{
+                          "_name": "Keywords",
+                          "_typeId": "b977-7c5e-33b2-428e",
+                          "__text": "**^^Ensorcelled Banner^^**"
+                        },
+                        {
+                          "_name": "Effect",
+                          "_typeId": "fd7f-888d-3257-a12b",
+                          "__text": "This unit has the **^^Pledged to Tzeentch^^** keyword.\nIn addition, while this unit includes any standard bearers, this unit has **^^Ward (4+)^^** against damage inflicted by shooting attacks."
+                        }
+                      ]
+                    },
+                    "_name": "The Blasted Standard",
+                    "_typeId": "907f-a48-6a04-f788",
+                    "_typeName": "Ability (Passive)",
+                    "_hidden": "false",
+                    "_id": "495f-bd6c-2c53-9b6d"
+                  }
+                },
+                "constraints": {
+                  "constraint": {
+                    "_type": "max",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "roster",
+                    "_shared": "true",
+                    "_id": "721a-aa43-9588-7993",
+                    "_includeChildSelections": "true"
+                  }
+                },
+                "_type": "upgrade",
+                "_import": "true",
+                "_name": "The Blasted Standard",
+                "_hidden": "false",
+                "_id": "a97e-616a-fe67-c134"
+              },
+              {
+                "profiles": {
+                  "profile": {
+                    "characteristics": {
+                      "characteristic": [{
+                          "_name": "Keywords",
+                          "_typeId": "b977-7c5e-33b2-428e",
+                          "__text": "**^^Ensorcelled Banner^^**"
+                        },
+                        {
+                          "_name": "Effect",
+                          "_typeId": "fd7f-888d-3257-a12b",
+                          "__text": "This unit has the **^^Pledged to Slaanesh^^** keyword.\nIn addition, while this unit includes any standard bearesrs, if this unit charged this turn, for the rest of the turn, add 1 to the Attacks characteristic of this unit's melee weapons."
+                        }
+                      ]
+                    },
+                    "_name": "The Banner of Screaming Flesh",
+                    "_typeId": "907f-a48-6a04-f788",
+                    "_typeName": "Ability (Passive)",
+                    "_hidden": "false",
+                    "_id": "f70d-52d7-599c-d68d"
+                  }
+                },
+                "constraints": {
+                  "constraint": {
+                    "_type": "max",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "roster",
+                    "_shared": "true",
+                    "_id": "3015-a560-c3bc-6d31",
+                    "_includeChildSelections": "true"
+                  }
+                },
+                "_type": "upgrade",
+                "_import": "true",
+                "_name": "The Banner of Screaming Flesh",
+                "_hidden": "false",
+                "_id": "7ed4-b657-d63b-63b0"
+              },
+              {
+                "profiles": {
+                  "profile": {
+                    "characteristics": {
+                      "characteristic": [{
+                          "_name": "Keywords",
+                          "_typeId": "b977-7c5e-33b2-428e",
+                          "__text": "**^^Ensorcelled Banner^^**"
+                        },
+                        {
+                          "_name": "Effect",
+                          "_typeId": "fd7f-888d-3257-a12b",
+                          "__text": "This unit has the **^^Pledged to Nurgle^^** keyword.\nIn addition, while this unit includes any standard bearers, attacks that target this unit cannot score critical hits (treat them as regular hits instead)."
+                        }
+                      ]
+                    },
+                    "_name": "The Eroding Icon",
+                    "_typeId": "907f-a48-6a04-f788",
+                    "_typeName": "Ability (Passive)",
+                    "_hidden": "false",
+                    "_id": "5922-08d7-b341-1a62"
+                  }
+                },
+                "constraints": {
+                  "constraint": {
+                    "_type": "max",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "roster",
+                    "_shared": "true",
+                    "_id": "7ce7-b4e9-66ca-e405",
+                    "_includeChildSelections": "true"
+                  }
+                },
+                "_type": "upgrade",
+                "_import": "true",
+                "_name": "The Eroding Icon",
+                "_hidden": "false",
+                "_id": "1e1e-2f3b-dd4f-e415"
+              }
+            ]
+          },
+          "_name": "Ensorcelled Banners",
+          "_id": "5ad4-988a-ad77-9a2f",
+          "_hidden": "false"
+        },
+        {
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Ravaged Coast Battle Scars",
+              "_hidden": "false",
+              "_id": "73b1-102b-f662-8b4f",
+              "_type": "selectionEntryGroup",
+              "_targetId": "5559-80df-ba01-66a7",
+              "_flatten": "true"
+            }
+          },
+          "selectionEntries": {
+            "selectionEntry": {
+              "_type": "upgrade",
+              "_import": "true",
+              "_name": "Battle Wounds",
+              "_hidden": "false",
+              "_id": "0720-38a3-91ef-5262"
+            }
+          },
+          "_name": "Battle Wounds + Scars",
+          "_id": "20bb-e408-9d25-ffc6",
+          "_hidden": "true",
+          "_collapsible": "false"
+        },
+        {
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Ravaged Coast Paths",
+                "_hidden": "false",
+                "_id": "796b-e7a4-a88c-5226",
+                "_type": "selectionEntryGroup",
+                "_targetId": "7bae-23cb-3977-3ece",
+                "_flatten": "true"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "8b7a-df40-6c3e-1e76",
+                "_type": "selectionEntryGroup",
+                "_targetId": "962b-e74d-8efa-d6ea",
+                "_flatten": "true"
+              }
+            ]
+          },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "1",
+              "_field": "selections",
+              "_scope": "parent",
+              "_shared": "true",
+              "_id": "396b-8e45-97b6-2cfc"
+            }
+          },
+          "_name": "Paths",
+          "_id": "b0a6-aba3-da51-8a7f",
+          "_hidden": "true"
         }
       ]
     },
     "sharedSelectionEntries": {
-      "selectionEntry": {
-        "profiles": {
-          "profile": [{
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Keywords",
-                    "_typeId": "b977-7c5e-33b2-428e"
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "fd7f-888d-3257-a12b",
-                    "__text": "Friendly Slaves to Darkness units have 1 of the following effects based on the Mark of Chaos keyword they have.\n• **^^Undivided:^^** Add 1 to wound rolls for the unit’s combat attacks that target a **^^Hero^^** or **^^Monster^^**.\n• **^^Khorne:^^** Add 1 to the Attacks characteristic of the unit’s melee weapons for the rest of the turn if the unit charged in the same turn.\n• **^^Tzeentch:^^** The unit has **^^Ward (4+)^^** against mortal damage inflicted by **^^Spell^^** abilities and abilities used by **^^Manifestations^^**.\n• **^^Nurgle:^^** Subtract 1 from wound rolls for combat attacks that target the unit.\n• **^^Slaanesh:^^** Add 1 to run rolls and charge rolls for the unit. If a unit with a Mark of Chaos keyword is replaced, the replacement unit has the same Mark of Chaos keyword."
-                  }
-                ]
+      "selectionEntry": [{
+          "profiles": {
+            "profile": [{
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Once Per Turn (Army), Your Hero Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "Pick a friendly non-**^^Unique Slaves to Darkness^^** unit that does not already have one of the keywords below to be the target."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "Pick 1 of the following **pledge to Chaos** keywords:\n• **^^Pledged to Khorne:^^** \n• **^^Pledged to Tzeentch:^^**\n• **^^Pledged to Nurgle:^^**\n• **^^Pledged to Slaanesh:^^**\nThe target has that keyword for the rest of the battle."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Marks of Chaos",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "bf32-e159-1e29-6218"
               },
-              "_name": "Marks of Chaos",
-              "_typeId": "907f-a48-6a04-f788",
-              "_typeName": "Ability (Passive)",
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Once Per Battle (Army), Deployment Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "Pick a friendly non-**^^Unique Warriors of Chaos^^** or **^^Darkoath Hero^^** to be the target."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "During the battle, the target gains **Dark Apotheosis** points as follows:\n• Each time the target uses a **^^Fight^^** ability, it gains D3 **Dark Apotheosis** points.\n• At the end of each of your turns, if the target is contesting an objective that is wholly outside friendly territory, it gains D3 **Dark Apotheosis** points."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Eye of the Gods",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "e355-324d-a200-d489"
+              },
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Once Per Battle (Army), Any Hero Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "Pick a friendly unit with 8 or more **Dark Apotheosis** points to be the target."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "Pick 1 of the following.\n***Aura of Chaos:* Heal(X)** the target, where **X* is the number of damage points allocated to the target. In addition, the target has **^^Ward (5+)^^** for the rest of the battle.\n***Daemonhood:*** Set up a **Daemon Prince** within 1\" of the target. Then, remove the target from the battlefield. If the target is your general, the **Daemon Prince** becomes your general instead and is added to your general’s regiment. If the target has any enhancements, the **Daemon Prince** has those enhancements instead. If the target has a **Pledge to Chaos** keyword, the **Daemon Prince** has the same keyword. Otherwise, pick 1 **Pledge to Chaos** keyword for the **Daemon Prince** to have for the rest of the battle."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Dark Apotheosis",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "b13e-056c-d5b0-a229"
+              },
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Once Per Turn (Army), Your Movement Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "Pick a friendly **^^Pledged to Tzeentch^^** unit to be the target."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "Roll 2D6. Then, pick a point within a number of inches of the target equal to the roll. Remove the target from the battlefield and set it up again on the battlefield wholly within 6\" of that point and more than 9\" from all enemy units."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Pledged to Tzeentch",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "46e6-35ba-505f-b003"
+              },
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Keywords",
+                      "_typeId": "b977-7c5e-33b2-428e"
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "fd7f-888d-3257-a12b",
+                      "__text": "Add 1 to the Attacks characteristic of melee weapons used by friendly **^^Pledged to Khorne^^** units."
+                    }
+                  ]
+                },
+                "_name": "Pledged to Khorne",
+                "_typeId": "907f-a48-6a04-f788",
+                "_typeName": "Ability (Passive)",
+                "_hidden": "false",
+                "_id": "0ad1-5f6e-4639-fe3f"
+              },
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Keywords",
+                      "_typeId": "b977-7c5e-33b2-428e"
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "fd7f-888d-3257-a12b",
+                      "__text": "Friendly **^^Pledged to Nurgle^^** units have **^^Ward (6+)^^**. If a unit already has **^^Ward (6+^^**, it has **^^Ward (5+)^^** instead."
+                    }
+                  ]
+                },
+                "_name": "Pledged to Nurgle",
+                "_typeId": "907f-a48-6a04-f788",
+                "_typeName": "Ability (Passive)",
+                "_hidden": "false",
+                "_id": "57c8-eac5-72cf-87cb"
+              },
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Your Charge Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb"
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "for the rest of the turn, add 1 to the number of dice rolled when making charge rolls for friendly **^^Pledged to Slaanesh^^** units, to a maximum of 3."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Pledged to Slaanesh",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "6916-1fc0-ca2f-bfd4"
+              }
+            ]
+          },
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Reference",
               "_hidden": "false",
-              "_id": "bf32-e159-1e29-6218"
-            },
-            {
+              "_id": "f77f-49cd-6e09-6ca7",
+              "_targetId": "3360-1158-e879-9606",
+              "_primary": "true"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Battle Traits: Slaves to Darkness",
+          "_hidden": "false",
+          "_id": "171b-6db-6bab-cb2e",
+          "_publicationId": "6357-5d77-a2b2-f86b"
+        },
+        {
+          "profiles": {
+            "profile": {
               "characteristics": {
                 "characteristic": [{
                     "_name": "Timing",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Once Per Turn, End of Any Turn"
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "5"
                   },
                   {
                     "_name": "Declare",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Each friendly **^^Slaves to Darkness^^** unit that destroyed an enemy unit this turn is a target. Friendly **^^Beasts^^** and non-**^^Hero Monsters^^** cannot be targeted by this ability."
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Slaves to Darkness Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6. If the casting attempt is unsuccessful or if the spell is unbound, inflict D3 mortal damage on the caster."
                   },
                   {
                     "_name": "Effect",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "Make a reward roll of D6 for each target and apply the corresponding effect below. You can re-roll the reward roll for the target, but if you do so and you roll a 1, inflict D3 mortal damage on the target.\n**1 *Snubbed by the Gods:*** No effect.\n**2 *Mutative Regrowth:*** **Heal (3)** the target.\n**3 *Unnatural Grace:*** Add 1 to hit rolls for the target’s combat attacks for the rest of the battle.\n**4 *Lurid Aura:*** The target has **^^Ward (6+)^^** for the rest of the battle. If the target already has **^^Ward (6+)^^**, it has **^^Ward (5+)^^** instead.\n**5 *Slaughterer’s Might:*** Add 1 to the Rend characteristic of the target’s melee weapons for the rest of the battle.\n**6 *Champion of Chaos:*** Pick any other effect.\nThe same effect can be applied multiple times to a unit, and more than 1 effect can apply to a unit at the same time."
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "Inflict 3 mortal damage on the target."
                   },
                   {
                     "_name": "Keywords",
-                    "_typeId": "12e8-3214-7d8f-1d0f"
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**, **^^Unlimited^^**"
                   }
                 ]
               },
-              "_name": "Eye of the Gods",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
+              "_name": "Spite-tongue Curse",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
               "_hidden": "false",
-              "_id": "e355-324d-a200-d489"
+              "_id": "8950-32fb-950c-e2c3"
             }
-          ]
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Spite-tongue Curse",
+          "_hidden": "false",
+          "_id": "a76d-4048-59ab-4a8a"
         },
-        "categoryLinks": {
-          "categoryLink": {
-            "_name": "Reference",
-            "_hidden": "false",
-            "_id": "f77f-49cd-6e09-6ca7",
-            "_targetId": "3360-1158-e879-9606",
-            "_primary": "true"
-          }
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "7"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Slaves to Darkness Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "The target has **^^Strike-last^^** until the start of your next turn."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**"
+                  }
+                ]
+              },
+              "_name": "Binding Damnation",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
+              "_hidden": "false",
+              "_id": "ea32-60f6-a2f6-d964"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Binding Damnation",
+          "_hidden": "false",
+          "_id": "4238-4b9d-0a56-931d"
         },
-        "_type": "upgrade",
-        "_import": "true",
-        "_name": "Battle Traits: Slaves to Darkness",
-        "_hidden": "false",
-        "_id": "171b-6db-6bab-cb2e"
-      }
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "7"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Slaves to Darkness Wizard^^** to cast this spell, pick a visible friendly **^^Slaves to Darkness^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "For the rest of the turn, add 1 to the number of dice rolled when making charge rolls for the target, to a maximum of 3."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**"
+                  }
+                ]
+              },
+              "_name": "Daemonic Speed",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
+              "_hidden": "false",
+              "_id": "b103-f3ca-78e1-4952"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Daemonic Speed",
+          "_hidden": "false",
+          "_id": "4756-4114-0582-1abb"
+        }
+      ]
     },
     "catalogueLinks": {
-      "catalogueLink": {
-        "_type": "catalogue",
-        "_name": "Slaves to Darkness - Library",
-        "_id": "b103-d101-84e5-a8d",
-        "_targetId": "c580-f07a-aa35-f79f"
-      }
+      "catalogueLink": [{
+          "_type": "catalogue",
+          "_name": "Slaves to Darkness - Library",
+          "_id": "b103-d101-84e5-a8d",
+          "_targetId": "c580-f07a-aa35-f79f"
+        },
+        {
+          "_type": "catalogue",
+          "_name": "Path to Glory - Ravaged Coast",
+          "_id": "cc3d-0eb9-b0ef-b2d5",
+          "_importRootEntries": "true",
+          "_targetId": "a434-b1ba-922b-7624"
+        }
+      ]
     },
     "selectionEntries": {
       "selectionEntry": [{
@@ -1090,10 +1732,27 @@
               "_primary": "true"
             }
           },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "force",
+                  "_childId": "f079-501a-2738-6844",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
           "_type": "upgrade",
           "_import": "true",
           "_name": "Manifestation Lore",
-          "_hidden": "false",
+          "_hidden": "true",
           "_id": "705a-99c8-eddd-3df4",
           "_defaultAmount": "1"
         },
@@ -1138,11 +1797,183 @@
               "_collective": "false"
             }
           },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "force",
+                  "_childId": "f079-501a-2738-6844",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
           "_type": "upgrade",
           "_import": "true",
           "_name": "Spell Lore",
-          "_hidden": "false",
+          "_hidden": "true",
           "_id": "877a-5a32-260b-409c",
+          "_defaultAmount": "1"
+        },
+        {
+          "constraints": {
+            "constraint": [{
+                "_type": "min",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "roster",
+                "_shared": "true",
+                "_id": "dddb-2d2a-f0e1-e940"
+              },
+              {
+                "_type": "max",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "roster",
+                "_shared": "true",
+                "_id": "08b7-910f-9df4-346b"
+              }
+            ]
+          },
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Army Composition",
+              "_hidden": "false",
+              "_id": "9077-f44b-df00-8e33",
+              "_targetId": "ac97-b27c-7e35-7ab9",
+              "_primary": "true"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "selectionEntryGroups": {
+            "selectionEntryGroup": {
+              "selectionEntryGroups": {
+                "selectionEntryGroup": {
+                  "entryLinks": {
+                    "entryLink": [{
+                        "constraints": {
+                          "constraint": {
+                            "_type": "max",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "d4b0-03af-e56c-7dcb"
+                          }
+                        },
+                        "_import": "true",
+                        "_name": "Daemonic Speed",
+                        "_hidden": "false",
+                        "_id": "256e-6b9e-733f-0c2d",
+                        "_type": "selectionEntry",
+                        "_targetId": "4756-4114-0582-1abb"
+                      },
+                      {
+                        "constraints": {
+                          "constraint": {
+                            "_type": "max",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "e4ab-d31a-de79-46b6"
+                          }
+                        },
+                        "_import": "true",
+                        "_name": "Binding Damnation",
+                        "_hidden": "false",
+                        "_id": "c1ba-6d45-3b3a-3629",
+                        "_type": "selectionEntry",
+                        "_targetId": "4238-4b9d-0a56-931d"
+                      },
+                      {
+                        "constraints": {
+                          "constraint": {
+                            "_type": "max",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "e2ab-86c4-c70c-5c83"
+                          }
+                        },
+                        "_import": "true",
+                        "_name": "Spite-tongue Curse",
+                        "_hidden": "false",
+                        "_id": "c2e5-7815-033b-924e",
+                        "_type": "selectionEntry",
+                        "_targetId": "a76d-4048-59ab-4a8a"
+                      }
+                    ]
+                  },
+                  "_name": "Lore of the Damned",
+                  "_id": "1fcb-f0a7-124c-b779",
+                  "_hidden": "false"
+                }
+              },
+              "constraints": {
+                "constraint": {
+                  "_type": "max",
+                  "_value": "6",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_shared": "true",
+                  "_id": "92cd-d5e7-629e-e754"
+                }
+              },
+              "entryLinks": {
+                "entryLink": [{
+                    "_import": "true",
+                    "_name": "Spell Lores",
+                    "_hidden": "false",
+                    "_id": "56d0-1c56-f2e6-d691",
+                    "_type": "selectionEntryGroup",
+                    "_targetId": "0bcf-1704-aaff-2b45",
+                    "_flatten": "true"
+                  },
+                  {
+                    "_import": "true",
+                    "_name": "Prayer Lores",
+                    "_hidden": "false",
+                    "_id": "602c-12e8-2817-b22a",
+                    "_type": "selectionEntryGroup",
+                    "_targetId": "123c-ec0f-04eb-41d5",
+                    "_flatten": "true"
+                  }
+                ]
+              },
+              "_name": "",
+              "_id": "9788-9156-9b55-b1f1",
+              "_hidden": "false"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Arcane Tome",
+          "_hidden": "true",
+          "_id": "634d-42c7-c187-74d0",
           "_defaultAmount": "1"
         }
       ]
@@ -1204,7 +2035,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "360"
+              "_value": "340"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "1ca5-b839-3acd-19b3",
+              "_type": "selectionEntryGroup",
+              "_targetId": "20bb-e408-9d25-ffc6"
             }
           },
           "_import": "true",
@@ -1251,7 +2092,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "890"
+              "_value": "870"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "8010-88c3-99bd-d303",
+              "_type": "selectionEntryGroup",
+              "_targetId": "20bb-e408-9d25-ffc6"
             }
           },
           "_import": "true",
@@ -1310,6 +2161,22 @@
                 "_id": "a1ba-b491-d5d8-c690",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "69ec-bb6d-d444-e916",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "8fb7-9e21-e4d6-c873",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -1317,7 +2184,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "230"
+              "_value": "210"
             }
           },
           "_import": "true",
@@ -1376,6 +2243,22 @@
                 "_id": "5f4b-7620-1d7a-e30f",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "a050-d5ec-5a2e-86fa",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "c14c-0f68-3eef-ca8a",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -1431,6 +2314,16 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "440"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "7b0e-f2a1-e8c9-bfce",
+              "_type": "selectionEntryGroup",
+              "_targetId": "20bb-e408-9d25-ffc6"
             }
           },
           "_import": "true",
@@ -1489,6 +2382,22 @@
                 "_id": "4483-852f-b09d-7f16",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "8a31-9983-5328-0181",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "b684-7fe5-ac8f-8ff1",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -1531,6 +2440,102 @@
                       "_shared": "true"
                     }
                   },
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "7fc-170d-1114-5731",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "738a-431b-178a-ca86",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "67e6-b577-6c95-878c",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "143b-fc8a-815e-cafd",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "fea3-f47e-ccf3-f97f",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "a1f2-1808-4a74-c167",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "d6e2-94fc-fd66-6886",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "4ed5-6657-f305-1435",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "94a1-ff6e-2657-55cd",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "6d91-4f08-7e90-3b50",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "c2e6-d2ef-87aa-2d55",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
+                    }
+                  },
                   "_type": "and"
                 }
               },
@@ -1555,6 +2560,22 @@
                 "_id": "8c59-739a-3d33-5a0b",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "77d3-2cb4-ed42-9bea",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "e95a-012d-b888-4566",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -1562,7 +2583,74 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "180"
+              "_value": "160"
+            }
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "7f8d-8fe3-162b-a83a",
+                    "_field": "category"
+                  },
+                  {
+                    "conditionGroups": {
+                      "conditionGroup": {
+                        "conditions": {
+                          "condition": {
+                            "_type": "atLeast",
+                            "_value": "2",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "7f8d-8fe3-162b-a83a",
+                            "_shared": "true"
+                          }
+                        },
+                        "conditionGroups": {
+                          "conditionGroup": {
+                            "conditions": {
+                              "condition": [{
+                                  "_type": "atLeast",
+                                  "_value": "1",
+                                  "_field": "selections",
+                                  "_scope": "force",
+                                  "_childId": "3855-40d2-2349-c4e3",
+                                  "_shared": "true"
+                                },
+                                {
+                                  "_type": "atLeast",
+                                  "_value": "1",
+                                  "_field": "selections",
+                                  "_scope": "force",
+                                  "_childId": "67e6-b577-6c95-878c",
+                                  "_shared": "true"
+                                }
+                              ]
+                            },
+                            "_type": "and"
+                          }
+                        },
+                        "_type": "or"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "3438-e645-5d03-216"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
             }
           },
           "_import": "true",
@@ -1784,6 +2872,22 @@
                 "_id": "4af1-aef6-f115-eaa5",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a1ac-1337-7d66-251b"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "dabd-fc6d-a602-c76a",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "c170-cb8f-bedb-6394",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -1850,6 +2954,22 @@
                 "_id": "a7d3-4306-d370-6581",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "a8ab-8d4a-02a5-a4d8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "8a55-465b-3169-9e98",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -1892,6 +3012,102 @@
                       "_shared": "true"
                     }
                   },
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "7fc-170d-1114-5731",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "738a-431b-178a-ca86",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "67e6-b577-6c95-878c",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "143b-fc8a-815e-cafd",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "fea3-f47e-ccf3-f97f",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "a1f2-1808-4a74-c167",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "d6e2-94fc-fd66-6886",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "4ed5-6657-f305-1435",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "94a1-ff6e-2657-55cd",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "6d91-4f08-7e90-3b50",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "c2e6-d2ef-87aa-2d55",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
+                    }
+                  },
                   "_type": "and"
                 }
               },
@@ -1916,6 +3132,22 @@
                 "_id": "d41c-de57-c5f4-8c92",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "e03e-0562-7f16-3bfb",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "9deb-c40d-68a6-8468",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -1923,7 +3155,74 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "100"
+            }
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "7f8d-8fe3-162b-a83a",
+                    "_field": "category"
+                  },
+                  {
+                    "conditionGroups": {
+                      "conditionGroup": {
+                        "conditions": {
+                          "condition": {
+                            "_type": "atLeast",
+                            "_value": "2",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "7f8d-8fe3-162b-a83a",
+                            "_shared": "true"
+                          }
+                        },
+                        "conditionGroups": {
+                          "conditionGroup": {
+                            "conditions": {
+                              "condition": [{
+                                  "_type": "atLeast",
+                                  "_value": "1",
+                                  "_field": "selections",
+                                  "_scope": "force",
+                                  "_childId": "3855-40d2-2349-c4e3",
+                                  "_shared": "true"
+                                },
+                                {
+                                  "_type": "atLeast",
+                                  "_value": "1",
+                                  "_field": "selections",
+                                  "_scope": "force",
+                                  "_childId": "67e6-b577-6c95-878c",
+                                  "_shared": "true"
+                                }
+                              ]
+                            },
+                            "_type": "and"
+                          }
+                        },
+                        "_type": "or"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "8649-ad9d-3a1c-9e0"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
             }
           },
           "_import": "true",
@@ -1958,6 +3257,102 @@
                       "_shared": "true"
                     }
                   },
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "7fc-170d-1114-5731",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "738a-431b-178a-ca86",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "67e6-b577-6c95-878c",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "143b-fc8a-815e-cafd",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "fea3-f47e-ccf3-f97f",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "a1f2-1808-4a74-c167",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "d6e2-94fc-fd66-6886",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "4ed5-6657-f305-1435",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "94a1-ff6e-2657-55cd",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "6d91-4f08-7e90-3b50",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "c2e6-d2ef-87aa-2d55",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
+                    }
+                  },
                   "_type": "and"
                 }
               },
@@ -1982,6 +3377,22 @@
                 "_id": "7b13-ea6f-3d10-60d0",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "a935-0d3f-64b6-ba98",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "7002-62a1-ac1e-f7ca",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -1989,7 +3400,74 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "240"
+              "_value": "230"
+            }
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "7f8d-8fe3-162b-a83a",
+                    "_field": "category"
+                  },
+                  {
+                    "conditionGroups": {
+                      "conditionGroup": {
+                        "conditions": {
+                          "condition": {
+                            "_type": "atLeast",
+                            "_value": "2",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "7f8d-8fe3-162b-a83a",
+                            "_shared": "true"
+                          }
+                        },
+                        "conditionGroups": {
+                          "conditionGroup": {
+                            "conditions": {
+                              "condition": [{
+                                  "_type": "atLeast",
+                                  "_value": "1",
+                                  "_field": "selections",
+                                  "_scope": "force",
+                                  "_childId": "3855-40d2-2349-c4e3",
+                                  "_shared": "true"
+                                },
+                                {
+                                  "_type": "atLeast",
+                                  "_value": "1",
+                                  "_field": "selections",
+                                  "_scope": "force",
+                                  "_childId": "67e6-b577-6c95-878c",
+                                  "_shared": "true"
+                                }
+                              ]
+                            },
+                            "_type": "and"
+                          }
+                        },
+                        "_type": "or"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "111d-703-8617-f8c3"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
             }
           },
           "_import": "true",
@@ -2048,6 +3526,22 @@
                 "_id": "996a-3e5-4592-5134",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "87ee-2bd7-14ac-28ed",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "033f-f3ec-f26e-f636",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -2277,6 +3771,22 @@
                 "_id": "13d2-41b3-d72e-5020",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "40bb-f3ff-fb6a-2d44",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "3dd2-86d8-fe69-a437",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -2410,6 +3920,22 @@
                 "_id": "df33-7b13-d8a7-2101",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "a02a-320e-476e-2617",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "a549-ae71-351c-c528",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -2417,7 +3943,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "90"
             }
           },
           "_import": "true",
@@ -2476,6 +4002,22 @@
                 "_id": "2b0e-febf-eb78-3d86",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "0222-122e-2216-86e4",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "aebe-baf4-b356-b5d8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -2518,6 +4060,30 @@
                       "_shared": "true"
                     }
                   },
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "dc0-f4bd-c462-b452",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "fe32-8e6c-ec1-a3a3",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
+                    }
+                  },
                   "_type": "and"
                 }
               },
@@ -2542,6 +4108,22 @@
                 "_id": "ef14-acda-6d87-1060",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "1ced-eb80-32a6-d049",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "a334-3bea-b613-ce88",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -2549,7 +4131,50 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "130"
+            }
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "982f-fdc0-951d-761",
+                    "_field": "category"
+                  },
+                  {
+                    "conditionGroups": {
+                      "conditionGroup": {
+                        "conditions": {
+                          "condition": {
+                            "_type": "atLeast",
+                            "_value": "2",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "982f-fdc0-951d-761",
+                            "_shared": "true"
+                          }
+                        },
+                        "_type": "or"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "5f57-6506-144f-ab7f"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
             }
           },
           "_import": "true",
@@ -2611,7 +4236,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "210"
+              "_value": "200"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "ff33-3cdb-cd56-c0c6",
+              "_type": "selectionEntryGroup",
+              "_targetId": "20bb-e408-9d25-ffc6"
             }
           },
           "_import": "true",
@@ -2670,6 +4305,22 @@
                 "_id": "37bc-8053-c180-3b3b",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "a9d8-0e29-06b7-6cf2",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "e4d0-38d2-8e7b-054b",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -2677,7 +4328,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -2736,6 +4387,22 @@
                 "_id": "3376-fd58-e9f5-6cfb",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "6bb0-06d6-838e-bd64",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "9d4a-0687-5ea2-bfd7",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -2965,6 +4632,22 @@
                 "_id": "416e-a329-418-7824",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "d08f-9289-0068-9833",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "c6e2-a0bb-047b-b794",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -2972,7 +4655,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "150"
             }
           },
           "_import": "true",
@@ -2996,7 +4679,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "360"
+              "_value": "340"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "f922-b76f-0ec5-db40",
+              "_type": "selectionEntryGroup",
+              "_targetId": "20bb-e408-9d25-ffc6"
             }
           },
           "_import": "true",
@@ -3020,7 +4713,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "890"
+              "_value": "870"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "ffd6-86b2-aefe-31a5",
+              "_type": "selectionEntryGroup",
+              "_targetId": "20bb-e408-9d25-ffc6"
             }
           },
           "_import": "true",
@@ -3045,6 +4748,16 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "440"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "9ac3-29b4-b343-b3b5",
+              "_type": "selectionEntryGroup",
+              "_targetId": "20bb-e408-9d25-ffc6"
             }
           },
           "_import": "true",
@@ -3080,6 +4793,22 @@
                 "_id": "1e43-d5e-e39a-faed",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "4746-3263-b016-90c3",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "5cd0-70b0-ac12-4c10",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -3123,6 +4852,22 @@
                 "_id": "1154-d4ff-28d8-7719",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "04dc-c344-3977-be9f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "3630-748b-659a-3962",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -3130,7 +4875,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "100"
             }
           },
           "_import": "true",
@@ -3166,6 +4911,22 @@
                 "_id": "d78c-aadd-6d8e-343a",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "2ee5-f85c-d652-4b22",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "0a22-d194-2de5-50b9",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -3173,7 +4934,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "180"
+              "_value": "160"
             }
           },
           "_import": "true",
@@ -3209,6 +4970,22 @@
                 "_id": "d701-6136-81e2-2c26",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "b1ba-822f-44c5-9fe8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "44ae-5855-c48c-2bc5",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -3216,7 +4993,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "240"
+              "_value": "230"
             }
           },
           "_import": "true",
@@ -3252,6 +5029,22 @@
                 "_id": "8fc3-6b8-87db-7b95",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "7d62-7935-92f0-386e",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "57bb-7a2f-74a5-b4e8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -3295,6 +5088,22 @@
                 "_id": "cb14-283c-8c5a-b0fb",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "583e-5840-fe5a-6966",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "89d2-47eb-0e17-0961",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -3338,6 +5147,22 @@
                 "_id": "3c3e-a2d1-8bc5-93ed",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "e5f1-3b59-933f-79cc",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "1ff8-9e95-993d-a044",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -3381,6 +5206,22 @@
                 "_id": "7a8c-38b9-255b-a46",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "6aa8-2b0d-3291-826f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "3708-4b58-ce8f-f6be",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -3424,6 +5265,22 @@
                 "_id": "9d6a-5cec-20a7-ff59",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "0b0c-be5e-6900-e70d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "27d8-5c34-89e9-554d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -3467,6 +5324,22 @@
                 "_id": "21-b737-311c-ce0e",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "8cae-5b4a-c8e5-56cc",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "80a5-2e51-528f-3843",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -3474,7 +5347,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "90"
             }
           },
           "_import": "true",
@@ -3510,6 +5383,22 @@
                 "_id": "745d-6afd-c81-604b",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "c5ff-e7d4-0a2e-5514",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "d8f1-896e-ef4b-2b01",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -3517,7 +5406,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "160"
+              "_value": "130"
             }
           },
           "_import": "true",
@@ -3553,6 +5442,22 @@
                 "_id": "12ea-21d5-16aa-68",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "1762-408a-4461-9782",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "9722-d319-5585-3370",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -3560,7 +5465,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -3584,7 +5489,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "210"
+              "_value": "200"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "a186-4ed0-bd28-1e86",
+              "_type": "selectionEntryGroup",
+              "_targetId": "20bb-e408-9d25-ffc6"
             }
           },
           "_import": "true",
@@ -3620,6 +5535,22 @@
                 "_id": "9ba9-142a-55f2-e661",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "5296-e658-a89b-a7ab",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "b5e2-a55b-d757-101d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -3663,6 +5594,22 @@
                 "_id": "256d-8767-3a49-b17d",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "9a25-b381-6501-b0c5",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "7a19-d52b-25ea-076a",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -3706,6 +5653,22 @@
                 "_id": "b164-d617-ba46-c5f1",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "6fe7-f33a-3660-2553",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "a79e-c035-f581-12f3",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -3713,7 +5676,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "230"
+              "_value": "210"
             }
           },
           "_import": "true",
@@ -3737,7 +5700,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "270"
+              "_value": "240"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "08ed-488b-6b94-1071",
+              "_type": "selectionEntryGroup",
+              "_targetId": "20bb-e408-9d25-ffc6"
             }
           },
           "_import": "true",
@@ -3773,6 +5746,22 @@
                 "_id": "df7c-55da-5732-35f1",
                 "_type": "selectionEntryGroup",
                 "_targetId": "a81-fa40-378b-46e8"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "9c7c-f747-d08d-dcb4",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "fc4a-78b7-92ab-1acc",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
               }
             ]
           },
@@ -3780,7 +5769,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "150"
             }
           },
           "_import": "true",
@@ -3862,6 +5851,16 @@
                 "_field": "3dc0-4f4f-edbf-846f"
               }
             ]
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "f9c8-8995-33c2-379a",
+              "_type": "selectionEntryGroup",
+              "_targetId": "20bb-e408-9d25-ffc6"
+            }
           },
           "_import": "true",
           "_name": "Singri Brand",
@@ -4041,8 +6040,27 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "100"
+              "_value": "80"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "6075-64e0-ff18-7743",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "f77a-6257-d4fb-9d4f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Chaos Chariot",
@@ -4053,14 +6071,39 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "6111-421e-9c1-2a48",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "6111-421e-9c1-2a48",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Ensorcelled Banners",
+                "_hidden": "false",
+                "_id": "d607-5262-1fc6-8448",
+                "_type": "selectionEntryGroup",
+                "_targetId": "5ad4-988a-ad77-9a2f"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "7ef2-0f6b-2cee-2b40",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "b42e-fe13-d26d-2b52",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -4244,14 +6287,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "f9b1-e980-53d3-1483",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "f9b1-e980-53d3-1483",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "9e46-6b0b-7c4b-8559",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "adc1-5332-6095-afcb",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -4367,7 +6427,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -4379,14 +6439,39 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "c092-bc30-c76f-290b",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "c092-bc30-c76f-290b",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Ensorcelled Banners",
+                "_hidden": "false",
+                "_id": "1151-8e34-2aad-a7c7",
+                "_type": "selectionEntryGroup",
+                "_targetId": "5ad4-988a-ad77-9a2f"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "7026-d8d9-cad2-050c",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "f6e6-794e-beca-0afb",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -4747,8 +6832,27 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "90"
+              "_value": "80"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "6444-a3f4-7fe4-2be8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "19ba-af7b-568c-d98a",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Chaos Legionnaires",
@@ -4759,14 +6863,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "366a-e66b-363e-ad80",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "366a-e66b-363e-ad80",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "42cc-5a73-d02b-eb44",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "dc30-62c3-fd87-5212",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -4878,14 +6999,39 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "5917-1edc-aa46-e8b1",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "5917-1edc-aa46-e8b1",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Ensorcelled Banners",
+                "_hidden": "false",
+                "_id": "d16b-e008-ce1d-2471",
+                "_type": "selectionEntryGroup",
+                "_targetId": "5ad4-988a-ad77-9a2f"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "c6d2-defe-09e2-7510",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "0f47-6518-af52-83f1",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -5069,14 +7215,39 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "c4a7-a41c-453b-1ca4",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "c4a7-a41c-453b-1ca4",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Ensorcelled Banners",
+                "_hidden": "false",
+                "_id": "ffd4-e37d-578d-5b40",
+                "_type": "selectionEntryGroup",
+                "_targetId": "5ad4-988a-ad77-9a2f"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "43c4-5c26-4985-6645",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "0025-1315-3dc1-951a",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -5220,14 +7391,207 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "2101-59ce-3536-34e2",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "2101-59ce-3536-34e2",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Ensorcelled Banners",
+                "_hidden": "false",
+                "_id": "6325-e4a5-21fb-8948",
+                "_type": "selectionEntryGroup",
+                "_targetId": "5ad4-988a-ad77-9a2f"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "133e-9b54-2c68-3bc3",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "db36-a7ed-ea48-70a8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
+          },
+          "modifiers": {
+            "modifier": [{
+                "conditionGroups": {
+                  "conditionGroup": {
+                    "conditionGroups": {
+                      "conditionGroup": {
+                        "conditions": {
+                          "condition": [{
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "7fc-170d-1114-5731",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "738a-431b-178a-ca86",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "67e6-b577-6c95-878c",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "c2e6-d2ef-87aa-2d55",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "e98f-6113-2c22-6a5e",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "dc0-f4bd-c462-b452",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "fe32-8e6c-ec1-a3a3",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "e664-cf6d-9d6a-74df",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "29a2-9f72-5dc2-cd4",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "6ae-10fb-92fd-affb",
+                              "_shared": "true"
+                            }
+                          ]
+                        },
+                        "_type": "and"
+                      }
+                    },
+                    "conditions": {
+                      "condition": {
+                        "_type": "instanceOf",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "ancestor",
+                        "_childId": "376a-6b97-8699-dd59",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "and"
+                  }
+                },
+                "_type": "set",
+                "_value": "true",
+                "_field": "hidden"
+              },
+              {
+                "conditions": {
+                  "condition": {
+                    "_type": "atLeast",
+                    "_value": "1",
+                    "_field": "selections",
+                    "_scope": "self",
+                    "_childId": "1b37-82b8-c062-eb82",
+                    "_shared": "true"
+                  }
+                },
+                "_type": "multiply",
+                "_value": "2",
+                "_field": "points"
+              }
+            ]
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "80"
             }
+          },
+          "_import": "true",
+          "_name": "Darkoath Marauders",
+          "_hidden": "false",
+          "_id": "c038-eb60-9450-b164",
+          "_type": "selectionEntry",
+          "_targetId": "32a0-6285-a243-3a38"
+        },
+        {
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "dc12-b28c-bebf-2efd",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "1075-f6da-91f3-3e7b",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "04aa-c9a3-e766-6b72",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -5360,157 +7724,6 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "100"
-            }
-          },
-          "_import": "true",
-          "_name": "Darkoath Marauders",
-          "_hidden": "false",
-          "_id": "c038-eb60-9450-b164",
-          "_type": "selectionEntry",
-          "_targetId": "32a0-6285-a243-3a38"
-        },
-        {
-          "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "dc12-b28c-bebf-2efd",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
-          },
-          "modifiers": {
-            "modifier": [{
-                "conditionGroups": {
-                  "conditionGroup": {
-                    "conditionGroups": {
-                      "conditionGroup": {
-                        "conditions": {
-                          "condition": [{
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "7fc-170d-1114-5731",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "738a-431b-178a-ca86",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "67e6-b577-6c95-878c",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "c2e6-d2ef-87aa-2d55",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "e98f-6113-2c22-6a5e",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "dc0-f4bd-c462-b452",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "fe32-8e6c-ec1-a3a3",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "e664-cf6d-9d6a-74df",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "29a2-9f72-5dc2-cd4",
-                              "_shared": "true"
-                            },
-                            {
-                              "_type": "lessThan",
-                              "_value": "1",
-                              "_field": "selections",
-                              "_scope": "force",
-                              "_childId": "6ae-10fb-92fd-affb",
-                              "_shared": "true"
-                            }
-                          ]
-                        },
-                        "_type": "and"
-                      }
-                    },
-                    "conditions": {
-                      "condition": {
-                        "_type": "instanceOf",
-                        "_value": "1",
-                        "_field": "selections",
-                        "_scope": "ancestor",
-                        "_childId": "376a-6b97-8699-dd59",
-                        "_shared": "true"
-                      }
-                    },
-                    "_type": "and"
-                  }
-                },
-                "_type": "set",
-                "_value": "true",
-                "_field": "hidden"
-              },
-              {
-                "conditions": {
-                  "condition": {
-                    "_type": "atLeast",
-                    "_value": "1",
-                    "_field": "selections",
-                    "_scope": "self",
-                    "_childId": "1b37-82b8-c062-eb82",
-                    "_shared": "true"
-                  }
-                },
-                "_type": "multiply",
-                "_value": "2",
-                "_field": "points"
-              }
-            ]
-          },
-          "costs": {
-            "cost": {
-              "_name": "pts",
-              "_typeId": "points",
-              "_value": "130"
             }
           },
           "_import": "true",
@@ -5904,8 +8117,27 @@
               "_value": "180"
             }
           },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "abb9-3057-0b4c-247d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "6516-e036-f282-a868",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
+          },
           "_import": "true",
-          "_name": "Mutaleth Vortex Beast",
+          "_name": "Mutalith Vortex Beast",
           "_hidden": "false",
           "_id": "7a81-b8f7-3486-930c",
           "_type": "selectionEntry",
@@ -6295,6 +8527,25 @@
               "_value": "170"
             }
           },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "839d-b30f-13d8-d15b",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "8960-e2f4-ac58-050a",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
+          },
           "_import": "true",
           "_name": "Mindstealer Sphiranx",
           "_hidden": "false",
@@ -6304,14 +8555,39 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "d945-5c6-1ac9-e561",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "d945-5c6-1ac9-e561",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Ensorcelled Banners",
+                "_hidden": "false",
+                "_id": "11ff-34bd-934b-b39f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "5ad4-988a-ad77-9a2f"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "b0bf-fb94-c161-4afd",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "f05c-8e5d-cdf1-22e4",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -6560,8 +8836,27 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "140"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "62ca-f580-1a7a-f258",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "1257-3596-9e3a-6d55",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Darkoath Wilderfiend",
@@ -6951,8 +9246,27 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "120"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "3348-51d7-d84c-ac60",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "deae-0910-14ec-ba0a",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Fomoroid Crusher",
@@ -7132,8 +9446,27 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "100"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "50c6-13b6-6de3-13a6",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "336e-e222-f050-710e",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Gorebeast Chariot",
@@ -7144,14 +9477,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "f20b-47f7-98f2-f211",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "f20b-47f7-98f2-f211",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "38f8-80a9-8c85-0baf",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "5be3-be25-40ad-a727",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -7251,7 +9601,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "90"
+              "_value": "100"
             }
           },
           "_import": "true",
@@ -7645,6 +9995,25 @@
               "_value": "220"
             }
           },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "c4f9-1493-c738-ea87",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "4306-8918-c33c-36de",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
+          },
           "_import": "true",
           "_name": "Slaughterbrute",
           "_hidden": "false",
@@ -8006,6 +10375,25 @@
               "_value": "330"
             }
           },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "afb5-74b1-061d-1283",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "2310-2c54-3171-ca9f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
+          },
           "_import": "true",
           "_name": "Soul Grinder",
           "_hidden": "false",
@@ -8092,6 +10480,16 @@
               "_id": "d126-b788-30fb-5301"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "7ac9-e087-4e4c-6e05",
+              "_type": "selectionEntryGroup",
+              "_targetId": "20bb-e408-9d25-ffc6"
+            }
+          },
           "_import": "true",
           "_name": "The Oathsworn Kin",
           "_hidden": "false",
@@ -8101,14 +10499,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "994-4487-8239-34ec",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "994-4487-8239-34ec",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "9712-0c5b-f736-8eea",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "2bed-fe2b-2da9-bf29",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -8280,7 +10695,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "320"
+              "_value": "330"
             }
           },
           "_import": "true",
@@ -8480,6 +10895,25 @@
               "_value": "100"
             }
           },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "ae74-7238-cbe9-13b0",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "4e3a-310d-0546-96ba",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
+          },
           "_import": "true",
           "_name": "Corvus Cabal",
           "_hidden": "false",
@@ -8668,6 +11102,25 @@
               "_typeId": "points",
               "_value": "100"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "a07f-aa56-acca-6a7f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "30d7-890a-f15a-209c",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Cypher Lords",
@@ -8858,6 +11311,25 @@
               "_value": "120"
             }
           },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "0d2b-65d8-817e-5dde",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "effb-61d7-5379-56a8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
+          },
           "_import": "true",
           "_name": "Horns of Hashut",
           "_hidden": "false",
@@ -9046,6 +11518,33 @@
               "_typeId": "points",
               "_value": "100"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Ensorcelled Banners",
+                "_hidden": "false",
+                "_id": "f1a5-85e3-2301-05ca",
+                "_type": "selectionEntryGroup",
+                "_targetId": "5ad4-988a-ad77-9a2f"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "7948-8dfa-3598-6846",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "d78e-d080-9d40-8ef0",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Iron Golem",
@@ -9236,6 +11735,25 @@
               "_value": "120"
             }
           },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "d9aa-054f-2426-075c",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "1ea1-c4c8-cad3-80e4",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
+          },
           "_import": "true",
           "_name": "Scions of the Flame",
           "_hidden": "false",
@@ -9424,6 +11942,25 @@
               "_typeId": "points",
               "_value": "110"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "91d0-f9c2-dd17-e8e0",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "7ea8-de1f-5a0a-23b3",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Spire Tyrants",
@@ -9614,6 +12151,25 @@
               "_value": "110"
             }
           },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "93e6-2560-ffad-ed00",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "4eb7-517c-b7d1-7de1",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
+          },
           "_import": "true",
           "_name": "Splintered Fang",
           "_hidden": "false",
@@ -9802,6 +12358,25 @@
               "_typeId": "points",
               "_value": "150"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "67ef-1adf-0996-adff",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "d15a-3a73-e950-7a9b",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Tarantulos Brood",
@@ -9992,6 +12567,25 @@
               "_value": "110"
             }
           },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "abad-0cff-8498-8895",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "6f85-977e-3787-7d55",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
+          },
           "_import": "true",
           "_name": "The Unmade",
           "_hidden": "false",
@@ -10181,6 +12775,25 @@
               "_value": "110"
             }
           },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "15b4-f017-e536-a496",
+                "_type": "selectionEntryGroup",
+                "_targetId": "20bb-e408-9d25-ffc6"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "540b-2594-5e19-471d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b0a6-aba3-da51-8a7f"
+              }
+            ]
+          },
           "_import": "true",
           "_name": "Untamed Beasts",
           "_hidden": "false",
@@ -10322,6 +12935,16 @@
               "_value": "110"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "ab46-9474-24ea-c7a3",
+              "_type": "selectionEntryGroup",
+              "_targetId": "20bb-e408-9d25-ffc6"
+            }
+          },
           "_import": "true",
           "_name": "Godsworn Hunt",
           "_hidden": "false",
@@ -10461,6 +13084,16 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "110"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "ff96-80af-977c-4e1b",
+              "_type": "selectionEntryGroup",
+              "_targetId": "20bb-e408-9d25-ffc6"
             }
           },
           "_import": "true",
@@ -10644,6 +13277,16 @@
               "_value": "170"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "2de6-a98f-1707-09bf",
+              "_type": "selectionEntryGroup",
+              "_targetId": "20bb-e408-9d25-ffc6"
+            }
+          },
           "_import": "true",
           "_name": "Khagra's Ravagers",
           "_hidden": "false",
@@ -10672,7 +13315,7 @@
     "_name": "Slaves to Darkness",
     "_gameSystemId": "e51d-b1a3-75fc-dc3g",
     "_gameSystemRevision": "2",
-    "_revision": "1",
+    "_revision": "4",
     "_battleScribeVersion": "2.03",
     "_type": "catalogue"
   }

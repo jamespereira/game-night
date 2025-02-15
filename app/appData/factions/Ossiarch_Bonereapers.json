@@ -47,6 +47,23 @@
                 "_id": "e874-8544-4c68-2a8e",
                 "_type": "selectionEntryGroup",
                 "_targetId": "e6f7-ace-e043-eba7"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "cd96-2dd0-9299-2fa5",
+                "_type": "selectionEntryGroup",
+                "_targetId": "70cc-ca33-377e-3078"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "db90-49ac-7b0e-9caa",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6fa6-ec1d-cf81-982d",
+                "_collapsible": "false"
               }
             ]
           },
@@ -54,7 +71,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -92,6 +109,17 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "170"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "e30b-d709-bf6c-fe42",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6fa6-ec1d-cf81-982d",
+              "_collapsible": "false"
             }
           },
           "_import": "true",
@@ -229,14 +257,32 @@
             ]
           },
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "86c5-1b78-1a77-6e28",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "86c5-1b78-1a77-6e28",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "4709-9f59-c6c1-3206",
+                "_type": "selectionEntryGroup",
+                "_targetId": "70cc-ca33-377e-3078"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "8e55-8c84-5c13-0854",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6fa6-ec1d-cf81-982d",
+                "_collapsible": "false"
+              }
+            ]
           },
           "costs": {
             "cost": {
@@ -383,8 +429,28 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "150"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "cfd2-1a43-ed80-ecfb",
+                "_type": "selectionEntryGroup",
+                "_targetId": "70cc-ca33-377e-3078"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "a447-7fb6-8d24-7398",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6fa6-ec1d-cf81-982d",
+                "_collapsible": "false"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Teratic Cohort",
@@ -420,7 +486,18 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "500"
+              "_value": "520"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "33fb-d372-78ab-2a03",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6fa6-ec1d-cf81-982d",
+              "_collapsible": "false"
             }
           },
           "_import": "true",
@@ -462,7 +539,18 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "880"
+              "_value": "900"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "b399-4b97-23d0-cc48",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6fa6-ec1d-cf81-982d",
+              "_collapsible": "false"
             }
           },
           "_import": "true",
@@ -507,6 +595,17 @@
               "_value": "410"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "0a02-15bb-7b27-c000",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6fa6-ec1d-cf81-982d",
+              "_collapsible": "false"
+            }
+          },
           "_import": "true",
           "_name": "Arkhan the Black, Mortarch of Sacrament",
           "_hidden": "false",
@@ -521,6 +620,36 @@
                 "conditionGroup": {
                   "conditionGroups": {
                     "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "d622-6a8f-a4-9f14",
+                            "_shared": "true",
+                            "_includeChildSelections": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "4587-ae29-90ef-4bbb",
+                            "_shared": "true",
+                            "_includeChildSelections": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "c3eb-a11c-f7fa-2cfb",
+                            "_shared": "true",
+                            "_includeChildSelections": "true"
+                          }
+                        ]
+                      },
                       "_type": "and"
                     }
                   },
@@ -547,6 +676,55 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "230"
+            }
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "3de6-af42-827a-8af5",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "3de6-af42-827a-8af5",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "826a-a19d-dddc-677a"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "369f-3400-ebb7-1014",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6fa6-ec1d-cf81-982d",
+              "_collapsible": "false"
             }
           },
           "_import": "true",
@@ -774,7 +952,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "220"
+              "_value": "200"
             }
           },
           "constraints": {
@@ -786,6 +964,26 @@
               "_shared": "true",
               "_id": "ca97-ade5-2621-0cb7"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "a6d4-3829-8479-05f2",
+                "_type": "selectionEntryGroup",
+                "_targetId": "70cc-ca33-377e-3078"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "dab5-b785-9b1b-a265",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6fa6-ec1d-cf81-982d",
+                "_collapsible": "false"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Gothizzar Harvester",
@@ -922,14 +1120,32 @@
             ]
           },
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "f4dc-c0f9-b226-fe25",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "f4dc-c0f9-b226-fe25",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "2961-1d79-53fc-59ae",
+                "_type": "selectionEntryGroup",
+                "_targetId": "70cc-ca33-377e-3078"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "3a1a-5fac-0165-40e2",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6fa6-ec1d-cf81-982d",
+                "_collapsible": "false"
+              }
+            ]
           },
           "costs": {
             "cost": {
@@ -1083,18 +1299,36 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "180"
+              "_value": "200"
             }
           },
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "2375-d148-ce49-6045",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "2375-d148-ce49-6045",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "629c-fe11-dcde-0bec",
+                "_type": "selectionEntryGroup",
+                "_targetId": "70cc-ca33-377e-3078"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "e762-d27a-8fd9-86f8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6fa6-ec1d-cf81-982d",
+                "_collapsible": "false"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Kavalos Deathriders",
@@ -1184,6 +1418,23 @@
                 "_id": "9e59-1f06-cebf-830d",
                 "_type": "selectionEntryGroup",
                 "_targetId": "e6f7-ace-e043-eba7"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "e9f3-f24a-7b4d-22df",
+                "_type": "selectionEntryGroup",
+                "_targetId": "70cc-ca33-377e-3078"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "445c-6207-cd41-dd47",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6fa6-ec1d-cf81-982d",
+                "_collapsible": "false"
               }
             ]
           },
@@ -1377,14 +1628,32 @@
             ]
           },
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "1765-e1dc-7a36-1945",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "1765-e1dc-7a36-1945",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "e5c2-9981-4d75-189b",
+                "_type": "selectionEntryGroup",
+                "_targetId": "70cc-ca33-377e-3078"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "38b0-e6a6-66ca-e8ac",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6fa6-ec1d-cf81-982d",
+                "_collapsible": "false"
+              }
+            ]
           },
           "costs": {
             "cost": {
@@ -1528,14 +1797,32 @@
             ]
           },
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "4f47-1ae2-fb4d-ac0c",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "4f47-1ae2-fb4d-ac0c",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "bee8-9399-5d02-b551",
+                "_type": "selectionEntryGroup",
+                "_targetId": "70cc-ca33-377e-3078"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "72b5-0159-53f7-385d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6fa6-ec1d-cf81-982d",
+                "_collapsible": "false"
+              }
+            ]
           },
           "costs": {
             "cost": {
@@ -1633,6 +1920,14 @@
                               "_scope": "force",
                               "_childId": "b55b-62e8-e8fe-88c7",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "a808-e9cc-f583-1bb8",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -1710,6 +2005,26 @@
               "_id": "e053-31c3-1b9f-f7de"
             }
           },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "3858-99b5-b6bf-500f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "70cc-ca33-377e-3078"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "9c73-a9dd-b634-0f6c",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6fa6-ec1d-cf81-982d",
+                "_collapsible": "false"
+              }
+            ]
+          },
           "_import": "true",
           "_name": "Mortek Crawler",
           "_hidden": "false",
@@ -1763,6 +2078,23 @@
                 "_id": "3804-1f92-734f-c0d4",
                 "_type": "selectionEntryGroup",
                 "_targetId": "e6f7-ace-e043-eba7"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "5c46-b2ee-9e76-6a01",
+                "_type": "selectionEntryGroup",
+                "_targetId": "70cc-ca33-377e-3078"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "d49b-2f9b-fb9e-be0c",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6fa6-ec1d-cf81-982d",
+                "_collapsible": "false"
               }
             ]
           },
@@ -1826,6 +2158,23 @@
                 "_id": "718b-1a2f-7302-ad84",
                 "_type": "selectionEntryGroup",
                 "_targetId": "e6f7-ace-e043-eba7"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "afa1-802c-93e4-f5f9",
+                "_type": "selectionEntryGroup",
+                "_targetId": "70cc-ca33-377e-3078"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "066e-d56c-918e-b42c",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6fa6-ec1d-cf81-982d",
+                "_collapsible": "false"
               }
             ]
           },
@@ -1889,6 +2238,23 @@
                 "_id": "5d67-7de4-f671-d5f2",
                 "_type": "selectionEntryGroup",
                 "_targetId": "e6f7-ace-e043-eba7"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "ed77-3fb7-16fe-b4f0",
+                "_type": "selectionEntryGroup",
+                "_targetId": "70cc-ca33-377e-3078"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "a918-0e44-fd58-d06a",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6fa6-ec1d-cf81-982d",
+                "_collapsible": "false"
               }
             ]
           },
@@ -1896,7 +2262,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "110"
             }
           },
           "_import": "true",
@@ -2034,20 +2400,38 @@
             ]
           },
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "250a-7a7-ef1b-d765",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "250a-7a7-ef1b-d765",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "037d-dda3-b3b6-8744",
+                "_type": "selectionEntryGroup",
+                "_targetId": "70cc-ca33-377e-3078"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "0a37-a967-bcb4-c288",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6fa6-ec1d-cf81-982d",
+                "_collapsible": "false"
+              }
+            ]
           },
           "costs": {
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "160"
             }
           },
           "_import": "true",
@@ -2073,6 +2457,17 @@
               "_value": "230"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "2d98-e69b-34cf-5939",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6fa6-ec1d-cf81-982d",
+              "_collapsible": "false"
+            }
+          },
           "_import": "true",
           "_name": "Arch-Kavalos Zandtos",
           "_hidden": "false",
@@ -2096,6 +2491,17 @@
               "_value": "410"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "95a9-0a7a-d4bf-f408",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6fa6-ec1d-cf81-982d",
+              "_collapsible": "false"
+            }
+          },
           "_import": "true",
           "_name": "Arkhan the Black, Mortarch of Sacrament",
           "_hidden": "false",
@@ -2116,7 +2522,18 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "500"
+              "_value": "520"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "bab2-a253-e105-b1d3",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6fa6-ec1d-cf81-982d",
+              "_collapsible": "false"
             }
           },
           "_import": "true",
@@ -2158,6 +2575,23 @@
                 "_id": "a221-1ffb-9589-cf51",
                 "_type": "selectionEntryGroup",
                 "_targetId": "e6f7-ace-e043-eba7"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "4f51-7f5b-b5e5-1462",
+                "_type": "selectionEntryGroup",
+                "_targetId": "70cc-ca33-377e-3078"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "9f99-1c34-c958-700d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6fa6-ec1d-cf81-982d",
+                "_collapsible": "false"
               }
             ]
           },
@@ -2173,7 +2607,8 @@
           "_hidden": "false",
           "_id": "dbe5-2c39-2d83-5bde",
           "_type": "selectionEntry",
-          "_targetId": "94bd-295c-c868-27ee"
+          "_targetId": "94bd-295c-c868-27ee",
+          "_collapsible": "false"
         },
         {
           "categoryLinks": {
@@ -2188,7 +2623,18 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "880"
+              "_value": "900"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "7445-9be2-be28-f2e5",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6fa6-ec1d-cf81-982d",
+              "_collapsible": "false"
             }
           },
           "_import": "true",
@@ -2212,6 +2658,17 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "170"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "467a-420a-9ba3-6de9",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6fa6-ec1d-cf81-982d",
+              "_collapsible": "false"
             }
           },
           "_import": "true",
@@ -2253,6 +2710,23 @@
                 "_id": "7dbb-ad0f-c823-b794",
                 "_type": "selectionEntryGroup",
                 "_targetId": "e6f7-ace-e043-eba7"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "09d2-936a-bf91-c8b2",
+                "_type": "selectionEntryGroup",
+                "_targetId": "70cc-ca33-377e-3078"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "326d-45c7-211b-4373",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6fa6-ec1d-cf81-982d",
+                "_collapsible": "false"
               }
             ]
           },
@@ -2260,7 +2734,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -2302,6 +2776,23 @@
                 "_id": "62b2-9ab6-5f65-e169",
                 "_type": "selectionEntryGroup",
                 "_targetId": "e6f7-ace-e043-eba7"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "55b5-a8e4-8094-5769",
+                "_type": "selectionEntryGroup",
+                "_targetId": "70cc-ca33-377e-3078"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "a85c-4726-dde4-6a1e",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6fa6-ec1d-cf81-982d",
+                "_collapsible": "false"
               }
             ]
           },
@@ -2351,6 +2842,23 @@
                 "_id": "e871-3d90-e068-631c",
                 "_type": "selectionEntryGroup",
                 "_targetId": "e6f7-ace-e043-eba7"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "9b0a-beec-f2bb-9490",
+                "_type": "selectionEntryGroup",
+                "_targetId": "70cc-ca33-377e-3078"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "d86b-f51c-6cfa-d00b",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6fa6-ec1d-cf81-982d",
+                "_collapsible": "false"
               }
             ]
           },
@@ -2400,6 +2908,23 @@
                 "_id": "3b0e-52c-9e46-9318",
                 "_type": "selectionEntryGroup",
                 "_targetId": "e6f7-ace-e043-eba7"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "fc3e-4a15-409b-4dd7",
+                "_type": "selectionEntryGroup",
+                "_targetId": "70cc-ca33-377e-3078"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "e7e0-3de0-5420-43cb",
+                "_type": "selectionEntryGroup",
+                "_targetId": "6fa6-ec1d-cf81-982d",
+                "_collapsible": "false"
               }
             ]
           },
@@ -2407,7 +2932,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "110"
             }
           },
           "_import": "true",
@@ -2570,6 +3095,17 @@
               "_value": "140"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "409d-fe7f-4174-b30f",
+              "_type": "selectionEntryGroup",
+              "_targetId": "6fa6-ec1d-cf81-982d",
+              "_collapsible": "false"
+            }
+          },
           "_import": "true",
           "_name": "Kainan's Reapers",
           "_hidden": "false",
@@ -2580,12 +3116,20 @@
       ]
     },
     "catalogueLinks": {
-      "catalogueLink": {
-        "_type": "catalogue",
-        "_name": "Ossiarch Bonereapers - Data",
-        "_id": "4daa-8223-e0d0-6835",
-        "_targetId": "3521-1b3c-7fd9-838b"
-      }
+      "catalogueLink": [{
+          "_type": "catalogue",
+          "_name": "Ossiarch Bonereapers - Library",
+          "_id": "4daa-8223-e0d0-6835",
+          "_targetId": "3521-1b3c-7fd9-838b"
+        },
+        {
+          "_type": "catalogue",
+          "_name": "Path to Glory - Ravaged Coast",
+          "_id": "206f-816c-89c8-a5f0",
+          "_targetId": "a434-b1ba-922b-7624",
+          "_importRootEntries": "true"
+        }
+      ]
     },
     "selectionEntries": {
       "selectionEntry": [{
@@ -2637,10 +3181,27 @@
               "_name": "Army Composition"
             }
           },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "force",
+                  "_childId": "f079-501a-2738-6844",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
           "_type": "upgrade",
           "_import": "true",
           "_name": "Manifestation Lore",
-          "_hidden": "false",
+          "_hidden": "true",
           "_id": "91d-5346-9479-8caa",
           "_defaultAmount": "1"
         },
@@ -2683,10 +3244,27 @@
               "_flatten": "true"
             }
           },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "force",
+                  "_childId": "f079-501a-2738-6844",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
           "_type": "upgrade",
           "_import": "true",
           "_name": "Spell Lore",
-          "_hidden": "false",
+          "_hidden": "true",
           "_id": "1c11-e9eb-cbcd-a210",
           "_defaultAmount": "1"
         },
@@ -2727,257 +3305,599 @@
           "_hidden": "false",
           "_id": "e803-e316-2598-3501",
           "_defaultAmount": "1"
+        },
+        {
+          "constraints": {
+            "constraint": [{
+                "_type": "min",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "roster",
+                "_shared": "true",
+                "_id": "f676-cdac-8ef9-c2fd-min"
+              },
+              {
+                "_type": "max",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "roster",
+                "_shared": "true",
+                "_id": "f676-cdac-8ef9-c2fd-max"
+              }
+            ]
+          },
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Army Composition",
+              "_hidden": "false",
+              "_id": "3ece-a7c3-5be5-39fd",
+              "_targetId": "ac97-b27c-7e35-7ab9",
+              "_primary": "true"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "selectionEntryGroups": {
+            "selectionEntryGroup": {
+              "selectionEntryGroups": {
+                "selectionEntryGroup": {
+                  "entryLinks": {
+                    "entryLink": [{
+                        "constraints": {
+                          "constraint": {
+                            "_type": "max",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "9fe3-da40-ce61-6244"
+                          }
+                        },
+                        "_import": "true",
+                        "_name": "Drain Vitality",
+                        "_hidden": "false",
+                        "_id": "cc47-084e-5f05-2ad6",
+                        "_type": "selectionEntry",
+                        "_targetId": "282f-dc47-e653-a3f7"
+                      },
+                      {
+                        "constraints": {
+                          "constraint": {
+                            "_type": "max",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "9137-08ba-4570-7ccd"
+                          }
+                        },
+                        "_import": "true",
+                        "_name": "Empower Nadirite Weapons",
+                        "_hidden": "false",
+                        "_id": "fed9-15bc-abb6-43f6",
+                        "_type": "selectionEntry",
+                        "_targetId": "66fb-b286-fea5-6ded"
+                      },
+                      {
+                        "constraints": {
+                          "constraint": {
+                            "_type": "max",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "80a0-ce81-d708-f799"
+                          }
+                        },
+                        "_import": "true",
+                        "_name": "Shard Storm",
+                        "_hidden": "false",
+                        "_id": "e702-05bb-cc56-9e29",
+                        "_type": "selectionEntry",
+                        "_targetId": "7fc2-08f6-c71e-742f"
+                      }
+                    ]
+                  },
+                  "_name": "Lore of Ossian Sorcery",
+                  "_id": "3282-815e-0b67-a22d",
+                  "_hidden": "false"
+                }
+              },
+              "constraints": {
+                "constraint": {
+                  "_type": "max",
+                  "_value": "6",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_shared": "true",
+                  "_id": "9ad5-c916-b88e-c041"
+                }
+              },
+              "entryLinks": {
+                "entryLink": [{
+                    "_import": "true",
+                    "_name": "Spell Lores",
+                    "_hidden": "false",
+                    "_id": "de1e-0757-3b38-8fc2",
+                    "_type": "selectionEntryGroup",
+                    "_targetId": "0bcf-1704-aaff-2b45",
+                    "_flatten": "true"
+                  },
+                  {
+                    "_import": "true",
+                    "_name": "Prayer Lores",
+                    "_hidden": "false",
+                    "_id": "2257-60e3-9c50-e562",
+                    "_type": "selectionEntryGroup",
+                    "_targetId": "123c-ec0f-04eb-41d5",
+                    "_flatten": "true"
+                  }
+                ]
+              },
+              "_name": "",
+              "_id": "da9e-ed48-41ab-ca6e",
+              "_hidden": "false"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Arcane Tome",
+          "_hidden": "true",
+          "_id": "37bd-34f0-5e07-f1f7",
+          "_defaultAmount": "1"
         }
       ]
     },
     "sharedSelectionEntries": {
-      "selectionEntry": {
-        "profiles": {
-          "profile": [{
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_id": "53d8-58b5-21df-24ab",
-                    "_hidden": "false",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Any Charge Phase"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_id": "e089-6865-8acf-da0b",
-                    "_hidden": "false",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "If no friendly units have used a **^^Relentless Discipline^^** ability this phase, pick a friendly **^^Ossiarch Bonereapers Hero^^** to use this ability."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_id": "58f5-a956-2f4-663a",
-                    "_hidden": "false",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "For the rest of the turn, add 1 to charge rolls for friendly **^^Ossiarch Bonereapers^^** units while they are wholly within 12\" of that **^^Hero^^**."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_id": "e113-8e3b-e020-be30",
-                    "_hidden": "false",
-                    "_typeId": "12e8-3214-7d8f-1d0f",
-                    "__text": "**^^Relentless Discipline^^**"
-                  }
-                ]
+      "selectionEntry": [{
+          "profiles": {
+            "profile": [{
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_id": "53d8-58b5-21df-24ab",
+                      "_hidden": "false",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Any Charge Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_id": "e089-6865-8acf-da0b",
+                      "_hidden": "false",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "If no friendly units have used a **^^Relentless Discipline^^** ability this phase, pick a friendly **^^Ossiarch Bonereapers Hero^^** to use this ability."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_id": "58f5-a956-2f4-663a",
+                      "_hidden": "false",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "For the rest of the turn, add 1 to charge rolls for friendly **^^Ossiarch Bonereapers^^** units while they are wholly within 12\" of that **^^Hero^^**."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_id": "e113-8e3b-e020-be30",
+                      "_hidden": "false",
+                      "_typeId": "12e8-3214-7d8f-1d0f",
+                      "__text": "**^^Relentless Discipline^^**"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Coordinated Charge",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "ff4e-8de5-35f5-5a29"
               },
-              "_name": "Coordinated Charge",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
-              "_hidden": "false",
-              "_id": "ff4e-8de5-35f5-5a29"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_id": "8dbd-8631-48c7-6",
-                    "_hidden": "false",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Your Movement Phase"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_id": "6ce2-7f88-b015-6e44",
-                    "_hidden": "false",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "If no friendly units have used a **^^Relentless Discipline^^** ability this phase, pick a friendly **^^Ossiarch Bonereapers Hero^^** to use this ability."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_id": "568d-1636-6b14-28e3",
-                    "_hidden": "false",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "For the rest of the turn, while they are wholly within 12\" of that **^^Hero^^**, friendly **^^Ossiarch Bonereapers^^** units can use **^^Charge^^** abilities even if they used a **^^Retreat^^** ability in the same turn."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_id": "8e38-9ddc-e3a3-2e7f",
-                    "_hidden": "false",
-                    "_typeId": "12e8-3214-7d8f-1d0f",
-                    "__text": "**^^Relentless Discipline^^**"
-                  }
-                ]
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_id": "8dbd-8631-48c7-6",
+                      "_hidden": "false",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Your Movement Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_id": "6ce2-7f88-b015-6e44",
+                      "_hidden": "false",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "If no friendly units have used a **^^Relentless Discipline^^** ability this phase, pick a friendly **^^Ossiarch Bonereapers Hero^^** to use this ability."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_id": "568d-1636-6b14-28e3",
+                      "_hidden": "false",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "For the rest of the turn, while they are wholly within 12\" of that **^^Hero^^**, friendly **^^Ossiarch Bonereapers^^** units can use **^^Charge^^** abilities even if they used a **^^Retreat^^** ability in the same turn."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_id": "8e38-9ddc-e3a3-2e7f",
+                      "_hidden": "false",
+                      "_typeId": "12e8-3214-7d8f-1d0f",
+                      "__text": "**^^Relentless Discipline^^**"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Re-form Ranks",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "a676-243e-ce91-fbcf"
               },
-              "_name": "Re-form Ranks",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
-              "_hidden": "false",
-              "_id": "a676-243e-ce91-fbcf"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_id": "c1fb-f65-2e66-9805",
-                    "_hidden": "false",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Any Combat Phase"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_id": "2939-e1d-c56f-d50c",
-                    "_hidden": "false",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "If no friendly units have used a **^^Relentless Discipline^^** ability this phase, pick a friendly **^^Ossiarch Bonereapers Hero^^** to use this ability."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_id": "a52d-5f8a-c62c-ac21",
-                    "_hidden": "false",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "For the rest of the turn, add 1 to wound rolls for combat attacks made by friendly **^^Ossiarch Bonereapers^^** units while they are wholly within 12\" of that **^^Hero^^**."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_id": "8ad7-afbf-1b65-7170",
-                    "_hidden": "false",
-                    "_typeId": "12e8-3214-7d8f-1d0f",
-                    "__text": "**^^Relentless Discipline^^**"
-                  }
-                ]
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_id": "c1fb-f65-2e66-9805",
+                      "_hidden": "false",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Any Combat Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_id": "2939-e1d-c56f-d50c",
+                      "_hidden": "false",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "If no friendly units have used a **^^Relentless Discipline^^** ability this phase, pick a friendly **^^Ossiarch Bonereapers Hero^^** to use this ability."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_id": "a52d-5f8a-c62c-ac21",
+                      "_hidden": "false",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "For the rest of the turn, add 1 to wound rolls for combat attacks made by friendly **^^Ossiarch Bonereapers^^** units while they are wholly within 12\" of that **^^Hero^^**."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_id": "8ad7-afbf-1b65-7170",
+                      "_hidden": "false",
+                      "_typeId": "12e8-3214-7d8f-1d0f",
+                      "__text": "**^^Relentless Discipline^^**"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Bludgeon",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "b0bd-96e3-ff9e-46a0"
               },
-              "_name": "Bludgeon",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
-              "_hidden": "false",
-              "_id": "b0bd-96e3-ff9e-46a0"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_id": "b0fc-d727-3359-b3e",
-                    "_hidden": "false",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Any Charge Phase"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_id": "4795-943e-13be-f9a5",
-                    "_hidden": "false",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "If no friendly units have used a **^^Relentless Discipline^^** ability this phase, pick a friendly **^^Ossiarch Bonereapers Hero^^** to use this ability."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_id": "bef3-3bd0-cd26-81e4",
-                    "_hidden": "false",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "For the rest of the turn, friendly units’ melee weapons have **Anti‑charge (+1 Rend)** while they are wholly within 12\" of that **^^Hero^^**."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_id": "263-c444-80a4-8060",
-                    "_hidden": "false",
-                    "_typeId": "12e8-3214-7d8f-1d0f",
-                    "__text": "**^^Relentless Discipline^^**"
-                  }
-                ]
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_id": "b0fc-d727-3359-b3e",
+                      "_hidden": "false",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Any Charge Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_id": "4795-943e-13be-f9a5",
+                      "_hidden": "false",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "If no friendly units have used a **^^Relentless Discipline^^** ability this phase, pick a friendly **^^Ossiarch Bonereapers Hero^^** to use this ability."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_id": "bef3-3bd0-cd26-81e4",
+                      "_hidden": "false",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "For the rest of the turn, friendly units’ melee weapons have **Anti‑charge (+1 Rend)** while they are wholly within 12\" of that **^^Hero^^**."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_id": "263-c444-80a4-8060",
+                      "_hidden": "false",
+                      "_typeId": "12e8-3214-7d8f-1d0f",
+                      "__text": "**^^Relentless Discipline^^**"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Counter-strike",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "d313-7858-8093-a6a0"
               },
-              "_name": "Counter-strike",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
-              "_hidden": "false",
-              "_id": "d313-7858-8093-a6a0"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_id": "c304-6384-b707-8dce",
-                    "_hidden": "false",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Your Movement Phase"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_id": "4d7e-b1e5-dd62-bbe6",
-                    "_hidden": "false",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "If no friendly units have used a **^^Relentless Discipline^^** ability this phase, pick a friendly **^^Ossiarch Bonereapers Hero^^** to use this ability. All friendly **^^Ossiarch Bonereapers^^** units wholly within 12\" of that **^^Hero^^** are the targets."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_id": "86b1-6f86-636e-f7ef",
-                    "_hidden": "false",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "Add 2\" to the Move characteristic of each target for the rest of the turn."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_id": "c04c-c450-8405-2614",
-                    "_hidden": "false",
-                    "_typeId": "12e8-3214-7d8f-1d0f",
-                    "__text": "**^^Relentless Discipline^^**"
-                  }
-                ]
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_id": "c304-6384-b707-8dce",
+                      "_hidden": "false",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Your Movement Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_id": "4d7e-b1e5-dd62-bbe6",
+                      "_hidden": "false",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "If no friendly units have used a **^^Relentless Discipline^^** ability this phase, pick a friendly **^^Ossiarch Bonereapers Hero^^** to use this ability. All friendly **^^Ossiarch Bonereapers^^** units wholly within 12\" of that **^^Hero^^** are the targets."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_id": "86b1-6f86-636e-f7ef",
+                      "_hidden": "false",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "Add 2\" to the Move characteristic of each target for the rest of the turn."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_id": "c04c-c450-8405-2614",
+                      "_hidden": "false",
+                      "_typeId": "12e8-3214-7d8f-1d0f",
+                      "__text": "**^^Relentless Discipline^^**"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Unstoppable Advance",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "d7c-9c10-b15d-e67c"
               },
-              "_name": "Unstoppable Advance",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_id": "ee93-cd4c-653f-e500",
+                      "_hidden": "false",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Any Combat Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_id": "25fc-9ec1-cd3a-3cff",
+                      "_hidden": "false",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "If no friendly units have used a **^^Relentless Discipline^^** ability this phase, pick a friendly **^^Ossiarch Bonereapers Hero^^** to use this ability."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_id": "6b0c-13eb-22e5-734f",
+                      "_hidden": "false",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "For the rest of the turn, friendly **^^Ossiarch Bonereapers^^** have **^^Ward (5+)^^** while they are wholly within 12\" of that **^^Hero^^**."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_id": "1ebd-ead8-e35d-27e0",
+                      "_hidden": "false",
+                      "_typeId": "12e8-3214-7d8f-1d0f",
+                      "__text": "**^^Relentless Discipline^^**"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Impenetrable Ranks",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "e274-c75d-abf2-df6d"
+              }
+            ]
+          },
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Reference",
               "_hidden": "false",
-              "_id": "d7c-9c10-b15d-e67c"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_id": "ee93-cd4c-653f-e500",
-                    "_hidden": "false",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Any Combat Phase"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_id": "25fc-9ec1-cd3a-3cff",
-                    "_hidden": "false",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "If no friendly units have used a **^^Relentless Discipline^^** ability this phase, pick a friendly **^^Ossiarch Bonereapers Hero^^** to use this ability."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_id": "6b0c-13eb-22e5-734f",
-                    "_hidden": "false",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "For the rest of the turn, friendly **^^Ossiarch Bonereapers^^** have **^^Ward (5+)^^** while they are wholly within 12\" of that **^^Hero^^**."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_id": "1ebd-ead8-e35d-27e0",
-                    "_hidden": "false",
-                    "_typeId": "12e8-3214-7d8f-1d0f",
-                    "__text": "**^^Relentless Discipline^^**"
-                  }
-                ]
-              },
-              "_name": "Impenetrable Ranks",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
-              "_hidden": "false",
-              "_id": "e274-c75d-abf2-df6d"
+              "_id": "ed9f-3b9a-516e-87f0",
+              "_targetId": "3360-1158-e879-9606",
+              "_primary": "true"
             }
-          ]
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Battle Traits: Ossiarch Bonereapers",
+          "_hidden": "false",
+          "_id": "bc5f-6169-d1c-e4af"
         },
-        "categoryLinks": {
-          "categoryLink": {
-            "_name": "Reference",
-            "_hidden": "false",
-            "_id": "ed9f-3b9a-516e-87f0",
-            "_targetId": "3360-1158-e879-9606",
-            "_primary": "true"
-          }
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_id": "dfdf-429e-92b5-82d2",
+                    "_hidden": "false",
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_id": "3cca-7862-d93f-aa7",
+                    "_hidden": "false",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "7"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_id": "59-84b3-f3e4-babb",
+                    "_hidden": "false",
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Ossiarch Bonereapers Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_id": "8b1b-90b6-4ae-f92",
+                    "_hidden": "false",
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "Until the start of your next turn, subtract 1 from hit rolls for the target’s attacks and subtract 1 from save rolls for the target."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_id": "65e0-be4c-ac0b-6473",
+                    "_hidden": "false",
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**"
+                  }
+                ]
+              },
+              "_name": "Drain Vitality",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
+              "_hidden": "false",
+              "_id": "af24-69cd-25ee-f2df"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Drain Vitality",
+          "_hidden": "false",
+          "_id": "282f-dc47-e653-a3f7"
         },
-        "_type": "upgrade",
-        "_import": "true",
-        "_name": "Battle Traits: Ossiarch Bonereapers",
-        "_hidden": "false",
-        "_id": "bc5f-6169-d1c-e4af"
-      }
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_id": "2bef-cf8-d7fb-e4eb",
+                    "_hidden": "false",
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_id": "7389-5e27-774a-b8c",
+                    "_hidden": "false",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "5"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_id": "3913-5ca5-c700-5d04",
+                    "_hidden": "false",
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Ossiarch Bonereapers Wizard^^** to cast this spell, pick a visible friendly **^^Ossiarch Bonereapers^^** unit within 12\" of them to be the target, then make a casting roll of 2D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_id": "f04e-ff25-a119-ec25",
+                    "_hidden": "false",
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "The target's combat attacks score critical hits on unmodified hit rolls of 5+ until the start of your next turn."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_id": "a330-2ef0-a7b5-b7c5",
+                    "_hidden": "false",
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**, **^^Unlimited^^**"
+                  }
+                ]
+              },
+              "_name": "Empower Nadirite Weapons",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
+              "_hidden": "false",
+              "_id": "a532-2fb6-7eae-b011"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Empower Nadirite Weapons",
+          "_hidden": "false",
+          "_id": "66fb-b286-fea5-6ded"
+        },
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_id": "ff9d-a8f3-8941-56e1",
+                    "_hidden": "false",
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_id": "c010-a522-41d4-d609",
+                    "_hidden": "false",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "7"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_id": "fb72-8948-f17e-8c6d",
+                    "_hidden": "false",
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Ossiarch Bonereapers Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_id": "b29d-c4fc-8d9-a092",
+                    "_hidden": "false",
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_id": "1e72-ebaf-c0ce-e835",
+                    "_hidden": "false",
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**"
+                  }
+                ]
+              },
+              "_name": "Shard Storm",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
+              "_hidden": "false",
+              "_id": "50b0-fc22-4be6-ceed"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Shard Storm",
+          "_hidden": "false",
+          "_id": "7fc2-08f6-c71e-742f"
+        }
+      ]
     },
     "sharedSelectionEntryGroups": {
       "selectionEntryGroup": [{
@@ -3056,6 +3976,10 @@
                               "_id": "c400-a1bf-9604-6999",
                               "_hidden": "false",
                               "_typeId": "12e8-3214-7d8f-1d0f"
+                            },
+                            {
+                              "_name": "Used By",
+                              "_typeId": "1b32-c9d6-3106-166b"
                             }
                           ]
                         },
@@ -3154,6 +4078,17 @@
               "_includeChildSelections": "true"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Artefacts of Power",
+              "_hidden": "false",
+              "_id": "b3a3-d8a6-5ec1-b7be",
+              "_type": "selectionEntryGroup",
+              "_targetId": "e1b2-cedf-56a5-6bb1",
+              "_flatten": "true"
+            }
+          },
           "_name": "Artefacts of Power",
           "_id": "e875-609a-cd77-31e3",
           "_hidden": "false"
@@ -3200,6 +4135,10 @@
                           "_id": "1ae6-a0-d3aa-5966",
                           "_hidden": "false",
                           "_typeId": "12e8-3214-7d8f-1d0f"
+                        },
+                        {
+                          "_name": "Used By",
+                          "_typeId": "1b32-c9d6-3106-166b"
                         }
                       ]
                     },
@@ -3256,6 +4195,10 @@
                           "_id": "6800-e885-2866-9e09",
                           "_hidden": "false",
                           "_typeId": "12e8-3214-7d8f-1d0f"
+                        },
+                        {
+                          "_name": "Used By",
+                          "_typeId": "1b32-c9d6-3106-166b"
                         }
                       ]
                     },
@@ -3312,6 +4255,10 @@
                           "_id": "8fcc-999a-aced-bd08",
                           "_hidden": "false",
                           "_typeId": "12e8-3214-7d8f-1d0f"
+                        },
+                        {
+                          "_name": "Used By",
+                          "_typeId": "1b32-c9d6-3106-166b"
                         }
                       ]
                     },
@@ -3483,13 +4430,18 @@
                     "profiles": {
                       "profile": {
                         "characteristics": {
-                          "characteristic": {
-                            "_name": "Effect",
-                            "_id": "34c0-9eb8-24a0-161c",
-                            "_hidden": "false",
-                            "_typeId": "b977-7c5e-33b2-428e",
-                            "__text": "Subtract 2 from charge rolls for enemy units while they are within 12\" of this unit."
-                          }
+                          "characteristic": [{
+                              "_name": "Keywords",
+                              "_typeId": "b977-7c5e-33b2-428e"
+                            },
+                            {
+                              "_name": "Effect",
+                              "_id": "34c0-9eb8-24a0-161c",
+                              "_hidden": "false",
+                              "_typeId": "fd7f-888d-3257-a12b",
+                              "__text": "Subtract 2 from charge rolls for enemy units while they are within 12\" of this unit."
+                            }
+                          ]
                         },
                         "_name": "Diversionary Tactics",
                         "_typeId": "907f-a48-6a04-f788",
@@ -3541,6 +4493,17 @@
               "_shared": "true",
               "_id": "9ca3-4e19-2a0c-2310",
               "_includeChildSelections": "true"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Heroic Traits",
+              "_hidden": "false",
+              "_id": "81be-a73d-ffcb-70c8",
+              "_type": "selectionEntryGroup",
+              "_targetId": "c437-e34c-5e1c-95e6",
+              "_flatten": "true"
             }
           },
           "_name": "Heroic Traits",
@@ -3787,144 +4750,6 @@
         {
           "selectionEntries": {
             "selectionEntry": {
-              "profiles": {
-                "profile": [{
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_id": "2bef-cf8-d7fb-e4eb",
-                          "_hidden": "false",
-                          "_typeId": "de6f-d57b-248a-83be",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Casting Value",
-                          "_id": "7389-5e27-774a-b8c",
-                          "_hidden": "false",
-                          "_typeId": "9fc7-b0f6-d018-a608",
-                          "__text": "5"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_id": "3913-5ca5-c700-5d04",
-                          "_hidden": "false",
-                          "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Ossiarch Bonereapers Wizard^^** to cast this spell, pick a visible friendly **^^Ossiarch Bonereapers^^** unit within 12\" of them to be the target, then make a casting roll of 2D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_id": "f04e-ff25-a119-ec25",
-                          "_hidden": "false",
-                          "_typeId": "1cb9-a-1345-907f",
-                          "__text": "The target's combat attacks score critical hits on unmodified hit rolls of 5+ until the start of your next turn."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_id": "a330-2ef0-a7b5-b7c5",
-                          "_hidden": "false",
-                          "_typeId": "353f-565e-c351-1cf2",
-                          "__text": "**^^Spell^^**, **^^Unlimited^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Empower Nadirite Weapons",
-                    "_typeId": "7312-8367-c171-f2ef",
-                    "_typeName": "Ability (Spell)",
-                    "_hidden": "false",
-                    "_id": "a532-2fb6-7eae-b011"
-                  },
-                  {
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_id": "dfdf-429e-92b5-82d2",
-                          "_hidden": "false",
-                          "_typeId": "de6f-d57b-248a-83be",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Casting Value",
-                          "_id": "3cca-7862-d93f-aa7",
-                          "_hidden": "false",
-                          "_typeId": "9fc7-b0f6-d018-a608",
-                          "__text": "7"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_id": "59-84b3-f3e4-babb",
-                          "_hidden": "false",
-                          "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Ossiarch Bonereapers Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_id": "8b1b-90b6-4ae-f92",
-                          "_hidden": "false",
-                          "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Until the start of your next turn, subtract 1 from hit rolls for the target’s attacks and subtract 1 from save rolls for the target."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_id": "65e0-be4c-ac0b-6473",
-                          "_hidden": "false",
-                          "_typeId": "353f-565e-c351-1cf2",
-                          "__text": "**^^Spell^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Drain Vitality",
-                    "_typeId": "7312-8367-c171-f2ef",
-                    "_typeName": "Ability (Spell)",
-                    "_hidden": "false",
-                    "_id": "af24-69cd-25ee-f2df"
-                  },
-                  {
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_id": "ff9d-a8f3-8941-56e1",
-                          "_hidden": "false",
-                          "_typeId": "de6f-d57b-248a-83be",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Casting Value",
-                          "_id": "c010-a522-41d4-d609",
-                          "_hidden": "false",
-                          "_typeId": "9fc7-b0f6-d018-a608",
-                          "__text": "7"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_id": "fb72-8948-f17e-8c6d",
-                          "_hidden": "false",
-                          "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Ossiarch Bonereapers Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_id": "b29d-c4fc-8d9-a092",
-                          "_hidden": "false",
-                          "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_id": "1e72-ebaf-c0ce-e835",
-                          "_hidden": "false",
-                          "_typeId": "353f-565e-c351-1cf2",
-                          "__text": "**^^Spell^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Shard Storm",
-                    "_typeId": "7312-8367-c171-f2ef",
-                    "_typeName": "Ability (Spell)",
-                    "_hidden": "false",
-                    "_id": "50b0-fc22-4be6-ceed"
-                  }
-                ]
-              },
               "constraints": {
                 "constraint": {
                   "_type": "max",
@@ -3934,6 +4759,90 @@
                   "_shared": "true",
                   "_id": "4b5e-ef55-29be-c6c6"
                 }
+              },
+              "entryLinks": {
+                "entryLink": [{
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "0dbf-79df-8348-c3f7-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "0dbf-79df-8348-c3f7-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Drain Vitality",
+                    "_hidden": "false",
+                    "_id": "31eb-e395-fd3a-fd09",
+                    "_type": "selectionEntry",
+                    "_targetId": "282f-dc47-e653-a3f7"
+                  },
+                  {
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "cc66-d28b-b3a9-6fa4-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "cc66-d28b-b3a9-6fa4-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Shard Storm",
+                    "_hidden": "false",
+                    "_id": "521b-591f-7fc3-451e",
+                    "_type": "selectionEntry",
+                    "_targetId": "7fc2-08f6-c71e-742f"
+                  },
+                  {
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "5d88-4a5d-b2b6-2f8c-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "5d88-4a5d-b2b6-2f8c-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Empower Nadirite Weapons",
+                    "_hidden": "false",
+                    "_id": "13a6-a861-36ce-42b0",
+                    "_type": "selectionEntry",
+                    "_targetId": "66fb-b286-fea5-6ded"
+                  }
+                ]
               },
               "_type": "upgrade",
               "_import": "true",
@@ -3958,6 +4867,92 @@
           "_id": "5203-8581-edbd-55bb",
           "_hidden": "false",
           "_flatten": "true"
+        },
+        {
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Ravaged Coast Paths",
+              "_hidden": "false",
+              "_id": "6954-deea-69f9-93aa",
+              "_type": "selectionEntryGroup",
+              "_targetId": "7bae-23cb-3977-3ece",
+              "_flatten": "true"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "1",
+              "_field": "selections",
+              "_scope": "parent",
+              "_shared": "true",
+              "_id": "ba29-c026-90ee-8cc3"
+            }
+          },
+          "_name": "Paths",
+          "_id": "70cc-ca33-377e-3078",
+          "_hidden": "true"
+        },
+        {
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Ravaged Coast Battle Scars",
+              "_hidden": "false",
+              "_id": "0f83-1280-e7ae-e784",
+              "_type": "selectionEntryGroup",
+              "_targetId": "5559-80df-ba01-66a7",
+              "_flatten": "true"
+            }
+          },
+          "selectionEntries": {
+            "selectionEntry": {
+              "_type": "upgrade",
+              "_import": "true",
+              "_name": "Battle Wounds",
+              "_hidden": "false",
+              "_id": "66ae-5e13-fa99-8752"
+            }
+          },
+          "_name": "Battle Wounds + Scars",
+          "_id": "6fa6-ec1d-cf81-982d",
+          "_hidden": "true",
+          "_collapsible": "false"
         }
       ]
     },
@@ -3974,7 +4969,7 @@
     "_name": "Ossiarch Bonereapers",
     "_gameSystemId": "e51d-b1a3-75fc-dc3g",
     "_gameSystemRevision": "1",
-    "_revision": "1",
+    "_revision": "2",
     "_battleScribeVersion": "2.03",
     "_type": "catalogue"
   }

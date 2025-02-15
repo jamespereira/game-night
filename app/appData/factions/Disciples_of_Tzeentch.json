@@ -1,254 +1,427 @@
 {
   "catalogue": {
     "catalogueLinks": {
-      "catalogueLink": {
-        "_type": "catalogue",
-        "_name": "Disciples of Tzeentch - Library",
-        "_id": "61ad-3d4e-f82-7dfb",
-        "_targetId": "bb28-eb3d-b408-7bb8"
-      }
+      "catalogueLink": [{
+          "_type": "catalogue",
+          "_name": "Disciples of Tzeentch - Library",
+          "_id": "61ad-3d4e-f82-7dfb",
+          "_targetId": "bb28-eb3d-b408-7bb8"
+        },
+        {
+          "_type": "catalogue",
+          "_name": "Path to Glory - Ravaged Coast",
+          "_id": "d449-4709-6d8f-5ce0",
+          "_importRootEntries": "true",
+          "_targetId": "a434-b1ba-922b-7624"
+        }
+      ]
     },
     "sharedSelectionEntries": {
-      "selectionEntry": {
-        "profiles": {
-          "profile": [{
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Once Per Turn (Army), Any Shooting Phase"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Pick an enemy unit that had any damage points allocated to it this turn by **^^Wyrdflame Spell^^** abilities or shooting attacks made with weapons that have the **Wyrdflame** weapon ability to be the target."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "The target has the **^^Burning^^** keyword."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_typeId": "12e8-3214-7d8f-1d0f"
-                  }
-                ]
+      "selectionEntry": [{
+          "profiles": {
+            "profile": [{
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Once Per Turn (Army), Any Shooting Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "Pick an enemy unit that had any damage points allocated to it this turn by **^^Wyrdflame Spell^^** abilities or shooting attacks made with weapons that have the **Wyrdflame** weapon ability to be the target."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "The target has the **^^Burning^^** keyword."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Conflagration of Tzeentch",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "9aab-2117-d699-8eef"
               },
-              "_name": "Conflagration of Tzeentch",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
-              "_hidden": "false",
-              "_id": "9aab-2117-d699-8eef"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Keywords",
-                    "_typeId": "b977-7c5e-33b2-428e"
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "fd7f-888d-3257-a12b",
-                    "__text": "If an ability would heal or return slain models to a **^^Burning^^** enemy unit, **^^Manifestation^^** or terrain feature, that ability does not heal or return any slain models to it. Instead, it no longer has the **^^Burning^^** keyword."
-                  }
-                ]
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Keywords",
+                      "_typeId": "b977-7c5e-33b2-428e"
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "fd7f-888d-3257-a12b",
+                      "__text": "If an ability would heal or return slain models to a **^^Burning^^** enemy unit, **^^Manifestation^^** or terrain feature, that ability does not heal or return any slain models to it. Instead, it no longer has the **^^Burning^^** keyword."
+                    }
+                  ]
+                },
+                "_name": "Quenching the Flames",
+                "_typeId": "907f-a48-6a04-f788",
+                "_typeName": "Ability (Passive)",
+                "_hidden": "false",
+                "_id": "90a7-fb66-4aaa-baee"
               },
-              "_name": "Quenching the Flames",
-              "_typeId": "907f-a48-6a04-f788",
-              "_typeName": "Ability (Passive)",
-              "_hidden": "false",
-              "_id": "90a7-fb66-4aaa-baee"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Once Per Turn (Army), End of Any Turn"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_typeId": "bad3-f9c5-ba46-18cb"
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "Inflict D3 mortal damage on each **^^Burning^^** enemy unit, **^^Manifestation^^** and faction terrain feature."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_typeId": "12e8-3214-7d8f-1d0f"
-                  },
-                  {
-                    "_name": "Used By",
-                    "_typeId": "1b32-c9d6-3106-166b"
-                  }
-                ]
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Once Per Turn (Army), End of Any Turn"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb"
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "Inflict D3 mortal damage on each **^^Burning^^** enemy unit, **^^Manifestation^^** and faction terrain feature."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Burning Wyrdflame",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "cebd-703c-bccb-a5c3"
               },
-              "_name": "Burning Wyrdflame",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Deployment Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb"
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "Roll 9 dice and place them to one side. These are your **destiny dice**. **Destiny dice** can be spent during the battle to change certain dice rolls. You can never have more than 9 **destiny dice** at once. \nDuring the battle, instead of making a roll from the list below for a friendly **^^Disciples of Tzeentch^^** unit, you can spend your **destiny dice**. The roll you would have made is replaced with the roll on the **destiny dice** you spend. If you want to replace a 2D6 roll, 3D6 roll, etc. you must spend a number of **destiny dice** equal to the number before ‘D6’. Any rolls that have been replaced count as unmodified rolls, and they cannot be re-rolled, they cannot be changed and they cannot be modified by other friendly abilities except for those that apply negative modifiers (but they can be modified by enemy abilities). You cannot spend **destiny dice** to replace re-rolls.\n**Destiny dice** can be spent in place of the following dice rolls:\n• Casting rolls\n• Unbinding rolls\n• Banishment rolls\n• Run rolls\n• Charge rolls in your turn\n• Hit rolls\n• Wound rolls\n• Save rolls"
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Masters of Destiny",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "f55e-9317-a160-9f0f"
+              }
+            ]
+          },
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Reference",
               "_hidden": "false",
-              "_id": "cebd-703c-bccb-a5c3"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Deployment Phase"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_typeId": "bad3-f9c5-ba46-18cb"
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "Roll 9 dice and place them to one side. These are your **destiny dice**. **Destiny dice** can be spent during the battle to change certain dice rolls. You can never have more than 9 **destiny dice** at once. \nDuring the battle, instead of making a roll from the list below for a friendly **^^Disciples of Tzeentch^^** unit, you can spend your **destiny dice**. The roll you would have made is replaced with the roll on the **destiny dice** you spend. If you want to replace a 2D6 roll, 3D6 roll, etc. you must spend a number of **destiny dice** equal to the number before ‘D6’. Any rolls that have been replaced count as unmodified rolls, and they cannot be re-rolled, they cannot be changed and they cannot be modified by other friendly abilities (but they can be modified by enemy abilities). You cannot spend **destiny dice** to replace re-rolls.\n**Destiny dice** can be spent in place of the following dice rolls:\n• Casting rolls\n• Unbinding rolls\n• Banishment rolls\n• Run rolls\n• Charge rolls in your turn\n• Hit rolls\n• Wound rolls\n• Save rolls"
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_typeId": "12e8-3214-7d8f-1d0f"
-                  }
-                ]
-              },
-              "_name": "Masters of Destiny",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
-              "_hidden": "false",
-              "_id": "f55e-9317-a160-9f0f"
+              "_id": "c300-3b8f-7ad7-3e69",
+              "_targetId": "3360-1158-e879-9606",
+              "_primary": "true"
             }
-          ]
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Battle Traits: Disciples of Tzeentch",
+          "_hidden": "false",
+          "_id": "164c-a3a9-554f-a02d"
         },
-        "categoryLinks": {
-          "categoryLink": {
-            "_name": "Reference",
-            "_hidden": "false",
-            "_id": "c300-3b8f-7ad7-3e69",
-            "_targetId": "3360-1158-e879-9606",
-            "_primary": "true"
-          }
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "6"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6"
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "Inflict D3 mortal damage on the target."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**, **^^Unlimited^^**, **^^Wyrdflame^^**"
+                  }
+                ]
+              },
+              "_name": "Bolt of Tzeentch",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
+              "_hidden": "false",
+              "_id": "ccce-99b1-df36-6f2"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Bolt of Tzeentch",
+          "_hidden": "false",
+          "_id": "36cc-453b-4cff-9191"
         },
-        "_type": "upgrade",
-        "_import": "true",
-        "_name": "Battle Traits: Disciples of Tzeentch",
-        "_hidden": "false",
-        "_id": "164c-a3a9-554f-a02d"
-      }
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "7"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, pick a visible friendly **^^Disciples of Tzeentch^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**"
+                  }
+                ]
+              },
+              "_name": "Fold Reality",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
+              "_hidden": "false",
+              "_id": "c824-1201-79f4-614c"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Fold Reality",
+          "_hidden": "false",
+          "_id": "c83b-14bd-391d-ef7f"
+        },
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "7"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "Inflict D3 mortal damage on the target. If any models are slain by this ability, pick a friendly **Chaos Spawn of Tzeentch** unit that is in reserve **as a potential fate** or that has been destroyed.\nIf you picked a unit in reserve **as a potential fate**, set it up on the battlefield in combat with the target. If you picked a unit that has been destroyed, set up an identical replacement unit on the battlefield in combat with the target."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**"
+                  }
+                ]
+              },
+              "_name": "Transformed to Spawn",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
+              "_hidden": "false",
+              "_id": "405e-94ad-65b3-c0c9"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Transformed to Spawn",
+          "_hidden": "false",
+          "_id": "88dc-534c-630b-8e6b"
+        },
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "7"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, then make a casting roll of 2D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "Set aside any **destiny dice** that have a value of 6, and roll all of your other **destiny dice** again. If you have no **destiny dice**, roll a dice and add it to your **destiny dice**."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**, **^^Unlimited^^**"
+                  }
+                ]
+              },
+              "_name": "Glimpse the Future",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
+              "_hidden": "false",
+              "_id": "bb2c-e4ec-f732-bfe8"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Glimpse the Future",
+          "_hidden": "false",
+          "_id": "cc15-b786-7bb2-1107"
+        },
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "7"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "Roll either 4 dice or a number of dice equal to the number of destiny dice you have left, whichever is greater. For each 4+, inflict 1 mortal damage on the target."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**"
+                  }
+                ]
+              },
+              "_name": "Infernal Gateway",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
+              "_hidden": "false",
+              "_id": "8b94-2e2f-f247-3305"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Infernal Gateway",
+          "_hidden": "false",
+          "_id": "9425-88f3-f324-8886"
+        },
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "7"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, pick a visible friendly **^^Disciples of Tzeentch^^** unit wholly within 18\" of them to be the target, then make a casting roll of 2D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "The target has **^^Ward (5+)^^** until the start of your next turn. In addition, if you have 4 or more **destiny dice** left, subtract 1 from hit rolls for attacks that target that unit until the start of your next turn."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**"
+                  }
+                ]
+              },
+              "_name": "Shield of Fate",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
+              "_hidden": "false",
+              "_id": "4312-c1f4-bd9-b99f"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Shield of Fate",
+          "_hidden": "false",
+          "_id": "fbfd-1702-fb81-593d"
+        }
+      ]
     },
     "sharedSelectionEntryGroups": {
       "selectionEntryGroup": [{
           "selectionEntries": {
             "selectionEntry": [{
-                "profiles": {
-                  "profile": [{
-                      "characteristics": {
-                        "characteristic": [{
-                            "_name": "Timing",
-                            "_typeId": "de6f-d57b-248a-83be",
-                            "__text": "Your Hero Phase"
-                          },
-                          {
-                            "_name": "Casting Value",
-                            "_typeId": "9fc7-b0f6-d018-a608",
-                            "__text": "7"
-                          },
-                          {
-                            "_name": "Declare",
-                            "_typeId": "24f8-3803-4ab1-3b6c",
-                            "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, then make a casting roll of 2D6."
-                          },
-                          {
-                            "_name": "Effect",
-                            "_typeId": "1cb9-a-1345-907f",
-                            "__text": "Set aside any **destiny dice** that have a value of 6, and roll all of your other **destiny dice** again. If you have no **destiny dice**, roll a dice and add it to your **destiny dice**."
-                          },
-                          {
-                            "_name": "Keywords",
-                            "_typeId": "353f-565e-c351-1cf2",
-                            "__text": "**^^Spell^^**, **^^Unlimited^^**"
-                          }
-                        ]
-                      },
-                      "_name": "Glimpse the Future",
-                      "_typeId": "7312-8367-c171-f2ef",
-                      "_typeName": "Ability (Spell)",
-                      "_hidden": "false",
-                      "_id": "bb2c-e4ec-f732-bfe8"
-                    },
-                    {
-                      "characteristics": {
-                        "characteristic": [{
-                            "_name": "Timing",
-                            "_typeId": "de6f-d57b-248a-83be",
-                            "__text": "Your Hero Phase"
-                          },
-                          {
-                            "_name": "Casting Value",
-                            "_typeId": "9fc7-b0f6-d018-a608",
-                            "__text": "7"
-                          },
-                          {
-                            "_name": "Declare",
-                            "_typeId": "24f8-3803-4ab1-3b6c",
-                            "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, pick a visible friendly **^^Disciples of Tzeentch^^** unit wholly within 18\" of them to be the target, then make a casting roll of 2D6."
-                          },
-                          {
-                            "_name": "Effect",
-                            "_typeId": "1cb9-a-1345-907f",
-                            "__text": "The target has **^^Ward (5+)^^** until the start of your next turn. In addition, if you have 4 or more **destiny dice** left, subtract 1 from hit rolls for attacks that target that unit until the start of your next turn."
-                          },
-                          {
-                            "_name": "Keywords",
-                            "_typeId": "353f-565e-c351-1cf2",
-                            "__text": "**^^Spell^^**"
-                          }
-                        ]
-                      },
-                      "_name": "Shield of Fate",
-                      "_typeId": "7312-8367-c171-f2ef",
-                      "_typeName": "Ability (Spell)",
-                      "_hidden": "false",
-                      "_id": "4312-c1f4-bd9-b99f"
-                    },
-                    {
-                      "characteristics": {
-                        "characteristic": [{
-                            "_name": "Timing",
-                            "_typeId": "de6f-d57b-248a-83be",
-                            "__text": "Your Hero Phase"
-                          },
-                          {
-                            "_name": "Casting Value",
-                            "_typeId": "9fc7-b0f6-d018-a608",
-                            "__text": "7"
-                          },
-                          {
-                            "_name": "Declare",
-                            "_typeId": "24f8-3803-4ab1-3b6c",
-                            "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6."
-                          },
-                          {
-                            "_name": "Effect",
-                            "_typeId": "1cb9-a-1345-907f",
-                            "__text": "Roll either 4 dice or a number of dice equal to the number of destiny dice you have left, whichever is greater. For each 4+, inflict 1 mortal damage on the target."
-                          },
-                          {
-                            "_name": "Keywords",
-                            "_typeId": "353f-565e-c351-1cf2",
-                            "__text": "**^^Spell^^**"
-                          }
-                        ]
-                      },
-                      "_name": "Infernal Gateway",
-                      "_typeId": "7312-8367-c171-f2ef",
-                      "_typeName": "Ability (Spell)",
-                      "_hidden": "false",
-                      "_id": "8b94-2e2f-f247-3305"
-                    }
-                  ]
-                },
                 "constraints": {
                   "constraint": {
                     "_type": "max",
@@ -259,6 +432,90 @@
                     "_id": "8077-b91e-f3dc-deca"
                   }
                 },
+                "entryLinks": {
+                  "entryLink": [{
+                      "constraints": {
+                        "constraint": [{
+                            "_type": "min",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "a3e8-7964-03c0-bde7-min"
+                          },
+                          {
+                            "_type": "max",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "a3e8-7964-03c0-bde7-max"
+                          }
+                        ]
+                      },
+                      "_import": "true",
+                      "_name": "Shield of Fate",
+                      "_hidden": "false",
+                      "_id": "91a8-37c3-2d6f-23ff",
+                      "_type": "selectionEntry",
+                      "_targetId": "fbfd-1702-fb81-593d"
+                    },
+                    {
+                      "constraints": {
+                        "constraint": [{
+                            "_type": "min",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "7a40-cedf-eb55-1b59-min"
+                          },
+                          {
+                            "_type": "max",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "7a40-cedf-eb55-1b59-max"
+                          }
+                        ]
+                      },
+                      "_import": "true",
+                      "_name": "Glimpse the Future",
+                      "_hidden": "false",
+                      "_id": "dcdb-b8a0-50d9-a3b6",
+                      "_type": "selectionEntry",
+                      "_targetId": "cc15-b786-7bb2-1107"
+                    },
+                    {
+                      "constraints": {
+                        "constraint": [{
+                            "_type": "min",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "4820-34fd-0c48-d900-min"
+                          },
+                          {
+                            "_type": "max",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "4820-34fd-0c48-d900-max"
+                          }
+                        ]
+                      },
+                      "_import": "true",
+                      "_name": "Infernal Gateway",
+                      "_hidden": "false",
+                      "_id": "0fb9-f813-ff4a-9f52",
+                      "_type": "selectionEntry",
+                      "_targetId": "9425-88f3-f324-8886"
+                    }
+                  ]
+                },
                 "_type": "upgrade",
                 "_import": "true",
                 "_name": "Lore of Fate",
@@ -267,114 +524,6 @@
                 "_defaultAmount": "0"
               },
               {
-                "profiles": {
-                  "profile": [{
-                      "characteristics": {
-                        "characteristic": [{
-                            "_name": "Timing",
-                            "_typeId": "de6f-d57b-248a-83be",
-                            "__text": "Your Hero Phase"
-                          },
-                          {
-                            "_name": "Casting Value",
-                            "_typeId": "9fc7-b0f6-d018-a608",
-                            "__text": "6"
-                          },
-                          {
-                            "_name": "Declare",
-                            "_typeId": "24f8-3803-4ab1-3b6c",
-                            "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6"
-                          },
-                          {
-                            "_name": "Effect",
-                            "_typeId": "1cb9-a-1345-907f",
-                            "__text": "Inflict D3 mortal damage on the target."
-                          },
-                          {
-                            "_name": "Keywords",
-                            "_typeId": "353f-565e-c351-1cf2",
-                            "__text": "**^^Spell^^**, **^^Unlimited^^**, **^^Wyrdflame^^**"
-                          }
-                        ]
-                      },
-                      "_name": "Bolt of Tzeentch",
-                      "_typeId": "7312-8367-c171-f2ef",
-                      "_typeName": "Ability (Spell)",
-                      "_hidden": "false",
-                      "_id": "ccce-99b1-df36-6f2"
-                    },
-                    {
-                      "characteristics": {
-                        "characteristic": [{
-                            "_name": "Timing",
-                            "_typeId": "de6f-d57b-248a-83be",
-                            "__text": "Your Hero Phase"
-                          },
-                          {
-                            "_name": "Casting Value",
-                            "_typeId": "9fc7-b0f6-d018-a608",
-                            "__text": "7"
-                          },
-                          {
-                            "_name": "Declare",
-                            "_typeId": "24f8-3803-4ab1-3b6c",
-                            "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, pick a visible friendly **^^Disciples of Tzeentch^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6."
-                          },
-                          {
-                            "_name": "Effect",
-                            "_typeId": "1cb9-a-1345-907f",
-                            "__text": "Remove the target from the battlefield and set it up again on the battlefield more than 9\" from all enemy units."
-                          },
-                          {
-                            "_name": "Keywords",
-                            "_typeId": "353f-565e-c351-1cf2",
-                            "__text": "**^^Spell^^**"
-                          }
-                        ]
-                      },
-                      "_name": "Fold Reality",
-                      "_typeId": "7312-8367-c171-f2ef",
-                      "_typeName": "Ability (Spell)",
-                      "_hidden": "false",
-                      "_id": "c824-1201-79f4-614c"
-                    },
-                    {
-                      "characteristics": {
-                        "characteristic": [{
-                            "_name": "Timing",
-                            "_typeId": "de6f-d57b-248a-83be",
-                            "__text": "Your Hero Phase"
-                          },
-                          {
-                            "_name": "Casting Value",
-                            "_typeId": "9fc7-b0f6-d018-a608",
-                            "__text": "7"
-                          },
-                          {
-                            "_name": "Declare",
-                            "_typeId": "24f8-3803-4ab1-3b6c",
-                            "__text": "Pick a friendly **^^Disciples of Tzeentch Wizard^^** to cast this spell, pick a visible enemy unit within 12\" of them to be the target, then make a casting roll of 2D6."
-                          },
-                          {
-                            "_name": "Effect",
-                            "_typeId": "1cb9-a-1345-907f",
-                            "__text": "Inflict D3 mortal damage on the target. If any models are slain by this ability, pick a friendly **Chaos Spawn of Tzeentch** unit that is in reserve **as a potential fate** or that has been destroyed.\nIf you picked a unit in reserve **as a potential fate**, set it up on the battlefield in combat with the target. If you picked a unit that has been destroyed, set up an identical replacement unit on the battlefield in combat with the target."
-                          },
-                          {
-                            "_name": "Keywords",
-                            "_typeId": "353f-565e-c351-1cf2",
-                            "__text": "**^^Spell^^**"
-                          }
-                        ]
-                      },
-                      "_name": "Transformed to Spawn",
-                      "_typeId": "7312-8367-c171-f2ef",
-                      "_typeName": "Ability (Spell)",
-                      "_hidden": "false",
-                      "_id": "405e-94ad-65b3-c0c9"
-                    }
-                  ]
-                },
                 "constraints": {
                   "constraint": {
                     "_type": "max",
@@ -384,6 +533,90 @@
                     "_shared": "true",
                     "_id": "cdc2-fbf8-b109-618c"
                   }
+                },
+                "entryLinks": {
+                  "entryLink": [{
+                      "constraints": {
+                        "constraint": [{
+                            "_type": "min",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "5a44-133e-a6d0-0487-min"
+                          },
+                          {
+                            "_type": "max",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "5a44-133e-a6d0-0487-max"
+                          }
+                        ]
+                      },
+                      "_import": "true",
+                      "_name": "Transformed to Spawn",
+                      "_hidden": "false",
+                      "_id": "1602-97b5-c101-63c0",
+                      "_type": "selectionEntry",
+                      "_targetId": "88dc-534c-630b-8e6b"
+                    },
+                    {
+                      "constraints": {
+                        "constraint": [{
+                            "_type": "min",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "a8b5-ac05-7138-6249-min"
+                          },
+                          {
+                            "_type": "max",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "a8b5-ac05-7138-6249-max"
+                          }
+                        ]
+                      },
+                      "_import": "true",
+                      "_name": "Bolt of Tzeentch",
+                      "_hidden": "false",
+                      "_id": "a27b-b74d-3235-1f49",
+                      "_type": "selectionEntry",
+                      "_targetId": "36cc-453b-4cff-9191"
+                    },
+                    {
+                      "constraints": {
+                        "constraint": [{
+                            "_type": "min",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "6f84-688b-a60b-cb24-min"
+                          },
+                          {
+                            "_type": "max",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "6f84-688b-a60b-cb24-max"
+                          }
+                        ]
+                      },
+                      "_import": "true",
+                      "_name": "Fold Reality",
+                      "_hidden": "false",
+                      "_id": "7a9b-bf5c-1fce-b75d",
+                      "_type": "selectionEntry",
+                      "_targetId": "c83b-14bd-391d-ef7f"
+                    }
+                  ]
                 },
                 "_type": "upgrade",
                 "_import": "true",
@@ -475,6 +708,10 @@
                             {
                               "_name": "Keywords",
                               "_typeId": "12e8-3214-7d8f-1d0f"
+                            },
+                            {
+                              "_name": "Used By",
+                              "_typeId": "1b32-c9d6-3106-166b"
                             }
                           ]
                         },
@@ -569,6 +806,17 @@
               "_includeChildSelections": "true"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Artefacts of Power",
+              "_hidden": "false",
+              "_id": "deca-c49e-1a46-6ca1",
+              "_type": "selectionEntryGroup",
+              "_targetId": "e1b2-cedf-56a5-6bb1",
+              "_flatten": "true"
+            }
+          },
           "_name": "Artefacts of Power",
           "_id": "d953-63d2-257f-850f",
           "_hidden": "false"
@@ -645,6 +893,10 @@
                         {
                           "_name": "Keywords",
                           "_typeId": "12e8-3214-7d8f-1d0f"
+                        },
+                        {
+                          "_name": "Used By",
+                          "_typeId": "1b32-c9d6-3106-166b"
                         }
                       ]
                     },
@@ -905,6 +1157,17 @@
               "_includeChildSelections": "true"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Heroic Traits",
+              "_hidden": "false",
+              "_id": "fdac-6691-1d41-d23a",
+              "_type": "selectionEntryGroup",
+              "_targetId": "c437-e34c-5e1c-95e6",
+              "_flatten": "true"
+            }
+          },
           "_name": "Heroic Traits",
           "_id": "8c6b-90ae-6131-afe",
           "_hidden": "false"
@@ -1125,6 +1388,92 @@
           "_id": "4412-89ec-1dd7-99ec",
           "_hidden": "false",
           "_flatten": "true"
+        },
+        {
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Ravaged Coast Battle Scars",
+              "_hidden": "false",
+              "_id": "da6f-d80e-d665-da7c",
+              "_type": "selectionEntryGroup",
+              "_targetId": "5559-80df-ba01-66a7",
+              "_flatten": "true"
+            }
+          },
+          "selectionEntries": {
+            "selectionEntry": {
+              "_type": "upgrade",
+              "_import": "true",
+              "_name": "Battle Wounds",
+              "_hidden": "false",
+              "_id": "ea89-268a-4d40-b6aa"
+            }
+          },
+          "_name": "Battle Wounds + Scars",
+          "_id": "9f62-724e-720d-87ff",
+          "_hidden": "true",
+          "_collapsible": "false"
+        },
+        {
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Ravaged Coast Paths",
+              "_hidden": "false",
+              "_id": "fc0f-26e2-89d5-70b2",
+              "_type": "selectionEntryGroup",
+              "_targetId": "7bae-23cb-3977-3ece",
+              "_flatten": "true"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "1",
+              "_field": "selections",
+              "_scope": "parent",
+              "_shared": "true",
+              "_id": "f224-a26c-50cb-c3e9"
+            }
+          },
+          "_name": "Paths",
+          "_id": "3fea-aadd-11d7-023d",
+          "_hidden": "true"
         }
       ]
     },
@@ -1239,6 +1588,22 @@
                 "_id": "50fa-bb6-22e9-5c0c",
                 "_type": "selectionEntryGroup",
                 "_targetId": "8c6b-90ae-6131-afe"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "0348-129b-a0f2-6d1b",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "ed9e-77cd-bf8b-30da",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -1284,7 +1649,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "130"
             }
           },
           "_import": "true",
@@ -1367,6 +1732,22 @@
                 "_id": "6080-3dd2-9882-87cd",
                 "_type": "selectionEntryGroup",
                 "_targetId": "d953-63d2-257f-850f"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "60f1-dd4a-4ced-1f5d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "36f4-fbad-5d0b-5c54",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -1471,6 +1852,22 @@
                 "_id": "c216-5f28-9c50-25e6",
                 "_type": "selectionEntryGroup",
                 "_targetId": "d953-63d2-257f-850f"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "f9cf-9477-0213-460d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "a514-9b55-7766-64d0",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -1478,7 +1875,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "140"
             }
           },
           "_import": "true",
@@ -1537,6 +1934,22 @@
                 "_id": "caec-8feb-65ec-bb42",
                 "_type": "selectionEntryGroup",
                 "_targetId": "d953-63d2-257f-850f"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "46f7-f0a3-e4fb-2bbb",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "b1e6-d7fe-c186-c000",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -1544,7 +1957,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "180"
             }
           },
           "_import": "true",
@@ -1603,6 +2016,22 @@
                 "_id": "6c6-57c4-55ce-da1b",
                 "_type": "selectionEntryGroup",
                 "_targetId": "d953-63d2-257f-850f"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "1a9b-d6a5-8d3d-fd60",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "a568-76e8-74bd-b906",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -1657,7 +2086,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "440"
+              "_value": "460"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "128d-d2d2-5d12-5975",
+              "_type": "selectionEntryGroup",
+              "_targetId": "9f62-724e-720d-87ff"
             }
           },
           "_import": "true",
@@ -1716,6 +2155,22 @@
                 "_id": "4f81-d908-9d5-8160",
                 "_type": "selectionEntryGroup",
                 "_targetId": "d953-63d2-257f-850f"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "ec8a-4274-e0e7-0cbe",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "3fbb-be76-37fc-2d87",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -1723,7 +2178,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "380"
+              "_value": "400"
             }
           },
           "_import": "true",
@@ -1806,6 +2261,22 @@
                 "_id": "78b6-7c88-7945-75cf",
                 "_type": "selectionEntryGroup",
                 "_targetId": "d953-63d2-257f-850f"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "f845-0b37-38e7-0ae6",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "2196-4cb6-97db-61c3",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -1910,6 +2381,22 @@
                 "_id": "bc16-f80f-35f3-405c",
                 "_type": "selectionEntryGroup",
                 "_targetId": "d953-63d2-257f-850f"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "3db8-1ffc-67d6-bcef",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "a1c7-067d-29de-bbf1",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -1917,7 +2404,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "130"
             }
           },
           "_import": "true",
@@ -2000,6 +2487,22 @@
                 "_id": "1452-2ef9-88ba-a357",
                 "_type": "selectionEntryGroup",
                 "_targetId": "d953-63d2-257f-850f"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "0518-f9c6-5c45-537d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "2bab-c78d-3e1c-977e",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -2045,7 +2548,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "130"
             }
           },
           "_import": "true",
@@ -2104,6 +2607,22 @@
                 "_id": "39fa-7312-15f5-6405",
                 "_type": "selectionEntryGroup",
                 "_targetId": "d953-63d2-257f-850f"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "ea98-7f63-ccf6-527a",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "a001-d683-e608-9b16",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -2244,7 +2763,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "150"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "a062-fc2a-8508-b557",
+              "_type": "selectionEntryGroup",
+              "_targetId": "9f62-724e-720d-87ff"
             }
           },
           "_import": "true",
@@ -2280,6 +2809,22 @@
                 "_id": "9af5-3c0d-acc2-33f5",
                 "_type": "selectionEntryGroup",
                 "_targetId": "d953-63d2-257f-850f"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "7266-0516-ff48-ffb3",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "7fcf-11d3-3cca-511f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -2287,7 +2832,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "130"
             }
           },
           "_import": "true",
@@ -2323,6 +2868,22 @@
                 "_id": "a3b3-d5ac-7e1d-7a94",
                 "_type": "selectionEntryGroup",
                 "_targetId": "d953-63d2-257f-850f"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "c223-f85f-b061-ca4b",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "994c-4259-cf66-56b9",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -2366,6 +2927,22 @@
                 "_id": "d793-df0-9e9c-185b",
                 "_type": "selectionEntryGroup",
                 "_targetId": "d953-63d2-257f-850f"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "ad0a-5138-6903-2c90",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "74f8-23b9-bd3a-46b0",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -2373,7 +2950,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "140"
             }
           },
           "_import": "true",
@@ -2409,6 +2986,22 @@
                 "_id": "bc85-23bb-da0f-c541",
                 "_type": "selectionEntryGroup",
                 "_targetId": "d953-63d2-257f-850f"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "46d6-1b64-1910-aaf6",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "f012-2ca1-2913-598f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -2416,7 +3009,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "180"
             }
           },
           "_import": "true",
@@ -2452,6 +3045,22 @@
                 "_id": "f597-450e-465e-87e4",
                 "_type": "selectionEntryGroup",
                 "_targetId": "d953-63d2-257f-850f"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "e627-796f-0b1a-61dc",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "6f1d-df61-94b7-4372",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -2483,7 +3092,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "440"
+              "_value": "460"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "e792-086b-f5d2-56bd",
+              "_type": "selectionEntryGroup",
+              "_targetId": "9f62-724e-720d-87ff"
             }
           },
           "_import": "true",
@@ -2519,6 +3138,22 @@
                 "_id": "aae9-c54-c1c7-d4b8",
                 "_type": "selectionEntryGroup",
                 "_targetId": "d953-63d2-257f-850f"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "7ae2-1a12-9934-799a",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "d691-4a36-56b2-d54f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -2526,7 +3161,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "380"
+              "_value": "400"
             }
           },
           "_import": "true",
@@ -2562,6 +3197,22 @@
                 "_id": "b65e-3fd4-e470-8194",
                 "_type": "selectionEntryGroup",
                 "_targetId": "d953-63d2-257f-850f"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "3919-244e-22c6-a7a5",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "8776-f648-ff28-7246",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -2605,6 +3256,22 @@
                 "_id": "9987-8af0-6204-41b6",
                 "_type": "selectionEntryGroup",
                 "_targetId": "d953-63d2-257f-850f"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "e341-345f-8c7c-7b6e",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "4ed6-254d-c5f5-0e5b",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -2612,7 +3279,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "130"
             }
           },
           "_import": "true",
@@ -2648,6 +3315,22 @@
                 "_id": "712-bdf5-3b64-d32",
                 "_type": "selectionEntryGroup",
                 "_targetId": "d953-63d2-257f-850f"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "2b1a-df37-ee12-a4ce",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "e581-7d61-6814-8159",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -2655,7 +3338,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "130"
             }
           },
           "_import": "true",
@@ -2679,7 +3362,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "150"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "f72a-68f2-9844-b235",
+              "_type": "selectionEntryGroup",
+              "_targetId": "9f62-724e-720d-87ff"
             }
           },
           "_import": "true",
@@ -2715,6 +3408,22 @@
                 "_id": "cf0f-10f1-8518-3f80",
                 "_type": "selectionEntryGroup",
                 "_targetId": "d953-63d2-257f-850f"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "00ab-5e6f-12b8-95c5",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "d253-99e1-1759-a380",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -2871,20 +3580,37 @@
             ]
           },
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "e496-6318-d279-c1ce",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "e496-6318-d279-c1ce",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "712f-7456-bd0f-6127",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "f74c-5a5c-f379-23d7",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
+              }
+            ]
           },
           "costs": {
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "150"
             }
           },
           "_import": "true",
@@ -3017,8 +3743,27 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "140"
+              "_value": "120"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "92f9-11d0-b3b2-b53f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "e48f-991f-857e-36c1",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Burning Chariot of Tzeentch",
@@ -3112,6 +3857,25 @@
               "_typeId": "points",
               "_value": "60"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "43c7-05af-5e16-9471",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "961f-2ecf-dca1-b0b2",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Chaos Spawn of Tzeentch",
@@ -3243,8 +4007,27 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "110"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "3a5c-1947-b041-e21c",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "07c7-6022-6bda-5342",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Exalted Flamer of Tzeentch",
@@ -3255,14 +4038,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "909d-8507-e560-2d2b",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "909d-8507-e560-2d2b",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "6a37-64a0-b13d-f245",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "ee52-3bb5-cf11-a0bb",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -3386,7 +4186,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "130"
             }
           },
           "_import": "true",
@@ -3530,6 +4330,25 @@
               "_value": "100"
             }
           },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "165c-e4c1-210d-8b9d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "1ddf-a6a8-7788-1f87",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
+              }
+            ]
+          },
           "_import": "true",
           "_name": "Jade Obelisk",
           "_hidden": "false",
@@ -3539,14 +4358,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "9ce3-2a14-5e92-44a0",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "9ce3-2a14-5e92-44a0",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "469e-14e2-aedf-f1b4",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "280d-7e66-42af-548f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -3678,7 +4514,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "100"
+              "_value": "90"
             }
           },
           "_import": "true",
@@ -3690,14 +4526,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "a4fc-b76-b730-ee36",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "a4fc-b76-b730-ee36",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "523c-f008-411c-8163",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "54ce-9e23-2655-dde6",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -3821,7 +4674,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "170"
             }
           },
           "_import": "true",
@@ -3833,14 +4686,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "30ea-b61f-dfbf-70d4",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "30ea-b61f-dfbf-70d4",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "7ea0-a506-a06e-8a44",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "20c2-4875-3529-42d6",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -3964,7 +4834,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "100"
+              "_value": "90"
             }
           },
           "_import": "true",
@@ -3976,14 +4846,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "5517-dc06-7e74-d77a",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "5517-dc06-7e74-d77a",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "34e3-2b07-5539-f4e1",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "d5f8-5aa5-0377-3610",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -4119,14 +5006,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "e12b-ebbf-1863-a939",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "e12b-ebbf-1863-a939",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "8533-f232-4986-06e5",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "2972-ccec-a743-02fd",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -4250,7 +5154,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "150"
             }
           },
           "_import": "true",
@@ -4262,14 +5166,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "6771-b4c7-15d6-86ec",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "6771-b4c7-15d6-86ec",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "2604-6193-7bc1-c580",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "460d-2b30-e185-2187",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -4393,7 +5314,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "180"
             }
           },
           "_import": "true",
@@ -4405,14 +5326,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "5da0-1403-d164-ea94",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "5da0-1403-d164-ea94",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "f361-80a7-f050-3d4d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "e761-af2f-00cb-878a",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -4595,6 +5533,22 @@
                 "_id": "c9b1-8b1f-e21d-c35a",
                 "_type": "selectionEntryGroup",
                 "_targetId": "8c6b-90ae-6131-afe"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "0b0e-da73-bb99-7b5e",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "a73d-7bab-e98c-34e4",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -4638,6 +5592,22 @@
                 "_id": "e579-b6c4-276b-7c54",
                 "_type": "selectionEntryGroup",
                 "_targetId": "d953-63d2-257f-850f"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "7425-7959-2e9c-816e",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "ed0b-c971-8af5-048b",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -4656,15 +5626,6 @@
           "_targetId": "0954-f819-54c6-46f3"
         },
         {
-          "categoryLinks": {
-            "categoryLink": {
-              "_name": "Regimental Leader",
-              "_hidden": "false",
-              "_id": "adc2-85ef-785f-2741",
-              "_targetId": "d1f3-921c-b403-1106",
-              "_primary": "true"
-            }
-          },
           "entryLinks": {
             "entryLink": [{
                 "_import": "true",
@@ -4681,6 +5642,22 @@
                 "_id": "7f7a-baf9-49de-eb50",
                 "_type": "selectionEntryGroup",
                 "_targetId": "d953-63d2-257f-850f"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "c916-2e36-23ac-22ae",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "58a2-0f57-3718-09a0",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -4747,6 +5724,22 @@
                 "_id": "9b07-ec3d-e6aa-cc0a",
                 "_type": "selectionEntryGroup",
                 "_targetId": "8c6b-90ae-6131-afe"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "f07a-6259-1c0c-01b1",
+                "_type": "selectionEntryGroup",
+                "_targetId": "3fea-aadd-11d7-023d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "d7ff-be8e-2c2d-a86b",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9f62-724e-720d-87ff"
               }
             ]
           },
@@ -4757,6 +5750,15 @@
               "_value": "180"
             }
           },
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Regimental Leader",
+              "_hidden": "false",
+              "_id": "67b5-719d-ef37-11d1",
+              "_targetId": "d1f3-921c-b403-1106",
+              "_primary": "true"
+            }
+          },
           "_import": "true",
           "_name": "Fluxmaster, Herald of Tzeentch on Disc",
           "_hidden": "false",
@@ -4765,20 +5767,21 @@
           "_targetId": "6cc5-f54c-2ca6-78cf"
         },
         {
-          "categoryLinks": {
-            "categoryLink": {
-              "_name": "Regimental Leader",
-              "_hidden": "false",
-              "_id": "ed4e-e3ce-1f67-f4d7",
-              "_targetId": "d1f3-921c-b403-1106",
-              "_primary": "true"
-            }
-          },
           "costs": {
             "cost": {
               "_name": "pts",
               "_typeId": "points",
               "_value": "180"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "8248-a215-19c2-eaaf",
+              "_type": "selectionEntryGroup",
+              "_targetId": "9f62-724e-720d-87ff"
             }
           },
           "_import": "true",
@@ -4826,6 +5829,25 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "180"
+            }
+          },
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Regimental Leader",
+              "_hidden": "false",
+              "_id": "ab16-8478-654d-c7b6",
+              "_targetId": "d1f3-921c-b403-1106",
+              "_primary": "true"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "6e89-040b-cfc3-d860",
+              "_type": "selectionEntryGroup",
+              "_targetId": "9f62-724e-720d-87ff"
             }
           },
           "_import": "true",
@@ -4969,6 +5991,16 @@
               "_value": "100"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "48bb-b15a-dde4-d1aa",
+              "_type": "selectionEntryGroup",
+              "_targetId": "9f62-724e-720d-87ff"
+            }
+          },
           "_import": "true",
           "_name": "Eyes of the Nine",
           "_hidden": "false",
@@ -5102,6 +6134,16 @@
               "_value": "100"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "78ea-1650-bf64-62b2",
+              "_type": "selectionEntryGroup",
+              "_targetId": "9f62-724e-720d-87ff"
+            }
+          },
           "_import": "true",
           "_name": "Ephilim's Pandaemonium",
           "_hidden": "false",
@@ -5203,10 +6245,27 @@
               "_primary": "true"
             }
           },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "force",
+                  "_childId": "f079-501a-2738-6844",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
           "_type": "upgrade",
           "_import": "true",
           "_name": "Manifestation Lore",
-          "_hidden": "false",
+          "_hidden": "true",
           "_id": "129a-ff81-4466-10c3",
           "_defaultAmount": "1"
         },
@@ -5251,11 +6310,251 @@
               "_collective": "false"
             }
           },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "force",
+                  "_childId": "f079-501a-2738-6844",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
           "_type": "upgrade",
           "_import": "true",
           "_name": "Spell Lore",
-          "_hidden": "false",
+          "_hidden": "true",
           "_id": "fc65-ca30-d969-ea72",
+          "_defaultAmount": "1"
+        },
+        {
+          "constraints": {
+            "constraint": [{
+                "_type": "min",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "roster",
+                "_shared": "true",
+                "_id": "61ca-0104-457a-23d5"
+              },
+              {
+                "_type": "max",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "roster",
+                "_shared": "true",
+                "_id": "6bde-52a6-72c0-78c7"
+              }
+            ]
+          },
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Army Composition",
+              "_hidden": "false",
+              "_id": "41c2-a0ef-0d80-4ad1",
+              "_targetId": "ac97-b27c-7e35-7ab9",
+              "_primary": "true"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "selectionEntryGroups": {
+            "selectionEntryGroup": {
+              "selectionEntryGroups": {
+                "selectionEntryGroup": [{
+                    "entryLinks": {
+                      "entryLink": [{
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "1602-3c22-30fb-141f"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "Bolt of Tzeentch",
+                          "_hidden": "false",
+                          "_id": "2916-4eac-569b-36bd",
+                          "_type": "selectionEntry",
+                          "_targetId": "36cc-453b-4cff-9191"
+                        },
+                        {
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "30c9-5671-283b-aa4e"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "Fold Reality",
+                          "_hidden": "false",
+                          "_id": "faba-e09b-aa5e-ab86",
+                          "_type": "selectionEntry",
+                          "_targetId": "c83b-14bd-391d-ef7f"
+                        },
+                        {
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "468d-8811-93c8-06fc"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "Transformed to Spawn",
+                          "_hidden": "false",
+                          "_id": "b0c2-4f5b-cd03-6770",
+                          "_type": "selectionEntry",
+                          "_targetId": "88dc-534c-630b-8e6b"
+                        }
+                      ]
+                    },
+                    "_name": "Lore of Change",
+                    "_id": "0cc1-2da1-7fff-43c3",
+                    "_hidden": "false"
+                  },
+                  {
+                    "entryLinks": {
+                      "entryLink": [{
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "de4e-057e-66e7-3db3"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "Glimpse the Future",
+                          "_hidden": "false",
+                          "_id": "aa1e-631c-e0e9-766e",
+                          "_type": "selectionEntry",
+                          "_targetId": "cc15-b786-7bb2-1107"
+                        },
+                        {
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "5a9b-0bdd-44cc-44c3"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "Infernal Gateway",
+                          "_hidden": "false",
+                          "_id": "d507-3c18-3713-1402",
+                          "_type": "selectionEntry",
+                          "_targetId": "9425-88f3-f324-8886"
+                        },
+                        {
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "a5cb-397f-6ece-9402"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "Shield of Fate",
+                          "_hidden": "false",
+                          "_id": "6d8c-4d1b-5219-65a3",
+                          "_type": "selectionEntry",
+                          "_targetId": "fbfd-1702-fb81-593d"
+                        }
+                      ]
+                    },
+                    "_name": "Lore of Fate",
+                    "_id": "305e-cde1-7d43-da9e",
+                    "_hidden": "false"
+                  },
+                  {
+                    "_name": "Manifestations of Tzeentch",
+                    "_id": "b40c-f44f-cb7c-7a44",
+                    "_hidden": "false"
+                  }
+                ]
+              },
+              "constraints": {
+                "constraint": {
+                  "_type": "max",
+                  "_value": "6",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_shared": "true",
+                  "_id": "e75b-cdc8-753e-f10c"
+                }
+              },
+              "entryLinks": {
+                "entryLink": [{
+                    "_import": "true",
+                    "_name": "Spell Lores",
+                    "_hidden": "false",
+                    "_id": "dfdd-4cfb-a3b4-583a",
+                    "_type": "selectionEntryGroup",
+                    "_targetId": "0bcf-1704-aaff-2b45",
+                    "_flatten": "true"
+                  },
+                  {
+                    "_import": "true",
+                    "_name": "Prayer Lores",
+                    "_hidden": "false",
+                    "_id": "4945-e53f-5aa1-9623",
+                    "_type": "selectionEntryGroup",
+                    "_targetId": "123c-ec0f-04eb-41d5",
+                    "_flatten": "true"
+                  }
+                ]
+              },
+              "_name": "",
+              "_id": "0a7e-5b71-ae09-befd",
+              "_hidden": "false"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Arcane Tome",
+          "_hidden": "true",
+          "_id": "a312-c159-7667-0a55",
           "_defaultAmount": "1"
         }
       ]
@@ -5266,7 +6565,7 @@
     "_name": "Disciples of Tzeentch",
     "_gameSystemId": "e51d-b1a3-75fc-dc3g",
     "_gameSystemRevision": "2",
-    "_revision": "1",
+    "_revision": "2",
     "_battleScribeVersion": "2.03",
     "_type": "catalogue"
   }

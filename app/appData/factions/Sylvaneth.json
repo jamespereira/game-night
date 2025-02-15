@@ -1,238 +1,283 @@
 {
   "catalogue": {
     "catalogueLinks": {
-      "catalogueLink": {
-        "_type": "catalogue",
-        "_name": "Sylvaneth - Library",
-        "_id": "948c-6ad8-8217-2c32",
-        "_targetId": "7e0b-8a19-260-5b58"
-      }
+      "catalogueLink": [{
+          "_type": "catalogue",
+          "_name": "Sylvaneth - Library",
+          "_id": "948c-6ad8-8217-2c32",
+          "_targetId": "7e0b-8a19-260-5b58"
+        },
+        {
+          "_type": "catalogue",
+          "_name": "Path to Glory - Ravaged Coast",
+          "_id": "f9f8-a13c-bbff-3403",
+          "_importRootEntries": "true",
+          "_targetId": "a434-b1ba-922b-7624"
+        }
+      ]
     },
     "sharedSelectionEntries": {
-      "selectionEntry": {
-        "profiles": {
-          "profile": [{
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Once Per Turn (Army), End of Any Turn"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Pick any number of friendly **^^Sylvaneth^^** units wholly within 6\" of a friendly **Awakened Wyldwood** to be the targets."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "**Heal (D3)** each target."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_typeId": "12e8-3214-7d8f-1d0f"
-                  }
-                ]
+      "selectionEntry": [{
+          "profiles": {
+            "profile": [{
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Once Per Turn (Army), End of Any Turn"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "Pick any number of friendly **^^Sylvaneth^^** units wholly within 6\" of any friendly **Awakened Wyldwoods** to be the targets."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "**Heal (D3)** each target."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Endless Growth",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "3ff5-8812-c55e-7f5a",
+                "_publicationId": "61ee-fae0-f1da-2591"
               },
-              "_name": "Endless Growth",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
-              "_hidden": "false",
-              "_id": "3ff5-8812-c55e-7f5a",
-              "_publicationId": "61ee-fae0-f1da-2591"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Once Per Turn (Army), End of Any Turn"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Pick a friendly **^^Sylvaneth^^** unit that is in combat and is wholly within 6\" of a friendly **Awakened Wyldwood** to use this ability."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "Remove that unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units and wholly within 6\" of a different friendly **Awakened Wyldwood**."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_typeId": "12e8-3214-7d8f-1d0f",
-                    "__text": "**^^Core^^**"
-                  }
-                ]
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Once Per Turn (Army), End of Any Turn"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "Pick a friendly **^^Sylvaneth^^** unit that is in combat and is wholly within 6\" of a friendly **Awakened Wyldwood** to use this ability."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "Remove that unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units and wholly within 6\" of a different friendly **Awakened Wyldwood**."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f",
+                      "__text": "**^^Core^^**"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Strike and Fade",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "e446-7e34-4e9f-ec50",
+                "_publicationId": "61ee-fae0-f1da-2591"
               },
-              "_name": "Strike and Fade",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Once Per Turn (Army), Your Movement Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "Pick a friendly **^^Sylvaneth^^** unit that is not in combat and is wholly within 6\" of a friendly **Awakened Wyldwood** to use this ability."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "Remove that unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units and wholly within 6\" of a different friendly **Awakened Wyldwood**."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f",
+                      "__text": "**^^Core^^**"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Walk the Hidden Paths",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "c6b6-e57e-e056-40a3",
+                "_publicationId": "61ee-fae0-f1da-2591"
+              }
+            ]
+          },
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Reference",
               "_hidden": "false",
-              "_id": "e446-7e34-4e9f-ec50",
-              "_publicationId": "61ee-fae0-f1da-2591"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Once Per Turn (Army), Your Movement Phase"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Pick a friendly **^^Sylvaneth^^** unit that is not in combat and is wholly within 6\" of a friendly **Awakened Wyldwood** to use this ability."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "Remove that unit from the battlefield and set it up again on the battlefield more than 9\" from all enemy units and wholly within 6\" of a different friendly **Awakened Wyldwood**."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_typeId": "12e8-3214-7d8f-1d0f",
-                    "__text": "**^^Core^^**"
-                  }
-                ]
-              },
-              "_name": "Walk the Hidden Paths",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
-              "_hidden": "false",
-              "_id": "c6b6-e57e-e056-40a3",
-              "_publicationId": "61ee-fae0-f1da-2591"
+              "_id": "28-9238-9172-750f",
+              "_targetId": "3360-1158-e879-9606",
+              "_primary": "true"
             }
-          ]
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Battle Traits: Sylvaneth",
+          "_hidden": "false",
+          "_id": "583a-37b4-52b2-9058"
         },
-        "categoryLinks": {
-          "categoryLink": {
-            "_name": "Reference",
-            "_hidden": "false",
-            "_id": "28-9238-9172-750f",
-            "_targetId": "3360-1158-e879-9606",
-            "_primary": "true"
-          }
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "7"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Sylvaneth Wizard^^** to cast this spell, pick a visible enemy unit that is either within 12\" of this unit or within 6\" of an **Awakened Wyldwood** to be the target, then make a casting roll of 2D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target unit."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**"
+                  }
+                ]
+              },
+              "_name": "The Dwellers Below",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
+              "_hidden": "false",
+              "_id": "97df-e136-9fb4-5aca"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "The Dwellers Below",
+          "_hidden": "false",
+          "_id": "8dd8-ff1e-5a57-3120"
         },
-        "_type": "upgrade",
-        "_import": "true",
-        "_name": "Battle Traits: Sylvaneth",
-        "_hidden": "false",
-        "_id": "583a-37b4-52b2-9058"
-      }
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "6"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Sylvaneth Wizard^^** to cast this spell, then make a casting roll of 2D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "If there are fewer than 3 friendly **Awakened Wyldwoods** on the battlefield, you can set up an **Awakened Wyldwood** wholly within 24\" of the caster, more than 3\" from all objectives and more than 1\" from all enemy units and other terrain features. If there are already 3 friendly **Awakened Wyldwoods** on the battlefield, **Heal (3)** each friendly **Awakened Wyldwood**."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**, **^^Unlimited^^**"
+                  }
+                ]
+              },
+              "_name": "Treesong",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
+              "_hidden": "false",
+              "_id": "4ea1-b08a-3684-8d35"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Treesong",
+          "_hidden": "false",
+          "_id": "1e2e-4b17-98ae-45c9"
+        },
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "6"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Sylvaneth Wizard^^** to cast this spell, pick a friendly **Awakened Wyldwood** wholly within 18\" of the caster to be the target, then make a casting roll of 2D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "Until the start of your next turn, add 1 to the Rend characteristic of melee weapons used by friendly Sylvaneth units while they are wholly within 6\" of the target."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**"
+                  }
+                ]
+              },
+              "_name": "Wrathful Spirits",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
+              "_hidden": "false",
+              "_id": "77cf-59bd-fc8e-f6c7"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Wrathful Spirits",
+          "_hidden": "false",
+          "_id": "476d-bfce-3902-1020"
+        }
+      ]
     },
     "sharedSelectionEntryGroups": {
       "selectionEntryGroup": [{
           "selectionEntries": {
             "selectionEntry": {
-              "profiles": {
-                "profile": [{
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "de6f-d57b-248a-83be",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Casting Value",
-                          "_typeId": "9fc7-b0f6-d018-a608",
-                          "__text": "6"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Sylvaneth Wizard^^** to cast this spell, then make a casting roll of 2D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "1cb9-a-1345-907f",
-                          "__text": "If there are fewer than 3 friendly **Awakened Wyldwoods** on the battlefield, you can set up an **Awakened Wyldwood** wholly within 24\" of the caster, more than 3\" from all objectives and more than 1\" from all enemy units and other terrain features. If there are already 3 friendly **Awakened Wyldwoods** on the battlefield, **Heal (3)** each friendly **Awakened Wyldwood**."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "353f-565e-c351-1cf2",
-                          "__text": "**^^Spell^^**, **^^Unlimited^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Treesong",
-                    "_typeId": "7312-8367-c171-f2ef",
-                    "_typeName": "Ability (Spell)",
-                    "_hidden": "false",
-                    "_id": "4ea1-b08a-3684-8d35"
-                  },
-                  {
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "de6f-d57b-248a-83be",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Casting Value",
-                          "_typeId": "9fc7-b0f6-d018-a608",
-                          "__text": "7"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Sylvaneth Wizard^^** to cast this spell, pick a visible enemy unit that is either within 12\" of this unit or within 6\" of an **Awakened Wyldwood** to be the target, then make a casting roll of 2D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Roll a number of dice equal to the number of models in the target unit. For each 5+, inflict 1 mortal damage on the target unit."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "353f-565e-c351-1cf2",
-                          "__text": "**^^Spell^^**"
-                        }
-                      ]
-                    },
-                    "_name": "The Dwellers Below",
-                    "_typeId": "7312-8367-c171-f2ef",
-                    "_typeName": "Ability (Spell)",
-                    "_hidden": "false",
-                    "_id": "97df-e136-9fb4-5aca"
-                  },
-                  {
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "de6f-d57b-248a-83be",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Casting Value",
-                          "_typeId": "9fc7-b0f6-d018-a608",
-                          "__text": "6"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Sylvaneth Wizard^^** to cast this spell, pick a friendly **Awakened Wyldwood** wholly within 18\" of the caster to be the target, then make a casting roll of 2D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Until the start of your next turn, add 1 to the Rend characteristic of melee weapons used by friendly Sylvaneth units while they are wholly within 6\" of the target."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "353f-565e-c351-1cf2",
-                          "__text": "**^^Spell^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Wrathful Spirits",
-                    "_typeId": "7312-8367-c171-f2ef",
-                    "_typeName": "Ability (Spell)",
-                    "_hidden": "false",
-                    "_id": "77cf-59bd-fc8e-f6c7"
-                  }
-                ]
-              },
               "constraints": {
                 "constraint": {
                   "_type": "max",
@@ -242,6 +287,90 @@
                   "_shared": "true",
                   "_id": "952e-8384-237d-f220"
                 }
+              },
+              "entryLinks": {
+                "entryLink": [{
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "62d1-479a-1b1c-3901-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "62d1-479a-1b1c-3901-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Wrathful Spirits",
+                    "_hidden": "false",
+                    "_id": "3cc1-3eeb-8436-2633",
+                    "_type": "selectionEntry",
+                    "_targetId": "476d-bfce-3902-1020"
+                  },
+                  {
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "4498-1ea9-4fd5-84b6-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "4498-1ea9-4fd5-84b6-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "The Dwellers Below",
+                    "_hidden": "false",
+                    "_id": "987e-cdaa-216d-612d",
+                    "_type": "selectionEntry",
+                    "_targetId": "8dd8-ff1e-5a57-3120"
+                  },
+                  {
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "8444-2061-f081-4438-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "8444-2061-f081-4438-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Treesong",
+                    "_hidden": "false",
+                    "_id": "642c-99f9-cd98-4c09",
+                    "_type": "selectionEntry",
+                    "_targetId": "1e2e-4b17-98ae-45c9"
+                  }
+                ]
               },
               "_type": "upgrade",
               "_import": "true",
@@ -447,6 +576,17 @@
               "_includeChildSelections": "true"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Artefacts of Power",
+              "_hidden": "false",
+              "_id": "95d8-13d5-bac5-05d9",
+              "_type": "selectionEntryGroup",
+              "_targetId": "e1b2-cedf-56a5-6bb1",
+              "_flatten": "true"
+            }
+          },
           "_name": "Artefacts of Power",
           "_id": "4994-cf8a-db5d-b87d",
           "_hidden": "false"
@@ -563,6 +703,10 @@
                         {
                           "_name": "Keywords",
                           "_typeId": "12e8-3214-7d8f-1d0f"
+                        },
+                        {
+                          "_name": "Used By",
+                          "_typeId": "1b32-c9d6-3106-166b"
                         }
                       ]
                     },
@@ -818,6 +962,17 @@
               "_includeChildSelections": "true"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Heroic Traits",
+              "_hidden": "false",
+              "_id": "40d1-ff81-0cae-47cd",
+              "_type": "selectionEntryGroup",
+              "_targetId": "c437-e34c-5e1c-95e6",
+              "_flatten": "true"
+            }
+          },
           "_name": "Heroic Traits",
           "_id": "ccba-5033-fe11-a2a",
           "_hidden": "false"
@@ -1038,6 +1193,92 @@
           "_id": "2d93-f507-a1f3-535f",
           "_hidden": "false",
           "_flatten": "true"
+        },
+        {
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Ravaged Coast Battle Scars",
+              "_hidden": "false",
+              "_id": "4c69-d034-ad9f-c515",
+              "_type": "selectionEntryGroup",
+              "_targetId": "5559-80df-ba01-66a7",
+              "_flatten": "true"
+            }
+          },
+          "selectionEntries": {
+            "selectionEntry": {
+              "_type": "upgrade",
+              "_import": "true",
+              "_name": "Battle Wounds",
+              "_hidden": "false",
+              "_id": "598c-a3ac-01e3-ad42"
+            }
+          },
+          "_name": "Battle Wounds + Scars",
+          "_id": "4b15-3fca-7be1-1fbb",
+          "_hidden": "true",
+          "_collapsible": "false"
+        },
+        {
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Ravaged Coast Paths",
+              "_hidden": "false",
+              "_id": "0ad7-10ff-aef4-5085",
+              "_type": "selectionEntryGroup",
+              "_targetId": "7bae-23cb-3977-3ece",
+              "_flatten": "true"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "1",
+              "_field": "selections",
+              "_scope": "parent",
+              "_shared": "true",
+              "_id": "3ae9-19e0-2841-9c69"
+            }
+          },
+          "_name": "Paths",
+          "_id": "4f72-c02a-2a86-b47b",
+          "_hidden": "true"
         }
       ]
     },
@@ -1082,6 +1323,16 @@
               "_value": "680"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "4e3f-b419-be05-67d5",
+              "_type": "selectionEntryGroup",
+              "_targetId": "4b15-3fca-7be1-1fbb"
+            }
+          },
           "_import": "true",
           "_name": "Alarielle the Everqueen",
           "_hidden": "false",
@@ -1104,6 +1355,38 @@
             "modifier": {
               "conditionGroups": {
                 "conditionGroup": {
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "959d-ffda-a3a5-db6a",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "1ba3-5bf-df0-e4ae",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "21f4-fbfa-6e85-1c5b",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
+                    }
+                  },
                   "conditions": {
                     "condition": {
                       "_type": "instanceOf",
@@ -1126,7 +1409,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "130"
             }
           },
           "entryLinks": {
@@ -1145,8 +1428,62 @@
                 "_id": "15f5-7f3a-1e68-ed9e",
                 "_type": "selectionEntryGroup",
                 "_targetId": "4994-cf8a-db5d-b87d"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "888a-c3db-dea1-f8ba",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b15-3fca-7be1-1fbb"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "fa3b-f9a6-fdac-33f3",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4f72-c02a-2a86-b47b"
               }
             ]
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "a00d-5f4a-9e65-a4d3",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "a00d-5f4a-9e65-a4d3",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "8d84-41b8-d801-309d"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
+            }
           },
           "_import": "true",
           "_name": "Arch-Revenant",
@@ -1195,6 +1532,16 @@
               "_value": "350"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "3e81-e3f9-1583-8bb9",
+              "_type": "selectionEntryGroup",
+              "_targetId": "4b15-3fca-7be1-1fbb"
+            }
+          },
           "_import": "true",
           "_name": "Belthanos, First Thorn of Kurnoth",
           "_hidden": "false",
@@ -1239,7 +1586,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "290"
+              "_value": "240"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "7876-3ee1-f329-f284",
+              "_type": "selectionEntryGroup",
+              "_targetId": "4b15-3fca-7be1-1fbb"
             }
           },
           "_import": "true",
@@ -1286,7 +1643,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "110"
             }
           },
           "entryLinks": {
@@ -1305,6 +1662,22 @@
                 "_id": "59fb-f4fc-8c92-afa4",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ccba-5033-fe11-a2a"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "e085-29e2-8e2d-ee63",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b15-3fca-7be1-1fbb"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "761f-e405-db58-bd21",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4f72-c02a-2a86-b47b"
               }
             ]
           },
@@ -1371,6 +1744,22 @@
                 "_id": "d858-1d22-6e8f-8235",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ccba-5033-fe11-a2a"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "a98a-bf78-275e-d76d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b15-3fca-7be1-1fbb"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "75f4-a548-8da1-2b01",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4f72-c02a-2a86-b47b"
               }
             ]
           },
@@ -1418,7 +1807,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "280"
+              "_value": "250"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "6739-e797-2816-1aa6",
+              "_type": "selectionEntryGroup",
+              "_targetId": "4b15-3fca-7be1-1fbb"
             }
           },
           "_import": "true",
@@ -1484,6 +1883,22 @@
                 "_id": "3504-ceac-3e41-b65c",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ccba-5033-fe11-a2a"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "cc53-a07b-6f53-d0b2",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b15-3fca-7be1-1fbb"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "0b17-12c3-79a4-61ca",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4f72-c02a-2a86-b47b"
               }
             ]
           },
@@ -1601,7 +2016,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "260"
+              "_value": "220"
             }
           },
           "entryLinks": {
@@ -1620,6 +2035,22 @@
                 "_id": "e72-ab18-9a67-538d",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ccba-5033-fe11-a2a"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "a84a-7b8d-7c3d-da43",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b15-3fca-7be1-1fbb"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "3b95-7da2-6533-26e4",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4f72-c02a-2a86-b47b"
               }
             ]
           },
@@ -1667,7 +2098,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "280"
+              "_value": "240"
             }
           },
           "entryLinks": {
@@ -1686,6 +2117,22 @@
                 "_id": "e483-779f-51bc-850e",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ccba-5033-fe11-a2a"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "5940-c255-1280-05a9",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b15-3fca-7be1-1fbb"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "b21a-5d6f-ddc2-d69f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4f72-c02a-2a86-b47b"
               }
             ]
           },
@@ -1713,6 +2160,16 @@
               "_value": "680"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "fcb1-2250-ee0c-1c22",
+              "_type": "selectionEntryGroup",
+              "_targetId": "4b15-3fca-7be1-1fbb"
+            }
+          },
           "_import": "true",
           "_name": "Alarielle the Everqueen",
           "_hidden": "false",
@@ -1725,7 +2182,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "150"
+              "_value": "130"
             }
           },
           "entryLinks": {
@@ -1744,6 +2201,22 @@
                 "_id": "8c52-3115-5641-7983",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ccba-5033-fe11-a2a"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "d2c9-36fc-3a96-c7cb",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b15-3fca-7be1-1fbb"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "ab58-d8a7-0639-d27f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4f72-c02a-2a86-b47b"
               }
             ]
           },
@@ -1780,6 +2253,16 @@
               "_value": "350"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "1dce-0891-a9d4-619f",
+              "_type": "selectionEntryGroup",
+              "_targetId": "4b15-3fca-7be1-1fbb"
+            }
+          },
           "_import": "true",
           "_name": "Belthanos, First Thorn of Kurnoth",
           "_hidden": "false",
@@ -1801,7 +2284,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "110"
             }
           },
           "entryLinks": {
@@ -1820,6 +2303,22 @@
                 "_id": "16b4-3d3d-3257-2375",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ccba-5033-fe11-a2a"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "bbc3-254f-f9a5-3686",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b15-3fca-7be1-1fbb"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "6bd4-c643-6c46-7404",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4f72-c02a-2a86-b47b"
               }
             ]
           },
@@ -1844,7 +2343,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "290"
+              "_value": "240"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "7216-3fdb-7fd3-c728",
+              "_type": "selectionEntryGroup",
+              "_targetId": "4b15-3fca-7be1-1fbb"
             }
           },
           "_import": "true",
@@ -1887,6 +2396,22 @@
                 "_id": "4e92-379c-3cd9-a56a",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ccba-5033-fe11-a2a"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "04bc-88fd-fb27-c2a6",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b15-3fca-7be1-1fbb"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "97bc-9c48-1d81-39dd",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4f72-c02a-2a86-b47b"
               }
             ]
           },
@@ -1911,7 +2436,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "280"
+              "_value": "250"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "5b3f-98da-5018-8619",
+              "_type": "selectionEntryGroup",
+              "_targetId": "4b15-3fca-7be1-1fbb"
             }
           },
           "_import": "true",
@@ -1935,7 +2470,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "260"
+              "_value": "220"
             }
           },
           "entryLinks": {
@@ -1954,6 +2489,22 @@
                 "_id": "ca28-b4e6-4d67-c80c",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ccba-5033-fe11-a2a"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "b577-6c04-f29c-93bf",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b15-3fca-7be1-1fbb"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "8c09-6749-e290-4ee1",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4f72-c02a-2a86-b47b"
               }
             ]
           },
@@ -1978,7 +2529,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "280"
+              "_value": "240"
             }
           },
           "entryLinks": {
@@ -1997,6 +2548,22 @@
                 "_id": "47f1-ef8b-83af-ba71",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ccba-5033-fe11-a2a"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "0a49-cad0-e782-7f59",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b15-3fca-7be1-1fbb"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "b933-2ae1-bdea-0ef4",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4f72-c02a-2a86-b47b"
               }
             ]
           },
@@ -2040,6 +2607,22 @@
                 "_id": "2e08-ae5b-f50f-971",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ccba-5033-fe11-a2a"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "122c-51cc-3ee8-76ad",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b15-3fca-7be1-1fbb"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "a821-48f2-aae8-41fe",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4f72-c02a-2a86-b47b"
               }
             ]
           },
@@ -2071,14 +2654,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "e4bd-91d1-e33b-f490",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "e4bd-91d1-e33b-f490",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "4334-5100-b1e4-33ec",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b15-3fca-7be1-1fbb"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "b03e-3ca4-30e8-e8f9",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4f72-c02a-2a86-b47b"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -2202,7 +2802,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "100"
             }
           },
           "_import": "true",
@@ -2214,14 +2814,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "bdb0-f5dd-c0bf-bfc3",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "bdb0-f5dd-c0bf-bfc3",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "e2b7-0a78-a375-16d1",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b15-3fca-7be1-1fbb"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "4878-065d-3549-7a71",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4f72-c02a-2a86-b47b"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -2365,14 +2982,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "f658-e7d1-5d3d-17a6",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "f658-e7d1-5d3d-17a6",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "9a31-e5e5-0ed1-69a0",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b15-3fca-7be1-1fbb"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "e11a-aebb-18ae-7bb2",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4f72-c02a-2a86-b47b"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -2516,14 +3150,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "3155-8559-15f1-f405",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "3155-8559-15f1-f405",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "3868-4646-030d-8de3",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b15-3fca-7be1-1fbb"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "3c46-655c-5a8d-63ad",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4f72-c02a-2a86-b47b"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -2667,14 +3318,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "e126-5dce-4c3c-95be",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "e126-5dce-4c3c-95be",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "54b9-c28e-150e-79ce",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b15-3fca-7be1-1fbb"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "4f3a-45d0-f295-3e31",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4f72-c02a-2a86-b47b"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -2818,14 +3486,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "2d44-1d8d-de8e-7a1d",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "2d44-1d8d-de8e-7a1d",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "4028-103a-ac80-8586",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b15-3fca-7be1-1fbb"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "823b-238a-7ea3-3312",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4f72-c02a-2a86-b47b"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -2969,14 +3654,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "3172-bd0-7df2-f8e6",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "3172-bd0-7df2-f8e6",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "ee78-2890-02f8-ba00",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b15-3fca-7be1-1fbb"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "4f74-a683-2f92-ed5f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4f72-c02a-2a86-b47b"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -3100,7 +3802,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "80"
             }
           },
           "_import": "true",
@@ -3112,14 +3814,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "cbc8-3e7c-abf9-5d4c",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "cbc8-3e7c-abf9-5d4c",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "c8bf-9faa-1463-af0f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b15-3fca-7be1-1fbb"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "6682-ac38-69b7-dc5d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4f72-c02a-2a86-b47b"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -3368,8 +4087,27 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "110"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "3775-8947-129a-b784",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b15-3fca-7be1-1fbb"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "fb8d-ac4c-a2af-216f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4f72-c02a-2a86-b47b"
+              }
+            ]
           },
           "_import": "true",
           "_name": "The Twistweald",
@@ -3380,14 +4118,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "28fd-f2f7-9d61-c51f",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "28fd-f2f7-9d61-c51f",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "107c-120b-e945-c7ac",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4b15-3fca-7be1-1fbb"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "0feb-0971-5341-d22c",
+                "_type": "selectionEntryGroup",
+                "_targetId": "4f72-c02a-2a86-b47b"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -3655,6 +4410,16 @@
               "_value": "90"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "e2a2-cd18-0788-584e",
+              "_type": "selectionEntryGroup",
+              "_targetId": "4b15-3fca-7be1-1fbb"
+            }
+          },
           "_import": "true",
           "_name": "Skaeth's Wind Hunt",
           "_hidden": "false",
@@ -3788,6 +4553,16 @@
               "_value": "140"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "6352-2743-d1cb-583a",
+              "_type": "selectionEntryGroup",
+              "_targetId": "4b15-3fca-7be1-1fbb"
+            }
+          },
           "_import": "true",
           "_name": "Ylthari's Guardians",
           "_hidden": "false",
@@ -3913,10 +4688,27 @@
               "_primary": "true"
             }
           },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "force",
+                  "_childId": "f079-501a-2738-6844",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
           "_type": "upgrade",
           "_import": "true",
           "_name": "Manifestation Lore",
-          "_hidden": "false",
+          "_hidden": "true",
           "_id": "979b-6809-199-9813",
           "_defaultAmount": "1"
         },
@@ -3961,11 +4753,183 @@
               "_collective": "false"
             }
           },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "force",
+                  "_childId": "f079-501a-2738-6844",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
           "_type": "upgrade",
           "_import": "true",
           "_name": "Spell Lore",
-          "_hidden": "false",
+          "_hidden": "true",
           "_id": "7d77-a567-c3a5-7df",
+          "_defaultAmount": "1"
+        },
+        {
+          "constraints": {
+            "constraint": [{
+                "_type": "min",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "roster",
+                "_shared": "true",
+                "_id": "d7c1-720b-918a-c0ba"
+              },
+              {
+                "_type": "max",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "roster",
+                "_shared": "true",
+                "_id": "3682-3d39-2157-80b1"
+              }
+            ]
+          },
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Army Composition",
+              "_hidden": "false",
+              "_id": "edf9-259b-2a2e-20e5",
+              "_targetId": "ac97-b27c-7e35-7ab9",
+              "_primary": "true"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "selectionEntryGroups": {
+            "selectionEntryGroup": {
+              "selectionEntryGroups": {
+                "selectionEntryGroup": {
+                  "entryLinks": {
+                    "entryLink": [{
+                        "constraints": {
+                          "constraint": {
+                            "_type": "max",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "1874-c0ca-0cfe-114a"
+                          }
+                        },
+                        "_import": "true",
+                        "_name": "The Dwellers Below",
+                        "_hidden": "false",
+                        "_id": "994c-2a32-0a3d-3b56",
+                        "_type": "selectionEntry",
+                        "_targetId": "8dd8-ff1e-5a57-3120"
+                      },
+                      {
+                        "constraints": {
+                          "constraint": {
+                            "_type": "max",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "428e-2e36-3b1d-1d16"
+                          }
+                        },
+                        "_import": "true",
+                        "_name": "Wrathful Spirits",
+                        "_hidden": "false",
+                        "_id": "5147-d124-42e1-3ac0",
+                        "_type": "selectionEntry",
+                        "_targetId": "476d-bfce-3902-1020"
+                      },
+                      {
+                        "constraints": {
+                          "constraint": {
+                            "_type": "max",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "7472-4139-92fd-0807"
+                          }
+                        },
+                        "_import": "true",
+                        "_name": "Treesong",
+                        "_hidden": "false",
+                        "_id": "766a-8a17-71ec-64dd",
+                        "_type": "selectionEntry",
+                        "_targetId": "1e2e-4b17-98ae-45c9"
+                      }
+                    ]
+                  },
+                  "_name": "Lore of the Deepwood",
+                  "_id": "a022-bc90-67d9-3b94",
+                  "_hidden": "false"
+                }
+              },
+              "constraints": {
+                "constraint": {
+                  "_type": "max",
+                  "_value": "6",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_shared": "true",
+                  "_id": "63e1-5aed-b32c-11c9"
+                }
+              },
+              "entryLinks": {
+                "entryLink": [{
+                    "_import": "true",
+                    "_name": "Spell Lores",
+                    "_hidden": "false",
+                    "_id": "92ec-b281-61d1-edbc",
+                    "_type": "selectionEntryGroup",
+                    "_targetId": "0bcf-1704-aaff-2b45",
+                    "_flatten": "true"
+                  },
+                  {
+                    "_import": "true",
+                    "_name": "Prayer Lores",
+                    "_hidden": "false",
+                    "_id": "1bde-821e-f462-6d4d",
+                    "_type": "selectionEntryGroup",
+                    "_targetId": "123c-ec0f-04eb-41d5",
+                    "_flatten": "true"
+                  }
+                ]
+              },
+              "_name": "",
+              "_id": "bed9-f738-59ef-2c36",
+              "_hidden": "false"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Arcane Tome",
+          "_hidden": "true",
+          "_id": "4b94-2605-7a81-f8cd",
           "_defaultAmount": "1"
         }
       ]
@@ -3976,7 +4940,7 @@
     "_name": "Sylvaneth",
     "_gameSystemId": "e51d-b1a3-75fc-dc3g",
     "_gameSystemRevision": "2",
-    "_revision": "1",
+    "_revision": "2",
     "_battleScribeVersion": "2.03",
     "_type": "catalogue"
   }

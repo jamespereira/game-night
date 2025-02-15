@@ -1,201 +1,362 @@
 {
   "catalogue": {
     "sharedSelectionEntries": {
-      "selectionEntry": {
-        "profiles": {
-          "profile": [{
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Once Per Turn (Army), Your Charge Phase"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Pick a friendly **^^Ironjawz Hero^^** to be the target. You cannot pick the same **^^Hero^^** to be the target of this ability more than once per battle.’"
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "For the rest of the turn, the following effects apply to friendly **^^Ironjawz^^** units while they are wholly within 18\" of the target:\n• Add 1 to charge rolls for those units.\n• Add 1 to the Attacks characteristic of those units’ melee weapons."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_typeId": "12e8-3214-7d8f-1d0f",
-                    "__text": "**^^Waaagh!^^**"
-                  },
-                  {
-                    "_name": "Used By",
-                    "_typeId": "1b32-c9d6-3106-166b"
-                  }
-                ]
+      "selectionEntry": [{
+          "profiles": {
+            "profile": [{
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Once Per Turn (Army), Your Charge Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "Pick a friendly **^^Ironjawz Hero^^** to be the target. You cannot pick the same **^^Hero^^** to be the target of this ability more than once per battle.’"
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "For the rest of the turn, the following effects apply to friendly **^^Ironjawz^^** units while they are wholly within 18\" of the target:\n• Add 1 to charge rolls for those units.\n• Add 1 to the Attacks characteristic of those units’ melee weapons."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f",
+                      "__text": "**^^Waaagh!^^**"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Ironjawz Waaagh!",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "618e-f241-f5d4-a04b"
               },
-              "_name": "Ironjawz Waaagh!",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Once Per Turn (Army), Any Hero Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "Pick a friendly **^^Ironjawz^^** unit that was not set up this turn to be the target."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "The target can move up to 3\". It can move into combat. If it was in combat at the start of the move, it must end that move in combat."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Mighty Destroyers",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "a85a-85d4-514a-44a3"
+              }
+            ]
+          },
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Reference",
               "_hidden": "false",
-              "_id": "618e-f241-f5d4-a04b"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Once Per Turn (Army), Any Hero Phase"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Pick a friendly **^^Ironjawz^^** unit that was not set up this turn to be the target."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "The target can move up to 3\". It can move into combat. If it was in combat at the start of the move, it must end that move in combat."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_typeId": "12e8-3214-7d8f-1d0f"
-                  }
-                ]
-              },
-              "_name": "Mighty Destroyers",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
-              "_hidden": "false",
-              "_id": "a85a-85d4-514a-44a3"
+              "_id": "8ac4-c6f3-90a2-b82e",
+              "_targetId": "3360-1158-e879-9606",
+              "_primary": "true"
             }
-          ]
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Battle Traits: Ironjawz",
+          "_hidden": "false",
+          "_id": "d8ca-c367-a211-97b3"
         },
-        "categoryLinks": {
-          "categoryLink": {
-            "_name": "Reference",
-            "_hidden": "false",
-            "_id": "8ac4-c6f3-90a2-b82e",
-            "_targetId": "3360-1158-e879-9606",
-            "_primary": "true"
-          }
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "76bf-8126-64d4-c709",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Chanting Value",
+                    "_typeId": "f192-6780-8138-9cef",
+                    "__text": "4"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "284c-90b2-245b-adf3",
+                    "__text": "Pick a friendly **^^Ironjawz Priest^^** to chant this prayer, pick a visible friendly **^^Ironjawz^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "6219-6fcc-5ae2-a6b7",
+                    "__text": "**Heal (D6)** the target. If the chanting roll was 8+, **Heal (D3+3)** the target instead."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "e3d8-f58b-e4e0-8e9d",
+                    "__text": "**^^Prayer^^**"
+                  }
+                ]
+              },
+              "_name": "Fixin' Beat",
+              "_typeId": "5946-234-d7b4-6195",
+              "_typeName": "Ability (Prayer)",
+              "_hidden": "false",
+              "_id": "5606-7489-d49f-e84"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Fixin' Beat",
+          "_hidden": "false",
+          "_id": "3e3e-a616-5969-6d0b"
         },
-        "_type": "upgrade",
-        "_import": "true",
-        "_name": "Battle Traits: Ironjawz",
-        "_hidden": "false",
-        "_id": "d8ca-c367-a211-97b3"
-      }
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "76bf-8126-64d4-c709",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Chanting Value",
+                    "_typeId": "f192-6780-8138-9cef",
+                    "__text": "4"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "284c-90b2-245b-adf3",
+                    "__text": "Pick a friendly **^^Ironjawz Priest^^** to chant this prayer, pick a visible friendly **^^Ironjawz^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "6219-6fcc-5ae2-a6b7",
+                    "__text": "For the rest of the turn, add 1 to charge rolls for the target. In addition, if the chanting roll was 8+, add 1 to the number of dice rolled when making charge rolls for the target, to a maximum of 3."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "e3d8-f58b-e4e0-8e9d",
+                    "__text": "**^^Prayer^^**, **^^Unlimited^^**"
+                  }
+                ]
+              },
+              "_name": "Get 'Em Beat",
+              "_typeId": "5946-234-d7b4-6195",
+              "_typeName": "Ability (Prayer)",
+              "_hidden": "false",
+              "_id": "8b84-cf49-aa4c-7814"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Get 'Em Beat",
+          "_hidden": "false",
+          "_id": "2929-c9d5-1e9e-1d3e"
+        },
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "76bf-8126-64d4-c709",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Chanting Value",
+                    "_typeId": "f192-6780-8138-9cef",
+                    "__text": "5"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "284c-90b2-245b-adf3",
+                    "__text": "Pick a friendly **^^Ironjawz Priest^^** to chant this prayer, pick a visible friendly **^^Ironjawz^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "6219-6fcc-5ae2-a6b7",
+                    "__text": "Add 1 to the Damage characteristic of the target’s melee weapons for the rest of the turn. If the chanting roll was 8+, you can pick up to 2 eligible units to be the targets instead of 1"
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "e3d8-f58b-e4e0-8e9d",
+                    "__text": "**^^Prayer^^**"
+                  }
+                ]
+              },
+              "_name": "Killa Beat",
+              "_typeId": "5946-234-d7b4-6195",
+              "_typeName": "Ability (Prayer)",
+              "_hidden": "false",
+              "_id": "55b0-9f01-4604-6322"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Killa Beat",
+          "_hidden": "false",
+          "_id": "88f3-56cc-3ffe-ff27"
+        },
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "6"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Ironjawz Wizard^^** to cast this spell, pick a visible friendly **^^Ironjawz^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "The target’s melee weapons have **Crit (2 Hits)** for the rest of the turn"
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**, **^^Unlimited^^**"
+                  }
+                ]
+              },
+              "_name": "Bash 'Em, Ladz",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
+              "_hidden": "false",
+              "_id": "ea0c-5e7-77ba-167d"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Bash 'Em, Ladz",
+          "_hidden": "false",
+          "_id": "108f-8694-8e15-b05e"
+        },
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "7"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Ironjawz Wizard^^** to cast this spell, pick a visible friendly unit wholly within 12\" of them and not in combat to be the target, then make a casting roll of 2D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "Remove the target from the battlefield and set it up again wholly within 24\" of the caster and more than 9\" from all enemy units."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**"
+                  }
+                ]
+              },
+              "_name": "Da Great Big Green Hand of Gork",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
+              "_hidden": "false",
+              "_id": "d612-3e23-847d-c58b"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Da Great Big Green Hand of Gork",
+          "_hidden": "false",
+          "_id": "0f36-4605-74ec-d7f8"
+        },
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "6"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Ironjawz Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "Inflict D3 mortal damage on the target. If the target is a **^^Wizard^^**, inflict 3 mortal damage on the target instead."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**"
+                  }
+                ]
+              },
+              "_name": "Mighty 'Eadbutt",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
+              "_hidden": "false",
+              "_id": "d016-5f8d-9e32-4df0"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Mighty 'Eadbutt",
+          "_hidden": "false",
+          "_id": "c3fb-0027-f11d-453d"
+        }
+      ]
     },
     "sharedSelectionEntryGroups": {
       "selectionEntryGroup": [{
           "selectionEntries": {
             "selectionEntry": {
-              "profiles": {
-                "profile": [{
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "de6f-d57b-248a-83be",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Casting Value",
-                          "_typeId": "9fc7-b0f6-d018-a608",
-                          "__text": "6"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Ironjawz Wizard^^** to cast this spell, pick a visible friendly **^^Ironjawz^^** unit wholly within 12\" of them to be the target, then make a casting roll of 2D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "1cb9-a-1345-907f",
-                          "__text": "The target’s melee weapons have **Crit (2 Hits)** for the rest of the turn"
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "353f-565e-c351-1cf2",
-                          "__text": "**^^Spell^^**, **^^Unlimited^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Bash 'Em, Ladz",
-                    "_typeId": "7312-8367-c171-f2ef",
-                    "_typeName": "Ability (Spell)",
-                    "_hidden": "false",
-                    "_id": "ea0c-5e7-77ba-167d"
-                  },
-                  {
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "de6f-d57b-248a-83be",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Casting Value",
-                          "_typeId": "9fc7-b0f6-d018-a608",
-                          "__text": "7"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Ironjawz Wizard^^** to cast this spell, pick a visible friendly unit wholly within 9\" of them and not in combat to be the target, then make a casting roll of 2D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Remove the target from the battlefield and set it up again wholly within 24\" of the caster and more than 9\" from all enemy units."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "353f-565e-c351-1cf2",
-                          "__text": "**^^Spell^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Da Great Big Green Hand of Gork",
-                    "_typeId": "7312-8367-c171-f2ef",
-                    "_typeName": "Ability (Spell)",
-                    "_hidden": "false",
-                    "_id": "d612-3e23-847d-c58b"
-                  },
-                  {
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "de6f-d57b-248a-83be",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Casting Value",
-                          "_typeId": "9fc7-b0f6-d018-a608",
-                          "__text": "6"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Ironjawz Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Inflict D3 mortal damage on the target. If the target is a **^^Wizard^^**, inflict 3 mortal damage on the target instead."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "353f-565e-c351-1cf2",
-                          "__text": "**^^Spell^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Mighty 'Eadbutt",
-                    "_typeId": "7312-8367-c171-f2ef",
-                    "_typeName": "Ability (Spell)",
-                    "_hidden": "false",
-                    "_id": "d016-5f8d-9e32-4df0"
-                  }
-                ]
-              },
               "constraints": {
                 "constraint": {
                   "_type": "max",
@@ -205,6 +366,90 @@
                   "_shared": "true",
                   "_id": "e7f6-d0b2-b075-7ce4"
                 }
+              },
+              "entryLinks": {
+                "entryLink": [{
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "68d2-178f-7cb7-b2ea-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "68d2-178f-7cb7-b2ea-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Mighty 'Eadbutt",
+                    "_hidden": "false",
+                    "_id": "be25-f4a6-208d-93c6",
+                    "_type": "selectionEntry",
+                    "_targetId": "c3fb-0027-f11d-453d"
+                  },
+                  {
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "1229-43a1-69fd-91a0-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "1229-43a1-69fd-91a0-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Bash 'Em, Ladz",
+                    "_hidden": "false",
+                    "_id": "71b7-3335-f61d-c733",
+                    "_type": "selectionEntry",
+                    "_targetId": "108f-8694-8e15-b05e"
+                  },
+                  {
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "c4a9-7012-de1d-eff5-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "c4a9-7012-de1d-eff5-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Da Great Big Green Hand of Gork",
+                    "_hidden": "false",
+                    "_id": "d340-8de8-24a1-9898",
+                    "_type": "selectionEntry",
+                    "_targetId": "0f36-4605-74ec-d7f8"
+                  }
+                ]
               },
               "_type": "upgrade",
               "_import": "true",
@@ -333,6 +578,10 @@
                             {
                               "_name": "Keywords",
                               "_typeId": "12e8-3214-7d8f-1d0f"
+                            },
+                            {
+                              "_name": "Used By",
+                              "_typeId": "1b32-c9d6-3106-166b"
                             }
                           ]
                         },
@@ -386,6 +635,17 @@
               "_shared": "true",
               "_id": "bf6d-3ace-c5e0-dc7a",
               "_includeChildSelections": "true"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Artefacts of Power",
+              "_hidden": "false",
+              "_id": "7917-18f9-4b82-c041",
+              "_type": "selectionEntryGroup",
+              "_targetId": "e1b2-cedf-56a5-6bb1",
+              "_flatten": "true"
             }
           },
           "_name": "Artefacts of Power",
@@ -591,6 +851,10 @@
                             {
                               "_name": "Keywords",
                               "_typeId": "12e8-3214-7d8f-1d0f"
+                            },
+                            {
+                              "_name": "Used By",
+                              "_typeId": "1b32-c9d6-3106-166b"
                             }
                           ]
                         },
@@ -678,6 +942,10 @@
                             {
                               "_name": "Keywords",
                               "_typeId": "12e8-3214-7d8f-1d0f"
+                            },
+                            {
+                              "_name": "Used By",
+                              "_typeId": "1b32-c9d6-3106-166b"
                             }
                           ]
                         },
@@ -733,6 +1001,17 @@
               "_includeChildSelections": "true"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Heroic Traits",
+              "_hidden": "false",
+              "_id": "7d28-d81d-b0c6-3d7c",
+              "_type": "selectionEntryGroup",
+              "_targetId": "c437-e34c-5e1c-95e6",
+              "_flatten": "true"
+            }
+          },
           "_name": "Heroic Traits",
           "_id": "4455-d9dc-24bf-7d91",
           "_hidden": "false"
@@ -740,114 +1019,6 @@
         {
           "selectionEntries": {
             "selectionEntry": {
-              "profiles": {
-                "profile": [{
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "76bf-8126-64d4-c709",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Chanting Value",
-                          "_typeId": "f192-6780-8138-9cef",
-                          "__text": "4"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "284c-90b2-245b-adf3",
-                          "__text": "Pick a friendly **^^Ironjawz Priest^^** to chant this prayer, pick a visible friendly **^^Ironjawz^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "6219-6fcc-5ae2-a6b7",
-                          "__text": "Until the start of your next turn, add 1 to charge rolls for the target. In addition, if the chanting roll was 8+, add 1 to the number of dice rolled when making charge rolls for the target, to a maximum of 3."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "e3d8-f58b-e4e0-8e9d",
-                          "__text": "**^^Prayer^^**, **^^Unlimited^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Get 'Em Beat",
-                    "_typeId": "5946-234-d7b4-6195",
-                    "_typeName": "Ability (Prayer)",
-                    "_hidden": "false",
-                    "_id": "8b84-cf49-aa4c-7814"
-                  },
-                  {
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "76bf-8126-64d4-c709",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Chanting Value",
-                          "_typeId": "f192-6780-8138-9cef",
-                          "__text": "4"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "284c-90b2-245b-adf3",
-                          "__text": "Pick a friendly **^^Ironjawz Priest^^** to chant this prayer, pick a visible friendly **^^Ironjawz^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "6219-6fcc-5ae2-a6b7",
-                          "__text": "Add 1 to the Damage characteristic of the target’s melee weapons for the rest of the turn. If the chanting roll was 8+, you can pick up to 2 eligible units to be the targets instead of 1"
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "e3d8-f58b-e4e0-8e9d",
-                          "__text": "**^^Prayer^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Killa Beat",
-                    "_typeId": "5946-234-d7b4-6195",
-                    "_typeName": "Ability (Prayer)",
-                    "_hidden": "false",
-                    "_id": "55b0-9f01-4604-6322"
-                  },
-                  {
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "76bf-8126-64d4-c709",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Chanting Value",
-                          "_typeId": "f192-6780-8138-9cef",
-                          "__text": "4"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "284c-90b2-245b-adf3",
-                          "__text": "Pick a friendly **^^Ironjawz Priest^^** to chant this prayer, pick a visible friendly **^^Ironjawz^^** unit wholly within 12\" of them to be the target, then make a chanting roll of D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "6219-6fcc-5ae2-a6b7",
-                          "__text": "**Heal (D6)** the target. If the chanting roll was 8+, **Heal (D3+3)** the target instead."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "e3d8-f58b-e4e0-8e9d",
-                          "__text": "**^^Prayer^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Fixin' Beat",
-                    "_typeId": "5946-234-d7b4-6195",
-                    "_typeName": "Ability (Prayer)",
-                    "_hidden": "false",
-                    "_id": "5606-7489-d49f-e84"
-                  }
-                ]
-              },
               "constraints": {
                 "constraint": {
                   "_type": "max",
@@ -857,6 +1028,90 @@
                   "_shared": "true",
                   "_id": "e227-f525-5241-81f6"
                 }
+              },
+              "entryLinks": {
+                "entryLink": [{
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "c0be-aca5-4a01-3acb-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "c0be-aca5-4a01-3acb-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Killa Beat",
+                    "_hidden": "false",
+                    "_id": "b70e-bc39-417c-4fd3",
+                    "_type": "selectionEntry",
+                    "_targetId": "88f3-56cc-3ffe-ff27"
+                  },
+                  {
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "8ee5-550b-105a-5b45-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "8ee5-550b-105a-5b45-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Fixin' Beat",
+                    "_hidden": "false",
+                    "_id": "7ef9-86f2-23c7-b789",
+                    "_type": "selectionEntry",
+                    "_targetId": "3e3e-a616-5969-6d0b"
+                  },
+                  {
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "6f01-813a-dbb8-f66c-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "6f01-813a-dbb8-f66c-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Get 'Em Beat",
+                    "_hidden": "false",
+                    "_id": "83c2-ba87-04a0-d9b5",
+                    "_type": "selectionEntry",
+                    "_targetId": "2929-c9d5-1e9e-1d3e"
+                  }
+                ]
               },
               "_type": "upgrade",
               "_import": "true",
@@ -881,16 +1136,339 @@
           "_id": "a537-457-99e-8b30",
           "_hidden": "false",
           "_flatten": "true"
+        },
+        {
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Ravaged Coast Battle Scars",
+              "_hidden": "false",
+              "_id": "72b4-1600-6c50-d377",
+              "_type": "selectionEntryGroup",
+              "_targetId": "5559-80df-ba01-66a7",
+              "_flatten": "true"
+            }
+          },
+          "selectionEntries": {
+            "selectionEntry": {
+              "_type": "upgrade",
+              "_import": "true",
+              "_name": "Battle Wounds",
+              "_hidden": "false",
+              "_id": "3a9f-8c73-9bb0-c9a0"
+            }
+          },
+          "_name": "Battle Wounds + Scars",
+          "_id": "8979-6e56-a44b-dce1",
+          "_hidden": "true",
+          "_collapsible": "false"
+        },
+        {
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Ravaged Coast Paths",
+                "_hidden": "false",
+                "_id": "af9d-92af-f8f1-e5ae",
+                "_type": "selectionEntryGroup",
+                "_targetId": "7bae-23cb-3977-3ece",
+                "_flatten": "true"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "102f-81c5-a69f-2cbd",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b46f-e21d-53d7-7494"
+              }
+            ]
+          },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "1",
+              "_field": "selections",
+              "_scope": "parent",
+              "_shared": "true",
+              "_id": "f68a-880e-f33b-48f9"
+            }
+          },
+          "_name": "Paths",
+          "_id": "9dbc-9121-11df-5b66",
+          "_hidden": "true"
+        },
+        {
+          "selectionEntries": {
+            "selectionEntry": {
+              "profiles": {
+                "profile": [{
+                    "characteristics": {
+                      "characteristic": [{
+                          "_name": "Timing",
+                          "_typeId": "de6f-d57b-248a-83be",
+                          "__text": "Your Hero Phase"
+                        },
+                        {
+                          "_name": "Casting Value",
+                          "_typeId": "9fc7-b0f6-d018-a608",
+                          "__text": "5"
+                        },
+                        {
+                          "_name": "Declare",
+                          "_typeId": "24f8-3803-4ab1-3b6c",
+                          "__text": "If there is not a friendly **Morkspit Marsh** on the battlefield, pick a friendly **^^Ironjawz Wizard^^** to cast this spell, then make a casting roll of 2D6."
+                        },
+                        {
+                          "_name": "Effect",
+                          "_typeId": "1cb9-a-1345-907f",
+                          "__text": "Set up a **Morkspit Marsh** wholly within 18\" of the caster and visible to them."
+                        },
+                        {
+                          "_name": "Keywords",
+                          "_typeId": "353f-565e-c351-1cf2",
+                          "__text": "**^^Spell^^**, **^^Summon^^**"
+                        }
+                      ]
+                    },
+                    "_name": "Summon Morkspit Marsh",
+                    "_typeId": "7312-8367-c171-f2ef",
+                    "_typeName": "Ability (Spell)",
+                    "_hidden": "false",
+                    "_id": "e7c6-5130-337a-e53a",
+                    "_publicationId": "8b1b-f2c7-890e-2bbe"
+                  },
+                  {
+                    "characteristics": {
+                      "characteristic": [{
+                          "_name": "Timing",
+                          "_typeId": "de6f-d57b-248a-83be",
+                          "__text": "Your Hero Phase"
+                        },
+                        {
+                          "_name": "Casting Value",
+                          "_typeId": "9fc7-b0f6-d018-a608",
+                          "__text": "7"
+                        },
+                        {
+                          "_name": "Declare",
+                          "_typeId": "24f8-3803-4ab1-3b6c",
+                          "__text": "If there is not a friendly **Foot of Gork** on the battlefield, pick a friendly **^^Ironjawz Wizard^^** to cast this spell, then make a casting roll of 2D6."
+                        },
+                        {
+                          "_name": "Effect",
+                          "_typeId": "1cb9-a-1345-907f",
+                          "__text": "Set up a **Foot of Gork** wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units. A **Foot of Gork** has 2 parts that must be set up within 9\" of each other."
+                        },
+                        {
+                          "_name": "Keywords",
+                          "_typeId": "353f-565e-c351-1cf2",
+                          "__text": "**^^Spell^^**, **^^Summon^^**"
+                        }
+                      ]
+                    },
+                    "_name": "Summon Foot of Gork",
+                    "_typeId": "7312-8367-c171-f2ef",
+                    "_typeName": "Ability (Spell)",
+                    "_hidden": "false",
+                    "_id": "bc27-b93a-7330-3b40",
+                    "_publicationId": "8b1b-f2c7-890e-2bbe"
+                  },
+                  {
+                    "characteristics": {
+                      "characteristic": [{
+                          "_name": "Timing",
+                          "_typeId": "de6f-d57b-248a-83be",
+                          "__text": "Your Hero Phase"
+                        },
+                        {
+                          "_name": "Casting Value",
+                          "_typeId": "9fc7-b0f6-d018-a608",
+                          "__text": "7"
+                        },
+                        {
+                          "_name": "Declare",
+                          "_typeId": "24f8-3803-4ab1-3b6c",
+                          "__text": "If there is not a friendly **Gork-Roara** on the battlefield, pick a friendly **^^Ironjawz Wizard^^** to cast this spell, then make a casting roll of 2D6."
+                        },
+                        {
+                          "_name": "Effect",
+                          "_typeId": "1cb9-a-1345-907f",
+                          "__text": "Set up a **Gork-Roara** wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units."
+                        },
+                        {
+                          "_name": "Keywords",
+                          "_typeId": "353f-565e-c351-1cf2",
+                          "__text": "**^^Spell^^**, **^^Summon^^**"
+                        }
+                      ]
+                    },
+                    "_name": "Summon Gork-Roara",
+                    "_typeId": "7312-8367-c171-f2ef",
+                    "_typeName": "Ability (Spell)",
+                    "_hidden": "false",
+                    "_id": "5404-e3c5-139c-3288",
+                    "_publicationId": "bf63-6cf5-2975-bafa"
+                  }
+                ]
+              },
+              "constraints": {
+                "constraint": {
+                  "_type": "max",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_shared": "true",
+                  "_id": "66d7-2359-e2be-6ae9"
+                }
+              },
+              "entryLinks": {
+                "entryLink": [{
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "f229-3229-d0d3-f9d2"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "6413-6394-68f8-c4f4"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Morkspit Marsh",
+                    "_hidden": "false",
+                    "_id": "4ce6-7507-652a-90fc",
+                    "_type": "selectionEntry",
+                    "_targetId": "9500-6054-f472-f184"
+                  },
+                  {
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "a306-b93c-54e0-090f"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "f64c-f9bd-2495-29fe"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Foot of Gork",
+                    "_hidden": "false",
+                    "_id": "4da2-4264-87eb-cbcc",
+                    "_type": "selectionEntry",
+                    "_targetId": "6cc6-3227-bf8d-1a1d"
+                  },
+                  {
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "4bdf-a025-f642-405a"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "ecba-de26-e369-d3fb"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Gork-Roara",
+                    "_hidden": "false",
+                    "_id": "4aac-c0ea-c0d1-1e02",
+                    "_type": "selectionEntry",
+                    "_targetId": "4362-f538-078e-fb12"
+                  }
+                ]
+              },
+              "_type": "upgrade",
+              "_import": "true",
+              "_name": "Manifestations of Gorkamorka",
+              "_hidden": "false",
+              "_id": "2fad-f066-fa21-42f6"
+            }
+          },
+          "_name": "Manifestation Lores",
+          "_id": "288e-a28e-a60c-1c9e",
+          "_hidden": "false",
+          "_flatten": "true"
         }
       ]
     },
     "catalogueLinks": {
-      "catalogueLink": {
-        "_type": "catalogue",
-        "_name": "Ironjawz - Library",
-        "_id": "a6b-356a-5873-dae5",
-        "_targetId": "8c7-eee2-e358-ba1e"
-      }
+      "catalogueLink": [{
+          "_type": "catalogue",
+          "_name": "Ironjawz - Library",
+          "_id": "a6b-356a-5873-dae5",
+          "_targetId": "8c7-eee2-e358-ba1e"
+        },
+        {
+          "_type": "catalogue",
+          "_name": "Path to Glory - Ravaged Coast",
+          "_id": "e78f-cf85-8fb8-a1af",
+          "_importRootEntries": "true",
+          "_targetId": "a434-b1ba-922b-7624"
+        }
+      ]
     },
     "entryLinks": {
       "entryLink": [{
@@ -944,6 +1522,14 @@
                             "_scope": "force",
                             "_childId": "d3e0-6a4-afe6-46f5",
                             "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "6343-e28f-bef2-a199",
+                            "_shared": "true"
                           }
                         ]
                       },
@@ -974,6 +1560,22 @@
                 "_id": "3980-4b0-37cb-794b",
                 "_type": "selectionEntryGroup",
                 "_targetId": "4455-d9dc-24bf-7d91"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "3006-087b-a835-9a25",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8979-6e56-a44b-dce1"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "73d3-41c2-10d9-4cb6",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9dbc-9121-11df-5b66"
               }
             ]
           },
@@ -1019,7 +1621,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -1066,7 +1668,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "430"
+              "_value": "380"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "c18e-2a47-19b4-596b",
+              "_type": "selectionEntryGroup",
+              "_targetId": "8979-6e56-a44b-dce1"
             }
           },
           "_import": "true",
@@ -1116,6 +1728,16 @@
               "_value": "580"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "186f-a1d4-04ca-fa08",
+              "_type": "selectionEntryGroup",
+              "_targetId": "8979-6e56-a44b-dce1"
+            }
+          },
           "_import": "true",
           "_name": "Kragnos, the End of Empires",
           "_hidden": "false",
@@ -1148,6 +1770,46 @@
                       "_shared": "true"
                     }
                   },
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "70cd-5229-7b3f-94cb",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "4079-fb73-a4d7-7b0d",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "d3e0-6a4-afe6-46f5",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "6343-e28f-bef2-a199",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
+                    }
+                  },
                   "_type": "and"
                 }
               },
@@ -1172,6 +1834,22 @@
                 "_id": "ca9f-d179-15ad-738f",
                 "_type": "selectionEntryGroup",
                 "_targetId": "4b1c-ea81-9dc1-de9f"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "12a5-5bab-0b2e-e448",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8979-6e56-a44b-dce1"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "f248-8257-dde3-5ca3",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9dbc-9121-11df-5b66"
               }
             ]
           },
@@ -1179,7 +1857,45 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "210"
+              "_value": "190"
+            }
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "9e01-f4e1-28d8-eae4",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "9e01-f4e1-28d8-eae4",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "efc4-8054-920c-7338"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
             }
           },
           "_import": "true",
@@ -1238,6 +1954,22 @@
                 "_id": "2be-4681-91b7-567d",
                 "_type": "selectionEntryGroup",
                 "_targetId": "4b1c-ea81-9dc1-de9f"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "8156-232a-3ce8-e84f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8979-6e56-a44b-dce1"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "a06c-cbae-a5ff-7aa9",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9dbc-9121-11df-5b66"
               }
             ]
           },
@@ -1245,7 +1977,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "400"
+              "_value": "360"
             }
           },
           "_import": "true",
@@ -1280,6 +2012,38 @@
                       "_shared": "true"
                     }
                   },
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "70cd-5229-7b3f-94cb",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "d3e0-6a4-afe6-46f5",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "6343-e28f-bef2-a199",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
+                    }
+                  },
                   "_type": "and"
                 }
               },
@@ -1304,6 +2068,22 @@
                 "_id": "d87-d2c5-4756-f21c",
                 "_type": "selectionEntryGroup",
                 "_targetId": "4b1c-ea81-9dc1-de9f"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "b036-9902-af7d-d13c",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8979-6e56-a44b-dce1"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "5f58-9932-1595-1d8f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9dbc-9121-11df-5b66"
               }
             ]
           },
@@ -1311,7 +2091,45 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "280"
+              "_value": "260"
+            }
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "39cc-b594-a456-f407",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "39cc-b594-a456-f407",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "ace2-1f7b-496a-f170"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
             }
           },
           "_import": "true",
@@ -1346,6 +2164,46 @@
                       "_shared": "true"
                     }
                   },
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "70cd-5229-7b3f-94cb",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "4079-fb73-a4d7-7b0d",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "d3e0-6a4-afe6-46f5",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "6343-e28f-bef2-a199",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
+                    }
+                  },
                   "_type": "and"
                 }
               },
@@ -1359,6 +2217,54 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "180"
+            }
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "9e01-f4e1-28d8-eae4",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "9e01-f4e1-28d8-eae4",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "11ad-c01b-f0d6-d66e"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "ae4b-1d7e-564c-3348",
+              "_type": "selectionEntryGroup",
+              "_targetId": "8979-6e56-a44b-dce1"
             }
           },
           "_import": "true",
@@ -1417,6 +2323,22 @@
                 "_id": "7f93-34ea-54c0-3d2",
                 "_type": "selectionEntryGroup",
                 "_targetId": "4b1c-ea81-9dc1-de9f"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "503b-6693-7c60-7949",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8979-6e56-a44b-dce1"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "ad2f-df17-9cab-d0d7",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9dbc-9121-11df-5b66"
               }
             ]
           },
@@ -1483,6 +2405,22 @@
                 "_id": "1b13-5c39-bda4-bc62",
                 "_type": "selectionEntryGroup",
                 "_targetId": "4b1c-ea81-9dc1-de9f"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "689a-f710-e67a-dbeb",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8979-6e56-a44b-dce1"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "936f-ea8d-7c52-e6e8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9dbc-9121-11df-5b66"
               }
             ]
           },
@@ -1515,6 +2453,16 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "180"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "abe5-be5b-e835-ef70",
+              "_type": "selectionEntryGroup",
+              "_targetId": "8979-6e56-a44b-dce1"
             }
           },
           "_import": "true",
@@ -1550,6 +2498,22 @@
                 "_id": "a906-82d2-e5b6-7fda",
                 "_type": "selectionEntryGroup",
                 "_targetId": "4b1c-ea81-9dc1-de9f"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "ece6-2722-be5e-7745",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8979-6e56-a44b-dce1"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "17e4-4283-4532-c297",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9dbc-9121-11df-5b66"
               }
             ]
           },
@@ -1557,7 +2521,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -1581,7 +2545,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "430"
+              "_value": "380"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "6ef6-1b6f-6e16-0149",
+              "_type": "selectionEntryGroup",
+              "_targetId": "8979-6e56-a44b-dce1"
             }
           },
           "_import": "true",
@@ -1606,6 +2580,16 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "580"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "f919-194e-f1f3-e948",
+              "_type": "selectionEntryGroup",
+              "_targetId": "8979-6e56-a44b-dce1"
             }
           },
           "_import": "true",
@@ -1641,6 +2625,22 @@
                 "_id": "dc45-940f-4711-ef50",
                 "_type": "selectionEntryGroup",
                 "_targetId": "4b1c-ea81-9dc1-de9f"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "c7e9-9c04-7827-dddc",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8979-6e56-a44b-dce1"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "c368-6a30-ac2d-785c",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9dbc-9121-11df-5b66"
               }
             ]
           },
@@ -1648,7 +2648,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "210"
+              "_value": "190"
             }
           },
           "_import": "true",
@@ -1684,6 +2684,22 @@
                 "_id": "6849-234c-9717-51bb",
                 "_type": "selectionEntryGroup",
                 "_targetId": "4b1c-ea81-9dc1-de9f"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "c19b-409e-6cb1-9cca",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8979-6e56-a44b-dce1"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "4edd-ba4a-0667-91b3",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9dbc-9121-11df-5b66"
               }
             ]
           },
@@ -1691,7 +2707,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "400"
+              "_value": "360"
             }
           },
           "_import": "true",
@@ -1727,6 +2743,22 @@
                 "_id": "c42b-a2a5-6e6-9a42",
                 "_type": "selectionEntryGroup",
                 "_targetId": "4b1c-ea81-9dc1-de9f"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "6144-f2f9-6886-709c",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8979-6e56-a44b-dce1"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "153f-64aa-a0f0-0d2e",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9dbc-9121-11df-5b66"
               }
             ]
           },
@@ -1734,7 +2766,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "280"
+              "_value": "260"
             }
           },
           "_import": "true",
@@ -1770,6 +2802,22 @@
                 "_id": "1247-9c85-e039-2d82",
                 "_type": "selectionEntryGroup",
                 "_targetId": "4b1c-ea81-9dc1-de9f"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "3684-250c-ac6a-9aee",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8979-6e56-a44b-dce1"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "7abd-5183-f0d3-840d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9dbc-9121-11df-5b66"
               }
             ]
           },
@@ -1813,6 +2861,22 @@
                 "_id": "7c5a-2d9b-c01b-7aff",
                 "_type": "selectionEntryGroup",
                 "_targetId": "4b1c-ea81-9dc1-de9f"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "c6b6-06ee-ad6e-306c",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8979-6e56-a44b-dce1"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "09b3-f3a1-d046-5d69",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9dbc-9121-11df-5b66"
               }
             ]
           },
@@ -1851,14 +2915,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "7bb1-d81d-6877-f0b7",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "7bb1-d81d-6877-f0b7",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "9171-1551-f81a-4407",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8979-6e56-a44b-dce1"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "98f4-6709-8110-e116",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9dbc-9121-11df-5b66"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -1986,14 +3067,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "4d59-faf-6f72-e837",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "4d59-faf-6f72-e837",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "859b-b954-c4d6-97ff",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8979-6e56-a44b-dce1"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "b2a1-cfef-f273-593b",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9dbc-9121-11df-5b66"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -2109,7 +3207,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "120"
             }
           },
           "_import": "true",
@@ -2121,14 +3219,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "678-8a55-7ab4-95b6",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "678-8a55-7ab4-95b6",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "aa0c-5499-1f41-deff",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8979-6e56-a44b-dce1"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "34fb-b525-7f77-582d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9dbc-9121-11df-5b66"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -2256,14 +3371,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "470f-5239-de74-1d79",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "470f-5239-de74-1d79",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "bd0c-5cef-c926-e20c",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8979-6e56-a44b-dce1"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "d7c9-bf41-99f0-240a",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9dbc-9121-11df-5b66"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -2504,8 +3636,27 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "220"
+              "_value": "210"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "4032-0964-d158-2e0b",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8979-6e56-a44b-dce1"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "9d4e-fc9a-fbe8-3918",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9dbc-9121-11df-5b66"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Maw-grunta Gougers",
@@ -2629,8 +3780,27 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "270"
+              "_value": "250"
             }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "a6db-ebce-5360-542a",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8979-6e56-a44b-dce1"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "7beb-6c75-3799-75d9",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9dbc-9121-11df-5b66"
+              }
+            ]
           },
           "_import": "true",
           "_name": "Maw-grunta with Hakkin' Krew",
@@ -2641,14 +3811,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "ef60-e62d-119f-2659",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "ef60-e62d-119f-2659",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "573f-91d3-e162-c1f4",
+                "_type": "selectionEntryGroup",
+                "_targetId": "8979-6e56-a44b-dce1"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "1c6f-1107-4cad-f617",
+                "_type": "selectionEntryGroup",
+                "_targetId": "9dbc-9121-11df-5b66"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -2764,7 +3951,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "110"
+              "_value": "100"
             }
           },
           "_import": "true",
@@ -2892,6 +4079,16 @@
               "_value": "110"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "697f-46a8-c9d8-53e8",
+              "_type": "selectionEntryGroup",
+              "_targetId": "8979-6e56-a44b-dce1"
+            }
+          },
           "_import": "true",
           "_name": "Ironskull's Boyz",
           "_hidden": "false",
@@ -3017,21 +4214,45 @@
               "_value": "110"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "fbed-11fd-729d-9b76",
+              "_type": "selectionEntryGroup",
+              "_targetId": "8979-6e56-a44b-dce1"
+            }
+          },
           "_import": "true",
           "_name": "Morgok's Krushas",
           "_hidden": "false",
           "_id": "a30c-ee36-5665-b6c4",
           "_type": "selectionEntry",
           "_targetId": "5e0d-b8d1-f5e7-f1df"
+        },
+        {
+          "_import": "true",
+          "_name": "Bossrokk Tower",
+          "_hidden": "false",
+          "_id": "73b0-a8fe-3e4b-391c",
+          "_type": "selectionEntry",
+          "_targetId": "092c-1ddc-6678-db32"
         }
       ]
     },
     "categoryEntries": {
-      "categoryEntry": {
-        "_name": "Headstompa",
-        "_id": "9e01-f4e1-28d8-eae4",
-        "_hidden": "false"
-      }
+      "categoryEntry": [{
+          "_name": "Headstompa",
+          "_id": "9e01-f4e1-28d8-eae4",
+          "_hidden": "false"
+        },
+        {
+          "_name": "Tusk Wrangler",
+          "_id": "39cc-b594-a456-f407",
+          "_hidden": "false"
+        }
+      ]
     },
     "selectionEntries": {
       "selectionEntry": [{
@@ -3077,15 +4298,24 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Manifestation Lores",
-              "_hidden": "false",
-              "_id": "26b8-4347-4108-2a75",
-              "_type": "selectionEntryGroup",
-              "_targetId": "748f-5d65-2d45-95c5",
-              "_flatten": "true"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Manifestation Lores",
+                "_hidden": "false",
+                "_id": "26b8-4347-4108-2a75",
+                "_type": "selectionEntryGroup",
+                "_targetId": "748f-5d65-2d45-95c5",
+                "_flatten": "true"
+              },
+              {
+                "_import": "true",
+                "_name": "Manifestation Lores",
+                "_hidden": "false",
+                "_id": "f9a1-ded2-73fb-3338",
+                "_type": "selectionEntryGroup",
+                "_targetId": "288e-a28e-a60c-1c9e"
+              }
+            ]
           },
           "constraints": {
             "constraint": [{
@@ -3115,10 +4345,27 @@
               "_primary": "true"
             }
           },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "force",
+                  "_childId": "f079-501a-2738-6844",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
           "_type": "upgrade",
           "_import": "true",
           "_name": "Manifestation Lore",
-          "_hidden": "false",
+          "_hidden": "true",
           "_id": "94cc-9a4c-e4a2-6da1",
           "_defaultAmount": "1"
         },
@@ -3163,10 +4410,27 @@
               "_collective": "false"
             }
           },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "force",
+                  "_childId": "f079-501a-2738-6844",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
           "_type": "upgrade",
           "_import": "true",
           "_name": "Spell Lore",
-          "_hidden": "false",
+          "_hidden": "true",
           "_id": "6876-59db-5e39-aa8a",
           "_defaultAmount": "1"
         },
@@ -3211,11 +4475,246 @@
               "_collective": "false"
             }
           },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "force",
+                  "_childId": "f079-501a-2738-6844",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
           "_type": "upgrade",
           "_import": "true",
           "_name": "Prayer Lore",
-          "_hidden": "false",
+          "_hidden": "true",
           "_id": "35fa-60e6-258a-561f",
+          "_defaultAmount": "1"
+        },
+        {
+          "constraints": {
+            "constraint": [{
+                "_type": "min",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "roster",
+                "_shared": "true",
+                "_id": "40b1-a6e3-aca3-33aa"
+              },
+              {
+                "_type": "max",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "roster",
+                "_shared": "true",
+                "_id": "889d-6842-d46c-23f0"
+              }
+            ]
+          },
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Army Composition",
+              "_hidden": "false",
+              "_id": "78cc-f59f-f6b0-779a",
+              "_targetId": "ac97-b27c-7e35-7ab9",
+              "_primary": "true"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "selectionEntryGroups": {
+            "selectionEntryGroup": {
+              "selectionEntryGroups": {
+                "selectionEntryGroup": [{
+                    "entryLinks": {
+                      "entryLink": [{
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "0fc1-1dd7-3a1b-1de6"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "Fixin' Beat",
+                          "_hidden": "false",
+                          "_id": "4255-ec6d-f235-4839",
+                          "_type": "selectionEntry",
+                          "_targetId": "3e3e-a616-5969-6d0b"
+                        },
+                        {
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "592c-fcef-0f7c-8e59"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "Get 'Em Beat",
+                          "_hidden": "false",
+                          "_id": "957b-5f2f-5bac-60a3",
+                          "_type": "selectionEntry",
+                          "_targetId": "2929-c9d5-1e9e-1d3e"
+                        },
+                        {
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "0e12-e80c-ee67-554b"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "Killa Beat",
+                          "_hidden": "false",
+                          "_id": "5665-bf91-f81c-8276",
+                          "_type": "selectionEntry",
+                          "_targetId": "88f3-56cc-3ffe-ff27"
+                        }
+                      ]
+                    },
+                    "_name": "Warbeats",
+                    "_id": "8de1-3958-63be-b729",
+                    "_hidden": "false"
+                  },
+                  {
+                    "entryLinks": {
+                      "entryLink": [{
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "d445-3668-fb46-8a12"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "Bash 'Em, Ladz",
+                          "_hidden": "false",
+                          "_id": "71b7-ace3-0b16-4e71",
+                          "_type": "selectionEntry",
+                          "_targetId": "108f-8694-8e15-b05e"
+                        },
+                        {
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "a3cf-dc00-7613-8705"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "Mighty 'Eadbutt",
+                          "_hidden": "false",
+                          "_id": "ebb8-23a9-cf1c-7c77",
+                          "_type": "selectionEntry",
+                          "_targetId": "c3fb-0027-f11d-453d"
+                        },
+                        {
+                          "constraints": {
+                            "constraint": {
+                              "_type": "max",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "parent",
+                              "_shared": "true",
+                              "_id": "017a-3c8b-a554-50f5"
+                            }
+                          },
+                          "_import": "true",
+                          "_name": "Da Great Big Green Hand of Gork",
+                          "_hidden": "false",
+                          "_id": "d0da-519b-2bcf-4109",
+                          "_type": "selectionEntry",
+                          "_targetId": "0f36-4605-74ec-d7f8"
+                        }
+                      ]
+                    },
+                    "_name": "Lore of the Weird",
+                    "_id": "1f03-a9b1-65a9-8c48",
+                    "_hidden": "false"
+                  }
+                ]
+              },
+              "constraints": {
+                "constraint": {
+                  "_type": "max",
+                  "_value": "6",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_shared": "true",
+                  "_id": "56a9-6e51-206b-712b"
+                }
+              },
+              "entryLinks": {
+                "entryLink": [{
+                    "_import": "true",
+                    "_name": "Spell Lores",
+                    "_hidden": "false",
+                    "_id": "39b6-c189-258f-0e0d",
+                    "_type": "selectionEntryGroup",
+                    "_targetId": "0bcf-1704-aaff-2b45",
+                    "_flatten": "true"
+                  },
+                  {
+                    "_import": "true",
+                    "_name": "Prayer Lores",
+                    "_hidden": "false",
+                    "_id": "6605-3ab6-4b35-1a1c",
+                    "_type": "selectionEntryGroup",
+                    "_targetId": "123c-ec0f-04eb-41d5",
+                    "_flatten": "true"
+                  }
+                ]
+              },
+              "_name": "",
+              "_id": "6e86-29a3-f158-0348",
+              "_hidden": "false"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Arcane Tome",
+          "_hidden": "true",
+          "_id": "f4fe-2987-2e75-25b2",
           "_defaultAmount": "1"
         }
       ]
@@ -3226,7 +4725,7 @@
     "_name": "Ironjawz",
     "_gameSystemId": "e51d-b1a3-75fc-dc3g",
     "_gameSystemRevision": "2",
-    "_revision": "1",
+    "_revision": "3",
     "_battleScribeVersion": "2.03",
     "_type": "catalogue"
   }

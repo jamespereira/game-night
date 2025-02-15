@@ -4,114 +4,6 @@
       "selectionEntryGroup": [{
           "selectionEntries": {
             "selectionEntry": {
-              "profiles": {
-                "profile": [{
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "de6f-d57b-248a-83be",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Casting Value",
-                          "_typeId": "9fc7-b0f6-d018-a608",
-                          "__text": "5"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Kruleboyz Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Roll a dice for each model in the target unit. For each 6, inflict 1 mortal damage on the target."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "353f-565e-c351-1cf2",
-                          "__text": "**^^Spell^^**, **^^Unlimited^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Da Black Pit",
-                    "_typeId": "7312-8367-c171-f2ef",
-                    "_typeName": "Ability (Spell)",
-                    "_hidden": "false",
-                    "_id": "ac40-170e-df46-82eb"
-                  },
-                  {
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "de6f-d57b-248a-83be",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Casting Value",
-                          "_typeId": "9fc7-b0f6-d018-a608",
-                          "__text": "7"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Kruleboyz Wizard^^** to cast this spell, pick a visible enemy unit wholly within 18\" of them to be the target, then make a casting roll of 2D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Subtract 1 from the Attacks characteristic of the target’s weapons until the start of your next turn."
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "353f-565e-c351-1cf2",
-                          "__text": "**^^Spell^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Choking Mist",
-                    "_typeId": "7312-8367-c171-f2ef",
-                    "_typeName": "Ability (Spell)",
-                    "_hidden": "false",
-                    "_id": "1abd-510b-e57-abb9"
-                  },
-                  {
-                    "characteristics": {
-                      "characteristic": [{
-                          "_name": "Timing",
-                          "_typeId": "de6f-d57b-248a-83be",
-                          "__text": "Your Hero Phase"
-                        },
-                        {
-                          "_name": "Casting Value",
-                          "_typeId": "9fc7-b0f6-d018-a608",
-                          "__text": "5"
-                        },
-                        {
-                          "_name": "Declare",
-                          "_typeId": "24f8-3803-4ab1-3b6c",
-                          "__text": "Pick a friendly **^^Kruleboyz Wizard^^** to cast this spell, pick a visible friendly **^^Kruleboyz^^** unit wholly within 12\" of them, then make a casting roll of 2D6."
-                        },
-                        {
-                          "_name": "Effect",
-                          "_typeId": "1cb9-a-1345-907f",
-                          "__text": "Until the start of your next turn, add 1 to save rolls for attacks that target that friendly unit"
-                        },
-                        {
-                          "_name": "Keywords",
-                          "_typeId": "353f-565e-c351-1cf2",
-                          "__text": "**^^Spell^^**"
-                        }
-                      ]
-                    },
-                    "_name": "Mork's Kunnin'",
-                    "_typeId": "7312-8367-c171-f2ef",
-                    "_typeName": "Ability (Spell)",
-                    "_hidden": "false",
-                    "_id": "4541-8384-c6b0-23a5"
-                  }
-                ]
-              },
               "constraints": {
                 "constraint": {
                   "_type": "max",
@@ -121,6 +13,90 @@
                   "_shared": "true",
                   "_id": "b16b-5da5-64e4-49ba"
                 }
+              },
+              "entryLinks": {
+                "entryLink": [{
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "e843-0045-887b-f328-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "e843-0045-887b-f328-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Mork's Kunnin'",
+                    "_hidden": "false",
+                    "_id": "9e53-2737-d1e9-a273",
+                    "_type": "selectionEntry",
+                    "_targetId": "c525-1031-3525-b76e"
+                  },
+                  {
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "b4da-62dc-15d7-9b8e-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "b4da-62dc-15d7-9b8e-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Choking Mist",
+                    "_hidden": "false",
+                    "_id": "52cf-c82a-24da-7edc",
+                    "_type": "selectionEntry",
+                    "_targetId": "4df5-e1e9-de24-704a"
+                  },
+                  {
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "9022-654f-de84-5320-min"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "9022-654f-de84-5320-max"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Da Black Pit",
+                    "_hidden": "false",
+                    "_id": "1ced-992f-8c22-d32d",
+                    "_type": "selectionEntry",
+                    "_targetId": "f62e-e3d3-de04-5734"
+                  }
+                ]
               },
               "_type": "upgrade",
               "_import": "true",
@@ -250,6 +226,10 @@
                             {
                               "_name": "Keywords",
                               "_typeId": "12e8-3214-7d8f-1d0f"
+                            },
+                            {
+                              "_name": "Used By",
+                              "_typeId": "1b32-c9d6-3106-166b"
                             }
                           ]
                         },
@@ -303,6 +283,17 @@
               "_shared": "true",
               "_id": "4703-4b9c-3955-65ff",
               "_includeChildSelections": "true"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Artefacts of Power",
+              "_hidden": "false",
+              "_id": "2bfc-6216-c0ee-6b58",
+              "_type": "selectionEntryGroup",
+              "_targetId": "e1b2-cedf-56a5-6bb1",
+              "_flatten": "true"
             }
           },
           "_name": "Artefacts of Power",
@@ -457,6 +448,10 @@
                         {
                           "_name": "Keywords",
                           "_typeId": "12e8-3214-7d8f-1d0f"
+                        },
+                        {
+                          "_name": "Used By",
+                          "_typeId": "1b32-c9d6-3106-166b"
                         }
                       ]
                     },
@@ -517,6 +512,10 @@
                             {
                               "_name": "Keywords",
                               "_typeId": "12e8-3214-7d8f-1d0f"
+                            },
+                            {
+                              "_name": "Used By",
+                              "_typeId": "1b32-c9d6-3106-166b"
                             }
                           ]
                         },
@@ -605,6 +604,10 @@
                             {
                               "_name": "Keywords",
                               "_typeId": "12e8-3214-7d8f-1d0f"
+                            },
+                            {
+                              "_name": "Used By",
+                              "_typeId": "1b32-c9d6-3106-166b"
                             }
                           ]
                         },
@@ -660,171 +663,646 @@
               "_includeChildSelections": "true"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Heroic Traits",
+              "_hidden": "false",
+              "_id": "784b-2a38-97db-d493",
+              "_type": "selectionEntryGroup",
+              "_targetId": "c437-e34c-5e1c-95e6",
+              "_flatten": "true"
+            }
+          },
           "_name": "Heroic Traits",
           "_id": "996f-c015-737f-69a2",
           "_hidden": "false"
+        },
+        {
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Ravaged Coast Battle Scars",
+              "_hidden": "false",
+              "_id": "578b-271a-9e47-0f73",
+              "_type": "selectionEntryGroup",
+              "_targetId": "5559-80df-ba01-66a7",
+              "_flatten": "true"
+            }
+          },
+          "selectionEntries": {
+            "selectionEntry": {
+              "_type": "upgrade",
+              "_import": "true",
+              "_name": "Battle Wounds",
+              "_hidden": "false",
+              "_id": "8912-cb4e-1dfb-5157"
+            }
+          },
+          "_name": "Battle Wounds + Scars",
+          "_id": "b922-1cb1-893c-dec2",
+          "_hidden": "true",
+          "_collapsible": "false"
+        },
+        {
+          "selectionEntries": {
+            "selectionEntry": {
+              "profiles": {
+                "profile": [{
+                    "characteristics": {
+                      "characteristic": [{
+                          "_name": "Timing",
+                          "_typeId": "de6f-d57b-248a-83be",
+                          "__text": "Your Hero Phase"
+                        },
+                        {
+                          "_name": "Casting Value",
+                          "_typeId": "9fc7-b0f6-d018-a608",
+                          "__text": "5"
+                        },
+                        {
+                          "_name": "Declare",
+                          "_typeId": "24f8-3803-4ab1-3b6c",
+                          "__text": "If there is not a friendly **Morkspit Marsh** on the battlefield, pick a friendly **^^Kruleboyz Wizard^^** to cast this spell, then make a casting roll of 2D6."
+                        },
+                        {
+                          "_name": "Effect",
+                          "_typeId": "1cb9-a-1345-907f",
+                          "__text": "Set up a **Morkspit Marsh** wholly within 18\" of the caster and visible to them."
+                        },
+                        {
+                          "_name": "Keywords",
+                          "_typeId": "353f-565e-c351-1cf2",
+                          "__text": "**^^Spell^^**, **^^Summon^^**"
+                        }
+                      ]
+                    },
+                    "_name": "Summon Morkspit Marsh",
+                    "_typeId": "7312-8367-c171-f2ef",
+                    "_typeName": "Ability (Spell)",
+                    "_hidden": "false",
+                    "_id": "0b0b-c191-9cb2-6bbe",
+                    "_publicationId": "8b1b-f2c7-890e-2bbe"
+                  },
+                  {
+                    "characteristics": {
+                      "characteristic": [{
+                          "_name": "Timing",
+                          "_typeId": "de6f-d57b-248a-83be",
+                          "__text": "Your Hero Phase"
+                        },
+                        {
+                          "_name": "Casting Value",
+                          "_typeId": "9fc7-b0f6-d018-a608",
+                          "__text": "7"
+                        },
+                        {
+                          "_name": "Declare",
+                          "_typeId": "24f8-3803-4ab1-3b6c",
+                          "__text": "If there is not a friendly **Foot of Gork** on the battlefield, pick a friendly **^^Kruleboyz Wizard^^** to cast this spell, then make a casting roll of 2D6."
+                        },
+                        {
+                          "_name": "Effect",
+                          "_typeId": "1cb9-a-1345-907f",
+                          "__text": "Set up a **Foot of Gork** wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units. A **Foot of Gork** has 2 parts that must be set up within 9\" of each other."
+                        },
+                        {
+                          "_name": "Keywords",
+                          "_typeId": "353f-565e-c351-1cf2",
+                          "__text": "**^^Spell^^**, **^^Summon^^**"
+                        }
+                      ]
+                    },
+                    "_name": "Summon Foot of Gork",
+                    "_typeId": "7312-8367-c171-f2ef",
+                    "_typeName": "Ability (Spell)",
+                    "_hidden": "false",
+                    "_id": "47e8-a2b7-7c09-dd3f",
+                    "_publicationId": "8b1b-f2c7-890e-2bbe"
+                  },
+                  {
+                    "characteristics": {
+                      "characteristic": [{
+                          "_name": "Timing",
+                          "_typeId": "de6f-d57b-248a-83be",
+                          "__text": "Your Hero Phase"
+                        },
+                        {
+                          "_name": "Casting Value",
+                          "_typeId": "9fc7-b0f6-d018-a608",
+                          "__text": "7"
+                        },
+                        {
+                          "_name": "Declare",
+                          "_typeId": "24f8-3803-4ab1-3b6c",
+                          "__text": "If there is not a friendly **Gork-Roara** on the battlefield, pick a friendly **^^Kruleboyz Wizard^^** to cast this spell, then make a casting roll of 2D6."
+                        },
+                        {
+                          "_name": "Effect",
+                          "_typeId": "1cb9-a-1345-907f",
+                          "__text": "Set up a **Gork-Roara** wholly within 12\" of the caster, visible to them and more than 9\" from all enemy units."
+                        },
+                        {
+                          "_name": "Keywords",
+                          "_typeId": "353f-565e-c351-1cf2",
+                          "__text": "**^^Spell^^**, **^^Summon^^**"
+                        }
+                      ]
+                    },
+                    "_name": "Summon Gork-Roara",
+                    "_typeId": "7312-8367-c171-f2ef",
+                    "_typeName": "Ability (Spell)",
+                    "_hidden": "false",
+                    "_id": "0e8f-b4f9-3935-1b8c",
+                    "_publicationId": "bf63-6cf5-2975-bafa"
+                  }
+                ]
+              },
+              "constraints": {
+                "constraint": {
+                  "_type": "max",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_shared": "true",
+                  "_id": "f975-5f47-feae-f888"
+                }
+              },
+              "entryLinks": {
+                "entryLink": [{
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "0c5b-dcd3-d548-154a"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "a9fd-2233-c63c-bf77"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Morkspit Marsh",
+                    "_hidden": "false",
+                    "_id": "2909-da2b-72eb-f2cb",
+                    "_type": "selectionEntry",
+                    "_targetId": "9500-6054-f472-f184"
+                  },
+                  {
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "96ab-0ed2-3e09-2b83"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "b2ff-1140-5bfb-b72f"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Foot of Gork",
+                    "_hidden": "false",
+                    "_id": "d828-15d2-b892-b791",
+                    "_type": "selectionEntry",
+                    "_targetId": "6cc6-3227-bf8d-1a1d"
+                  },
+                  {
+                    "constraints": {
+                      "constraint": [{
+                          "_type": "min",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "e6a5-1b24-5687-dfb8"
+                        },
+                        {
+                          "_type": "max",
+                          "_value": "1",
+                          "_field": "selections",
+                          "_scope": "parent",
+                          "_shared": "true",
+                          "_id": "f6af-b1de-8933-72d6"
+                        }
+                      ]
+                    },
+                    "_import": "true",
+                    "_name": "Gork-Roara",
+                    "_hidden": "false",
+                    "_id": "fbd7-e197-3f63-be5d",
+                    "_type": "selectionEntry",
+                    "_targetId": "4362-f538-078e-fb12"
+                  }
+                ]
+              },
+              "_type": "upgrade",
+              "_import": "true",
+              "_name": "Manifestations of Gorkamorka",
+              "_hidden": "false",
+              "_id": "a8da-8f87-23eb-35bb"
+            }
+          },
+          "_name": "Manifestation Lores",
+          "_id": "80c8-baca-93b8-bacc",
+          "_hidden": "false",
+          "_flatten": "true"
+        },
+        {
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Ravaged Coast Paths",
+                "_hidden": "false",
+                "_id": "33db-e641-11c0-5b20",
+                "_type": "selectionEntryGroup",
+                "_targetId": "7bae-23cb-3977-3ece",
+                "_flatten": "true"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "c013-71e5-02ad-9d39",
+                "_type": "selectionEntryGroup",
+                "_targetId": "bc48-e6c9-dc40-3a92"
+              }
+            ]
+          },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "1",
+              "_field": "selections",
+              "_scope": "parent",
+              "_shared": "true",
+              "_id": "37f0-022a-cc73-5213"
+            }
+          },
+          "_name": "Paths",
+          "_id": "f73e-97bd-1805-3b18",
+          "_hidden": "true"
         }
       ]
     },
     "sharedSelectionEntries": {
-      "selectionEntry": {
-        "profiles": {
-          "profile": [{
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Keywords",
-                    "_typeId": "b977-7c5e-33b2-428e"
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "fd7f-888d-3257-a12b",
-                    "__text": "Your army can use 1 **^^Dirty Trick^^** ability per phase. The effect of a **^^Dirty Trick^^** ability is only applied if you make a successful dirty trick roll. The success of a dirty trick roll depends on the number of **^^Dirty Trick^^** abilities your army has already used this battle round:\n**First:**  2+\n**Second:** 3+\n**Third:** 4+\n**Fourth or subsequent:** 5+"
-                  }
-                ]
+      "selectionEntry": [{
+          "profiles": {
+            "profile": [{
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Keywords",
+                      "_typeId": "b977-7c5e-33b2-428e"
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "fd7f-888d-3257-a12b",
+                      "__text": "Your army can use 1 **^^Dirty Trick^^** ability per phase. The effect of a **^^Dirty Trick^^** ability is only applied if you make a successful dirty trick roll. The success of a dirty trick roll depends on the number of **^^Dirty Trick^^** abilities your army has already used this battle round:\n**First:**  2+\n**Second:** 3+\n**Third:** 4+\n**Fourth or subsequent:** 5+"
+                    }
+                  ]
+                },
+                "_name": "Dirty Tricks",
+                "_typeId": "907f-a48-6a04-f788",
+                "_typeName": "Ability (Passive)",
+                "_hidden": "false",
+                "_id": "ea37-80a7-5d13-d70f"
               },
-              "_name": "Dirty Tricks",
-              "_typeId": "907f-a48-6a04-f788",
-              "_typeName": "Ability (Passive)",
-              "_hidden": "false",
-              "_id": "ea37-80a7-5d13-d70f"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Once Per Turn (Army), Your Hero Phase"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Pick a friendly **^^Kruleboyz Infantry^^** unit to be the target, then make a dirty trick roll."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "Until the start of your next turn, the target’s attacks score critical hits on unmodified hit rolls of 5+."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_typeId": "12e8-3214-7d8f-1d0f",
-                    "__text": "**^^Dirty Trick^^**"
-                  }
-                ]
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Once Per Turn (Army), Your Hero Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "Pick a friendly **^^Kruleboyz Infantry^^** unit to be the target, then make a dirty trick roll."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "Until the start of your next turn, the target’s attacks score critical hits on unmodified hit rolls of 5+."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f",
+                      "__text": "**^^Dirty Trick^^**"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Venom-encrusted Weapons",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "d85b-8581-433c-efdf"
               },
-              "_name": "Venom-encrusted Weapons",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
-              "_hidden": "false",
-              "_id": "d85b-8581-433c-efdf"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Once Per Turn (Army), Any Charge Phase"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Pick an enemy unit that charged this turn and is in combat with any friendly **^^Kruleboyz^^** units to be the target, then make a dirty trick roll."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "Inflict D3 mortal damage on the target. In addition, for the rest of the turn, the target’s weapons cannot be affected by the Charge (+1 Damage) weapon ability"
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_typeId": "12e8-3214-7d8f-1d0f",
-                    "__text": "**^^Dirty Trick^^**"
-                  }
-                ]
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Once Per Turn (Army), Any Charge Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "Pick an enemy unit that charged this turn and is in combat with any friendly **^^Kruleboyz^^** units to be the target, then make a dirty trick roll."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "Inflict D3 mortal damage on the target. In addition, for the rest of the turn, the target’s weapons cannot be affected by the Charge (+1 Damage) weapon ability"
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f",
+                      "__text": "**^^Dirty Trick^^**"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Lethal Surprise",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "776e-e29d-64b8-2aa1"
               },
-              "_name": "Lethal Surprise",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
-              "_hidden": "false",
-              "_id": "776e-e29d-64b8-2aa1"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Once Per Turn (Army), Any Movement Phase"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Pick a friendly **^^Kruleboyz Infantry^^** unit that has 10 or fewer models and is not in combat to be the target, then make a dirty trick roll."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "Remove the target from the battlefield and set it up again wholly within 3\" of a terrain feature and more than 9\" from all enemy units."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_typeId": "12e8-3214-7d8f-1d0f",
-                    "__text": "**^^Dirty Trick^^**"
-                  }
-                ]
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Once Per Turn (Army), Your Hero Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "Pick a friendly **^^Kruleboyz Infantry^^** unit that has 10 or fewer models and is not in combat to be the target, then make a dirty trick roll."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "Remove the target from the battlefield and set it up again wholly within 3\" of a terrain feature and more than 9\" from all enemy units."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f",
+                      "__text": "**^^Dirty Trick^^**"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Sneaky Sneakin'",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "5ffc-eff8-8d98-90bc"
               },
-              "_name": "Sneaky Sneakin'",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
+              {
+                "characteristics": {
+                  "characteristic": [{
+                      "_name": "Timing",
+                      "_typeId": "652c-3d84-4e7-14f4",
+                      "__text": "Once Per Turn (Army), Any Combat Phase"
+                    },
+                    {
+                      "_name": "Declare",
+                      "_typeId": "bad3-f9c5-ba46-18cb",
+                      "__text": "Pick an enemy unit in combat with any friendly **^^Kruleboyz^^** units to be the target, then make a dirty trick roll."
+                    },
+                    {
+                      "_name": "Effect",
+                      "_typeId": "b6f1-ba36-6cd-3b03",
+                      "__text": "The target has **^^Strike-last^^** for the rest of the turn."
+                    },
+                    {
+                      "_name": "Keywords",
+                      "_typeId": "12e8-3214-7d8f-1d0f",
+                      "__text": "**^^Dirty Trick^^**"
+                    },
+                    {
+                      "_name": "Used By",
+                      "_typeId": "1b32-c9d6-3106-166b"
+                    }
+                  ]
+                },
+                "_name": "Noisy Racket",
+                "_typeId": "59b6-d47a-a68a-5dcc",
+                "_typeName": "Ability (Activated)",
+                "_hidden": "false",
+                "_id": "c77c-69ee-70f7-22e1"
+              }
+            ]
+          },
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Reference",
               "_hidden": "false",
-              "_id": "5ffc-eff8-8d98-90bc"
-            },
-            {
-              "characteristics": {
-                "characteristic": [{
-                    "_name": "Timing",
-                    "_typeId": "652c-3d84-4e7-14f4",
-                    "__text": "Once Per Turn (Army), Any Combat Phase"
-                  },
-                  {
-                    "_name": "Declare",
-                    "_typeId": "bad3-f9c5-ba46-18cb",
-                    "__text": "Pick an enemy unit in combat with any friendly **^^Kruleboyz^^** units to be the target, then make a dirty trick roll."
-                  },
-                  {
-                    "_name": "Effect",
-                    "_typeId": "b6f1-ba36-6cd-3b03",
-                    "__text": "The target has **^^Strike-last^^** for the rest of the turn."
-                  },
-                  {
-                    "_name": "Keywords",
-                    "_typeId": "12e8-3214-7d8f-1d0f",
-                    "__text": "**^^Dirty Trick^^**"
-                  }
-                ]
-              },
-              "_name": "Noisy Racket",
-              "_typeId": "59b6-d47a-a68a-5dcc",
-              "_typeName": "Ability (Activated)",
-              "_hidden": "false",
-              "_id": "c77c-69ee-70f7-22e1"
+              "_id": "7f53-58b7-a068-1139",
+              "_targetId": "3360-1158-e879-9606",
+              "_primary": "true"
             }
-          ]
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Battle Traits: Kruleboyz",
+          "_hidden": "false",
+          "_id": "7a79-d86e-48ad-a3ce"
         },
-        "categoryLinks": {
-          "categoryLink": {
-            "_name": "Reference",
-            "_hidden": "false",
-            "_id": "7f53-58b7-a068-1139",
-            "_targetId": "3360-1158-e879-9606",
-            "_primary": "true"
-          }
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "7"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Kruleboyz Wizard^^** to cast this spell, pick a visible enemy unit wholly within 12\" of them to be the target, then make a casting roll of 2D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "Subtract 1 from the Attacks characteristic of the target’s weapons until the start of your next turn."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**"
+                  }
+                ]
+              },
+              "_name": "Choking Mist",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
+              "_hidden": "false",
+              "_id": "1abd-510b-e57-abb9"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Choking Mist",
+          "_hidden": "false",
+          "_id": "4df5-e1e9-de24-704a"
         },
-        "_type": "upgrade",
-        "_import": "true",
-        "_name": "Battle Traits: Kruleboyz",
-        "_hidden": "false",
-        "_id": "7a79-d86e-48ad-a3ce"
-      }
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "5"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Kruleboyz Wizard^^** to cast this spell, pick a visible enemy unit within 18\" of them to be the target, then make a casting roll of 2D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "Roll a dice for each model in the target unit. For each 6, inflict 1 mortal damage on the target."
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**, **^^Unlimited^^**"
+                  }
+                ]
+              },
+              "_name": "Da Black Pit",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
+              "_hidden": "false",
+              "_id": "ac40-170e-df46-82eb"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Da Black Pit",
+          "_hidden": "false",
+          "_id": "f62e-e3d3-de04-5734"
+        },
+        {
+          "profiles": {
+            "profile": {
+              "characteristics": {
+                "characteristic": [{
+                    "_name": "Timing",
+                    "_typeId": "de6f-d57b-248a-83be",
+                    "__text": "Your Hero Phase"
+                  },
+                  {
+                    "_name": "Casting Value",
+                    "_typeId": "9fc7-b0f6-d018-a608",
+                    "__text": "6"
+                  },
+                  {
+                    "_name": "Declare",
+                    "_typeId": "24f8-3803-4ab1-3b6c",
+                    "__text": "Pick a friendly **^^Kruleboyz Wizard^^** to cast this spell, pick a visible friendly **^^Kruleboyz^^** unit wholly within 12\" of them, then make a casting roll of 2D6."
+                  },
+                  {
+                    "_name": "Effect",
+                    "_typeId": "1cb9-a-1345-907f",
+                    "__text": "Until the start of your next turn, add 1 to save rolls for attacks that target that friendly unit"
+                  },
+                  {
+                    "_name": "Keywords",
+                    "_typeId": "353f-565e-c351-1cf2",
+                    "__text": "**^^Spell^^**"
+                  }
+                ]
+              },
+              "_name": "Mork's Kunnin'",
+              "_typeId": "7312-8367-c171-f2ef",
+              "_typeName": "Ability (Spell)",
+              "_hidden": "false",
+              "_id": "4541-8384-c6b0-23a5"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Mork's Kunnin'",
+          "_hidden": "false",
+          "_id": "c525-1031-3525-b76e"
+        }
+      ]
     },
     "entryLinks": {
       "entryLink": [{
@@ -852,6 +1330,30 @@
                       "_shared": "true"
                     }
                   },
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "9a3e-420f-c187-70c8",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "2a45-46b2-62f9-63cc",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
+                    }
+                  },
                   "_type": "and"
                 }
               },
@@ -876,6 +1378,22 @@
                 "_id": "91a4-98d6-5832-1895",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ba35-aab2-754e-1a4e"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "17c2-f05c-1095-4143",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f73e-97bd-1805-3b18"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "d785-de05-6da3-9a5e",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b922-1cb1-893c-dec2"
               }
             ]
           },
@@ -884,6 +1402,44 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "220"
+            }
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "15f1-ad65-b326-f35b",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "15f1-ad65-b326-f35b",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "9594-6beb-1ff6-51eb"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
             }
           },
           "_import": "true",
@@ -930,7 +1486,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "360"
+              "_value": "330"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "19d4-59c9-b06c-e38e",
+              "_type": "selectionEntryGroup",
+              "_targetId": "b922-1cb1-893c-dec2"
             }
           },
           "_import": "true",
@@ -965,6 +1531,30 @@
                       "_shared": "true"
                     }
                   },
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "9a3e-420f-c187-70c8",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "2a45-46b2-62f9-63cc",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
+                    }
+                  },
                   "_type": "and"
                 }
               },
@@ -989,6 +1579,22 @@
                 "_id": "f0cd-eed9-e9d4-4a94",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ba35-aab2-754e-1a4e"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "6123-6a7e-8f67-8deb",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f73e-97bd-1805-3b18"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "3fba-cfdd-2105-a27a",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b922-1cb1-893c-dec2"
               }
             ]
           },
@@ -997,6 +1603,44 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "290"
+            }
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "15f1-ad65-b326-f35b",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "15f1-ad65-b326-f35b",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "dbf2-d5b1-abba-3be8"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
             }
           },
           "_import": "true",
@@ -1031,6 +1675,30 @@
                       "_shared": "true"
                     }
                   },
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "9a3e-420f-c187-70c8",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "2a45-46b2-62f9-63cc",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
+                    }
+                  },
                   "_type": "and"
                 }
               },
@@ -1055,6 +1723,22 @@
                 "_id": "2e00-b95c-d6e-379b",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ba35-aab2-754e-1a4e"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "83a3-2e9b-376a-b449",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f73e-97bd-1805-3b18"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "5faa-844c-1874-3296",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b922-1cb1-893c-dec2"
               }
             ]
           },
@@ -1062,7 +1746,45 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "200"
+              "_value": "170"
+            }
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "15f1-ad65-b326-f35b",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "15f1-ad65-b326-f35b",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "5d7f-d969-8b55-b148"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
             }
           },
           "_import": "true",
@@ -1137,30 +1859,6 @@
                             "_value": "1",
                             "_field": "selections",
                             "_scope": "force",
-                            "_childId": "ada6-db1-6998-c930",
-                            "_shared": "true"
-                          },
-                          {
-                            "_type": "lessThan",
-                            "_value": "1",
-                            "_field": "selections",
-                            "_scope": "force",
-                            "_childId": "8e30-54e4-64cf-39ba",
-                            "_shared": "true"
-                          },
-                          {
-                            "_type": "lessThan",
-                            "_value": "1",
-                            "_field": "selections",
-                            "_scope": "force",
-                            "_childId": "3991-707f-d46b-935c",
-                            "_shared": "true"
-                          },
-                          {
-                            "_type": "lessThan",
-                            "_value": "1",
-                            "_field": "selections",
-                            "_scope": "force",
                             "_childId": "daa4-5b7b-3265-e72e",
                             "_shared": "true"
                           },
@@ -1177,7 +1875,7 @@
                             "_value": "1",
                             "_field": "selections",
                             "_scope": "force",
-                            "_childId": "7299-6dfa-8c4b-cd9c",
+                            "_childId": "8e30-54e4-64cf-39ba",
                             "_shared": "true"
                           }
                         ]
@@ -1209,6 +1907,22 @@
                 "_id": "6333-d14c-9e7a-d2bf",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ba35-aab2-754e-1a4e"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "cf8f-6184-5413-5ac1",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f73e-97bd-1805-3b18"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "f7ed-8bf3-faae-7a5d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b922-1cb1-893c-dec2"
               }
             ]
           },
@@ -1254,7 +1968,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "100"
             }
           },
           "_import": "true",
@@ -1304,12 +2018,22 @@
               "_value": "580"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "832b-56f1-eb6f-3584",
+              "_type": "selectionEntryGroup",
+              "_targetId": "b922-1cb1-893c-dec2"
+            }
+          },
           "_import": "true",
           "_name": "Kragnos, the End of Empires",
           "_hidden": "false",
           "_id": "2323-9a6b-5a40-92ba",
           "_type": "selectionEntry",
-          "_targetId": "c934-96ac-bf0f-643b"
+          "_targetId": "2a45-46b2-62f9-63cc"
         },
         {
           "constraints": {
@@ -1336,6 +2060,70 @@
                       "_shared": "true"
                     }
                   },
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "abea-706a-64f7-a082",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "9a3e-420f-c187-70c8",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "3f75-d4c7-9594-e4dc",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "db61-2645-ed6a-2202",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "daa4-5b7b-3265-e72e",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "7a6e-dc55-4eae-4d5e",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "8e30-54e4-64cf-39ba",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
+                    }
+                  },
                   "_type": "and"
                 }
               },
@@ -1360,6 +2148,22 @@
                 "_id": "371b-5f13-9bd4-c204",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ba35-aab2-754e-1a4e"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "aba4-970c-04c1-3ab7",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f73e-97bd-1805-3b18"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "81dd-49e1-a5e3-8cc8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b922-1cb1-893c-dec2"
               }
             ]
           },
@@ -1367,7 +2171,45 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "100"
+            }
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "29ec-194-ff0b-a96f",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "29ec-194-ff0b-a96f",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "2dea-385c-12b2-de9f"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
             }
           },
           "_import": "true",
@@ -1402,6 +2244,30 @@
                       "_shared": "true"
                     }
                   },
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "9a3e-420f-c187-70c8",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "2a45-46b2-62f9-63cc",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
+                    }
+                  },
                   "_type": "and"
                 }
               },
@@ -1426,6 +2292,22 @@
                 "_id": "b1b3-4054-4c3f-f0c1",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ba35-aab2-754e-1a4e"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "e5ad-a7df-9722-5c74",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f73e-97bd-1805-3b18"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "874a-58a5-7aed-847d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b922-1cb1-893c-dec2"
               }
             ]
           },
@@ -1433,7 +2315,45 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "320"
+              "_value": "240"
+            }
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "15f1-ad65-b326-f35b",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "15f1-ad65-b326-f35b",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "8363-16ea-730-31a9"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
             }
           },
           "_import": "true",
@@ -1480,7 +2400,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "240"
+              "_value": "220"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "a01e-208b-f6e7-b9b2",
+              "_type": "selectionEntryGroup",
+              "_targetId": "b922-1cb1-893c-dec2"
             }
           },
           "_import": "true",
@@ -1539,6 +2469,22 @@
                 "_id": "fb5c-3664-e8fb-a6a6",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ba35-aab2-754e-1a4e"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "830a-7db7-9b79-d23b",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f73e-97bd-1805-3b18"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "0060-f9a5-3db1-d864",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b922-1cb1-893c-dec2"
               }
             ]
           },
@@ -1582,6 +2528,22 @@
                 "_id": "2d19-dea7-f5b6-831",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ba35-aab2-754e-1a4e"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "af89-0b9f-954c-d382",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f73e-97bd-1805-3b18"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "65d1-cfdb-ad06-fd27",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b922-1cb1-893c-dec2"
               }
             ]
           },
@@ -1625,6 +2587,22 @@
                 "_id": "9c87-f412-d557-4415",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ba35-aab2-754e-1a4e"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "e002-6f1d-c5b6-5211",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f73e-97bd-1805-3b18"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "adf9-f0e5-bd99-ce92",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b922-1cb1-893c-dec2"
               }
             ]
           },
@@ -1656,7 +2634,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "360"
+              "_value": "330"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "0b74-113f-c390-854f",
+              "_type": "selectionEntryGroup",
+              "_targetId": "b922-1cb1-893c-dec2"
             }
           },
           "_import": "true",
@@ -1692,6 +2680,22 @@
                 "_id": "409f-e4de-d948-16c0",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ba35-aab2-754e-1a4e"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "239d-7d9c-7862-c6ed",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f73e-97bd-1805-3b18"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "bb01-10f1-992c-0f66",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b922-1cb1-893c-dec2"
               }
             ]
           },
@@ -1735,6 +2739,22 @@
                 "_id": "b31a-b007-6724-c5f7",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ba35-aab2-754e-1a4e"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "2b85-bf85-d842-18f3",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f73e-97bd-1805-3b18"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "b5fb-8093-2d01-6052",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b922-1cb1-893c-dec2"
               }
             ]
           },
@@ -1742,7 +2762,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "200"
+              "_value": "170"
             }
           },
           "_import": "true",
@@ -1778,6 +2798,22 @@
                 "_id": "f5d9-80b9-bb37-ee16",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ba35-aab2-754e-1a4e"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "ebdb-512f-f485-fdd3",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f73e-97bd-1805-3b18"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "fc4a-63ec-dfba-75f7",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b922-1cb1-893c-dec2"
               }
             ]
           },
@@ -1785,7 +2821,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "130"
+              "_value": "100"
             }
           },
           "_import": "true",
@@ -1812,12 +2848,22 @@
               "_value": "580"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "8586-d2b4-2730-c30b",
+              "_type": "selectionEntryGroup",
+              "_targetId": "b922-1cb1-893c-dec2"
+            }
+          },
           "_import": "true",
           "_name": "Kragnos, the End of Empires",
           "_hidden": "false",
           "_id": "8e30-54e4-64cf-39ba",
           "_type": "selectionEntry",
-          "_targetId": "c934-96ac-bf0f-643b"
+          "_targetId": "2a45-46b2-62f9-63cc"
         },
         {
           "categoryLinks": {
@@ -1845,6 +2891,22 @@
                 "_id": "923f-6c41-f68-1f26",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ba35-aab2-754e-1a4e"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "a2dc-59f8-3fe9-60ee",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f73e-97bd-1805-3b18"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "e756-213a-a12e-c434",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b922-1cb1-893c-dec2"
               }
             ]
           },
@@ -1852,7 +2914,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "120"
+              "_value": "100"
             }
           },
           "_import": "true",
@@ -1888,6 +2950,22 @@
                 "_id": "9086-a983-e83c-af65",
                 "_type": "selectionEntryGroup",
                 "_targetId": "ba35-aab2-754e-1a4e"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "c106-0d98-cb6f-1caa",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f73e-97bd-1805-3b18"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "a179-b668-f2fe-7e76",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b922-1cb1-893c-dec2"
               }
             ]
           },
@@ -1895,7 +2973,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "320"
+              "_value": "240"
             }
           },
           "_import": "true",
@@ -1919,7 +2997,17 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "240"
+              "_value": "220"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "e4d6-e924-0524-c8ba",
+              "_type": "selectionEntryGroup",
+              "_targetId": "b922-1cb1-893c-dec2"
             }
           },
           "_import": "true",
@@ -2027,6 +3115,14 @@
                               "_scope": "force",
                               "_childId": "7a6e-dc55-4eae-4d5e",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "e2c0-7584-0844-1e1c",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -2064,6 +3160,56 @@
                 "_type": "multiply",
                 "_value": "2",
                 "_field": "points"
+              },
+              {
+                "conditionGroups": {
+                  "conditionGroup": {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "e2c0-7584-0844-1e1c",
+                        "_shared": "true"
+                      }
+                    },
+                    "localConditionGroups": {
+                      "localConditionGroup": {
+                        "conditions": {
+                          "condition": [{
+                              "_type": "notInstanceOf",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "self",
+                              "_childId": "6e72-1656-d554-528a",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "instanceOf",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "self",
+                              "_childId": "f7bc-b618-4b5d-2bae",
+                              "_shared": "true"
+                            }
+                          ]
+                        },
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_scope": "force",
+                        "_field": "selections",
+                        "_includeChildSelections": "true",
+                        "_includeChildForces": "true",
+                        "_repeats": "1"
+                      }
+                    },
+                    "_type": "and"
+                  }
+                },
+                "_type": "set",
+                "_value": "0",
+                "_field": "2ff5-9127-1687-dae1"
               }
             ]
           },
@@ -2072,6 +3218,36 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "160"
+            }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "9ea8-f8b4-195f-e797",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f73e-97bd-1805-3b18"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "4851-68e2-12b2-a6e4",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b922-1cb1-893c-dec2"
+              }
+            ]
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "2ff5-9127-1687-dae1",
+              "_includeChildSelections": "true"
             }
           },
           "_import": "true",
@@ -2083,14 +3259,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "75b9-bd8e-caaf-f0f7",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "75b9-bd8e-caaf-f0f7",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "39c1-a9dd-25db-607a",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f73e-97bd-1805-3b18"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "39a3-1f03-7335-903a",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b922-1cb1-893c-dec2"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -2178,6 +3371,14 @@
                               "_scope": "force",
                               "_childId": "7299-6dfa-8c4b-cd9c",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "3bd7-2a9f-9356-b454",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -2215,6 +3416,64 @@
                 "_type": "multiply",
                 "_value": "2",
                 "_field": "points"
+              },
+              {
+                "conditionGroups": {
+                  "conditionGroup": {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "e2c0-7584-0844-1e1c",
+                        "_shared": "true"
+                      }
+                    },
+                    "localConditionGroups": {
+                      "localConditionGroup": {
+                        "conditions": {
+                          "condition": [{
+                              "_type": "notInstanceOf",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "self",
+                              "_childId": "6e72-1656-d554-528a",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "instanceOf",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "self",
+                              "_childId": "75d6-6995-dfcc-3898",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "notInstanceOf",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "self",
+                              "_childId": "82f1-fd-499c-a2db",
+                              "_shared": "true"
+                            }
+                          ]
+                        },
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_scope": "force",
+                        "_field": "selections",
+                        "_includeChildSelections": "true",
+                        "_includeChildForces": "true",
+                        "_repeats": "1"
+                      }
+                    },
+                    "_type": "and"
+                  }
+                },
+                "_type": "set",
+                "_value": "0",
+                "_field": "0e27-abaf-a66f-5665"
               }
             ]
           },
@@ -2222,7 +3481,18 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "150"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "0e27-abaf-a66f-5665",
+              "_includeChildSelections": "true"
             }
           },
           "_import": "true",
@@ -2234,14 +3504,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "596c-910b-60ba-20a3",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "596c-910b-60ba-20a3",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "6e79-becf-6c17-4924",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f73e-97bd-1805-3b18"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "b8c4-438a-36de-9f78",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b922-1cb1-893c-dec2"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -2329,6 +3616,14 @@
                               "_scope": "force",
                               "_childId": "7299-6dfa-8c4b-cd9c",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "3bd7-2a9f-9356-b454",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -2373,7 +3668,7 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "100"
+              "_value": "90"
             }
           },
           "_import": "true",
@@ -2507,6 +3802,64 @@
                 "_type": "multiply",
                 "_value": "2",
                 "_field": "points"
+              },
+              {
+                "conditionGroups": {
+                  "conditionGroup": {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "e2c0-7584-0844-1e1c",
+                        "_shared": "true"
+                      }
+                    },
+                    "localConditionGroups": {
+                      "localConditionGroup": {
+                        "conditions": {
+                          "condition": [{
+                              "_type": "notInstanceOf",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "self",
+                              "_childId": "6e72-1656-d554-528a",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "instanceOf",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "self",
+                              "_childId": "75d6-6995-dfcc-3898",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "notInstanceOf",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "self",
+                              "_childId": "82f1-fd-499c-a2db",
+                              "_shared": "true"
+                            }
+                          ]
+                        },
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_scope": "force",
+                        "_field": "selections",
+                        "_includeChildSelections": "true",
+                        "_includeChildForces": "true",
+                        "_repeats": "1"
+                      }
+                    },
+                    "_type": "and"
+                  }
+                },
+                "_type": "set",
+                "_value": "0",
+                "_field": "69bc-bfb6-2a65-675c"
               }
             ]
           },
@@ -2515,6 +3868,36 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "120"
+            }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "fc9e-c66e-7a46-b386",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f73e-97bd-1805-3b18"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "8738-c1cc-4d5e-5a1f",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b922-1cb1-893c-dec2"
+              }
+            ]
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "69bc-bfb6-2a65-675c",
+              "_includeChildSelections": "true"
             }
           },
           "_import": "true",
@@ -2526,14 +3909,31 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Reinforced",
-              "_hidden": "false",
-              "_id": "9b69-145a-5608-dd11",
-              "_type": "selectionEntry",
-              "_targetId": "1b37-82b8-c062-eb82"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Reinforced",
+                "_hidden": "false",
+                "_id": "9b69-145a-5608-dd11",
+                "_type": "selectionEntry",
+                "_targetId": "1b37-82b8-c062-eb82"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "6f91-f496-54d6-42ca",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f73e-97bd-1805-3b18"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "6551-c0fc-b80f-8be4",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b922-1cb1-893c-dec2"
+              }
+            ]
           },
           "modifiers": {
             "modifier": [{
@@ -2621,6 +4021,14 @@
                               "_scope": "force",
                               "_childId": "7299-6dfa-8c4b-cd9c",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "3bd7-2a9f-9356-b454",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -2658,6 +4066,64 @@
                 "_type": "multiply",
                 "_value": "2",
                 "_field": "points"
+              },
+              {
+                "conditionGroups": {
+                  "conditionGroup": {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "e2c0-7584-0844-1e1c",
+                        "_shared": "true"
+                      }
+                    },
+                    "localConditionGroups": {
+                      "localConditionGroup": {
+                        "conditions": {
+                          "condition": [{
+                              "_type": "notInstanceOf",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "self",
+                              "_childId": "6e72-1656-d554-528a",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "instanceOf",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "self",
+                              "_childId": "75d6-6995-dfcc-3898",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "notInstanceOf",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "self",
+                              "_childId": "82f1-fd-499c-a2db",
+                              "_shared": "true"
+                            }
+                          ]
+                        },
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_scope": "force",
+                        "_field": "selections",
+                        "_includeChildSelections": "true",
+                        "_includeChildForces": "true",
+                        "_repeats": "1"
+                      }
+                    },
+                    "_type": "and"
+                  }
+                },
+                "_type": "set",
+                "_value": "0",
+                "_field": "b448-ceda-55bc-6ff9"
               }
             ]
           },
@@ -2666,6 +4132,17 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "110"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "b448-ceda-55bc-6ff9",
+              "_includeChildSelections": "true"
             }
           },
           "_import": "true",
@@ -2754,6 +4231,14 @@
                               "_scope": "force",
                               "_childId": "7a6e-dc55-4eae-4d5e",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "3bd7-2a9f-9356-b454",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -2791,6 +4276,56 @@
                 "_type": "multiply",
                 "_value": "2",
                 "_field": "points"
+              },
+              {
+                "conditionGroups": {
+                  "conditionGroup": {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "e2c0-7584-0844-1e1c",
+                        "_shared": "true"
+                      }
+                    },
+                    "localConditionGroups": {
+                      "localConditionGroup": {
+                        "conditions": {
+                          "condition": [{
+                              "_type": "notInstanceOf",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "self",
+                              "_childId": "6e72-1656-d554-528a",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "instanceOf",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "self",
+                              "_childId": "f7bc-b618-4b5d-2bae",
+                              "_shared": "true"
+                            }
+                          ]
+                        },
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_scope": "force",
+                        "_field": "selections",
+                        "_includeChildSelections": "true",
+                        "_includeChildForces": "true",
+                        "_repeats": "1"
+                      }
+                    },
+                    "_type": "and"
+                  }
+                },
+                "_type": "set",
+                "_value": "0",
+                "_field": "e997-9960-3898-5c52"
               }
             ]
           },
@@ -2798,7 +4333,37 @@
             "cost": {
               "_name": "pts",
               "_typeId": "points",
-              "_value": "170"
+              "_value": "150"
+            }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "7cae-b3ec-5ca1-1176",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f73e-97bd-1805-3b18"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "7315-9dd3-bd4f-36c9",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b922-1cb1-893c-dec2"
+              }
+            ]
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "e997-9960-3898-5c52",
+              "_includeChildSelections": "true"
             }
           },
           "_import": "true",
@@ -2910,6 +4475,14 @@
                               "_scope": "force",
                               "_childId": "7299-6dfa-8c4b-cd9c",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "3bd7-2a9f-9356-b454",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -2932,6 +4505,64 @@
                 "_type": "set",
                 "_value": "true",
                 "_field": "hidden"
+              },
+              {
+                "conditionGroups": {
+                  "conditionGroup": {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "e2c0-7584-0844-1e1c",
+                        "_shared": "true"
+                      }
+                    },
+                    "localConditionGroups": {
+                      "localConditionGroup": {
+                        "conditions": {
+                          "condition": [{
+                              "_type": "notInstanceOf",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "self",
+                              "_childId": "6e72-1656-d554-528a",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "instanceOf",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "self",
+                              "_childId": "75d6-6995-dfcc-3898",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "notInstanceOf",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "self",
+                              "_childId": "82f1-fd-499c-a2db",
+                              "_shared": "true"
+                            }
+                          ]
+                        },
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_scope": "force",
+                        "_field": "selections",
+                        "_includeChildSelections": "true",
+                        "_includeChildForces": "true",
+                        "_repeats": "1"
+                      }
+                    },
+                    "_type": "and"
+                  }
+                },
+                "_type": "set",
+                "_value": "0",
+                "_field": "961a-2279-4ed4-3a97"
               }
             ]
           },
@@ -2940,6 +4571,27 @@
               "_name": "pts",
               "_typeId": "points",
               "_value": "120"
+            }
+          },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "158b-6c8e-39f6-0be3",
+              "_type": "selectionEntryGroup",
+              "_targetId": "b922-1cb1-893c-dec2"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "961a-2279-4ed4-3a97",
+              "_includeChildSelections": "true"
             }
           },
           "_import": "true",
@@ -3051,6 +4703,14 @@
                               "_scope": "force",
                               "_childId": "7299-6dfa-8c4b-cd9c",
                               "_shared": "true"
+                            },
+                            {
+                              "_type": "lessThan",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "force",
+                              "_childId": "3bd7-2a9f-9356-b454",
+                              "_shared": "true"
                             }
                           ]
                         },
@@ -3073,6 +4733,64 @@
                 "_type": "set",
                 "_value": "true",
                 "_field": "hidden"
+              },
+              {
+                "conditionGroups": {
+                  "conditionGroup": {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "1",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "e2c0-7584-0844-1e1c",
+                        "_shared": "true"
+                      }
+                    },
+                    "localConditionGroups": {
+                      "localConditionGroup": {
+                        "conditions": {
+                          "condition": [{
+                              "_type": "notInstanceOf",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "self",
+                              "_childId": "6e72-1656-d554-528a",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "instanceOf",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "self",
+                              "_childId": "75d6-6995-dfcc-3898",
+                              "_shared": "true"
+                            },
+                            {
+                              "_type": "notInstanceOf",
+                              "_value": "1",
+                              "_field": "selections",
+                              "_scope": "self",
+                              "_childId": "82f1-fd-499c-a2db",
+                              "_shared": "true"
+                            }
+                          ]
+                        },
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_scope": "force",
+                        "_field": "selections",
+                        "_includeChildSelections": "true",
+                        "_includeChildForces": "true",
+                        "_repeats": "1"
+                      }
+                    },
+                    "_type": "and"
+                  }
+                },
+                "_type": "set",
+                "_value": "0",
+                "_field": "01ab-9e2a-ef72-ea5f"
               }
             ]
           },
@@ -3083,29 +4801,315 @@
               "_value": "120"
             }
           },
+          "entryLinks": {
+            "entryLink": {
+              "_import": "true",
+              "_name": "Battle Wounds + Scars",
+              "_hidden": "false",
+              "_id": "ad9c-515c-7a7a-22f6",
+              "_type": "selectionEntryGroup",
+              "_targetId": "b922-1cb1-893c-dec2"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "01ab-9e2a-ef72-ea5f",
+              "_includeChildSelections": "true"
+            }
+          },
           "_import": "true",
           "_name": "Daggok's Stab-ladz",
           "_hidden": "false",
           "_id": "4e65-024b-67f3-8d33",
           "_type": "selectionEntry",
           "_targetId": "5462-e249-ce89-3c82"
+        },
+        {
+          "_import": "true",
+          "_name": "Scaregob Tower",
+          "_hidden": "false",
+          "_id": "96ca-879a-c202-226c",
+          "_type": "selectionEntry",
+          "_targetId": "8346-0ba5-9740-dc49"
+        },
+        {
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Heroic Traits",
+                "_hidden": "false",
+                "_id": "5715-5555-be0f-620d",
+                "_type": "selectionEntryGroup",
+                "_targetId": "996f-c015-737f-69a2"
+              },
+              {
+                "_import": "true",
+                "_name": "Artefacts of Power",
+                "_hidden": "false",
+                "_id": "5013-ba8e-584f-b60b",
+                "_type": "selectionEntryGroup",
+                "_targetId": "ba35-aab2-754e-1a4e"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "6352-93fa-60fb-e665",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f73e-97bd-1805-3b18"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "384d-7f2a-b817-98e3",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b922-1cb1-893c-dec2"
+              }
+            ]
+          },
+          "modifierGroups": {
+            "modifierGroup": {
+              "modifiers": {
+                "modifier": [{
+                    "_type": "add",
+                    "_value": "29ec-194-ff0b-a96f",
+                    "_field": "category"
+                  },
+                  {
+                    "conditions": {
+                      "condition": {
+                        "_type": "atLeast",
+                        "_value": "2",
+                        "_field": "selections",
+                        "_scope": "force",
+                        "_childId": "29ec-194-ff0b-a96f",
+                        "_shared": "true"
+                      }
+                    },
+                    "_type": "set",
+                    "_value": "0",
+                    "_field": "ed37-9ae6-04ae-87d2"
+                  }
+                ]
+              },
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "ancestor",
+                  "_childId": "376a-6b97-8699-dd59",
+                  "_shared": "true"
+                }
+              },
+              "_type": "and"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditionGroups": {
+                "conditionGroup": {
+                  "conditions": {
+                    "condition": {
+                      "_type": "instanceOf",
+                      "_value": "1",
+                      "_field": "selections",
+                      "_scope": "ancestor",
+                      "_childId": "376a-6b97-8699-dd59",
+                      "_shared": "true"
+                    }
+                  },
+                  "conditionGroups": {
+                    "conditionGroup": {
+                      "conditions": {
+                        "condition": [{
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "abea-706a-64f7-a082",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "9a3e-420f-c187-70c8",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "3f75-d4c7-9594-e4dc",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "db61-2645-ed6a-2202",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "daa4-5b7b-3265-e72e",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "7a6e-dc55-4eae-4d5e",
+                            "_shared": "true"
+                          },
+                          {
+                            "_type": "lessThan",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "force",
+                            "_childId": "8e30-54e4-64cf-39ba",
+                            "_shared": "true"
+                          }
+                        ]
+                      },
+                      "_type": "and"
+                    }
+                  },
+                  "_type": "and"
+                }
+              },
+              "_type": "set",
+              "_value": "true",
+              "_field": "hidden"
+            }
+          },
+          "constraints": {
+            "constraint": {
+              "_type": "max",
+              "_value": "-1",
+              "_field": "selections",
+              "_scope": "force",
+              "_shared": "true",
+              "_id": "ed37-9ae6-04ae-87d2"
+            }
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "80"
+            }
+          },
+          "_import": "true",
+          "_name": "Hobgrot Slittaboss",
+          "_hidden": "false",
+          "_id": "ba7c-cc17-0d98-98d6",
+          "_type": "selectionEntry",
+          "_targetId": "3bd7-2a9f-9356-b454"
+        },
+        {
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Regimental Leader",
+              "_hidden": "false",
+              "_id": "0f95-17b7-2b14-5f41",
+              "_targetId": "d1f3-921c-b403-1106",
+              "_primary": "true"
+            }
+          },
+          "entryLinks": {
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Heroic Traits",
+                "_hidden": "false",
+                "_id": "aa85-1e29-8919-5c44",
+                "_type": "selectionEntryGroup",
+                "_targetId": "996f-c015-737f-69a2"
+              },
+              {
+                "_import": "true",
+                "_name": "Artefacts of Power",
+                "_hidden": "false",
+                "_id": "cefc-d6e5-16d4-5907",
+                "_type": "selectionEntryGroup",
+                "_targetId": "ba35-aab2-754e-1a4e"
+              },
+              {
+                "_import": "true",
+                "_name": "Paths",
+                "_hidden": "false",
+                "_id": "1eca-5749-ac67-bfc8",
+                "_type": "selectionEntryGroup",
+                "_targetId": "f73e-97bd-1805-3b18"
+              },
+              {
+                "_import": "true",
+                "_name": "Battle Wounds + Scars",
+                "_hidden": "false",
+                "_id": "0174-3849-2787-a456",
+                "_type": "selectionEntryGroup",
+                "_targetId": "b922-1cb1-893c-dec2"
+              }
+            ]
+          },
+          "costs": {
+            "cost": {
+              "_name": "pts",
+              "_typeId": "points",
+              "_value": "80"
+            }
+          },
+          "_import": "true",
+          "_name": "Hobgrot Slittaboss",
+          "_hidden": "false",
+          "_id": "e2c0-7584-0844-1e1c",
+          "_type": "selectionEntry",
+          "_targetId": "3bd7-2a9f-9356-b454"
         }
       ]
     },
     "catalogueLinks": {
-      "catalogueLink": {
-        "_type": "catalogue",
-        "_name": "Kruleboyz - Library",
-        "_id": "a9e8-b9c8-5b5e-f027",
-        "_targetId": "1a85-1d4f-41c-2e19"
-      }
+      "catalogueLink": [{
+          "_type": "catalogue",
+          "_name": "Kruleboyz - Library",
+          "_id": "a9e8-b9c8-5b5e-f027",
+          "_targetId": "1a85-1d4f-41c-2e19"
+        },
+        {
+          "_type": "catalogue",
+          "_name": "Path to Glory - Ravaged Coast",
+          "_id": "6da2-3038-2b16-ca42",
+          "_importRootEntries": "true",
+          "_targetId": "a434-b1ba-922b-7624"
+        }
+      ]
     },
     "categoryEntries": {
-      "categoryEntry": {
-        "_name": "Mob Wrangler",
-        "_id": "29ec-194-ff0b-a96f",
-        "_hidden": "false"
-      }
+      "categoryEntry": [{
+          "_name": "Mob Wrangler",
+          "_id": "29ec-194-ff0b-a96f",
+          "_hidden": "false"
+        },
+        {
+          "_name": "Swamp Beast",
+          "_id": "15f1-ad65-b326-f35b",
+          "_hidden": "false"
+        }
+      ]
     },
     "selectionEntries": {
       "selectionEntry": [{
@@ -3151,15 +5155,24 @@
         },
         {
           "entryLinks": {
-            "entryLink": {
-              "_import": "true",
-              "_name": "Manifestation Lores",
-              "_hidden": "false",
-              "_id": "6e6c-666-f5e2-d015",
-              "_type": "selectionEntryGroup",
-              "_targetId": "748f-5d65-2d45-95c5",
-              "_flatten": "true"
-            }
+            "entryLink": [{
+                "_import": "true",
+                "_name": "Manifestation Lores",
+                "_hidden": "false",
+                "_id": "6e6c-666-f5e2-d015",
+                "_type": "selectionEntryGroup",
+                "_targetId": "748f-5d65-2d45-95c5",
+                "_flatten": "true"
+              },
+              {
+                "_import": "true",
+                "_name": "Manifestation Lores",
+                "_hidden": "false",
+                "_id": "2412-c7b2-3e0c-f18c",
+                "_type": "selectionEntryGroup",
+                "_targetId": "80c8-baca-93b8-bacc"
+              }
+            ]
           },
           "constraints": {
             "constraint": [{
@@ -3189,10 +5202,27 @@
               "_primary": "true"
             }
           },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "force",
+                  "_childId": "f079-501a-2738-6844",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
           "_type": "upgrade",
           "_import": "true",
           "_name": "Manifestation Lore",
-          "_hidden": "false",
+          "_hidden": "true",
           "_id": "8af9-2436-772f-22b9",
           "_defaultAmount": "1"
         },
@@ -3237,11 +5267,183 @@
               "_collective": "false"
             }
           },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "force",
+                  "_childId": "f079-501a-2738-6844",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
           "_type": "upgrade",
           "_import": "true",
           "_name": "Spell Lore",
-          "_hidden": "false",
+          "_hidden": "true",
           "_id": "b7d3-c523-1d1a-e601",
+          "_defaultAmount": "1"
+        },
+        {
+          "constraints": {
+            "constraint": [{
+                "_type": "min",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "roster",
+                "_shared": "true",
+                "_id": "57cf-8931-a460-91c0"
+              },
+              {
+                "_type": "max",
+                "_value": "1",
+                "_field": "selections",
+                "_scope": "roster",
+                "_shared": "true",
+                "_id": "06b1-7449-27f9-b1c8"
+              }
+            ]
+          },
+          "categoryLinks": {
+            "categoryLink": {
+              "_name": "Army Composition",
+              "_hidden": "false",
+              "_id": "c3d8-648f-3724-56ce",
+              "_targetId": "ac97-b27c-7e35-7ab9",
+              "_primary": "true"
+            }
+          },
+          "modifiers": {
+            "modifier": {
+              "conditions": {
+                "condition": {
+                  "_type": "instanceOf",
+                  "_value": "1",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_childId": "01b1-5112-ab45-1afc",
+                  "_shared": "true"
+                }
+              },
+              "_type": "set",
+              "_value": "false",
+              "_field": "hidden"
+            }
+          },
+          "selectionEntryGroups": {
+            "selectionEntryGroup": {
+              "selectionEntryGroups": {
+                "selectionEntryGroup": {
+                  "entryLinks": {
+                    "entryLink": [{
+                        "constraints": {
+                          "constraint": {
+                            "_type": "max",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "61f1-b488-6257-82da"
+                          }
+                        },
+                        "_import": "true",
+                        "_name": "Choking Mist",
+                        "_hidden": "false",
+                        "_id": "ca0b-5db8-6ece-f20f",
+                        "_type": "selectionEntry",
+                        "_targetId": "4df5-e1e9-de24-704a"
+                      },
+                      {
+                        "constraints": {
+                          "constraint": {
+                            "_type": "max",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "2ac3-0e90-1c39-79e2"
+                          }
+                        },
+                        "_import": "true",
+                        "_name": "Da Black Pit",
+                        "_hidden": "false",
+                        "_id": "effa-2795-fbed-cd0a",
+                        "_type": "selectionEntry",
+                        "_targetId": "f62e-e3d3-de04-5734"
+                      },
+                      {
+                        "constraints": {
+                          "constraint": {
+                            "_type": "max",
+                            "_value": "1",
+                            "_field": "selections",
+                            "_scope": "parent",
+                            "_shared": "true",
+                            "_id": "dfbe-e98a-f870-e380"
+                          }
+                        },
+                        "_import": "true",
+                        "_name": "Mork's Kunnin'",
+                        "_hidden": "false",
+                        "_id": "412b-2a8e-0874-558a",
+                        "_type": "selectionEntry",
+                        "_targetId": "c525-1031-3525-b76e"
+                      }
+                    ]
+                  },
+                  "_name": "Lore of the Swamp",
+                  "_id": "d928-a139-8e27-62ba",
+                  "_hidden": "false"
+                }
+              },
+              "constraints": {
+                "constraint": {
+                  "_type": "max",
+                  "_value": "6",
+                  "_field": "selections",
+                  "_scope": "parent",
+                  "_shared": "true",
+                  "_id": "199c-b239-96e9-c035"
+                }
+              },
+              "entryLinks": {
+                "entryLink": [{
+                    "_import": "true",
+                    "_name": "Spell Lores",
+                    "_hidden": "false",
+                    "_id": "7c55-0fa6-9742-e627",
+                    "_type": "selectionEntryGroup",
+                    "_targetId": "0bcf-1704-aaff-2b45",
+                    "_flatten": "true"
+                  },
+                  {
+                    "_import": "true",
+                    "_name": "Prayer Lores",
+                    "_hidden": "false",
+                    "_id": "dd2e-5248-a84c-a59d",
+                    "_type": "selectionEntryGroup",
+                    "_targetId": "123c-ec0f-04eb-41d5",
+                    "_flatten": "true"
+                  }
+                ]
+              },
+              "_name": "",
+              "_id": "75ca-e357-9f21-7ca7",
+              "_hidden": "false"
+            }
+          },
+          "_type": "upgrade",
+          "_import": "true",
+          "_name": "Arcane Tome",
+          "_hidden": "true",
+          "_id": "bb84-9f54-89aa-e6db",
           "_defaultAmount": "1"
         }
       ]
@@ -3252,7 +5454,7 @@
     "_name": "Kruleboyz",
     "_gameSystemId": "e51d-b1a3-75fc-dc3g",
     "_gameSystemRevision": "2",
-    "_revision": "1",
+    "_revision": "4",
     "_battleScribeVersion": "2.03",
     "_type": "catalogue"
   }
