@@ -16,7 +16,7 @@ import { isBeforeGame } from "@/utils/game-time";
 import Remove from "./Remove";
 import Edit from "./Edit";
 import { GameDetails } from "@/interfaces";
-import Score from "./Score";
+import Recap from "./postGame/Recap";
 
 type Props = {
   game: GameDetails;
@@ -87,7 +87,11 @@ const GameDetail = async ({ game }: Props) => {
               </RoleGate>
             </div>
             {result?.battleReport?.rounds?.[0]?.turns?.[0]?.victoryPoints ? (
-              <Score gameResult={result} />
+              <Recap
+                gameResult={result}
+                team1={await getTeamDetails(1)}
+                team2={await getTeamDetails(2)}
+              />
             ) : null}
           </CardHeader>
           <CardContent className="flex flex-row w-full justify-between items-center md:p-6 p-3">

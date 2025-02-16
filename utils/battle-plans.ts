@@ -12,3 +12,8 @@ export const battlePlans = [
   { id: "25", table: 2, number: 5, name: "Close To The Chest" },
   { id: "26", table: 2, number: 6, name: "Limited Resources" },
 ];
+
+export const getBattlePlanById = (id: string) => {
+  const battlePlan = battlePlans.find((b) => b.id === id)?.name;
+  return battlePlan;
+};

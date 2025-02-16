@@ -6,3 +6,8 @@ export const battleTactics = [
   { id: "5", type: "universal", name: "Attack on two fronts" },
   { id: "6", type: "universal", name: "Take the flanks" },
 ];
+
+export const getBattleTacticById = (id: string) => {
+  const battleTactic = battleTactics.find((b) => b.id === id)?.name;
+  return battleTactic;
+};
