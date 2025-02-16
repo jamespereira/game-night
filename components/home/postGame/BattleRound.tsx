@@ -31,22 +31,22 @@ function BattleRound({ round }: Props) {
       <div className="w-full flex justify-around gap-2">
         <div className="w-1/2 flex justify-end gap-2 capitalize">
           {getRoundByTeam(1)?.position}{" "}
-          <div className="w-6 flex justify-center" />
+          <div className="w-6 h-6 flex justify-center" />
         </div>
         <div className="w-1/2 flex justify-start gap-2 capitalize">
-          <div className="w-6 flex justify-center" />{" "}
+          <div className="w-6 h-6 flex justify-center" />{" "}
           {getRoundByTeam(2)?.position}
         </div>
       </div>
       <div className="w-full flex justify-around gap-2">
         <div className="w-1/2 flex justify-end gap-2">
           {getBattleTacticById(getRoundByTeam(1)?.battleTactic)}
-          <div className="w-6 flex justify-center items-center bg-slate-900">
+          <div className="w-6 h-6 flex justify-center items-center bg-slate-900">
             {getRoundByTeam(1)?.btCompleted ? "4" : "-"}
           </div>
         </div>
         <div className="w-1/2 flex justify-start gap-2">
-          <div className="w-6 flex justify-center items-center bg-slate-900">
+          <div className="w-6 h-6 flex justify-center items-center bg-slate-900">
             {getRoundByTeam(2)?.btCompleted ? "4" : "-"}
           </div>
           {getBattleTacticById(getRoundByTeam(2)?.battleTactic)}
@@ -55,14 +55,14 @@ function BattleRound({ round }: Props) {
       <div className="w-full flex justify-around gap-2">
         <div className="w-1/2 flex justify-end gap-2">
           Objectives{" "}
-          <div className="w-6 flex justify-center items-center bg-slate-900">
+          <div className="w-6 h-6 flex justify-center items-center bg-slate-900">
             {getRoundByTeam(1)?.objectivePoints
               ? getRoundByTeam(1)?.objectivePoints
               : "-"}
           </div>
         </div>
         <div className="w-1/2 flex justify-start gap-2">
-          <div className="w-6 flex justify-center items-center bg-slate-900">
+          <div className="w-6 h-6 flex justify-center items-center bg-slate-900">
             {getRoundByTeam(2)?.objectivePoints
               ? getRoundByTeam(2)?.objectivePoints
               : "-"}
@@ -73,12 +73,12 @@ function BattleRound({ round }: Props) {
       <div className="w-full flex justify-around gap-2">
         <div className="w-1/2 flex justify-end gap-2">
           {getRoundByTeam(1)?.conceded ? "Conceded" : ""}
-          <div className="w-6 flex justify-center items-center bg-slate-900 text-amber-400/85 font-bold">
+          <div className="w-6 h-6 flex justify-center items-center bg-slate-900 text-amber-400/85 font-bold">
             {getVictoryPoints(1)}
           </div>{" "}
         </div>
         <div className="w-1/2 flex justify-start gap-2">
-          <div className="w-6 flex justify-center items-center bg-slate-900 text-amber-400/85 font-bold">
+          <div className="w-6 h-6 flex justify-center items-center bg-slate-900 text-amber-400/85 font-bold">
             {getVictoryPoints(2)}
           </div>
           {getRoundByTeam(2)?.conceded ? "Conceded" : ""}
